@@ -1,6 +1,24 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+module.exports = {
 
-module.exports = nextConfig
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.ctfassets.net',
+        port: '',
+        pathname: '/account123/**',
+      },
+    ],
+  },
+
+
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/home',
+        permanent: false,
+      },
+       ];
+  },
+};

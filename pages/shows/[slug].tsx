@@ -1,0 +1,66 @@
+import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
+import Head from "next/head";
+import { IShowsFields } from "@/src/@types/contentful";
+import ContentService from "@/src/utils/content-service";
+import styles from "../styles/Home.module.css";
+import Layout from "@/src/components/Layout";
+import SecondaryHero from "@/src/components/Layout/components/secondary";
+import { Children } from "react";
+import IntroductionAndContent from "@/src/components/Layout/components/introAndContent";
+
+interface Props {
+  showPage: IShowsFields;
+}
+
+const ShowPage: NextPage<Props> = ({
+ 
+
+
+  showPage: { title, image, components, showBanner, content, introduction, timeSlots, dj, playlistUrl, showUrl  },
+}) => (
+  <>
+    <Layout
+      title={title}
+      image={image.fields.file.url}
+      components={components}
+      introduction={introduction}
+      content={content}
+      showBanner={showBanner}
+      type="shows"
+      times={timeSlots}
+      dj={dj}
+      playlistUrl ={playlistUrl} 
+  showUrl={showUrl}
+
+    ></Layout>
+  </>
+);
+
+export default ShowPage;
+
+export const getStaticProps: GetStaticProps<Props, { slug: string }> = async (
+  ctx
+) => {
+  const { slug } = ctx.params!;
+  const showPage = await ContentService.instance.getShowPageBySlug(slug);
+  if (!showPage) {
+    return { notFound: true };
+  }
+  return {
+    props: {
+      showPage: showPage.fields,
+    },
+  };
+};
+export const getStaticPaths: GetStaticPaths = async () => {
+  const showPages =
+    await ContentService.instance.getEntriesByType<IShowsFields>("shows");
+  return {
+    paths: showPages.map((showPage) => ({
+      params: {
+        slug: showPage.fields.slug,
+      },
+    })),
+    fallback: false,
+  };
+};

@@ -1,13 +1,60 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/pages/*": [
+        "pages/*"
+      ],
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/images/*": [
+        "images/*"
+      ],
+      "@/styles/*": [
+        "styles/*"
+      ],
+      "@/src/*": [
+        "src/*"
+      ],
+      "@/hooks/*": [
+        "hooks/*"
+      ],
+      "@/specific/*": [
+        "components/specific/*"
+      ],
+      "@/utils/*": [
+        "components/utils/*"
+      ],
+      "@/architecture/*": [
+        "components/utils/architecture/*"
+      ],
+      "@/layout/*": [
+        "components/utils/architecture/layout/*"
+      ],
+      "@/interactive/*": [
+        "components/utils/interactive/*"
+      ],
+      "@/api/*": [
+        "api/*"
+      ],
+      
+
+
+    },
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
+    "noImplicitAny": false,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -15,6 +62,17 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    ".next",
+    "out",
+    "_next"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.module.scss.d.ts"
+  ]
 }
