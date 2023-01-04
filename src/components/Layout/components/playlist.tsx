@@ -34,7 +34,7 @@ function Playlist(props: any) {
           src =
             "https://w.soundcloud.com/player/?url=" +
             purl +
-            "&color=%23bf1a2c&show_teaser=false";
+            "&color=%23bf1a2c&show_teaser=false&show_artwork=true";
           height = data.playlist.height;
           break;
 

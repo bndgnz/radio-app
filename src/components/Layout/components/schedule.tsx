@@ -313,7 +313,7 @@ function Schedule(props) {
                   href={`/shows/${show.slug}`}
                   title={"Find out more about " + show.title}
                 >
-                  <h2> {show.title} </h2>
+                  <a title={"Find out more about " + show.title}><h2> {show.title}</h2> </a>
                 </Link>
                 <Dates slot={[show.timeSlotsCollection]} show={show.title} />
               </div>
