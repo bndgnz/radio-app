@@ -7475,21 +7475,18 @@ h3.previous-shows-title {width:100%; padding:20px;text-align: center;}
 
 
 .col.stream-item {
-  /* margin-right: 30px; */
+ 
   text-align: center;
   background-color: #bf1a2c;
-  width: 85%;
-  max-width: 240px;
- min-width: 240px;
+ 
   border: 0px solid #777;
   box-shadow: -2px 1px 12px 0px rgb(0 0 0 / 28%);
   -webkit-box-shadow: -2px 1px 12px 0px rgb(0 0 0 / 28%);
   -moz-box-shadow: -2px 1px 12px 0px rgba(0,0,0,0.28);
   display: inline-block;
- padding:5px;
- 
- border:1px solid #ccc;
- border-radius: 15px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
 }
 
 .stream-title {
@@ -7625,7 +7622,12 @@ ul.react-tabs__tab-list {
   color: #FFF;
 }
 
-.container.carousel-ctas {
-  position: relative;
-  top: 140px;
+ 
+
+section.message-wrapper a {
+  color: #fff;
+}
+
+.carousel-ctas {
+  margin-top: 50px;
 }

@@ -3,6 +3,7 @@ import { useQuery, gql } from "@apollo/client";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import absoluteUrl from "next-absolute-url";
+import Link from "next/link";
 
 function Message(props: any) {
   const id = props.id;
@@ -40,10 +41,10 @@ if (error) {
     <section className="message-wrapper">
       <div className="container">
         <div className="row">
-          <div className="col-12">
-
-        {data.message.headline}
-          
+          <div className="col-12 default-btn" >
+        <Link href={data.message.linkUrl} title={data.message.headline}>
+        <a title={data.message.headline}> {data.message.headline} </a>
+        </Link> 
           
           
           </div>
