@@ -7,6 +7,7 @@ import Link from "next/link";
 const SCHEDULE = gql`
   query GetSchedule($id: String!) {
     schedule(id: $id) {
+      title
       showTodayOnly
       mondayCollection(limit: 10) {
         items {
@@ -187,7 +188,7 @@ function Schedule(props) {
   }
  
   var day = null;
- 
+
 
   const weekday = [
     "Sunday",
@@ -330,7 +331,7 @@ function Schedule(props) {
     return (
       <section className="blog-area ptb-100">
         <div className="container">
-          <h3>{componentTitle} </h3>
+       
           <div className="row carousel" data-flickity='{ "autoPlay": true }'>
             {listOfItems}{" "}
           </div>{" "}
@@ -343,6 +344,8 @@ function Schedule(props) {
     return (
       <section className="blog-area ptb-100">
         <div className="container">
+
+        <h3>{data.schedule.title} </h3>
           <Tabs defaultIndex={dayOfWeekDigit}>
             <TabList>
               <Tab>Sunday</Tab>
