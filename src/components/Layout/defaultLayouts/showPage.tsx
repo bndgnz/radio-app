@@ -6,7 +6,7 @@ import Playlist from "@/src/components/Layout/components/playlist";
 import Staff from "@/src/components/Layout/components/staff";
 
 function Showpage(props: any) {
-console.log(props)
+ 
   
 
   const showlink = props.props.type.showUrl;

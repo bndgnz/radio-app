@@ -5,51 +5,47 @@ import { useRouter } from "next/router";
 import absoluteUrl from "next-absolute-url";
 
 function Message(props: any) {
- 
-
-  const items = props.dj;
-
-  function Dj(props) {
-    const listOfItems = items.map((staff, idx) => {
-      return (
-        <div className="row"  key={idx}  >
-          <div className="col-4">
-          
-            <img
-              className="img-fluid"
-              src={staff.fields.photo.fields.file.url}
-              alt={staff.fields.title}
-            />
- 
-          </div>
-<div className="col-8">
-
-
-<h3>{staff.fields.title}</h3>
-{staff.fields.shortBio}
-
-
-</div>
-        </div>
-      );
-    });
-    return (
-      <div className="container">
-        <div className="row">
-          <div className="col-xl-12">
-            <div className="show-dj">{listOfItems}</div>
-          </div>
-        </div>
-      </div>
-    );
+  const id = props.id;
+  const MESSAGE = gql`
+  query GetMEssage($id: String!) {
+    message(id: $id) {
+      headline
+      linkText
+      linkUrl
+      image {
+        url
+      }
+      
+      backgroundColor {
+        colorName
+        hex
+      }
+      
+      iconClass
+    }
   }
+`;
+
+const { data, loading, error } = useQuery(MESSAGE, { variables: { id } });
+if (loading) {
+  return <div></div>;
+}
+if (error) {
+  return <div></div>;
+}
+
+ console.log(data)
 
   return (
-    <section className="about-area ptb-100">
+    <section className="message-wrapper">
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col-12  ">
-            <Dj />
+        <div className="row">
+          <div className="col-12">
+
+        {data.message.headline}
+          
+          
+          
           </div>
         </div>
       </div>

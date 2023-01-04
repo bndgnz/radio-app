@@ -223,7 +223,7 @@ function Schedule(props) {
           key={idx}
           className={
             dayName.slice(0, 3).toLowerCase() == first3.toLowerCase() ||
-            data.schedule.showTodayOnly != true
+            data.schedule.showTodayOnly == true
               ? "show"
               : "hide"
           }

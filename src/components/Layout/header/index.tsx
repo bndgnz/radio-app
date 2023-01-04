@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Link from 'next/link'
 //import Link from "../../utils/ActiveLink";
 import TopMenu from "./topmenu";
+import Search from"@/src/components/Layout/components/search/search"
+
 
 function Header({ data }) {
   //const [display, setDisplay] = useState(false);
@@ -72,10 +74,16 @@ function Header({ data }) {
                 style={{ paddingTop: ".25rem" }}
               >
                 <TopMenu data={data} toggleNavbar={toggleNavbar} />
-               
+             
                </div>
+            
+            
+            
+            
+            
             </nav>
-<div className="search"></div>
+           
+        
 
           </div>
         </div>

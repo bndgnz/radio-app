@@ -9,6 +9,7 @@ function Playlist(props: any) {
         title
         url
         description
+        height
       }
     }
   `;
@@ -34,7 +35,7 @@ function Playlist(props: any) {
             "https://w.soundcloud.com/player/?url=" +
             purl +
             "&color=%23bf1a2c&show_teaser=false";
-          height = "600";
+          height = data.playlist.height;
           break;
 
         case purl.includes("mixcloud"):
@@ -42,7 +43,7 @@ function Playlist(props: any) {
             "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&&light=1&feed=" +
             purl;
 
-          height = "60";
+            height = data.playlist.height;
 
           break;
         case purl.includes("youtube"):
@@ -52,7 +53,7 @@ function Playlist(props: any) {
           );
 
           src = "https://www.youtube.com/embed/" + presrc;
-          height = "600";
+          height = data.playlist.height;
 
           break;
         default:
@@ -62,11 +63,10 @@ function Playlist(props: any) {
       }
 
       return (
-        <>
+        <><section className="blog-area ptb-100"><div className="container">
           <h3>
             <div dangerouslySetInnerHTML={{ __html: title }}></div>
           </h3>
-
           <iframe
             id="frame"
             width="100%"
@@ -74,6 +74,8 @@ function Playlist(props: any) {
             src={src}
             allow="autoplay"
           ></iframe>
+        </div>
+        </section>
         </>
       );
     }

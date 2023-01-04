@@ -208,16 +208,15 @@ h6 {
   color: #ffffff;
   text-transform: uppercase;
   background-color: #bf1a2c;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 15px;
   font-weight: 600;
   font-size: 15px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  
+  padding-top: 8px;
+  padding-bottom: 9px;
+  border: 1px solid #ccc;
 }
 .main-banner-content .btn-box .default-btn{
   width: 197px;
@@ -284,7 +283,7 @@ h6 {
 .content-body{
   overflow-wrap: break-word; 
   ul{
-    list-style:disc
+    list-style:disc;
   }
 }
 
@@ -1951,7 +1950,7 @@ Navbar Area CSS
   .tuam-nav
   .navbar
   .others-option
-  .default-btn:hover {
+ {
   color: #ffffff;
   border-color: #bf1a2c;
 }
@@ -2138,7 +2137,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content .btn-box .default-btn:hover {
-  color: #bf1a2c;
+  color: #000;
 }
 
 .main-banner-content .btn-box .default-btn,
@@ -7478,17 +7477,17 @@ h3.previous-shows-title {width:100%; padding:20px;text-align: center;}
 .col.stream-item {
   /* margin-right: 30px; */
   text-align: center;
-  background-color: #ccc;
+  background-color: #bf1a2c;
   width: 85%;
   max-width: 240px;
  min-width: 240px;
-  border: 1px solid #777;
+  border: 0px solid #777;
   box-shadow: -2px 1px 12px 0px rgb(0 0 0 / 28%);
   -webkit-box-shadow: -2px 1px 12px 0px rgb(0 0 0 / 28%);
   -moz-box-shadow: -2px 1px 12px 0px rgba(0,0,0,0.28);
   display: inline-block;
  padding:5px;
-  margin:10px;
+ 
  border:1px solid #ccc;
  border-radius: 15px;
 }
@@ -7497,12 +7496,12 @@ h3.previous-shows-title {width:100%; padding:20px;text-align: center;}
   margin-bottom: 10px;
   font-weight: 800;
   font-size:12px;
-  color: #bf1a2c;
+  color: #fff;
 }
 
 .col.stream-item audio {
   max-width: 200px;
-  height:15px
+  height:25px
 }
 
 span.stream-label {
@@ -7595,4 +7594,38 @@ ul.react-tabs__tab-list {
   font-size: 70%;
   color: #bf1a2c;
   font-weight: 600;
+}
+
+
+.clicker {
+  width:100px;
+  height:100px;
+  background-color:blue;
+  outline:none;
+  cursor:pointer;
+  }
+  
+  .hiddendiv{
+  display:none;
+  height:200px;
+  background-color:green;
+  }
+  
+  .clicker:focus + .hiddendiv{
+  display:block;
+  }
+
+  summary {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.col.stream-item summary {
+  color: #FFF;
+}
+
+.container.carousel-ctas {
+  position: relative;
+  top: 140px;
 }

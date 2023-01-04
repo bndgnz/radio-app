@@ -21,7 +21,22 @@ function Stream (props  : any) {
     if (loading) { return <div></div>; }
     if (error) { return <div></div>; }
 
+function PlayingNow (props: any){
+ 
 
+if (props.source ) { return (
+
+  <details>
+  <summary><i className="fas fa-stream">&nbsp;&nbsp;</i>Playing now</summary>
+  <div className="search-div">dddddd</div>
+</details>
+
+
+)}
+
+
+
+}
  
  
 return (
@@ -34,10 +49,10 @@ return (
       controls
       src={data.stream.url}>
       Your browser does not support the
-      <code>audio</code> element.
+      <code>audio</code> element.d
       </audio>
   
-     
+     <PlayingNow source={data.stream.playingNow} />
       
       </div>
 

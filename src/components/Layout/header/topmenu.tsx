@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-
+import Search from"@/src/components/Layout/components/search/search"
 const TopMenu = ({ data, toggleNavbar }) => {
  
 
@@ -49,9 +49,15 @@ const TopMenu = ({ data, toggleNavbar }) => {
       {/* phone number  */}
       <div className="others-option">
         <div className="call-us">
+      
          
         </div>
+
+
+
+
       </div>
+    
     </>
   );
 };

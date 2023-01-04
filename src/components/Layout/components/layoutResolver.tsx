@@ -12,9 +12,11 @@ const LAYOUT = gql`
           bootstrapWidth
           layoutComponentCollection {
             items {
-              sys {
-                id
-              }
+              ...playlistId
+              ...streamId
+              ...linkId
+              ...messageId
+
               __typename
             }
           }
@@ -22,10 +24,40 @@ const LAYOUT = gql`
       }
     }
   }
+  fragment playlistId on Playlist {
+    sys {
+      id
+    }
+  }
+
+  fragment streamId on Stream {
+    sys {
+      id
+    }
+  }
+  fragment linkId on NavigationLink{
+    sys {
+      id
+    }
+  }
+
+  fragment messageId on Message{
+    sys {
+      id
+    }
+  }
+
+
 `;
 
 function ResolveLayout(props: any) {
-  const id = props.id.item;
+
+ 
+
+  let id = props.id
+
+ 
+
   const { data, loading, error } = useQuery(LAYOUT, { variables: { id } });
   if (loading) {
     return <div></div>;
@@ -40,7 +72,9 @@ function ResolveLayout(props: any) {
         (column, idx) => {
           return (
             <div
-              className={"col-lg-" + column.bootstrapWidth + " col-sm-12 layout-column"}
+              className={
+                "col-lg-" + column.bootstrapWidth + " col-sm-12 layout-column"
+              }
               key={idx}
             >
               {data &&

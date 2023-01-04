@@ -6,14 +6,17 @@ import Stream from "@/src/components/Layout/components/streams";
 import Playlist from "@/src/components/Layout/components/playlist";
 import { loadComponents } from "next/dist/server/load-components";
 import LayoutResolver from "@/src/components/Layout/components/layoutResolver";
+import Message from "@/src/components/Layout/components/message"
 
 function renderComponents(props: any) {
   function Sorter(id, item) {
+ 
+
     switch (id.id) {
       case "schedule":
         return <Schedule id={id.item} />;
       case "layout":
-        return <LayoutResolver id={id} />;
+        return <LayoutResolver id={id.item} />;
       case "video":
         return <h1>Video </h1>;
       case "collection":
@@ -31,9 +34,11 @@ function renderComponents(props: any) {
           />
         );
       case "stream":
-        return <Stream id={id} />;
+        return <Stream id={id.item} />;
       case "playlist":
         return <Playlist id={id.item} />;
+        case "message":
+          return <Message id={id.item} />;
       default:
         return null;
     }
@@ -41,9 +46,6 @@ function renderComponents(props: any) {
 
   if (props.components) {
     return props.components.map((component, idx) => {
-      const id = component.sys.contentType.sys.id;
-      const key = component.sys.id;
-
       return (
         <Sorter
           id={component.sys.contentType.sys.id}

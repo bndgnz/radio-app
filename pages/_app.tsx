@@ -7,6 +7,7 @@ import "@/styles/globals.css";
 import "@/styles/responsive.scss";
 import "@/styles/atom-one-dark.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Script from 'next/script'
  
 import {
   ApolloClient,
@@ -41,7 +42,9 @@ function MyApp({ Component, pageProps, data }) {
         <meta key="og:locale" property="og:locale" content="en_IE" />
         
         <link rel="icon" type="image/png" href={"https://waihekeradio.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2018/01/31013454/cropped-waiheke_radio_logo-small-32x32.png"}></link>
-      </Head>
+ 
+
+</Head>
 
 
         <Component {...pageProps} />

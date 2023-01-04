@@ -94,10 +94,10 @@ function Footer({ data }: any) {
               <div className="col-lg-6 col-sm-6 col-md-6">
                 <ul>
                   <li>
-                    <Link href="/privacy-policy">LINK</Link>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="/terms-and-conditions">LINK</Link>
+                    <Link href="/terms-and-conditions">Terms and conditions</Link>
                   </li>
                 </ul>
               </div>
