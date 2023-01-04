@@ -295,7 +295,7 @@ function Schedule(props) {
     }
 
     const listOfItems = day.map((show, idx) => (
-      <div className="col-lg-2 col-md-4 carousel-cell" key={idx}>
+      <div className=" col-lg-2 carousel-cell" key={idx}>
         <div className="single-blog-post">
           <div className="post-image">
             <div className="event-image">

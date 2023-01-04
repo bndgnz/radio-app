@@ -7631,3 +7631,9 @@ section.message-wrapper a {
 .carousel-ctas {
   margin-top: 50px;
 }
+
+.single-blog-post h2 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
