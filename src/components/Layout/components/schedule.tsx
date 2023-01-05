@@ -226,7 +226,7 @@ function Schedule(props) {
             dayName.slice(0, 3).toLowerCase() == first3.toLowerCase() ||
             data.schedule.showTodayOnly == true
               ? "show"
-              : "hide"
+              : "show"
           }
         >
           <style jsx>{`

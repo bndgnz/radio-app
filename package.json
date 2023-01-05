@@ -24,6 +24,7 @@
     "next-absolute-url": "^1.2.2",
     "node-sass": "^8.0.0",
     "react": "^18.2.0",
+    "react-accessible-accordion": "^5.0.0",
     "react-audio-player": "^0.17.0",
     "react-collapsed": "^3.6.0",
     "react-dom": "^18.2.0",

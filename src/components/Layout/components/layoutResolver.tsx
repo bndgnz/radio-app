@@ -14,8 +14,9 @@ const LAYOUT = gql`
             items {
               ...playlistId
               ...streamId
-              ...linkId
+               
               ...messageId
+              ...scheduleId 
 
               __typename
             }
@@ -35,18 +36,18 @@ const LAYOUT = gql`
       id
     }
   }
-  fragment linkId on NavigationLink{
+   
+
+  fragment messageId on Message {
     sys {
       id
     }
   }
-
-  fragment messageId on Message{
+  fragment scheduleId on Schedule{
     sys {
       id
     }
   }
-
 
 `;
 

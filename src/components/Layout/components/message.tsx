@@ -35,7 +35,7 @@ if (error) {
   return <div></div>;
 }
 
- console.log(data)
+ 
 
   return (
     <section className="message-wrapper">
