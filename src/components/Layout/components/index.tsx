@@ -7,14 +7,16 @@ import Playlist from "@/src/components/Layout/components/playlist";
 import { loadComponents } from "next/dist/server/load-components";
 import LayoutResolver from "@/src/components/Layout/components/layoutResolver";
 import Message from "@/src/components/Layout/components/message"
-
+import Accordion from "@/src/components/Layout/components/accordion"
 function renderComponents(props: any) {
-  function Sorter(id, item) {
+function Sorter(id, item) {
  
 
     switch (id.id) {
       case "schedule":
         return <Schedule id={id.item} />;
+        case "accordion":
+          return <Accordion id={id.item} />;  
       case "layout":
         return <LayoutResolver id={id.item} />;
       case "video":
