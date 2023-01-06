@@ -74,13 +74,13 @@ function ResolveLayout(props: any) {
           return (
             <div
               className={
-                "col-lg-" + column.bootstrapWidth + " col-sm-12 layout-column"
+                " col-lg-" + column.bootstrapWidth + " .col-xs-12 "
               }
               key={idx}
             >
               {data &&
                 column.layoutComponentCollection.items.map((item, i) => (
-                  <div key={i}>
+                  <div key={i} className="layout-component-column   mx-auto ">
                     <Components
                       id={item.__typename.toLowerCase()}
                       item={item.sys.id}
@@ -97,11 +97,12 @@ function ResolveLayout(props: any) {
     }
   }
   return (
-    <>
+    <><div className="layout-wrapper">
       <div className="container layout-container ">
         <div className="row">
           <Columns />
         </div>
+      </div>
       </div>
     </>
   );

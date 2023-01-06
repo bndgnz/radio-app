@@ -7487,6 +7487,8 @@ h3.previous-shows-title {width:100%; padding:20px;text-align: center;}
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 15px;
+
+  margin-bottom: 20px;
 }
 
 .stream-title {
@@ -7636,4 +7638,57 @@ section.message-wrapper a {
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 0px ; 
+  
+}
+
+.row.carousel {
+  margin-top: -22px;
+}
+
+.react-tabs__tab--selected {
+  background: #eee !important;
+  border-color: #000;
+  color: black;
+  border-radius: 5px 5px 0 0;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 0px !important;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.layout-component-column.mx-auto{ 
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding-top: 10px;
+  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+}
+.layout-component-column.mx-auto h3 { font-size:105%; height:40px} 
+ 
+
+.main-banner-content .layout-component-column.mx-auto{ 
+  
+  border: 0px;
+ 
+  box-shadow: rgb(99 99 99 / 0%) 0px 2px 8px 0px;
+}
+
+section.schedule-section {
+  margin-top: 22px;
+}
+
+.main-banner-content .playlist {
+  background-color: #FFF;
+  padding: 5px;
+  text-align: left;
+  text-indent: 40px;
+  border: 1px solid #000;
+  box-shadow: rgb(99 99 99 / 80%) 0px 2px 8px 0px;
+  
+
 }

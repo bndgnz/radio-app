@@ -87,7 +87,8 @@ function BannerCarousel(props) {
                         <h1>{item.title}</h1>
 
                         <div className="carousel-ctas">
-                          <LayoutResolver id={item.ctaLayout.sys.id} />
+
+                         { item.ctaLayout!== null ? (<LayoutResolver id={item.ctaLayout.sys.id} />) : null }
  
                         </div>
                       </div>
