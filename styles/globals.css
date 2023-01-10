@@ -53,6 +53,8 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif !important;
   font-size: 16px;
+  background-color: #eee;
+ 
 }
 .spaces{
   padding: 0 20px;
@@ -2034,7 +2036,7 @@ Navbar Area CSS
 Main Banner Area CSS
 =================================================*/
 .main-banner {
-  height: 625px;
+  height: 725px;
   position: relative;
   z-index: 2;
   background-position: center center;
@@ -7488,7 +7490,7 @@ h3.previous-shows-title {width:100%; padding:20px;text-align: center;}
   border: 1px solid #ccc;
   border-radius: 15px;
 
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .stream-title {
@@ -7631,7 +7633,7 @@ section.message-wrapper a {
 }
 
 .carousel-ctas {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .single-blog-post h2 {
@@ -7662,11 +7664,12 @@ section.message-wrapper a {
   padding: 0;
 }
 
-.layout-component-column.mx-auto{ 
+.layout-component-column { 
   border: 1px solid #ddd;
   margin: 10px;
   padding-top: 10px;
   box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+ 
 }
 .layout-component-column.mx-auto h3 { font-size:105%; height:40px} 
  
@@ -7691,4 +7694,51 @@ section.schedule-section {
   box-shadow: rgb(99 99 99 / 80%) 0px 2px 8px 0px;
   
 
+}
+
+
+.on-today-item a {
+  color: #fff; 
+  text-shadow: 2px 2px 13px #0D0D0C;
+
+}
+.on-today-event-title {
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  border-radius: 5px ;
+  box-shadow: rgb(99 99 99 / 80%) 0px 2px 8px 0px;
+  opacity:.8; border:1px solid #888;
+}
+.on-today-time {
+  color: #fff;
+}
+ 
+
+.today-collection h6 {
+  width: 95%;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border-radius: 5px ;
+  opacity: .8;
+  border:1px solid #888
+}
+
+ 
+
+.show.on-today-time {
+  text-align: right;
+}
+
+.page-block {
+  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+  padding-top:10px;
+  background-color:#fff;
+}
+
+
+.container.schedule {
+  background-color: #fff;
 }

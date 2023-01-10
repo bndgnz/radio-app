@@ -342,11 +342,12 @@ function Schedule(props) {
 
   if (data.schedule.showTodayOnly != true) {
     return (
-      <section className="blog-area ptb-100">
-        <div className="container">
+      <div className="container schedule ">
+      <section className="blog-area ptb-100 ">
+        
 
         <h3>{data.schedule.title} </h3>
-          <Tabs defaultIndex={dayOfWeekDigit}>
+          <Tabs defaultIndex={dayOfWeekDigit} className=" ">
             <TabList>
               <Tab>Sunday</Tab>
               <Tab>Monday</Tab>
@@ -379,14 +380,15 @@ function Schedule(props) {
               <Showcard showDay="saturday" />
             </TabPanel>
           </Tabs>
-        </div>
+     
       </section>
+      </div>
     );
   } else
     return (
       <div className="coming-up-today">
   
-        <Showcard showDay={dayName.toLowerCase()} />
+        <Showcard showDay="{dayName.toLowerCase()}" />
       </div>
     );
 }

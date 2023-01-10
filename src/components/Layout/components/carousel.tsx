@@ -74,7 +74,7 @@ function BannerCarousel(props) {
                 style={{
                   backgroundImage: `url(${item.heroImage.url})`,
                   backgroundRepeat: "no-repeat",
-                  height: "692px",
+                   
                 }}
 
                 // onMouseEnter={(e) => { e.preventDefault(); this.changeVideoID(item.video.youtubeId)}}

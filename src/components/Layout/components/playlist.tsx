@@ -66,7 +66,7 @@ function Playlist(props: any) {
         
 
       return (
-        <><section className="playlist"><div className="container">
+        <><section className="playlist container page-block "><div className="container">
           <h3>
             <div dangerouslySetInnerHTML={{ __html: title }}></div>
           </h3>

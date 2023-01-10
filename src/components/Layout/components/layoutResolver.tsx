@@ -14,11 +14,14 @@ const LAYOUT = gql`
             items {
               ...playlistId
               ...streamId
-               
+              ...showsOnTodayId 
               ...messageId
               ...scheduleId 
-
+          
               __typename
+
+
+
             }
           }
         }
@@ -48,6 +51,10 @@ const LAYOUT = gql`
       id
     }
   }
+  
+  fragment showsOnTodayId on ShowsOnToday {
+  sys {id}
+  }
 
 `;
 
@@ -66,6 +73,8 @@ function ResolveLayout(props: any) {
   if (error) {
     return <div></div>;
   }
+ 
+ 
 
   function Columns() {
     if (data.layout.columnsCollection.items) {
