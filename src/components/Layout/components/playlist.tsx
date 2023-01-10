@@ -71,6 +71,7 @@ function Playlist(props: any) {
             <div dangerouslySetInnerHTML={{ __html: title }}></div>
           </h3>
           <iframe
+          loading="lazy"
             id="frame"
             width="100%"
             height={height}
