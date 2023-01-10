@@ -40,8 +40,8 @@ function Playlist(props: any) {
 
         case purl.includes("mixcloud"):
           src =
-            "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&&light=1&feed=" +
-            purl;
+            "https://www.mixcloud.com/widget/follow/?u=/" +
+            purl +"/";
 
             height = data.playlist.height;
 
@@ -62,7 +62,7 @@ function Playlist(props: any) {
           );
       }
 
- 
+      <iframe width="200" height="250" src="https://www.mixcloud.com/widget/follow/?u=%2Fmartinigotje%2F" frameborder="0" ></iframe>
         
 
       return (

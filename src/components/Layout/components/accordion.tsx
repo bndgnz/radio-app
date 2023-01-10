@@ -72,9 +72,12 @@ function PageAccordion(props: any) {
 console.log(data)
   return (
     <section className="accordion-wrapper">
-      <div className="container">
+      <div className="container  page-block">
         <div className="row">
           <div className="col-12 ">
+          <h3>{data.accordion.title}</h3>
+
+
             <Accordion allowZeroExpanded >
             
             {data &&

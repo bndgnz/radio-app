@@ -4,8 +4,11 @@ import IntroductionAndContent from "@/src/components/Layout/components/introAndC
 import Stream from "@/src/components/Layout/components/streams";
 import Playlist from "@/src/components/Layout/components/playlist";
 import Staff from "@/src/components/Layout/components/staff";
+ 
 
 function Showpage(props: any) {
+
+  console.log(props)
  
   
 
@@ -17,13 +20,9 @@ function Showpage(props: any) {
           <h3>
             &nbsp;&nbsp;&nbsp;Previous shows from {props.props.type.title}
           </h3>
-          <iframe
-            id="frame"
-            width="100%"
-            height="600"
-            src={"https://w.soundcloud.com/player/?url="+props.props.type.playlistUrl.replace(":", "%3a")}
-            allow="autoplay"
-          ></iframe>
+           
+
+           
         </>
       );
     } else {
@@ -73,7 +72,7 @@ function Showpage(props: any) {
 
   return (
     <>
-      <div className="container">
+      <div className="container page-block">
         <div className="row">
           <div className="col-lg-9 col-sm-12 ">
             <Staff dj={props.props.type.dj} />
