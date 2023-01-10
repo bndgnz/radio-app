@@ -7667,7 +7667,7 @@ section.message-wrapper a {
 .layout-component-column { 
   border: 1px solid #ddd;
   margin: 10px;
-  padding-top: 10px;
+  margin-top: 10px;
   box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
  
 }
@@ -7741,4 +7741,6 @@ section.schedule-section {
 
 .container.schedule {
   background-color: #fff;
+  margin-top: 10px;
+  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
 }

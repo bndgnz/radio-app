@@ -342,7 +342,7 @@ function Schedule(props) {
 
   if (data.schedule.showTodayOnly != true) {
     return (
-      <div className="container schedule ">
+      <div className="container schedule page-block">
       <section className="blog-area ptb-100 ">
         
 
