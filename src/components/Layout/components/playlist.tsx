@@ -45,7 +45,29 @@ function Playlist(props: any) {
     
     
     else if (props.id) {
-    
+      const id = props.id;
+      const PLAYLIST = gql`
+        query GetPLaylist($id: String!) {
+          playlist(id: $id) {
+            title
+            url
+            description
+            height
+          }
+        }
+      `;
+
+      const { data, loading, error } = useQuery(PLAYLIST, {
+        variables: { id } 
+      });
+      if (loading) {
+        return <div></div>;
+      }
+      if (error) {
+        return <div></div>;
+      }
+
+
 
       url = data.playlist.url;
       title = data.playlist.title;
