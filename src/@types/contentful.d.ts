@@ -961,17 +961,8 @@ export interface IStaffFields {
   /** Title */
   title?: string | undefined;
 
-  /** First name */
-  first_name: string;
-
-  /** Last name */
-  last_name?: string | undefined;
-
   /** Photo */
   photo?: Asset | undefined;
-
-  /** Bio */
-  bio?: Document | undefined;
 
   /** ShortBio */
   shortBio?: string | undefined;
