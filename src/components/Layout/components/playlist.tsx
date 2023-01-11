@@ -1,88 +1,105 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
+import { preProcessFile } from "typescript";
+import { addListener } from "process";
 
 function Playlist(props: any) {
-  const id =props.id;
-  const PLAYLIST = gql`
-    query GetPLaylist($id: String!) {
-      playlist(id: $id) {
-        title
-        url
-        description
-        height
-      }
-    }
-  `;
-
-  const { data, loading, error } = useQuery(PLAYLIST, { variables: { id } });
-  if (loading) {
-    return <div></div>;
-  }
-  if (error) {
-    return <div></div>;
-  }
-
   function Iframe() {
-    if (data.playlist.url) {
-      const purl = data.playlist.url.replace(":", "%3a");
-      let src;
-      let height;
-      const title = "<h3>" + data.playlist.title + "</h3>";
+    console.log(props.playlistUrl);
 
-      switch (true) {
-        case purl.includes("soundcloud"):
-          src =
-            "https://w.soundcloud.com/player/?url=" +
-            purl +
-            "&color=%23bf1a2c&show_teaser=false&show_artwork=true";
-          height = data.playlist.height;
-          break;
+    let src;
+    let height;
+    let url;
+    let title;
 
-        case purl.includes("mixcloud"):
-          src =
-            "https://www.mixcloud.com/widget/follow/?u=/" +
-            purl +"/";
+    if (props.playlistUrl) {
+      url = props.playlistUrl;
+      title = "Previous shows from " + props.title;
+      height = 600;
+    } 
+    
+    
+    else if (props.id) {
+      const id = props.id;
+      const PLAYLIST = gql`
+        query GetPLaylist($id: String!) {
+          playlist(id: $id) {
+            title
+            url
+            description
+            height
+          }
+        }
+      `;
 
-            height = data.playlist.height;
-
-          break;
-        case purl.includes("youtube"):
-          const presrc = data.playlist.url.replace(
-            "https://www.youtube.com/watch?v=",
-            ""
-          );
-
-          src = "https://www.youtube.com/embed/" + presrc;
-          height = data.playlist.height;
-
-          break;
-        default:
-          console.log(
-            "The input string does not include either of the specified substrings"
-          );
+      const { data, loading, error } = useQuery(PLAYLIST, {
+        variables: { id },
+      });
+      if (loading) {
+        return <div></div>;
+      }
+      if (error) {
+        return <div></div>;
       }
 
-      <iframe width="200" height="250" src="https://www.mixcloud.com/widget/follow/?u=%2Fmartinigotje%2F" frameborder="0" ></iframe>
-        
-
-      return (
-        <><section className="playlist container page-block "><div className="container">
-          <h3>
-            <div dangerouslySetInnerHTML={{ __html: title }}></div>
-          </h3>
-          <iframe
-          loading="lazy"
-            id="frame"
-            width="100%"
-            height={height}
-            src={src}
-            allow="autoplay"
-          ></iframe>
-        </div>
-        </section>
-        </>
-      );
+      url = data.playlist.url;
+      title = data.playlist.title;
+      height = data.playlist.height;
     }
+ 
+    const purl = url.replace(":", "%3a");
+    switch (true) {
+      case purl.includes("soundcloud"):
+        src =
+          "https://w.soundcloud.com/player/?url=" +
+          purl +
+          "&color=%23bf1a2c&show_teaser=false&show_artwork=true";
+
+        break;
+
+      case purl.includes("mixcloud"):
+        src = "https://www.mixcloud.com/widget/follow/?u=/" + purl + "/";
+
+        break;
+      case purl.includes("youtube.com/watch"):
+        const presrc = url.replace("https://www.youtube.com/watch?v=", "");
+        src = "https://www.youtube.com/embed/" + presrc;
+        break;
+
+      case purl.includes("youtube.com/playlist"):
+        const presrc2 = url.replace(
+          "https://www.youtube.com/playlist?list=",
+          ""
+        );
+        src = "https://www.youtube.com/embed/videoseries?list=" + presrc2;
+
+        break;
+
+      default:
+        console.log(
+          "The input string does not include either of the specified substrings"
+        );
+    }
+
+    return (
+      <>
+        <section className="playlist container page-block ">
+          <div className="container">
+            <h3>
+              <div>{title}</div>
+            </h3>
+            <iframe
+              loading="lazy"
+              id="frame"
+              width="100%"
+              height={height}
+              src={src}
+              allow="autoplay"
+            ></iframe>
+          </div>
+        </section>
+      </>
+    );
   }
 
   return <Iframe />;

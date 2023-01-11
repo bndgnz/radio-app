@@ -4,14 +4,9 @@ import IntroductionAndContent from "@/src/components/Layout/components/introAndC
 import Stream from "@/src/components/Layout/components/streams";
 import Playlist from "@/src/components/Layout/components/playlist";
 import Staff from "@/src/components/Layout/components/staff";
- 
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
 function Showpage(props: any) {
-
-  console.log(props)
- 
-  
-
   const showlink = props.props.type.showUrl;
   function ShowPlaylist() {
     if (props.props.type.playlistUrl) {
@@ -20,9 +15,6 @@ function Showpage(props: any) {
           <h3>
             &nbsp;&nbsp;&nbsp;Previous shows from {props.props.type.title}
           </h3>
-           
-
-           
         </>
       );
     } else {
@@ -72,10 +64,35 @@ function Showpage(props: any) {
 
   return (
     <>
-      <div className="container page-block">
+      <div className="container page-block show-page-details">
         <div className="row">
           <div className="col-lg-9 col-sm-12 ">
             <Staff dj={props.props.type.dj} />
+
+            <div className="row" >
+          <div className="col-lg-2 col-sm-12">
+     
+          </div>
+      
+          <div className="col-lg-10 col-sm-12">
+            
+          <hr />  
+          <div className="show-details">
+              <p>
+                <strong>{props.props.type.introduction}</strong>
+              </p>
+              {documentToReactComponents(props.props.type.content)}
+            </div>
+            <hr />  
+          </div>
+        </div>
+
+
+
+
+
+
+          
           </div>
           <div className="col-lg-3 col-sm-12  show-page-left-col">
             <Dates />
@@ -86,7 +103,15 @@ function Showpage(props: any) {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <ShowPlaylist />
+           
+            {props.props.type.playlistUrl  ?
+          
+            <Playlist
+              playlistUrl={props.props.type.playlistUrl}
+              title={props.props.type.title}
+            /> 
+          :null}
+          
           </div>
         </div>
       </div>

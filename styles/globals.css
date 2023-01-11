@@ -2377,7 +2377,8 @@ Main Banner Area CSS
   position: relative;
   z-index: 1;
   padding: 0px;
-  margin-bottom:20px
+  margin-bottom:20px;
+  border-bottom: 3px solid #ccc;
 }
 
 .home-section .newFooter .banner-footer {
@@ -7736,6 +7737,7 @@ section.schedule-section {
   box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
   padding-top:10px;
   background-color:#fff;
+  padding-bottom: 15px;
 }
 
 
@@ -7743,4 +7745,18 @@ section.schedule-section {
   background-color: #fff;
   margin-top: 10px;
   box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+}
+
+ 
+
+section.accordion-wrapper {
+  margin-top: 20px;
+}
+
+.container.layout-container {
+  margin-top: 10px;
+}
+
+.container.page-block.show-page-details {
+  margin-bottom: 20px;
 }

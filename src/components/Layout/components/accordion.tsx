@@ -14,7 +14,7 @@ import "react-accessible-accordion/dist/fancy-example.css";
 import { useQuery, gql } from "@apollo/client";
 
 function PageAccordion(props: any) {
-  console.log(props);
+ 
   const id = props.id;
   const ACCORDION = gql`
     query GetAccordion($id: String!) {
@@ -69,7 +69,7 @@ function PageAccordion(props: any) {
   }
  
 
-console.log(data)
+ 
   return (
     <section className="accordion-wrapper">
       <div className="container  page-block">
