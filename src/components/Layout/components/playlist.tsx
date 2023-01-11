@@ -4,23 +4,7 @@ import { preProcessFile } from "typescript";
 import { addListener } from "process";
 
 function Playlist(props: any) {
-  function Iframe() {
-    console.log(props.playlistUrl);
-
-    let src;
-    let height;
-    let url;
-    let title;
-
-    if (props.playlistUrl) {
-      url = props.playlistUrl;
-      title = "Previous shows from " + props.title;
-      height = 600;
-    } 
-    
-    
-    else if (props.id) {
-      const id = props.id;
+  const id = props.id;
       const PLAYLIST = gql`
         query GetPLaylist($id: String!) {
           playlist(id: $id) {
@@ -41,6 +25,27 @@ function Playlist(props: any) {
       if (error) {
         return <div></div>;
       }
+
+
+
+
+  function Iframe() {
+    console.log(props.playlistUrl);
+
+    let src;
+    let height;
+    let url;
+    let title;
+
+    if (props.playlistUrl) {
+      url = props.playlistUrl;
+      title = "Previous shows from " + props.title;
+      height = 600;
+    } 
+    
+    
+    else if (props.id) {
+    
 
       url = data.playlist.url;
       title = data.playlist.title;
