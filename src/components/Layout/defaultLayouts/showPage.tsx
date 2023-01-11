@@ -5,8 +5,12 @@ import Stream from "@/src/components/Layout/components/streams";
 import Playlist from "@/src/components/Layout/components/playlist";
 import Staff from "@/src/components/Layout/components/staff";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
+import { BLOCKS, INLINES } from "@contentful/rich-text-types";
 
 function Showpage(props: any) {
+
+
+  
   const showlink = props.props.type.showUrl;
   function ShowPlaylist() {
     if (props.props.type.playlistUrl) {
@@ -109,6 +113,7 @@ function Showpage(props: any) {
             <Playlist
               playlistUrl={props.props.type.playlistUrl}
               title={props.props.type.title}
+              id=""
             /> 
           :null}
           
