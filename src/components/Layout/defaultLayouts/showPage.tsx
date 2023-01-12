@@ -82,9 +82,7 @@ function Showpage(props: any) {
             
           <hr />  
           <div className="show-details">
-              <p>
-                <strong>{props.props.type.introduction}</strong>
-              </p>
+             
               {documentToReactComponents(props.props.type.content)}
             </div>
             <hr />  
