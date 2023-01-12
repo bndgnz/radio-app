@@ -49,6 +49,11 @@ const SCHEDULE = gql`
     }
   }
   fragment collectionItems on Shows {
+    djCollection(limit: 3) {
+      items {
+        title
+      }
+    }
     timeSlotsCollection(limit: 3) {
       items {
         title
@@ -63,6 +68,8 @@ const SCHEDULE = gql`
     playlistUrl
     showUrl
     path
+    introduction
+
     image {
       url
       width
@@ -82,8 +89,6 @@ function Schedule(props) {
     return <div> </div>;
   }
 
- 
-
   var day = null;
 
   const weekday = [
@@ -102,9 +107,8 @@ function Schedule(props) {
   function Dates(props) {
     const listOfItems = props.slot[0].items.map((time, idx) => {
       var first3;
- 
-        first3 = time.day.slice(0, 3);
-      
+
+      first3 = time.day.slice(0, 3);
 
       return (
         <span
@@ -124,15 +128,32 @@ function Schedule(props) {
               display: block;
             }
           `}</style>{" "}
-       {time.startTime}-{time.endTime} {time.amPm.toLowerCase()}
+          {time.startTime}-{time.endTime} {time.amPm.toLowerCase()}
         </span>
       );
     });
 
     return <div className=" "> {listOfItems} </div>;
   }
+
+
+function djList (collection) {
+
+  const listOfItems = collection.map((name, index) =>
+    <li key={index}>{name}</li>
+  )
+
+  return (
+    {listOfItems} 
+  )
+
+
+
+}
+
+
   /////////////////////////////////////////////////////////////////////////////
-  
+
   //////////////////////////////////////////////////////////////////////////////////////
 
   ///////////////////////////////////////////////////////////////////////////////////
@@ -161,8 +182,12 @@ function Schedule(props) {
         day = data.showsOnToday.schedule.saturdayCollection.items;
         break;
     }
-
+ 
     const listOfItems = day.map((show, idx) => (
+
+
+
+      
       <div className="on-today-item" key={idx}>
         <div
           className="on-today-event-title"
@@ -176,23 +201,49 @@ function Schedule(props) {
           <div className="container ">
             <div className="row">
               <div className="col-7 col-xs-12">
-                {" "}
+                {" "} {  
+
+ 
+
+
+
+                
+                }
+                
+           
+
+            
                 <Link
                   href={`/shows/${show.slug}`}
                   title={"Find out more about " + show.title}
                 >
-                  <a title={"Find out more about " + show.title}>
-                    {show.title} {" "}
+     
+                 
+
+                  <a
+                    title={
+                      show.title +
+                      "\n" +
+                      "Presented by: " + show.djCollection.items.map((a) => {
+                        const djList = a.title + " ";
+                        return djList;
+                       
+                      }) +
+                      "\n" +
+                      show.introduction
+                    }
+                    data-html="true"
+                  >
+                    {show.title}{" "}
                   </a>
                 </Link>
-               
               </div>
-    <div className="col-5 col-xs-12"> <Dates slot={[show.timeSlotsCollection]} show={show.title} /></div>
-
+              <div className="col-5 col-xs-12">
+                {" "}
+                <Dates slot={[show.timeSlotsCollection]} show={show.title} />
+              </div>
             </div>
           </div>
-
-         
         </div>
       </div>
     ));

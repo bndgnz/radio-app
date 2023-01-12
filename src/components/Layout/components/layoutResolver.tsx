@@ -10,6 +10,7 @@ const LAYOUT = gql`
         items {
           title
           bootstrapWidth
+          offset
           layoutComponentCollection {
             items {
               ...playlistId
@@ -83,8 +84,7 @@ function ResolveLayout(props: any) {
           return (
             <div
               className={
-                " col-lg-" + column.bootstrapWidth + " .col-xs-12 "
-              }
+                " col-lg-" + column.bootstrapWidth + " col-xs-12 " + "offset-" + column.offset               }
               key={idx}
             >
               {data &&
