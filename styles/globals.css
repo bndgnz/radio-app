@@ -7700,11 +7700,14 @@ section.schedule-section {
 
 .on-today-item a {
   color: #fff;
-  text-shadow: 2px 2px 13px #000;
+  text-shadow: -2px 1px 4px rgb(0 0 0);
  
   padding: 5px;
   min-width: 300px;
-  font-weight: 500;
+  font-weight: 800;
+  
+  background-clip: border-box;
+
  
 }
 .on-today-event-title {
@@ -7712,11 +7715,14 @@ section.schedule-section {
   margin-bottom: 5px;
   text-align: left;
   border-radius: 5px ;
-  box-shadow: rgb(99 99 99 / 80%) 0px 2px 8px 0px;
-  border:1px solid #888;
+  box-shadow: rgb(99 99 99) 0px 2px 19px 0px;
+  border:1px solid #fff;
+
 }
 .on-today-time {
   color: #fff;
+  font-weight:700;
+  text-shadow: -2px 1px 4px rgb(0 0 0);
 }
  
 
@@ -7727,8 +7733,9 @@ section.schedule-section {
   margin-right: auto;
   padding: 5px;
   border-radius: 5px ;
-  opacity: .8;
-  border:1px solid #888
+ 
+  border:1px solid #888;
+  font-weight:600;
 }
 
  
@@ -7742,6 +7749,7 @@ section.schedule-section {
   padding-top:10px;
   background-color:#fff;
   padding-bottom: 15px;
+  margin-bottom: 20px
 }
 
 

@@ -50,7 +50,7 @@ function Showpage(props: any) {
       const listOfItems = items.map((time, idx) => {
         return (
           <time key={idx}>
-            {time.fields.title} {time.fields.amPm.toLowerCase()}
+            {time.fields.title} 
           </time>
         );
       });
