@@ -7849,7 +7849,8 @@ section.accordion-wrapper {
 
 h3.banner-subtitle {
   color: #bf1a2c;
-  text-shadow: -2px 1px 14px #fff;
+ 
+  font-weight: 600;
 }
 
 .secondary-banner h4 {
