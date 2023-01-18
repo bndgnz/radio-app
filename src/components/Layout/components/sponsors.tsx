@@ -63,7 +63,7 @@ console.log(data)
       return (
 
 
-<div className="col-lg-3   col-xs-12">
+<div className="col-lg-3   col-xs-12" key={idx}>
         <div className=" sponsor-card ">
     <img src={sponsor.image.url} className="card-img-top" alt="..." />
     <div className="card-body">

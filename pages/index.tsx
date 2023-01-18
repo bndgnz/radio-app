@@ -3,7 +3,7 @@ import Head from "next/head";
 import { ILandingPageFields} from "../src/@types/contentful";
 import styles from "../styles/Home.module.css";
 import ContentService from "@/src/utils/content-service";
-import Landingpage from "@/src/components/LandingPage";
+ 
 import Layout from "@/src/components/Layout";
 
 
