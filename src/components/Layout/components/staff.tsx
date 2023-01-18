@@ -3,12 +3,15 @@ import { useQuery, gql } from "@apollo/client";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import absoluteUrl from "next-absolute-url";
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
 function Staff(props: any) {
   const items = props.dj;
-
+ 
 
   function Dj(props) {
+
+  
     const listOfItems = items.map((staff, idx) => {
       return (
         <div className="row" key={idx}>
@@ -23,6 +26,10 @@ function Staff(props: any) {
             <h6>Presented by:</h6>
             <h3>{staff.fields.title}</h3>
             {staff.fields.shortBio}
+
+ 
+
+
           </div>
         </div>
       );
