@@ -43,6 +43,7 @@ function Playlist(props: any) {
     if (props.playlistUrl) {
       url = props.playlistUrl;
       title = "Previous shows from " + props.title;
+      height=props.height;
     
     } 
     else if (props.id) {
@@ -64,7 +65,7 @@ function Playlist(props: any) {
           "https://w.soundcloud.com/player/?url=" +
           purl +
           "&color=%23bf1a2c&show_teaser=false&show_artwork=true";
-          height="400";
+        
         break;
 
       case purl.includes("mixcloud"):

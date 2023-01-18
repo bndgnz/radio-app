@@ -208,7 +208,7 @@ h6 {
   overflow: hidden;
   z-index: 1;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: none;
   background-color: #bf1a2c;
   transition: 0.5s;
   border-radius: 15px;
@@ -258,7 +258,7 @@ h6 {
   overflow: hidden;
   z-index: 1;
   color: #bf1a2c !important;
-  text-transform: uppercase;
+  text-transform: none;
   background-color: transparent;
   cursor: pointer;
   -webkit-transition: 0.5s;
@@ -515,7 +515,7 @@ Navbar Area CSS
 .tuam-nav .navbar .navbar-nav .nav-item a {
   font-size: 15px;
   color: #524552;
-  text-transform: uppercase;
+  text-transform: none;
   padding-left: 0;
   padding-right: 0;
   padding-top: 30px;
@@ -1276,7 +1276,7 @@ Navbar Area CSS
 .tuam-nav .navbar .others-option .call-us {
   padding-left: 50px;
   position: relative;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 14px;
   font-size: 0.7rem;
 }
@@ -2113,7 +2113,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content .sub-title {
-  text-transform: uppercase;
+  text-transform: none;
   display: block;
   color: #ffffff;
   letter-spacing: 3px;
@@ -2447,7 +2447,7 @@ Main Banner Area CSS
 
 .home-section .banner-footer .banner-video span {
   display: inline-block;
-  text-transform: uppercase;
+  text-transform: none;
   color: #ffffff;
   margin-left: 25px;
 }
@@ -2832,7 +2832,7 @@ Video Area CSS
 
 .video-box .play-video span {
   display: block;
-  text-transform: uppercase;
+  text-transform: none;
   color: #ffffff;
   margin-top: 25px;
 }
@@ -3558,7 +3558,7 @@ Partner Area CSS
 }
 
 .partner-title h2 {
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 40px;
   font-size: 22px;
   font-weight: 600;
@@ -3956,7 +3956,7 @@ Pricing Area CSS
 }
 
 .single-pricing-box .price sub {
-  text-transform: uppercase;
+  text-transform: none;
   bottom: 2px;
   margin: 0 5px 0 5px;
   font-size: 18px;
@@ -4578,7 +4578,7 @@ Event Area CSS
 }
 
 .single-event-box .event-content .content .date sup {
-  text-transform: uppercase;
+  text-transform: none;
   color: #524552;
   top: -22px;
   left: 10px;
@@ -4653,7 +4653,7 @@ Event Details Area CSS
 .event-details .event-details-header .back-all-event {
   display: inline-block;
   color: #554955;
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 15px;
   font-weight: 600;
   font-size: 15px;
@@ -4970,7 +4970,7 @@ Floor Plans CSS
   background-color: #ffffff;
   padding: 18px 40px;
   color: #524552;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: 600;
   font-size: 16px;
 }
@@ -5613,7 +5613,7 @@ blockquote::after,
   display: inline-block;
   padding: 6px 20px;
   border-radius: 30px;
-  text-transform: uppercase;
+  text-transform: none;
   position: relative;
   z-index: 1;
   font-size: 13px;
@@ -5652,7 +5652,7 @@ blockquote::after,
   margin-bottom: 0.8em;
   color: #554955;
   letter-spacing: 0.01em;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 13px;
   font-weight: 400;
 }
@@ -5817,7 +5817,7 @@ blockquote::after,
   cursor: pointer;
   outline: 0;
   border-radius: 0;
-  text-transform: uppercase;
+  text-transform: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-weight: 700;
@@ -5840,7 +5840,7 @@ Page Title Area CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: inset 0 0 0 2000px hsla(0,0%,6%,.4);
+ 
   margin-bottom: 20px;
 }
 
@@ -5859,7 +5859,7 @@ Page Title Area CSS
 .page-title-content {
   text-align: center;
   margin-top: 430px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .page-title-content h2 {
@@ -6090,7 +6090,7 @@ Sidebar Widget Area CSS
 .widget-area .widget_zash_posts_thumb .item .info time {
   display: block;
   color: #554955;
-  text-transform: uppercase;
+  text-transform: none;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 11px;
@@ -6825,7 +6825,7 @@ Footer Area CSS
 .single-footer-widget .footer-quick-links li a {
   display: inline-block;
   color: #ebe7e7;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 14px;
 }
 
@@ -7188,7 +7188,7 @@ Highlight.js extenions
   border-radius: 5px;
   z-index: 1;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: none;
   background-color: #bf1a2c;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -7218,7 +7218,7 @@ Highlight.js extenions
   width: 46%;
   z-index: 1;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: none;
   background-color: #101010;
   
   border-radius: 5px;
@@ -7238,7 +7238,7 @@ Highlight.js extenions
   border-radius: 5px;
   z-index: 1;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: none;
   background-color: #bf1a2c;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -7262,7 +7262,7 @@ Highlight.js extenions
     overflow: hidden;
     z-index: 1;
     color: #ffffff;
-    text-transform: uppercase;
+    text-transform: none;
     background-color: #7c7c7c;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -7294,7 +7294,7 @@ Highlight.js extenions
       overflow: hidden;
       z-index: 1;
       color: #ffffff;
-      text-transform: uppercase;
+      text-transform: none;
       background-color: #101010;
       -webkit-transition: 0.5s;
       -moz-transition: 0.5s;
@@ -7842,4 +7842,31 @@ section.accordion-wrapper {
 .on-today-item:hover + .hide {
   display: block;
   color: red;
+}
+
+ .secondary-banner.page-title-area h4 {color:#fff; font-size:95%
+}
+
+h3.banner-subtitle {
+  color: #bf1a2c;
+  text-shadow: -2px 1px 14px #fff;
+}
+
+.secondary-banner h4 {
+
+  text-shadow: 0px 0px 9px rgb(36 46 45 / 87%);
+
+
+}
+
+.sponsor-card {
+  background-color: #fff;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 50%);
+  margin-bottom: 20px;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  min-height: 250px;
 }

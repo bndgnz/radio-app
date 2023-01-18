@@ -71,6 +71,7 @@ function Showpage(props: any) {
       <div className="container page-block show-page-details">
         <div className="row">
           <div className="col-lg-9 col-sm-12 ">
+            
             <Staff dj={props.props.type.dj} />
 
             <div className="row" >
@@ -80,8 +81,11 @@ function Showpage(props: any) {
       
           <div className="col-lg-9 col-sm-12">
             
-          <hr />  
+         
           <div className="show-details">
+
+            <h3>About {props.props.type.title}</h3>
+            <hr />  
              
               {documentToReactComponents(props.props.type.content)}
             </div>
@@ -89,12 +93,7 @@ function Showpage(props: any) {
           </div>
         </div>
 
-
-
-
-
-
-          
+         
           </div>
           <div className="col-lg-3 col-sm-12  show-page-left-col">
             <Dates />
@@ -112,6 +111,7 @@ function Showpage(props: any) {
               playlistUrl={props.props.type.playlistUrl}
               title={props.props.type.title}
               id=""
+              height="400"
             /> 
           :null}
           

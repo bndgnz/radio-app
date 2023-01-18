@@ -9,15 +9,23 @@ import LayoutResolver from "@/src/components/Layout/components/layoutResolver";
 import Message from "@/src/components/Layout/components/message"
 import Accordion from "@/src/components/Layout/components/accordion"
 import ShowsOnToday from "@/src/components/Layout/components/showsOnToday"
+import Sponsors from "@/src/components/Layout/components/sponsors"
 
 function renderComponents(props: any) {
 function Sorter(id, item) {
+
+ 
+
+
  
     switch (id.id) {
       case "schedule":
         return <Schedule id={id.item} />;
         case "showsontoday":
           return <ShowsOnToday id={id.item} />;
+
+          case "sponsorsList":
+            return <Sponsors id={id.item} />;
 
         case "accordion":
           return <Accordion id={id.item} />;  

@@ -9,7 +9,7 @@ function SecondaryHero(props: any) {
   return (
     <>
       <div
-        className="page-title-area"
+        className="secondary-banner page-title-area"
         style={{
           backgroundImage: background
             ? `url(${props.background})`
@@ -20,7 +20,7 @@ function SecondaryHero(props: any) {
           <div className="d-table-cell">
             <div className="container">
               <div className="page-title-content">
-                <h2>{props.title} </h2><h3 className="banner-subtitle">{props.tereo}{props.showIntro}</h3>
+                <h1>{props.title} </h1><h3 className="banner-subtitle">{props.tereo}</h3><h4>{props.showIntro}</h4>
 
               
               </div>

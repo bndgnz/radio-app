@@ -128,7 +128,7 @@ function Schedule(props) {
               display: block;
             }
           `}</style>{" "}
-          {time.startTime}-{time.endTime} {time.amPm.toLowerCase()}
+          {time.startTime} - {time.endTime} {time.amPm.toLowerCase()}
         </span>
       );
     });
