@@ -6,29 +6,27 @@ import Stream from "@/src/components/Layout/components/streams";
 import Playlist from "@/src/components/Layout/components/playlist";
 import { loadComponents } from "next/dist/server/load-components";
 import LayoutResolver from "@/src/components/Layout/components/layoutResolver";
-import Message from "@/src/components/Layout/components/message"
-import Accordion from "@/src/components/Layout/components/accordion"
-import ShowsOnToday from "@/src/components/Layout/components/showsOnToday"
-import Sponsors from "@/src/components/Layout/components/sponsors"
+import Message from "@/src/components/Layout/components/message";
+import Accordion from "@/src/components/Layout/components/accordion";
+import ShowsOnToday from "@/src/components/Layout/components/showsOnToday";
+import Sponsors from "@/src/components/Layout/components/sponsors";
+import Djs from "@/src/components/Layout/components/djs";
 
 function renderComponents(props: any) {
-function Sorter(id, item) {
-
- 
-
-
- 
+  function Sorter(id, item) {
     switch (id.id) {
       case "schedule":
         return <Schedule id={id.item} />;
-        case "showsontoday":
-          return <ShowsOnToday id={id.item} />;
+      case "showsontoday":
+        return <ShowsOnToday id={id.item} />;
+        case "staffList":
+          return <Djs id={id.item} />;
 
-          case "sponsorsList":
-            return <Sponsors id={id.item} />;
+      case "sponsorsList":
+        return <Sponsors id={id.item} />;
 
-        case "accordion":
-          return <Accordion id={id.item} />;  
+      case "accordion":
+        return <Accordion id={id.item} />;
       case "layout":
         return <LayoutResolver id={id.item} />;
       case "video":
@@ -51,8 +49,8 @@ function Sorter(id, item) {
         return <Stream id={id.item} />;
       case "playlist":
         return <Playlist id={id.item} />;
-        case "message":
-          return <Message id={id.item} />;
+      case "message":
+        return <Message id={id.item} />;
       default:
         return null;
     }

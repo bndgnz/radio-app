@@ -1,16 +1,9 @@
-import Schedule from "@/src/components/Layout/components/schedule";
-import Carousel from "@/src/components/Layout/components/carousel";
-import IntroductionAndContent from "@/src/components/Layout/components/introAndContent";
-import Stream from "@/src/components/Layout/components/streams";
 import Playlist from "@/src/components/Layout/components/playlist";
 import Staff from "@/src/components/Layout/components/staff";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { BLOCKS, INLINES } from "@contentful/rich-text-types";
 
 function Showpage(props: any) {
-
-
-  
   const showlink = props.props.type.showUrl;
   function ShowPlaylist() {
     if (props.props.type.playlistUrl) {
@@ -48,11 +41,7 @@ function Showpage(props: any) {
   function Dates(props) {
     if (items) {
       const listOfItems = items.map((time, idx) => {
-        return (
-          <time key={idx}>
-            {time.fields.title} 
-          </time>
-        );
+        return <time key={idx}>{time.fields.title}</time>;
       });
       return (
         <>
@@ -71,29 +60,21 @@ function Showpage(props: any) {
       <div className="container page-block show-page-details">
         <div className="row">
           <div className="col-lg-9 col-sm-12 ">
-            
             <Staff dj={props.props.type.dj} />
 
-            <div className="row" >
-          <div className="col-lg-3 col-sm-12">
-     
-          </div> 
-      
-          <div className="col-lg-9 col-sm-12">
-            
-         
-          <div className="show-details">
+            <div className="row">
+              <div className="col-lg-3 col-sm-12"></div>
 
-            <h3>About {props.props.type.title}</h3>
-            <hr />  
-             
-              {documentToReactComponents(props.props.type.content)}
+              <div className="col-lg-9 col-sm-12">
+                <div className="show-details">
+                  <h3>About {props.props.type.title}</h3>
+                  <hr />
+
+                  {documentToReactComponents(props.props.type.content)}
+                </div>
+                <hr />
+              </div>
             </div>
-            <hr />  
-          </div>
-        </div>
-
-         
           </div>
           <div className="col-lg-3 col-sm-12  show-page-left-col">
             <Dates />
@@ -104,17 +85,14 @@ function Showpage(props: any) {
       <div className="container">
         <div className="row">
           <div className="col-12">
-           
-            {props.props.type.playlistUrl  ?
-          
-            <Playlist
-              playlistUrl={props.props.type.playlistUrl}
-              title={props.props.type.title}
-              id=""
-              height="400"
-            /> 
-          :null}
-          
+            {props.props.type.playlistUrl ? (
+              <Playlist
+                playlistUrl={props.props.type.playlistUrl}
+                title={props.props.type.title}
+                id=""
+                height="400"
+              />
+            ) : null}
           </div>
         </div>
       </div>

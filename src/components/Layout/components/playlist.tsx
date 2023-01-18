@@ -4,9 +4,6 @@ import { preProcessFile } from "typescript";
 import { addListener } from "process";
 
 function Playlist(props: any) {
- 
-
-
   function Iframe() {
     console.log(props.playlistUrl);
 
@@ -32,9 +29,6 @@ function Playlist(props: any) {
       return <div></div>;
     }
 
-
-
-
     let src;
     let height;
     let url;
@@ -43,21 +37,14 @@ function Playlist(props: any) {
     if (props.playlistUrl) {
       url = props.playlistUrl;
       title = "Previous shows from " + props.title;
-      height=props.height;
-    
-    } 
-    else if (props.id) {
+      height = props.height;
+    } else if (props.id) {
       url = data.playlist.url;
       title = data.playlist.title;
       height = data.playlist.height;
     }
 
-   
- 
     const purl = url.replace(":", "%3a");
-
- 
-
 
     switch (true) {
       case purl.includes("soundcloud"):
@@ -65,20 +52,19 @@ function Playlist(props: any) {
           "https://w.soundcloud.com/player/?url=" +
           purl +
           "&color=%23bf1a2c&show_teaser=false&show_artwork=true";
-        
+
         break;
 
       case purl.includes("mixcloud"):
+        const mxurl = url.replace("https://www.mixcloud.com/", "");
+        const mxurl2 = mxurl.replace("/", "");
 
-
-         const mxurl = url.replace("https://www.mixcloud.com/" , "");
-         const mxurl2 = mxurl.replace("/" ,"")
-
-        src = "https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2F" + mxurl2 + "%2F" ;
-        height="200";
+        src =
+          "https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2F" +
+          mxurl2 +
+          "%2F";
+        height = "200";
         break;
-
-
 
       case purl.includes("youtube.com/watch"):
         const presrc = url.replace("https://www.youtube.com/watch?v=", "");
@@ -107,7 +93,7 @@ function Playlist(props: any) {
             <h3>
               <div>{title}</div>
             </h3>
- <iframe
+            <iframe
               loading="lazy"
               id="frame"
               width="100%"
