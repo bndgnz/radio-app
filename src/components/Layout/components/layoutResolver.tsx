@@ -5,7 +5,9 @@ import Components from "@/src/components/Layout/components/index";
 const LAYOUT = gql`
   query GetLayout($id: String!) {
     layout(id: $id) {
+      showLayoutTitle
       title
+      sys{id}
       columnsCollection {
         items {
           title
@@ -17,7 +19,9 @@ const LAYOUT = gql`
               ...streamId
               ...showsOnTodayId 
               ...messageId
-              ...scheduleId 
+              ...scheduleId
+              ...staffId 
+              ...showId
           
               __typename
 
@@ -57,6 +61,15 @@ const LAYOUT = gql`
   sys {id}
   }
 
+  fragment showId on Shows {
+    sys {id}
+    }
+
+
+  fragment staffId on Staff {
+    sys {id}
+    }
+
 `;
 
 function ResolveLayout(props: any) {
@@ -75,7 +88,6 @@ function ResolveLayout(props: any) {
     return <div></div>;
   }
  
- 
 
   function Columns() {
     if (data.layout.columnsCollection.items) {
@@ -90,6 +102,9 @@ function ResolveLayout(props: any) {
               {data &&
                 column.layoutComponentCollection.items.map((item, i) => (
                   <div key={i} className="layout-component-column   mx-auto ">
+ 
+ 
+
                     <Components
                       id={item.__typename.toLowerCase()}
                       item={item.sys.id}
@@ -108,7 +123,21 @@ function ResolveLayout(props: any) {
   return (
     <><div className="layout-wrapper">
       <div className="container layout-container ">
+
+
+ 
+      
+        
+      {data.layout.showLayoutTitle == true ? (
+        <div className="layout-title"><h3>{data.layout.title} </h3></div>
+      ) : (
+       null
+      )}
+  
+        
+        
         <div className="row">
+  
           <Columns />
         </div>
       </div>

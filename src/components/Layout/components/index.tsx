@@ -11,6 +11,7 @@ import Accordion from "@/src/components/Layout/components/accordion";
 import ShowsOnToday from "@/src/components/Layout/components/showsOnToday";
 import Sponsors from "@/src/components/Layout/components/sponsors";
 import Djs from "@/src/components/Layout/components/djs";
+import Staff from "@/src/components/Layout/components/staff";
 
 function renderComponents(props: any) {
   function Sorter(id, item) {
@@ -21,6 +22,12 @@ function renderComponents(props: any) {
         return <ShowsOnToday id={id.item} />;
         case "staffList":
           return <Djs id={id.item} />;
+          case "shows":
+            return <h2>SHOW</h2>;
+
+          case "staff":
+            return <h2>TBD</h2>;
+
 
       case "sponsorsList":
         return <Sponsors id={id.item} />;

@@ -200,7 +200,7 @@ function djList (collection) {
         >
           <div className="container ">
             <div className="row">
-              <div className="col-8 col-xs-12">
+              <div className="col-7 col-xs-12">
                
                 <Link
                   href={`/shows/${show.slug}`}
@@ -227,7 +227,7 @@ function djList (collection) {
                   </a>
                 </Link>
               </div>
-              <div className="col-4 col-xs-12">
+              <div className="col-5 col-xs-12">
                 {" "}
                 <Dates slot={[show.timeSlotsCollection]} show={show.title} />
               </div>

@@ -5,8 +5,7 @@ import { addListener } from "process";
 
 function Playlist(props: any) {
   function Iframe() {
-    console.log(props.playlistUrl);
-
+  
     const id = props.id;
     const PLAYLIST = gql`
       query GetPLaylist($id: String!) {
@@ -15,6 +14,7 @@ function Playlist(props: any) {
           url
           description
           height
+          hideVisualPlayer
         }
       }
     `;
@@ -33,6 +33,8 @@ function Playlist(props: any) {
     let height;
     let url;
     let title;
+    let visual;
+    let hideVisual;
 
     if (props.playlistUrl) {
       url = props.playlistUrl;
@@ -42,16 +44,19 @@ function Playlist(props: any) {
       url = data.playlist.url;
       title = data.playlist.title;
       height = data.playlist.height;
+      visual = data.playlist.hideVisualPlayer
+       hideVisual = visual == true ? "false" : "true";
     }
 
     const purl = url.replace(":", "%3a");
-
+ 
     switch (true) {
       case purl.includes("soundcloud"):
         src =
           "https://w.soundcloud.com/player/?url=" +
           purl +
-          "&color=%23bf1a2c&show_teaser=false&show_artwork=true";
+          "&color=%23bf1a2c&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=" + hideVisual + "&download=true";
+          console.log(data)
 
         break;
 
