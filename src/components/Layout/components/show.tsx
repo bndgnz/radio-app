@@ -24,7 +24,7 @@ function Sponsors(props: any) {
     }
   `;
 
-  const { data, loading, error } = useQuery(PLAYLIST, {
+  const { data, loading, error } = useQuery(SHOW, {
     variables: { id },
   });
   if (loading) {

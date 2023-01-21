@@ -26,7 +26,7 @@ class ContentfulRichText {
 
         return (
             <div>
-                {this.state.richText && documentToReactComponents(this.state.richText, options)}
+              
             </div>
         );
     }
