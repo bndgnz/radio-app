@@ -40,6 +40,8 @@ function Playlist(props: any) {
       url = props.playlistUrl;
       title = "Previous shows from " + props.title;
       height = props.height;
+      hideVisual = "false"
+
     } else if (props.id) {
       url = data.playlist.url;
       title = data.playlist.title;
@@ -84,12 +86,22 @@ function Playlist(props: any) {
         src = "https://www.youtube.com/embed/videoseries?list=" + presrc2;
 
         break;
+        case purl.includes("open.spotify.com"):
+          const presrc3 = url.replace("https://open.spotify.com/artist/", "");
+          src = "https://open.spotify.com/embed/artist/" + presrc3;
+          break;
+
 
       default:
         console.log(
           "The input string does not include either of the specified substrings"
         );
     }
+     
+ 
+
+
+
 
     return (
       <>
