@@ -2330,7 +2330,7 @@ $value_seven: 1550px; /* full */
 /* Min width: 1550px */
 @media only #{$media} and ($feature_min : $value_seven) {
     .main-banner {
-        height: 692px;
+        height: 752px;
     }
 }
 
@@ -2338,7 +2338,14 @@ $value_seven: 1550px; /* full */
 /* Min width: 1550px */
 @media only #{$media} and ($feature_max : $value_seven) {
     .main-banner {
-        height: 792px;
+        height: 752px;
+    }
+}
+
+/* Min width: 1550px */
+@media only #{$media} and ($feature_max : $value_four) {
+    .main-banner {
+        height: 942px;
     }
 }
 

@@ -15,6 +15,7 @@ function Playlist(props: any) {
           description
           height
           hideVisualPlayer
+          showTitle
         }
       }
     `;
@@ -35,6 +36,7 @@ function Playlist(props: any) {
     let title;
     let visual;
     let hideVisual;
+    let showTitle;
 
     if (props.playlistUrl) {
       url = props.playlistUrl;
@@ -48,9 +50,13 @@ function Playlist(props: any) {
       height = data.playlist.height;
       visual = data.playlist.hideVisualPlayer
        hideVisual = visual == true ? "false" : "true";
-    }
+       showTitle = data.playlist.showTitle == true || data.playlist.showTitle == null  ? "true" : "false";
+    }showTitle
 
     const purl = url.replace(":", "%3a");
+
+
+    console.log(data)
  
     switch (true) {
       case purl.includes("soundcloud"):
@@ -58,7 +64,7 @@ function Playlist(props: any) {
           "https://w.soundcloud.com/player/?url=" +
           purl +
           "&color=%23bf1a2c&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=" + hideVisual + "&download=true";
-          console.log(data)
+     
 
         break;
 
@@ -107,16 +113,23 @@ function Playlist(props: any) {
       <>
         <section className="playlist container page-block ">
           <div className="container">
-            <h3>
-              <div>{title}</div>
-            </h3>
+         
+
+          {showTitle  == "true" ? (
+         <h3>{title} </h3> 
+      ) : (
+       null
+      )}
+ 
+ 
             <iframe
               loading="lazy"
+              allow="encrypted-media"
               id="frame"
               width="100%"
               height={height}
               src={src}
-              allow="autoplay"
+             
             ></iframe>
           </div>
         </section>

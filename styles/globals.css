@@ -7757,6 +7757,7 @@ section.schedule-section {
   background-color: #fff;
   margin-top: 10px;
   box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+  margin-bottom: 20px;
 }
 
  
@@ -7870,4 +7871,37 @@ h3.banner-subtitle {
   flex: 1 1 auto;
   padding: 1.25rem;
   min-height: 250px;
+}
+
+section.playlist.container.page-block h3 {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 100%;
+  font-weight: 500;
+}
+
+.layout-title {
+  padding: 10px 10px10px 10px;
+  background-color: #000;
+  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  border:2px solid #FFF
+}
+
+.layout-title h3 {color:#bf1a2c;    text-transform: uppercase;
+  font-size: 110%;padding-top:5px;  };
+
+.main-banner-content .col-lg-4.col-xs-12.offset-2 {
+  text-align: center;
+  margin: auto;
+}
+
+.container.schedule.page-block h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
