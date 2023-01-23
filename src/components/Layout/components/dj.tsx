@@ -43,6 +43,11 @@ function Sponsors(props: any) {
             <h5 className="card-title">{dj.title}</h5>
 
             {dj.shortBio}
+
+
+
+
+
           </div>
         </div>
       </div>

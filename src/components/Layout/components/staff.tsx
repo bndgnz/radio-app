@@ -11,7 +11,7 @@ function Staff(props: any) {
   function Dj(props) {
     const listOfItems = items.map((staff, idx) => {
       return (
-        <div className="row" key={idx}>
+        <div className="row staff-row" key={idx}>
           <div className="col-lg-3 col-sm-12">
             <img
               className="img-fluid"

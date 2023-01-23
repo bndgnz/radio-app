@@ -7892,7 +7892,7 @@ section.playlist.container.page-block h3 {
   border:2px solid #FFF
 }
 
-.layout-title h3 {color:#bf1a2c;    text-transform: uppercase;
+.layout-title h3 {color:#fff;    text-transform: uppercase;
   font-size: 110%;padding-top:5px;  };
 
 .main-banner-content .col-lg-4.col-xs-12.offset-2 {
@@ -7904,4 +7904,36 @@ section.playlist.container.page-block h3 {
   text-align: center;
   margin-bottom: 20px;
   text-transform: uppercase;
+}
+
+
+.row.staff-row {
+  margin-bottom: 20px;
+}
+
+.main-banner-content h1 {
+  color: #ffffff;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.audio-player {
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon-container {
+  width: 30px;
+  height: 30px;
+  background-color: #DE5E97;
+  color: #fff;
+ 
+  justify-content: center;
+  align-items: center;
+}
+
+.audio-icon {
+   width: 90%;
+   height: 90%;
 }
