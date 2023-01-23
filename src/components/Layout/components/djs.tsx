@@ -5,9 +5,9 @@ import { useRouter } from "next/router";
 import absoluteUrl from "next-absolute-url";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
-function Sponsors(props: any) {
+function Djs(props: any) {
   const id = props.id;
-  const PLAYLIST = gql`
+  const DJLIST = gql`
     query GetDjs($id: String!) {
       staffList(id: $id) {
         title
@@ -24,7 +24,24 @@ function Sponsors(props: any) {
     }
   `;
 
-  const { data, loading, error } = useQuery(PLAYLIST, {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  const { data, loading, error } = useQuery(DJLIST, {
     variables: { id },
   });
   if (loading) {
@@ -43,6 +60,9 @@ function Sponsors(props: any) {
             <h5 className="card-title">{dj.title}</h5>
 
             {dj.shortBio}
+
+            <div className="shows-by-dj" > </div>
+
           </div>
         </div>
       </div>
@@ -57,4 +77,4 @@ function Sponsors(props: any) {
   );
 }
 
-export default Sponsors;
+export default Djs;
