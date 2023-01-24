@@ -1,14 +1,11 @@
 import Showpage from "@/src/components/Layout/defaultLayouts/showPage";
 
 function renderLayouts(props: any) {
-
-
-    if (props) {
+  if (props) {
     switch (props.type.type) {
       case "shows":
-        return <Showpage props={props}   />;
+        return <Showpage props={props} />;
 
-        
       default:
         return;
     }

@@ -28,7 +28,7 @@ function Staff(props: any) {
       );
     });
     return (
-      <div className="container">
+      <div className="container staff-container">
         <div className="row">
           <div className="col-xl-12">
             <div className="show-dj">{listOfItems}</div>
@@ -39,7 +39,7 @@ function Staff(props: any) {
   }
 
   return (
-    <section className="about-area ptb-100">
+   
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12  ">
@@ -47,7 +47,7 @@ function Staff(props: any) {
           </div>
         </div>
       </div>
-    </section>
+   
   );
 }
 

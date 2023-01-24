@@ -54,9 +54,7 @@ function Playlist(props: any) {
     }showTitle
 
     const purl = url.replace(":", "%3a");
-
-
-    console.log(data)
+ 
  
     switch (true) {
       case purl.includes("soundcloud"):

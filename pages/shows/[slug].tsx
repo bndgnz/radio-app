@@ -13,10 +13,19 @@ interface Props {
 }
 
 const ShowPage: NextPage<Props> = ({
- 
-
-
-  showPage: { title, image, components, showBanner, content, introduction, timeSlots, dj, playlistUrl, showUrl  },
+  showPage: {
+    title,
+    image,
+    components,
+    showBanner,
+    content,
+    introduction,
+    timeSlots,
+    dj,
+    playlistUrl,
+    showUrl,
+    sponsor,
+  },
 }) => (
   <>
     <Layout
@@ -29,9 +38,9 @@ const ShowPage: NextPage<Props> = ({
       type="shows"
       times={timeSlots}
       dj={dj}
-      playlistUrl ={playlistUrl} 
-  showUrl={showUrl}
-
+      playlistUrl={playlistUrl}
+      showUrl={showUrl}
+      sponsor={sponsor}
     ></Layout>
   </>
 );

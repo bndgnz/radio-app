@@ -5,44 +5,45 @@ import { useRouter } from "next/router";
 import absoluteUrl from "next-absolute-url";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
-function Sponsors(props: any) {
+function ShowSponsor(props: any) {
   const id = props.id;
-  const SHOW = gql`
-    query GetDjs($id: String!) {
-      show(id: $id) {
+ 
+
+ 
+
+  const SPONSORLIST = gql`
+    query GetSponsors($id: String!) {
+      sponsor(id: "$id") {
         title
-        staffCollection {
-          items {
-            title
-            photo {
-              url
+        image {url}
+              
             }
-            shortBio
-          }
-        }
-      }
     }
   `;
 
-  const { data, loading, error } = useQuery(SHOW, {
-    variables: { id },
+  const { data, loading, error } = useQuery(SPONSORLIST, {
+    variables: { id},
   });
   if (loading) {
     return <div></div>;
   }
   if (error) {
     return <div></div>;
-  }
+  } 
 
-  const listOfItems = data.staffList.staffCollection.items.map((dj, idx) => {
+  console.log(data)
+
+  const listOfItems = data.items.map((sponsor, idx) => {
     return (
       <div className="col-lg-3   col-xs-12" key={idx}>
         <div className=" sponsor-card ">
-          <img src={dj.photo.url} className="card-img-top" alt={dj.title} />
+          <img src={sponsor.iamge.url} className="card-img-top" alt="..." />
           <div className="card-body">
-            <h5 className="card-title">{dj.title}</h5>
+            <h5 className="card-title">{sponsor.title}</h5>
 
-            {dj.shortBio}
+       
+
+            <div className="shows-by-dj"> </div>
           </div>
         </div>
       </div>
@@ -57,4 +58,4 @@ function Sponsors(props: any) {
   );
 }
 
-export default Sponsors;
+export default ShowSponsor;

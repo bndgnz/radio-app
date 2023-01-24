@@ -33,7 +33,7 @@ function Sponsors(props: any) {
   if (error) {
     return <div></div>;
   }
-  console.log(data);
+ 
 
   const listOfItems = data.sponsorsList.sponsorsCollection.items.map(
     (sponsor, idx) => {

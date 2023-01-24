@@ -7889,11 +7889,16 @@ section.playlist.container.page-block h3 {
   text-align: center;
   border-radius: 5px;
   color: #fff;
-  border:2px solid #FFF
+  border:2px solid #FFF;
+  background-image: linear-gradient(#000, #555);
 }
 
 .layout-title h3 {color:#fff;    text-transform: uppercase;
-  font-size: 110%;padding-top:5px;  };
+  font-size: 110%;padding-top:5px;
+  text-shadow: 0px 0px 9px rgb(36 46 45 / 87%);
+
+
+};
 
 .main-banner-content .col-lg-4.col-xs-12.offset-2 {
   text-align: center;
@@ -7936,4 +7941,22 @@ section.playlist.container.page-block h3 {
 .audio-icon {
    width: 90%;
    height: 90%;
+}
+
+
+
+
+.staff-row:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+
+.show-intro {
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px;
+}
+
+section.playlist.container.page-block {
+  margin-bottom: 20px;
 }

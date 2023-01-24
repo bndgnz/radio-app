@@ -95,6 +95,13 @@ const MENU = gql`
     title
     slug
     path
+    sponsor {
+      title
+      image {
+        url
+      }
+    }
+
     image {
       url
     }

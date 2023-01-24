@@ -4,6 +4,8 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { BLOCKS, INLINES } from "@contentful/rich-text-types";
 
 function Showpage(props: any) {
+  console.log(props);
+
   const showlink = props.props.type.showUrl;
   function ShowPlaylist() {
     if (props.props.type.playlistUrl) {
@@ -21,11 +23,20 @@ function Showpage(props: any) {
 
   function LatestShow() {
     if (showlink) {
+      const driveLink1 = showlink.replace(
+        "https://drive.google.com/file/d/",
+        "https://www.googleapis.com/drive/v3/files/"
+      );
+      const driveLink2 = driveLink1.replace(
+        "/view?usp=share_link",
+        "?alt=media&key=AIzaSyAOiHW72zzRZmVNDcGXivXXfJYM75jVOfw"
+      );
+
       return (
         <>
           <div className="show-page-audio-controls">
             <h3>Latest show </h3>
-            <audio controls src={showlink}>
+            <audio controls src={driveLink2}>
               Your browser does not support the
               <code>audio</code> element.
             </audio>
@@ -62,23 +73,23 @@ function Showpage(props: any) {
           <div className="col-lg-9 col-sm-12 ">
             <Staff dj={props.props.type.dj} />
 
-            <div className="row">
-              <div className="col-lg-3 col-sm-12"></div>
+            <div className="show-intro">
+            <h3>About {props.props.type.title}</h3>
+            <hr />
 
-              <div className="col-lg-9 col-sm-12">
-                <div className="show-details">
-                  <h3>About {props.props.type.title}</h3>
-                  <hr />
-
-                  {documentToReactComponents(props.props.type.content)}
-                </div>
-                <hr />
-              </div>
+            {documentToReactComponents(props.props.type.content)}
             </div>
+             
           </div>
           <div className="col-lg-3 col-sm-12  show-page-left-col">
             <Dates />
             <LatestShow />
+            <div className="sponsor-block">
+             
+              {props.props.type.sponsor ? (
+               <><p> Proudly sponsored by:</p><h5>{props.props.type.sponsor.fields.title}</h5></> 
+              ) : null}
+            </div>
           </div>
         </div>
       </div>

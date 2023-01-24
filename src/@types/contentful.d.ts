@@ -3,6 +3,35 @@
 import { Asset, Entry } from "contentful";
 import { Document } from "@contentful/rich-text-types";
 
+export interface IAccordionFields {
+  /** title */
+  title?: string | undefined;
+
+  /** Accordion Items */
+  accordionItems?:
+    | (ICarousel | ILayout | IMessage | IPlaylist | ISchedule)[]
+    | undefined;
+}
+
+/** General purpose accordion */
+
+export interface IAccordion extends Entry<IAccordionFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "accordion";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
 export interface IBannerFields {
   /** Image */
   heroImage?: Asset | undefined;
@@ -17,10 +46,16 @@ export interface IBannerFields {
   video?: IVideo | undefined;
 
   /** Button */
-  button?: IBlog | IEvents | ILandingPage | IPost | undefined;
+  button?: INavigationLink | undefined;
 
   /** Button Text */
-  buttonText: string;
+  buttonText?: string | undefined;
+
+  /** Banner link */
+  bannerLink?: string | undefined;
+
+  /** CTA Layout */
+  ctaLayout?: ILayout | undefined;
 }
 
 export interface IBanner extends Entry<IBannerFields> {
@@ -40,45 +75,17 @@ export interface IBanner extends Entry<IBannerFields> {
   };
 }
 
-export interface IBlogFields {
+export interface ICarouselFields {
   /** Title */
   title?: string | undefined;
 
-  /** Author */
-  author?: IStaff[] | undefined;
-
-  /** Date */
-  date: string;
-
-  /** Post Content */
-  postContent: IPost;
-
-  /** Tags */
-  tags: ITag[];
-
-  /** SEO */
-  seo?: IMetatags | undefined;
-
-  /** slug */
-  slug?: string | undefined;
-
-  /** Blocks */
-  blocks?:
-    | (
-        | ICarousel
-        | IUiCarouselCards
-        | IUiMessageCarousel
-        | IUiPartner
-        | IUiPeople
-        | IUiServices
-      )[]
-    | undefined;
-
-  /** path */
-  path?: string | undefined;
+  /** Banners */
+  banners: IBanner[];
 }
 
-export interface IBlog extends Entry<IBlogFields> {
+/** A generic carousel to take banners */
+
+export interface ICarousel extends Entry<ICarouselFields> {
   sys: {
     id: string;
     type: string;
@@ -87,7 +94,7 @@ export interface IBlog extends Entry<IBlogFields> {
     locale: string;
     contentType: {
       sys: {
-        id: "blog";
+        id: "carousel";
         linkType: "ContentType";
         type: "Link";
       };
@@ -172,41 +179,6 @@ export interface IColor extends Entry<IColorFields> {
   };
 }
 
-export interface IComponentFields {
-  /** Title */
-  title: string;
-
-  /** Single Item */
-  singleItem?:
-    | IBanner
-    | IPodcast
-    | ISchedule
-    | IShows
-    | IStaff
-    | IVideo
-    | undefined;
-
-  /** Collections */
-  collections?: ICollection[] | undefined;
-}
-
-export interface IComponent extends Entry<IComponentFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "component";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
 export interface IConfigFields {
   /** Title */
   title: string;
@@ -237,87 +209,6 @@ export interface IConfig extends Entry<IConfigFields> {
     contentType: {
       sys: {
         id: "config";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
-export interface IEventsFields {
-  /** Title */
-  title?: string | undefined;
-
-  /** Date */
-  date?: string | undefined;
-
-  /** Date Text */
-  dateText?: string | undefined;
-
-  /** Time Text */
-  timeText?: string | undefined;
-
-  /** Price Text */
-  priceText?: string | undefined;
-
-  /** Ticket URL */
-  ticketUrl?: string | undefined;
-
-  /** Ticket URL Link Text */
-  ticketUrlLinkText?: string | undefined;
-
-  /** Post Content */
-  postContent: IPost;
-
-  /** Tags */
-  tags: ITag[];
-
-  /** SEO */
-  seo?: IMetatags | undefined;
-
-  /** slug */
-  slug?: string | undefined;
-
-  /** Blocks */
-  blocks?:
-    | (
-        | ICarousel
-        | IUiCarouselCards
-        | IUiMessageCarousel
-        | IUiPartner
-        | IUiPeople
-        | IUiServices
-      )[]
-    | undefined;
-
-  /** path */
-  path: string;
-
-  /** Postponed */
-  postponed?: boolean | undefined;
-
-  /** SoldOut */
-  soldOut?: boolean | undefined;
-
-  /** Free Event */
-  freeEvent?: boolean | undefined;
-
-  /** Registration */
-  registration?: boolean | undefined;
-}
-
-/** Events for Artworks Theatre */
-
-export interface IEvents extends Entry<IEventsFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "events";
         linkType: "ContentType";
         type: "Link";
       };
@@ -400,9 +291,57 @@ export interface IHeaderConfiguration
   };
 }
 
+export interface IHtmlBlockFields {
+  /** Title */
+  title?: string | undefined;
+
+  /** HTML */
+  html?: Document | undefined;
+}
+
+export interface IHtmlBlock extends Entry<IHtmlBlockFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "htmlBlock";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
+export interface IIntroductionAndContentFields {
+  /** Title */
+  title?: string | undefined;
+}
+
+export interface IIntroductionAndContent
+  extends Entry<IIntroductionAndContentFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "introductionAndContent";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
 export interface ILandingPageFields {
   /** Image */
-  image?: Asset | undefined;
+  image: Asset;
 
   /** Show Banner */
   showBanner?: boolean | undefined;
@@ -426,7 +365,19 @@ export interface ILandingPageFields {
   path?: string | undefined;
 
   /** Components */
-  components?: IComponent | undefined;
+  components?:
+    | (
+        | IAccordion
+        | ICarousel
+        | IIntroductionAndContent
+        | ILayout
+        | IPlaylist
+        | ISchedule
+        | IShowsOnToday
+        | ISponsorsList
+        | IStaffList
+      )[]
+    | undefined;
 }
 
 /** A landing page */
@@ -441,6 +392,88 @@ export interface ILandingPage extends Entry<ILandingPageFields> {
     contentType: {
       sys: {
         id: "landingPage";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
+export interface ILayoutFields {
+  /** title */
+  title: string;
+
+  /** Columns */
+  columns?: ILayoutColum[] | undefined;
+
+  /** Show Layout Title */
+  showLayoutTitle: boolean;
+}
+
+export interface ILayout extends Entry<ILayoutFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "layout";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
+export interface ILayoutColumFields {
+  /** Title */
+  title?: string | undefined;
+
+  /** Layout component */
+  layoutComponent?:
+    | (
+        | IAccordion
+        | IMessage
+        | IPlaylist
+        | ISchedule
+        | IShows
+        | IShowsOnToday
+        | IStaff
+        | IStream
+      )[]
+    | undefined;
+
+  /** Bootstrap Width */
+  bootstrapWidth:
+    | "1"
+    | "2"
+    | "3"
+    | "4"
+    | "5"
+    | "6"
+    | "7"
+    | "8"
+    | "9"
+    | "10"
+    | "11"
+    | "12";
+
+  /** Offset */
+  offset?: number | undefined;
+}
+
+export interface ILayoutColum extends Entry<ILayoutColumFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "layoutColum";
         linkType: "ContentType";
         type: "Link";
       };
@@ -513,6 +546,9 @@ export interface IMenu extends Entry<IMenuFields> {
 }
 
 export interface IMessageFields {
+  /** title */
+  title?: string | undefined;
+
   /** Headline */
   headline?: string | undefined;
 
@@ -597,11 +633,8 @@ export interface INavigationLinkFields {
   /** Link Text */
   linkText?: string | undefined;
 
-  /** External Link */
-  externalLink?: string | undefined;
-
   /** Internal Link */
-  internalLink?: ILandingPage | IPodcast | IShows | undefined;
+  internalLink: ILandingPage | IPodcast | IShows;
 
   /** Sublinks */
   sublinks?: INavigationLink[] | undefined;
@@ -672,23 +705,63 @@ export interface IPartner extends Entry<IPartnerFields> {
   };
 }
 
+export interface IPlaylistFields {
+  /** Title */
+  title: string;
+
+  /** description */
+  description?: string | undefined;
+
+  /** URL */
+  url: string;
+
+  /** height */
+  height: number;
+
+  /** Hide visual player */
+  hideVisualPlayer?: boolean | undefined;
+
+  /** Show title */
+  showTitle?: boolean | undefined;
+}
+
+/** An embedded playlist */
+
+export interface IPlaylist extends Entry<IPlaylistFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "playlist";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
 export interface IPodcastFields {
   /** Title */
   title?: string | undefined;
 
+  /** content */
+  content?: Document | undefined;
+
+  /** image */
+  image: Asset;
+
+  /** embed */
+  embed?: string | undefined;
+
   /** MP3 Url */
   mp3Url?: string | undefined;
 
-  image?: Asset | undefined;
-
-  /** Post Content */
-  postContent: IPost;
-
   /** Related Show */
   relatedShow?: IShows | undefined;
-
-  /** SEO */
-  seo?: IMetatags | undefined;
 
   /** slug */
   slug?: string | undefined;
@@ -714,49 +787,11 @@ export interface IPodcast extends Entry<IPodcastFields> {
   };
 }
 
-export interface IPostFields {
-  /** Featured Image */
-  featuredImage: Asset;
-
-  /** Introduction */
-  introduction?: string | undefined;
-
-  /** Content */
-  content: Document;
-
-  /** Video */
-  video?: IVideo | undefined;
-
-  /** Date */
-  date: string;
-
-  /** Tags */
-  tags?: ITag[] | undefined;
-}
-
-/** Base post page */
-
-export interface IPost extends Entry<IPostFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "post";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
 export interface IScheduleFields {
-  /** Title */
+  /** Show today only */
+  showTodayOnly?: boolean | undefined;
 
-  showTodayOnly: boolean;
+  /** Title */
   title: string;
 
   /** Monday */
@@ -849,39 +884,32 @@ export interface IService extends Entry<IServiceFields> {
 }
 
 export interface IShowsFields {
-  /** Title */
-  title?: string | undefined;
-  /** Introduction */
-  introduction?: string | undefined;
-
-shortBio?: | undefined;
-
-  /** Content */
-  content?: string | undefined;
-  /** Show Banner*/
-  showBanner?: string | undefined;
-  playlistUrl?: string | undefined; 
-  
-  /**image */
+  /** image */
   image?: Asset | undefined;
+
+  /** Show Banner */
+  showBanner?: boolean | undefined;
+
+  /** Archived */
+  archived?: boolean | undefined;
+
+  /** Title */
+  title: string;
+
+  /** introduction */
+  introduction: string;
+
+  /** content */
+  content?: Document | undefined;
 
   /** Time Slots */
   timeSlots?: IShowSlot[] | undefined;
 
-  /** Post Content */
-  postContent: IPost;
-
-  /** SEO */
-  seo?: IMetatags | undefined;
-
-  /** slug */
-  slug?: string | undefined;
-
-  /** path */
-  path: string;
-
   /** Show URL */
   showUrl?: string | undefined;
+
+  /** playlistUrl */
+  playlistUrl?: string | undefined;
 
   /** DJ */
   dj: IStaff[];
@@ -890,9 +918,25 @@ shortBio?: | undefined;
   tags?: ITag[] | undefined;
 
   /** Components */
-  components?: IComponent | undefined;
+  components?:
+    | (
+        | IAccordion
+        | IIntroductionAndContent
+        | IPlaylist
+        | ISchedule
+        | IStream
+        | IVideo
+      )[]
+    | undefined;
 
+  /** slug */
+  slug?: string | undefined;
 
+  /** path */
+  path?: string | undefined;
+
+  /** Sponsor */
+  sponsor?: ISponsor | undefined;
 }
 
 /** Scheduled radio shows for Waiheke Radio */
@@ -957,6 +1001,87 @@ export interface IShowSlot extends Entry<IShowSlotFields> {
   };
 }
 
+export interface IShowsOnTodayFields {
+  /** Title */
+  title?: string | undefined;
+
+  /** Schedule */
+  schedule?: ISchedule | undefined;
+}
+
+export interface IShowsOnToday extends Entry<IShowsOnTodayFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "showsOnToday";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
+export interface ISponsorFields {
+  /** image */
+  image?: Asset | undefined;
+
+  /** Title */
+  title?: string | undefined;
+
+  /** Introduction */
+  introduction?: string | undefined;
+
+  /** Description */
+  description?: Document | undefined;
+}
+
+export interface ISponsor extends Entry<ISponsorFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "sponsor";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
+export interface ISponsorsListFields {
+  /** Title */
+  title?: string | undefined;
+
+  /** Sponsors */
+  sponsors?: ISponsor[] | undefined;
+}
+
+export interface ISponsorsList extends Entry<ISponsorsListFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "sponsorsList";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
 export interface IStaffFields {
   /** Title */
   title?: string | undefined;
@@ -972,6 +1097,9 @@ export interface IStaffFields {
 
   /** path */
   path?: string | undefined;
+
+  /** content */
+  content?: Document | undefined;
 }
 
 /** An entity to contain staff and authors */
@@ -993,12 +1121,37 @@ export interface IStaff extends Entry<IStaffFields> {
   };
 }
 
-export interface IStreamFields {
+export interface IStaffListFields {
   /** Title */
   title?: string | undefined;
 
+  /** Staff */
+  staff?: IStaff[] | undefined;
+}
+
+export interface IStaffList extends Entry<IStaffListFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "staffList";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
+export interface IStreamFields {
+  /** Title */
+  title: string;
+
   /** url */
-  url?: string | undefined;
+  url: string;
 
   /** Playing Now */
   playingNow?: string | undefined;
@@ -1080,32 +1233,74 @@ export interface IVideo extends Entry<IVideoFields> {
 }
 
 export type CONTENT_TYPE =
+  | "accordion"
   | "banner"
-  | "blog"
+  | "carousel"
   | "collection"
   | "color"
-  | "component"
   | "config"
-  | "events"
   | "footer"
   | "headerConfiguration"
+  | "htmlBlock"
+  | "introductionAndContent"
   | "landingPage"
+  | "layout"
+  | "layoutColum"
   | "linkedIcon"
   | "menu"
   | "message"
   | "metatags"
   | "navigationLink"
   | "partner"
+  | "playlist"
   | "podcast"
-  | "post"
   | "schedule"
   | "service"
   | "shows"
   | "showSlot"
+  | "showsOnToday"
+  | "sponsor"
+  | "sponsorsList"
   | "staff"
+  | "staffList"
   | "stream"
   | "tag"
   | "video";
+
+export type IEntry =
+  | IAccordion
+  | IBanner
+  | ICarousel
+  | ICollection
+  | IColor
+  | IConfig
+  | IFooter
+  | IHeaderConfiguration
+  | IHtmlBlock
+  | IIntroductionAndContent
+  | ILandingPage
+  | ILayout
+  | ILayoutColum
+  | ILinkedIcon
+  | IMenu
+  | IMessage
+  | IMetatags
+  | INavigationLink
+  | IPartner
+  | IPlaylist
+  | IPodcast
+  | ISchedule
+  | IService
+  | IShows
+  | IShowSlot
+  | IShowsOnToday
+  | ISponsor
+  | ISponsorsList
+  | IStaff
+  | IStaffList
+  | IStream
+  | ITag
+  | IVideo;
 
 export type LOCALE_CODE = "en-US";
 
