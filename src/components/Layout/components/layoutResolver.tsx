@@ -22,7 +22,7 @@ const LAYOUT = gql`
               ...scheduleId
               ...staffId 
               ...showId
-          
+          ...searchId
               __typename
 
 
@@ -69,6 +69,15 @@ const LAYOUT = gql`
   fragment staffId on Staff {
     sys {id}
     }
+
+    fragment searchId on SearchBox {
+      sys {id}
+      }
+
+
+
+
+    
 
 `;
 

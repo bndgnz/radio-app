@@ -7960,3 +7960,49 @@ section.playlist.container.page-block h3 {
 section.playlist.container.page-block {
   margin-bottom: 20px;
 }
+
+
+.sponsor-card.playlist-collection h5 {
+  font-size: 90%;
+  font-weight: bold;
+  min-height: 40px;
+  text-align: center;
+}
+
+
+.search-results-list {
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+  z-index: 199;
+  max-height: 300px;
+  overflow: scroll;
+  max-width: 540px;
+  min-height: 250px;
+  max-height: 250px;
+  right: 30px;
+  margin-top: 21px;
+  box-shadow: rgb(99 99 99 / 40%) 10px 12px 8px 0px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+input#algolia_search {
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  left: -7px;
+}
+
+.search-results-result {
+  font-size: 85%;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding:5px;
+}
+
+.search-results-list p {
+  color: #000 !important;
+}

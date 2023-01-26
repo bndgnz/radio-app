@@ -7,7 +7,7 @@ function SearchBox({ refine }) {
             <input
                 id="algolia_search"
                 type="search"
-                placeholder="Search for articles!"
+                placeholder="Search Waiheke Radio"
                 onChange={(e) => refine(e.currentTarget.value)}
             />
         </>

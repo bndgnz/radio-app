@@ -12,9 +12,14 @@ import ShowsOnToday from "@/src/components/Layout/components/showsOnToday";
 import Sponsors from "@/src/components/Layout/components/sponsors";
 import Djs from "@/src/components/Layout/components/djs";
 import Staff from "@/src/components/Layout/components/staff";
-
+import PlaylistCollection from "@/src/components/Layout/components/playlistCollection";
+import Search from "@/src/components/Layout/components/search/search"
 function renderComponents(props: any) {
+
+
   function Sorter(id, item) {
+console.log(id)
+
     switch (id.id) {
       case "schedule":
         return <Schedule id={id.item} />;
@@ -25,9 +30,16 @@ function renderComponents(props: any) {
           case "shows":
             return <h2>SHOW</h2>;
 
+            case "searchbox":
+              return <Search />;
+e
+            case "playlistGrid":
+            return <PlaylistCollection id={id.item}/>;
+
           case "staff":
             return <h2>TBD</h2>;
-
+            case "search":
+              return <h2>TBD</h2>;
 
       case "sponsorsList":
         return <Sponsors id={id.item} />;
