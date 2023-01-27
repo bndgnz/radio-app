@@ -4,20 +4,17 @@ function Sorter(props: any) {
   let src;
   let hideVisual;
   let showTitle;
+  hideVisual = props.visualPlayer == true ? "true" : "false";
+  showTitle =
+  props.showTitle == true || props.showTitle == null ? "true" : "false";
 
+  const url = props.url;
 
-
-hideVisual = props.visualPlayer == true ? "true" : "false";
-showTitle = props.showTitle == true || props.showTitle == null  ? "true" : "false";
-const url = props.url;
- 
   const height = props.height;
- 
+
   const purl = url.replace(":", "%3a");
   switch (true) {
     case url.includes("soundcloud"):
-
-   
       src =
         "https://w.soundcloud.com/player/?url=" +
         purl +
