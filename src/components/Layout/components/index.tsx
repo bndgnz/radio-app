@@ -13,43 +13,34 @@ import Sponsors from "@/src/components/Layout/components/sponsors";
 import Djs from "@/src/components/Layout/components/djs";
 import Staff from "@/src/components/Layout/components/staff";
 import PlaylistCollection from "@/src/components/Layout/components/playlistCollection";
-import Search from "@/src/components/Layout/components/search/search"
-import QueryStringPLaylist from "@/src/components/Layout/components/queryStringPlaylist"
-
-
+import Search from "@/src/components/Layout/components/search/search";
+import QueryStringPLaylist from "@/src/components/Layout/components/queryStringPlaylist";
 
 function renderComponents(props: any) {
-
-
   function Sorter(id, item) {
- 
-
     switch (id.id) {
       case "schedule":
         return <Schedule id={id.item} />;
       case "showsontoday":
         return <ShowsOnToday id={id.item} />;
-        case "staffList":
-          return <Djs id={id.item} />;
-          case "shows":
-            return <h2>SHOW</h2>;
+      case "staffList":
+        return <Djs id={id.item} />;
+      case "shows":
+        return <h2>SHOW</h2>;
 
-            case "searchbox":
-              return <Search />;
-e
-            case "playlistGrid":
-            return <PlaylistCollection id={id.item}/>;
+      case "searchbox":
+        return <Search />;
 
+      case "playlistGrid":
+        return <PlaylistCollection id={id.item} />;
 
-            case "queryStringPlaylist":
-              return <QueryStringPLaylist />;
+      case "queryStringPlaylist":
+        return <QueryStringPLaylist />;
 
-
-
-          case "staff":
-            return <h2>TBD</h2>;
-            case "search":
-              return <h2>TBD</h2>;
+      case "staff":
+        return <h2>TBD</h2>;
+      case "search":
+        return <h2>TBD</h2>;
 
       case "sponsorsList":
         return <Sponsors id={id.item} />;
@@ -86,8 +77,7 @@ e
   }
 
   if (props.components) {
-
-console.log (props.components)
+    console.log(props.components);
 
     return props.components.map((component, idx) => {
       return (
