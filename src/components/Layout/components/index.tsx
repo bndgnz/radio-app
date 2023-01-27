@@ -14,11 +14,15 @@ import Djs from "@/src/components/Layout/components/djs";
 import Staff from "@/src/components/Layout/components/staff";
 import PlaylistCollection from "@/src/components/Layout/components/playlistCollection";
 import Search from "@/src/components/Layout/components/search/search"
+import QueryStringPLaylist from "@/src/components/Layout/components/queryStringPlaylist"
+
+
+
 function renderComponents(props: any) {
 
 
   function Sorter(id, item) {
-console.log(id)
+ 
 
     switch (id.id) {
       case "schedule":
@@ -35,6 +39,12 @@ console.log(id)
 e
             case "playlistGrid":
             return <PlaylistCollection id={id.item}/>;
+
+
+            case "queryStringPlaylist":
+              return <QueryStringPLaylist />;
+
+
 
           case "staff":
             return <h2>TBD</h2>;
@@ -76,6 +86,9 @@ e
   }
 
   if (props.components) {
+
+console.log (props.components)
+
     return props.components.map((component, idx) => {
       return (
         <Sorter

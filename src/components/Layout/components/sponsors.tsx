@@ -38,7 +38,7 @@ function Sponsors(props: any) {
   const listOfItems = data.sponsorsList.sponsorsCollection.items.map(
     (sponsor, idx) => {
       return (
-        <div className="col-lg-3   col-xs-12" key={idx}>
+        <div className="col-lg-3   col-xs-12" key={idx} id={sponsor.title.replace(/ /g, "-").toLowerCase()} >
           <div className=" sponsor-card ">
             <img src={sponsor.image.url} className="card-img-top" alt="..." />
             <div className="card-body">

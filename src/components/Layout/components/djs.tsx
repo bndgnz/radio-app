@@ -24,23 +24,6 @@ function Djs(props: any) {
     }
   `;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
   const { data, loading, error } = useQuery(DJLIST, {
     variables: { id },
   });
@@ -53,7 +36,11 @@ function Djs(props: any) {
 
   const listOfItems = data.staffList.staffCollection.items.map((dj, idx) => {
     return (
-      <div className="col-lg-3   col-xs-12" key={idx}>
+      <div
+        className="col-lg-3   col-xs-12"
+        key={idx}
+        id={dj.title.replace(/ /g, "-").toLowerCase()}
+      >
         <div className=" sponsor-card ">
           <img src={dj.photo.url} className="card-img-top" alt="..." />
           <div className="card-body">
@@ -61,8 +48,7 @@ function Djs(props: any) {
 
             {dj.shortBio}
 
-            <div className="shows-by-dj" > </div>
-
+            <div className="shows-by-dj"> </div>
           </div>
         </div>
       </div>

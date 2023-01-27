@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import absoluteUrl from "next-absolute-url";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
-function Sponsors(props: any) {
+function DJ(props: any) {
   const id = props.id;
   const PLAYLIST = gql`
     query GetDjs($id: String!) {
@@ -36,7 +36,7 @@ function Sponsors(props: any) {
 
   const listOfItems = data.staffList.staffCollection.items.map((dj, idx) => {
     return (
-      <div className="col-lg-3   col-xs-12" key={idx}>
+      <div className="col-lg-3   col-xs-12" key={idx} id="ddddddddddd" >
         <div className=" sponsor-card ">
           <img src={dj.photo.url} className="card-img-top" alt="..." />
           <div className="card-body">
@@ -62,4 +62,4 @@ function Sponsors(props: any) {
   );
 }
 
-export default Sponsors;
+export default DJ;

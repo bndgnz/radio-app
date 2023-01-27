@@ -4,46 +4,59 @@ function Hits({ searchState, searchResults }) {
   const validQuery = searchState.query?.length >= 3;
 
   function Resolver(hit) {
-
     let title;
     let url;
+let type;
 
+ 
 
-console.log(hit.hit )
-
-switch(hit.hit.sys.contentType.sys.id) {
-    case "shows":
+    switch (hit.hit.sys.contentType.sys.id) {
+      case "shows":
         url = "/shows/" + hit.hit.fields.slug[["en-US"]];
-    
-      break;
-      case "staff":
-        url = "/djs#"  + hit.hit.fields.title[["en-US"]].replace(/ /g, "-");
-    
-      break;
+type ="Show";
 
-      case "partner":
-        url = "/sponsors#" + hit.hit.fields.title[["en-US"]].replace(/ /g, "-");
-    
-      break;
+        break;
+      case "staff":
+        url = "/djs#" + hit.hit.fields.title[["en-US"]].replace(/ /g, "-").toLowerCase();
+  type="DJ"
+        break;
+
+      case "sponsor":
+        url = "/sponsors#" + hit.hit.fields.title[["en-US"]].replace(/ /g, "-").toLowerCase();
+type="Sponsor"
+        break;
+
+        case "landingPage":
+            url = hit.hit.fields.slug[["en-US"]];
+    type="Content"
+            break;
+
+
+
 
       case "playlist":
-        url = "/playlist?playlist=" + hit.hit.sys.id ;
-    
-      break;
-    default:
+        url = "/playlist?playlist=" + hit.hit.sys.id;
+type = "Playlist"
+        break;
+      default:
       // code block
-  }
+    }
+
+    return (
+ <div className="row">
+      
+      <div className="col-10 col-xs-12">
+      <a href={url} title={title}>
+        {hit.hit.fields.title[["en-US"]]}{" "}
+            
+      </a>
+      </div>
+
+      <div className="col-2 col-xs-12">{type} </div>
 
 
-
-
-
-
-return (   <a href={url} title={title}>{hit.hit.fields.title[["en-US"]]} </a>)
-
-
-
-
+      </div>
+    );
   }
 
   return (
@@ -57,22 +70,21 @@ return (   <a href={url} title={title}>{hit.hit.fields.title[["en-US"]]} </a>)
 
       {searchResults?.hits.length > 0 && validQuery && (
         <>
-          <div className="search-results-list">
+          <div className="search-results-list container">
+       
             {searchResults.hits.map((hit, index) => (
               <div
                 tabIndex={index}
                 key={hit.objectID}
-                className="search-results-result"
-              >
-
- 
-
-
-             
-           
+                className="search-results-result">
                 <Resolver hit={hit} />
-              </div>
+              </div> 
+
+
+
+
             ))}
+           
           </div>
         </>
       )}

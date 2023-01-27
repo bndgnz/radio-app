@@ -4,9 +4,10 @@ import { preProcessFile } from "typescript";
 import { addListener } from "process";
 
 function Playlist(props: any) {
+  const id = props.id;
   function Iframe() {
-  
-    const id = props.id;
+ 
+
     const PLAYLIST = gql`
       query GetPLaylist($id: String!) {
         playlist(id: $id) {
@@ -42,27 +43,31 @@ function Playlist(props: any) {
       url = props.playlistUrl;
       title = "Previous shows from " + props.title;
       height = props.height;
-      hideVisual = "false"
+      hideVisual = "false";
+    }
 
-    } else if (props.id) {
+    if (props.id) {
       url = data.playlist.url;
       title = data.playlist.title;
-      height = data.playlist.height;
-      visual = data.playlist.hideVisualPlayer
-       hideVisual = visual == true ? "false" : "true";
-       showTitle = data.playlist.showTitle == true || data.playlist.showTitle == null  ? "true" : "false";
-    }showTitle
+      height = props.qheight ?props.qheight :data.playlist.height;
+      visual = data.playlist.hideVisualPlayer;
+      hideVisual = visual == true ? "false" : "true";
+      showTitle =
+        data.playlist.showTitle == true || data.playlist.showTitle == null
+          ? "true"
+          : "false";
+    }
 
     const purl = url.replace(":", "%3a");
- 
- 
+
     switch (true) {
       case purl.includes("soundcloud"):
         src =
           "https://w.soundcloud.com/player/?url=" +
           purl +
-          "&color=%23bf1a2c&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=" + hideVisual + "&download=true";
-     
+          "&color=%23bf1a2c&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=" +
+          hideVisual +
+          "&download=true";
 
         break;
 
@@ -90,36 +95,23 @@ function Playlist(props: any) {
         src = "https://www.youtube.com/embed/videoseries?list=" + presrc2;
 
         break;
-        case purl.includes("open.spotify.com"):
-          const presrc3 = url.replace("https://open.spotify.com/artist/", "");
-          src = "https://open.spotify.com/embed/artist/" + presrc3;
-          break;
-
+      case purl.includes("open.spotify.com"):
+        const presrc3 = url.replace("https://open.spotify.com/artist/", "");
+        src = "https://open.spotify.com/embed/artist/" + presrc3;
+        break;
 
       default:
         console.log(
           "The input string does not include either of the specified substrings"
         );
     }
-     
- 
-
-
-
 
     return (
       <>
         <section className="playlist container page-block ">
           <div className="container">
-         
+            {showTitle == "true" ? <h3>{title} </h3> : null}
 
-          {showTitle  == "true" ? (
-         <h3>{title} </h3> 
-      ) : (
-       null
-      )}
- 
- 
             <iframe
               loading="lazy"
               allow="encrypted-media"
@@ -127,7 +119,6 @@ function Playlist(props: any) {
               width="100%"
               height={height}
               src={src}
-             
             ></iframe>
           </div>
         </section>
