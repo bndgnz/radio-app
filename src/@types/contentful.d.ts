@@ -117,8 +117,7 @@ export interface ICollectionFields {
         | IEvents
         | IMessage
         | IPartner
-        | IPodcast
-        | IService
+          | IService
         | IShows
         | IStaff
         | IStream
@@ -128,7 +127,6 @@ export interface ICollectionFields {
 
   /** Type */
   type?:
-    | "Podcasts"
     | "Carousel"
     | "Tabs"
     | "Staff"

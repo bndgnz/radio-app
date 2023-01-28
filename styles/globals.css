@@ -7666,10 +7666,10 @@ section.message-wrapper a {
 }
 
 .layout-component-column { 
-  border: 1px solid #ddd;
+ 
   margin: 10px;
   margin-top: 10px;
-  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+ 
  
 }
 .layout-component-column.mx-auto h3 { font-size:105%; height:40px} 

@@ -20,7 +20,7 @@ const MENU = gql`
               ...LanMenulink
               ...ShowMenulink
               ...ShowMenulink
-              ...PodcastMenulink
+           
             }
             sublinksCollection {
               items {
@@ -28,7 +28,7 @@ const MENU = gql`
                 internalLink {
                   ...LanMenulink
                   ...ShowMenulink
-                  ...PodcastMenulink
+              
                 }
               }
             }
@@ -107,14 +107,7 @@ const MENU = gql`
     }
   }
 
-  fragment PodcastMenulink on Podcast {
-    title
-    slug
-    path
-    image {
-      url
-    }
-  }
+  
 `;
 
 function Layout(props: any) {

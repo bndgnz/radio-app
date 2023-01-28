@@ -193,18 +193,16 @@ function Schedule(props) {
                   href={`/shows/${show.slug}`}
                   title={"Find out more about " + show.title}
                 >
-                  <a
-                    title={
-                      show.title +
+                  <a className="tooltiplink" data-title={show.title +
                       "\n" +
-                      "Presented by: " +
+                      "Presented by " + "\n" +
                       show.djCollection.items.map((a) => {
                         const djList = a.title + " ";
                         return djList;
                       }) +
-                      "\n" +
-                      show.introduction
-                    }
+                      "\n - " +
+                      show.introduction}
+                  
                     data-html="true"
                   >
                     {show.title}{" "}
