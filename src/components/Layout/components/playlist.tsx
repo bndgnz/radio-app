@@ -70,7 +70,7 @@ function Playlist(props: any) {
       <>
         <section className="playlist container page-block ">
           <div className="container">
-   {showTitle =="true" ? ( <a href={"/playlist?playlist="+itemid } title={"View all tracks from" + title}><h3>{title}</h3></a>  ): null}
+   {showTitle =="true" ? ( <a href={"/playlist?playlist="+itemid } className="tooltiplink" data-title={"View all tracks from \n \n" + title } ><h3>{title}</h3></a>  ): null}
 
             <PlaylistTypeSorter
                   url={url}
