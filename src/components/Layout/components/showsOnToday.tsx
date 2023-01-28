@@ -136,21 +136,13 @@ function Schedule(props) {
     return <div className=" "> {listOfItems} </div>;
   }
 
+  function djList(collection) {
+    const listOfItems = collection.map((name, index) => (
+      <li key={index}>{name}</li>
+    ));
 
-function djList (collection) {
-
-  const listOfItems = collection.map((name, index) =>
-    <li key={index}>{name}</li>
-  )
-
-  return (
-    {listOfItems} 
-  )
-
-
-
-}
-
+    return { listOfItems };
+  }
 
   /////////////////////////////////////////////////////////////////////////////
 
@@ -182,12 +174,8 @@ function djList (collection) {
         day = data.showsOnToday.schedule.saturdayCollection.items;
         break;
     }
- 
+
     const listOfItems = day.map((show, idx) => (
-
-
-
-      
       <div className="on-today-item" key={idx}>
         <div
           className="on-today-event-title"
@@ -201,22 +189,18 @@ function djList (collection) {
           <div className="container ">
             <div className="row">
               <div className="col-5 offset-1 col-xs-12">
-               
                 <Link
                   href={`/shows/${show.slug}`}
                   title={"Find out more about " + show.title}
                 >
-     
-                 
-
                   <a
                     title={
                       show.title +
                       "\n" +
-                      "Presented by: " + show.djCollection.items.map((a) => {
+                      "Presented by: " +
+                      show.djCollection.items.map((a) => {
                         const djList = a.title + " ";
                         return djList;
-                       
                       }) +
                       "\n" +
                       show.introduction
@@ -231,12 +215,6 @@ function djList (collection) {
                 {" "}
                 <Dates slot={[show.timeSlotsCollection]} show={show.title} />
               </div>
-
-
-
-
-
-              
             </div>
           </div>
         </div>
@@ -244,17 +222,15 @@ function djList (collection) {
     ));
 
     return (
-      
-        <div className="container">
-          <div>{listOfItems}</div>
-        </div>
-     
+      <div className="container">
+        <div>{listOfItems}</div>
+      </div>
     );
   }
 
   return (
     <div className="today-collection ">
-      <h6>Coming up today</h6>
+      <h6>Playing on {dayName}</h6>
       <Showcard showDay={dayName.toLowerCase()} />
     </div>
   );

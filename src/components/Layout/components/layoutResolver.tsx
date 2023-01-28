@@ -7,7 +7,9 @@ const LAYOUT = gql`
     layout(id: $id) {
       showLayoutTitle
       title
-      sys{id}
+      sys {
+        id
+      }
       columnsCollection {
         items {
           title
@@ -17,16 +19,13 @@ const LAYOUT = gql`
             items {
               ...playlistId
               ...streamId
-              ...showsOnTodayId 
+              ...showsOnTodayId
               ...messageId
               ...scheduleId
-              ...staffId 
+              ...staffId
               ...showId
-          ...searchId
+              ...searchId
               __typename
-
-
-
             }
           }
         }
@@ -44,50 +43,45 @@ const LAYOUT = gql`
       id
     }
   }
-   
 
   fragment messageId on Message {
     sys {
       id
     }
   }
-  fragment scheduleId on Schedule{
+  fragment scheduleId on Schedule {
     sys {
       id
     }
   }
-  
+
   fragment showsOnTodayId on ShowsOnToday {
-  sys {id}
+    sys {
+      id
+    }
   }
 
   fragment showId on Shows {
-    sys {id}
+    sys {
+      id
     }
-
+  }
 
   fragment staffId on Staff {
-    sys {id}
+    sys {
+      id
     }
+  }
 
-    fragment searchId on SearchBox {
-      sys {id}
-      }
-
-
-
-
-    
-
+  fragment searchId on SearchBox {
+    sys {
+      id
+    }
+  }
 `;
 
 function ResolveLayout(props: any) {
-
- 
-
-  let id = props.id
-
- 
+  let id = props.id;
 
   const { data, loading, error } = useQuery(LAYOUT, { variables: { id } });
   if (loading) {
@@ -96,7 +90,6 @@ function ResolveLayout(props: any) {
   if (error) {
     return <div></div>;
   }
- 
 
   function Columns() {
     if (data.layout.columnsCollection.items) {
@@ -105,15 +98,17 @@ function ResolveLayout(props: any) {
           return (
             <div
               className={
-                " col-lg-" + column.bootstrapWidth + " col-xs-12 " + "offset-" + column.offset               }
+                " col-lg-" +
+                column.bootstrapWidth +
+                " col-xs-12 " +
+                "offset-" +
+                column.offset
+              }
               key={idx}
             >
               {data &&
                 column.layoutComponentCollection.items.map((item, i) => (
                   <div key={i} className="layout-component-column   mx-auto ">
- 
- 
-
                     <Components
                       id={item.__typename.toLowerCase()}
                       item={item.sys.id}
@@ -130,26 +125,19 @@ function ResolveLayout(props: any) {
     }
   }
   return (
-    <><div className="layout-wrapper">
-      <div className="container layout-container ">
+    <>
+      <div className="layout-wrapper">
+        <div className="container layout-container ">
+          {data.layout.showLayoutTitle == true ? (
+            <div className="layout-title">
+              <h3>{data.layout.title} </h3>
+            </div>
+          ) : null}
 
-
- 
-      
-        
-      {data.layout.showLayoutTitle == true ? (
-        <div className="layout-title"><h3>{data.layout.title} </h3></div>
-      ) : (
-       null
-      )}
-  
-        
-        
-        <div className="row">
-  
-          <Columns />
+          <div className="row">
+            <Columns />
+          </div>
         </div>
-      </div>
       </div>
     </>
   );

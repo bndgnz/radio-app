@@ -1,6 +1,8 @@
 import React from "react";
 
 function Sorter(props: any) {
+console.log(props)
+
   let src;
   let hideVisual;
   let showTitle;
@@ -59,6 +61,7 @@ function Sorter(props: any) {
 
   return (
     <iframe
+   
       loading="lazy"
       allow="encrypted-media"
       id="frame"
@@ -66,6 +69,7 @@ function Sorter(props: any) {
       height={height}
       src={src}
     ></iframe>
+    
   );
 }
 

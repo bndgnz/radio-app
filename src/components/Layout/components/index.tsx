@@ -77,8 +77,6 @@ function renderComponents(props: any) {
   }
 
   if (props.components) {
-    console.log(props.components);
-
     return props.components.map((component, idx) => {
       return (
         <Sorter
