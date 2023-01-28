@@ -15,10 +15,17 @@ import Staff from "@/src/components/Layout/components/staff";
 import PlaylistCollection from "@/src/components/Layout/components/playlistCollection";
 import Search from "@/src/components/Layout/components/search/search";
 import QueryStringPLaylist from "@/src/components/Layout/components/queryStringPlaylist";
+import Shows from "@/src/components/Layout/components/shows"
+
+
 
 function renderComponents(props: any) {
   function Sorter(id, item) {
     switch (id.id) {
+      case "showList":
+        return  <Shows  id={id.item} />;
+
+
       case "schedule":
         return <Schedule id={id.item} />;
       case "showsontoday":
