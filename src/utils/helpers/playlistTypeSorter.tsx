@@ -6,7 +6,7 @@ console.log(props)
   let src;
   let hideVisual;
   let showTitle;
-  hideVisual = props.visualPlayer == true ? "true" : "false";
+  hideVisual = props.visualPlayer;
   showTitle =
   props.showTitle == true || props.showTitle == null ? "true" : "false";
 

@@ -21,6 +21,7 @@ function Staff(props: any) {
           </div>
           <div className="col-lg-9 col-sm-12">
             <h6>Presented by:</h6>
+            
             <h3>{staff.fields.title}</h3>
             {staff.fields.shortBio}
           </div>

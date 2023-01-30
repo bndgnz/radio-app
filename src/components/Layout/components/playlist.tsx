@@ -33,7 +33,7 @@ function Playlist(props: any) {
     if (error) {
       return <div></div>;
     }
-
+ 
     let itemid;
     let height;
     let url;
@@ -57,7 +57,7 @@ function Playlist(props: any) {
       title = data.playlist.title;
       height = props.qheight ? props.qheight : data.playlist.height;
       visual = data.playlist.hideVisualPlayer;
-      hideVisual = visual == true ? "true" : "false";
+      hideVisual = visual == true ? "false" : "true";
       showTitle =
         data.playlist.showTitle == true || data.playlist.showTitle == null
           ? "true"
@@ -70,7 +70,7 @@ function Playlist(props: any) {
       <>
         <section className="playlist container page-block ">
           <div className="container">
-   {showTitle =="true" ? ( <a href={"/playlist?playlist="+itemid } className="tooltiplink" data-title={"View all tracks from \n \n" + title } ><h3>{title}</h3></a>  ): null}
+   {showTitle =="true" ? ( <a href={"/playlist?playlist="+itemid } className="tooltiplink playlist-title-link" data-title={"View all tracks from \n \n" + title } > {title} </a>  ): null}
 
             <PlaylistTypeSorter
                   url={url}

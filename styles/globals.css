@@ -2036,7 +2036,7 @@ Navbar Area CSS
 Main Banner Area CSS
 =================================================*/
 .main-banner {
-  height: 725px;
+  height: 682px;
   position: relative;
   z-index: 2;
   background-position: center center;
@@ -7433,10 +7433,15 @@ text-align:center;
  
 }
  
-.show-page-left-col {  max-width:300px;
-
+.show-page-left-col {
  
- 
+  background-color: #fff;
+  max-width: 260px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+  
 }
 .show-page-audio-controls audio {
  
@@ -7549,8 +7554,15 @@ background-color: #fff;
 }
 
 .show-page-audio-controls {
-  
   margin-top: 20px;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  max-width: 98%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h3.banner-subtitle {color:#ccc; text-transform:none;max-width:40%; margin-left:auto; margin-right:auto; margin-top:20px}
@@ -7872,14 +7884,25 @@ h3.banner-subtitle {
   padding: 1.25rem;
   min-height: 250px;
 }
-
 section.playlist.container.page-block h3 {
+  text-decoration: underline;
   width: 100%;
   text-align: center;
   text-transform: uppercase;
   font-size: 100%;
-  font-weight: 500;
+  font-weight: 600;
 }
+
+section.playlist.container.page-block a.hover {color:#000}
+
+
+
+
+
+
+
+
+
 
 .layout-title {
   padding: 10px 10px10px 10px;
@@ -7913,8 +7936,15 @@ section.playlist.container.page-block h3 {
 
 
 .row.staff-row {
-  margin-bottom: 20px;
+ 
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+    min-height: 220px;
 }
+ 
+ 
 
 .main-banner-content h1 {
   color: #ffffff;
@@ -7952,9 +7982,11 @@ section.playlist.container.page-block h3 {
 
 
 .show-intro {
-  border: 1px solid #000;
+ 
   margin: 10px;
   padding: 10px;
+  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+  background-color:#fff;
 }
 
 section.playlist.container.page-block {
@@ -8020,11 +8052,26 @@ a.tooltiplink:hover::after {
   font-size: 16px;
   line-height: 18px;
   display: block;
+  left:0px;
+  top:23px;
   position: absolute;
  padding:10px;
   width:190px;display:inline;font-weight:600;
- 
+  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+  border:1px solid #000;
  
  
   z-index: 1;
+}
+
+.sponsor-block {
+  margin-top: 20px;
+}
+
+a.tooltiplink.playlist-title-link:hover {
+  color: #000;
+  /* font-weight: 800; */
+}
+a.tooltiplink.playlist-title-link {
+  font-weight: 800;
 }

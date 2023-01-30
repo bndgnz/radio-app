@@ -2345,7 +2345,7 @@ $value_seven: 1550px; /* full */
 /* Min width: 1550px */
 @media only #{$media} and ($feature_max : $value_four) {
     .main-banner {
-        height: 942px;
+        height: 852px;
     }
 }
 

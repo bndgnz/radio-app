@@ -36,6 +36,7 @@ function Showpage(props: any) {
         <>
           <div className="show-page-audio-controls">
             <h3>Latest show </h3>
+            <hr />
             <audio controls src={driveLink2}>
               Your browser does not support the
               <code>audio</code> element.
@@ -68,26 +69,20 @@ function Showpage(props: any) {
 
   return (
     <>
-      <div className="container page-block show-page-details">
+      <div className="container  show-page-details">
         <div className="row">
           <div className="col-lg-9 col-sm-12 ">
             <Staff dj={props.props.type.dj} />
 
-            <div className="show-intro">
-            <h3>About {props.props.type.title}</h3>
-            <hr />
-
-            {documentToReactComponents(props.props.type.content)}
-            </div>
-             
+         
           </div>
           <div className="col-lg-3 col-sm-12  show-page-left-col">
             <Dates />
-            <LatestShow />
+       
             <div className="sponsor-block">
              
               {props.props.type.sponsor ? (
-               <><p> Proudly sponsored by:</p><h5>{props.props.type.sponsor.fields.title}</h5></> 
+               <><p><strong>Proudly sponsored by:</strong> </p><hr /><h5>{props.props.type.sponsor.fields.title}</h5></> 
               ) : null}
             </div>
           </div>
@@ -95,7 +90,23 @@ function Showpage(props: any) {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12">  
+
+
+          <div className="show-intro">
+            <h3>About {props.props.type.title}</h3>
+            <hr />
+
+            {documentToReactComponents(props.props.type.content)}
+            </div>
+            <LatestShow />  
+
+
+
+
+
+
+
             {props.props.type.playlistUrl ? (
               <Playlist
                 playlistUrl={props.props.type.playlistUrl}
