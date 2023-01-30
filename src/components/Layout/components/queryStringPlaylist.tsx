@@ -11,7 +11,7 @@ function QueryString() {
 const router = useRouter()
 const id = router.query.playlist
   
-return (<Playlist id={id} qheight="600" />)
+return (<Playlist id={id} qheight="" />)
 
 
 }
