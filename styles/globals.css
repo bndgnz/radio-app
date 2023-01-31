@@ -8075,3 +8075,8 @@ a.tooltiplink.playlist-title-link:hover {
 a.tooltiplink.playlist-title-link {
   font-weight: 800;
 }
+
+.secondary-search .search-results-list.container {
+  position: absolute;
+  left: 0px;
+}

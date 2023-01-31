@@ -1,4 +1,7 @@
 import config from "@/src/utils/json/config.json";
+import Search from "@/src/components/Layout/components/search/search";
+
+
 
 function SecondaryHero(props: any) {
   const { background, title, tereo, showBanner, introduction } = props;
@@ -16,11 +19,15 @@ function SecondaryHero(props: any) {
         >
           <div className="d-table">
             <div className="d-table-cell">
+        
               <div className="container">
                 <div className="page-title-content">
                   <h1>{props.title} </h1>
                   <h3 className="banner-subtitle">{props.tereo}</h3>
                   <h4>{props.showIntro}</h4>
+                  <div className="secondary-search"><Search /></div>
+
+
                 </div>
               </div>
             </div>
@@ -33,6 +40,7 @@ function SecondaryHero(props: any) {
             background-position: center;
           }
         `}</style>
+     
       </>
     );
   }
