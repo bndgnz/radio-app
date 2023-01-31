@@ -112,7 +112,7 @@ function Showpage(props: any) {
                 playlistUrl={props.props.type.playlistUrl}
                 title={props.props.type.title}
                 id=""
-                height="400"
+                height="500"
               />
             ) : null}
           </div>
