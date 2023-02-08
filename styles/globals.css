@@ -8019,6 +8019,7 @@ section.playlist.container.page-block {
   border-radius: 5px;
   padding: 5px;
   width: 100%;
+  overflow-x: clip;
 }
 
 input#algolia_search {
@@ -8076,7 +8077,17 @@ a.tooltiplink.playlist-title-link {
   font-weight: 800;
 }
 
+
 .secondary-search .search-results-list.container {
   position: absolute;
   left: 0px;
+}
+
+input#algolia_search::placeholder {
+  color: #bf1a2c;font-weight:600;width:280px
+}
+
+ 
+input#algolia_search:focus::placeholder {
+  color: transparent;
 }

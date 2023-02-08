@@ -79,12 +79,12 @@ function Showpage(props: any) {
           <div className="col-lg-3 col-sm-12  show-page-left-col">
             <Dates />
        
-            <div className="sponsor-block">
+          
              
               {props.props.type.sponsor ? (
-               <><p><strong>Proudly sponsored by:</strong> </p><hr /><h5>{props.props.type.sponsor.fields.title}</h5></> 
+               <>  <div className="sponsor-block"><p><strong>Proudly sponsored by:</strong> </p><hr /><h5>{props.props.type.sponsor.fields.title}</h5></div></> 
               ) : null}
-            </div>
+            
           </div>
         </div>
       </div>

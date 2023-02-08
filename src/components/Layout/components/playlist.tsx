@@ -15,6 +15,10 @@ function type(props) {
       return 500;
       break;
 
+      case type.includes("mixcloud"):
+      return 210;
+      break;
+
     default:
       return null;
   }
