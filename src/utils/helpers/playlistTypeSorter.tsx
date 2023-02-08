@@ -1,7 +1,7 @@
 import React from "react";
 
 function Sorter(props: any) {
-console.log(props)
+ 
 
   let src;
   let hideVisual;
@@ -9,6 +9,7 @@ console.log(props)
   hideVisual = props.visualPlayer;
   showTitle =
   props.showTitle == true || props.showTitle == null ? "true" : "false";
+  let type;
 
   const url = props.url;
 
@@ -17,6 +18,7 @@ console.log(props)
   const purl = url.replace(":", "%3a");
   switch (true) {
     case url.includes("soundcloud"):
+      type="soundcloud";
       src =
         "https://w.soundcloud.com/player/?url=" +
         purl +
@@ -27,6 +29,7 @@ console.log(props)
       break;
 
     case url.includes("mixcloud"):
+      type="mixcloud"
       const mxurl = url.replace("https://www.mixcloud.com/", "");
       const mxurl2 = mxurl.replace("/", "");
 
@@ -38,17 +41,20 @@ console.log(props)
       break;
 
     case purl.includes("youtube.com/watch"):
+      type="youtube";
       const presrc = url.replace("https://www.youtube.com/watch?v=", "");
       src = "https://www.youtube.com/embed/" + presrc;
 
       break;
 
     case purl.includes("youtube.com/playlist"):
+      type="youtubeplaylist";
       const presrc2 = url.replace("https://www.youtube.com/playlist?list=", "");
       src = "https://www.youtube.com/embed/videoseries?list=" + presrc2;
 
       break;
     case purl.includes("open.spotify.com"):
+      type="spotify"
       const presrc3 = url.replace("https://open.spotify.com/artist/", "");
       src = "https://open.spotify.com/embed/artist/" + presrc3;
       break;

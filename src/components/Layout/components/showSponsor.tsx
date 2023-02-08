@@ -31,7 +31,7 @@ function ShowSponsor(props: any) {
     return <div></div>;
   } 
 
-  console.log(data)
+ 
 
   const listOfItems = data.items.map((sponsor, idx) => {
     return (

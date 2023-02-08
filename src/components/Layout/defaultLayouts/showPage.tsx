@@ -4,7 +4,7 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { BLOCKS, INLINES } from "@contentful/rich-text-types";
 
 function Showpage(props: any) {
-  console.log(props);
+ 
 
   const showlink = props.props.type.showUrl;
   function ShowPlaylist() {
@@ -112,7 +112,7 @@ function Showpage(props: any) {
                 playlistUrl={props.props.type.playlistUrl}
                 title={props.props.type.title}
                 id=""
-                height="500"
+               
               />
             ) : null}
           </div>

@@ -4,8 +4,23 @@ import { preProcessFile } from "typescript";
 import { addListener } from "process";
 import Link from "next/link";
 
-
 import PlaylistTypeSorter from "@/src/utils/helpers/playlistTypeSorter";
+
+function type(props) {
+ 
+  const type = props;
+
+  switch (true) {
+    case type.includes("soundcloud"):
+      return 500;
+      break;
+
+    default:
+      return null;
+  }
+
+  return 400;
+}
 
 function Playlist(props: any) {
   const id = props.id;
@@ -19,7 +34,6 @@ function Playlist(props: any) {
           height
           hideVisualPlayer
           showTitle
-          
         }
       }
     `;
@@ -33,7 +47,7 @@ function Playlist(props: any) {
     if (error) {
       return <div></div>;
     }
- 
+
     let itemid;
     let height;
     let url;
@@ -45,41 +59,49 @@ function Playlist(props: any) {
     if (props.playlistUrl) {
       url = props.playlistUrl;
       title = "Previous shows from " + props.title;
-      height = props.height;
+
+      height = type(props.playlistUrl);
+
       hideVisual = "false";
       showTitle = "false;";
     }
 
     if (props.id) {
+      type(data.playlist.url);
 
       itemid = props.id;
       url = data.playlist.url;
       title = data.playlist.title;
-      height = props.qheight ? props.qheight : data.playlist.height;
+      height = props.source ? type(data.playlist.url) : data.playlist.height;
       visual = data.playlist.hideVisualPlayer;
       hideVisual = visual == true ? "false" : "true";
       showTitle =
         data.playlist.showTitle == true || data.playlist.showTitle == null
           ? "true"
           : "false";
-
-
     }
 
     return (
       <>
         <section className="playlist container page-block ">
           <div className="container">
-   {showTitle =="true" ? ( <a href={"/playlist?playlist="+itemid } className="tooltiplink playlist-title-link" data-title={"View all tracks from \n \n" + title } > {title} </a>  ): null}
+            {showTitle == "true" ? (
+              <a
+                href={"/playlist?playlist=" + itemid}
+                className="tooltiplink playlist-title-link"
+                data-title={"View all tracks from \n \n" + title}
+              >
+                {" "}
+                {title}{" "}
+              </a>
+            ) : null}
 
             <PlaylistTypeSorter
-                  url={url}
-                  height={height}
-                  visualPlayer={hideVisual}
-             
-                  title={title}
-                  showTitle={showTitle}
-                  
+              url={url}
+              height={height}
+              visualPlayer={hideVisual}
+              title={title}
+              showTitle={showTitle}
             />
           </div>
         </section>

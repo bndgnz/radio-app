@@ -71,7 +71,7 @@ function Shows(props: any) {
   }
 
   const listOfItems = data.showList.showsCollection.items.map((show, idx) => {
-    console.log(show.timeSlotsCollection.items);
+ 
 
     return (
       <div
