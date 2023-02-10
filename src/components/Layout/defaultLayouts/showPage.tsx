@@ -4,8 +4,6 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { BLOCKS, INLINES } from "@contentful/rich-text-types";
 
 function Showpage(props: any) {
- 
-
   const showlink = props.props.type.showUrl;
   function ShowPlaylist() {
     if (props.props.type.playlistUrl) {
@@ -73,46 +71,41 @@ function Showpage(props: any) {
         <div className="row">
           <div className="col-lg-9 col-sm-12 ">
             <Staff dj={props.props.type.dj} />
-
-         
           </div>
           <div className="col-lg-3 col-sm-12  show-page-left-col">
             <Dates />
-       
-          
-             
-              {props.props.type.sponsor ? (
-               <>  <div className="sponsor-block"><p><strong>Proudly sponsored by:</strong> </p><hr /><h5>{props.props.type.sponsor.fields.title}</h5></div></> 
-              ) : null}
-            
+
+            {props.props.type.sponsor ? (
+              <>
+                {" "}
+                <div className="sponsor-block">
+                  <p>
+                    <strong>Proudly sponsored by:</strong>{" "}
+                  </p>
+                  <hr />
+                  <h5>{props.props.type.sponsor.fields.title}</h5>
+                </div>
+              </>
+            ) : null}
           </div>
         </div>
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-12">  
+          <div className="col-12">
+            <div className="show-intro">
+              <h3>About {props.props.type.title}</h3>
+              <hr />
 
-
-          <div className="show-intro">
-            <h3>About {props.props.type.title}</h3>
-            <hr />
-
-            {documentToReactComponents(props.props.type.content)}
+              {documentToReactComponents(props.props.type.content)}
             </div>
-            <LatestShow />  
-
-
-
-
-
-
+            <LatestShow />
 
             {props.props.type.playlistUrl ? (
               <Playlist
                 playlistUrl={props.props.type.playlistUrl}
                 title={props.props.type.title}
                 id=""
-               
               />
             ) : null}
           </div>

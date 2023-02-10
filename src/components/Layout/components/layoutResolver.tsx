@@ -25,6 +25,7 @@ const LAYOUT = gql`
               ...staffId
               ...showId
               ...searchId
+              ...showlistId
               __typename
             }
           }
@@ -78,6 +79,15 @@ const LAYOUT = gql`
       id
     }
   }
+  fragment showlistId on ShowList {
+    sys {
+      id
+    }
+  }
+
+
+
+
 `;
 
 function ResolveLayout(props: any) {

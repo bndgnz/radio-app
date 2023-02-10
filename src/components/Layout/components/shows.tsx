@@ -12,7 +12,7 @@ function Shows(props: any) {
     query GetShows($id: String!) {
       showList(id: $id) {
         title
-        showsCollection(limit: 10) {
+        showsCollection(limit: 50) {
           items {
             sponsor {
               title
@@ -55,6 +55,45 @@ function Shows(props: any) {
   if (error) {
     return <div></div>;
   }
+ 
+
+  function LatestShow(props) {
+    if (props.showlink) {
+      const driveLink1 = props.showlink.replace(
+        "https://drive.google.com/file/d/",
+        "https://www.googleapis.com/drive/v3/files/"
+      );
+      const driveLink2 = driveLink1.replace(
+        "/view?usp=share_link",
+        "?alt=media&key=AIzaSyAOiHW72zzRZmVNDcGXivXXfJYM75jVOfw"
+      );
+
+      return (
+        <>
+          <div className="show-page-audio-controls">
+            <h3>Latest show </h3>
+     
+            <audio controls src={driveLink2}>
+              Your browser does not support the
+              <code>audio</code> element.
+            </audio>
+          </div>
+        </>
+      );
+    } else {
+      return null;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
 
   function Dates(props) {
     const listOfItems = props.slotCollection.items.map((time, idx) => {
@@ -93,6 +132,11 @@ function Shows(props: any) {
             {show.introduction}
 
             <Dates slotCollection={show.timeSlotsCollection} />
+
+           <LatestShow showlink={show.showUrl} />
+
+
+
           </div>
         </div>
       </div>

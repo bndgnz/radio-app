@@ -7857,7 +7857,13 @@ section.accordion-wrapper {
   color: red;
 }
 
- .secondary-banner.page-title-area h4 {color:#fff; font-size:95%
+ .secondary-banner.page-title-area h4 {color: #fff;
+  font-size: 105%;
+  font-weight: 500;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 h3.banner-subtitle {
@@ -7987,6 +7993,7 @@ section.playlist.container.page-block a.hover {color:#000}
   padding: 10px;
   box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
   background-color:#fff;
+  margin-bottom:20px;
 }
 
 section.playlist.container.page-block {

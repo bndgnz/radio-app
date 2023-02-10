@@ -7,31 +7,27 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 
 function ShowSponsor(props: any) {
   const id = props.id;
- 
-
- 
 
   const SPONSORLIST = gql`
     query GetSponsors($id: String!) {
       sponsor(id: "$id") {
         title
-        image {url}
-              
-            }
+        image {
+          url
+        }
+      }
     }
   `;
 
   const { data, loading, error } = useQuery(SPONSORLIST, {
-    variables: { id},
+    variables: { id },
   });
   if (loading) {
     return <div></div>;
   }
   if (error) {
     return <div></div>;
-  } 
-
- 
+  }
 
   const listOfItems = data.items.map((sponsor, idx) => {
     return (
@@ -40,8 +36,6 @@ function ShowSponsor(props: any) {
           <img src={sponsor.iamge.url} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{sponsor.title}</h5>
-
-       
 
             <div className="shows-by-dj"> </div>
           </div>
