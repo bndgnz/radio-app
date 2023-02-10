@@ -7,7 +7,6 @@ import Link from "next/link";
 import PlaylistTypeSorter from "@/src/utils/helpers/playlistTypeSorter";
 
 function type(props) {
- 
   const type = props;
 
   switch (true) {
@@ -15,15 +14,15 @@ function type(props) {
       return 500;
       break;
 
-      case type.includes("mixcloud"):
+    case type.includes("mixcloud"):
       return 210;
       break;
 
-      case type.includes("spotify"):
-        return 600;
-        break;
+    case type.includes("spotify"):
+      return 600;
+      break;
 
-   default:
+    default:
       return null;
   }
 

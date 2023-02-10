@@ -101,6 +101,9 @@ function ResolveLayout(props: any) {
     return <div></div>;
   }
 
+
+ 
+
   function Columns() {
     if (data.layout.columnsCollection.items) {
       const listOfItems = data.layout.columnsCollection.items.map(

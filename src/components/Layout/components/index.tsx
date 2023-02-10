@@ -21,14 +21,18 @@ import Shows from "@/src/components/Layout/components/shows"
 
 function renderComponents(props: any) {
 
-console.log(props)
+ 
+
 
 
   function Sorter(id, item) {
     switch (id.id) {
       case "showlist":
+      
         return  <Shows  id={id.item} />;
-
+        case "showList":
+      
+        return  <Shows  id={id.item} />;
 
       case "schedule":
         return <Schedule id={id.item} />;
@@ -36,13 +40,7 @@ console.log(props)
         return <ShowsOnToday id={id.item} />;
       case "staffList":
         return <Djs id={id.item} />;
-      case "shows":
-        return <h2>SHOW</h2>;
-     
-        case "showList":
-          return <h1>SHOWLIST</h1>;
-
-
+      
 
       case "searchbox":
         return <Search />;
