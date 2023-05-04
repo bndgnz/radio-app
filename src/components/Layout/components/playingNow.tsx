@@ -12,19 +12,14 @@ function Profile(props) {
       "?alt=media&key=AIzaSyAOiHW72zzRZmVNDcGXivXXfJYM75jVOfw"
     );
 console.log(driveLink2)
-    const fetcher = (url:any) => fetch(url).then((r) => r.text());
 
-    const { data} = useSWR(driveLink2, fetcher);
+ 
       
  
 
  
 
-    return <p>aaaaaaaaaaaaa{data }
-    
-    
- 
-    
+    return <p>aaaaaaaaaaaaa 
     
     
     </p>;
