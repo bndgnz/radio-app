@@ -14,25 +14,16 @@ import Djs from "@/src/components/Layout/components/djs";
 import Staff from "@/src/components/Layout/components/staff";
 import PlaylistCollection from "@/src/components/Layout/components/playlistCollection";
 import Search from "@/src/components/Layout/components/search/search";
-import QueryStringPLaylist from "@/src/components/Layout/components/queryStringPlaylist";
-import Shows from "@/src/components/Layout/components/shows"
-
-
+import QueryStringPlaylist from "@/src/components/Layout/components/queryStringPlaylist";
+import Shows from "@/src/components/Layout/components/shows";
 
 function renderComponents(props: any) {
-
- 
-
-
-
   function Sorter(id, item) {
     switch (id.id) {
       case "showlist":
-      
-        return  <Shows  id={id.item} />;
-        case "showList":
-      
-        return  <Shows  id={id.item} />;
+        return <Shows id={id.item} />;
+      case "showList":
+        return <Shows id={id.item} />;
 
       case "schedule":
         return <Schedule id={id.item} />;
@@ -40,7 +31,6 @@ function renderComponents(props: any) {
         return <ShowsOnToday id={id.item} />;
       case "staffList":
         return <Djs id={id.item} />;
-      
 
       case "searchbox":
         return <Search />;
@@ -49,7 +39,7 @@ function renderComponents(props: any) {
         return <PlaylistCollection id={id.item} />;
 
       case "queryStringPlaylist":
-        return <QueryStringPLaylist />;
+        return <QueryStringPlaylist />;
 
       case "staff":
         return <h2>TBD</h2>;

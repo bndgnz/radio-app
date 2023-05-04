@@ -26,7 +26,7 @@ function Showpage(props: any) {
         "https://www.googleapis.com/drive/v3/files/"
       );
       const driveLink2 = driveLink1.replace(
-        "/view?usp=share_link",
+        "/view?usp=sharing",
         "?alt=media&key=AIzaSyAOiHW72zzRZmVNDcGXivXXfJYM75jVOfw"
       );
 
