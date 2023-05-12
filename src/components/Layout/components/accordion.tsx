@@ -26,11 +26,19 @@ function PageAccordion(props: any) {
             ...LayoutId 
             ...CarouselId
             ...MessageId
+            ...AmazonPlaylistId
             __typename
           }
         }
       }
     }
+    fragment AmazonPlaylistId on AmazonPlaylist {
+      title
+      sys {
+        id
+         
+        }
+      }
     fragment PlaylistId on Playlist {
         title
         sys {

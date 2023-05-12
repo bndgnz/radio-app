@@ -2,11 +2,9 @@ import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import { IShowsFields } from "@/src/@types/contentful";
 import ContentService from "@/src/utils/content-service";
-import styles from "../styles/Home.module.css";
+ 
 import Layout from "@/src/components/Layout";
-import SecondaryHero from "@/src/components/Layout/components/secondary";
-import { Children } from "react";
-import IntroductionAndContent from "@/src/components/Layout/components/introAndContent";
+ 
 
 interface Props {
   showPage: IShowsFields;

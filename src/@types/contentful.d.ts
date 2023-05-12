@@ -32,6 +32,46 @@ export interface IAccordion extends Entry<IAccordionFields> {
   };
 }
 
+export interface IAmazonPodcastFields {
+  /** Podcast Image */
+  podcastImage?: Record<string, any> | undefined;
+
+  /** Title */
+  title: string;
+
+  /** Description */
+  description: string;
+
+  /** date */
+  date?: string | undefined;
+
+  /** Amazon URL */
+  amazonUrl: string;
+
+  /** show */
+  show?: IShows | undefined;
+
+  /** slug */
+  slug?: string | undefined;
+}
+
+export interface IAmazonPodcast extends Entry<IAmazonPodcastFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "amazonPodcast";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
 export interface IBannerFields {
   /** Image */
   heroImage?: Asset | undefined;
@@ -117,7 +157,8 @@ export interface ICollectionFields {
         | IEvents
         | IMessage
         | IPartner
-          | IService
+        | IPodcast
+        | IService
         | IShows
         | IStaff
         | IStream
@@ -127,6 +168,7 @@ export interface ICollectionFields {
 
   /** Type */
   type?:
+    | "Podcasts"
     | "Carousel"
     | "Tabs"
     | "Staff"
@@ -351,7 +393,7 @@ export interface ILandingPageFields {
   teReoTitle?: string | undefined;
 
   /** introduction */
-  introduction?: string | undefined;
+  introduction: string;
 
   /** content */
   content?: Document | undefined;
@@ -370,10 +412,13 @@ export interface ILandingPageFields {
         | IIntroductionAndContent
         | ILayout
         | IPlaylist
+        | IPlaylistGrid
+        | IQueryStringPlaylist
         | ISchedule
         | IShowsOnToday
         | ISponsorsList
         | IStaffList
+        | IShowList
       )[]
     | undefined;
 }
@@ -435,11 +480,15 @@ export interface ILayoutColumFields {
         | IAccordion
         | IMessage
         | IPlaylist
+        | IPlaylistGrid
         | ISchedule
+        | ISearchBox
         | IShows
         | IShowsOnToday
+        | ISponsorsList
         | IStaff
         | IStream
+        | IShowList
       )[]
     | undefined;
 
@@ -704,6 +753,9 @@ export interface IPartner extends Entry<IPartnerFields> {
 }
 
 export interface IPlaylistFields {
+  /** Show title */
+  showTitle?: boolean | undefined;
+
   /** Title */
   title: string;
 
@@ -719,8 +771,8 @@ export interface IPlaylistFields {
   /** Hide visual player */
   hideVisualPlayer?: boolean | undefined;
 
-  /** Show title */
-  showTitle?: boolean | undefined;
+  /** Archived Show */
+  archivedShow?: boolean | undefined;
 }
 
 /** An embedded playlist */
@@ -742,33 +794,27 @@ export interface IPlaylist extends Entry<IPlaylistFields> {
   };
 }
 
-export interface IPodcastFields {
+export interface IPlaylistGridFields {
+  /** Show Title */
+  showTitle?: boolean | undefined;
+
   /** Title */
   title?: string | undefined;
 
-  /** content */
-  content?: Document | undefined;
+  /** Playlist Items */
+  playlistItems?: IPlaylist[] | undefined;
 
-  /** image */
-  image: Asset;
+  /** Row Height */
+  rowHeight?: number | undefined;
 
-  /** embed */
-  embed?: string | undefined;
+  /** Column Bootstrap Width */
+  columnBootstrapWidth?: number | undefined;
 
-  /** MP3 Url */
-  mp3Url?: string | undefined;
-
-  /** Related Show */
-  relatedShow?: IShows | undefined;
-
-  /** slug */
-  slug?: string | undefined;
-
-  /** path */
-  path?: string | undefined;
+  /** Show Visual Player */
+  showVisualPlayer?: boolean | undefined;
 }
 
-export interface IPodcast extends Entry<IPodcastFields> {
+export interface IPlaylistGrid extends Entry<IPlaylistGridFields> {
   sys: {
     id: string;
     type: string;
@@ -777,7 +823,35 @@ export interface IPodcast extends Entry<IPodcastFields> {
     locale: string;
     contentType: {
       sys: {
-        id: "podcast";
+        id: "playlistGrid";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
+export interface IQueryStringPlaylistFields {
+  /** Title */
+  title?: string | undefined;
+
+  /** height */
+  height?: number | undefined;
+}
+
+/** A playlist renderer that gets the playlist id from the querystring */
+
+export interface IQueryStringPlaylist
+  extends Entry<IQueryStringPlaylistFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "queryStringPlaylist";
         linkType: "ContentType";
         type: "Link";
       };
@@ -833,6 +907,28 @@ export interface ISchedule extends Entry<IScheduleFields> {
   };
 }
 
+export interface ISearchBoxFields {
+  /** Title */
+  title?: string | undefined;
+}
+
+export interface ISearchBox extends Entry<ISearchBoxFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "searchBox";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
 export interface IServiceFields {
   /** Title */
   title?: string | undefined;
@@ -874,6 +970,31 @@ export interface IService extends Entry<IServiceFields> {
     contentType: {
       sys: {
         id: "service";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
+export interface IShowListFields {
+  /** Title */
+  title?: string | undefined;
+
+  /** Shows */
+  shows?: IShows[] | undefined;
+}
+
+export interface IShowList extends Entry<IShowListFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "showList";
         linkType: "ContentType";
         type: "Link";
       };
@@ -1088,7 +1209,7 @@ export interface IStaffFields {
   photo?: Asset | undefined;
 
   /** ShortBio */
-  shortBio?: string | undefined;
+  shortBio: string;
 
   /** slug */
   slug?: string | undefined;
@@ -1232,6 +1353,7 @@ export interface IVideo extends Entry<IVideoFields> {
 
 export type CONTENT_TYPE =
   | "accordion"
+  | "amazonPodcast"
   | "banner"
   | "carousel"
   | "collection"
@@ -1251,9 +1373,12 @@ export type CONTENT_TYPE =
   | "navigationLink"
   | "partner"
   | "playlist"
-  | "podcast"
+  | "playlistGrid"
+  | "queryStringPlaylist"
   | "schedule"
+  | "searchBox"
   | "service"
+  | "showList"
   | "shows"
   | "showSlot"
   | "showsOnToday"
@@ -1267,6 +1392,7 @@ export type CONTENT_TYPE =
 
 export type IEntry =
   | IAccordion
+  | IAmazonPodcast
   | IBanner
   | ICarousel
   | ICollection
@@ -1286,9 +1412,12 @@ export type IEntry =
   | INavigationLink
   | IPartner
   | IPlaylist
-  | IPodcast
+  | IPlaylistGrid
+  | IQueryStringPlaylist
   | ISchedule
+  | ISearchBox
   | IService
+  | IShowList
   | IShows
   | IShowSlot
   | IShowsOnToday

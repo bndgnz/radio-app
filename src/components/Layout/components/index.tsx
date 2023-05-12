@@ -16,10 +16,20 @@ import PlaylistCollection from "@/src/components/Layout/components/playlistColle
 import Search from "@/src/components/Layout/components/search/search";
 import QueryStringPlaylist from "@/src/components/Layout/components/queryStringPlaylist";
 import Shows from "@/src/components/Layout/components/shows";
+import AmazonPlaylist from "@/src/components/Layout/components/amazonPlaylist";
 
 function renderComponents(props: any) {
+ console.log(props)
+
+
   function Sorter(id, item) {
     switch (id.id) {
+
+      case "amazonPlaylist":
+        return <AmazonPlaylist id={id.item} />;
+        case "amazonplaylist":
+          return <AmazonPlaylist id={id.item} />;
+
       case "showlist":
         return <Shows id={id.item} />;
       case "showList":

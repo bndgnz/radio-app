@@ -6,56 +6,82 @@ function Hits({ searchState, searchResults }) {
   function Resolver(hit) {
     let title;
     let url;
+    var desc ="";
+    let show;
 let type;
-
+console.log(hit)
  
 
     switch (hit.hit.sys.contentType.sys.id) {
       case "shows":
         url = "/shows/" + hit.hit.fields.slug[["en-US"]];
+        desc = hit.hit.fields.introduction[["en-US"]];
 type ="Show";
 
         break;
       case "staff":
         url = "/djs#" + hit.hit.fields.title[["en-US"]].replace(/ /g, "-").toLowerCase();
-  type="DJ"
+        desc = hit.hit.fields.shortBio[["en-US"]];
+  
+  
+        type="DJ"
         break;
 
       case "sponsor":
         url = "/sponsors#" + hit.hit.fields.title[["en-US"]].replace(/ /g, "-").toLowerCase();
+        desc = hit.hit.fields.introduction[["en-US"]];
 type="Sponsor"
         break;
 
         case "landingPage":
             url = hit.hit.fields.slug[["en-US"]];
+            desc = hit.hit.fields.introduction[["en-US"]];
     type="Content"
             break;
 
 
+            case "amazonPodcast":
+              url = "/podcast/" + hit.hit.fields.slug[["en-US"]];
+              desc = hit.hit.fields.description[["en-US"]];
+   
 
 
-      case "playlist":
+
+      type = "Podcast"
+              break;
+            default:
+            // code block
+
+              case "playlist":
         url = "/playlist?playlist=" + hit.hit.sys.id;
 type = "Playlist"
+ 
         break;
-      default:
+     
       // code block
     }
 
     return (
  <div className="row">
       
-      <div className="col-10 col-xs-12">
+      <div className="col-10 col-xs-12"> 
       <a href={url} title={title}>
         {hit.hit.fields.title[["en-US"]]}{" "}
             
       </a>
+    
       </div>
 
-      <div className="col-2 col-xs-12">{type} </div>
-
+      <div className="col-2 col-xs-12 search-results-type">  {type} </div>
+      <div className="search-results-description">{desc}</div>
 
       </div>
+
+
+
+
+
+
     );
   }
 

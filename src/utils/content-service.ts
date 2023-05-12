@@ -2,7 +2,7 @@ import { createClient } from "contentful";
 import { config } from "dotenv";
 import { ILandingPageFields } from "../@types/contentful";
 import { IShowsFields } from "../@types/contentful";
-import {IPodcastFields} from "../@types/contentful";
+import {IAmazonPodcastFields} from "../@types/contentful";
 
 /*
  * We tell TypeScript that those environment variables are always defined.
@@ -50,8 +50,8 @@ export default class ContentService {
 
   async getPodcastBySlug(slug: string) {
     return (
-      await this.client.getEntries<IPodcastFields>({
-        content_type: "podcast",
+      await this.client.getEntries<IAmazonPodcastFields>({
+        content_type: "amazonPodcast",
         "fields.slug": slug,
       })
     ).items[0];

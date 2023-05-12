@@ -111,6 +111,8 @@ const MENU = gql`
 `;
 
 function Layout(props: any) {
+
+
   const { data, loading, error } = useQuery(MENU);
   if (loading) {
     return <div></div>;
