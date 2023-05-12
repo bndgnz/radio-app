@@ -7441,6 +7441,8 @@ text-align:center;
   padding: 10px;
   text-align: center;
   box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+  margin-left:auto;
+  margin-right:auto;
   
 }
 .show-page-audio-controls audio {
@@ -8097,4 +8099,46 @@ input#algolia_search::placeholder {
  
 input#algolia_search:focus::placeholder {
   color: transparent;
+}
+
+
+
+.search-results-description {
+
+  padding: 0px 15px;
+  font-size: 90%;
+
+
+}
+
+.search-results-type {    font-weight: 700;   }
+
+.col-12.col-lg-6.podcast-audio {
+  text-align: center;
+  margin-top: 20px;
+}
+.col-12.col-lg-6.podcast-audio audio {
+  width: 100% !important;
+}
+
+
+.amazonplaylist-audio audio {
+  width: 100%;
+  padding: 5px;
+}
+
+.amazon-podcast-date {
+  text-align: center;
+  font-size: 80%;
+}
+
+.row.amazon-playlist-row {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+ 
+}
+
+
+.amazon-podcast-card-description {
+  font-size: 80%;
 }
