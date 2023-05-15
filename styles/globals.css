@@ -8147,3 +8147,26 @@ input#algolia_search:focus::placeholder {
   overflow: hidden;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;}
+
+  .col-lg-2.col-xs-12.amazon-podcast-image img {
+    max-height: 95%;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.amazonplaylist-audio audio {
+  padding: 10px;
+}
+
+
+.amazon-podcast-content {
+  font-size: 83%;
+}
+section.playlist.container.page-block {
+  margin-bottom: 20px;
+  max-width: 1110px;
+}
+
+.amazonplaylist-audio {
+  text-align: center;
+}
