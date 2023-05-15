@@ -36,22 +36,12 @@ function Date (date :any) {
     let year = date.date.substring(0, 4);
     let month = date.date.substring(5, 7);
     let day = date.date.substring(8, 10);
- 
-
-
-
-    return (
-
+     return (
 <strong><strong>{day +"-"+month  +"-" +year }</strong> </strong> 
 
     )
 
-
-
 }
-
- 
-
   function Items() {
     const listOfItems = data.amazonPlaylist.podcastsCollection.items.map(
       (podcast, idx) => {
