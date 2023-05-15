@@ -3,6 +3,7 @@ import Head from "next/head";
 import { ILandingPageFields } from "../src/@types/contentful";
 import ContentService from "@/src/utils/content-service";
 import Layout from "@/src/components/Layout";
+import Seo from "@/src/components/Layout/components/seo"
  
 
 interface Props {
@@ -21,6 +22,9 @@ const LandingPage: NextPage<Props> = ({
   },
 }) => (
   <>
+<Seo title={title} description={introduction} />
+
+
     <Layout
       title={title}
       image={image.fields.file.url}

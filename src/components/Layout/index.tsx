@@ -73,9 +73,7 @@ const MENU = gql`
           image {
             url
           }
-          backgroundColor {
-            colorName
-          }
+          
           iconClass
         }
       }

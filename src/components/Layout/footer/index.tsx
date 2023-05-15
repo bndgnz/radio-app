@@ -1,9 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-//import SocialLinks from "../../components/Common/SocialLinks";
-//import Subscribe from "../../components/Common/Subscribe";
-///import Quicklinks from "../../components/Common/Quicklinks";
 import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 
 function Footer({ data }: any) {
@@ -14,11 +11,7 @@ function Footer({ data }: any) {
   const [rightColumMessage, setRightColumMessage] = useState<any>([]);
   const [copyright, setCopyright] = useState("");
   const [websiteLink, setWebLinkState] = useState("");
-  const [backgImg, setBackImg] = useState({
-    backgroundImage: "",
-    backgroundColor: "",
-  });
-
+   
   useEffect(() => {
     setFooterData(data);
 
@@ -30,11 +23,7 @@ function Footer({ data }: any) {
     );
     setCopyright(data.footerCollection.items[0].copyright);
     setWebLinkState("d-none");
-    setBackImg({
-      backgroundImage: data.footerCollection.items[0].rightColumn.image,
-      backgroundColor:
-        data.footerCollection.items[0].rightColumn.backgroundColor,
-    });
+    
   }, []);
 
   return (

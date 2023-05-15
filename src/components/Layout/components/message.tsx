@@ -17,10 +17,7 @@ function Message(props: any) {
         url
       }
       
-      backgroundColor {
-        colorName
-        hex
-      }
+      
       
       iconClass
     }
