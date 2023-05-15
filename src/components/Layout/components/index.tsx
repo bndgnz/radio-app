@@ -17,13 +17,17 @@ import Search from "@/src/components/Layout/components/search/search";
 import QueryStringPlaylist from "@/src/components/Layout/components/queryStringPlaylist";
 import Shows from "@/src/components/Layout/components/shows";
 import AmazonPlaylist from "@/src/components/Layout/components/amazonPlaylist";
+import LatestAmazonPodcasts from "@/src/components/Layout/components/latestAmazonPodcasts";
 
 function renderComponents(props: any) {
- console.log(props)
+
 
 
   function Sorter(id, item) {
     switch (id.id) {
+
+      case "latestPodcasts":
+        return <LatestAmazonPodcasts id={id.item} />;
 
       case "amazonPlaylist":
         return <AmazonPlaylist id={id.item} />;

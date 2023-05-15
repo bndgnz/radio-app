@@ -8142,3 +8142,8 @@ input#algolia_search:focus::placeholder {
 .amazon-podcast-card-description {
   font-size: 80%;
 }
+
+.amazon-podcast-card-description-latest-list {    display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;}

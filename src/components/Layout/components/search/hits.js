@@ -6,82 +6,70 @@ function Hits({ searchState, searchResults }) {
   function Resolver(hit) {
     let title;
     let url;
-    var desc ="";
+    var desc = "";
     let show;
-let type;
-console.log(hit)
- 
+    let type;
+    
 
     switch (hit.hit.sys.contentType.sys.id) {
       case "shows":
         url = "/shows/" + hit.hit.fields.slug[["en-US"]];
         desc = hit.hit.fields.introduction[["en-US"]];
-type ="Show";
+        type = "Show";
 
         break;
       case "staff":
-        url = "/djs#" + hit.hit.fields.title[["en-US"]].replace(/ /g, "-").toLowerCase();
+        url =
+          "/djs#" +
+          hit.hit.fields.title[["en-US"]].replace(/ /g, "-").toLowerCase();
         desc = hit.hit.fields.shortBio[["en-US"]];
-  
-  
-        type="DJ"
+
+        type = "DJ";
         break;
 
       case "sponsor":
-        url = "/sponsors#" + hit.hit.fields.title[["en-US"]].replace(/ /g, "-").toLowerCase();
+        url =
+          "/sponsors#" +
+          hit.hit.fields.title[["en-US"]].replace(/ /g, "-").toLowerCase();
         desc = hit.hit.fields.introduction[["en-US"]];
-type="Sponsor"
+        type = "Sponsor";
         break;
 
-        case "landingPage":
-            url = hit.hit.fields.slug[["en-US"]];
-            desc = hit.hit.fields.introduction[["en-US"]];
-    type="Content"
-            break;
+      case "landingPage":
+        url = hit.hit.fields.slug[["en-US"]];
+        desc = hit.hit.fields.introduction[["en-US"]];
+        type = "Content";
+        break;
 
+      case "amazonPodcast":
+        url = "/podcast/" + hit.hit.fields.slug[["en-US"]];
+        desc = hit.hit.fields.description[["en-US"]];
 
-            case "amazonPodcast":
-              url = "/podcast/" + hit.hit.fields.slug[["en-US"]];
-              desc = hit.hit.fields.description[["en-US"]];
-   
+        type = "Podcast";
+        break;
+      default:
+      // code block
 
-
-
-      type = "Podcast"
-              break;
-            default:
-            // code block
-
-              case "playlist":
+      case "playlist":
         url = "/playlist?playlist=" + hit.hit.sys.id;
-type = "Playlist"
- 
+        type = "Playlist";
+
         break;
-     
+
       // code block
     }
 
     return (
- <div className="row">
-      
-      <div className="col-10 col-xs-12"> 
-      <a href={url} title={title}>
-        {hit.hit.fields.title[["en-US"]]}{" "}
-            
-      </a>
-    
+      <div className="row">
+        <div className="col-10 col-xs-12">
+          <a href={url} title={title}>
+            {hit.hit.fields.title[["en-US"]]}{" "}
+          </a>
+        </div>
+
+        <div className="col-2 col-xs-12 search-results-type"> {type} </div>
+        <div className="search-results-description">{desc}</div>
       </div>
-
-      <div className="col-2 col-xs-12 search-results-type">  {type} </div>
-      <div className="search-results-description">{desc}</div>
-
-      </div>
-
-
-
-
-
-
     );
   }
 
@@ -97,20 +85,15 @@ type = "Playlist"
       {searchResults?.hits.length > 0 && validQuery && (
         <>
           <div className="search-results-list container">
-       
             {searchResults.hits.map((hit, index) => (
               <div
                 tabIndex={index}
                 key={hit.objectID}
-                className="search-results-result">
+                className="search-results-result"
+              >
                 <Resolver hit={hit} />
-              </div> 
-
-
-
-
+              </div>
             ))}
-           
           </div>
         </>
       )}

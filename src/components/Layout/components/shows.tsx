@@ -57,7 +57,7 @@ function Shows(props: any) {
   }
  
 
-console.log(data)
+ 
 
 
   function LatestShow(props) {

@@ -11,7 +11,7 @@ function Profile(props) {
       "/view?usp=share_link",
       "?alt=media&key=AIzaSyAOiHW72zzRZmVNDcGXivXXfJYM75jVOfw"
     );
-console.log(driveLink2)
+ 
 
  
       
