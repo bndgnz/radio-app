@@ -67,7 +67,7 @@ function Items() {
               <div className="col-lg-9 col-xs-12 amazon-podcast-content">
                 <div className=" amazon-podcast-card-title"><strong>{podcast.title}</strong></div>
 
-                <div class=" amazon-podcast-card-description-latest-list">{podcast.description}</div>
+                <div className=" amazon-podcast-card-description-latest-list">{podcast.description}</div>
              
               <strong>  <Link href={"podcast/"+podcast.slug}>Read more</Link></strong>
                 </div>
