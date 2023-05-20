@@ -21,6 +21,8 @@ import LatestAmazonPodcasts from "@/src/components/Layout/components/latestAmazo
 
 function renderComponents(props: any) {
 
+  console.log(props)
+
 
 
   function Sorter(id, item) {
@@ -46,7 +48,7 @@ function renderComponents(props: any) {
       case "staffList":
         return <Djs id={id.item} />;
 
-      case "searchbox":
+      case "searchBox":
         return <Search />;
 
       case "playlistGrid":

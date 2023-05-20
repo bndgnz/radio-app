@@ -25,7 +25,7 @@ function SecondaryHero(props: any) {
                   <h1>{props.title} </h1>
                   <h3 className="banner-subtitle">{props.tereo}</h3>
                   <h4>{props.showIntro}</h4>
-                  <div className="secondary-search"><Search /></div>
+            
 
 
                 </div>
@@ -40,7 +40,9 @@ function SecondaryHero(props: any) {
             background-position: center;
           }
         `}</style>
-     
+
+<section className="container page-block search-box"><Search /></section>
+ 
       </>
     );
   }

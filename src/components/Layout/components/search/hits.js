@@ -8,14 +8,14 @@ function Hits({ searchState, searchResults }) {
     let url;
     var desc = "";
     let show;
+  
     let type;
-    
+    console.log(hit)
 
     switch (hit.hit.sys.contentType.sys.id) {
       case "shows":
         url = "/shows/" + hit.hit.fields.slug[["en-US"]];
-        desc = hit.hit.fields.introduction[["en-US"]];
-        type = "Show";
+ 
 
         break;
       case "staff":
@@ -44,6 +44,8 @@ function Hits({ searchState, searchResults }) {
       case "amazonPodcast":
         url = "/podcast/" + hit.hit.fields.slug[["en-US"]];
         desc = hit.hit.fields.description[["en-US"]];
+        show ="show"
+       
 
         type = "Podcast";
         break;
@@ -61,14 +63,15 @@ function Hits({ searchState, searchResults }) {
 
     return (
       <div className="row">
-        <div className="col-10 col-xs-12">
+        <div className="col-12 col-md-10">
           <a href={url} title={title}>
             {hit.hit.fields.title[["en-US"]]}{" "}
           </a>
+          <div className="search-results-description">{desc}</div>
         </div>
 
-        <div className="col-2 col-xs-12 search-results-type"> {type} </div>
-        <div className="search-results-description">{desc}</div>
+        <div className="col-12 col-md-2 search-results-type"> {type} </div>
+       
       </div>
     );
   }
@@ -76,7 +79,7 @@ function Hits({ searchState, searchResults }) {
   return (
     <>
       {searchResults?.hits.length === 0 && validQuery && (
-        <div className="search-results-list">
+        <div className="search-results-list container page-block">
           {" "}
           <p>No results found!</p>
         </div>
@@ -84,7 +87,7 @@ function Hits({ searchState, searchResults }) {
 
       {searchResults?.hits.length > 0 && validQuery && (
         <>
-          <div className="search-results-list container">
+          <div className="container page-block search-results-list">
             {searchResults.hits.map((hit, index) => (
               <div
                 tabIndex={index}

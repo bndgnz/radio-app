@@ -1546,7 +1546,7 @@ $value_seven: 1550px; /* full */
     }
 
     .main-banner {
-        height: 892px;
+        height: 692px;
         padding: {
             top: 250px;
             bottom: 320px;
@@ -2330,7 +2330,7 @@ $value_seven: 1550px; /* full */
 /* Min width: 1550px */
 @media only #{$media} and ($feature_min : $value_seven) {
     .main-banner {
-        height: 752px;
+        height: 622px;
     }
 }
 
@@ -2338,14 +2338,14 @@ $value_seven: 1550px; /* full */
 /* Min width: 1550px */
 @media only #{$media} and ($feature_max : $value_seven) {
     .main-banner {
-        height: 752px;
+        height: 622px;
     }
 }
 
 /* Min width: 1550px */
 @media only #{$media} and ($feature_max : $value_four) {
     .main-banner {
-        height: 852px;
+        height: 722px;
     }
 }
 

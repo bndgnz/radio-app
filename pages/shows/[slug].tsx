@@ -2,7 +2,7 @@ import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import { IShowsFields } from "@/src/@types/contentful";
 import ContentService from "@/src/utils/content-service";
- 
+import Seo from "@/src/components/Layout/components/seo"
 import Layout from "@/src/components/Layout";
  
 
@@ -25,7 +25,7 @@ const ShowPage: NextPage<Props> = ({
     sponsor,
   },
 }) => (
-  <>
+  <><Seo title={title} description={introduction} />
     <Layout
       title={title}
       image={image.fields.file.url}

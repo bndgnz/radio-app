@@ -36,6 +36,10 @@ function Message(props: any) {
     return <div></div>;
   }
 
+
+
+
+  
   function Date(date: any) {
     let year = date.date.substring(0, 4);
     let month = date.date.substring(5, 7);
@@ -51,11 +55,11 @@ function Message(props: any) {
       (podcast, idx) => {
         return (
           <div className="row amazon-playlist-row" key={idx}>
-            <div className="col-lg-1 col-xs-12 amazon-podcast-image">
+            <div className="col-lg-2 col-xs-12 amazon-podcast-image">
               <img src={podcast.podcastImage[0].url} alt="..." />
             </div>
 
-            <div className="col-lg-9 col-xs-12 amazon-podcast-content">
+            <div className="col-lg-8 col-xs-12 amazon-podcast-content">
               <div className=" amazon-podcast-card-title">
                 <strong>{podcast.title}</strong>
               </div>
@@ -83,6 +87,8 @@ function Message(props: any) {
         );
       }
     );
+
+  
 
     return <div> {listOfItems}</div>;
   }

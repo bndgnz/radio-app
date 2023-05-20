@@ -8012,30 +8012,19 @@ section.playlist.container.page-block {
 
 
 .search-results-list {
-  position: absolute;
-  width: 100%;
-  background-color: #fff;
-  z-index: 99;
-  z-index: 199;
-  max-height: 300px;
-  overflow: scroll;
-  max-width: 540px;
-  min-height: 250px;
-  max-height: 250px;
-  right: 30px;
-  margin-top: 21px;
-  box-shadow: rgb(99 99 99 / 40%) 10px 12px 8px 0px;
-  border-radius: 5px;
-  padding: 5px;
-  width: 100%;
-  overflow-x: clip;
+margin-bottom:20px
 }
 
 input#algolia_search {
   padding: 15px;
-  border-radius: 10px;
+ 
   position: relative;
   left: -7px;
+  max-height: 40px;
+  border: 0px;
+  width: 99%;
+  margin-right: 10px;
+  margin-left: 12px;
 }
 
 .search-results-result {
@@ -8086,11 +8075,7 @@ a.tooltiplink.playlist-title-link {
   font-weight: 800;
 }
 
-
-.secondary-search .search-results-list.container {
-  position: absolute;
-  left: 0px;
-}
+ 
 
 input#algolia_search::placeholder {
   color: #bf1a2c;font-weight:600;width:280px
@@ -8111,7 +8096,7 @@ input#algolia_search:focus::placeholder {
 
 }
 
-.search-results-type {    font-weight: 700;   }
+.search-results-type {    font-weight: 700; text-align: right;   }
 
 .col-12.col-lg-6.podcast-audio {
   text-align: center;
@@ -8169,4 +8154,34 @@ section.playlist.container.page-block {
 
 .amazonplaylist-audio {
   text-align: center;
+}
+
+
+section.container.page-block.search-box {
+  margin-bottom: 20px;
+  max-width: 1110px;
+  padding: 0px;
+  max-height: 40px;
+}
+
+input#algolia_search {
+  padding: 15px;
+ 
+  position: relative;
+  left: -7px;
+  max-height: 40px;
+  border: 0px;
+  width: 100%;
+}
+.search-results-result a {
+  font-weight: 700;
+  text-decoration: underline;
+  margin-left: 17px;
+}
+section.container.page-block.search-box {
+  margin-bottom: 20px;
+  max-width: 1110px;
+  padding: 0px;
+  max-height: 40px;
+ 
 }
