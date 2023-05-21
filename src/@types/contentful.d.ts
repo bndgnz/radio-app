@@ -9,7 +9,15 @@ export interface IAccordionFields {
 
   /** Accordion Items */
   accordionItems?:
-    | (ICarousel | ILayout | IMessage | IPlaylist | ISchedule)[]
+    | (
+        | ICarousel
+        | ILayout
+        | IMessage
+        | IPlaylist
+        | ISchedule
+        | IAmazonPodcast
+        | IAmazonPlaylist
+      )[]
     | undefined;
 }
 
@@ -32,9 +40,37 @@ export interface IAccordion extends Entry<IAccordionFields> {
   };
 }
 
+export interface IAmazonPlaylistFields {
+  /** Title */
+  title: string;
+
+  /** Description */
+  description: string;
+
+  /** Podcasts */
+  podcasts: IAmazonPodcast[];
+}
+
+export interface IAmazonPlaylist extends Entry<IAmazonPlaylistFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "amazonPlaylist";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
 export interface IAmazonPodcastFields {
   /** Podcast Image */
-  podcastImage?: Record<string, any> | undefined;
+  podcastImage: Record<string, any>;
 
   /** Title */
   title: string;
@@ -43,13 +79,13 @@ export interface IAmazonPodcastFields {
   description: string;
 
   /** date */
-  date?: string | undefined;
+  date: string;
 
   /** Amazon URL */
   amazonUrl: string;
 
   /** show */
-  show?: IShows | undefined;
+  show: IShows;
 
   /** slug */
   slug?: string | undefined;
@@ -135,83 +171,6 @@ export interface ICarousel extends Entry<ICarouselFields> {
     contentType: {
       sys: {
         id: "carousel";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
-export interface ICollectionFields {
-  /** Title */
-  title: string;
-
-  /** Introduction */
-  introduction?: string | undefined;
-
-  /** Collection Items */
-  collectionItems?:
-    | (
-        | IBanner
-        | IBlog
-        | IEvents
-        | IMessage
-        | IPartner
-        | IPodcast
-        | IService
-        | IShows
-        | IStaff
-        | IStream
-        | IVideo
-      )[]
-    | undefined;
-
-  /** Type */
-  type?:
-    | "Podcasts"
-    | "Carousel"
-    | "Tabs"
-    | "Staff"
-    | "Sponsors"
-    | "Messages"
-    | undefined;
-}
-
-export interface ICollection extends Entry<ICollectionFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "collection";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
-export interface IColorFields {
-  /** Color name */
-  colorName?: string | undefined;
-
-  /** Hex */
-  hex?: string | undefined;
-}
-
-export interface IColor extends Entry<IColorFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "color";
         linkType: "ContentType";
         type: "Link";
       };
@@ -419,6 +378,9 @@ export interface ILandingPageFields {
         | ISponsorsList
         | IStaffList
         | IShowList
+        | IAmazonPlaylist
+        | ILatestPodcasts
+        | ISearchBox
       )[]
     | undefined;
 }
@@ -435,6 +397,37 @@ export interface ILandingPage extends Entry<ILandingPageFields> {
     contentType: {
       sys: {
         id: "landingPage";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
+export interface ILatestPodcastsFields {
+  /** Title */
+  title: string;
+
+  /** Filter by Show */
+  filterByShow?: IShows | undefined;
+
+  /** Number to show */
+  numberToShow: number;
+
+  /** Show title */
+  showTitle?: boolean | undefined;
+}
+
+export interface ILatestPodcasts extends Entry<ILatestPodcastsFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "latestPodcasts";
         linkType: "ContentType";
         type: "Link";
       };
@@ -489,6 +482,9 @@ export interface ILayoutColumFields {
         | IStaff
         | IStream
         | IShowList
+        | IAmazonPlaylist
+        | IAmazonPodcast
+        | ILatestPodcasts
       )[]
     | undefined;
 
@@ -611,9 +607,6 @@ export interface IMessageFields {
   /** Image */
   image?: Asset | undefined;
 
-  /** Background color */
-  backgroundColor?: IColor | undefined;
-
   /** Icon Class */
   iconClass?: string | undefined;
 }
@@ -630,45 +623,6 @@ export interface IMessage extends Entry<IMessageFields> {
     contentType: {
       sys: {
         id: "message";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
-export interface IMetatagsFields {
-  /** Internal Name */
-  internalName: string;
-
-  /** Meta Title */
-  metaTitle?: string | undefined;
-
-  /** Meta Description */
-  metaDescription?: string | undefined;
-
-  /** Canonical Url */
-  canonicalUrl?: string | undefined;
-
-  /** No Follow */
-  noFollow?: boolean | undefined;
-
-  /** No Index */
-  noIndex?: boolean | undefined;
-}
-
-/** A collection of meta data fields - generally used for content intended for web distribution, i.e. "Page" types.  */
-
-export interface IMetatags extends Entry<IMetatagsFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "metatags";
         linkType: "ContentType";
         type: "Link";
       };
@@ -699,52 +653,6 @@ export interface INavigationLink extends Entry<INavigationLinkFields> {
     contentType: {
       sys: {
         id: "navigationLink";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
-export interface IPartnerFields {
-  /** Title */
-  title: string;
-
-  /** Logo */
-  logo: Asset;
-
-  /** Introduction */
-  introduction: string;
-
-  /** Content */
-  content: Document;
-
-  /** URL */
-  url?: string | undefined;
-
-  /** Related Content */
-  relatedContent?: (IBlog | ICaseStudy | INews)[] | undefined;
-
-  /** slug */
-  slug?: string | undefined;
-
-  /** SEO */
-  seo?: IMetatags | undefined;
-
-  /** path */
-  path?: string | undefined;
-}
-
-export interface IPartner extends Entry<IPartnerFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "partner";
         linkType: "ContentType";
         type: "Link";
       };
@@ -1033,9 +941,6 @@ export interface IShowsFields {
   /** DJ */
   dj: IStaff[];
 
-  /** tags */
-  tags?: ITag[] | undefined;
-
   /** Components */
   components?:
     | (
@@ -1045,6 +950,9 @@ export interface IShowsFields {
         | ISchedule
         | IStream
         | IVideo
+        | IAmazonPlaylist
+        | IAmazonPodcast
+        | ILatestPodcasts
       )[]
     | undefined;
 
@@ -1293,30 +1201,6 @@ export interface IStream extends Entry<IStreamFields> {
   };
 }
 
-export interface ITagFields {
-  /** Tag Name */
-  tagName: string;
-}
-
-/** A single field tag item for categorisation */
-
-export interface ITag extends Entry<ITagFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "tag";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
 export interface IVideoFields {
   /** Image */
   image?: Asset | undefined;
@@ -1353,25 +1237,23 @@ export interface IVideo extends Entry<IVideoFields> {
 
 export type CONTENT_TYPE =
   | "accordion"
+  | "amazonPlaylist"
   | "amazonPodcast"
   | "banner"
   | "carousel"
-  | "collection"
-  | "color"
   | "config"
   | "footer"
   | "headerConfiguration"
   | "htmlBlock"
   | "introductionAndContent"
   | "landingPage"
+  | "latestPodcasts"
   | "layout"
   | "layoutColum"
   | "linkedIcon"
   | "menu"
   | "message"
-  | "metatags"
   | "navigationLink"
-  | "partner"
   | "playlist"
   | "playlistGrid"
   | "queryStringPlaylist"
@@ -1387,30 +1269,27 @@ export type CONTENT_TYPE =
   | "staff"
   | "staffList"
   | "stream"
-  | "tag"
   | "video";
 
 export type IEntry =
   | IAccordion
+  | IAmazonPlaylist
   | IAmazonPodcast
   | IBanner
   | ICarousel
-  | ICollection
-  | IColor
   | IConfig
   | IFooter
   | IHeaderConfiguration
   | IHtmlBlock
   | IIntroductionAndContent
   | ILandingPage
+  | ILatestPodcasts
   | ILayout
   | ILayoutColum
   | ILinkedIcon
   | IMenu
   | IMessage
-  | IMetatags
   | INavigationLink
-  | IPartner
   | IPlaylist
   | IPlaylistGrid
   | IQueryStringPlaylist
@@ -1426,7 +1305,6 @@ export type IEntry =
   | IStaff
   | IStaffList
   | IStream
-  | ITag
   | IVideo;
 
 export type LOCALE_CODE = "en-US";

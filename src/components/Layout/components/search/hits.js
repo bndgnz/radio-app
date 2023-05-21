@@ -87,7 +87,7 @@ function Hits({ searchState, searchResults }) {
 
       {searchResults?.hits.length > 0 && validQuery && (
         <>
-          <div className="container page-block search-results-list">
+          <div className="container page-block search-results-list" id="hits">
             {searchResults.hits.map((hit, index) => (
               <div
                 tabIndex={index}

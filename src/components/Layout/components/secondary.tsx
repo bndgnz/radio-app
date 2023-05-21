@@ -26,12 +26,14 @@ function SecondaryHero(props: any) {
                   <h3 className="banner-subtitle">{props.tereo}</h3>
                   <h4>{props.showIntro}</h4>
             
-
+                  <section className="container page-block search-box"><Search /></section>
 
                 </div>
               </div>
             </div>
           </div>
+
+     
         </div>
         <style jsx>{`
           .page-title-area {
@@ -41,7 +43,7 @@ function SecondaryHero(props: any) {
           }
         `}</style>
 
-<section className="container page-block search-box"><Search /></section>
+
  
       </>
     );

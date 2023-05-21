@@ -16,6 +16,7 @@ function AmazonPlaylist(props: any) {
             description
             podcastImage
             date
+            slug
           }
         }
       }
@@ -61,7 +62,7 @@ function Date (date :any) {
  </div>
 
               <div className="col-lg-6 col-xs-12 amazon-podcast-content">
-                <div className=" amazon-podcast-card-title"><strong>{podcast.title}</strong></div>
+                <div className=" amazon-podcast-card-title"><strong><a href={"../podcast/"+ podcast.slug}>{podcast.title}</a></strong></div>
                 <div className=" amazon-podcast-card-description">{podcast.description}</div>
              
                 </div>
