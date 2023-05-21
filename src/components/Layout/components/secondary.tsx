@@ -32,7 +32,6 @@ function SecondaryHero(props: any) {
               </div>
             </div>
           </div>
-
      
         </div>
         <style jsx>{`
