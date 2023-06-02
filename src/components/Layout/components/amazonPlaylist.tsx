@@ -9,8 +9,8 @@ function AmazonPlaylist(props: any) {
     query GetPLaylist($id: String!) {
       amazonPlaylist(id: $id) {
         title
-        podcastsCollection   {
-          items  {
+        podcastsCollection  {
+          items   {
             title
             amazonUrl
             description

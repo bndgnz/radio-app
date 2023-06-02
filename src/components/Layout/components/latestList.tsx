@@ -12,7 +12,7 @@ function Message(props: any) {
   const show = props.filter;
   const MESSAGE = gql`
     query GetList($limit: Int!) {
-      amazonPodcastCollection(limit: $limit) {
+      amazonPodcastCollection(limit: $limit, order:date_DESC ) {
         items {
           amazonUrl
           title
@@ -61,7 +61,7 @@ function Message(props: any) {
 
             <div className="col-lg-8 col-xs-12 amazon-podcast-content">
               <div className=" amazon-podcast-card-title">
-                <strong>{podcast.title}</strong>
+              <a href={"../podcast/" + podcast.slug} title={"Read more about " +podcast.title } ><strong>{podcast.title}</strong></a> 
               </div>
 
               <div className=" amazon-podcast-card-description-latest-list">

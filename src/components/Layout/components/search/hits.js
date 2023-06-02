@@ -3,11 +3,31 @@ import { connectStateResults } from "react-instantsearch-dom";
 function Hits({ searchState, searchResults }) {
   const validQuery = searchState.query?.length >= 3;
 
+
+  function Date (date ) {
+
+if (date.date != null) {
+
+    let year = date.date.substring(0, 4);
+    let month = date.date.substring(5, 7);
+    let day = date.date.substring(8, 10);
+     return (
+<strong><strong>{day +"-"+month  +"-" +year }</strong> </strong> 
+
+    )
+     }
+
+}
+
+
+
+
   function Resolver(hit) {
     let title;
     let url;
     var desc = "";
     let show;
+    let date;
   
     let type;
     console.log(hit)
@@ -15,7 +35,7 @@ function Hits({ searchState, searchResults }) {
     switch (hit.hit.sys.contentType.sys.id) {
       case "shows":
         url = "/shows/" + hit.hit.fields.slug[["en-US"]];
- 
+   type="Show"
 
         break;
       case "staff":
@@ -45,8 +65,7 @@ function Hits({ searchState, searchResults }) {
         url = "/podcast/" + hit.hit.fields.slug[["en-US"]];
         desc = hit.hit.fields.description[["en-US"]];
         show ="show"
-       
-
+        date = hit.hit.fields.date[["en-US"]];
         type = "Podcast";
         break;
       default:
@@ -64,13 +83,13 @@ function Hits({ searchState, searchResults }) {
     return (
       <div className="row">
         <div className="col-12 col-md-10">
-          <a href={url} title={title}>
+          <a href={url} title={title} target="_blank">
             {hit.hit.fields.title[["en-US"]]}{" "}
           </a>
           <div className="search-results-description">{desc}</div>
         </div>
 
-        <div className="col-12 col-md-2 search-results-type"> {type} </div>
+        <div className="col-12 col-md-2 search-results-type"> {type} <br /><Date date={date} /></div>
        
       </div>
     );
