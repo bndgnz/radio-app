@@ -83,7 +83,7 @@ if (date.date != null) {
     return (
       <div className="row">
         <div className="col-12 col-md-10">
-          <a href={url} title={title} target="_blank">
+          <a href={url} title={title} target="_blank"  rel="noreferrer">
             {hit.hit.fields.title[["en-US"]]}{" "}
           </a>
           <div className="search-results-description">{desc}</div>
