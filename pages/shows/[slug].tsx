@@ -68,6 +68,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
         slug: showPage.fields.slug,
       },
     })),
-    fallback: false,
+    fallback: "blocking",
   };
 };
