@@ -65,6 +65,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
         slug: landingPage.fields.slug,
       },
     })),
-    fallback: false,
+    fallback: true,
   };
 };
