@@ -27,7 +27,21 @@ function MyApp({ Component, pageProps, data }) {
     cache: new InMemoryCache()
   });
   return (
-    <><ApolloProvider client={client}>
+    <>
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZVG7HB5HFJ"></script>
+  <Script id="google-analytics" strategy="afterInteractive">
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){window.dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZVG7HB5HFJ');
+    `}
+  </Script>
+
+
+
+   <ApolloProvider client={client}>
     
 
 
