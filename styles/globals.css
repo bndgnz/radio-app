@@ -8188,3 +8188,10 @@ section.container.page-block.search-box {
   max-height: 40px;
  
 }
+
+
+.archived-card {
+  background-color: #fff;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 50%);
+  margin-bottom: 20px;
+}

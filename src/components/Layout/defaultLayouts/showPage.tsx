@@ -61,7 +61,7 @@ function Showpage(props: any) {
         </>
       );
     } else {
-      return null;
+      return (<><h3>Show times</h3> <p>Not currently on air</p></>);
     }
   }
 

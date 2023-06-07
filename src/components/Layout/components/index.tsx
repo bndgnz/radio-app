@@ -18,15 +18,15 @@ import QueryStringPlaylist from "@/src/components/Layout/components/queryStringP
 import Shows from "@/src/components/Layout/components/shows";
 import AmazonPlaylist from "@/src/components/Layout/components/amazonPlaylist";
 import LatestAmazonPodcasts from "@/src/components/Layout/components/latestAmazonPodcasts";
+import Archived from "@/src/components/Layout/components/archivedShows"
 
 function renderComponents(props: any) {
 
-  console.log(props)
-
-
-
   function Sorter(id, item) {
     switch (id.id) {
+
+      case "archivedShows":
+        return <Archived id={id.item} />;
 
       case "latestPodcasts":
         return <LatestAmazonPodcasts id={id.item} />;
