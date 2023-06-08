@@ -35,15 +35,19 @@ function Archived(props: any) {
   
           <div className="archived-card row col-12" key={idx}>
 
- 
+<div className="col-sm-12 col-lg-2">
 
-          <div className="col-sm-12 col-lg-6">
+   <img src={show.image.url} className="archived-show-image" />
+
+    </div>
+
+          <div className="col-sm-12 col-lg-3">
            
               <h5><a href={"../shows/"+show.slug} title={"Find out more about "+show.title} >{show.title}</a></h5>
            
             </div>
 
-            <div className="col-sm-12 col-lg-6">    <p>{show.introduction}</p></div>
+            <div className="col-sm-12 col-lg-7">    <p>{show.introduction}</p></div>
        
           </div>
      

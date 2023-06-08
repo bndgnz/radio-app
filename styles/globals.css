@@ -8194,4 +8194,12 @@ section.container.page-block.search-box {
   background-color: #fff;
   box-shadow: 0 1px 8px rgb(0 0 0 / 50%);
   margin-bottom: 20px;
+  padding: 10px;
+}
+img.archived-show-image {
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100px;
 }
