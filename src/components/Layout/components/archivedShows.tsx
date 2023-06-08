@@ -41,13 +41,13 @@ function Archived(props: any) {
 
     </div>
 
-          <div className="col-sm-12 col-lg-3">
+          <div className="col-sm-12 col-lg-3 archived-show-title">
            
               <h5><a href={"../shows/"+show.slug} title={"Find out more about "+show.title} >{show.title}</a></h5>
            
             </div>
 
-            <div className="col-sm-12 col-lg-7">    <p>{show.introduction}</p></div>
+            <div className="col-sm-12 col-lg-7  archived-show-introduction">    <p>{show.introduction}</p></div>
        
           </div>
      

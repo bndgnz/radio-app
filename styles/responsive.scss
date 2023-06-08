@@ -29,6 +29,8 @@ $value_seven: 1550px; /* full */
         padding: {
             top: 10px;
             bottom: 10px;
+            padding-bottom: 10px;
+    
         };
     }
     .navbar-toggler-icon-x {
@@ -1365,6 +1367,18 @@ $value_seven: 1550px; /* full */
 
 /* Min width: 576px to Max width: 767px */
 @media only #{$media} and ($feature_min : $value_one) and ($feature_max : $value_two) {
+
+   
+
+
+
+
+
+
+
+
+
+
     .why-choose-us-content {
         .content {
             .features-list {
@@ -1933,7 +1947,7 @@ $value_seven: 1550px; /* full */
 
     .ptb-100 {
         padding-top: 10px;
-        padding-bottom: 10px;
+        
     }
     .services-area {
         padding-bottom: 50px;
@@ -2370,6 +2384,10 @@ $value_seven: 1550px; /* full */
         }
     }
 }
+
+
+
+
 }
 
 .video-responsive {
@@ -2385,3 +2403,48 @@ $value_seven: 1550px; /* full */
 	top: 0;
 	width: 100%;
 	}
+
+    @media only screen and (max-width: 990px) {
+
+
+        img.latest-amazon-podcast-image {
+          float:unset;
+          
+            display: grid;
+            place-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+.amazon-podcast-content {text-align: center;}
+
+
+
+
+
+
+        img.archived-show-image {
+            float:unset;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .archived-show-title {padding-top:10px;}
+
+
+
+  .archived-show-title,  .archived-show-introduction {text-align: center;}
+
+
+      }
+
+
+      @media only screen and (max-width: 767px) {
+.ptb-100 {
+   
+ margin: 0px 10px 0px 40px !important;
+}
+
+}
