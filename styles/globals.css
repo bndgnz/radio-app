@@ -8139,7 +8139,7 @@ input#algolia_search:focus::placeholder {
   .col-lg-2.col-xs-12.amazon-podcast-image img {
     max-height: 95%;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 100px;
 }
 
 .amazonplaylist-audio audio {
@@ -8202,4 +8202,11 @@ img.archived-show-image {
   height: 100px;
   object-fit: cover;
   border-radius: 100px;
+}
+
+img.latest-amazon-podcast-image {
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }

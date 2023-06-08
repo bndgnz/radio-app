@@ -56,7 +56,7 @@ function Message(props: any) {
         return (
           <div className="row amazon-playlist-row" key={idx}>
             <div className="col-lg-2 col-xs-12 amazon-podcast-image">
-              <img src={podcast.podcastImage[0].url} alt="..." />
+              <img src={podcast.podcastImage[0].url} alt={podcast.title} className="latest-amazon-podcast-image" />
             </div>
 
             <div className="col-lg-8 col-xs-12 amazon-podcast-content">
