@@ -2418,7 +2418,11 @@ $value_seven: 1550px; /* full */
 
 .amazon-podcast-content {text-align: center;}
 
-
+.col-lg-2.col-xs-12.amazon-podcast-image img  {float: unset;
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;}
 
 
 

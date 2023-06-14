@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@contentful/rich-text-react-renderer": "^15.16.2",
-    "@types/node": "16.0.00",
+    "@types/node": "18.0.00",
     "@types/react": "^17.0.43",
     "@types/react-dom": "^18.0.9",
     "contentful": "^9.2.12",

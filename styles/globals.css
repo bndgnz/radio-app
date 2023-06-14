@@ -8140,6 +8140,11 @@ input#algolia_search:focus::placeholder {
     max-height: 95%;
     overflow: hidden;
     border-radius: 100px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .amazonplaylist-audio audio {
