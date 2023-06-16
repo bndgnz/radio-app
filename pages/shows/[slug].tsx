@@ -14,6 +14,7 @@ const ShowPage: NextPage<Props> = ({
   showPage: {
     title,
     image,
+    cimage,
     components,
     showBanner,
     content,
@@ -29,6 +30,7 @@ const ShowPage: NextPage<Props> = ({
     <Layout
       title={title}
       image={image.fields.file.url}
+      image={cimage[0].secure_url}
       components={components}
       introduction={introduction}
       content={content}

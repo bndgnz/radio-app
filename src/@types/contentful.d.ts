@@ -108,6 +108,28 @@ export interface IAmazonPodcast extends Entry<IAmazonPodcastFields> {
   };
 }
 
+export interface IArchivedShowsFields {
+  /** Title */
+  title?: string | undefined;
+}
+
+export interface IArchivedShows extends Entry<IArchivedShowsFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "archivedShows";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
 export interface IBannerFields {
   /** Image */
   heroImage?: Asset | undefined;
@@ -381,6 +403,7 @@ export interface ILandingPageFields {
         | IAmazonPlaylist
         | ILatestPodcasts
         | ISearchBox
+        | IArchivedShows
       )[]
     | undefined;
 }
@@ -914,6 +937,9 @@ export interface IShowsFields {
   /** image */
   image?: Asset | undefined;
 
+  /** cimage */
+  cimage: Record<string, any>;
+
   /** Show Banner */
   showBanner?: boolean | undefined;
 
@@ -1239,6 +1265,7 @@ export type CONTENT_TYPE =
   | "accordion"
   | "amazonPlaylist"
   | "amazonPodcast"
+  | "archivedShows"
   | "banner"
   | "carousel"
   | "config"
@@ -1275,6 +1302,7 @@ export type IEntry =
   | IAccordion
   | IAmazonPlaylist
   | IAmazonPodcast
+  | IArchivedShows
   | IBanner
   | ICarousel
   | IConfig
