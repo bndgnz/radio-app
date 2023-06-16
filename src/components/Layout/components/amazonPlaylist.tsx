@@ -53,11 +53,11 @@ function Date (date :any) {
             <div className="row amazon-playlist-row"   key={idx}>
           <div className="col-lg-2 col-xs-12 amazon-podcast-image" >
            
-              <img
+          <a href={"../podcast/"+ podcast.slug}>     <img
                 src={podcast.podcastImage[0].url}
                
                 alt="..."
-              />
+              /></a>
               <div className="amazon-podcast-date"></div>
  </div>
 

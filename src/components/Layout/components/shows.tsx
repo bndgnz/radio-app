@@ -8,45 +8,35 @@ import Link from "next/link";
 
 function Shows(props: any) {
   const id = props.id;
-  const SHOWLIST = gql`
-    query GetShows($id: String!) {
-      showList(id: $id) {
-        title
-        showsCollection(limit: 50) {
-          items {
-            sponsor {
-              title
-            }
-            path
-            slug
-            title
-            image {
-              url
-            }
-            introduction
-            showUrl
-            playlistUrl
-            djCollection {
-              items {
-                title
-              }
-            }
-            timeSlotsCollection(limit: 10) {
+  const SHOWS = gql`
+    query GetShows  {
+         showsCollection(order:title_ASC,   where: {archived: false}) {
+        items {
+		 cimage
+     showUrl
+          title
+		   path
+          introduction
+          slug
+		   timeSlotsCollection(limit: 10) {
               ...times
             }
+          image {
+            url
+            width
+            height
           }
         }
       }
     }
-
-    fragment times on ShowsTimeSlotsCollection {
+	 fragment times on ShowsTimeSlotsCollection {
       items {
         title
       }
     }
   `;
 
-  const { data, loading, error } = useQuery(SHOWLIST, {
+  const { data, loading, error } = useQuery(SHOWS, {
     variables: { id },
   });
   if (loading) {
@@ -55,11 +45,7 @@ function Shows(props: any) {
   if (error) {
     return <div></div>;
   }
- 
-
- 
-
-
+console.log(data)
   function LatestShow(props) {
     if (props.showlink) {
       const driveLink1 = props.showlink.replace(
@@ -73,13 +59,13 @@ function Shows(props: any) {
 
       return (
         <>
-          <div className="show-page-audio-controls">
-            <h3>Latest show </h3>
-     
+          <div className="show-page-audio">
+    
+
             <audio controls src={driveLink2}>
               Your browser does not support the
               <code>audio</code> element.
-            </audio>
+            </audio>       <p><strong>Latest show </strong></p> 
           </div>
         </>
       );
@@ -87,60 +73,31 @@ function Shows(props: any) {
       return null;
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-  function Dates(props) {
-    const listOfItems = props.slotCollection.items.map((time, idx) => {
-      var first3;
-
-      return (
-        <time key={idx}>
-          {first3} {time.title}
-        </time>
-      );
-    });
-
-    return <div className="time-slots"> {listOfItems} </div>;
-  }
-
-  const listOfItems = data.showList.showsCollection.items.map((show, idx) => {
  
 
+  const listOfItems = data.showsCollection.items.map((show, idx) => {
     return (
-      <div
-        className="col-lg-3   col-xs-12"
-        key={idx}
-        id={show.title.replace(/ /g, "-").toLowerCase()}
-      >
-        <div className=" sponsor-card show-card ">
-          <img
-            src={show.image.url}
-            className="card-img-top show-image"
+      <div className="archived-card row col-12" key={idx}>
+        <div className="col-sm-12 col-lg-2 show-list-image">
+         <a href={"/shows/" + show.slug} title={show.title}> <img
+            src={show.cimage[0].url}
+            className="card-img-top  archived-show-image"
             alt="..."
-          />
-          <div className="card-body">
-            <h5 className="card-title">
-              <Link href={"/shows/" + show.slug}>{show.title}</Link>
-            </h5>
+          /></a>
+        </div>
 
-            {show.introduction}
+        <div className="col-sm-12 col-lg-7 archived-show-title">
+          <h5 className="card-title">
+            <Link href={"/shows/" + show.slug}>{show.title}</Link>
+          </h5>
+          <p>{show.introduction}</p>
+        </div>
+ 
 
-            <Dates slotCollection={show.timeSlotsCollection} />
+       
 
-           <LatestShow showlink={show.showUrl} />
-
-
-
-          </div>
+        <div className="col-sm-12 col-lg-3">
+          <LatestShow showlink={show.showUrl} />
         </div>
       </div>
     );

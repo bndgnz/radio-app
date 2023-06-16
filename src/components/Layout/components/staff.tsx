@@ -12,9 +12,9 @@ function Staff(props: any) {
     const listOfItems = items.map((staff, idx) => {
       return (
         <div className="row staff-row" key={idx}>
-          <div className="col-lg-3 col-sm-12">
+          <div className="col-lg-3 col-sm-12 show-page-staff-image">
             <img
-              className="img-fluid"
+              className="img-fluid staff-image"
               src={staff.fields.photo.fields.file.url}
               alt={staff.fields.title}
             />

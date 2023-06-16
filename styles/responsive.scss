@@ -2405,11 +2405,13 @@ $value_seven: 1550px; /* full */
 	}
 
     @media only screen and (max-width: 990px) {
-
+        .col-lg-2.col-xs-12.amazon-podcast-image {
+            max-width: unset;
+        }
 
         img.latest-amazon-podcast-image {
           float:unset;
-          
+          max-width:unset;
             display: grid;
             place-items: center;
             margin-left: auto;
@@ -2424,7 +2426,10 @@ $value_seven: 1550px; /* full */
     margin-left: auto;
     margin-right: auto;}
 
-
+    .row.staff-row {
+       
+        text-align: center;
+    }
 
 
         img.archived-show-image {

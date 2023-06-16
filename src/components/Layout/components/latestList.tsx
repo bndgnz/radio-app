@@ -56,10 +56,10 @@ function Message(props: any) {
         return (
           <div className="row amazon-playlist-row" key={idx}>
             <div className="col-lg-2 col-xs-12 amazon-podcast-image">
-              <img src={podcast.podcastImage[0].url} alt={podcast.title} className="latest-amazon-podcast-image" />
+            <a href={"../podcast/" + podcast.slug} title={"Read more about " +podcast.title } ><img src={podcast.podcastImage[0].url} alt={podcast.title} className="latest-amazon-podcast-image" /></a>
             </div>
 
-            <div className="col-lg-8 col-xs-12 amazon-podcast-content">
+            <div className="col-lg-7 col-xs-12 amazon-podcast-content">
               <div className=" amazon-podcast-card-title">
               <a href={"../podcast/" + podcast.slug} title={"Read more about " +podcast.title } ><strong>{podcast.title}</strong></a> 
               </div>
@@ -73,7 +73,7 @@ function Message(props: any) {
                 <Link href={"podcast/" + podcast.slug}>Read more</Link>
               </strong>
             </div>
-            <div className="col-lg-2 col-xs-12">
+            <div className="col-lg-3 col-xs-12">
               {" "}
               <div className="amazonplaylist-audio">
                 <audio controls src={podcast.amazonUrl}>

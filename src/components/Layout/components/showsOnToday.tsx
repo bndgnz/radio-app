@@ -69,7 +69,7 @@ const SCHEDULE = gql`
     showUrl
     path
     introduction
-
+    cimage
     image {
       url
       width
@@ -88,6 +88,9 @@ function Schedule(props) {
   if (error) {
     return <div> </div>;
   }
+
+console.log(data)
+
 
   var day = null;
 
@@ -180,7 +183,7 @@ function Schedule(props) {
         <div
           className="on-today-event-title"
           style={{
-            backgroundImage: "url(" + `${show.image.url}` + ")",
+            backgroundImage: "url(" + `${show.cimage[0].url}` + ")",
             width: "100%",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",

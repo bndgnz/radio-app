@@ -71,6 +71,13 @@ function Showpage(props: any) {
         <div className="row">
           <div className="col-lg-9 col-sm-12 ">
             <Staff dj={props.props.type.dj} />
+            <div className="show-intro">
+              <h3>About {props.props.type.title}</h3>
+              <hr />
+
+              {documentToReactComponents(props.props.type.content)}
+            </div>
+           
           </div>
           <div className="col-lg-3 col-sm-12  show-page-left-col">
             <Dates />
@@ -85,6 +92,7 @@ function Showpage(props: any) {
                   <hr />
                   <h5>{props.props.type.sponsor.fields.title}</h5>
                 </div>
+                <LatestShow />
               </>
             ) : null}
           </div>
@@ -93,13 +101,7 @@ function Showpage(props: any) {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="show-intro">
-              <h3>About {props.props.type.title}</h3>
-              <hr />
-
-              {documentToReactComponents(props.props.type.content)}
-            </div>
-            <LatestShow />
+            
 
             {props.props.type.playlistUrl ? (
               <Playlist
