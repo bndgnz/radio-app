@@ -29,7 +29,6 @@ const ShowPage: NextPage<Props> = ({
   <><Seo title={title} description={introduction} />
     <Layout
       title={title}
-      image={image.fields.file.url}
       image={cimage[0].secure_url}
       components={components}
       introduction={introduction}
