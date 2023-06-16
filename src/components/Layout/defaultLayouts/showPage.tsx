@@ -71,12 +71,20 @@ function Showpage(props: any) {
         <div className="row">
           <div className="col-lg-9 col-sm-12 ">
             <Staff dj={props.props.type.dj} />
+
+            {props.props.type.content ? (
+              <>
+                {" "}
             <div className="show-intro">
               <h3>About {props.props.type.title}</h3>
               <hr />
 
               {documentToReactComponents(props.props.type.content)}
             </div>
+           
+            </>
+            ) : null}
+
            
           </div>
           <div className="col-lg-3 col-sm-12  show-page-left-col">

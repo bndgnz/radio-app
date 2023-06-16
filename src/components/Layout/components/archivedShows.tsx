@@ -11,6 +11,7 @@ function Archived(props: any) {
           title
           introduction
           slug
+          cimage
           image {
             url
             width
@@ -37,7 +38,7 @@ function Archived(props: any) {
 
 <div className="col-sm-12 col-lg-2">
 
-   <img src={show.image.url} className="archived-show-image" />
+   <img src={show.cimage[0].url} className="archived-show-image" />
 
     </div>
 
