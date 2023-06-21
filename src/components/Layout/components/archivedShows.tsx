@@ -12,11 +12,7 @@ function Archived(props: any) {
           introduction
           slug
           cimage
-          image {
-            url
-            width
-            height
-          }
+          
         }
       }
     }

@@ -364,6 +364,9 @@ export interface ILandingPageFields {
   /** Image */
   image: Asset;
 
+  /** Cloudinary Image */
+  cloudinaryImage: Record<string, any>;
+
   /** Show Banner */
   showBanner?: boolean | undefined;
 
@@ -944,7 +947,7 @@ export interface IShowsFields {
   showBanner?: boolean | undefined;
 
   /** Archived */
-  archived?: boolean | undefined;
+  archived: boolean;
 
   /** Title */
   title: string;
@@ -961,7 +964,7 @@ export interface IShowsFields {
   /** Show URL */
   showUrl?: string | undefined;
 
-  /** playlistUrl */
+  /** Playlist URL */
   playlistUrl?: string | undefined;
 
   /** DJ */
@@ -1138,6 +1141,9 @@ export interface ISponsorsList extends Entry<ISponsorsListFields> {
 export interface IStaffFields {
   /** Title */
   title?: string | undefined;
+
+  /** headshot */
+  headshot: Record<string, any>;
 
   /** Photo */
   photo?: Asset | undefined;

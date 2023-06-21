@@ -21,11 +21,7 @@ function Shows(props: any) {
 		   timeSlotsCollection(limit: 10) {
               ...times
             }
-          image {
-            url
-            width
-            height
-          }
+          
         }
       }
     }

@@ -61,7 +61,11 @@ function Showpage(props: any) {
         </>
       );
     } else {
-      return (<><h3>Show times</h3> <p>Not currently on air</p></>);
+      return (
+        <>
+          <h3>Show times</h3> <p>Not currently on air</p>
+        </>
+      );
     }
   }
 
@@ -75,17 +79,14 @@ function Showpage(props: any) {
             {props.props.type.content ? (
               <>
                 {" "}
-            <div className="show-intro">
-              <h3>About {props.props.type.title}</h3>
-              <hr />
+                <div className="show-intro">
+                  <h3>About {props.props.type.title}</h3>
+                  <hr />
 
-              {documentToReactComponents(props.props.type.content)}
-            </div>
-           
-            </>
+                  {documentToReactComponents(props.props.type.content)}
+                </div>
+              </>
             ) : null}
-
-           
           </div>
           <div className="col-lg-3 col-sm-12  show-page-left-col">
             <Dates />
@@ -109,8 +110,6 @@ function Showpage(props: any) {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            
-
             {props.props.type.playlistUrl ? (
               <Playlist
                 playlistUrl={props.props.type.playlistUrl}

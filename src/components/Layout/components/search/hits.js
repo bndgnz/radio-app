@@ -23,7 +23,7 @@ if (date.date != null) {
 
 
   function Resolver(hit) {
-    let title;
+    let title="";
     let url;
     var desc = "";
     let show;
@@ -36,14 +36,14 @@ if (date.date != null) {
       case "shows":
         url = "/shows/" + hit.hit.fields.slug[["en-US"]];
    type="Show"
-
+   title = hit.hit.fields.title[["en-US"]];
         break;
       case "staff":
         url =
           "/djs#" +
           hit.hit.fields.title[["en-US"]].replace(/ /g, "-").toLowerCase();
         desc = hit.hit.fields.shortBio[["en-US"]];
-
+title = hit.hit.fields.title[["en-US"]];
         type = "DJ";
         break;
 
@@ -53,12 +53,14 @@ if (date.date != null) {
           hit.hit.fields.title[["en-US"]].replace(/ /g, "-").toLowerCase();
         desc = hit.hit.fields.introduction[["en-US"]];
         type = "Sponsor";
+        title = hit.hit.fields.title[["en-US"]];
         break;
 
       case "landingPage":
         url = hit.hit.fields.slug[["en-US"]];
         desc = hit.hit.fields.introduction[["en-US"]];
         type = "Content";
+        title = hit.hit.fields.title[["en-US"]];
         break;
 
       case "amazonPodcast":
@@ -67,6 +69,7 @@ if (date.date != null) {
         show ="show"
         date = hit.hit.fields.date[["en-US"]];
         type = "Podcast";
+        title = hit.hit.fields.title[["en-US"]];
         break;
       default:
       // code block
@@ -74,6 +77,11 @@ if (date.date != null) {
       case "playlist":
         url = "/playlist?playlist=" + hit.hit.sys.id;
         type = "Playlist";
+       
+   title=  hit.hit.fields.title[["en-US"]];
+
+ 
+ 
 
         break;
 
@@ -84,7 +92,7 @@ if (date.date != null) {
       <div className="row">
         <div className="col-12 col-md-10">
           <a href={url} title={title} target="_blank"  rel="noreferrer">
-            {hit.hit.fields.title[["en-US"]]}{" "}
+            {title}{" "}
           </a>
           <div className="search-results-description">{desc}</div>
         </div>

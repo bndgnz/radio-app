@@ -14,6 +14,7 @@ const LandingPage: NextPage<Props> = ({
   landingPage: {
     title,
     introduction,
+    cloudinaryImage,
     image,
     content,
     teReoTitle,
@@ -27,7 +28,7 @@ const LandingPage: NextPage<Props> = ({
 
     <Layout
       title={title}
-      image={image.fields.file.url}
+      image={cloudinaryImage[0].secure_url}
       teReoTitle={teReoTitle}
       components={components}
       introduction={introduction}

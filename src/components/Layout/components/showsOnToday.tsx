@@ -70,11 +70,7 @@ const SCHEDULE = gql`
     path
     introduction
     cimage
-    image {
-      url
-      width
-      height
-    }
+    
   }
 `;
 

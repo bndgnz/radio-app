@@ -13,7 +13,6 @@ interface Props {
 const ShowPage: NextPage<Props> = ({
   showPage: {
     title,
-    image,
     cimage,
     components,
     showBanner,
