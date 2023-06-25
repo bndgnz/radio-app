@@ -25,6 +25,8 @@ const SCHEDULE = gql`
           playlistUrl
           showUrl
           path
+          cimage  
+
           image {
             url
             width
@@ -48,6 +50,7 @@ const SCHEDULE = gql`
           playlistUrl
           showUrl
           path
+          cimage 
           image {
             url
             width
@@ -71,6 +74,7 @@ const SCHEDULE = gql`
           playlistUrl
           showUrl
           path
+          cimage 
           image {
             url
             width
@@ -94,6 +98,7 @@ const SCHEDULE = gql`
           showUrl
           slug
           path
+          cimage 
           image {
             url
             width
@@ -117,6 +122,7 @@ const SCHEDULE = gql`
           showUrl
           slug
           path
+          cimage 
           image {
             url
             width
@@ -140,6 +146,7 @@ const SCHEDULE = gql`
           showUrl
           slug
           path
+          cimage 
           image {
             url
             width
@@ -163,6 +170,7 @@ const SCHEDULE = gql`
           showUrl
           slug
           path
+          cimage 
           image {
             url
             width
@@ -302,7 +310,7 @@ function Schedule(props) {
               <div
                 className="event-title"
                 style={{
-                  backgroundImage: "url(" + `${show.image.url}` + ")",
+                  backgroundImage: "url(" + `${show.cimage[0].url}` + ")",
                   width: "100%",
                   height: 200,
                   backgroundRepeat: "no-repeat",

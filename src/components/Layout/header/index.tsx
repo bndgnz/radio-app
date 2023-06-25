@@ -38,8 +38,8 @@ function Header({ data }) {
                   <img
                     className="navbar-logo-image"
                     src={`${data.menuCollection.items[0].logo.url}`}
-                    alt="logo"
-                    width="100" height="82" 
+                    alt="Waiheke Radio logo"
+                    width="100" height="82" title="Waiheke Radio"
                   />
                 </a>
               </Link>
