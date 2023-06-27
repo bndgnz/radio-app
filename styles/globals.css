@@ -8250,3 +8250,18 @@ img.img-fluid.staff-image {
   -webkit-filter: sepia(1);
   filter: sepia(1);
 }
+
+.row.amazon-playlist-row.showlist {
+  padding: 10px;
+  border: 1px solid #aaa;
+  background-color: #ccc;
+  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+}
+
+
+section.blog-area.ptb-100.schedule {
+  border: 1px solid #aaa;
+  padding: 10px;
+  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+  margin-bottom: 10px;
+}

@@ -8,6 +8,9 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 function Staff(props: any) {
   const items = props.dj;
 
+ 
+
+
   function Dj(props) {
     const listOfItems = items.map((staff, idx) => {
       return (
@@ -15,7 +18,7 @@ function Staff(props: any) {
           <div className="col-lg-3 col-sm-12 show-page-staff-image">
             <img
               className="img-fluid staff-image"
-              src={staff.fields.photo.fields.file.url}
+              src={staff.fields.headshot[0].url}
               alt={staff.fields.title}
             />
           </div>

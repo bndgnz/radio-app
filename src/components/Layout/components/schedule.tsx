@@ -26,12 +26,8 @@ const SCHEDULE = gql`
           showUrl
           path
           cimage  
-
-          image {
-            url
-            width
-            height
-          }
+          introduction
+          
         }
       }
       tuesdayCollection(limit: 10) {
@@ -51,11 +47,8 @@ const SCHEDULE = gql`
           showUrl
           path
           cimage 
-          image {
-            url
-            width
-            height
-          }
+          introduction
+         
         }
       }
       wednesdayCollection(limit: 10) {
@@ -75,11 +68,8 @@ const SCHEDULE = gql`
           showUrl
           path
           cimage 
-          image {
-            url
-            width
-            height
-          }
+          introduction
+          
         }
       }
       thursdayCollection(limit: 10) {
@@ -98,12 +88,9 @@ const SCHEDULE = gql`
           showUrl
           slug
           path
-          cimage 
-          image {
-            url
-            width
-            height
-          }
+          cimage
+          introduction 
+        
         }
       }
       fridayCollection(limit: 10) {
@@ -118,16 +105,13 @@ const SCHEDULE = gql`
             }
           }
           title
+          introduction
           playlistUrl
           showUrl
           slug
           path
           cimage 
-          image {
-            url
-            width
-            height
-          }
+          
         }
       }
       saturdayCollection(limit: 10) {
@@ -142,16 +126,13 @@ const SCHEDULE = gql`
             }
           }
           title
+          introduction
           playlistUrl
           showUrl
           slug
           path
           cimage 
-          image {
-            url
-            width
-            height
-          }
+          
         }
       }
       sundayCollection(limit: 10) {
@@ -166,16 +147,13 @@ const SCHEDULE = gql`
             }
           }
           title
+          introduction
           playlistUrl
           showUrl
           slug
           path
           cimage 
-          image {
-            url
-            width
-            height
-          }
+          
         }
       }
     }
@@ -303,55 +281,56 @@ function Schedule(props) {
     }
 
     const listOfItems = day.map((show, idx) => (
-      <div className=" col-lg-2 carousel-cell" key={idx}>
-        <div className="single-blog-post">
-          <div className="post-image">
-            <div className="event-image">
-              <div
-                className="event-title"
-                style={{
-                  backgroundImage: "url(" + `${show.cimage[0].url}` + ")",
-                  width: "100%",
-                  height: 200,
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                }}
-              >
-                <Link
-                  href={`/shows/${show.slug}`}
-                  title={"Find out more about " + show.title}
-                >
-                  <a title={"Find out more about " + show.title}><h2> {show.title}</h2> </a>
-                </Link>
-                <Dates slot={[show.timeSlotsCollection]} show={show.title} />
-              </div>
-            
-              <Audio
+      <div className="row amazon-playlist-row showlist" key={idx}>
+
+      <div className="col-lg-2 col-xs-12 amazon-podcast-image">
+        <a href={"../show/" + show.slug}>
+          {" "}
+          <img src={show.cimage[0].url} alt="..." />
+        </a>
+         
+      </div>
+
+      <div className="col-lg-2 col-xs-12 amazon-podcast-content">
+        
+          <strong>
+            <a href={"../show/" + show.slug}>{show.title}</a>
+          </strong> 
+     </div>
+        <div className="col-lg-4 col-xs-12 amazon-podcast-content">
+          {show.introduction} 
+        </div>
+    
+      <div className="col-lg-2 col-xs-12">
+      <Dates slot={[show.timeSlotsCollection]} show={show.title} />
+        
+      </div>
+      <div className="col-lg-2 col-xs-12">
+      <Audio
                 url=  {show.showUrl}
                 title={"PLAY MOST RECENT SHOW FOR " + show.title}
               />
-            </div>
-          </div>
-        </div>
+        
       </div>
+    </div>
     ));
 
     return (
-      <section className="blog-area ptb-100">
+   
         <div className="container">
        
-          <div className="row carousel" data-flickity='{ "autoPlay": true }'>
+         
             {listOfItems}{" "}
-          </div>{" "}
+         
         </div>
-      </section>
+   
     );
   }
 
   if (data.schedule.showTodayOnly != true) {
     return (
-      <div className="container schedule page-block">
-      <section className="blog-area ptb-100 ">
+      <div className="container page-block">
+      <section className="blog-area ptb-100 schedule ">
         
 
         <h3>{data.schedule.title} </h3>
