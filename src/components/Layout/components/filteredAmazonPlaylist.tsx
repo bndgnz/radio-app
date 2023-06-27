@@ -8,16 +8,15 @@ function FilteredAmazonPlaylist(props: any) {
     query GetPlaylist($id: String!) {
       filteredAmazonPlaylist(id: $id) {
         title
-        description
-        show {
+         showName
+         show {
           title
         }
         titleContains
         descriptionContains
         startDate
         endDate
-        sortBy
-      }
+            }
     }
   `;
   const { data, loading, error } = useQuery(QUERY, {
