@@ -4,19 +4,20 @@ import Resolver from "@/src/utils/helpers/amazonPlaylistQueryResolver";
 
 function FilteredAmazonPlaylist(props: any) {
   const id = props.id;
+
   const QUERY = gql`
     query GetPlaylist($id: String!) {
       filteredAmazonPlaylist(id: $id) {
         title
-         showName
-         show {
+        showName
+        show {
           title
         }
         titleContains
         descriptionContains
         startDate
         endDate
-            }
+      }
     }
   `;
   const { data, loading, error } = useQuery(QUERY, {

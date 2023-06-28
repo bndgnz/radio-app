@@ -27,6 +27,7 @@ function PageAccordion(props: any) {
             ...CarouselId
             ...MessageId
             ...AmazonPlaylistId
+       ...FilteredAmazonPlaylistId
             __typename
           }
         }
@@ -39,6 +40,28 @@ function PageAccordion(props: any) {
          
         }
       }
+
+     fragment AmazonPlaylistId on AmazonPlaylist {
+      title
+      sys {
+        id
+         
+        }
+      }
+
+      fragment FilteredAmazonPlaylistId on FilteredAmazonPlaylist {
+        title
+        sys {
+          id
+           
+          }
+        }
+  
+
+
+
+
+
     fragment PlaylistId on Playlist {
         title
         sys {
@@ -66,6 +89,7 @@ function PageAccordion(props: any) {
                       id
                     }
                   }
+                  
   `;
 
   const { data, loading, error } = useQuery(ACCORDION, { variables: { id } });

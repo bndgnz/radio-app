@@ -8265,3 +8265,10 @@ section.blog-area.ptb-100.schedule {
   box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
   margin-bottom: 10px;
 }
+
+.amazon-podcast-card-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

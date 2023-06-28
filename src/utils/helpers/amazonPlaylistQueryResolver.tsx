@@ -1,41 +1,71 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
 
+function FilteredAmazonPlaylistResolver(props: any) {
+  const show = props.data.filteredAmazonPlaylist.showName
+    ? props.data.filteredAmazonPlaylist.showName
+    : "";
+  const date1 = props.data.filteredAmazonPlaylist.startDate
+    ? props.data.filteredAmazonPlaylist.startDate
+    : "2000-01-10T00:00:00.000Z";
+  const date2 = props.data.filteredAmazonPlaylist.endDate
+    ? props.data.filteredAmazonPlaylist.endDate
+    : "2200-01-10T00:00:00.000Z";
+  const titleContains = props.data.filteredAmazonPlaylist.titleContains
+    ? props.data.filteredAmazonPlaylist.titleContains
+    : "";
+  const descriptionContains = props.data.filteredAmazonPlaylist
+    .descriptionContains
+    ? props.data.filteredAmazonPlaylist.descriptionContains
+    : "";
 
-function FilteredAmazonPlaylistResolver (props: any) {
- 
- const show =  props.data.filteredAmazonPlaylist.showName  ?  props.data.filteredAmazonPlaylist.showName : "";
- const date1 = props.data.filteredAmazonPlaylist.startDate ? props.data.filteredAmazonPlaylist.startDate:"2000-01-10T00:00:00.000Z" ;
- const date2 = props.data.filteredAmazonPlaylist.endDate ? props.data.filteredAmazonPlaylist.endDate:"2200-01-10T00:00:00.000Z" ;
- const titleContains = props.data.filteredAmazonPlaylist.titleContains ? props.data.filteredAmazonPlaylist.titleContains : "" ;
- const descriptionContains = props.data.filteredAmazonPlaylist.descriptionContains ? props.data.filteredAmazonPlaylist.descriptionContains : "";
- 
-
- const PLAYLISTITEMS = gql`
-    query GetFilteredItems( $show: String!, $date1: DateTime!, $date2: DateTime!, $titleContains: String!, $descriptionContains: String! ) {
-         amazonPodcastCollection(limit:300, where: {AND: [{AND: [{show: {title_contains: $show}}, {date_gt: $date1}, {date_lt: $date2}, {title_contains: $titleContains} , {description_contains: $descriptionContains}   ]}]} order:date_ASC ) {
-              total
-              items {
-                title
-                date
-                description
-                amazonUrl
-                slug
-                podcastImage
-                show {
-                ...showname
-              }
-              }
+  const PLAYLISTITEMS = gql`
+    query GetFilteredItems(
+      $show: String!
+      $date1: DateTime!
+      $date2: DateTime!
+      $titleContains: String!
+      $descriptionContains: String!
+    ) {
+      amazonPodcastCollection(
+        limit: 300
+        where: {
+          AND: [
+            {
+              AND: [
+                { show: { title_contains: $show } }
+                { date_gt: $date1 }
+                { date_lt: $date2 }
+                { title_contains: $titleContains }
+                { description_contains: $descriptionContains }
+              ]
             }
+          ]
+        }
+        order: date_ASC
+      ) {
+        total
+        items {
+          title
+          date
+          description
+          amazonUrl
+          slug
+          podcastImage
+          show {
+            ...showname
           }
-          
-          
-          fragment showname on Shows {  title   }
-   
+        }
+      }
+    }
+
+    fragment showname on Shows {
+      title
+    }
   `;
 
   const { data, loading, error } = useQuery(PLAYLISTITEMS, {
-    variables: { show, date1, date2, descriptionContains, titleContains  },
+    variables: { show, date1, date2, descriptionContains, titleContains },
   });
   if (loading) {
     return <div></div>;
@@ -43,6 +73,11 @@ function FilteredAmazonPlaylistResolver (props: any) {
   if (error) {
     return <div></div>;
   }
+
+console.log(data)
+
+
+
   function Date(date: any) {
     let year = date.date.substring(0, 4);
     let month = date.date.substring(5, 7);
@@ -69,12 +104,17 @@ function FilteredAmazonPlaylistResolver (props: any) {
             <div className="col-lg-6 col-xs-12 amazon-podcast-content">
               <div className=" amazon-podcast-card-title">
                 <strong>
-                  <a href={"../podcast/" + podcast.slug}>{podcast.title}</a>
+                  <a href={"../podcast/" + podcast.slug} title={"Read more about " +podcast.title}>{podcast.title}</a>
                 </strong>
               </div>
               <div className=" amazon-podcast-card-description">
                 {podcast.description}
+
+                
               </div>
+
+              <div className="read-more">  <a href={"../podcast/" + podcast.slug} title={"Read more about " +podcast.title}>Read more</a></div>
+
             </div>
             <div className="col-lg-4 col-xs-12">
               {" "}
@@ -104,10 +144,6 @@ function FilteredAmazonPlaylistResolver (props: any) {
       </section>
     </>
   );
-
-
 }
-  
-    
-    export default FilteredAmazonPlaylistResolver;
 
+export default FilteredAmazonPlaylistResolver;

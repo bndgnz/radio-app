@@ -27,7 +27,7 @@ function renderComponents(props: any) {
       case "archivedShows":
         return <Archived id={id.item} />;
 
-      case "filteredAmazonPlaylist":
+      case "filteredamazonplaylist":
         return <FilteredPlaylist id={id.item} />;
 
       case "latestPodcasts":
