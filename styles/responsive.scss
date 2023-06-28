@@ -2404,7 +2404,20 @@ $value_seven: 1550px; /* full */
 	width: 100%;
 	}
 
-    @media only screen and (max-width: 990px) {
+    @media only screen and (max-width: 990px) {  
+
+
+        .col-lg-3.col-sm-12.show-page-staff-image {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+
+
+
+
+
         .col-lg-2.col-xs-12.amazon-podcast-image {
             max-width: unset;
         }
