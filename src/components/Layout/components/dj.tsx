@@ -6,6 +6,9 @@ import absoluteUrl from "next-absolute-url";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
 function DJ(props: any) {
+
+
+
   const id = props.id;
   const PLAYLIST = gql`
     query GetDjs($id: String!) {
@@ -14,9 +17,7 @@ function DJ(props: any) {
         staffCollection {
           items {
             title
-            photo {
-              url
-            }
+            headshot
             shortBio
           }
         }
@@ -56,6 +57,7 @@ function DJ(props: any) {
   return (
     <section className="about-area ptb-100">
       <div className="container">
+
         <div className="card-deck  ">{listOfItems}</div>
       </div>
     </section>
