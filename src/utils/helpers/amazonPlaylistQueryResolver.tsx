@@ -74,7 +74,7 @@ function FilteredAmazonPlaylistResolver(props: any) {
     return <div></div>;
   }
 
-console.log(data)
+ 
 
 
 

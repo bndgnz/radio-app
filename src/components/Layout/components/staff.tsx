@@ -10,7 +10,6 @@ function Staff(props: any) {
 
  
 
-
   function Dj(props) {
     const listOfItems = items.map((staff, idx) => {
       return (
@@ -18,13 +17,13 @@ function Staff(props: any) {
           <div className="col-lg-3 col-sm-12 show-page-staff-image">
             <img
               className="img-fluid staff-image"
-              src={staff.fields.headshot[0].url}
+              src={staff.fields.headshot[0].secure_url}
               alt={staff.fields.title}
             />
           </div>
           <div className="col-lg-9 col-sm-12">
             <h6>Presented by:</h6>
-            
+
             <h3>{staff.fields.title}</h3>
             {staff.fields.shortBio}
           </div>
@@ -43,15 +42,13 @@ function Staff(props: any) {
   }
 
   return (
-   
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-12  ">
-            <Dj />
-          </div>
+    <div className="container">
+      <div className="row align-items-center">
+        <div className="col-12  ">
+          <Dj />
         </div>
       </div>
-   
+    </div>
   );
 }
 

@@ -4,6 +4,9 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { BLOCKS, INLINES } from "@contentful/rich-text-types";
 
 function Showpage(props: any) {
+
+
+
   const showlink = props.props.type.showUrl;
   function ShowPlaylist() {
     if (props.props.type.playlistUrl) {

@@ -17,6 +17,7 @@ export interface IAccordionFields {
         | ISchedule
         | IAmazonPodcast
         | IAmazonPlaylist
+        | IFilteredAmazonPlaylist
       )[]
     | undefined;
 }
@@ -237,6 +238,47 @@ export interface IConfig extends Entry<IConfigFields> {
   };
 }
 
+export interface IFilteredAmazonPlaylistFields {
+  /** Title */
+  title: string;
+
+  /** Show Name */
+  showName?: string | undefined;
+
+  /** Title Contains */
+  titleContains?: string | undefined;
+
+  /** Description Contains */
+  descriptionContains?: string | undefined;
+
+  /** Start Date */
+  startDate?: string | undefined;
+
+  /** End Date */
+  endDate?: string | undefined;
+
+  /** Show */
+  show?: IShows | undefined;
+}
+
+export interface IFilteredAmazonPlaylist
+  extends Entry<IFilteredAmazonPlaylistFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "filteredAmazonPlaylist";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
 export interface IFooterFields {
   /** Title */
   title?: string | undefined;
@@ -407,6 +449,7 @@ export interface ILandingPageFields {
         | ILatestPodcasts
         | ISearchBox
         | IArchivedShows
+        | IFilteredAmazonPlaylist
       )[]
     | undefined;
 }
@@ -982,6 +1025,7 @@ export interface IShowsFields {
         | IAmazonPlaylist
         | IAmazonPodcast
         | ILatestPodcasts
+        | IFilteredAmazonPlaylist
       )[]
     | undefined;
 
@@ -1139,11 +1183,14 @@ export interface ISponsorsList extends Entry<ISponsorsListFields> {
 }
 
 export interface IStaffFields {
+  /** headshot */
+  headshot: Record<string, any>;
+
   /** Title */
   title?: string | undefined;
 
-  /** headshot */
-  headshot: Record<string, any>;
+  /** Current DJ */
+  currentDj?: boolean | undefined;
 
   /** Photo */
   photo?: Asset | undefined;
@@ -1186,6 +1233,9 @@ export interface IStaffListFields {
 
   /** Staff */
   staff?: IStaff[] | undefined;
+
+  /** Current DJs */
+  currentDJs?: boolean | undefined;
 }
 
 export interface IStaffList extends Entry<IStaffListFields> {
@@ -1275,6 +1325,7 @@ export type CONTENT_TYPE =
   | "banner"
   | "carousel"
   | "config"
+  | "filteredAmazonPlaylist"
   | "footer"
   | "headerConfiguration"
   | "htmlBlock"
@@ -1312,6 +1363,7 @@ export type IEntry =
   | IBanner
   | ICarousel
   | IConfig
+  | IFilteredAmazonPlaylist
   | IFooter
   | IHeaderConfiguration
   | IHtmlBlock
