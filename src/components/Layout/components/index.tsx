@@ -22,15 +22,15 @@ import Archived from "@/src/components/Layout/components/archivedShows";
 import FilteredPlaylist from "@/src/components/Layout/components/filteredAmazonPlaylist";
 
 function renderComponents(props: any) {
- console.log(props)
 
+console.log(props)
 
   function Sorter(id, item) {
     switch (id.id) {
       case "archivedShows":
         return <Archived id={id.item} />;
 
-      case "filteredamazonplaylist":
+      case "filteredAmazonPlaylist":
         return <FilteredPlaylist id={id.item} />;
 
       case "latestPodcasts":

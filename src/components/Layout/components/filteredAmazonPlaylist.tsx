@@ -5,6 +5,8 @@ import Resolver from "@/src/utils/helpers/amazonPlaylistQueryResolver";
 function FilteredAmazonPlaylist(props: any) {
   const id = props.id;
 
+  console.log(props.id)
+
   const QUERY = gql`
     query GetPlaylist($id: String!) {
       filteredAmazonPlaylist(id: $id) {
@@ -29,6 +31,9 @@ function FilteredAmazonPlaylist(props: any) {
   if (error) {
     return <div></div>;
   }
+
+
+
 
   return (
     <>

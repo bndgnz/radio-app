@@ -1,7 +1,14 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
 
+
+
+
 function FilteredAmazonPlaylistResolver(props: any) {
+
+  console.log(props)
+
+
   const show = props.data.filteredAmazonPlaylist.showName
     ? props.data.filteredAmazonPlaylist.showName
     : "";
@@ -75,7 +82,7 @@ function FilteredAmazonPlaylistResolver(props: any) {
   }
 
  
-
+  console.log(data)
 
 
   function Date(date: any) {
