@@ -22,7 +22,7 @@ import Archived from "@/src/components/Layout/components/archivedShows";
 import FilteredPlaylist from "@/src/components/Layout/components/filteredAmazonPlaylist";
 
 function renderComponents(props: any) {
- 
+ console.log(props)
 
 
   function Sorter(id, item) {

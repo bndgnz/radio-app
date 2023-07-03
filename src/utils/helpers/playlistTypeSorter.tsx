@@ -1,14 +1,12 @@
 import React from "react";
 
 function Sorter(props: any) {
- 
-
   let src;
   let hideVisual;
   let showTitle;
   hideVisual = props.visualPlayer;
   showTitle =
-  props.showTitle == true || props.showTitle == null ? "true" : "false";
+    props.showTitle == true || props.showTitle == null ? "true" : "false";
   let type;
 
   const url = props.url;
@@ -18,7 +16,7 @@ function Sorter(props: any) {
   const purl = url.replace(":", "%3a");
   switch (true) {
     case url.includes("soundcloud"):
-      type="soundcloud";
+      type = "soundcloud";
       src =
         "https://w.soundcloud.com/player/?url=" +
         purl +
@@ -29,32 +27,31 @@ function Sorter(props: any) {
       break;
 
     case url.includes("mixcloud"):
-      type="mixcloud"
+      type = "mixcloud";
       const mxurl = url.replace("https://www.mixcloud.com/", "");
-      const mxurl2 = mxurl.replace("/", "");
+      const mxurl2 = mxurl.replaceAll("/", "%2F");
 
       src =
         "https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2F" +
-        mxurl2 +
-        "%2F";
+        mxurl2;
 
       break;
 
     case purl.includes("youtube.com/watch"):
-      type="youtube";
+      type = "youtube";
       const presrc = url.replace("https://www.youtube.com/watch?v=", "");
       src = "https://www.youtube.com/embed/" + presrc;
 
       break;
 
     case purl.includes("youtube.com/playlist"):
-      type="youtubeplaylist";
+      type = "youtubeplaylist";
       const presrc2 = url.replace("https://www.youtube.com/playlist?list=", "");
       src = "https://www.youtube.com/embed/videoseries?list=" + presrc2;
 
       break;
     case purl.includes("open.spotify.com"):
-      type="spotify"
+      type = "spotify";
       const presrc3 = url.replace("https://open.spotify.com/artist/", "");
       src = "https://open.spotify.com/embed/artist/" + presrc3;
       break;
@@ -67,7 +64,6 @@ function Sorter(props: any) {
 
   return (
     <iframe
-   
       loading="lazy"
       allow="encrypted-media"
       id="frame"
@@ -75,7 +71,6 @@ function Sorter(props: any) {
       height={height}
       src={src}
     ></iframe>
-    
   );
 }
 
