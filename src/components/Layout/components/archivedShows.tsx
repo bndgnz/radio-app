@@ -34,7 +34,7 @@ function Archived(props: any) {
 
   function Djs(props: any) {
     const listOfDjs = props.data.items.map((dj, idx) => {
-      return <p>{dj.title}</p>;
+      return <p key={idx}>{dj.title}</p>;
     });
 
     return <p>{listOfDjs}</p>;
