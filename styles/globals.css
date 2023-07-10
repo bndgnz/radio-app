@@ -51,8 +51,8 @@ Default CSS
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif !important;
-  font-size: 16px;
+  font-family: arial;
+  
   background-color: #eee;
  
 }
