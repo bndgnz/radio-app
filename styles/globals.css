@@ -8272,3 +8272,16 @@ section.blog-area.ptb-100.schedule {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+.podcast-audio {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+}
+
+
+.podcast-audio audio {
+  width: 100%;
+ 
+}

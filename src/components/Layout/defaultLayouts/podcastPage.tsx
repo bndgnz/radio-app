@@ -11,15 +11,33 @@ function Podcastpage(props: any) {
     let day = props.props.type.date.substring(8, 10);
 
   return (
-    <>
+    <> 
        
-      <div className="container">
+      <div className="container"><div className=" podcast-audio">
+       
+       <audio controls src={props.props.type.url} >
+           Your browser does not support the
+           <code>audio</code> element.
+         </audio>
+   
+   
+   
+        
+              
+    </div>
         <div className="row show-intro">
-          <div className="col-12 col-lg-6  ">
+
+       
+          <div className="col-12 col-lg-8  ">
            
               <h4>{props.props.type.title}</h4>
              {props.props.type.intro}
-             <hr />
+            
+                    
+          </div>
+          <div className="col-12 col-lg-4  podcast-audio">
+       
+          <hr />
              <div> <strong>Show: <Link  href={props.props.type.show.fields.path +props.props.type.show.fields.slug } >{props.props.type.show.fields.title}
             
           
@@ -31,14 +49,6 @@ function Podcastpage(props: any) {
              </div>
                
               <hr />
-                    
-          </div>
-          <div className="col-12 col-lg-6  podcast-audio">
-       
-          <audio controls src={props.props.type.url} >
-              Your browser does not support the
-              <code>audio</code> element.
-            </audio>
       
 
 
