@@ -30,7 +30,7 @@
     "react-accessible-accordion": "^5.0.0",
     "react-audio-player": "^0.17.0",
     "react-collapsed": "^3.6.0",
-    "react-dom": "^16.15.0",
+    "react-dom": "^18.2.0",
     "react-instantsearch-dom": "^6.38.1",
     "react-modal-video": "^1.2.10",
     "react-responsive-carousel": "^3.2.23",
