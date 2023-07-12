@@ -4,6 +4,8 @@ import React from "react";
 import { useQuery, gql } from "@apollo/client";
 import Link from "next/link";
 
+import createContext from 'react';
+
 const SCHEDULE = gql`
   query GetSchedule($id: String!) {
     schedule(id: $id) {

@@ -47,6 +47,10 @@ function SecondaryHero(props: any) {
       </>
     );
   }
+else return null;
+
+
+
 }
 
 export default SecondaryHero;
