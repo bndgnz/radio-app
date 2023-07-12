@@ -19,6 +19,7 @@ function Message(props: any) {
           description
           show {
             title
+            slug
           }
           podcastImage
           date
@@ -57,11 +58,13 @@ function Message(props: any) {
           <div className="row amazon-playlist-row" key={idx}>
             <div className="col-lg-2 col-xs-12 amazon-podcast-image">
             <a href={"../podcast/" + podcast.slug} title={"Read more about " +podcast.title } ><img src={podcast.podcastImage[0].url} alt={podcast.title} className="latest-amazon-podcast-image" /></a>
+           
             </div>
 
             <div className="col-lg-7 col-xs-12 amazon-podcast-content">
               <div className=" amazon-podcast-card-title">
               <a href={"../podcast/" + podcast.slug} title={"Read more about " +podcast.title } ><strong>{podcast.title}</strong></a> 
+          
               </div>
 
               <div className=" amazon-podcast-card-description-latest-list">
@@ -73,14 +76,17 @@ function Message(props: any) {
                 <Link href={"podcast/" + podcast.slug}>Read more</Link>
               </strong>
             </div>
-            <div className="col-lg-3 col-xs-12">
+            <div className="col-lg-3 col-xs-12 ">
+           
               {" "}
               <div className="amazonplaylist-audio">
+              Show: <a href={"../shows/" + podcast.show.slug} title={"Read more about " +podcast.show.title } ><strong>{podcast.show.title}</strong></a> 
                 <audio controls src={podcast.amazonUrl}>
                   Your browser does not support the
                   <code>audio</code> element.
                 </audio>
                 <Date date={podcast.date} />
+               
               </div>{" "}
             </div>
           </div>

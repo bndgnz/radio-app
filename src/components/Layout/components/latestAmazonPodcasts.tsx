@@ -23,7 +23,9 @@ function LatestPodcasts(props: any) {
   if (error) {
     return <div></div>;
   }
- 
+  let filter;
+
+  if (data.latestPodcasts.filterByShow != null) {filter = data.latestPodcasts.filterByShow.title} else {filter=""}
  
   
 
@@ -31,7 +33,7 @@ function LatestPodcasts(props: any) {
 
   return (
 
-<Latestlist filter={data.latestPodcasts.filterByShow.title} limit={data.latestPodcasts.numberToShow} showtitle={data.latestPodcasts.showTitle} title={data.latestPodcasts.title} />
+<Latestlist filter={filter} limit={data.latestPodcasts.numberToShow} showtitle={data.latestPodcasts.showTitle} title={data.latestPodcasts.title} />
  
  
 
