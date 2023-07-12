@@ -8273,15 +8273,23 @@ section.blog-area.ptb-100.schedule {
   overflow: hidden;
 }
 
-.podcast-audio {
-  width: 100%;
-  background-color: #ffffff;
-  padding: 10px;
-  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
-}
-
-
-.podcast-audio audio {
-  width: 100%;
  
+
+.podcast-audio {
+  
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+  margin: 0px 10px 0px 10px;
 }
+
+.podcast-audio audio { width:100%}
+
+.podcast-thumb img {    max-height: 95%;
+  overflow: hidden;
+  border-radius: 100px;
+ 
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+  object-fit: cover;}

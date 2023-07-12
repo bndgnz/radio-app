@@ -2405,7 +2405,19 @@ $value_seven: 1550px; /* full */
 	}
 
     @media only screen and (max-width: 990px) {  
+        .podcast-thumb img {
+            
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .show-intro {
+       
+            text-align: center;
+        }
 
+        .col-12.col-lg-2.podcast-thumb {
+            text-align: center;
+        }
 
         .col-lg-3.col-sm-12.show-page-staff-image {
             margin-left: auto;
