@@ -2,9 +2,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
-import Link from "next/link";
 
-import createContext from 'react';
 
 const SCHEDULE = gql`
   query GetSchedule($id: String!) {
@@ -27,9 +25,8 @@ const SCHEDULE = gql`
           playlistUrl
           showUrl
           path
-          cimage  
+          cimage
           introduction
-          
         }
       }
       tuesdayCollection(limit: 10) {
@@ -48,9 +45,8 @@ const SCHEDULE = gql`
           playlistUrl
           showUrl
           path
-          cimage 
+          cimage
           introduction
-         
         }
       }
       wednesdayCollection(limit: 10) {
@@ -69,9 +65,8 @@ const SCHEDULE = gql`
           playlistUrl
           showUrl
           path
-          cimage 
+          cimage
           introduction
-          
         }
       }
       thursdayCollection(limit: 10) {
@@ -91,8 +86,7 @@ const SCHEDULE = gql`
           slug
           path
           cimage
-          introduction 
-        
+          introduction
         }
       }
       fridayCollection(limit: 10) {
@@ -112,8 +106,7 @@ const SCHEDULE = gql`
           showUrl
           slug
           path
-          cimage 
-          
+          cimage
         }
       }
       saturdayCollection(limit: 10) {
@@ -133,8 +126,7 @@ const SCHEDULE = gql`
           showUrl
           slug
           path
-          cimage 
-          
+          cimage
         }
       }
       sundayCollection(limit: 10) {
@@ -154,8 +146,7 @@ const SCHEDULE = gql`
           showUrl
           slug
           path
-          cimage 
-          
+          cimage
         }
       }
     }
@@ -163,8 +154,6 @@ const SCHEDULE = gql`
 `;
 
 function Schedule(props) {
-
-
   const id = props.id;
 
   const { data, loading, error } = useQuery(SCHEDULE, { variables: { id } });
@@ -174,9 +163,8 @@ function Schedule(props) {
   if (error) {
     return <div> </div>;
   }
- 
-  var day = null;
 
+  var day = null;
 
   const weekday = [
     "Sunday",
@@ -235,18 +223,16 @@ function Schedule(props) {
   /////////////////////////////////////////////////////////////////////////////
   function Audio(props) {
     if (props.url) {
- 
-
       return (
         <>
-<span className="latest-show">Latest Show</span>
+          <span className="latest-show">Latest Show</span>
 
-        <div className="default-audio-controls">
-          <audio controls src={props.url}>
-            Your browser does not support the
-            <code>audio</code> element.
-          </audio>
-        </div>
+          <div className="default-audio-controls">
+            <audio controls src={props.url}>
+              Your browser does not support the
+              <code>audio</code> element.
+            </audio>
+          </div>
         </>
       );
     } else {
@@ -284,102 +270,77 @@ function Schedule(props) {
 
     const listOfItems = day.map((show, idx) => (
       <div className="row amazon-playlist-row showlist" key={idx}>
+        <div className="col-lg-2 col-xs-12 amazon-podcast-image">
+          <a href={"../show/" + show.slug}>
+            {" "}
+            <img src={show.cimage[0].url} alt="..." />
+          </a>
+        </div>
 
-      <div className="col-lg-2 col-xs-12 amazon-podcast-image">
-        <a href={"../show/" + show.slug}>
-          {" "}
-          <img src={show.cimage[0].url} alt="..." />
-        </a>
-         
-      </div>
-
-      <div className="col-lg-2 col-xs-12 amazon-podcast-content">
-        
+        <div className="col-lg-2 col-xs-12 amazon-podcast-content">
           <strong>
             <a href={"../show/" + show.slug}>{show.title}</a>
-          </strong> 
-     </div>
-        <div className="col-lg-4 col-xs-12 amazon-podcast-content">
-          {show.introduction} 
+          </strong>
         </div>
-    
-      <div className="col-lg-2 col-xs-12">
-      <Dates slot={[show.timeSlotsCollection]} show={show.title} />
-        
+        <div className="col-lg-4 col-xs-12 amazon-podcast-content">
+          {show.introduction}
+        </div>
+
+        <div className="col-lg-2 col-xs-12">
+          <Dates slot={[show.timeSlotsCollection]} show={show.title} />
+        </div>
+        <div className="col-lg-2 col-xs-12">
+          <Audio
+            url={show.showUrl}
+            title={"PLAY MOST RECENT SHOW FOR " + show.title}
+          />
+        </div>
       </div>
-      <div className="col-lg-2 col-xs-12">
-      <Audio
-                url=  {show.showUrl}
-                title={"PLAY MOST RECENT SHOW FOR " + show.title}
-              />
-        
-      </div>
-    </div>
     ));
 
-    return (
-   
-        <div className="container">
-       
-         
-            {listOfItems}{" "}
-         
-        </div>
-   
-    );
+    return <div className="container">{listOfItems} </div>;
   }
 
-  if (data.schedule.showTodayOnly != true) {
-    return (
-      <div className="container page-block">
+  return (
+    <div className="container page-block">
       <section className="blog-area ptb-100 schedule ">
-        
-
         <h3>{data.schedule.title} </h3>
-          <Tabs defaultIndex={dayOfWeekDigit} className=" ">
-            <TabList>
-              <Tab>Sunday</Tab>
-              <Tab>Monday</Tab>
-              <Tab>Tuesday</Tab>
-              <Tab>Wednesday</Tab>
-              <Tab>Thursday</Tab>
-              <Tab>Friday</Tab>
-              <Tab>Saturday</Tab>
-            </TabList>
+        <Tabs defaultIndex={dayOfWeekDigit} >
+          <TabList>
+            <Tab>Sunday</Tab>
+            <Tab>Monday</Tab>
+            <Tab>Tuesday</Tab>
+            <Tab>Wednesday</Tab>
+            <Tab>Thursday</Tab>
+            <Tab>Friday</Tab>
+            <Tab>Saturday</Tab>
+          </TabList>
 
-            <TabPanel>
-              <Showcard showDay="sunday" />
-            </TabPanel>
-            <TabPanel>
-              <Showcard showDay="monday" />
-            </TabPanel>
-            <TabPanel>
-              <Showcard showDay="tuesday" />
-            </TabPanel>
-            <TabPanel>
-              <Showcard showDay="wednesday" />
-            </TabPanel>
-            <TabPanel>
-              <Showcard showDay="thursday" />
-            </TabPanel>
-            <TabPanel>
-              <Showcard showDay="friday" />
-            </TabPanel>
-            <TabPanel>
-              <Showcard showDay="saturday" />
-            </TabPanel>
-          </Tabs>
-     
+          <TabPanel>
+            <Showcard showDay="sunday" />
+          </TabPanel>
+          <TabPanel>
+            <Showcard showDay="monday" />
+          </TabPanel>
+          <TabPanel>
+            <Showcard showDay="tuesday" />
+          </TabPanel>
+          <TabPanel>
+            <Showcard showDay="wednesday" />
+          </TabPanel>
+          <TabPanel>
+            <Showcard showDay="thursday" />
+          </TabPanel>
+          <TabPanel>
+            <Showcard showDay="friday" />
+          </TabPanel>
+          <TabPanel>
+            <Showcard showDay="saturday" />
+          </TabPanel>
+        </Tabs>
       </section>
-      </div>
-    );
-  } else
-    return (
-      <div className="coming-up-today">
-  
-        <Showcard showDay="{dayName.toLowerCase()}" />
-      </div>
-    );
+    </div>
+  );
 }
 
 export default Schedule;
