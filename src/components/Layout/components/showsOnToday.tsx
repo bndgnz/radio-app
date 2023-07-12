@@ -85,7 +85,7 @@ function Schedule(props) {
     return <div> </div>;
   }
 
-console.log(data)
+
 
 
   var day = null;

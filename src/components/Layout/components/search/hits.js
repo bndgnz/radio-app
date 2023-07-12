@@ -30,7 +30,7 @@ if (date.date != null) {
     let date;
   
     let type;
-    console.log(hit)
+   
 
     switch (hit.hit.sys.contentType.sys.id) {
       case "shows":

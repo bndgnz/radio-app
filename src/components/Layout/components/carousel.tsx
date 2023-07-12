@@ -15,9 +15,7 @@ function BannerCarousel(props) {
         bannersCollection {
           items {
             title
-            heroImage {
-              url
-            }
+            bannerImage
             subTitle
             video {
               title
@@ -49,6 +47,8 @@ function BannerCarousel(props) {
     return <div></div>;
   }
 
+console.log(data)
+
   const carouselArray = data.carousel.bannersCollection.items;
 
   return (
@@ -58,9 +58,9 @@ function BannerCarousel(props) {
           showIndicators={true}
           showStatus={false}
           showArrows={true}
-          interval={3000}
+          interval={5000}
           showThumbs={false}
-          transitionTime={680}
+          transitionTime={1680}
           autoPlay={true}
           dynamicHeight={false}
           infiniteLoop={true}
@@ -72,7 +72,7 @@ function BannerCarousel(props) {
                 className="main-banner"
                 key={index}
                 style={{
-                  backgroundImage: `url(${item.heroImage.url})`,
+                  backgroundImage: `url(${item.bannerImage[0].secure_url})`,
                   backgroundRepeat: "no-repeat",
                    
                 }}

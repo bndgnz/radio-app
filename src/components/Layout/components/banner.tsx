@@ -22,6 +22,10 @@ function About(props: any) {
     setDisplay(true);
     setContactData(info);
   }, []);
+
+ 
+
+
   return (
     <>
       <div className="home-section">

@@ -41,7 +41,7 @@ function Shows(props: any) {
   if (error) {
     return <div></div>;
   }
-console.log(data)
+
   function LatestShow(props) {
     if (props.showlink) {
       const driveLink1 = props.showlink.replace(

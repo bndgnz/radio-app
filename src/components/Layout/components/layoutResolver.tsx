@@ -101,7 +101,6 @@ function ResolveLayout(props: any) {
     return <div></div>;
   }
 
-console.log(data)
  
 
   function Columns() {
