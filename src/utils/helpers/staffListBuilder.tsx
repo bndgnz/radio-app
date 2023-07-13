@@ -55,20 +55,18 @@ function StaffListBuilder(props: any) {
     if (error) {
       return <div></div>;
     }
-    const listOfItems = data.showsCollection.items.map(
-        (show, idx) => {
-          return (
-             <>
-    <div key={idx}> <a href={"./shows/" + show.slug} title={show.title}>{show.title}</a> </div> 
-       
-             
-             </>
-          );
-        }
+    const listOfItems = data.showsCollection.items.map((show, idx) => {
+      return (
+        <div key={idx}>
+          {" "}
+          <a href={"./shows/" + show.slug} title={show.title}>
+            {show.title}
+          </a>{" "}
+        </div>
       );
-  
-      return <div> {listOfItems}</div>;
+    });
 
+    return <div> {listOfItems}</div>;
   }
 
   function Items() {
@@ -91,9 +89,7 @@ function StaffListBuilder(props: any) {
           </div>
 
           <div className="col-lg-3 col-xs-12">
-            
-              <LinkedShows dj={dj.title} />
-           
+            <LinkedShows dj={dj.title} />
           </div>
         </div>
       );

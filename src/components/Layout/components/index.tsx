@@ -1,17 +1,14 @@
-import config from "@/src/utils/json/config.json";
 import Schedule from "@/src/components/Layout/components/schedule";
 import Carousel from "@/src/components/Layout/components/carousel";
 import IntroductionAndContent from "@/src/components/Layout/components/introAndContent";
 import Stream from "@/src/components/Layout/components/streams";
 import Playlist from "@/src/components/Layout/components/playlist";
-import { loadComponents } from "next/dist/server/load-components";
 import LayoutResolver from "@/src/components/Layout/components/layoutResolver";
 import Message from "@/src/components/Layout/components/message";
 import Accordion from "@/src/components/Layout/components/accordion";
 import ShowsOnToday from "@/src/components/Layout/components/showsOnToday";
 import Sponsors from "@/src/components/Layout/components/sponsors";
 import Djs from "@/src/components/Layout/components/djs";
-import Staff from "@/src/components/Layout/components/staff";
 import PlaylistCollection from "@/src/components/Layout/components/playlistCollection";
 import Search from "@/src/components/Layout/components/search/search";
 import QueryStringPlaylist from "@/src/components/Layout/components/queryStringPlaylist";
@@ -20,48 +17,44 @@ import AmazonPlaylist from "@/src/components/Layout/components/amazonPlaylist";
 import LatestAmazonPodcasts from "@/src/components/Layout/components/latestAmazonPodcasts";
 import Archived from "@/src/components/Layout/components/archivedShows";
 import FilteredPlaylist from "@/src/components/Layout/components/filteredAmazonPlaylist";
-import Current from "@/src/components/Layout/components/currentShows"
+import Current from "@/src/components/Layout/components/currentShows";
 
 function renderComponents(props: any) {
-
   function Sorter(id, item) {
-    switch (id.id) {
-      case "archivedShows":
+    const type = id.id.toLowerCase();
+    switch (type) {
+      case "archivedshows":
         return <Archived id={id.item} />;
 
-        case "currentShows":
-          return <Current id={id.item} />;
+      case "currentshows":
+        return <Current id={id.item} />;
 
-      case "filteredAmazonPlaylist":
+      case "filteredamazonplaylist":
         return <FilteredPlaylist id={id.item} />;
 
-      case "latestPodcasts":
+      case "latestpodcasts":
         return <LatestAmazonPodcasts id={id.item} />;
 
-      case "amazonPlaylist":
-        return <AmazonPlaylist id={id.item} />;
       case "amazonplaylist":
         return <AmazonPlaylist id={id.item} />;
 
       case "showlist":
-        return <Shows id={id.item} />;
-      case "showList":
         return <Shows id={id.item} />;
 
       case "schedule":
         return <Schedule id={id.item} />;
       case "showsontoday":
         return <ShowsOnToday id={id.item} />;
-      case "staffList":
+      case "stafflist":
         return <Djs id={id.item} />;
 
-      case "searchBox":
+      case "searchbox":
         return <Search />;
 
-      case "playlistGrid":
+      case "playlistgrid":
         return <PlaylistCollection id={id.item} />;
 
-      case "queryStringPlaylist":
+      case "querystringplaylist":
         return <QueryStringPlaylist />;
 
       case "staff":
@@ -69,7 +62,7 @@ function renderComponents(props: any) {
       case "search":
         return <h2>TBD</h2>;
 
-      case "sponsorsList":
+      case "sponsorslist":
         return <Sponsors id={id.item} />;
 
       case "accordion":
@@ -84,7 +77,7 @@ function renderComponents(props: any) {
         return <Carousel id={id.item} />;
       case "collection":
         return <h1>collection </h1>;
-      case "introductionAndContent":
+      case "introductionandcontent":
         return (
           <IntroductionAndContent
             introduction={props.introduction}

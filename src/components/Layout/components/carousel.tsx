@@ -1,12 +1,6 @@
 import { useQuery, gql } from "@apollo/client";
-import { useState, useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
-import Link from "next/link";
-import Streams from "@/src/components/Layout/components/streams";
 import LayoutResolver from "@/src/components/Layout/components/layoutResolver";
-
-import ModalVideo from "react-modal-video";
-import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 
 function BannerCarousel(props) {
   const CAROUSEL = gql`
@@ -47,8 +41,6 @@ function BannerCarousel(props) {
     return <div></div>;
   }
 
-console.log(data)
-
   const carouselArray = data.carousel.bannersCollection.items;
 
   return (
@@ -74,7 +66,6 @@ console.log(data)
                 style={{
                   backgroundImage: `url(${item.bannerImage[0].secure_url})`,
                   backgroundRepeat: "no-repeat",
-                   
                 }}
 
                 // onMouseEnter={(e) => { e.preventDefault(); this.changeVideoID(item.video.youtubeId)}}
@@ -87,9 +78,9 @@ console.log(data)
                         <h1>{item.title}</h1>
 
                         <div className="carousel-ctas">
-
-                         { item.ctaLayout!== null ? (<LayoutResolver id={item.ctaLayout.sys.id} />) : null }
- 
+                          {item.ctaLayout !== null ? (
+                            <LayoutResolver id={item.ctaLayout.sys.id} />
+                          ) : null}
                         </div>
                       </div>
                     </div>
@@ -107,3 +98,4 @@ console.log(data)
 }
 
 export default BannerCarousel;
+ 
