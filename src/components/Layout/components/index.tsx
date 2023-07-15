@@ -20,6 +20,8 @@ import FilteredPlaylist from "@/src/components/Layout/components/filteredAmazonP
 import Current from "@/src/components/Layout/components/currentShows";
 
 function renderComponents(props: any) {
+
+  
   function Sorter(id, item) {
     const type = id.id.toLowerCase();
     switch (type) {
