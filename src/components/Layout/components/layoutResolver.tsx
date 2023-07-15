@@ -25,7 +25,7 @@ const LAYOUT = gql`
               ...staffId
               ...showId
               ...searchId
-              ...showlistId
+          
               __typename
             }
           }
@@ -79,11 +79,7 @@ const LAYOUT = gql`
       id
     }
   }
-  fragment showlistId on ShowList {
-    sys {
-      id
-    }
-  }
+  
 
 
 
@@ -93,6 +89,8 @@ const LAYOUT = gql`
 function ResolveLayout(props: any) {
   let id = props.id;
 
+ 
+
   const { data, loading, error } = useQuery(LAYOUT, { variables: { id } });
   if (loading) {
     return <div></div>;
@@ -100,7 +98,7 @@ function ResolveLayout(props: any) {
   if (error) {
     return <div></div>;
   }
-
+console.log(data)
  
 
   function Columns() {

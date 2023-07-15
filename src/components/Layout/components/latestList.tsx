@@ -36,10 +36,6 @@ function Message(props: any) {
   if (error) {
     return <div></div>;
   }
-
-
-
-
   
   function Date(date: any) {
     let year = date.date.substring(0, 4);
@@ -80,7 +76,7 @@ function Message(props: any) {
            
               {" "}
               <div className="amazonplaylist-audio">
-              Show: <a href={"../shows/" + podcast.show.slug} title={"Read more about " +podcast.show.title } ><strong>{podcast.show.title}</strong></a> 
+           <p> <b>Show:</b>  <a href={"../shows/" + podcast.show.slug} title={"Read more about " +podcast.show.title } ><strong>{podcast.show.title}</strong></a> </p> 
                 <audio controls src={podcast.amazonUrl}>
                   Your browser does not support the
                   <code>audio</code> element.
