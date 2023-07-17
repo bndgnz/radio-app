@@ -109,29 +109,10 @@ export interface IAmazonPodcast extends Entry<IAmazonPodcastFields> {
   };
 }
 
-export interface IArchivedShowsFields {
-  /** Title */
-  title?: string | undefined;
-}
-
-export interface IArchivedShows extends Entry<IArchivedShowsFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "archivedShows";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
 export interface IBannerFields {
+  /** Banner Image */
+  bannerImage?: Record<string, any> | undefined;
+
   /** Image */
   heroImage?: Asset | undefined;
 
@@ -167,33 +148,6 @@ export interface IBanner extends Entry<IBannerFields> {
     contentType: {
       sys: {
         id: "banner";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
-export interface ICarouselFields {
-  /** Title */
-  title?: string | undefined;
-
-  /** Banners */
-  banners: IBanner[];
-}
-
-/** A generic carousel to take banners */
-
-export interface ICarousel extends Entry<ICarouselFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "carousel";
         linkType: "ContentType";
         type: "Link";
       };
@@ -354,31 +308,6 @@ export interface IHeaderConfiguration
   };
 }
 
-export interface IHtmlBlockFields {
-  /** Title */
-  title?: string | undefined;
-
-  /** HTML */
-  html?: Document | undefined;
-}
-
-export interface IHtmlBlock extends Entry<IHtmlBlockFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "htmlBlock";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
 export interface IIntroductionAndContentFields {
   /** Title */
   title?: string | undefined;
@@ -403,17 +332,20 @@ export interface IIntroductionAndContent
 }
 
 export interface ILandingPageFields {
-  /** Image */
-  image: Asset;
+  /** Title */
+  title?: string | undefined;
 
   /** Cloudinary Image */
   cloudinaryImage: Record<string, any>;
 
+  /** Show Introduction */
+  showIntroduction?: boolean | undefined;
+
+  /** Show Content */
+  showContent?: boolean | undefined;
+
   /** Show Banner */
   showBanner?: boolean | undefined;
-
-  /** Title */
-  title?: string | undefined;
 
   /** Te reo title */
   teReoTitle?: string | undefined;
@@ -444,14 +376,19 @@ export interface ILandingPageFields {
         | IShowsOnToday
         | ISponsorsList
         | IStaffList
-        | IShowList
         | IAmazonPlaylist
         | ILatestPodcasts
         | ISearchBox
         | IArchivedShows
         | IFilteredAmazonPlaylist
+        | ICurrentShows
+        | IHtmlBlock
+        | IList
       )[]
     | undefined;
+
+  /** Image */
+  image: Asset;
 }
 
 /** A landing page */
@@ -484,7 +421,7 @@ export interface ILatestPodcastsFields {
   numberToShow: number;
 
   /** Show title */
-  showTitle?: boolean | undefined;
+  showTitle: boolean;
 }
 
 export interface ILatestPodcasts extends Entry<ILatestPodcastsFields> {
@@ -554,6 +491,7 @@ export interface ILayoutColumFields {
         | IAmazonPlaylist
         | IAmazonPodcast
         | ILatestPodcasts
+        | IList
       )[]
     | undefined;
 
@@ -617,6 +555,49 @@ export interface ILinkedIcon extends Entry<ILinkedIconFields> {
     contentType: {
       sys: {
         id: "linkedIcon";
+        linkType: "ContentType";
+        type: "Link";
+      };
+    };
+  };
+}
+
+export interface IListFields {
+  /** Title */
+  title: string;
+
+  /** Type */
+  type?:
+    | "Staff List"
+    | "Show List"
+    | "Sponsor List"
+    | "Stream List"
+    | "Banner List"
+    | undefined;
+
+  /** Show Status */
+  showStatus?: "Current" | "Archived" | "All" | "Show on Today" | undefined;
+
+  /** Show Schedule */
+  showSchedule?: ISchedule | undefined;
+
+  /** Staff Status */
+  staffStatus?: "Current" | "Previous" | "All" | undefined;
+
+  /** Banners */
+  banners?: IBanner[] | undefined;
+}
+
+export interface IList extends Entry<IListFields> {
+  sys: {
+    id: string;
+    type: string;
+    createdAt: string;
+    updatedAt: string;
+    locale: string;
+    contentType: {
+      sys: {
+        id: "list";
         linkType: "ContentType";
         type: "Link";
       };
@@ -906,79 +887,6 @@ export interface ISearchBox extends Entry<ISearchBoxFields> {
   };
 }
 
-export interface IServiceFields {
-  /** Title */
-  title?: string | undefined;
-
-  /** Services Image */
-  servicesImage?: Asset | undefined;
-
-  /** Post Content */
-  postContent?: IPost | undefined;
-
-  /** Related Content */
-  relatedContent?: (IBlog | INews)[] | undefined;
-
-  /** SEO */
-  seo?: IMetatags | undefined;
-
-  /** Icon Class */
-  iconClass?: string | undefined;
-
-  /** slug */
-  slug?: string | undefined;
-
-  /** Service Collection */
-  serviceCollection?: boolean | undefined;
-
-  /** Related Services */
-  relatedServices?: IService[] | undefined;
-}
-
-/** A service page */
-
-export interface IService extends Entry<IServiceFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "service";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
-export interface IShowListFields {
-  /** Title */
-  title?: string | undefined;
-
-  /** Shows */
-  shows?: IShows[] | undefined;
-}
-
-export interface IShowList extends Entry<IShowListFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "showList";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
 export interface IShowsFields {
   /** image */
   image?: Asset | undefined;
@@ -1227,34 +1135,6 @@ export interface IStaff extends Entry<IStaffFields> {
   };
 }
 
-export interface IStaffListFields {
-  /** Title */
-  title?: string | undefined;
-
-  /** Staff */
-  staff?: IStaff[] | undefined;
-
-  /** Current DJs */
-  currentDJs?: boolean | undefined;
-}
-
-export interface IStaffList extends Entry<IStaffListFields> {
-  sys: {
-    id: string;
-    type: string;
-    createdAt: string;
-    updatedAt: string;
-    locale: string;
-    contentType: {
-      sys: {
-        id: "staffList";
-        linkType: "ContentType";
-        type: "Link";
-      };
-    };
-  };
-}
-
 export interface IStreamFields {
   /** Title */
   title: string;
@@ -1321,20 +1201,18 @@ export type CONTENT_TYPE =
   | "accordion"
   | "amazonPlaylist"
   | "amazonPodcast"
-  | "archivedShows"
   | "banner"
-  | "carousel"
   | "config"
   | "filteredAmazonPlaylist"
   | "footer"
   | "headerConfiguration"
-  | "htmlBlock"
   | "introductionAndContent"
   | "landingPage"
   | "latestPodcasts"
   | "layout"
   | "layoutColum"
   | "linkedIcon"
+  | "list"
   | "menu"
   | "message"
   | "navigationLink"
@@ -1343,15 +1221,12 @@ export type CONTENT_TYPE =
   | "queryStringPlaylist"
   | "schedule"
   | "searchBox"
-  | "service"
-  | "showList"
   | "shows"
   | "showSlot"
   | "showsOnToday"
   | "sponsor"
   | "sponsorsList"
   | "staff"
-  | "staffList"
   | "stream"
   | "video";
 
@@ -1359,20 +1234,18 @@ export type IEntry =
   | IAccordion
   | IAmazonPlaylist
   | IAmazonPodcast
-  | IArchivedShows
   | IBanner
-  | ICarousel
   | IConfig
   | IFilteredAmazonPlaylist
   | IFooter
   | IHeaderConfiguration
-  | IHtmlBlock
   | IIntroductionAndContent
   | ILandingPage
   | ILatestPodcasts
   | ILayout
   | ILayoutColum
   | ILinkedIcon
+  | IList
   | IMenu
   | IMessage
   | INavigationLink
@@ -1381,15 +1254,12 @@ export type IEntry =
   | IQueryStringPlaylist
   | ISchedule
   | ISearchBox
-  | IService
-  | IShowList
   | IShows
   | IShowSlot
   | IShowsOnToday
   | ISponsor
   | ISponsorsList
   | IStaff
-  | IStaffList
   | IStream
   | IVideo;
 

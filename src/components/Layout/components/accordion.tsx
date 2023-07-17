@@ -24,7 +24,6 @@ function PageAccordion(props: any) {
           items {
             ...PlaylistId
             ...LayoutId 
-            ...CarouselId
             ...MessageId
             ...AmazonPlaylistId
        ...FilteredAmazonPlaylistId
@@ -76,13 +75,7 @@ function PageAccordion(props: any) {
                
               }
             }
-            fragment CarouselId on Carousel {
-                title
-                sys {
-                  id
-                   
-                  }
-                }
+           
                 fragment MessageId on Message {
                     title
                     sys {

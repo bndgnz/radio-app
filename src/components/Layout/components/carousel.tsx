@@ -3,45 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import LayoutResolver from "@/src/components/Layout/components/layoutResolver";
 
 function BannerCarousel(props) {
-  const CAROUSEL = gql`
-    query GetCarousel($id: String!) {
-      carousel(id: $id) {
-        bannersCollection {
-          items {
-            title
-            bannerImage
-            subTitle
-            video {
-              title
-              introduction
-              watchMessage
-              youtubeId
-            }
-            buttonText
-            bannerLink
-            ctaLayout {
-              sys {
-                id
-              }
-              title
-            }
-          }
-        }
-      }
-    }
-  `;
-
-  const id = props.id;
-
-  const { data, loading, error } = useQuery(CAROUSEL, { variables: { id } });
-  if (loading) {
-    return <div></div>;
-  }
-  if (error) {
-    return <div></div>;
-  }
-
-  const carouselArray = data.carousel.bannersCollection.items;
+  const carouselArray = props.props.items;
 
   return (
     <>
@@ -98,4 +60,3 @@ function BannerCarousel(props) {
 }
 
 export default BannerCarousel;
- 

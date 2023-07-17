@@ -18,10 +18,11 @@ import LatestAmazonPodcasts from "@/src/components/Layout/components/latestAmazo
 import Archived from "@/src/components/Layout/components/archivedShows";
 import FilteredPlaylist from "@/src/components/Layout/components/filteredAmazonPlaylist";
 import Current from "@/src/components/Layout/components/currentShows";
+import Listresolver from "@/src/utils/helpers/listResolver"
 
 function renderComponents(props: any) {
+console.log(props)
 
-  
   function Sorter(id, item) {
     const type = id.id.toLowerCase();
     switch (type) {
@@ -31,7 +32,10 @@ function renderComponents(props: any) {
       case "currentshows":
         return <Current id={id.item} />;
 
-      case "filteredamazonplaylist":
+        case "list":
+          return <Listresolver props={id.item} />;
+
+          case "filteredamazonplaylist":
         return <FilteredPlaylist id={id.item} />;
 
       case "latestpodcasts":
@@ -50,19 +54,14 @@ function renderComponents(props: any) {
       case "stafflist":
         return <Djs id={id.item} />;
 
-      case "searchbox":
-        return <Search />;
+ 
 
       case "playlistgrid":
         return <PlaylistCollection id={id.item} />;
 
       case "querystringplaylist":
         return <QueryStringPlaylist />;
-
-      case "staff":
-        return <h2>TBD</h2>;
-      case "search":
-        return <h2>TBD</h2>;
+ 
 
       case "sponsorslist":
         return <Sponsors id={id.item} />;
@@ -79,14 +78,7 @@ function renderComponents(props: any) {
         return <Carousel id={id.item} />;
       case "collection":
         return <h1>collection </h1>;
-      case "introductionandcontent":
-        return (
-          <IntroductionAndContent
-            introduction={props.introduction}
-            content={props.content}
-            title={props.title}
-          />
-        );
+     
       case "stream":
         return <Stream id={id.item} />;
       case "playlist":
@@ -97,6 +89,19 @@ function renderComponents(props: any) {
         return null;
     }
   }
+
+  if (props.showContent==true  ) {return ( <IntroductionAndContent
+    introduction={props.introduction}
+    content={props.content}
+    title={props.title}
+    showContent= {props.showContent}
+    
+  />)}
+ 
+
+
+
+
 
   if (props.components) {
     return props.components.map((component, idx) => {

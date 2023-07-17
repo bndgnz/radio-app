@@ -87,6 +87,8 @@ const MENU = gql`
     }
     path
     showBanner
+    showContent
+
   }
 
   fragment ShowMenulink on Shows {
@@ -118,6 +120,8 @@ function Layout(props: any) {
   if (error) {
     return <div></div>;
   }
+ 
+ 
 
   return (
     <>
@@ -138,6 +142,8 @@ function Layout(props: any) {
         content={props.content}
         title={props.title}
         allProps={props}
+        showContent={props.showContent}
+
       />
 
       <Footer data={data} />

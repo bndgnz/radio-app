@@ -1,12 +1,27 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
-import Image from "next/image";
+import ShowsOnToday from "@/src/components/Layout/components/showsOnToday";
 
-function Archived(props: any) {
-  const id = props.id;
+function Showlist(props: any) {
+console.log(props)
+ 
+
+const typeOfShowList= props.props
+let showStatus;
+console.log(typeOfShowList)
+
+switch (typeOfShowList) {
+    case "Archived":
+    showStatus= true ;
+    break;   
+    case "Current":
+        showStatus= false; 
+        break;  
+      }
+ 
   const SHOWS = gql`
-    query GetShows {
-      showsCollection(order: title_ASC, where: { archived: true }) {
+    query GetShows ($showStatus: Boolean!) {
+      showsCollection(order: title_ASC, where: { archived:$showStatus}) {
         items {
           title
           introduction
@@ -24,26 +39,27 @@ function Archived(props: any) {
     }
   `;
 
-  const { data, loading, error } = useQuery(SHOWS);
+  const { data, loading, error } = useQuery(SHOWS, { variables: {showStatus} });
   if (loading) {
-    return <div></div>;
+    return <div> </div>;
   }
   if (error) {
-    return <div></div>;
+    return <div> </div>;
   }
+ 
 
   function Djs(props: any) {
     const listOfDjs = props.data.items.map((dj, idx) => {
-      return <p key={idx}>{dj.title}</p>;
+      return <div key={idx}>{dj.title}</div>;
     });
 
-    return <p>{listOfDjs} </p>;
+    return <div>{listOfDjs}</div>;
   }
 
   const listOfItems = data.showsCollection.items.map((show, idx) => {
     return (
       <div className="archived-card row col-12" key={idx}>
-        <div className="col-sm-12 col-lg-2">
+        <div className="col-sm-12 col-lg-2"> 
           <img src={show.cimage[0].url} className="archived-show-image" />
         </div>
 
@@ -66,21 +82,33 @@ function Archived(props: any) {
         <div className="col-sm-12 col-lg-3  archived-show-introduction">
           <p>
             <strong>Presented by:</strong>
-          </p>{" "}
-          <p>
-            <Djs data={show.djCollection} />{" "}
-          </p>
+          </p> 
+         
+            <Djs data={show.djCollection} /> 
+         
         </div>
       </div>
     );
   });
+
+
+
+ 
+
   return (
     <section className="about-area ptb-100">
       <div className="container">
         <div className="card-deck  ">{listOfItems}</div>
       </div>
-    </section>
+    </section> 
   );
+ 
+  
+
+
+
+
+
 }
 
-export default Archived;
+export default Showlist;

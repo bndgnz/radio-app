@@ -2,10 +2,12 @@ import React from "react";
 import { useQuery, gql } from "@apollo/client";
 
 function StaffListBuilder(props: any) {
-  const currentDj = props.type.staffList.currentDJs;
+let currentDj;
+if (props.status==="Current") {currentDj=true} else {currentDj=false}
+ 
 
   const STREAMS = gql`
-    query GetStream($currentDj: Boolean!) {
+    query GetDj($currentDj: Boolean!) {
       staffCollection(order: title_ASC, where: { currentDj: $currentDj }) {
         items {
           title
@@ -31,6 +33,8 @@ function StaffListBuilder(props: any) {
   if (error) {
     return <div></div>;
   }
+
+  console.log(data)
 
   function LinkedShows(props: any) {
     const title = props.dj;
@@ -102,7 +106,7 @@ function StaffListBuilder(props: any) {
     <>
       <section className="playlist container page-block amazon-playlist">
         <div className="container">
-          <h1>{props.type.staffList.title}</h1>
+          <h1>{props.title} </h1>
           <hr />
 
           <Items />

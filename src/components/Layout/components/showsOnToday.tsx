@@ -4,11 +4,13 @@ import React from "react";
 import { useQuery, gql } from "@apollo/client";
 import Link from "next/link";
 
-const SCHEDULE = gql`
+
+
+function Schedule(props: any) {
+  const SCHEDULE = gql`
   query GetSchedule($id: String!) {
-    showsOnToday(id: $id) {
-      title
-      schedule {
+   
+      schedule(id: $id)  {
         title
         mondayCollection {
           items {
@@ -47,7 +49,7 @@ const SCHEDULE = gql`
         }
       }
     }
-  }
+  
   fragment collectionItems on Shows {
     djCollection(limit: 3) {
       items {
@@ -72,10 +74,15 @@ const SCHEDULE = gql`
     cimage
     
   }
+
+ 
 `;
 
-function Schedule(props) {
-  const id = props.id;
+ 
+ 
+
+
+  const id =  "2pzI1DF16MRjM6tWUyutAI" ;
 
   const { data, loading, error } = useQuery(SCHEDULE, { variables: { id } });
   if (loading) {
@@ -84,7 +91,7 @@ function Schedule(props) {
   if (error) {
     return <div> </div>;
   }
-
+console.log(data)
 
 
 
@@ -114,7 +121,7 @@ function Schedule(props) {
           key={idx}
           className={
             dayName.slice(0, 3).toLowerCase() == first3.toLowerCase() ||
-            data.showsOnToday.schedule.showTodayOnly == true
+            data.schedule.showTodayOnly == true
               ? "show on-today-time"
               : "hide"
           }
@@ -152,25 +159,25 @@ function Schedule(props) {
   function Showcard(props) {
     switch (props.showDay) {
       case "sunday":
-        day = data.showsOnToday.schedule.sundayCollection.items;
+        day = data.schedule.sundayCollection.items;
         break;
       case "monday":
-        day = data.showsOnToday.schedule.mondayCollection.items;
+        day = data.schedule.mondayCollection.items;
         break;
       case "tuesday":
-        day = data.showsOnToday.schedule.tuesdayCollection.items;
+        day = data.schedule.tuesdayCollection.items;
         break;
       case "wednesday":
-        day = data.showsOnToday.schedule.wednesdayCollection.items;
+        day = data.schedule.wednesdayCollection.items;
         break;
       case "thursday":
-        day = data.showsOnToday.schedule.thursdayCollection.items;
+        day = data.schedule.thursdayCollection.items;
         break;
       case "friday":
-        day = data.showsOnToday.schedule.fridayCollection.items;
+        day = data.schedule.fridayCollection.items;
         break;
       case "saturday":
-        day = data.showsOnToday.schedule.saturdayCollection.items;
+        day = data.schedule.saturdayCollection.items;
         break;
     }
 
@@ -186,7 +193,7 @@ function Schedule(props) {
           }}
         >
           <div className="container ">
-            <div className="row">
+            <div className="row"> 
               <div className="col-5 offset-1 col-xs-12">
                 <Link
                   href={`/shows/${show.slug}`}

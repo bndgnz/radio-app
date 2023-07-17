@@ -18,13 +18,8 @@ const LAYOUT = gql`
           layoutComponentCollection {
             items {
               ...playlistId
-              ...streamId
-              ...showsOnTodayId
-              ...messageId
               ...scheduleId
-              ...staffId
-              ...showId
-              ...searchId
+              ...listId
           
               __typename
             }
@@ -45,41 +40,19 @@ const LAYOUT = gql`
     }
   }
 
-  fragment messageId on Message {
-    sys {
-      id
-    }
-  }
+ 
   fragment scheduleId on Schedule {
     sys {
       id
     }
   }
 
-  fragment showsOnTodayId on ShowsOnToday {
+   
+  fragment listId on List {
     sys {
       id
     }
-  }
-
-  fragment showId on Shows {
-    sys {
-      id
-    }
-  }
-
-  fragment staffId on Staff {
-    sys {
-      id
-    }
-  }
-
-  fragment searchId on SearchBox {
-    sys {
-      id
-    }
-  }
-  
+  } 
 
 
 
@@ -88,7 +61,7 @@ const LAYOUT = gql`
 
 function ResolveLayout(props: any) {
   let id = props.id;
-
+ 
  
 
   const { data, loading, error } = useQuery(LAYOUT, { variables: { id } });
@@ -98,7 +71,7 @@ function ResolveLayout(props: any) {
   if (error) {
     return <div></div>;
   }
-console.log(data)
+ 
  
 
   function Columns() {
