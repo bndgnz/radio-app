@@ -18,8 +18,13 @@ const LAYOUT = gql`
           layoutComponentCollection {
             items {
               ...playlistId
+              ...streamId
+              ...showsOnTodayId
+              ...messageId
               ...scheduleId
-              ...listId
+              ...staffId
+              ...showId
+                 ...listId
           
               __typename
             }
@@ -40,14 +45,36 @@ const LAYOUT = gql`
     }
   }
 
- 
+  fragment messageId on Message {
+    sys {
+      id
+    }
+  }
   fragment scheduleId on Schedule {
     sys {
       id
     }
   }
 
-   
+  fragment showsOnTodayId on ShowsOnToday {
+    sys {
+      id
+    }
+  }
+
+  fragment showId on Shows {
+    sys {
+      id
+    }
+  }
+
+  fragment staffId on Staff {
+    sys {
+      id
+    }
+  }
+
+  
   fragment listId on List {
     sys {
       id
