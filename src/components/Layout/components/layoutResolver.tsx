@@ -19,7 +19,6 @@ const LAYOUT = gql`
             items {
               ...playlistId
               ...streamId
-              ...showsOnTodayId
               ...messageId
               ...scheduleId
               ...staffId
@@ -56,11 +55,7 @@ const LAYOUT = gql`
     }
   }
 
-  fragment showsOnTodayId on ShowsOnToday {
-    sys {
-      id
-    }
-  }
+  
 
   fragment showId on Shows {
     sys {
