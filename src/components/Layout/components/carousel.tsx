@@ -1,6 +1,6 @@
-import { useQuery, gql } from "@apollo/client";
 import { Carousel } from "react-responsive-carousel";
 import LayoutResolver from "@/src/components/Layout/components/layoutResolver";
+import Search from "@/src/components/Layout/components/search/search";
 
 function BannerCarousel(props) {
   const carouselArray = props.props.items;
@@ -52,6 +52,10 @@ function BannerCarousel(props) {
             </div>
           ))}
         </Carousel>
+
+<div className="banner-search"><Search /></div>
+
+
       </div>
 
       {/* If you want change the video need to update below videoID */}

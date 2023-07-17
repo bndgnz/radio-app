@@ -194,7 +194,7 @@ console.log(data)
         >
           <div className="container ">
             <div className="row"> 
-              <div className="col-5 offset-1 col-xs-12">
+              <div className="col-7   col-xs-12">
                 <Link
                   href={`/shows/${show.slug}`}
                   title={"Find out more about " + show.title}

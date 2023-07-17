@@ -23,8 +23,8 @@ const LAYOUT = gql`
               ...scheduleId
               ...staffId
               ...showId
-                 ...listId
-          
+              ...listId
+
               __typename
             }
           }
@@ -55,8 +55,6 @@ const LAYOUT = gql`
     }
   }
 
-  
-
   fragment showId on Shows {
     sys {
       id
@@ -69,22 +67,15 @@ const LAYOUT = gql`
     }
   }
 
-  
   fragment listId on List {
     sys {
       id
     }
-  } 
-
-
-
-
+  }
 `;
 
 function ResolveLayout(props: any) {
   let id = props.id;
- 
- 
 
   const { data, loading, error } = useQuery(LAYOUT, { variables: { id } });
   if (loading) {
@@ -93,8 +84,6 @@ function ResolveLayout(props: any) {
   if (error) {
     return <div></div>;
   }
- 
- 
 
   function Columns() {
     if (data.layout.columnsCollection.items) {
