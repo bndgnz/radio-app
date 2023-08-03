@@ -4,7 +4,8 @@ import Link from "next/link";
 
 function AmazonPlaylist(props: any) {
   const id = props.id;
-
+ 
+ 
   const PLAYLIST = gql`
     query GetPLaylist($id: String!) {
       amazonPlaylist(id: $id) {

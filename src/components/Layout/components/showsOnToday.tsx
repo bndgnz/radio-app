@@ -4,13 +4,10 @@ import React from "react";
 import { useQuery, gql } from "@apollo/client";
 import Link from "next/link";
 
-
-
 function Schedule(props: any) {
   const SCHEDULE = gql`
-  query GetSchedule($id: String!) {
-   
-      schedule(id: $id)  {
+    query GetSchedule($id: String!) {
+      schedule(id: $id) {
         title
         mondayCollection {
           items {
@@ -49,40 +46,33 @@ function Schedule(props: any) {
         }
       }
     }
-  
-  fragment collectionItems on Shows {
-    djCollection(limit: 3) {
-      items {
-        title
+
+    fragment collectionItems on Shows {
+      djCollection(limit: 3) {
+        items {
+          title
+        }
       }
-    }
-    timeSlotsCollection(limit: 3) {
-      items {
-        title
-        day
-        startTime
-        endTime
-        amPm
+      timeSlotsCollection(limit: 3) {
+        items {
+          title
+          day
+          startTime
+          endTime
+          amPm
+        }
       }
+      title
+      slug
+      playlistUrl
+      showUrl
+      path
+      introduction
+      cimage
     }
-    title
-    slug
-    playlistUrl
-    showUrl
-    path
-    introduction
-    cimage
-    
-  }
+  `;
 
- 
-`;
-
- 
- 
-
-
-  const id =  "2pzI1DF16MRjM6tWUyutAI" ;
+  const id = "2pzI1DF16MRjM6tWUyutAI";
 
   const { data, loading, error } = useQuery(SCHEDULE, { variables: { id } });
   if (loading) {
@@ -91,10 +81,6 @@ function Schedule(props: any) {
   if (error) {
     return <div> </div>;
   }
-console.log(data)
-
-
-
   var day = null;
 
   const weekday = [
@@ -150,12 +136,6 @@ console.log(data)
     return { listOfItems };
   }
 
-  /////////////////////////////////////////////////////////////////////////////
-
-  //////////////////////////////////////////////////////////////////////////////////////
-
-  ///////////////////////////////////////////////////////////////////////////////////
-
   function Showcard(props) {
     switch (props.showDay) {
       case "sunday":
@@ -193,22 +173,26 @@ console.log(data)
           }}
         >
           <div className="container ">
-            <div className="row"> 
+            <div className="row">
               <div className="col-7   col-xs-12">
                 <Link
                   href={`/shows/${show.slug}`}
                   title={"Find out more about " + show.title}
                 >
-                  <a className="tooltiplink" data-title={show.title +
+                  <a
+                    className="tooltiplink"
+                    data-title={
+                      show.title +
                       "\n" +
-                      "Presented by " + "\n" +
+                      "Presented by " +
+                      "\n" +
                       show.djCollection.items.map((a) => {
                         const djList = a.title + " ";
                         return djList;
                       }) +
                       "\n - " +
-                      show.introduction}
-                  
+                      show.introduction
+                    }
                     data-html="true"
                   >
                     {show.title}{" "}

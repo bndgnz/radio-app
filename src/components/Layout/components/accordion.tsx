@@ -14,7 +14,6 @@ import "react-accessible-accordion/dist/fancy-example.css";
 import { useQuery, gql } from "@apollo/client";
 
 function PageAccordion(props: any) {
- 
   const id = props.id;
   const ACCORDION = gql`
     query GetAccordion($id: String!) {
@@ -23,10 +22,10 @@ function PageAccordion(props: any) {
         accordionItemsCollection {
           items {
             ...PlaylistId
-            ...LayoutId 
+            ...LayoutId
             ...MessageId
             ...AmazonPlaylistId
-       ...FilteredAmazonPlaylistId
+            ...FilteredAmazonPlaylistId
             __typename
           }
         }
@@ -36,53 +35,42 @@ function PageAccordion(props: any) {
       title
       sys {
         id
-         
-        }
       }
+    }
 
-     fragment AmazonPlaylistId on AmazonPlaylist {
+    fragment AmazonPlaylistId on AmazonPlaylist {
       title
       sys {
         id
-         
-        }
       }
+    }
 
-      fragment FilteredAmazonPlaylistId on FilteredAmazonPlaylist {
-        title
-        sys {
-          id
-           
-          }
-        }
-  
-
-
-
-
+    fragment FilteredAmazonPlaylistId on FilteredAmazonPlaylist {
+      title
+      sys {
+        id
+      }
+    }
 
     fragment PlaylistId on Playlist {
-        title
-        sys {
-          id
-           
-          }
-        }
-        fragment LayoutId on Layout {
-            title
-            sys {
-              id
-               
-              }
-            }
-           
-                fragment MessageId on Message {
-                    title
-                    sys {
-                      id
-                    }
-                  }
-                  
+      title
+      sys {
+        id
+      }
+    }
+    fragment LayoutId on Layout {
+      title
+      sys {
+        id
+      }
+    }
+
+    fragment MessageId on Message {
+      title
+      sys {
+        id
+      }
+    }
   `;
 
   const { data, loading, error } = useQuery(ACCORDION, { variables: { id } });
@@ -92,49 +80,32 @@ function PageAccordion(props: any) {
   if (error) {
     return <div></div>;
   }
- 
 
- 
   return (
     <section className="accordion-wrapper">
       <div className="container  page-block">
         <div className="row">
           <div className="col-12 ">
-          <h3>{data.accordion.title}</h3>
+            <h3>{data.accordion.title}</h3>
 
-
-            <Accordion allowZeroExpanded >
-            
-            {data &&
+            <Accordion allowZeroExpanded>
+              {data &&
                 data.accordion.accordionItemsCollection.items.map((item, i) => (
-
-                    <AccordionItem key={i}>
-
-<AccordionItemHeading>
-                    <AccordionItemButton>
-                       {item.title}
-                    </AccordionItemButton>
+                  <AccordionItem key={i}>
+                    <AccordionItemHeading>
+                      <AccordionItemButton>{item.title}</AccordionItemButton>
                     </AccordionItemHeading>
 
-                    <AccordionItemPanel>         
-                  <div key={i}>
-                    <Components
-                      id={item.__typename.toLowerCase()}
-                      item={item.sys.id}
-                    />
-                  </div>
-                  </AccordionItemPanel>
+                    <AccordionItemPanel>
+                      <div key={i}>
+                        <Components
+                          id={item.__typename.toLowerCase()}
+                          item={item.sys.id}
+                        />
+                      </div>
+                    </AccordionItemPanel>
                   </AccordionItem>
-                
-                
                 ))}
-
-       
-             
-
-
-
-
             </Accordion>
           </div>
         </div>

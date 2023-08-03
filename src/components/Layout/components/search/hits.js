@@ -3,47 +3,40 @@ import { connectStateResults } from "react-instantsearch-dom";
 function Hits({ searchState, searchResults }) {
   const validQuery = searchState.query?.length >= 3;
 
-
-  function Date (date ) {
-
-if (date.date != null) {
-
-    let year = date.date.substring(0, 4);
-    let month = date.date.substring(5, 7);
-    let day = date.date.substring(8, 10);
-     return (
-<strong><strong>{day +"-"+month  +"-" +year }</strong> </strong> 
-
-    )
-     }
-
-}
-
-
-
+  function Date(date) {
+    if (date.date != null) {
+      let year = date.date.substring(0, 4);
+      let month = date.date.substring(5, 7);
+      let day = date.date.substring(8, 10);
+      return (
+        <strong>
+          <strong>{day + "-" + month + "-" + year}</strong>{" "}
+        </strong>
+      );
+    }
+  }
 
   function Resolver(hit) {
-    let title="";
+    let title = "";
     let url;
     var desc = "";
     let show;
     let date;
-  
+
     let type;
-   
 
     switch (hit.hit.sys.contentType.sys.id) {
       case "shows":
         url = "/shows/" + hit.hit.fields.slug[["en-US"]];
-   type="Show"
-   title = hit.hit.fields.title[["en-US"]];
+        type = "Show";
+        title = hit.hit.fields.title[["en-US"]];
         break;
       case "staff":
         url =
           "/djs#" +
           hit.hit.fields.title[["en-US"]].replace(/ /g, "-").toLowerCase();
         desc = hit.hit.fields.shortBio[["en-US"]];
-title = hit.hit.fields.title[["en-US"]];
+        title = hit.hit.fields.title[["en-US"]];
         type = "DJ";
         break;
 
@@ -66,7 +59,7 @@ title = hit.hit.fields.title[["en-US"]];
       case "amazonPodcast":
         url = "/podcast/" + hit.hit.fields.slug[["en-US"]];
         desc = hit.hit.fields.description[["en-US"]];
-        show ="show"
+        show = "show";
         date = hit.hit.fields.date[["en-US"]];
         type = "Podcast";
         title = hit.hit.fields.title[["en-US"]];
@@ -77,11 +70,8 @@ title = hit.hit.fields.title[["en-US"]];
       case "playlist":
         url = "/playlist?playlist=" + hit.hit.sys.id;
         type = "Playlist";
-       
-   title=  hit.hit.fields.title[["en-US"]];
 
- 
- 
+        title = hit.hit.fields.title[["en-US"]];
 
         break;
 
@@ -91,14 +81,17 @@ title = hit.hit.fields.title[["en-US"]];
     return (
       <div className="row">
         <div className="col-12 col-md-10">
-          <a href={url} title={title} target="_blank"  rel="noreferrer">
+          <a href={url} title={title} target="_blank" rel="noreferrer">
             {title}{" "}
           </a>
           <div className="search-results-description">{desc}</div>
         </div>
 
-        <div className="col-12 col-md-2 search-results-type"> {type} <br /><Date date={date} /></div>
-       
+        <div className="col-12 col-md-2 search-results-type">
+          {" "}
+          {type} <br />
+          <Date date={date} />
+        </div>
       </div>
     );
   }

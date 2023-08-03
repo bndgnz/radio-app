@@ -10,17 +10,19 @@ import Shows from "@/src/components/Layout/components/shows";
 import AmazonPlaylist from "@/src/components/Layout/components/amazonPlaylist";
 import LatestAmazonPodcasts from "@/src/components/Layout/components/latestAmazonPodcasts";
 import FilteredPlaylist from "@/src/components/Layout/components/filteredAmazonPlaylist";
-import Listresolver from "@/src/utils/helpers/listResolver"
+import Listresolver from "@/src/utils/helpers/listResolver";
 
 function renderComponents(props: any) {
+ 
+
   function Sorter(id, item) {
     const type = id.id.toLowerCase();
+ 
     switch (type) {
-     
-        case "list":
-          return <Listresolver props={id.item} />;
+      case "list":
+        return <Listresolver props={id.item} />;
 
-          case "filteredamazonplaylist":
+      case "filteredamazonplaylist":
         return <FilteredPlaylist id={id.item} />;
 
       case "latestpodcasts":
@@ -34,16 +36,16 @@ function renderComponents(props: any) {
 
       case "schedule":
         return <Schedule id={id.item} />;
-          case "querystringplaylist":
+      case "querystringplaylist":
         return <QueryStringPlaylist />;
-       case "accordion":
+      case "accordion":
         return <Accordion id={id.item} />;
       case "layout":
         return <LayoutResolver id={id.item} />;
 
       case "video":
         return <h1>Video </h1>;
-         case "stream":
+      case "stream":
         return <Stream id={id.item} />;
       case "playlist":
         return <Playlist id={id.item} />;
@@ -54,19 +56,7 @@ function renderComponents(props: any) {
     }
   }
 
-  if (props.showContent==true  ) {return ( <IntroductionAndContent
-    introduction={props.introduction}
-    content={props.content}
-    title={props.title}
-    showContent= {props.showContent}
-    
-  />)}
  
-
-
-
-
-
   if (props.components) {
     return props.components.map((component, idx) => {
       return (
@@ -78,6 +68,30 @@ function renderComponents(props: any) {
       );
     });
   }
+
+
+
+  if (props.showContent == true) {
+    return (
+      <IntroductionAndContent
+        introduction={props.introduction}
+        content={props.content}
+        title={props.title}
+        showContent={props.showContent}
+
+      />
+    );
+  }
+
+
+
+
+
+
+
+
+
+
   if (props.id) {
     return <Sorter id={props.id} item={props.item} />;
   }
