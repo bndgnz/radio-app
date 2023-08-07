@@ -279,7 +279,7 @@ function Schedule(props) {
 
         <div className="col-lg-2 col-xs-12 amazon-podcast-content">
           <strong>
-            <a href={"../show/" + show.slug}>{show.title}</a>
+            <a href={"../shows/" + show.slug}>{show.title}</a>
           </strong>
         </div>
         <div className="col-lg-4 col-xs-12 amazon-podcast-content">
