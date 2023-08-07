@@ -23,22 +23,15 @@ function Showpage(props: any) {
   }
 
   function LatestShow() {
-    if (showlink) {
-      const driveLink1 = showlink.replace(
-        "https://drive.google.com/file/d/",
-        "https://www.googleapis.com/drive/v3/files/"
-      );
-      const driveLink2 = driveLink1.replace(
-        "/view?usp=sharing",
-        "?alt=media&key=AIzaSyAOiHW72zzRZmVNDcGXivXXfJYM75jVOfw"
-      );
+    if (props.props.type.showUrl) {
+       
 
       return (
         <>
           <div className="show-page-audio-controls">
             <h3>Latest show </h3>
             <hr />
-            <audio controls src={driveLink2}>
+            <audio controls src={showlink}>
               Your browser does not support the
               <code>audio</code> element.
             </audio>
@@ -104,9 +97,11 @@ function Showpage(props: any) {
                   <hr />
                   <h5>{props.props.type.sponsor.fields.title}</h5>
                 </div>
-                <LatestShow />
+              
               </>
             ) : null}
+
+<LatestShow />
           </div>
         </div>
       </div>

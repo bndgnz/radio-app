@@ -271,7 +271,7 @@ function Schedule(props) {
     const listOfItems = day.map((show, idx) => (
       <div className="row amazon-playlist-row showlist" key={idx}>
         <div className="col-lg-2 col-xs-12 amazon-podcast-image">
-          <a href={"../show/" + show.slug}>
+          <a href={"../shows/" + show.slug}>
             {" "}
             <img src={show.cimage[0].url} alt="..." />
           </a>
