@@ -52,8 +52,7 @@ function Sorter(props: any) {
       break;
     case purl.includes("open.spotify.com"):
       type = "spotify";
-      const presrc3 = url.replace("https://open.spotify.com/artist/", "");
-      src = "https://open.spotify.com/embed/artist/" + presrc3;
+      src = url;
       break;
 
     default:

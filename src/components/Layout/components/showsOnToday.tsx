@@ -5,6 +5,8 @@ import { useQuery, gql } from "@apollo/client";
 import Link from "next/link";
 
 function Schedule(props: any) {
+
+
   const SCHEDULE = gql`
     query GetSchedule($id: String!) {
       schedule(id: $id) {
@@ -82,6 +84,8 @@ function Schedule(props: any) {
     return <div> </div>;
   }
   var day = null;
+
+ 
 
   const weekday = [
     "Sunday",

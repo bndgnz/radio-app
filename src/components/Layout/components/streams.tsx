@@ -1,8 +1,8 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
 import ReactAudioPlayer from "react-audio-player";
-import PlayingNow from "@/src/components/Layout/components/playingNow"
-
+import PlayingNow from "@/src/components/Layout/components/playingNow";
+import Collapsible from "@/src/utils/helpers/Collapsible";
 
 const STREAMS = gql`
   query GetStream($id: String!) {
@@ -14,8 +14,6 @@ const STREAMS = gql`
   }
 `;
 
-
-
 function Stream(props: any) {
   const id = props.id;
   const { data, loading, error } = useQuery(STREAMS, { variables: { id } });
@@ -26,15 +24,18 @@ function Stream(props: any) {
     return <div></div>;
   }
 
-  function PlayingNow2(props: any) {
+  function PlayingNowText() {
+    return <p>a</p>;
+  }
+
+  function PlayingNow(props: any) {
     if (props.source) {
+      var url = props.source;
+
       return (
-        <details>
-          <summary>
-            <i className="fas fa-stream">&nbsp;&nbsp;</i>Playing now
-          </summary>
-          <div className="search-div">{props.source}</div>
-        </details>
+        <Collapsible summary="Playing Now">
+          <iframe src={url} />{" "}
+        </Collapsible>
       );
     }
   }
@@ -50,7 +51,7 @@ function Stream(props: any) {
         <code>audio</code> element.d
       </audio>
 
- 
+      <PlayingNow source={data.stream.playingNow} />
     </div>
   );
 }
