@@ -19,7 +19,7 @@ function type(props) {
       break;
 
     case type.includes("spotify"):
-      return 600;
+      return 400;
       break;
 
     default:
