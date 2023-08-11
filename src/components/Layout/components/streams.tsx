@@ -1,7 +1,7 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
 import ReactAudioPlayer from "react-audio-player";
-import PlayingNow from "@/src/components/Layout/components/playingNow";
+import PlayingNowReader from "@/src/components/Layout/components/playingNow";
 import Collapsible from "@/src/utils/helpers/Collapsible";
 
 const STREAMS = gql`
@@ -14,6 +14,8 @@ const STREAMS = gql`
   }
 `;
 
+function Playing(props: any) {}
+
 function Stream(props: any) {
   const id = props.id;
   const { data, loading, error } = useQuery(STREAMS, { variables: { id } });
@@ -24,17 +26,13 @@ function Stream(props: any) {
     return <div></div>;
   }
 
-  function PlayingNowText() {
-    return <p>a</p>;
-  }
-
   function PlayingNow(props: any) {
     if (props.source) {
       var url = props.source;
 
       return (
-        <Collapsible summary="Playing Now">
-          <iframe src={url} />{" "}
+        <Collapsible summary="Playing Now" >
+          <PlayingNowReader url={url}  />
         </Collapsible>
       );
     }
