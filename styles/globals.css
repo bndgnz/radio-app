@@ -8309,8 +8309,8 @@ section.blog-area.ptb-100.schedule {
   text-align: center;
   top: -10px;
   position: absolute;
-  min-height: 225px;
-  width: 100%;
+  min-height: 245px;
+  width:100%;
   margin-left: -5px;
   margin-top: 10px;
   background-color: #bf1a2c;
@@ -8351,7 +8351,7 @@ section.blog-area.ptb-100.schedule {
   display: none;
 }
 
-.playing-now {color:#ffffff;font-size:.9rem}
+.playing-now {color:#ffffff;font-size:.8rem}
 
 .playing-now hr {
   color: #fff;

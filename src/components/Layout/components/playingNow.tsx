@@ -1,10 +1,22 @@
 //useSWR allows the use of SWR inside function components
 import useSWR from "swr";
-import { NextRequest, NextResponse } from "next/server";
+import React, { useState, useEffect } from 'react';
  
 function Index(props: any) {
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+    fetcher;
+    }, 10000);
+
+    return () => clearInterval(interval);
+  }, []);
+
  
 const src = props.url;
+
+
   const fetcher = (url) => fetch(url).then((res) => res.json());
   //Set up SWR to run the fetcher function when calling "/api/staticdata"
   //There are 3 possible states: (1) loading when data is null (2) ready when the data is returned (3) error when there was an error fetching the data
@@ -12,6 +24,9 @@ const src = props.url;
     src,
     fetcher
   );
+
+console.log(data)
+
 
 function GoogleIt (props:any) {
 const href = "band+called+"+ props.name.replace(" ", "+"); 
@@ -26,7 +41,7 @@ return (<a href={"https://www.google.com/search?q=" + href} target="blank" title
   const listOfItems = data.previous.map((played, idx) => {
     return (
       <div key={idx}>
-        <strong><GoogleIt name={played.artist} /></strong> - <em>{played.track}</em>{" "}
+        <strong><GoogleIt name={played.artist} /></strong> <br /> <em>{played.track}</em>{" "}
       </div>
     );
   });
@@ -34,7 +49,7 @@ return (<a href={"https://www.google.com/search?q=" + href} target="blank" title
   const listOfItems2 = data.next.map((played, idx) => {
     return (
       <div key={idx}>
-        <strong><GoogleIt name={played.artist} /></strong> - <em>{played.track}</em>{" "}
+        <strong><GoogleIt name={played.artist} /></strong> <br /> <em>{played.track}</em>{" "}
       </div>
     );
   });
@@ -43,7 +58,7 @@ return (<a href={"https://www.google.com/search?q=" + href} target="blank" title
     <div className="playing-now">
       <hr />
       <div className="playing-currently">
-        <strong><GoogleIt name={data.current.artist} />  </strong> - <em>{data.current.track} </em>
+        <strong><GoogleIt name={data.current.artist} />  </strong> <br /> <em>{data.current.track} </em>
       </div>
       <hr />
       <div className="played-previously">
