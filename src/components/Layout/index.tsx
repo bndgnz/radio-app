@@ -135,7 +135,7 @@ function Layout(props: any) {
         showIntro={props.introduction}
       />
 
-      <DefaultLayouts type={props} />
+    
 
       <IntroductionAndContent content={props} />
 
@@ -148,7 +148,7 @@ function Layout(props: any) {
         showContent={props.showContent}
 
       />
-
+  <DefaultLayouts type={props} />
       <Footer data={data} />
     </>
   );
