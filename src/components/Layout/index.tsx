@@ -21,7 +21,6 @@ const MENU = gql`
               ...LanMenulink
               ...ShowMenulink
               ...ShowMenulink
-           
             }
             sublinksCollection {
               items {
@@ -29,7 +28,6 @@ const MENU = gql`
                 internalLink {
                   ...LanMenulink
                   ...ShowMenulink
-              
                 }
               }
             }
@@ -74,7 +72,7 @@ const MENU = gql`
           image {
             url
           }
-          
+
           iconClass
         }
       }
@@ -89,7 +87,6 @@ const MENU = gql`
     path
     showBanner
     showContent
-
   }
 
   fragment ShowMenulink on Shows {
@@ -107,13 +104,9 @@ const MENU = gql`
       url
     }
   }
-
-  
 `;
 
 function Layout(props: any) {
-
-
   const { data, loading, error } = useQuery(MENU);
   if (loading) {
     return <div></div>;
@@ -121,8 +114,6 @@ function Layout(props: any) {
   if (error) {
     return <div></div>;
   }
- 
- 
 
   return (
     <>
@@ -135,10 +126,8 @@ function Layout(props: any) {
         showIntro={props.introduction}
       />
 
-    
-
       <IntroductionAndContent content={props} />
-      <DefaultLayouts type={props} />
+  
       <Components
         components={props.components}
         introduction={props.introduction}
@@ -146,8 +135,9 @@ function Layout(props: any) {
         title={props.title}
         allProps={props}
         showContent={props.showContent}
-
       />
+
+<DefaultLayouts type={props} />
 
       <Footer data={data} />
     </>
