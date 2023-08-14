@@ -1,5 +1,5 @@
 import Schedule from "@/src/components/Layout/components/schedule";
-import IntroductionAndContent from "@/src/components/Layout/components/introAndContent";
+
 import Stream from "@/src/components/Layout/components/streams";
 import Playlist from "@/src/components/Layout/components/playlist";
 import LayoutResolver from "@/src/components/Layout/components/layoutResolver";
@@ -11,6 +11,7 @@ import AmazonPlaylist from "@/src/components/Layout/components/amazonPlaylist";
 import LatestAmazonPodcasts from "@/src/components/Layout/components/latestAmazonPodcasts";
 import FilteredPlaylist from "@/src/components/Layout/components/filteredAmazonPlaylist";
 import Listresolver from "@/src/utils/helpers/listResolver";
+ 
 
 function renderComponents(props: any) {
  
@@ -71,29 +72,15 @@ function renderComponents(props: any) {
 
 
 
-  if (props.showContent == true) {
-    return (
-      <IntroductionAndContent
-        introduction={props.introduction}
-        content={props.content}
-        title={props.title}
-        showContent={props.showContent}
-
-      />
-    );
-  }
-
-
-
-
-
-
-
-
-
 
   if (props.id) {
-    return <Sorter id={props.id} item={props.item} />;
+    return (<>
+    <Sorter id={props.id} item={props.item} />
+    
+     
+    </>
+    )
+    ;
   }
 }
 

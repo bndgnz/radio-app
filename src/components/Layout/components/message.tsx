@@ -1,49 +1,51 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
-import Image from "next/image";
-import { useRouter } from "next/router";
-import absoluteUrl from "next-absolute-url";
-import Link from "next/link";
+import Richtext from "@/src/utils/helpers/richTextHelper";
 
 function Message(props: any) {
   const id = props.id;
   const MESSAGE = gql`
-  query GetMEssage($id: String!) {
-    message(id: $id) {
-      headline
-      linkText
-      linkUrl
-      image {
-        url
+    query GetMEssage($id: String!) {
+      message(id: $id) {
+        headline
+        linkText
+        overview {
+          json
+          links {
+            entries {
+              inline {
+                sys {
+                  id
+                }
+              }
+            }
+          }
+        }
+        linkUrl
+        image {
+          url
+        }
+
+        iconClass
       }
-      
-      
-      
-      iconClass
     }
+  `;
+
+  const { data, loading, error } = useQuery(MESSAGE, { variables: { id } });
+  if (loading) {
+    return <div></div>;
   }
-`;
-
-const { data, loading, error } = useQuery(MESSAGE, { variables: { id } });
-if (loading) {
-  return <div></div>;
-}
-if (error) {
-  return <div></div>;
-}
-
- 
+  if (error) {
+    return <div></div>;
+  }
+  console.log(data);
 
   return (
-    <section className="message-wrapper">
+    <section className="playlist container page-block amazon-playlist">
       <div className="container">
         <div className="row">
-          <div className="col-12 default-btn" >
-        <Link href={data.message.linkUrl} title={data.message.headline}>
-        <a title={data.message.headline}> {data.message.headline} </a>
-        </Link> 
-          
-          
+          <div className="col-lg-12  ">
+            <Richtext content={data.message.overview.json} />
           </div>
         </div>
       </div>

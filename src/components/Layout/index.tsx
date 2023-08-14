@@ -4,6 +4,7 @@ import { useQuery, gql } from "@apollo/client";
 import SecondaryHero from "@/src/components/Layout/components/secondary";
 import Components from "@/src/components/Layout/components/index";
 import DefaultLayouts from "@/src/components/Layout/defaultLayouts";
+import IntroductionAndContent from "@/src/components/Layout/components/introAndContent";
 
 const MENU = gql`
   query {
@@ -135,6 +136,8 @@ function Layout(props: any) {
       />
 
       <DefaultLayouts type={props} />
+
+      <IntroductionAndContent content={props} />
 
       <Components
         components={props.components}
