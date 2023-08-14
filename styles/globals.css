@@ -8330,6 +8330,7 @@ section.blog-area.ptb-100.schedule {
   cursor: pointer;
   justify-content: space-between;
   list-style: none; /* Hides the default arrow */
+  text-decoration: underline;
 }
 .stream-item details[open] > summary {
   box-shadow: 0px;
@@ -8374,3 +8375,13 @@ section.blog-area.ptb-100.schedule {
 }
 
 .playing-now a:hover {color:#fff}
+
+.station {
+  background-color: #fff;
+  color: #000;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight:600;
+}
+
+.stream-item details > summary:hover {color:#000}

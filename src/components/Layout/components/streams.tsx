@@ -32,7 +32,7 @@ function Stream(props: any) {
 
       return (
         <Collapsible summary="Playing Now" >
-          <PlayingNowReader url={url}  />
+          <PlayingNowReader url={url} show={data.stream.title} />
         </Collapsible>
       );
     }

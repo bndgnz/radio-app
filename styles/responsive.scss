@@ -2404,6 +2404,32 @@ $value_seven: 1550px; /* full */
 	width: 100%;
 	}
 
+    @media only screen and (min-width: 990px) {  
+
+    .stream-item details[open] {
+        text-align: center;
+        top: 190px;
+        position: fixed;
+        min-height: 265px;
+        width: 267px;
+        margin-left: -5px;
+        /* margin-top: 10px; */
+        background-color: #bf1a2c;
+        z-index: 3399;
+        border-radius: 10px;
+        border: 1px solid #fff;
+        box-shadow: -2px 1px 12px 0px rgb(0 0 0 / 28%);
+    }
+}
+
+
+
+
+
+
+
+
+
     @media only screen and (max-width: 990px) {  
         .podcast-thumb img {
             

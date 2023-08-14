@@ -25,7 +25,7 @@ const src = props.url;
     fetcher
   );
 
-console.log(data)
+console.log(props)
 
 
 function GoogleIt (props:any) {
@@ -56,6 +56,7 @@ return (<a href={"https://www.google.com/search?q=" + href} target="blank" title
 
   return (
     <div className="playing-now">
+    <div className="station">On:{props.show}</div>  
       <hr />
       <div className="playing-currently">
         <strong><GoogleIt name={data.current.artist} />  </strong> <br /> <em>{data.current.track} </em>
