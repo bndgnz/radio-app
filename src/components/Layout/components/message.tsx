@@ -38,7 +38,6 @@ function Message(props: any) {
   if (error) {
     return <div></div>;
   }
-  console.log(data);
 
   return (
     <section className="playlist container page-block amazon-playlist">
