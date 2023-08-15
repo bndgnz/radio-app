@@ -8345,7 +8345,7 @@ section.blog-area.ptb-100.schedule {
 }
 /* ...and switches it when it is open */
 .stream-item details[open] > summary::after {
-  content: "-";
+  content: "close";
 }
 /* Removes the ugly default arrow on Chrome */
 .stream-item details > summary::-webkit-details-marker {

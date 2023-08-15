@@ -25,9 +25,6 @@ const src = props.url;
     fetcher
   );
 
-console.log(props)
-
-
 function GoogleIt (props:any) {
 const href = "band+called+"+ props.name.replace(" ", "+"); 
 return (<a href={"https://www.google.com/search?q=" + href} target="blank" title={"Find out about "+props.name}>{props.name}</a>)

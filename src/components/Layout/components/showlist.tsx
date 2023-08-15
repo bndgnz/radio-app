@@ -3,12 +3,9 @@ import { useQuery, gql } from "@apollo/client";
 import ShowsOnToday from "@/src/components/Layout/components/showsOnToday";
 
 function Showlist(props: any) {
-console.log(props)
- 
 
 const typeOfShowList= props.props
 let showStatus;
-console.log(typeOfShowList)
 
 switch (typeOfShowList) {
     case "Archived":

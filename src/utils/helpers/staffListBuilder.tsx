@@ -34,9 +34,7 @@ if (props.status==="Current") {currentDj=true} else {currentDj=false}
     return <div></div>;
   }
 
-  console.log(data)
-
-  function LinkedShows(props: any) {
+ function LinkedShows(props: any) {
     const title = props.dj;
 
     const MESSAGE = gql`

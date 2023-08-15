@@ -2,7 +2,6 @@ import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 import Richtext from "@/src/utils/helpers/richTextHelper";
 
 function IntroductionAndContent(props: any) {
-  console.log(props)
 
   if (props.content.showContent == true) {
     return (

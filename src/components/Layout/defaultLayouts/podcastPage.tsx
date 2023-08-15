@@ -11,13 +11,6 @@ function Podcastpage(props: any) {
   let month = props.props.type.date.substring(5, 7);
   let day = props.props.type.date.substring(8, 10);
 
-console.log(props)
-
-
-
-
-
-
   return (
     <>
       <div className="container">
