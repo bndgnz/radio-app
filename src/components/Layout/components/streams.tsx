@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { useQuery, gql } from "@apollo/client";
 import ReactAudioPlayer from "react-audio-player";
 import PlayingNowReader from "@/src/components/Layout/components/playingNow";

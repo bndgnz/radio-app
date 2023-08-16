@@ -18,6 +18,7 @@ function FilteredAmazonPlaylist(props: any) {
         descriptionContains
         startDate
         endDate
+        sort
       }
     }
   `;

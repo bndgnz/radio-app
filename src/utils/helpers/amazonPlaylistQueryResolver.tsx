@@ -1,13 +1,7 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
 
-
-
-
 function FilteredAmazonPlaylistResolver(props: any) {
-
-
-
   const show = props.data.filteredAmazonPlaylist.showName
     ? props.data.filteredAmazonPlaylist.showName
     : "";
@@ -24,6 +18,18 @@ function FilteredAmazonPlaylistResolver(props: any) {
     .descriptionContains
     ? props.data.filteredAmazonPlaylist.descriptionContains
     : "";
+  const sort = props.data.filteredAmazonPlaylist.sort
+    ? props.data.filteredAmazonPlaylist.sort
+    : "";
+
+  let sortType;
+  if (sort == "Ascending") {
+    sortType = "date_ASC";
+  } else if (sort == "Descending") {
+    sortType = "date_DESC";
+  } else {
+    sortType == "date_ASC";
+  }
 
   const PLAYLISTITEMS = gql`
     query GetFilteredItems(
@@ -32,6 +38,7 @@ function FilteredAmazonPlaylistResolver(props: any) {
       $date2: DateTime!
       $titleContains: String!
       $descriptionContains: String!
+      $sortType: AmazonPodcastOrder!
     ) {
       amazonPodcastCollection(
         limit: 300
@@ -48,7 +55,7 @@ function FilteredAmazonPlaylistResolver(props: any) {
             }
           ]
         }
-        order: date_ASC
+        order: [$sortType]
       ) {
         total
         items {
@@ -71,7 +78,14 @@ function FilteredAmazonPlaylistResolver(props: any) {
   `;
 
   const { data, loading, error } = useQuery(PLAYLISTITEMS, {
-    variables: { show, date1, date2, descriptionContains, titleContains },
+    variables: {
+      show,
+      date1,
+      date2,
+      descriptionContains,
+      titleContains,
+      sortType,
+    },
   });
   if (loading) {
     return <div></div>;
@@ -79,10 +93,6 @@ function FilteredAmazonPlaylistResolver(props: any) {
   if (error) {
     return <div></div>;
   }
-
- 
-
-
 
   function Date(date: any) {
     let year = date.date.substring(0, 4);
@@ -110,17 +120,27 @@ function FilteredAmazonPlaylistResolver(props: any) {
             <div className="col-lg-6 col-xs-12 amazon-podcast-content">
               <div className=" amazon-podcast-card-title">
                 <strong>
-                  <a href={"../podcast/" + podcast.slug} title={"Read more about " +podcast.title}>{podcast.title}</a>
+                  <a
+                    href={"../podcast/" + podcast.slug}
+                    title={"Read more about " + podcast.title}
+                  >
+                    {podcast.title}
+                  </a>
                 </strong>
               </div>
               <div className=" amazon-podcast-card-description">
                 {podcast.description}
-
-                
               </div>
 
-              <div className="read-more">  <a href={"../podcast/" + podcast.slug} title={"Read more about " +podcast.title}>Read more</a></div>
-
+              <div className="read-more">
+                {" "}
+                <a
+                  href={"../podcast/" + podcast.slug}
+                  title={"Read more about " + podcast.title}
+                >
+                  Read more
+                </a>
+              </div>
             </div>
             <div className="col-lg-4 col-xs-12">
               {" "}

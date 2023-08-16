@@ -8,6 +8,7 @@ function Index(props: any) {
   useEffect(() => {
     const interval = setInterval(() => {
     fetcher;
+    console.log("fetching")
     }, 10000);
 
     return () => clearInterval(interval);
