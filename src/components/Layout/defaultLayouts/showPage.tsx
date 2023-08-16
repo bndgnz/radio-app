@@ -28,7 +28,7 @@ function Showpage(props: any) {
 
       return (
         <>
-          <div className="show-page-audio-controls">
+          <div className="show-page-audio ">
             <h3>Latest show </h3>
             <hr />
             <audio controls src={showlink}>
@@ -68,8 +68,16 @@ function Showpage(props: any) {
   return (
     <>
       <div className="container  show-page-details">
+
+      <div className="row showpage-top-row">
+<div className="col-lg-9 col-sm-12 latest-show"><LatestShow /></div>
+<div className="col-lg-3 col-sm-12  show-page-left-col">    <Dates />
+
+</div>
+      </div>
+
         <div className="row">
-          <div className="col-lg-9 col-sm-12 ">
+          <div className="col-12 ">
             <Staff dj={props.props.type.dj} />
 
             {props.props.type.content ? (
@@ -80,29 +88,31 @@ function Showpage(props: any) {
                   <hr />
 
                   {documentToReactComponents(props.props.type.content)}
-                </div>
-              </>
-            ) : null}
-          </div>
-          <div className="col-lg-3 col-sm-12  show-page-left-col">
-            <Dates />
 
-            {props.props.type.sponsor ? (
+
+                  {props.props.type.sponsor ? (
               <>
                 {" "}
                 <div className="sponsor-block">
-                  <p>
-                    <strong>Proudly sponsored by:</strong>{" "}
-                  </p>
                   <hr />
-                  <h5>{props.props.type.sponsor.fields.title}</h5>
+               
+                  <h5> <strong>Proudly sponsored by:</strong> {props.props.type.sponsor.fields.title}</h5>{" "}
+               
+                  <hr />
+                  
                 </div>
               
               </>
             ) : null}
 
-<LatestShow />
+
+
+
+                </div>
+              </>
+            ) : null}
           </div>
+           
         </div>
       </div>
       <div className="container">

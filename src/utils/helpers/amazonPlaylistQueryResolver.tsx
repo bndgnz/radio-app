@@ -2,6 +2,22 @@ import React from "react";
 import { useQuery, gql } from "@apollo/client";
 
 function FilteredAmazonPlaylistResolver(props: any) {
+
+console.log(props)
+ 
+function PlaylistTitle() {
+if (props.data.filteredAmazonPlaylist.displayTitle == true) {
+
+return (
+
+  <h2 className="filtered-playlisttitle">{props.data.filteredAmazonPlaylist.title}</h2>
+)
+}
+
+
+}
+
+
   const show = props.data.filteredAmazonPlaylist.showName
     ? props.data.filteredAmazonPlaylist.showName
     : "";
@@ -165,6 +181,9 @@ function FilteredAmazonPlaylistResolver(props: any) {
     <>
       <section className="playlist container page-block amazon-playlist">
         <div className="container">
+ <PlaylistTitle />
+
+
           <Items />
         </div>
       </section>

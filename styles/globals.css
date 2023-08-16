@@ -8385,3 +8385,37 @@ section.blog-area.ptb-100.schedule {
 }
 
 .stream-item details > summary:hover {color:#000}
+ 
+.row.showpage-top-row {
+  max-width: 1110px;
+}
+
+.col-lg-9.col-sm-12.latest-show {
+  background-color: #fff;
+  /* padding: 10px; */
+  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
+  margin: 0px;
+  padding: 0px;
+  max-width: 800px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.show-page-audio audio {
+  width: 90%;
+  margin-bottom:10px;
+}
+
+h2.filtered-playlisttitle {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-top: 1px solid #ccc;
+  padding-top: 5px;
+}
+
+.show-page-audio h3 {
+  padding-top: 10px;
+}
