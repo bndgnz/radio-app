@@ -2510,3 +2510,16 @@ $value_seven: 1550px; /* full */
 }
 
 }
+
+
+@media only screen and (max-width: 591px){
+.main-banner {
+    height: 822px;
+}
+}
+
+@media only screen and (max-width: 992px){
+    .main-banner {
+        height: 822px;
+    }
+    }
