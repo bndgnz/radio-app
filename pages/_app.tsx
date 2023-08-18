@@ -8,6 +8,10 @@ import "@/styles/responsive.scss";
 import "@/styles/atom-one-dark.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Script from 'next/script'
+
+import { config } from "dotenv";
+ 
+
  
 import {
   ApolloClient,
@@ -17,13 +21,12 @@ import {
   gql
 } from "@apollo/client";
 
-import Head from "next/head";
+const dataEnvironment = process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT  ;
 
 function MyApp({ Component, pageProps, data }) {
  
-
-  const client = new ApolloClient({
-    uri: 'https://graphql.contentful.com/content/v1/spaces/muwn01agnrp5/?access_token=69d7oeasRdTU7_W9K2x9IS8bO2r53ln1vzZyFMTKLAA',
+const client = new ApolloClient({
+    uri: "https://graphql.contentful.com/content/v1/spaces/muwn01agnrp5/environments/"+dataEnvironment+"?access_token=69d7oeasRdTU7_W9K2x9IS8bO2r53ln1vzZyFMTKLAA",
     cache: new InMemoryCache()
   });
   return (

@@ -14,6 +14,7 @@ declare global {
     interface ProcessEnv {
       CONTENTFUL_SPACE_ID: string;
       CONTENTFUL_ACCESS_TOKEN: string;
+      CONTENTFUL_ENVIRONMENT: string;
     }
   }
 }
@@ -28,6 +29,7 @@ export default class ContentService {
   client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    environment:  process.env.CONTENTFUL_ENVIRONMENT,
   });
 
   async getLandingPageBySlug(slug: string) {

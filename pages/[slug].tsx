@@ -17,7 +17,6 @@ const LandingPage: NextPage<Props> = ({
     showIntroduction,
     showContent,
     cloudinaryImage,
-    image,
     content,
     teReoTitle,
     components,
