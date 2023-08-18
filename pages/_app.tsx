@@ -42,18 +42,12 @@ const client = new ApolloClient({
     `}
   </Script>
 
-
-
    <ApolloProvider client={client}>
-    
-
-
+   
         <Component {...pageProps} />
-
 
       {/* Preloader */}
  
-
       {/* Go Top Button */}
     
        </ApolloProvider>
