@@ -55,7 +55,7 @@ function Schedule(props: any) {
           title
         }
       }
-      timeSlotsCollection(limit: 3) {
+      timeSlotsCollection(limit: 7) {
         items {
           title
           day
@@ -85,7 +85,7 @@ function Schedule(props: any) {
   }
   var day = null;
 
- 
+ console.log(data)
 
   const weekday = [
     "Sunday",
