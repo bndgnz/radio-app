@@ -32,15 +32,19 @@ function FilteredAmazonPlaylistResolver(props: any) {
     : "";
   const sort = props.data.filteredAmazonPlaylist.sort
     ? props.data.filteredAmazonPlaylist.sort
-    : "";
-
-  let sortType;
+    : "none";
+ 
+ let sortType;
   if (sort == "Ascending") {
     sortType = "date_ASC";
-  } else if (sort == "Descending") {
+ ;
+  }
+   if (sort == "Descending") {
     sortType = "date_DESC";
-  } else {
-    sortType == "date_ASC";
+   
+  } if (sort == "none"){ 
+     sortType = "date_DESC";
+ 
   }
 
   const PLAYLISTITEMS = gql`
