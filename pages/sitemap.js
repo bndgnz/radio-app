@@ -1,6 +1,6 @@
 import { useQuery, gql } from "@apollo/client";
 
-function generateSiteMap() {
+function GenerateSiteMap() {
   const QUERY = gql`
     query GetPages {
       landingPageCollection(limit: 200) {
@@ -69,4 +69,4 @@ function generateSiteMap() {
  `;
 }
 
-export default generateSiteMap;
+export default GenerateSiteMap;
