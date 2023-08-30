@@ -10,10 +10,6 @@ module.exports = {
         destination: '/home',
         permanent: false,
       },
-      {
-        source: '/sitemap.xml',
-        destination: '/pages/sitemap',
-      },
        ];
   },
 };
