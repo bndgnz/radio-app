@@ -14,7 +14,7 @@ import Listresolver from "@/src/utils/helpers/listResolver";
  
 
 function renderComponents(props: any) {
- 
+ console.log(props)
 
   function Sorter(id, item) {
     const type = id.id.toLowerCase();
