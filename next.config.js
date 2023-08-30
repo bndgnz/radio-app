@@ -10,6 +10,7 @@ module.exports = {
         destination: '/home',
         permanent: false,
       },
+    
        ];
   },
 };
