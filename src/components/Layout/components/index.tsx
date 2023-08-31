@@ -15,9 +15,10 @@ import PageContent from "@/src/components/Layout/components/introAndContent";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
 function renderComponents(props: any) {
-  function Content(props: any) {
-    console.log(props);
 
+  function Content(props: any) {
+ if (props.props.showContent==true){
+ 
     return (
       <section className="playlist container page-block amazon-playlist">
         <div className="container">
@@ -30,7 +31,7 @@ function renderComponents(props: any) {
       </section>
     );
   }
-
+}
   function Sorter(id, item) {
     const type = id.id.toLowerCase();
 
