@@ -12,9 +12,11 @@ import LatestAmazonPodcasts from "@/src/components/Layout/components/latestAmazo
 import FilteredPlaylist from "@/src/components/Layout/components/filteredAmazonPlaylist";
 import Listresolver from "@/src/utils/helpers/listResolver";
 import PageContent from "@/src/components/Layout/components/introAndContent";
-import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
+import AmazonPodcast from "@/src/components/Layout/components/amazonPodcast"
 
 function renderComponents(props: any) {
+
+
 
   function Content(props: any) {
  if (props.props.showContent==true){
@@ -38,6 +40,10 @@ function renderComponents(props: any) {
     switch (type) {
       case "list":
         return <Listresolver props={id.item} />;
+
+        case "amazonpodcast":
+          return <AmazonPodcast props={id.item} />;
+
 
       case "filteredamazonplaylist":
         return <FilteredPlaylist id={id.item} />;
