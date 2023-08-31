@@ -11,14 +11,29 @@ import AmazonPlaylist from "@/src/components/Layout/components/amazonPlaylist";
 import LatestAmazonPodcasts from "@/src/components/Layout/components/latestAmazonPodcasts";
 import FilteredPlaylist from "@/src/components/Layout/components/filteredAmazonPlaylist";
 import Listresolver from "@/src/utils/helpers/listResolver";
- 
+import PageContent from "@/src/components/Layout/components/introAndContent";
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
 function renderComponents(props: any) {
- console.log(props)
+  function Content(props: any) {
+    console.log(props);
+
+    return (
+      <section className="playlist container page-block amazon-playlist">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12  ">
+              <PageContent content={props.props.content} />
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   function Sorter(id, item) {
     const type = id.id.toLowerCase();
- 
+
     switch (type) {
       case "list":
         return <Listresolver props={id.item} />;
@@ -57,7 +72,6 @@ function renderComponents(props: any) {
     }
   }
 
- 
   if (props.components) {
     return props.components.map((component, idx) => {
       return (
@@ -70,18 +84,14 @@ function renderComponents(props: any) {
     });
   }
 
-
-
-
   if (props.id) {
-    return (<>
-    <Sorter id={props.id} item={props.item} />
-    
-     
-    </>
-    )
-    ;
+    return (
+      <>
+        <Sorter id={props.id} item={props.item} />
+      </>
+    );
   }
+  return <Content props={props} />;
 }
 
 export default renderComponents;
