@@ -1,9 +1,8 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
-import Resolver from "@/src/utils/helpers/amazonPlaylistQueryResolver";
 import Link from "next/link";
 
-function amazonPlaylist(props: any) {
+function AmazonPlaylist(props: any) {
  
 
   const id = props.props;
@@ -112,4 +111,4 @@ function amazonPlaylist(props: any) {
   );
 }
 
-export default amazonPlaylist;
+export default AmazonPlaylist;
