@@ -12,15 +12,10 @@ import LatestAmazonPodcasts from "@/src/components/Layout/components/latestAmazo
 import FilteredPlaylist from "@/src/components/Layout/components/filteredAmazonPlaylist";
 import Listresolver from "@/src/utils/helpers/listResolver";
 import PageContent from "@/src/components/Layout/components/introAndContent";
-import AmazonPodcast from "@/src/components/Layout/components/amazonPodcast"
+import AmazonPodcast from "@/src/components/Layout/components/amazonPodcast";
 
-function renderComponents(props: any) {
-
-
-
-  function Content(props: any) {
- if (props.props.showContent==true){
- 
+function Content(props: any) {
+   if (props.props.allProps.showContent == true) {
     return (
       <section className="playlist container page-block amazon-playlist">
         <div className="container">
@@ -34,29 +29,22 @@ function renderComponents(props: any) {
     );
   }
 }
+function renderComponents(props: any) {
   function Sorter(id, item) {
     const type = id.id.toLowerCase();
-
     switch (type) {
       case "list":
         return <Listresolver props={id.item} />;
-
-        case "amazonpodcast":
-          return <AmazonPodcast props={id.item} />;
-
-
+      case "amazonpodcast":
+        return <AmazonPodcast props={id.item} />;
       case "filteredamazonplaylist":
         return <FilteredPlaylist id={id.item} />;
-
       case "latestpodcasts":
         return <LatestAmazonPodcasts id={id.item} />;
-
       case "amazonplaylist":
         return <AmazonPlaylist id={id.item} />;
-
       case "showlist":
         return <Shows id={id.item} />;
-
       case "schedule":
         return <Schedule id={id.item} />;
       case "querystringplaylist":
@@ -65,7 +53,6 @@ function renderComponents(props: any) {
         return <Accordion id={id.item} />;
       case "layout":
         return <LayoutResolver id={id.item} />;
-
       case "video":
         return <h1>Video </h1>;
       case "stream":
@@ -79,18 +66,21 @@ function renderComponents(props: any) {
     }
   }
 
-  if (props.components) {
-    return props.components.map((component, idx) => {
-      return (
-        <Sorter
-          id={component.sys.contentType.sys.id}
-          item={component.sys.id}
-          key={idx}
-        />
-      );
-    });
+  function Components() {
+    if (props.components) {
+      return props.components.map((component, idx) => {
+        return (
+          <>
+            <Sorter
+              id={component.sys.contentType.sys.id}
+              item={component.sys.id}
+              key={idx}
+            />
+          </>
+        );
+      });
+    }
   }
-
   if (props.id) {
     return (
       <>
@@ -98,7 +88,12 @@ function renderComponents(props: any) {
       </>
     );
   }
-  return <Content props={props} />;
+  return (
+    <>
+      {" "}
+      <Content props={props} /> <Components />
+    </>
+  );
 }
 
 export default renderComponents;

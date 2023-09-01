@@ -1,13 +1,10 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
 import Resolver from "@/src/utils/helpers/amazonPlaylistQueryResolver";
-
-
+import Link from "next/link";
 
 function amazonPlaylist(props: any) {
-
-    console.log(props.props)
-
+ 
 
   const id = props.props;
   const QUERY = gql`
@@ -35,9 +32,8 @@ function amazonPlaylist(props: any) {
     return <div></div>;
   }
 
+  function Date(props: any) {
  
- function Date(props: any) {
-console.log(props)
 
     let year = props.date.substring(0, 4);
     let month = props.date.substring(5, 7);
@@ -50,46 +46,58 @@ console.log(props)
   }
 
   return (
-    <>  <section className="playlist container page-block amazon-playlist">
-    <div className="container">
-     <div className="row amazon-playlist-row" >
+    <>
+      {" "}
+      <section className="playlist container page-block amazon-playlist">
+        <div className="container">
+          <div className="row amazon-playlist-row">
             <div className="col-lg-2 col-xs-12 amazon-podcast-image">
-              <a href={"../podcast/" + data.amazonPodcast.slug}>
-                {" "}
-                <img src={data.amazonPodcast.podcastImage[0].url} alt="..." />
+              <a
+                href={"../podcast/" + data.amazonPodcast.slug}
+                title={"Read more about " + data.amazonPodcast.title}
+              >
+                <img
+                  src={data.amazonPodcast.podcastImage[0].url}
+                  alt={data.amazonPodcast.title}
+                  className="latest-amazon-podcast-image"
+                />
               </a>
-              <div className="amazon-podcast-date"></div>
             </div>
 
-            <div className="col-lg-6 col-xs-12 amazon-podcast-content">
+            <div className="col-lg-7 col-xs-12 amazon-podcast-content">
               <div className=" amazon-podcast-card-title">
-                <strong>
-                  <a
-                    href={"../podcast/" + data.amazonPodcast.slug}
-                    title={"Read more about " + data.amazonPodcast.title}
-                  >
-                    {data.amazonPodcast.title}
-                  </a>
-                </strong>
-              </div>
-              <div className=" amazon-podcast-card-description">
-                {data.amazonPodcast.description}
-              </div>
-
-              <div className="read-more">
-                {" "}
                 <a
                   href={"../podcast/" + data.amazonPodcast.slug}
                   title={"Read more about " + data.amazonPodcast.title}
                 >
-                  Read more
+                  <strong>{data.amazonPodcast.title}</strong>
                 </a>
               </div>
+
+              <div className=" amazon-podcast-card-description-latest-list">
+                {data.amazonPodcast.description}
+              </div>
+
+              <strong>
+                {" "}
+                <Link href={"podcast/" + data.amazonPodcast.slug}>
+                  Read more
+                </Link>
+              </strong>
             </div>
-            <div className="col-lg-4 col-xs-12">
+            <div className="col-lg-3 col-xs-12 ">
               {" "}
               <div className="amazonplaylist-audio">
-                {" "}
+                <p>
+                  {" "}
+                  <b>Show:</b>{" "}
+                  <a
+                    href={"../shows/" + data.amazonPodcast.show.slug}
+                    title={"Read more about " + data.amazonPodcast.title}
+                  >
+                    <strong>{data.amazonPodcast.show.title}</strong>
+                  </a>{" "}
+                </p>
                 <audio controls src={data.amazonPodcast.amazonUrl}>
                   Your browser does not support the
                   <code>audio</code> element.
@@ -98,8 +106,8 @@ console.log(props)
               </div>{" "}
             </div>
           </div>
-          </div>
-          </section>
+        </div>
+      </section>
     </>
   );
 }

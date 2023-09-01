@@ -24,7 +24,7 @@ const LandingPage: NextPage<Props> = ({
   },
 }) => (
   <>
-<Seo title={title} description={introduction} />
+<Seo title={title} description={introduction} /> 
   <Layout
       title={title}
       image={cloudinaryImage[0].secure_url}
@@ -35,7 +35,13 @@ const LandingPage: NextPage<Props> = ({
       showBanner={showBanner}
       showIntroduction={showIntroduction}
       showContent={showContent}
-    />
+    >
+ 
+
+</Layout>
+
+
+
   </>
 );
 
