@@ -1,29 +1,17 @@
 import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 import Richtext from "@/src/utils/helpers/richTextHelper";
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
 function IntroductionAndContent(props: any) {
-
-  if (props.content.showContent == true) {
-    return (
-      <>
-   
-        <section className="playlist container page-block amazon-playlist">
-          <div className="container">
-            
-            <div className="row">
-         
-              <div className="col-lg-12  ">
-                <Richtext content={props.content.content} />
-               
-              </div> 
-            </div>
-          </div>
-        </section>
-       
-      </>
-    );
-  }
-   
+  return (
+    <>
+      <div className="row">
+        <div className="col-lg-12  ">
+          <Richtext content={props.content} />
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default IntroductionAndContent;

@@ -2,7 +2,7 @@ import React from "react";
 import { useQuery, gql } from "@apollo/client";
 
 function FilteredAmazonPlaylistResolver(props: any) {
-  console.log(props);
+ 
 
   function PlaylistTitle() {
     if (props.data.filteredAmazonPlaylist.displayTitle == true) {
