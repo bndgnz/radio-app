@@ -3,6 +3,7 @@ function Seo(props: any) {
   return (
     <div>
       <Head>
+ 
         <title key="title">{props.title} | Waiheke Island Radio</title>
         <meta
           key="og:description"
