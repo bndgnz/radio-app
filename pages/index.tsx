@@ -14,7 +14,7 @@ const Home: NextPage<Props> = ({ articles }) => <Layout props={articles} />;
 
 export default Home;
 
-export const getStaticProps: GetStaticProps<Props> = async () => {
+export const getStaticProps: GetStaticProps<Props> = async ({preview = false }) => {
   const articles = (
     await ContentService.instance.getEntriesByType<ILandingPageFields>(
       "landingPage"
