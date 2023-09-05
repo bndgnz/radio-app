@@ -48,7 +48,16 @@ const client = new ApolloClient({
    <ApolloProvider client={client}>
 
 
-   <ContentfulLivePreviewProvider locale="en-US">
+   <ContentfulLivePreviewProvider
+      locale="en-US"
+      enableInspectorMode={pageProps.draftMode}
+      enableLiveUpdates={pageProps.draftMode}
+      debugMode
+    >
+
+
+
+    
         <Component {...pageProps} />
         </ContentfulLivePreviewProvider>
       {/* Preloader */}
