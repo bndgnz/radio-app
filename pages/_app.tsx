@@ -43,21 +43,21 @@ const client = new ApolloClient({
     `}
   </Script>
 
-  <ContentfulLivePreviewProvider locale="en-US">
+
    
    <ApolloProvider client={client}>
 
 
-   
+   <ContentfulLivePreviewProvider locale="en-US">
         <Component {...pageProps} />
-
+        </ContentfulLivePreviewProvider>
       {/* Preloader */}
  
       {/* Go Top Button */}
     
        </ApolloProvider>
 
-       </ContentfulLivePreviewProvider>
+      
     </>
   );
 }
