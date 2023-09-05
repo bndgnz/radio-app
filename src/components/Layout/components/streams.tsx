@@ -44,7 +44,7 @@ function Stream(props: any) {
         <span className="stream-label">Listen to:</span> {data.stream.title}
       </div>
 
-      <audio controls src={data.stream.url}>
+      <audio controls src={data.stream.url} id={data.stream.title.replaceAll(' ','-')+"-stream"}>
         Your browser does not support the
         <code>audio</code> element.d
       </audio>

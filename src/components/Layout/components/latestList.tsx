@@ -12,7 +12,7 @@ function Message(props: any) {
   const show = props.filter;
   const MESSAGE = gql`
     query GetList($limit: Int!) {
-      amazonPodcastCollection(limit: $limit, order:date_DESC ) {
+      amazonPodcastCollection(limit: $limit, order: date_DESC) {
         items {
           amazonUrl
           title
@@ -36,7 +36,7 @@ function Message(props: any) {
   if (error) {
     return <div></div>;
   }
-  
+
   function Date(date: any) {
     let year = date.date.substring(0, 4);
     let month = date.date.substring(5, 7);
@@ -53,14 +53,26 @@ function Message(props: any) {
         return (
           <div className="row amazon-playlist-row" key={idx}>
             <div className="col-lg-2 col-xs-12 amazon-podcast-image">
-            <a href={"../podcast/" + podcast.slug} title={"Read more about " +podcast.title } ><img src={podcast.podcastImage[0].url} alt={podcast.title} className="latest-amazon-podcast-image" /></a>
-           
+              <a
+                href={"../podcast/" + podcast.slug}
+                title={"Read more about " + podcast.title}
+              >
+                <img
+                  src={podcast.podcastImage[0].url}
+                  alt={podcast.title}
+                  className="latest-amazon-podcast-image"
+                />
+              </a>
             </div>
 
             <div className="col-lg-7 col-xs-12 amazon-podcast-content">
               <div className=" amazon-podcast-card-title">
-              <a href={"../podcast/" + podcast.slug} title={"Read more about " +podcast.title } ><strong>{podcast.title}</strong></a> 
-          
+                <a
+                  href={"../podcast/" + podcast.slug}
+                  title={"Read more about " + podcast.title}
+                >
+                  <strong>{podcast.title}</strong>
+                </a>
               </div>
 
               <div className=" amazon-podcast-card-description-latest-list">
@@ -73,16 +85,23 @@ function Message(props: any) {
               </strong>
             </div>
             <div className="col-lg-3 col-xs-12 ">
-           
               {" "}
               <div className="amazonplaylist-audio">
-           <p> <b>Show:</b>  <a href={"../shows/" + podcast.show.slug} title={"Read more about " +podcast.show.title } ><strong>{podcast.show.title}</strong></a> </p> 
-                <audio controls src={podcast.amazonUrl}>
+                <p>
+                  {" "}
+                  <b>Show:</b>{" "}
+                  <a
+                    href={"../shows/" + podcast.show.slug}
+                    title={"Read more about " + podcast.show.title}
+                  >
+                    <strong>{podcast.show.title}</strong>
+                  </a>{" "}
+                </p>
+                <audio controls src={podcast.amazonUrl} id={podcast.show.title.replaceAll(" ", "-")+"-"+podcast.slug}>
                   Your browser does not support the
                   <code>audio</code> element.
                 </audio>
                 <Date date={podcast.date} />
-               
               </div>{" "}
             </div>
           </div>
@@ -90,19 +109,22 @@ function Message(props: any) {
       }
     );
 
-  
-
     return <div> {listOfItems}</div>;
   }
   return (
     <>
       {props.showTitle != true ? (
-        <div className="container">
-          <div className="layout-title">
-            <h3> {title}</h3>
+        <section className="playlist container page-block amazon-playlist">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12  ">
+                <div className="layout-title">
+                  <h3> {title}</h3>
+                </div>
+              </div>
+            </div>
           </div>
-          <br />{" "}
-        </div>
+        </section>
       ) : null}
 
       <section className="playlist container page-block amazon-playlist">

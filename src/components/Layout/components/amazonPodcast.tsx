@@ -97,7 +97,7 @@ function AmazonPlaylist(props: any) {
                     <strong>{data.amazonPodcast.show.title}</strong>
                   </a>{" "}
                 </p>
-                <audio controls src={data.amazonPodcast.amazonUrl}>
+                <audio controls src={data.amazonPodcast.amazonUrl}  id={data.amazonPodcast.slug}>
                   Your browser does not support the
                   <code>audio</code> element.
                 </audio>
