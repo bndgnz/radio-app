@@ -10,7 +10,7 @@ export default async function handler(
     return res.status(401).json({ message: 'Invalid slug' });
   }
 
-  const location = '/' + 'blog/' + req.query.slug;
+  const location = '/' + '/' + req.query.slug;
   res.setPreviewData({});
   res.writeHead(307, { Location: location });
   res.end();
