@@ -97,7 +97,7 @@ function Message(props: any) {
                     <strong>{podcast.show.title}</strong>
                   </a>{" "}
                 </p>
-                <audio controls src={podcast.amazonUrl}>
+                <audio controls src={podcast.amazonUrl} id={podcast.show.title.replaceAll(" ", "-")+"-"+podcast.slug}>
                   Your browser does not support the
                   <code>audio</code> element.
                 </audio>

@@ -162,7 +162,7 @@ function FilteredAmazonPlaylistResolver(props: any) {
               {" "}
               <div className="amazonplaylist-audio">
                 {" "}
-                <audio controls src={podcast.amazonUrl}>
+                <audio controls src={podcast.amazonUrl} id={podcast.show.title.replaceAll(" ","-")+"-"+podcast.slug}>
                   Your browser does not support the
                   <code>audio</code> element.
                 </audio>

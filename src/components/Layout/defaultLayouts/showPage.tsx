@@ -5,6 +5,7 @@ import { BLOCKS, INLINES } from "@contentful/rich-text-types";
 
 function Showpage(props: any) {
   const showlink = props.props.type.showUrl;
+ 
   function ShowPlaylist() {
     if (props.props.type.playlistUrl) {
       return (
@@ -26,7 +27,7 @@ function Showpage(props: any) {
           <div className="show-page-audio ">
             <h3>Latest show </h3>
             <hr />
-            <audio controls src={showlink}>
+            <audio controls src={showlink} id={props.props.type.slug+"-Latest-Show"}>
               Your browser does not support the
               <code>audio</code> element.
             </audio>
