@@ -50,8 +50,8 @@ const client = new ApolloClient({
 
    <ContentfulLivePreviewProvider
       locale="en-US"
-      enableInspectorMode={pageProps.draftMode}
-      enableLiveUpdates={pageProps.draftMode}
+      enableInspectorMode={true}
+      enableLiveUpdates={true}
       debugMode
     >
 
