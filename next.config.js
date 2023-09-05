@@ -9,8 +9,18 @@ module.exports = {
         source: '/(.*)',
         headers: [
           {
+            key: 'X-Content-Type-Options',
+            value:'nosniff',
+          },
+
+          {
+            key: 'X-XSS-Protection',
+            value:'1; mode=block',
+          },
+
+          {
             key: 'Content-Security-Policy',
-            value:"frame-ancestors 'https://app.contentful.com'",
+            value:"frame-ancestors 'self' https://app.contentful.com",
           },
          ],
       },
