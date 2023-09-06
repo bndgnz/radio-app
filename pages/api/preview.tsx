@@ -1,12 +1,13 @@
 import { getPreviewPostBySlug } from "@/src/utils/api";
-import config from "@/src/components/Layout/config"   
+import config from "@/src/components/Layout/config"
 
 // http://localhost:9009/api/preview?secret=testing&slug=core-concepts
+
 
 export default async function preview(req, res) {
 
     const { secret, slug } = req.query;
- 
+
     if (secret !== config.previewSecret || !slug) {
         return res.status(401).json({ message: "Invalid token" });
     }
