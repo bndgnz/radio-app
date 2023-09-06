@@ -20,7 +20,7 @@ declare global {
 }
 
 config();
-
+ 
 export default class ContentService {
   static get instance() {
     return new ContentService();
@@ -32,6 +32,8 @@ export default class ContentService {
     environment:  process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT,
     host: "preview.contentful.com"
   });
+
+ 
 
   async getLandingPageBySlug(slug: string) {
     return (
