@@ -32,6 +32,8 @@ export default class ContentService {
     environment:  process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT,
   });
 
+ 
+
   async getLandingPageBySlug(slug: string) {
     return (
       await this.client.getEntries<ILandingPageFields>({

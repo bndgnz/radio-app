@@ -10,7 +10,7 @@ const getOptions = (is_preview) => {
   let space_id = "";
   let access_token = "";
   options.space = space_id ? space_id : config.space_id;
-  options.host = is_preview ? "preview.contentful.com" : "preview.contentful.com";
+  options.host = "preview.contentful.com";
   options.accessToken = access_token
     ? access_token
     : is_preview
@@ -67,12 +67,13 @@ export const getAllPostsForHome = async (preview) => {
 
   return posts;
 };
-
+const previewClient = contentful.createClient({
+  space: process.env.CONTENTFUL_SPACE_ID,
+  accessToken: process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN,
+  host: 'preview.contentful.com'
+})
 export const getPreviewPostBySlug = async (slug) => {
-  const options = getOptions(true);
-  const contentfulClient = contentful.createClient(options);
-
-  let posts = await contentfulClient
+  let posts = await previewClient
     .getEntries({
       content_type: "landingPage",
       "fields.slug": slug,
