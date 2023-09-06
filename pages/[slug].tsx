@@ -51,6 +51,7 @@ export const getStaticProps: GetStaticProps<Props, { slug: string }> = async (
   ctx
 ) => {
   const { slug } = ctx.params!;
+ 
   const landingPage = await ContentService.instance.getLandingPageBySlug(slug);
   if (!landingPage) {
     return { notFound: true };
