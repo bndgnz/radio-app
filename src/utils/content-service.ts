@@ -28,8 +28,9 @@ export default class ContentService {
 
   client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
-    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    accessToken: process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN,
     environment:  process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT,
+    host: "preview.contentful.com"
   });
 
   async getLandingPageBySlug(slug: string) {
