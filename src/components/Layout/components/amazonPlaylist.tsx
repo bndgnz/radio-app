@@ -18,6 +18,7 @@ function AmazonPlaylist(props: any) {
             podcastImage
             date
             slug
+            show{title}
           }
         }
       }
@@ -32,6 +33,9 @@ function AmazonPlaylist(props: any) {
   if (error) {
     return <div></div>;
   }
+
+
+console.log(data)
 
   function Date(date: any) {
     let year = date.date.substring(0, 4);
@@ -69,8 +73,17 @@ function AmazonPlaylist(props: any) {
             <div className="col-lg-4 col-xs-12">
               {" "}
               <div className="amazonplaylist-audio">
-                {" "}
-                <audio controls src={podcast.amazonUrl}>
+                {" "} <p>
+                  {" "}
+                  <b>Show:</b>{" "}
+                  <a
+                    href={"../shows/" + podcast.show.slug}
+                    title={"Read more about " + podcast.show.title}
+                  >
+                    <strong>{podcast.show.title}</strong>
+                  </a>{" "}
+                </p>
+                <audio controls src={podcast.amazonUrl} id={podcast.show.title.replaceAll(" ","-")+"-"+podcast.slug}>
                   Your browser does not support the
                   <code>audio</code> element.
                 </audio>
@@ -82,6 +95,7 @@ function AmazonPlaylist(props: any) {
       }
     );
 
+    
     return <div> {listOfItems}</div>;
   }
 

@@ -1,7 +1,31 @@
 module.exports = {
   
+  images: {
+    domains: ['res.cloudinary.com'], 
+  },
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Content-Type-Options',
+            value:'nosniff',
+          },
 
-   
+          {
+            key: 'X-XSS-Protection',
+            value:'1; mode=block',
+          },
+
+          {
+            key: 'Content-Security-Policy',
+            value:"frame-ancestors 'self' https://app.contentful.com",
+          },
+         ],
+      },
+    ]
+  }, 
 
   async redirects() {
     return [
@@ -10,6 +34,7 @@ module.exports = {
         destination: '/home',
         permanent: false,
       },
+    
        ];
   },
 };

@@ -54,8 +54,11 @@ const renderOptions = {
   },
 };
 
-export default function RichTextHelper(props) {
-  const { post } = props;
+export default function RichTextHelper(props: any) {
+
+console.log(props)
+
+ 
 
   return (
     <>

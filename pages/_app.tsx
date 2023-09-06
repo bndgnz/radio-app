@@ -8,7 +8,8 @@ import "@/styles/responsive.scss";
 import "@/styles/atom-one-dark.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Script from 'next/script'
-
+import { ContentfulLivePreviewProvider } from '@contentful/live-preview/react';
+ 
 import { config } from "dotenv";
  
 
@@ -42,15 +43,30 @@ const client = new ApolloClient({
     `}
   </Script>
 
-   <ApolloProvider client={client}>
-   
-        <Component {...pageProps} />
 
+   
+   <ApolloProvider client={client}>
+
+
+   <ContentfulLivePreviewProvider
+      locale="en-US"
+      enableInspectorMode={true}
+      enableLiveUpdates={true}
+      debugMode
+    >
+
+
+
+    
+        <Component {...pageProps} />
+        </ContentfulLivePreviewProvider>
       {/* Preloader */}
  
       {/* Go Top Button */}
     
        </ApolloProvider>
+
+      
     </>
   );
 }

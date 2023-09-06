@@ -2,7 +2,7 @@ import React from "react";
 import { useQuery, gql } from "@apollo/client";
 
 function FilteredAmazonPlaylistResolver(props: any) {
-  console.log(props);
+ 
 
   function PlaylistTitle() {
     if (props.data.filteredAmazonPlaylist.displayTitle == true) {
@@ -32,15 +32,19 @@ function FilteredAmazonPlaylistResolver(props: any) {
     : "";
   const sort = props.data.filteredAmazonPlaylist.sort
     ? props.data.filteredAmazonPlaylist.sort
-    : "";
-
-  let sortType;
+    : "none";
+ 
+ let sortType;
   if (sort == "Ascending") {
     sortType = "date_ASC";
-  } else if (sort == "Descending") {
+ ;
+  }
+   if (sort == "Descending") {
     sortType = "date_DESC";
-  } else {
-    sortType == "date_ASC";
+   
+  } if (sort == "none"){ 
+     sortType = "date_DESC";
+ 
   }
 
   const PLAYLISTITEMS = gql`
@@ -158,7 +162,7 @@ function FilteredAmazonPlaylistResolver(props: any) {
               {" "}
               <div className="amazonplaylist-audio">
                 {" "}
-                <audio controls src={podcast.amazonUrl}>
+                <audio controls src={podcast.amazonUrl} id={podcast.show.title.replaceAll(" ","-")+"-"+podcast.slug}>
                   Your browser does not support the
                   <code>audio</code> element.
                 </audio>

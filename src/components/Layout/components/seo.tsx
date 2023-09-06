@@ -3,13 +3,14 @@ function Seo(props: any) {
   return (
     <div>
       <Head>
+ 
         <title key="title">{props.title} | Waiheke Island Radio</title>
         <meta
           key="og:description"
           property="og:description"
           content={props.description}
         />
-
+<meta name="google-site-verification" content="QjAHTlD8fDaJp9bzKekX0-CLSsV0sU0_PXKvB3ZOcCc" />
         <meta name="description" content={props.description} />
         <meta
           name="facebook-domain-verification"
