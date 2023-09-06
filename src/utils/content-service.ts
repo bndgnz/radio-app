@@ -20,7 +20,7 @@ declare global {
 }
 
 config();
-
+ 
 export default class ContentService {
   static get instance() {
     return new ContentService();
@@ -31,6 +31,8 @@ export default class ContentService {
     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
     environment:  process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT,
   });
+
+ 
 
   async getLandingPageBySlug(slug: string) {
     return (
