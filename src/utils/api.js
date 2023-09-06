@@ -10,7 +10,7 @@ const getOptions = (is_preview) => {
   let space_id = "";
   let access_token = "";
   options.space = space_id ? space_id : config.space_id;
-  options.host = is_preview ? "preview.contentful.com" : undefined;
+  options.host = is_preview ? "preview.contentful.com" : "preview.contentful.com";
   options.accessToken = access_token
     ? access_token
     : is_preview

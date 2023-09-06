@@ -20,7 +20,7 @@ declare global {
 }
 
 config();
-
+ 
 export default class ContentService {
   static get instance() {
     return new ContentService();
