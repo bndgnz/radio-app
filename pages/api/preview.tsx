@@ -9,7 +9,6 @@ export default async function handler(
   if (!req.query.slug) {
     return res.status(401).json({ message: 'Invalid slug' });
   }
-
   const location = 'https://www.waihekeradio.org.nz/' + req.query.slug;
   res.setPreviewData({});
   res.writeHead(307, { Location: location });
