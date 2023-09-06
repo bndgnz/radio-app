@@ -3,9 +3,7 @@ import _ from "lodash";
 
 import config from "@/src/components/Layout/config";
 
- 
-
-//prepare options for contentful createClient, change host to preview API when in preview mode
+ //prepare options for contentful createClient, change host to preview API when in preview mode
 const getOptions = (is_preview) => {
   let options = {};
 
