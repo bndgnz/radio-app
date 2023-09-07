@@ -17,7 +17,6 @@ const previewCall = {
   host: "preview.contentful.com",
 };
 
-console.log(preview)
 
 const call = preview ? previewCall : deliveryCall;
 
