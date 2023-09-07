@@ -1,169 +1,30 @@
 import * as contentful from "contentful";
-import _ from "lodash";
 
-import config from "@/src/components/Layout/config";
 
- //prepare options for contentful createClient, change host to preview API when in preview mode
-const getOptions = (is_preview) => {
-  let options = {};
+export const getPageBySlug = async (slug, preview) => {
 
-  let space_id = "";
-  let access_token = "";
-  options.space = space_id ? space_id : config.space_id;
-  options.host = "preview.contentful.com";
-  options.accessToken = access_token
-    ? access_token
-    : is_preview
-    ? config.preview_token
-    : config.delivery_token;
-  options.environment = config.environment ? config.environment : "master";
-  return options;
-};
-
-export const getAllLocales = async () => {
-  const options = getOptions(false);
-  const contentfulClient = contentful.createClient(options);
-
-  let loca = await contentfulClient
-    .getLocales()
-    .then((locales) => {
-      let dataType = _.get(locales, "sys.type");
-      let items = _.get(locales, "items");
-      if (dataType === "Array") {
-        return items;
-      } else {
-        return false;
-      }
-    })
-    .catch((er) => {
-      console.log("Error LOCALES", er);
-      return false;
-    });
-};
-
-export const getAllPostsForHome = async (preview) => {
-  const options = getOptions(preview);
-  const contentfulClient = contentful.createClient(options);
-
-  let posts = await contentfulClient
-    .getEntries({
-      content_type: "landingPage",
-    })
-    .then((entries) => {
-      console.log("PAGES", entries);
-      let dataType = _.get(entries, "sys.type");
-      let items = _.get(entries, "items");
-
-      if (items) {
-        return items;
-      } else {
-        return false;
-      }
-    })
-    .catch((er) => {
-      console.log("ERROR", er);
-      return false;
-    });
-
-  return posts;
-};
-const previewClient = contentful.createClient({
+ 
+const deliveryCall = {
   space: process.env.CONTENTFUL_SPACE_ID,
+  environment: process.env.CONTENTFUL_ENVIRONMENT,
+  accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+};
+const previewCall = {
+  space: process.env.CONTENTFUL_SPACE_ID,
+  environment: process.env.CONTENTFUL_ENVIRONMENT,
   accessToken: process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN,
-  host: 'preview.contentful.com'
-})
-export const getPreviewPostBySlug = async (slug) => {
-  let posts = await previewClient
-    .getEntries({
-      content_type: "landingPage",
-      "fields.slug": slug,
-    })
-    .then((entries) => {
-      let dataType = _.get(entries, "sys.type");
-      let fields = _.get(entries, "items[0].fields");
-
-      return fields;
-    })
-    .catch((er) => {
-      console.log("ERROR", er);
-      return false;
-    });
-
-  return posts;
+  host: "preview.contentful.com",
 };
 
-// posts with slug
-// @param: boolean
-export const getAllPostsWithSlug = async (preview) => {
-  const options = getOptions(preview);
-  const contentfulClient = contentful.createClient(options);
+console.log(preview)
 
-  let pages = await contentfulClient
-    .getEntries({
-      content_type: "landingPage",
-    })
-    .then((entries) => {
-      let items = _.get(entries, "items");
+const call = preview ? previewCall : deliveryCall;
 
-      const itemsWithSlug = items.filter((entry) => {
-        const slugVal = _.get(entry, "fields.slug");
-        if (slugVal) {
-          return entry;
-        }
-      });
-
-      if (itemsWithSlug) {
-        return itemsWithSlug;
-      } else {
-        return false;
-      }
-    })
-    .catch((er) => {
-      console.log("ERROR", er);
-      return false;
-    });
-
-  return pages;
+  const client = contentful.createClient( call );
+  const response = await client.getEntries({
+    content_type: "landingPage",
+    "fields.slug[in]": slug,
+  });
+ 
+  return response;
 };
-
-export const getPostAndMorePosts = async (slug, preview) => {
-  const options = getOptions(preview);
-
-  const contentfulClient = contentful.createClient(options);
-
-  let posts = await contentfulClient
-    .getEntries({
-      content_type: "landingPage",
-    })
-    .then((entries) => {
-      let items = _.get(entries, "items");
-      //   item that matches the provided slug
-      const itemsWithThisSlug = items.filter((entry) => {
-        const fields = _.get(entry, "fields");
-        const slugVal = _.get(entry, "fields.slug");
-
-        if (slugVal === slug) {
-          return fields;
-        }
-      });
-      //   all others -> morePosts
-      const itemsWithoutThisSlug = items.filter((entry) => {
-        const slugVal = _.get(entry, "fields.slug");
-        if (slugVal != slug) {
-          return entry;
-        }
-      });
-
-      return {
-        post: itemsWithThisSlug,
-        morePosts: itemsWithoutThisSlug,
-      };
-    })
-    .catch((er) => {
-      console.log("ERROR", er);
-      return false;
-    });
-
-  return posts;
-};
-
