@@ -25,6 +25,9 @@ const LandingPage: NextPage<Props> = ({
 }) => (
   <>
 <Seo title={title} description={introduction} /> 
+
+
+ 
   <Layout
       title={title}
       image={cloudinaryImage[0].secure_url}
