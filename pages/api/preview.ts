@@ -1,26 +1,36 @@
-import { getPreviewPostBySlug } from "@/src/utils/api";
+import { getPageBySlug } from "@/src/utils/api";
+ 
 
 
 export default async (req, res) => {
-    // Check the secret and next parameters
-    // This secret should only be known to this API route and the CMS
+
+  const page = await getPageBySlug(req.query.slug, true)
+ 
+  
+    
     if (req.query.secret !== 'preview' || !req.query.slug) {
       return res.status(401).json({ message: 'Invalid token' })
     }
    
-    // Fetch the headless CMS to check if the provided `slug` exists
-    // getPostBySlug would implement the required fetching logic to the headless CMS
-    const post = await getPreviewPostBySlug(req.query.slug)
    
     // If the slug doesn't exist prevent preview mode from being enabled
-    if (!post) {
-      return res.status(401).json({ message: 'Invalid slug' })
+    if (!page) {
+      return res.status(401).json({ message: 'Invalid slug' + req.query.slug })
     }
    
     // Enable Preview Mode by setting the cookies
     res.setPreviewData({})
-   
+    const url = "../"+ page.items[0].fields.slug;
     // Redirect to the path from the fetched post
     // We don't redirect to req.query.slug as that might lead to open redirect vulnerabilities
-    res.redirect("../"+post.slug)
+    res.setHeader('Content-Type', 'text/html')
+    res.write(
+        `<!DOCTYPE html><html><head​​><meta http-equiv="Refresh" content="0; url=${url}" />
+        <script>window.location.href = '${url}'</script>
+        </head>
+        </html>`
+    )
+    res.end()
   }
+
+ 
