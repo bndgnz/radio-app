@@ -4,6 +4,7 @@ import * as contentful from "contentful";
 export const getPageBySlug = async (slug, preview) => {
 
  
+  
 const deliveryCall = {
   space: process.env.CONTENTFUL_SPACE_ID,
   environment: process.env.CONTENTFUL_ENVIRONMENT,
