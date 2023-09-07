@@ -9,22 +9,15 @@ import {IAmazonPodcastFields} from "../@types/contentful";
  * If you want to learn more about this madness, read:
  * https://www.typescriptlang.org/docs/handbook/declaration-merging.html#module-augmentation
  */
-declare global {
-  namespace NodeJS {
-    interface ProcessEnv {
-      CONTENTFUL_SPACE_ID: string;
-      CONTENTFUL_ACCESS_TOKEN: string;
-      CONTENTFUL_ENVIRONMENT: string;
-    }
-  }
-}
-
-config();
-
+ 
+ 
 export default class ContentService {
   static get instance() {
     return new ContentService();
   }
+
+
+
 
   client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
@@ -32,7 +25,19 @@ export default class ContentService {
     environment:  process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT,
   });
 
-  async getLandingPageBySlug(slug: string) {
+  previewClient = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    environment:  process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT,
+  });
+
+
+ 
+
+  
+
+  async getLandingPageBySlug(slug: string, preview=false) {
+ 
     return (
       await this.client.getEntries<ILandingPageFields>({
         content_type: "landingPage",
@@ -41,7 +46,7 @@ export default class ContentService {
     ).items[0];
   }
 
-  async getShowPageBySlug(slug: string) {
+  async getShowPageBySlug(slug: string, preview=false) {
     return (
       await this.client.getEntries<IShowsFields>({
         content_type: "shows",
@@ -50,7 +55,7 @@ export default class ContentService {
     ).items[0];
   }
 
-  async getPodcastBySlug(slug: string) {
+  async getPodcastBySlug(slug: string, preview=false) {
     return (
       await this.client.getEntries<IAmazonPodcastFields>({
         content_type: "amazonPodcast",
@@ -63,7 +68,7 @@ export default class ContentService {
 
 
 
-  async getEntriesByType<T>(type: string) {
+  async getEntriesByType<T>(type: string, preview=false) {
     return (
       await this.client.getEntries<T>({
         content_type: type,
