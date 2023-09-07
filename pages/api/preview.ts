@@ -2,6 +2,7 @@ import { getPageBySlug } from "@/src/utils/api";
  
 
 
+
 export default async (req, res) => {
 
   const page = await getPageBySlug(req.query.slug, true)
