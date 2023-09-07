@@ -31,11 +31,6 @@ export default class ContentService {
     environment:  process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT,
   });
 
-
- 
-
-  
-
   async getLandingPageBySlug(slug: string, preview=false) {
  
     return (
