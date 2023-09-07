@@ -39,7 +39,7 @@
     "sass": "^1.56.1",
     "swr": "^2.0.3",
     "typescript": "4.9.3",
-    "vercel": "^28.10.1"
+    "vercel": "^24.2.4"
   },
   "devDependencies": {
     "@contentful/rich-text-react-renderer": "^15.16.2",
