@@ -8,10 +8,11 @@ function Message(props: any) {
   const MESSAGE = gql`
     query GetMEssage($id: String!) {
       message(id: $id) {
+        title
         headline
         linkText
         messageType
-        cimage
+       
         overview {
           json
           links {
@@ -40,7 +41,7 @@ function Message(props: any) {
   if (error) {
     return <div></div>;
   }
-
+ 
   function MessageType() {
     const type = data.message.messageType;
 

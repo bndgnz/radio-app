@@ -11,7 +11,9 @@ const renderOptions = {
       // target the contentType of the EMBEDDED_ENTRY to display as you need
       if (node.data.target.sys.contentType.sys.id === "blogPost") {
         return (
-          <a href={`/blog/${node.data.target.fields.slug}`}>            {node.data.target.fields.title}
+          <a href={`/blog/${node.data.target.fields.slug}`}>
+            {" "}
+            {node.data.target.fields.title}
           </a>
         );
       }
@@ -32,7 +34,6 @@ const renderOptions = {
             src={node.data.target.fields.embedUrl}
             height="100%"
             width="100%"
-           
             title={node.data.target.fields.title}
             allowFullScreen={true}
           />
@@ -55,14 +56,5 @@ const renderOptions = {
 };
 
 export default function RichTextHelper(props: any) {
-
-console.log(props)
-
- 
-
-  return (
-    <>
-       {documentToReactComponents(props.content, renderOptions)}
-    </>
-  );
+  return <>{documentToReactComponents(props.content, renderOptions)}</>;
 }

@@ -53,7 +53,7 @@ function BannerCarousel(props) {
           ))}
         </Carousel>
 
-<div className="banner-search"><Search /></div>
+ 
 
 
       </div>
