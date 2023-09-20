@@ -8478,7 +8478,7 @@ a.featured-podcast-title {
 .featured-right-desc {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   font-size: 0.775rem;
 }
@@ -8613,4 +8613,15 @@ audio.featured-podcast-4 {
   /* position: relative; */
   right: -35%;
   padding: 4px 5px 0px 5px;
+}
+
+.row.featured-right-row {
+ 
+  margin-top: 10px;
+}
+
+.row.featured-right-row {
+  padding-bottom: 15px;
+ 
+ 
 }
