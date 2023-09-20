@@ -8413,7 +8413,7 @@ a.featured-podcast-title {
   text-decoration: none;
   color: #fff;
   font-weight: 800;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-shadow: 3px 3px 8px rgba(0, 0, 0, 1);
   opacity: 0.9;
 }
@@ -8605,7 +8605,7 @@ audio.featured-podcast-4 {
 
 .featured-right-title a:hover {text-decoration: underline;}
 .featured-right-date {
-  max-width: 30%;
+ 
   font-size: .68rem;
   float: right;
   text-align: right;
