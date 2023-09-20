@@ -8438,7 +8438,7 @@ a.featured-podcast-title {
 }
 
 .show-name {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   font-weight: 600;
   background-color: #bf1a2c;
   position: relative;
@@ -8446,7 +8446,7 @@ a.featured-podcast-title {
   left: -20px;
   color: #fff;
 
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  padding: 0.5rem 0.5rem 0.5rem .5rem;
   display: inline;
 }
 
@@ -8513,7 +8513,7 @@ a.featured-podcast-title {
 
 .featured-podcast-4 {
   padding: 10px;
-
+  border: 1px solid #000;
   margin-top: 10px;
   border-radius: 10px;
   height: 170px;
@@ -8536,13 +8536,13 @@ audio.featured-podcast-4 {
 }
 
 .show-name-4 {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   font-weight: 400;
   background-color: #bf1a2c;
   /* top: 20px; */
   /* left: 15px; */
   color: #fff;
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  padding: 0.5rem 0.5rem 0.5rem .5rem;
   display: inline;
   height: 35px;
   margin-left: -10px;
@@ -8562,10 +8562,10 @@ audio.featured-podcast-4 {
 
 .featured-podcast-title-4 a {
   color: #fff;
-  color: #fff;
+  font-weight: 400;
   text-shadow: 3px 3px 8px rgba(0, 0, 0, 1);
   text-decoration: none;
-  font-size: 0.89rem;
+  font-size: 1rem;
 }
 
 .featured-podcast-title-4 a:hover {
