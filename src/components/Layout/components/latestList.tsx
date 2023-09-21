@@ -182,7 +182,7 @@ function Message(props: any) {
 
           <div className="featured-right-desc">{podcast.description}</div>
 
-          <audio
+      <div className="featured-right-audio">    <audio
             className="featured-right-player"
             controls
             src={podcast.amazonUrl}
@@ -191,7 +191,7 @@ function Message(props: any) {
             Your browser does not support the
             <code>audio</code> element.
           </audio>
-
+          </div>
         
         </div>
       );
