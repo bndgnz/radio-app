@@ -8470,10 +8470,11 @@ a.featured-podcast-title {
 }
 
 .row.featured-right-row audio {
-  max-width: 100px;
+  /* max-width: 100%; */
   max-height: 35px;
   color: #fff;
   background-color: #fff;
+  max-width: 250px;
 }
 .featured-right-desc {
   overflow: hidden;
@@ -8598,7 +8599,7 @@ audio.featured-podcast-4 {
 
 .featured-right-title {
   font-size: .9rem;
-  font-weight: 600;    margin-top: 5px;
+  font-weight: 600;    margin-top: 5px;    width: 100%;
 }
 
 .featured-right-title a {text-decoration: none;}
