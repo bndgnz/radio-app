@@ -8626,3 +8626,11 @@ audio.featured-podcast-4 {
  
  
 }
+
+.featured-podcast-description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  padding: 3px;
+}
