@@ -21,6 +21,7 @@
     "apollo-boost": "^0.4.9",
     "eslint": "8.28.0",
     "eslint-config-next": "^13.0.7",
+    "feed": "^4.2.2",
     "gapi-script": "^1.2.0",
     "googleapis": "^105.0.0",
     "graphql": "^15.0.0",
