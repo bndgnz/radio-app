@@ -5,6 +5,15 @@ import { createClient } from "contentful";
 export default async function generateRssFeed() {
   const site_url = "https://www.waihekeradio.org.nz";
 
+  const author = {
+    name: "Waiheke Radio",
+    email: "info@waihekeradio.org.nz",
+    link: "https://www.waihekeradio.org.nz",
+  };
+
+  const category = { name:"Community Radio Podcast",}
+
+
   const feedOptions = {
     title: "Waiheke Radio Podcasts | RSS Feed",
     description: "Welcome to Waiheke Radio Podcasts Feed!",
@@ -20,6 +29,9 @@ export default async function generateRssFeed() {
       json: `${site_url}/feed.json`,
       atom: `${site_url}/atom.xml`
     },
+    author,
+    category,
+    
   };
 
   const client = createClient({
@@ -42,11 +54,9 @@ export default async function generateRssFeed() {
       link: post.fields.amazonUrl,
       description: post.fields.description.replaceAll("&", " and "),
       date: new Date(post.fields.date),
-      author: {
-        name: "Waiheke Radio",
-        email: "info@waihekeradio.org.nz",
+      author: [author],
+      category: [category]
        
-      },
     });
   });
   fs.writeFileSync("./public/rss.xml", feed.rss2());
