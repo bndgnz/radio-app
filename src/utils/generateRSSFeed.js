@@ -16,6 +16,8 @@ export default async function generateRssFeed() {
     generator: "Feed for Node.js",
     feedLinks: {
       rss2: `${site_url}/rss.xml`,
+      json: `${site_url}/feed.json`,
+      atom: `${site_url}/atom.xml`
     },
   };
 
@@ -37,9 +39,11 @@ export default async function generateRssFeed() {
       title: post.fields.title,
       id: `${site_url}/podcast/${post.fields.slug}`,
       link: post.fields.amazonUrl,
-      description: post.fields.description,
+      description: post.fields.description.replaceAll("&", "and"),
       date: new Date(post.fields.date),
     });
   });
   fs.writeFileSync("./public/rss.xml", feed.rss2());
+  fs.writeFileSync('./public/atom.xml', feed.atom1());
+fs.writeFileSync('./public/feed.json', feed.json1());
 }
