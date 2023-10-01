@@ -3,7 +3,7 @@ import { Feed } from "feed";
 import { createClient } from "contentful";
 
 export default async function generateRssFeed() {
-  const site_url = "localhost:3000";
+  const site_url = "https://radio.cxm.nz/";
 
   const feedOptions = {
     title: "Waiheke Radio Podcasts | RSS Feed",
@@ -27,7 +27,7 @@ export default async function generateRssFeed() {
   const posts = await client.getEntries({
     content_type: "amazonPodcast",
     locale: "en-US",
-    limit: 1000,
+    limit: 500,
   });
 
   const feed = new Feed(feedOptions);
