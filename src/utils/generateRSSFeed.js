@@ -31,7 +31,7 @@ export default async function generateRssFeed() {
     },
     author,
     category,
-    
+   
   };
 
   const client = createClient({
@@ -42,7 +42,8 @@ export default async function generateRssFeed() {
   const posts = await client.getEntries({
     content_type: "amazonPodcast",
     locale: "en-US",
-    limit: 500,
+    limit: 30,
+    order: '-sys.createdAt',
   });
 
   const feed = new Feed(feedOptions);
