@@ -3,11 +3,12 @@ import { Feed } from "feed";
 import { createClient } from "contentful";
 
 export default async function generateRssFeed() {
-  const site_url = "https://radio.cxm.nz/";
+  const site_url = "https://www.waihekeradio.org.nz";
 
   const feedOptions = {
     title: "Waiheke Radio Podcasts | RSS Feed",
     description: "Welcome to Waiheke Radio Podcasts Feed!",
+
     id: site_url,
     link: site_url,
     image: `${site_url}/logo.png`,
@@ -36,11 +37,16 @@ export default async function generateRssFeed() {
 
   posts.items.forEach((post) => {
     feed.addItem({
-      title: post.fields.title,
+      title: post.fields.title.replaceAll("&", " and "),
       id: `${site_url}/podcast/${post.fields.slug}`,
       link: post.fields.amazonUrl,
       description: post.fields.description.replaceAll("&", " and "),
       date: new Date(post.fields.date),
+      author: {
+        name: "Waiheke Radio",
+        email: "info@waihekeradio.org.nz",
+       
+      },
     });
   });
   fs.writeFileSync("./public/rss.xml", feed.rss2());
