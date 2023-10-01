@@ -39,7 +39,7 @@ export default async function generateRssFeed() {
       title: post.fields.title,
       id: `${site_url}/podcast/${post.fields.slug}`,
       link: post.fields.amazonUrl,
-      description: post.fields.description.replaceAll("&", "and"),
+      description: post.fields.description.replaceAll("&", " and "),
       date: new Date(post.fields.date),
     });
   });
