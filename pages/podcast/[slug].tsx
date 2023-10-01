@@ -4,6 +4,8 @@ import { IAmazonPodcastFields } from "@/src/@types/contentful";
 import ContentService from "@/src/utils/content-service";
 import Layout from "@/src/components/Layout";
 import Seo from "@/src/components/Layout/components/seo";
+import generateRssFeed from '@/src/utils/generateRSSFeed';
+
 
 interface Props {
   podcastPage: IAmazonPodcastFields;
@@ -42,6 +44,8 @@ export const getStaticProps: GetStaticProps<Props, { slug: string }> = async (
 ) => {
   const { slug } = ctx.params!;
   const podcastPage = await ContentService.instance.getPodcastBySlug(slug);
+  await generateRssFeed();
+
   if (!podcastPage) {
     return { notFound: true };
   }

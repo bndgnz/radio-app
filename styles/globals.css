@@ -2039,18 +2039,7 @@ Main Banner Area CSS
   background-repeat: no-repeat;
 }
 
-.main-banner::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-color: #1a0602;
-  opacity: 0.1;
-}
-
+ 
 .item-bg1 {
   background-image: url(/images/main-banner1.jpg);
 }
