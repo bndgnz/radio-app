@@ -30,8 +30,6 @@ export default async function generateRssFeed() {
     limit: 1000,
   });
 
-  console.log(posts.items);
-
   const feed = new Feed(feedOptions);
 
   posts.items.forEach((post) => {
