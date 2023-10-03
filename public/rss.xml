@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns="http://www.w3.org/2005/Atom">
     <channel>
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" >
         <title>Waiheke Radio Podcasts | RSS Feed</title>
         <link>https://www.waihekeradio.org.nz</link>
         <description>Welcome to Waiheke Radio Podcasts Feed!</description>
-        <lastBuildDate>Tue, 03 Oct 2023 01:34:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Oct 2023 01:42:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -288,9 +289,6 @@ We also heard from Phillipe Starck about his approach to design and Bill Cunniin
             <description><![CDATA[Another chance to listen to This weeks show with a conversation with Jenny Nicholls of the fabulous new ‘shop’ in Blackpool called Wonderfool. We also had a musical segment of unusual instruments with, amongst other things, a carrot clarinet! We also had a comment from NY street fashion master Bill Cunningham and the final installment of ‘I’m Here I Think Where are You?’ a glimpse into the life of a travelling actor through the letters of Timothy West to to his wife Prunella Scales]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
-        </item>
-    </channel>
-</rss>o Podcast</category>
         </item>
     </channel>
 </rss>
