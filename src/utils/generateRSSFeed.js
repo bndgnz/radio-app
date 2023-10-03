@@ -63,4 +63,21 @@ export default async function generateRssFeed() {
   fs.writeFileSync("./public/rss.xml", feed.rss2());
   fs.writeFileSync('./public/atom.xml', feed.atom1());
 fs.writeFileSync('./public/feed.json', feed.json1());
+
+
+fs.readFile('./public/rss.xml', 'utf-8', function (err, contents) {
+  if (err) {
+    console.log(err);
+    return;
+  }
+
+  const replaced = contents.replace('rss', 'rss xmlns:atom="http://www.w3.org/2005/Atom"');
+
+  fs.writeFile('./public/rss.xml', replaced, 'utf-8', function (err) {
+    console.log(err);
+  });
+});
+
+
+
 }
