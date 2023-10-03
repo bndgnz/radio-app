@@ -85,7 +85,7 @@ fs.readFile('./public/rss.xml', 'utf-8', function (err, contents) {
     return;
   }
 
-  const replaced = contents.replace('\<channel\>', '\<channel\>\n\<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" /\>');
+  const replaced = contents.replace('\<channel\>', '\<channel\>\n\<atom:link href="https:\/\/www.waihekeradio.org.nz\/rss.xml" rel="self" type="application\/rss+xml" /\>');
 
   fs.writeFile('./public/rss.xml', replaced, 'utf-8', function (err) {
     console.log(err);
