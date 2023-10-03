@@ -79,5 +79,19 @@ fs.readFile('./public/rss.xml', 'utf-8', function (err, contents) {
 });
 
 
+fs.readFile('./public/rss.xml', 'utf-8', function (err, contents) {
+  if (err) {
+    console.log(err);
+    return;
+  }
+
+  const replaced = contents.replace('\<channel\>', '\<channel\>\n\<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" /\>');
+
+  fs.writeFile('./public/rss.xml', replaced, 'utf-8', function (err) {
+    console.log(err);
+  });
+});
+
+
 
 }
