@@ -11,6 +11,34 @@
     },
     "items": [
         {
+            "id": "https://www.waihekeradio.org.nz/podcast/maia-piata-rose-week-on-the-maramataka",
+            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3",
+            "title": "Maia Piata Rose Week on the Maramataka",
+            "summary": "Koro talks to Maia Piata Rose Week about the Maramataka. Follow Maia on Instagram https://www.instagram.com/maia_moomies/",
+            "date_modified": "2023-10-06T00:00:00.000Z",
+            "author": {
+                "name": "Waiheke Radio",
+                "url": "https://www.waihekeradio.org.nz"
+            },
+            "tags": [
+                "Community Radio Podcast"
+            ]
+        },
+        {
+            "id": "https://www.waihekeradio.org.nz/podcast/the-great-big-rescued-food-cook-off-2023",
+            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3",
+            "title": "The Great Big Rescued Food Cook Off 2023",
+            "summary": "Koro talks to to Laura lynch and kayleigh Appleton from the Waiheke Resources Trust about The Great Big Rescued Food Cokk Off being held on 18 Oct 2023\nPhoto credit: Waiheke Gulf News",
+            "date_modified": "2023-10-06T00:00:00.000Z",
+            "author": {
+                "name": "Waiheke Radio",
+                "url": "https://www.waihekeradio.org.nz"
+            },
+            "tags": [
+                "Community Radio Podcast"
+            ]
+        },
+        {
             "id": "https://www.waihekeradio.org.nz/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate",
             "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3",
             "title": "The Great Waiheke Radio Auckland Central Electorate Candidates Debate",
@@ -394,34 +422,6 @@
             "title": "The Anything Arty Show Dec 8 2011",
             "summary": "This week we had conversations with James Clairmont from Waiheke Island Cheese Company on the art of cheesmaking and Elmore Leonard on writing and why he gave up scriptwriting",
             "date_modified": "2011-12-08T00:00:00.000Z",
-            "author": {
-                "name": "Waiheke Radio",
-                "url": "https://www.waihekeradio.org.nz"
-            },
-            "tags": [
-                "Community Radio Podcast"
-            ]
-        },
-        {
-            "id": "https://www.waihekeradio.org.nz/podcast/the-anything-arty-show-november-24th-2011",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_24.mp3",
-            "title": "The Anything Arty Show November 24th 2011",
-            "summary": "This week we heard from Dr. Naif Al-Mutawa talking about his creation The 99 a new breed of comic book heroes.\nWe also heard from Phillipe Starck about his approach to design and Bill Cunniingham on Heels v Flats in Paris and New York",
-            "date_modified": "2011-11-24T00:00:00.000Z",
-            "author": {
-                "name": "Waiheke Radio",
-                "url": "https://www.waihekeradio.org.nz"
-            },
-            "tags": [
-                "Community Radio Podcast"
-            ]
-        },
-        {
-            "id": "https://www.waihekeradio.org.nz/podcast/the-anything-arty-show-november-17th-2011",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_23.mp3",
-            "title": "The Anything Arty Show November 17th 2011",
-            "summary": "Another chance to listen to This weeks show with a conversation with Jenny Nicholls of the fabulous new ‘shop’ in Blackpool called Wonderfool. We also had a musical segment of unusual instruments with, amongst other things, a carrot clarinet! We also had a comment from NY street fashion master Bill Cunningham and the final installment of ‘I’m Here I Think Where are You?’ a glimpse into the life of a travelling actor through the letters of Timothy West to to his wife Prunella Scales",
-            "date_modified": "2011-11-17T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
                 "url": "https://www.waihekeradio.org.nz"

@@ -4,6 +4,23 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import absoluteUrl from "next-absolute-url";
 import Link from "next/link";
+import {
+  FacebookShareButton,
+  FacebookIcon,
+} from 'next-share'
+import {
+  TelegramShareButton,
+  TelegramIcon,
+} from 'next-share'
+import {
+  TwitterShareButton,
+  TwitterIcon,
+} from 'next-share'
+import {
+  EmailShareButton,
+  EmailIcon,
+} from 'next-share'
+ 
 
 function Message(props: any) {
   const limit = props.limit;
@@ -28,6 +45,47 @@ function Message(props: any) {
       }
     }
   `;
+
+function Share(props:any) { return (
+
+<div className={"latest-podcasts-social-share-"+props.class} >
+
+<FacebookShareButton
+  url={'https://waihekeradio.org.nz'+props.href}
+  quote={props.title}
+  hashtag={'#waihekeradio'}
+ 
+> 
+  <FacebookIcon size={props.size} round />
+</FacebookShareButton>
+<TwitterShareButton
+  url={'https://waihekeradio.org.nz'+props.href}
+  title={props.title}
+>
+  <TwitterIcon size={props.size} round />
+</TwitterShareButton>
+<TelegramShareButton
+  url={'https://waihekeradio.org.nz'+props.href}
+  title={props.title}
+>
+  <TelegramIcon size={props.size} round />
+</TelegramShareButton>
+
+<EmailShareButton
+ url={'https://waihekeradio.org.nz'+props.href}
+  subject={props.title} 
+  body={props.intro + '\n\n'}
+>
+  <EmailIcon size={props.size} round />
+</EmailShareButton>
+</div>
+
+
+
+)}
+
+
+
 
   const { data, loading, error } = useQuery(MESSAGE, { variables: { limit } });
   if (loading) {
@@ -84,13 +142,16 @@ function Message(props: any) {
             </a>{" "}
           </div>
 
+<Share class="featured"  href={"/podcast/" + props.featuredPodcastSlug} intro={props.featuredPodcastDescription} title={props.featuredPodcastTitle} size="32" />
+
+
           <br />
 
           <div className="featured-podcast-title">
             {" "}
             <a
               href={"../podcast/" + props.featuredPodcastSlug}
-              title={"FInd out more about " + props.featuredPodcastTitle}
+              title={"Find out more about " + props.featuredPodcastTitle}
               className="featured-podcast-title"
             >
               {" "}
@@ -136,7 +197,7 @@ function Message(props: any) {
 
       
         </div>
-
+        <Share class="secondary"  href={"/podcast/" + item.slug}  title={item.title} size="20" intro={item.description}/>
         <br />
 
         <div className="featured-podcast-title-4">
@@ -167,16 +228,7 @@ function Message(props: any) {
     const listOfItems = culledList.map((podcast, idx) => {
       return (
         <div className="row featured-right-row" key={idx}>
-          <div className="featured-right-show">From: <a href={"../shows/" +podcast.show.slug} title={"Find out more about "+podcast.show.title} > {podcast.show.title}</a>
-          
-          
-          <div className="featured-right-date">
-            <Date date={podcast.date} />
-          </div>
-          
-          
-          
-          </div>
+        
 
           <div className="featured-right-title"><a href={"../podcast/" +podcast.slug} title={"Find out more about "+podcast.title} >{podcast.title}</a></div>
 
@@ -192,6 +244,20 @@ function Message(props: any) {
             <code>audio</code> element.
           </audio>
           </div>
+
+
+          <div className="featured-right-show">From: <a href={"../shows/" +podcast.show.slug} title={"Find out more about "+podcast.show.title} > {podcast.show.title}</a>
+          
+          
+          <div className="featured-right-date">
+          <Share class="featured-right" href={"/podcast/" +podcast.slug} title={podcast.title} size="18" intro={podcast.description}/>
+          </div>
+          
+          
+          
+          </div>
+
+
         
         </div>
       );
