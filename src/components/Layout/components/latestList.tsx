@@ -197,7 +197,7 @@ function Share(props:any) { return (
 
       
         </div>
-        <Share class="secondary"  href={"/podcast/" + item.slug}  title={item.title} size="20" intro={item.description}/>
+        <Share class="secondary"  href={"/podcast/" + item.slug}  title={item.title} size="22" intro={item.description}/>
         <br />
 
         <div className="featured-podcast-title-4">
@@ -347,7 +347,9 @@ function Share(props:any) { return (
               >
                 <strong>{podcast.title}</strong>
               </a>
+
             </div>
+
 
             <div className=" amazon-podcast-card-description-latest-list">
               {podcast.description}
@@ -357,6 +359,12 @@ function Share(props:any) { return (
               {" "}
               <Link href={"podcast/" + podcast.slug}>Read more</Link>
             </strong>
+
+              
+            <Share class="featured-bottom" href={"/podcast/" +podcast.slug} title={podcast.title} size="32" intro={podcast.description}/>
+         
+
+
           </div>
           <div className="col-lg-3 col-xs-12 ">
             {" "}

@@ -8663,6 +8663,12 @@ audio.featured-podcast-4 {
   margin: 2px;
 }
 
+.latest-podcasts-social-share-featured-bottom {
+  margin-top: 10px;
+}
 
+.latest-podcasts-social-share-featured-bottom * {
+margin:3px;
+}
 
  
