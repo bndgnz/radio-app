@@ -33,6 +33,7 @@ const PodcastPage: NextPage<Props> = ({
       type="amazonPodcast"
       url={amazonUrl}
       show={show}
+      slug={slug}
     ></Layout>
   </>
 );

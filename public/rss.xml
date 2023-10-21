@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
 <atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
         <title>Waiheke Radio Podcasts | RSS Feed</title>
         <link>https://www.waihekeradio.org.nz</link>
         <description>Welcome to Waiheke Radio Podcasts Feed!</description>
-        <lastBuildDate>Tue, 03 Oct 2023 01:42:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Oct 2023 01:13:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,6 +14,25 @@
             <link>https://www.waihekeradio.org.nz</link>
         </image>
         <copyright>All rights reserved 2023, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[Maia Piata Rose Week on the Maramataka]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/maia-piata-rose-week-on-the-maramataka</guid>
+            <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Koro talks to Maia Piata Rose Week about the Maramataka. Follow Maia on Instagram https://www.instagram.com/maia_moomies/]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[The Great Big Rescued Food Cook Off 2023]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/the-great-big-rescued-food-cook-off-2023</guid>
+            <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Koro talks to to Laura lynch and kayleigh Appleton from the Waiheke Resources Trust about The Great Big Rescued Food Cokk Off being held on 18 Oct 2023
+Photo credit: Waiheke Gulf News]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
         <item>
             <title><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate]]></title>
             <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3</link>
@@ -268,25 +287,6 @@ Reading from author Rebecca Solnit on her essays The Distance Of Blue from A Fie
             <guid>https://www.waihekeradio.org.nz/podcast/the-anything-arty-show-dec-8-2011</guid>
             <pubDate>Thu, 08 Dec 2011 00:00:00 GMT</pubDate>
             <description><![CDATA[This week we had conversations with James Clairmont from Waiheke Island Cheese Company on the art of cheesmaking and Elmore Leonard on writing and why he gave up scriptwriting]]></description>
-            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
-            <category>Community Radio Podcast</category>
-        </item>
-        <item>
-            <title><![CDATA[The Anything Arty Show November 24th 2011]]></title>
-            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_24.mp3</link>
-            <guid>https://www.waihekeradio.org.nz/podcast/the-anything-arty-show-november-24th-2011</guid>
-            <pubDate>Thu, 24 Nov 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[This week we heard from Dr. Naif Al-Mutawa talking about his creation The 99 a new breed of comic book heroes.
-We also heard from Phillipe Starck about his approach to design and Bill Cunniingham on Heels v Flats in Paris and New York]]></description>
-            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
-            <category>Community Radio Podcast</category>
-        </item>
-        <item>
-            <title><![CDATA[The Anything Arty Show November 17th 2011]]></title>
-            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_23.mp3</link>
-            <guid>https://www.waihekeradio.org.nz/podcast/the-anything-arty-show-november-17th-2011</guid>
-            <pubDate>Thu, 17 Nov 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[Another chance to listen to This weeks show with a conversation with Jenny Nicholls of the fabulous new ‘shop’ in Blackpool called Wonderfool. We also had a musical segment of unusual instruments with, amongst other things, a carrot clarinet! We also had a comment from NY street fashion master Bill Cunningham and the final installment of ‘I’m Here I Think Where are You?’ a glimpse into the life of a travelling actor through the letters of Timothy West to to his wife Prunella Scales]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
         </item>
