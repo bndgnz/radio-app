@@ -26,9 +26,7 @@ function Message(props: any) {
           }
         }
         linkUrl
-        image {
-          url
-        }
+        cimage  
         iconClass
       }
     }
@@ -41,6 +39,7 @@ function Message(props: any) {
   if (error) {
     return <div></div>;
   }
+ 
  
   function MessageType() {
     const type = data.message.messageType;
