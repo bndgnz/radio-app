@@ -7,16 +7,7 @@ function LatestPodcasts(props: any) {
   const GETCOMPONENT = gql`
     query GetPodcast($id: String!) {
       latestPodcasts(id: $id) {
-topStory{
-...Video
-...Navlink
-
-}
-
-
-
-
- 
+   
         title
         showTitle
         numberToShow
@@ -39,18 +30,7 @@ topStory{
         }
       }
     }
-    fragment Navlink on NavigationLink {
-      sys{id}
-      linkText
-
-    
-      
-    }
-    
-     fragment Video on Video {
-     sys{id}
-      
-    }
+     
     
   `;
 
