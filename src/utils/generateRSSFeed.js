@@ -53,7 +53,7 @@ export default async function generateRssFeed() {
       title: post.fields.title.replaceAll("&", " and "),
       id: `${site_url}/podcast/${post.fields.slug}`,
       link: `${site_url}/podcast/${post.fields.slug}`,
-      enclosure: post.fields.amazonUrl,
+      enclosure: post.fields.amazonUrl+"ddddddddddddddddddddddddddddddddddddddd",
       description: post.fields.description.replaceAll("&", " and "),
       date: new Date(post.fields.date),
       author: [author],
