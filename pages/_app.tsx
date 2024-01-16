@@ -21,6 +21,7 @@ import {
 } from "@apollo/client";
 
 const dataEnvironment = process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT;
+ 
 
 function MyApp({ Component, pageProps, data }) {
   const client = new ApolloClient({

@@ -7,10 +7,21 @@ function LatestPodcasts(props: any) {
   const GETCOMPONENT = gql`
     query GetPodcast($id: String!) {
       latestPodcasts(id: $id) {
+topStory{
+...Video
+...Navlink
+
+}
+
+
+
+
+ 
         title
         showTitle
         numberToShow
         showFeatured
+ 
         featuredPodcast {
           title
           description
@@ -28,6 +39,19 @@ function LatestPodcasts(props: any) {
         }
       }
     }
+    fragment Navlink on NavigationLink {
+      sys{id}
+      linkText
+
+    
+      
+    }
+    
+     fragment Video on Video {
+     sys{id}
+      
+    }
+    
   `;
 
   const { data, loading, error } = useQuery(GETCOMPONENT, {
@@ -47,6 +71,7 @@ function LatestPodcasts(props: any) {
     filter = "";
   }
 
+console.log(data)
    
  if (data.latestPodcasts.showFeatured == true && data.latestPodcasts.featuredPodcast!==null ) { 
 
