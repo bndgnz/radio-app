@@ -4,7 +4,7 @@
         <title>Waiheke Radio Podcasts | RSS Feed</title>
         <link>https://www.waihekeradio.org.nz</link>
         <description>Welcome to Waiheke Radio Podcasts Feed!</description>
-        <lastBuildDate>Tue, 16 Jan 2024 07:25:02 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jan 2024 07:37:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -34,6 +34,7 @@ Lucy was handpicked by an international panel to attend Ghandi 3.0 in India in J
 Lucy is the author of 'This Untameable Light' released in November 2023 to critical acclaim from some of the most well-known spiritual teachers around the world.]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Lucy-Grace-Wai-Talks-Dec-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[WaiTalks 2023: Jade Gray]]></title>
@@ -53,6 +54,7 @@ He has served as a New Zealand Trade and Enterprise (NZTE) Beachheads advisor, i
 ]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Jade-Gray-Wai-Talks-Dec-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[WaiTalks2023: Mark Lapwood]]></title>
@@ -73,6 +75,7 @@ Industry giants such as Netflix, National Geographic, Discovery, BBC, UK Channel
 Mark is based in Auckland, New Zealand and works worldwide. ]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Mark-Lapwood-Wai-Talks-Dec-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[WaiTalks 2023: Michelle Hooper]]></title>
@@ -92,6 +95,7 @@ Living on Waiheke Island with her husband and three children is Michelle’s dre
 ]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Michelle-Hooper-Wai-Talks-Dec-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[The Boy Who Ate Bugs]]></title>
@@ -101,6 +105,7 @@ Living on Waiheke Island with her husband and three children is Michelle’s dre
             <description><![CDATA[The Boy Who Ate Bugs was written and narrated by Waiheke writer Avi Duckor-Jones and was recorded and produced by Brent Simpson. ]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/theatre/The%20Boy%20Who%20Ate%20Bugs%20-%20final.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Can You Dig It?! Episode 1: 11 Jan 2024]]></title>
@@ -110,6 +115,7 @@ Living on Waiheke Island with her husband and three children is Michelle’s dre
             <description><![CDATA[Chris Walker talks with Eddie Welsh, who sells vege seedlings each Saturday at Ostand market, about what to plant in your home garden. ]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-11-01-2024-Eddie-Starter-Plants.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Interview with Susi Newborn Sept 2023]]></title>
@@ -119,6 +125,7 @@ Living on Waiheke Island with her husband and three children is Michelle’s dre
             <description><![CDATA[Interview with Susi Newborn from 22nd of September 2023 where she talks about being a protector, family, the history behind the rainbow warrior. It was such a honour to have Susi in Studio for this interview, she will be fondly remembered and missed by everyone whose life she touched.]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/koro-susi-newborn-interview-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Susi Newborn: Housing]]></title>
@@ -130,6 +137,7 @@ Here she speaks with Greg Treadwell in 2017 about island housing
 Photo credit: Diana Worth/STUFF]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Susi Newborn: The Environment]]></title>
@@ -141,6 +149,7 @@ Here she speaks at a 2015 Waitalks event about one of her great passions - the e
 Photo credit: ABIGAIL DOUGHERTY/STUFF]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Mana Mixtape interview with Teyo]]></title>
@@ -150,6 +159,7 @@ Photo credit: ABIGAIL DOUGHERTY/STUFF]]></description>
             <description><![CDATA[Koro talks to Italian rapper Teyo]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/231208_TeyoRap.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Te Korowai o Waiheke rat trial update]]></title>
@@ -159,6 +169,7 @@ Photo credit: ABIGAIL DOUGHERTY/STUFF]]></description>
             <description><![CDATA[Greg Treadwell talks to Owain Tanner from Te Korowai o Waiheke to get an update on the Oneroa rat eradication trial]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-01-12-2023-rat-trial-owain-tanner.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[The Wayup Interview: Bob Hewitt]]></title>
@@ -168,6 +179,7 @@ Photo credit: ABIGAIL DOUGHERTY/STUFF]]></description>
             <description><![CDATA[Wayan and Jahn talk to New Yorker Bob Hewitt who has recently moved to Waiheke. They talk about the two books he's written about AI, his love of board games and the after school programme he set up in Brooklyn. They also talk about his plans for life on Waiheke Island.]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Bob-Hewitt-Wayup-Interview-21-11-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Councillor Mike Lee]]></title>
@@ -178,6 +190,7 @@ Photo credit: ABIGAIL DOUGHERTY/STUFF]]></description>
 Photo credit: NZ Herald]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-mike-lee.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Crop Swap]]></title>
@@ -187,6 +200,7 @@ Photo credit: NZ Herald]]></description>
             <description><![CDATA[Chris Walker talks to Hadas Ore about Waiheke Crop Swap. Home gardeners come together to swap their excess produce and share gardening tips. ]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-hadas-ore-crop-swap.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Caulerpa Rahui]]></title>
@@ -196,6 +210,7 @@ Photo credit: NZ Herald]]></description>
             <description><![CDATA[Chris Walker talks to Blair Anderson, Pou Rahui Project Manager for Ngāti Pāoa, about the rahui placed by the iwi to prevent the spread of the invasive Caulerpa seaweed.]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-blair-anderson-caulerpa-rahui.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Darleen Tana Elected To Parliament]]></title>
@@ -205,6 +220,7 @@ Photo credit: NZ Herald]]></description>
             <description><![CDATA[Chris Walker talks to Darleen Tana whio has just been elected to parliament as a Green list MP]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-21-10-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Librarian Fiona Kralicek Resigning]]></title>
@@ -214,6 +230,7 @@ Photo credit: NZ Herald]]></description>
             <description><![CDATA[Chris Walker talks to Fiona Kralicek who has been the head librarian at Waiheke Community Library for 28 years.]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-fiona-kralicek-library-20-10-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Emily King: The Wayup Interview]]></title>
@@ -225,6 +242,7 @@ Read more about Emily https://www.spira.nz/about
 ]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-Show-Emily-King-podcast-18-10-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Maia Piata Rose Week on the Maramataka]]></title>
@@ -234,6 +252,7 @@ Read more about Emily https://www.spira.nz/about
             <description><![CDATA[Koro talks to Maia Piata Rose Week about the Maramataka. Follow Maia on Instagram https://www.instagram.com/maia_moomies/]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[The Great Big Rescued Food Cook Off 2023]]></title>
@@ -244,6 +263,7 @@ Read more about Emily https://www.spira.nz/about
 Photo credit: Waiheke Gulf News]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate]]></title>
@@ -253,6 +273,7 @@ Photo credit: Waiheke Gulf News]]></description>
             <description><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate. Held at Artworks Theatre on Thurs 28 September, 2023. The candidates were Mahesh Muralidhar (National), Oscar Sims (Labour) and Chloe Swarbrick (Green). Facilitated by Chris Walker.]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Sir Peter Leitch - The Wayup Interview]]></title>
@@ -263,6 +284,7 @@ Photo credit: Waiheke Gulf News]]></description>
 Photo credit: Stuff]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-show-Mad-Butcher-interview%2021-09-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Darleen Tana (Green) Candidate Interview]]></title>
@@ -272,6 +294,7 @@ Photo credit: Stuff]]></description>
             <description><![CDATA[Chris Walker talks to Darleen Tana, Green candidate for The Tamaki Makaurau Māori electorate]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-23-09-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Hinurewa Te Hau (National) Candidate Interview]]></title>
@@ -281,6 +304,7 @@ Photo credit: Stuff]]></description>
             <description><![CDATA[Chris Walker talks to Hinurewa Te Hau, National Party candidate for the Tamaki Makaurau Māori electorate]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-hinurewa-te-hau-23-09-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Frank Lepera · Stoat Operations Manager Te Korowai o Waiheke]]></title>
@@ -290,6 +314,7 @@ Photo credit: Stuff]]></description>
             <description><![CDATA[Greg Treadwell talks to Frank Lepera · Stoat Operations Manager at Te Korowai o Waiheke and gets an update on the progress in the project to eradicate stoats from the island.]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-te-korowai-o-waiheke-29-09-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Waiheke Radio Election Coverage]]></title>
@@ -299,6 +324,7 @@ Photo credit: Stuff]]></description>
             <description><![CDATA[Greg Treadwell talks to Chris Walker about Waiheke Radio's 2023 general election coverage]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-election-coverage-23-09-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Damian Sycamore (TOP) candidate interview]]></title>
@@ -308,6 +334,7 @@ Photo credit: Stuff]]></description>
             <description><![CDATA[Damian Sycamore is a Waiheke Islander. He is standing for The Opportunities Party (TOP) in the Auckland Central electorate. He spoke to Chris Walker about how TOP policies would address local Waiheke issues.]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-damian-sycamore-21-09-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Oscar Sims Candidate Interview]]></title>
@@ -317,6 +344,7 @@ Photo credit: Stuff]]></description>
             <description><![CDATA[Chris Walker talks to Oscar Sims, Labour candidate for Auckland Central]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-oscar-sims-16-09-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Mahesh Muralidhar Candidate Interview]]></title>
@@ -326,6 +354,7 @@ Photo credit: Stuff]]></description>
             <description><![CDATA[Chris Walker talks to Mahesh Muralidhar, National candidate for Auckland Central]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-mahesh-muralidhar-16-09-2023.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Peeni Henare Candidate Interview]]></title>
@@ -335,6 +364,7 @@ Photo credit: Stuff]]></description>
             <description><![CDATA[Brent Simpson talks to Peeni Henare, Labour candidate for the Tamaki Makaurau electorate]]></description>
             <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
             <category>Community Radio Podcast</category>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-peeni-henare-16-09-2023.mp3" length="0" type="image/mp3"/>
         </item>
     </channel>
 </rss>
