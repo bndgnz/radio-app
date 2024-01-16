@@ -53,6 +53,7 @@ export default async function generateRssFeed() {
       title: post.fields.title.replaceAll("&", " and "),
       id: `${site_url}/podcast/${post.fields.slug}`,
       link: post.fields.amazonUrl,
+      enclosure: post.fields.amazonUrl,
       description: post.fields.description.replaceAll("&", " and "),
       date: new Date(post.fields.date),
       author: [author],
@@ -60,24 +61,12 @@ export default async function generateRssFeed() {
        
     });
   });
-  fs.writeFileSync("./public/rss1.xml", feed.rss2());
+ 
   fs.writeFileSync('./public/atom.xml', feed.atom1());
 fs.writeFileSync('./public/feed.json', feed.json1());
 
 
-fs.readFile('./public/rss1.xml', 'utf-8', function (err, contents) {
-  if (err) {
-    console.log(err);
-    return;
-  }
-
-  const replaced = contents.replace('rss', 'rss xmlns:atom="http://www.w3.org/2005/Atom"');
-
-  fs.writeFile('./public/rss2.xml', replaced, 'utf-8', function (err) {
-    console.log(err);
-  });
-});
-
+ 
 
 fs.readFile('./public/rss2.xml', 'utf-8', function (err, contents) {
   if (err) {
