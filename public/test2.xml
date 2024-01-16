@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+    
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+        <title>Waiheke Radio Podcasts | RSS Feed</title>
+        <link>https://www.waihekeradio.org.nz</link>
+        <description>Welcome to Waiheke Radio Podcasts Feed!</description>
+        <lastBuildDate>Wed, 18 Oct 2023 01:13:44 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Waiheke Radio Podcasts | RSS Feed</title>
+            <url>https://www.waihekeradio.org.nz/logo.png</url>
+            <link>https://www.waihekeradio.org.nz</link>
+        </image>
+        <copyright>All rights reserved 2023, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[Maia Piata Rose Week on the Maramataka]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/maia-piata-rose-week-on-the-maramataka</guid>
+            <pubDate>Fri, 06 Oct 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Koro talks to Maia Piata Rose Week about the Maramataka. Follow Maia on Instagram https://www.instagram.com/maia_moomies/]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[The Great Big Rescued Food Cook Off 2023]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/the-great-big-rescued-food-cook-off-2023</guid>
+            <pubDate>Fri, 06 Oct 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Koro talks to to Laura lynch and kayleigh Appleton from the Waiheke Resources Trust about The Great Big Rescued Food Cokk Off being held on 18 Oct 2023
+Photo credit: Waiheke Gulf News]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</guid>
+            <pubDate>Thu, 28 Sep 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate. Held at Artworks Theatre on Thurs 28 September, 2023. The candidates were Mahesh Muralidhar (National), Oscar Sims (Labour) and Chloe Swarbrick (Green). Facilitated by Chris Walker.]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Sir Peter Leitch - The Wayup Interview]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-show-Mad-Butcher-interview%2021-09-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/sir-peter-leitch-the-wayup-interview</guid>
+            <pubDate>Thu, 21 Sep 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Wayan and Jahn from Waiheke Radio's Wayup Show talk to the Mad Butcher, Sir Peter Leitch. 
+Photo credit: Stuff]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Darleen Tana (Green) Candidate Interview]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-23-09-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/darleen-tana-green-candidate-interview</guid>
+            <pubDate>Sat, 23 Sep 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Darleen Tana, Green candidate for The Tamaki Makaurau Māori electorate]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Hinurewa Te Hau (National) Candidate Interview]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-hinurewa-te-hau-23-09-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/hinurewa-te-hau-national-candidate-interview</guid>
+            <pubDate>Sat, 23 Sep 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Hinurewa Te Hau, National Party candidate for the Tamaki Makaurau Māori electorate]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Frank Lepera · Stoat Operations Manager Te Korowai o Waiheke]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-te-korowai-o-waiheke-29-09-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</guid>
+            <pubDate>Sat, 23 Sep 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Greg Treadwell talks to Frank Lepera · Stoat Operations Manager at Te Korowai o Waiheke and gets an update on the progress in the project to eradicate stoats from the island.]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Waiheke Radio Election Coverage]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-election-coverage-23-09-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/waiheke-radio-election-coverage</guid>
+            <pubDate>Sat, 23 Sep 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Greg Treadwell talks to Chris Walker about Waiheke Radio's 2023 general election coverage]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Damian Sycamore (TOP) candidate interview]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-damian-sycamore-21-09-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/damian-sycamore-top-candidate-interview</guid>
+            <pubDate>Thu, 21 Sep 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Damian Sycamore is a Waiheke Islander. He is standing for The Opportunities Party (TOP) in the Auckland Central electorate. He spoke to Chris Walker about how TOP policies would address local Waiheke issues.]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Oscar Sims Candidate Interview]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-oscar-sims-16-09-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/oscar-sims-candidate-interview</guid>
+            <pubDate>Sat, 16 Sep 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Oscar Sims, Labour candidate for Auckland Central]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Mahesh Muralidhar Candidate Interview]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-mahesh-muralidhar-16-09-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/mahesh-muralidhar-candidate-interview</guid>
+            <pubDate>Sat, 16 Sep 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Mahesh Muralidhar, National candidate for Auckland Central]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Peeni Henare Candidate Interview]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-peeni-henare-16-09-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/peeni-henare-candidate-interview</guid>
+            <pubDate>Sat, 16 Sep 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Brent Simpson talks to Peeni Henare, Labour candidate for the Tamaki Makaurau electorate]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Chris Orange, Johnny Fleury  and  Steve Ingram Live at Waiheke Radio, May 2023]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/chris-orange-johnny-fleury-steve-ingram-waiheke-library-27-may-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</guid>
+            <pubDate>Thu, 07 Sep 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Chris Orange (bass), Johnny Fleury (chapman stick) and Steve Ingram (drums) perform live at Waiheke Library on Sat 27 May 2023 to mark NZ Music Month.
+Tracks performed: In the Dark; Origin; Toro; Crazy; Big Tide This Time; Politics Of Certainty
+]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Chloe Swarbrick Candidate Interview]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Electorate-2023/island-life-04-09-2023-chloe-swarbrick.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/chloe-swarbrick-candidate-interview</guid>
+            <pubDate>Mon, 04 Sep 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Chloe Swarbrick of the Green Party who is standing for re-election as the Auckland Central electorate MP.]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[The Planters Live On Air ]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/The%20Planters-Biodiversity-and-Jamming-out-Live-on-air-25-08-2023.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/the-planters-live-on-air</guid>
+            <pubDate>Fri, 25 Aug 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[The Planters, Live on Waiheke Radio 25/08/2023]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Darleen Tana Interview]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/Darleen-Tana-interview-Mana-Mixtape.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/darleen-tana-interview</guid>
+            <pubDate>Fri, 14 Jul 2023 01:03:22 GMT</pubDate>
+            <description><![CDATA[Koro Sciascia talks to Darleen Tana]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show June 30th 2011]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_4.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/the-anything-arty-show-june-30th-2011</guid>
+            <pubDate>Thu, 30 Jun 2011 01:03:22 GMT</pubDate>
+            <description><![CDATA[This week we had; a story from Waiheke Adult Literacy 2010 Programme Words, a conversation with Susi Newborn on her role in the Women in Film and TV NZ Organization, the release of the Chinese artist Ai WeiWei, an episode from the stories of Barry Pilton, the ever popular cinema competition, and ep 5 of our Great Gatsby serialisation]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[The Inspector]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/inspector.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/the-inspector</guid>
+            <pubDate>Fri, 08 Jul 2005 01:03:22 GMT</pubDate>
+            <description><![CDATA[The inspectors lines replaced with a beep]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Sybill]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/sybill.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/sybill</guid>
+            <pubDate>Wed, 04 Jul 2007 01:03:22 GMT</pubDate>
+            <description><![CDATA[Sybill's lines replaced by a beep]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Sheila]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/sheila.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/sheila</guid>
+            <pubDate>Sun, 05 Jul 2015 01:03:22 GMT</pubDate>
+            <description><![CDATA[Sheila's line replaced with a beep]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Gerald]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/gerald.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/gerald</guid>
+            <pubDate>Fri, 07 Jul 2006 01:03:22 GMT</pubDate>
+            <description><![CDATA[Geralds lines replaced with a beep]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Eric]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/eric.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/eric</guid>
+            <pubDate>Thu, 11 Jul 2013 01:03:22 GMT</pubDate>
+            <description><![CDATA[The play read aloud with Eric's parts removed and signalled with a beep.]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty - Interview with Artrist Goldsmith Part 1]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/e-artist-goldsmith-part-1.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</guid>
+            <pubDate>Thu, 22 Sep 2011 01:03:22 GMT</pubDate>
+            <description><![CDATA[An opportunity to listen to a conversation with Christine Hafermalz Wheeler, her husband David and Bernie Lee owner of Waiheke based builders Island 2000  talking about the building of David  and  Christine’s home, Citrine]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty - The Artists Goldsmith Interview]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/artist-goldsmith-part-2.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/anything-arty-the-artists-goldsmith-interview</guid>
+            <pubDate>Thu, 29 Sep 2011 01:03:22 GMT</pubDate>
+            <description><![CDATA[Part 2 of an interview with Christine Hafermalz Wheeler, the Artist Goldsmith, sponsor of Waiheke Radio's The Anything Arty Show]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[THE ANYTHING ARTY SHOW FEB 9TH]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_30.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/the-anything-arty-show-feb-9th</guid>
+            <pubDate>Thu, 09 Feb 2012 01:03:22 GMT</pubDate>
+            <description><![CDATA[This weeks arty show introduces new host Eve Bon and we looked at guns as a means of peace, the art of pasta, what’s on round the galleries and the Kermit challenge!]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[THE ANYTHING ARTY SHOW JAN 12 2012]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_29.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/the-anything-arty-show-jan-12-2012</guid>
+            <pubDate>Thu, 12 Jan 2012 01:03:22 GMT</pubDate>
+            <description><![CDATA[This week a conversation with Chilean artist Margarita Degorret, a chance to hear from BMW design chief Chris Bangle on cars as art and a run through of the latest movies to play at Waiheke Community Cinema]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty Show Jan 5 2012]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_28.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/anything-arty-show-jan-5-2012</guid>
+            <pubDate>Thu, 05 Jan 2012 01:03:22 GMT</pubDate>
+            <description><![CDATA[This week: Comment on Fiona Pardington’s New Zealand Arts Foundation Laureate Award,
+Incubator interview with island artist Brett Oakes,
+Reading from author Rebecca Solnit on her essays The Distance Of Blue from A Field Guide To Getting Lost]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[THE ANYTHING ARTY SHOW DEC 15 2011]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_27.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/the-anything-arty-show-dec-15-2011</guid>
+            <pubDate>Thu, 15 Dec 2011 01:03:22 GMT</pubDate>
+            <description><![CDATA[This week we heard from Isabel Allende sharing her view of passion and Kara Gordon playing his 35000 year old lancaster guitar]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show John Hawkesby]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_26.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/the-anything-arty-show-john-hawkesby</guid>
+            <pubDate>Thu, 01 Dec 2011 01:03:22 GMT</pubDate>
+            <description><![CDATA[John Hawkesby interview]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show Dec 8 2011]]></title>
+            <link>https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_25.mp3</link>
+            <guid>https://www.waihekeradio.org.nz/podcast/the-anything-arty-show-dec-8-2011</guid>
+            <pubDate>Thu, 08 Dec 2011 01:03:22 GMT</pubDate>
+            <description><![CDATA[This week we had conversations with James Clairmont from Waiheke Island Cheese Company on the art of cheesmaking and Elmore Leonard on writing and why he gave up scriptwriting]]></description>
+            <author>info@waihekeradio.org.nz (Waiheke Radio)</author>
+            <category>Community Radio Podcast</category>
+        </item>
+    </channel>
+</rss>
