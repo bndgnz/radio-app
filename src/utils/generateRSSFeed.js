@@ -75,11 +75,11 @@ fs.readFile('./public/rss.xml', 'utf-8', function (err, contents) {
   }
 
   const replaced = contents.replace('\<channel\>', '\<channel\>\n\<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />');
+const tweaked = replaced.replace (' length="0" type="image/mp3"', ' length="12345" type="audio/mpeg"')
+ 
 
-console.log (replaced) 
 
-
-  fs.writeFileSync('./public/rss-test.xml', replaced, 'utf-8', function (err) {
+  fs.writeFileSync('./public/rss.xml', tweaked, 'utf-8', function (err) {
     console.log(err);
   });
 });
