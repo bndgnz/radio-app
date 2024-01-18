@@ -44,7 +44,7 @@ export default async function generateRssFeed() {
     limit: 30,
     order: '-sys.createdAt',
   });
-
+ 
   const feed = new Feed(feedOptions);
 
   posts.items.forEach((post) => {
@@ -68,7 +68,7 @@ fs.writeFileSync('./public/feed.json', feed.json1());
 
  
 
-fs.readFile('./public/rss2.xml', 'utf-8', function (err, contents) {
+fs.readFile('./public/rss.xml', 'utf-8', function (err, contents) {
   if (err) {
     console.log(err);
     return;
@@ -76,7 +76,10 @@ fs.readFile('./public/rss2.xml', 'utf-8', function (err, contents) {
 
   const replaced = contents.replace('\<channel\>', '\<channel\>\n\<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />');
 
-  fs.writeFileSync('./public/rss.xml', replaced, 'utf-8', function (err) {
+console.log (replaced) 
+
+
+  fs.writeFileSync('./public/rss-test.xml', replaced, 'utf-8', function (err) {
     console.log(err);
   });
 });

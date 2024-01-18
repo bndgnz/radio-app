@@ -3,7 +3,7 @@
     "title": "Waiheke Radio Podcasts | RSS Feed",
     "home_page_url": "https://www.waihekeradio.org.nz",
     "feed_url": "https://www.waihekeradio.org.nz/feed.json",
-    "description": "Welcome to Waiheke Radio Podcasts Feed!",
+    "description": "Welcome to Waiheke Radio Podcasts",
     "icon": "https://www.waihekeradio.org.nz/logo.png",
     "author": {
         "name": "Waiheke Radio",
@@ -11,10 +11,66 @@
     },
     "items": [
         {
+            "id": "https://www.waihekeradio.org.nz/podcast/can-you-dig-it-episode-2-18-01-2024",
+            "url": "https://www.waihekeradio.org.nz/podcast/can-you-dig-it-episode-2-18-01-2024",
+            "title": "Can You Dig It?! - Episode 2: 18-01-2024",
+            "summary": "This episode's guest is Waiheke home garderner Holly Brown. She is growing incredible vegetable crops and flowers. Check out her Instagram account for beautiful photos of her garden and produce - [https://www.instagram.com/hollyamberbrown/](https://www.instagram.com/hollyamberbrown/)\n![HB1](//images.ctfassets.net/muwn01agnrp5/3giJPeyGmM888SAvcyYS4l/f8236218638d32991420589ef0805d85/HB1.jpg)![HB2](//images.ctfassets.net/muwn01agnrp5/69SIlAPxYecp0InPZUupp7/554acb8919ca0c5289e786d5680a9e07/HB2.jpg)",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1705525176/Radio%20Shows/Can%20You%20Dig%20It/HB3crop_xw9n1a.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 2975686,
+                    "width": 3202,
+                    "format": "jpg",
+                    "height": 1802,
+                    "version": 1705525176,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Radio Shows/Can You Dig It/HB3crop_xw9n1a",
+                    "created_at": "2024-01-17T20:59:36Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1705525176/Radio%20Shows/Can%20You%20Dig%20It/HB3crop_xw9n1a.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1705525176/Radio%20Shows/Can%20You%20Dig%20It/HB3crop_xw9n1a.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1705525176/Radio%20Shows/Can%20You%20Dig%20It/HB3crop_xw9n1a.jpg"
+                }
+            ],
+            "date_modified": "2024-01-18T00:00:00.000Z",
+            "author": {
+                "name": "Waiheke Radio",
+                "url": "https://www.waihekeradio.org.nz"
+            },
+            "tags": [
+                "Community Radio Podcast"
+            ]
+        },
+        {
             "id": "https://www.waihekeradio.org.nz/podcast/waitalks-2023-lucy-grace",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Lucy-Grace-Wai-Talks-Dec-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/waitalks-2023-lucy-grace",
             "title": "WaiTalks 2023: Lucy Grace",
             "summary": "Lucy Grace was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nature2classroom’s research, programmes and well being days for the children and teachers of our Motu.\nThe event was held at Morra Hall, Oneroa on 2nd Dec 2023. https://www.wai-talks.com/\n\nLucy's talk is preceded by her sharing a poem.\n\nLucy Grace is an internationally renowned Spiritual Teacher, Holistic Therapist and Poet. She has lived many lives – including as a television journalist for One News and a humanitarian aid worker based in Europe for 15 years working for the UN, Save the Children, Fairtrade and Oxfam. She worked in orphanages and disaster zones around the world helping to bring relief to peoples suffering before settling on Waiheke Island to have her daughter ten years ago.\n\nLucy now focuses on her work as a Spiritual Teacher, Holistic Therapist and Poet. She is internationally renowned and teaches hundreds of people from around the globe each week in community and group sessions, helping them to connect with their deepest heart, truth and joy.\n\nShe holds private sessions with people from around the world seven days a week – there is an 8 month wait-list for these sessions. She is set to run two retreats in the USA and one in Sweeden in 2024.\n\nLucy was handpicked by an international panel to attend Ghandi 3.0 in India in January 2024 – along with 40 other leaders from around the world in business and spirituality. The event has been honoured by folks ranging from the Dalai Lama to President Obama and brings together change-makers from around the globe to tackle personal, interpersonal and system disconnections of our times by seeding new patterns for a more compassionate society.  \n\nLucy is the author of 'This Untameable Light' released in November 2023 to critical acclaim from some of the most well-known spiritual teachers around the world.",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1705302054/WaiTalks/LucyGrace_sotpyd.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 10123,
+                    "width": 195,
+                    "format": "jpg",
+                    "height": 259,
+                    "version": 1705302054,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "WaiTalks/LucyGrace_sotpyd",
+                    "created_at": "2024-01-15T07:00:54Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1705302054/WaiTalks/LucyGrace_sotpyd.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1705302054/WaiTalks/LucyGrace_sotpyd.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1705302054/WaiTalks/LucyGrace_sotpyd.jpg"
+                }
+            ],
             "date_modified": "2024-01-15T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -26,9 +82,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/waitalks-2023-jade-gray",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Jade-Gray-Wai-Talks-Dec-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/waitalks-2023-jade-gray",
             "title": "WaiTalks 2023: Jade Gray",
             "summary": "Jade Gray was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nature2classroom’s research, programmes and well being days for the children and teachers of our Motu.\nThe event was held at Morra Hall, Oneroa on 2nd Dec 2023. https://www.wai-talks.com/\n\nJade Gray left New Zealand for China in 1996 with a smattering of Mandarin and a dream to make it in the worlds fastest growing economy. In a corporate career ranging from managing cattle breeding farms in the North East to supermarket retail in the South West, he gained unique insights into how to succeed and fail in China’s dynamic marketplace. \n\nIn 2000 he stepped out on his own and set off on an entrepreneurial journey that cumulated in the Restaurant Group Gung Ho! Ventures, owning several Award Winning Food  and  Beverage brands including the Gung Ho! Pizza and Pyro Pizza chains, later selling the group in 2019. He has since launched Off-Piste Provisions a food-technology company that develops and manufactures fortified plant-based meat products for nutritious eating on the go.\n\nHis professional passion lies in Social Entrepreneurship, speaking at numerous conferences on the issue, including at Tsinghua, Peking and Auckland Universities.\n\nHe has served as a New Zealand Trade and Enterprise (NZTE) Beachheads advisor, is a member of the KEA World Class New Zealand network and has a Bachelor of Commerce (Marketing/Chinese) from the University of Otago.\n",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1705302054/WaiTalks/JadeGray_eiivbc.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 46815,
+                    "width": 524,
+                    "format": "jpg",
+                    "height": 632,
+                    "version": 1705302054,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "WaiTalks/JadeGray_eiivbc",
+                    "created_at": "2024-01-15T07:00:54Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1705302054/WaiTalks/JadeGray_eiivbc.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1705302054/WaiTalks/JadeGray_eiivbc.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1705302054/WaiTalks/JadeGray_eiivbc.jpg"
+                }
+            ],
             "date_modified": "2024-01-15T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -40,9 +117,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/waitalks2023-mark-lapwood",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Mark-Lapwood-Wai-Talks-Dec-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/waitalks2023-mark-lapwood",
             "title": "WaiTalks2023: Mark Lapwood",
             "summary": "Mark Lapwood was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nature2classroom’s research, programmes and well being days for the children and teachers of our Motu.\nThe event was held at Morra Hall, Oneroa on 2nd Dec 2023. https://www.wai-talks.com/\n\nMark Lapwood, an acclaimed cinematographer with over 25 years of professional experience, has made his mark in the world of documentaries, television commercials, music videos, and feature films.  \n\nHe earned prestigious accreditation with the Australian Cinematographers Society in 2006 and the New Zealand Cinematographers Society in 2021. His work displays mastery in lighting design and camera operation when filming in the studio and on locations around the world. \n\nMark's work revolves around crafting compelling visual narratives, skilfully weaving together sequences that convey powerful storytelling. He is passionate about human rights, and has turned his camera on important causes in recent years to tell grass roots stories of authentic people standing up for important causes in the face of adversity. \n\nIndustry giants such as Netflix, National Geographic, Discovery, BBC, UK Channel 4, SBS, and the NZ Film Commission have entrusted Mark with their feature and series projects. \n\nMark is based in Auckland, New Zealand and works worldwide. ",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1705302055/WaiTalks/MarkLapwood_zk7xjj.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 1214167,
+                    "width": 2793,
+                    "format": "jpg",
+                    "height": 4000,
+                    "version": 1705302055,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "WaiTalks/MarkLapwood_zk7xjj",
+                    "created_at": "2024-01-15T07:00:55Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1705302055/WaiTalks/MarkLapwood_zk7xjj.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1705302055/WaiTalks/MarkLapwood_zk7xjj.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1705302055/WaiTalks/MarkLapwood_zk7xjj.jpg"
+                }
+            ],
             "date_modified": "2024-01-15T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -54,9 +152,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/waitalks-2023-michelle-hooper",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Michelle-Hooper-Wai-Talks-Dec-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/waitalks-2023-michelle-hooper",
             "title": "WaiTalks 2023: Michelle Hooper",
             "summary": "Michelle Hooper was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nature2classroom’s research, programmes and well being days for the children and teachers of our Motu.\nThe event was held at Morra Hall, Oneroa on 2nd Dec 2023. https://www.wai-talks.com/\n\nMichelle has a career spanning 25 years in the major international sporting events industry. Which has included delivering events for World Rugby, FIFA, the International Triathlon Union (ITU), the America’s Cup and leading Olympic Games teams. \n\nShe led the implementation of the 2021 Women’s Rugby World Cup occurring in 2022, as Tournament Director. This tournament has been regarded as one of the most successful women’s sporting events in history, setting precedent for future women’s tournaments. \n\nShe served as the Team Services Lead during the 2019 Rugby World Cup in Japan and RWC 2011 in New Zealand and as the Competition Director of both the 2015 FIFA Under-20 World Cup and the ITU Triathlon World Series in 2013. \n\nLiving on Waiheke Island with her husband and three children is Michelle’s dream come true. Days are now spent building her online business, Sprintify, rapid goal attainment training platform, supporting her family in their pursuits and enjoying the peace of the bush and the birds, represents coming home to her soul.\n",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1705302054/WaiTalks/MichelleHooper_fqs4mr.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 76482,
+                    "width": 1024,
+                    "format": "jpg",
+                    "height": 768,
+                    "version": 1705302054,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "WaiTalks/MichelleHooper_fqs4mr",
+                    "created_at": "2024-01-15T07:00:54Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1705302054/WaiTalks/MichelleHooper_fqs4mr.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1705302054/WaiTalks/MichelleHooper_fqs4mr.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1705302054/WaiTalks/MichelleHooper_fqs4mr.jpg"
+                }
+            ],
             "date_modified": "2024-01-15T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -68,9 +187,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/the-boy-who-ate-bugs",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/theatre/The%20Boy%20Who%20Ate%20Bugs%20-%20final.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/the-boy-who-ate-bugs",
             "title": "The Boy Who Ate Bugs",
             "summary": "The Boy Who Ate Bugs was written and narrated by Waiheke writer Avi Duckor-Jones and was recorded and produced by Brent Simpson. ",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1705186598/boy_eating_bugs_he1pq7.png",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 1480813,
+                    "width": 1080,
+                    "format": "png",
+                    "height": 1080,
+                    "version": 1705186598,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "boy_eating_bugs_he1pq7",
+                    "created_at": "2024-01-13T22:56:38Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1705186598/boy_eating_bugs_he1pq7.png",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1705186598/boy_eating_bugs_he1pq7.png",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1705186598/boy_eating_bugs_he1pq7.png"
+                }
+            ],
             "date_modified": "2024-01-14T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -82,9 +222,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/episode-1-11-jan-2024",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-11-01-2024-Eddie-Starter-Plants.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/episode-1-11-jan-2024",
             "title": "Can You Dig It?! Episode 1: 11 Jan 2024",
             "summary": "Chris Walker talks with Eddie Welsh, who sells vege seedlings each Saturday at Ostand market, about what to plant in your home garden. ",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1704942723/Can%20You%20Dig%20it/Eddie-Welsh_iv0iyh.png",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 779447,
+                    "width": 1000,
+                    "format": "png",
+                    "height": 411,
+                    "version": 1704942723,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Can You Dig it/Eddie-Welsh_iv0iyh",
+                    "created_at": "2024-01-11T03:12:03Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1704942723/Can%20You%20Dig%20it/Eddie-Welsh_iv0iyh.png",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1704942723/Can%20You%20Dig%20it/Eddie-Welsh_iv0iyh.png",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1704942723/Can%20You%20Dig%20it/Eddie-Welsh_iv0iyh.png"
+                }
+            ],
             "date_modified": "2024-01-11T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -96,9 +257,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/interview-with-susi-newborn-sept-2023",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/koro-susi-newborn-interview-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/interview-with-susi-newborn-sept-2023",
             "title": "Interview with Susi Newborn Sept 2023",
             "summary": "Interview with Susi Newborn from 22nd of September 2023 where she talks about being a protector, family, the history behind the rainbow warrior. It was such a honour to have Susi in Studio for this interview, she will be fondly remembered and missed by everyone whose life she touched.",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1704330816/Local%20People/PHOTO-2024-01-04-13-36-00_gdvxba.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 383828,
+                    "width": 1200,
+                    "format": "jpg",
+                    "height": 1600,
+                    "version": 1704330816,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Local People/PHOTO-2024-01-04-13-36-00_gdvxba",
+                    "created_at": "2024-01-04T01:13:36Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1704330816/Local%20People/PHOTO-2024-01-04-13-36-00_gdvxba.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1704330816/Local%20People/PHOTO-2024-01-04-13-36-00_gdvxba.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1704330816/Local%20People/PHOTO-2024-01-04-13-36-00_gdvxba.jpg"
+                }
+            ],
             "date_modified": "2024-01-04T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -110,9 +292,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/susi-newborn-housing",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/susi-newborn-housing",
             "title": "Susi Newborn: Housing",
             "summary": "Susi Newborn was a self proclaimed \"lunatic and activist\". She spent every moment of her life fighting to make the world a better place, with an unwavering commitment to addressing social justice and environmental issues locally and internationally. She sadly passed away on 31 Jan, 2023. \nHere she speaks with Greg Treadwell in 2017 about island housing\nPhoto credit: Diana Worth/STUFF",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1704079045/Island%20Life/SusiNewborn_y7waqb.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 56526,
+                    "width": 1240,
+                    "format": "jpg",
+                    "height": 698,
+                    "version": 1704079045,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "Island Life/SusiNewborn_y7waqb",
+                    "created_at": "2024-01-01T03:17:25Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1704079045/Island%20Life/SusiNewborn_y7waqb.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1704079045/Island%20Life/SusiNewborn_y7waqb.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1704079045/Island%20Life/SusiNewborn_y7waqb.jpg"
+                }
+            ],
             "date_modified": "2024-01-01T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -124,9 +327,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/susi-newborn-the-environment",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/susi-newborn-the-environment",
             "title": "Susi Newborn: The Environment",
             "summary": "Susi Newborn was a self proclaimed \"lunatic and activist\". She spent every moment of her life fighting to make the world a better place, with an unwavering commitment to addressing social justice and environmental issues locally and internationally. She sadly passed away on 31 Jan, 2023. \nHere she speaks at a 2015 Waitalks event about one of her great passions - the environment. \nPhoto credit: ABIGAIL DOUGHERTY/STUFF",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1704079130/Island%20Life/SusiPutiki_jv5ab0.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 77836,
+                    "width": 1240,
+                    "format": "jpg",
+                    "height": 697,
+                    "version": 1704079130,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "Island Life/SusiPutiki_jv5ab0",
+                    "created_at": "2024-01-01T03:18:50Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1704079130/Island%20Life/SusiPutiki_jv5ab0.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1704079130/Island%20Life/SusiPutiki_jv5ab0.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1704079130/Island%20Life/SusiPutiki_jv5ab0.jpg"
+                }
+            ],
             "date_modified": "2024-01-01T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -138,9 +362,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/mana-mixtape-interview-with-teyo",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/231208_TeyoRap.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/mana-mixtape-interview-with-teyo",
             "title": "Mana Mixtape interview with Teyo",
             "summary": "Koro talks to Italian rapper Teyo",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1702148252/mana%20mixtape/IMG-20231209-WA0015_aidpzu.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 102911,
+                    "width": 1024,
+                    "format": "jpg",
+                    "height": 768,
+                    "version": 1702148252,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "mana mixtape/IMG-20231209-WA0015_aidpzu",
+                    "created_at": "2023-12-09T18:57:32Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1702148252/mana%20mixtape/IMG-20231209-WA0015_aidpzu.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1702148252/mana%20mixtape/IMG-20231209-WA0015_aidpzu.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1702148252/mana%20mixtape/IMG-20231209-WA0015_aidpzu.jpg"
+                }
+            ],
             "date_modified": "2023-12-08T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -152,9 +397,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/te-korowai-o-waiheke-rat-trial-update",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-01-12-2023-rat-trial-owain-tanner.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/te-korowai-o-waiheke-rat-trial-update",
             "title": "Te Korowai o Waiheke rat trial update",
             "summary": "Greg Treadwell talks to Owain Tanner from Te Korowai o Waiheke to get an update on the Oneroa rat eradication trial",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1701936508/Island%20Life/TKOW_Banner_u06eub.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 77837,
+                    "width": 820,
+                    "format": "jpg",
+                    "height": 360,
+                    "version": 1701936508,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Island Life/TKOW_Banner_u06eub",
+                    "created_at": "2023-12-07T08:08:28Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1701936508/Island%20Life/TKOW_Banner_u06eub.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1701936508/Island%20Life/TKOW_Banner_u06eub.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1701936508/Island%20Life/TKOW_Banner_u06eub.jpg"
+                }
+            ],
             "date_modified": "2023-12-02T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -166,9 +432,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/the-wayup-interview-bob-hewitt",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Bob-Hewitt-Wayup-Interview-21-11-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/the-wayup-interview-bob-hewitt",
             "title": "The Wayup Interview: Bob Hewitt",
             "summary": "Wayan and Jahn talk to New Yorker Bob Hewitt who has recently moved to Waiheke. They talk about the two books he's written about AI, his love of board games and the after school programme he set up in Brooklyn. They also talk about his plans for life on Waiheke Island.",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1700723519/Radio%20Shows/bob-hewitt-wayup-interview_iclb8c.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 92571,
+                    "width": 1600,
+                    "format": "jpg",
+                    "height": 900,
+                    "version": 1700723519,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Radio Shows/bob-hewitt-wayup-interview_iclb8c",
+                    "created_at": "2023-11-23T07:11:59Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1700723519/Radio%20Shows/bob-hewitt-wayup-interview_iclb8c.jpg",
+                    "resource_type": "image",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1700723519/Radio%20Shows/bob-hewitt-wayup-interview_iclb8c.jpg",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1700723519/Radio%20Shows/bob-hewitt-wayup-interview_iclb8c.jpg",
+                    "raw_transformation": "f_auto/q_auto"
+                }
+            ],
             "date_modified": "2023-11-21T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -180,9 +467,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/councillor-mike-lee",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-mike-lee.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/councillor-mike-lee",
             "title": "Councillor Mike Lee",
             "summary": "Chris Walker talks to councillor Mike Lee about the year since his re-election to Auckland Council and his decision to vote against the introduction of Māori wards.\nPhoto credit: NZ Herald",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1699686905/Island%20Life/Mike-Lee_w9drux.avif",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 59095,
+                    "width": 1440,
+                    "format": "avif",
+                    "height": 810,
+                    "version": 1699686905,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "Island Life/Mike-Lee_w9drux",
+                    "created_at": "2023-11-11T07:15:05Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1699686905/Island%20Life/Mike-Lee_w9drux.avif",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1699686905/Island%20Life/Mike-Lee_w9drux.avif",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1699686905/Island%20Life/Mike-Lee_w9drux.avif"
+                }
+            ],
             "date_modified": "2023-11-11T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -194,9 +502,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/crop-swap",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-hadas-ore-crop-swap.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/crop-swap",
             "title": "Crop Swap",
             "summary": "Chris Walker talks to Hadas Ore about Waiheke Crop Swap. Home gardeners come together to swap their excess produce and share gardening tips. ",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1699686353/Island%20Life/cropswap_hz5avk.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 392451,
+                    "width": 2048,
+                    "format": "jpg",
+                    "height": 1536,
+                    "version": 1699686353,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Island Life/cropswap_hz5avk",
+                    "created_at": "2023-11-11T07:05:53Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1699686353/Island%20Life/cropswap_hz5avk.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1699686353/Island%20Life/cropswap_hz5avk.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1699686353/Island%20Life/cropswap_hz5avk.jpg"
+                }
+            ],
             "date_modified": "2023-11-11T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -208,9 +537,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/caulerpa-rahui",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-blair-anderson-caulerpa-rahui.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/caulerpa-rahui",
             "title": "Caulerpa Rahui",
             "summary": "Chris Walker talks to Blair Anderson, Pou Rahui Project Manager for Ngāti Pāoa, about the rahui placed by the iwi to prevent the spread of the invasive Caulerpa seaweed.",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1699685874/Island%20Life/Caulerpa-detection-at-WaihekePhoto-NIWA_n5dosn.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 303326,
+                    "width": 2362,
+                    "format": "jpg",
+                    "height": 1576,
+                    "version": 1699685874,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Island Life/Caulerpa-detection-at-WaihekePhoto-NIWA_n5dosn",
+                    "created_at": "2023-11-11T06:57:54Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1699685874/Island%20Life/Caulerpa-detection-at-WaihekePhoto-NIWA_n5dosn.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1699685874/Island%20Life/Caulerpa-detection-at-WaihekePhoto-NIWA_n5dosn.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1699685874/Island%20Life/Caulerpa-detection-at-WaihekePhoto-NIWA_n5dosn.jpg"
+                }
+            ],
             "date_modified": "2023-11-11T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -222,9 +572,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/darleen-tana-elected-to-parliament",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-21-10-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/darleen-tana-elected-to-parliament",
             "title": "Darleen Tana Elected To Parliament",
             "summary": "Chris Walker talks to Darleen Tana whio has just been elected to parliament as a Green list MP",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1697859684/Radio%20Shows/Island%20Life/Darleen-Tana-Beehive-crop_oxciv3.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 845449,
+                    "width": 1290,
+                    "format": "jpg",
+                    "height": 868,
+                    "version": 1697859684,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Radio Shows/Island Life/Darleen-Tana-Beehive-crop_oxciv3",
+                    "created_at": "2023-10-21T03:41:24Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1697859684/Radio%20Shows/Island%20Life/Darleen-Tana-Beehive-crop_oxciv3.jpg",
+                    "resource_type": "image",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1697859684/Radio%20Shows/Island%20Life/Darleen-Tana-Beehive-crop_oxciv3.jpg",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1697859684/Radio%20Shows/Island%20Life/Darleen-Tana-Beehive-crop_oxciv3.jpg",
+                    "raw_transformation": "f_auto/q_auto"
+                }
+            ],
             "date_modified": "2023-10-21T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -236,9 +607,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/librarian-fiona-kralicek-resigning",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-fiona-kralicek-library-20-10-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/librarian-fiona-kralicek-resigning",
             "title": "Librarian Fiona Kralicek Resigning",
             "summary": "Chris Walker talks to Fiona Kralicek who has been the head librarian at Waiheke Community Library for 28 years.",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1697859689/Radio%20Shows/Island%20Life/fiona-kralicek-library-20-10-2023_ygh1bo.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 2088031,
+                    "width": 4000,
+                    "format": "jpg",
+                    "height": 2250,
+                    "version": 1697859689,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "Radio Shows/Island Life/fiona-kralicek-library-20-10-2023_ygh1bo",
+                    "created_at": "2023-10-21T03:41:29Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1697859689/Radio%20Shows/Island%20Life/fiona-kralicek-library-20-10-2023_ygh1bo.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1697859689/Radio%20Shows/Island%20Life/fiona-kralicek-library-20-10-2023_ygh1bo.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1697859689/Radio%20Shows/Island%20Life/fiona-kralicek-library-20-10-2023_ygh1bo.jpg"
+                }
+            ],
             "date_modified": "2023-10-20T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -250,9 +642,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/emily-king-the-wayup-interview",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-Show-Emily-King-podcast-18-10-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/emily-king-the-wayup-interview",
             "title": "Emily King: The Wayup Interview",
             "summary": "Wayan and Jahn from the Wayup show interview Emily King a local Surfdale resident about her latest book \"Re-food\" about New Zealands troubled food networks. The interview covers some of the challenges we face as a nation and how we can tackle them.\nRead more about Emily https://www.spira.nz/about\n",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1697834533/Radio%20Shows/emily-king-wayup_yc8tik.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 676994,
+                    "width": 1092,
+                    "format": "jpg",
+                    "height": 731,
+                    "version": 1697834533,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Radio Shows/emily-king-wayup_yc8tik",
+                    "created_at": "2023-10-20T20:42:13Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1697834533/Radio%20Shows/emily-king-wayup_yc8tik.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1697834533/Radio%20Shows/emily-king-wayup_yc8tik.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1697834533/Radio%20Shows/emily-king-wayup_yc8tik.jpg"
+                }
+            ],
             "date_modified": "2023-10-18T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -264,9 +677,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/maia-piata-rose-week-on-the-maramataka",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/maia-piata-rose-week-on-the-maramataka",
             "title": "Maia Piata Rose Week on the Maramataka",
             "summary": "Koro talks to Maia Piata Rose Week about the Maramataka. Follow Maia on Instagram https://www.instagram.com/maia_moomies/",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1697082737/Radio%20Shows/maia-moomies_qtutbj.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 962082,
+                    "width": 1080,
+                    "format": "jpg",
+                    "height": 1342,
+                    "version": 1697082737,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "Radio Shows/maia-moomies_qtutbj",
+                    "created_at": "2023-10-12T03:52:17Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1697082737/Radio%20Shows/maia-moomies_qtutbj.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1697082737/Radio%20Shows/maia-moomies_qtutbj.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1697082737/Radio%20Shows/maia-moomies_qtutbj.jpg"
+                }
+            ],
             "date_modified": "2023-10-06T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -278,9 +712,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/the-great-big-rescued-food-cook-off-2023",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/the-great-big-rescued-food-cook-off-2023",
             "title": "The Great Big Rescued Food Cook Off 2023",
             "summary": "Koro talks to to Laura lynch and kayleigh Appleton from the Waiheke Resources Trust about The Great Big Rescued Food Cokk Off being held on 18 Oct 2023\nPhoto credit: Waiheke Gulf News",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1697082744/Radio%20Shows/N-Countdown-Eddie-Welsh-from-the-Waiheke-Resources-Trust-and-fresh-food-assistant-Shannon-Staples-load-trolleys-with-produce-which-will-stock-the-island_s-community-pantrys-and-fridges-SB--696x464_oze0yw.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 92465,
+                    "width": 696,
+                    "format": "jpg",
+                    "height": 464,
+                    "version": 1697082744,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Radio Shows/N-Countdown-Eddie-Welsh-from-the-Waiheke-Resources-Trust-and-fresh-food-assistant-Shannon-Staples-load-trolleys-with-produce-which-will-stock-the-island_s-community-pantrys-and-fridges-SB--696x464_oze0yw",
+                    "created_at": "2023-10-12T03:52:24Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1697082744/Radio%20Shows/N-Countdown-Eddie-Welsh-from-the-Waiheke-Resources-Trust-and-fresh-food-assistant-Shannon-Staples-load-trolleys-with-produce-which-will-stock-the-island_s-community-pantrys-and-fridges-SB--696x464_oze0yw.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1697082744/Radio%20Shows/N-Countdown-Eddie-Welsh-from-the-Waiheke-Resources-Trust-and-fresh-food-assistant-Shannon-Staples-load-trolleys-with-produce-which-will-stock-the-island_s-community-pantrys-and-fridges-SB--696x464_oze0yw.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1697082744/Radio%20Shows/N-Countdown-Eddie-Welsh-from-the-Waiheke-Resources-Trust-and-fresh-food-assistant-Shannon-Staples-load-trolleys-with-produce-which-will-stock-the-island_s-community-pantrys-and-fridges-SB--696x464_oze0yw.jpg"
+                }
+            ],
             "date_modified": "2023-10-06T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -292,9 +747,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate",
             "title": "The Great Waiheke Radio Auckland Central Electorate Candidates Debate",
             "summary": "The Great Waiheke Radio Auckland Central Electorate Candidates Debate. Held at Artworks Theatre on Thurs 28 September, 2023. The candidates were Mahesh Muralidhar (National), Oscar Sims (Labour) and Chloe Swarbrick (Green). Facilitated by Chris Walker.",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1695961242/Island%20Life/candidates_dz2plr.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 331615,
+                    "width": 2048,
+                    "format": "jpg",
+                    "height": 1536,
+                    "version": 1695961242,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Island Life/candidates_dz2plr",
+                    "created_at": "2023-09-29T04:20:42Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1695961242/Island%20Life/candidates_dz2plr.jpg",
+                    "resource_type": "image",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1695961242/Island%20Life/candidates_dz2plr.jpg",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1695961242/Island%20Life/candidates_dz2plr.jpg",
+                    "raw_transformation": "f_auto/q_auto"
+                }
+            ],
             "date_modified": "2023-09-28T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -306,9 +782,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/sir-peter-leitch-the-wayup-interview",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-show-Mad-Butcher-interview%2021-09-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/sir-peter-leitch-the-wayup-interview",
             "title": "Sir Peter Leitch - The Wayup Interview",
             "summary": "Wayan and Jahn from Waiheke Radio's Wayup Show talk to the Mad Butcher, Sir Peter Leitch. \nPhoto credit: Stuff",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1695440903/Wayup%20Show/peterleitch_hmza0s.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 73931,
+                    "width": 1240,
+                    "format": "jpg",
+                    "height": 696,
+                    "version": 1695440903,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Wayup Show/peterleitch_hmza0s",
+                    "created_at": "2023-09-23T03:48:23Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1695440903/Wayup%20Show/peterleitch_hmza0s.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1695440903/Wayup%20Show/peterleitch_hmza0s.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1695440903/Wayup%20Show/peterleitch_hmza0s.jpg"
+                }
+            ],
             "date_modified": "2023-09-21T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -320,9 +817,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/darleen-tana-green-candidate-interview",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-23-09-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/darleen-tana-green-candidate-interview",
             "title": "Darleen Tana (Green) Candidate Interview",
             "summary": "Chris Walker talks to Darleen Tana, Green candidate for The Tamaki Makaurau Māori electorate",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1695439812/Island%20Life/darleen-tana_txnuxm.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 2297727,
+                    "width": 4000,
+                    "format": "jpg",
+                    "height": 2250,
+                    "version": 1695439812,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "Island Life/darleen-tana_txnuxm",
+                    "created_at": "2023-09-23T03:30:12Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1695439812/Island%20Life/darleen-tana_txnuxm.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1695439812/Island%20Life/darleen-tana_txnuxm.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1695439812/Island%20Life/darleen-tana_txnuxm.jpg"
+                }
+            ],
             "date_modified": "2023-09-23T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -334,9 +852,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/hinurewa-te-hau-national-candidate-interview",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-hinurewa-te-hau-23-09-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/hinurewa-te-hau-national-candidate-interview",
             "title": "Hinurewa Te Hau (National) Candidate Interview",
             "summary": "Chris Walker talks to Hinurewa Te Hau, National Party candidate for the Tamaki Makaurau Māori electorate",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1695439812/Island%20Life/hinurewa-te-hau_snrgzg.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 3136403,
+                    "width": 4000,
+                    "format": "jpg",
+                    "height": 2250,
+                    "version": 1695439812,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "Island Life/hinurewa-te-hau_snrgzg",
+                    "created_at": "2023-09-23T03:30:12Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1695439812/Island%20Life/hinurewa-te-hau_snrgzg.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1695439812/Island%20Life/hinurewa-te-hau_snrgzg.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1695439812/Island%20Life/hinurewa-te-hau_snrgzg.jpg"
+                }
+            ],
             "date_modified": "2023-09-23T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -348,9 +887,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-te-korowai-o-waiheke-29-09-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke",
             "title": "Frank Lepera · Stoat Operations Manager Te Korowai o Waiheke",
             "summary": "Greg Treadwell talks to Frank Lepera · Stoat Operations Manager at Te Korowai o Waiheke and gets an update on the progress in the project to eradicate stoats from the island.",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1695439811/Island%20Life/frank-te-korowai_q9ssd2.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 2277623,
+                    "width": 4000,
+                    "format": "jpg",
+                    "height": 2250,
+                    "version": 1695439811,
+                    "duration": null,
+                    "metadata": {},
+                    "public_id": "Island Life/frank-te-korowai_q9ssd2",
+                    "created_at": "2023-09-23T03:30:11Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1695439811/Island%20Life/frank-te-korowai_q9ssd2.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1695439811/Island%20Life/frank-te-korowai_q9ssd2.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1695439811/Island%20Life/frank-te-korowai_q9ssd2.jpg"
+                }
+            ],
             "date_modified": "2023-09-23T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -362,9 +922,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/waiheke-radio-election-coverage",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-election-coverage-23-09-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/waiheke-radio-election-coverage",
             "title": "Waiheke Radio Election Coverage",
             "summary": "Greg Treadwell talks to Chris Walker about Waiheke Radio's 2023 general election coverage",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1693888543/Island%20Life/ballotbox_ldugn1.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 133887,
+                    "width": 1461,
+                    "format": "jpg",
+                    "height": 976,
+                    "version": 1693888543,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "Island Life/ballotbox_ldugn1",
+                    "created_at": "2023-09-05T04:35:43Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1693888543/Island%20Life/ballotbox_ldugn1.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1693888543/Island%20Life/ballotbox_ldugn1.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1693888543/Island%20Life/ballotbox_ldugn1.jpg"
+                }
+            ],
             "date_modified": "2023-09-23T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -376,9 +957,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/damian-sycamore-top-candidate-interview",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-damian-sycamore-21-09-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/damian-sycamore-top-candidate-interview",
             "title": "Damian Sycamore (TOP) candidate interview",
             "summary": "Damian Sycamore is a Waiheke Islander. He is standing for The Opportunities Party (TOP) in the Auckland Central electorate. He spoke to Chris Walker about how TOP policies would address local Waiheke issues.",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1695256502/Damian_Sycamore_-_webpage_banner_dhwbxg.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 355118,
+                    "width": 1926,
+                    "format": "jpg",
+                    "height": 966,
+                    "version": 1695256502,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "Damian_Sycamore_-_webpage_banner_dhwbxg",
+                    "created_at": "2023-09-21T00:35:02Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1695256502/Damian_Sycamore_-_webpage_banner_dhwbxg.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1695256502/Damian_Sycamore_-_webpage_banner_dhwbxg.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1695256502/Damian_Sycamore_-_webpage_banner_dhwbxg.jpg"
+                }
+            ],
             "date_modified": "2023-09-21T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -390,9 +992,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/oscar-sims-candidate-interview",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-oscar-sims-16-09-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/oscar-sims-candidate-interview",
             "title": "Oscar Sims Candidate Interview",
             "summary": "Chris Walker talks to Oscar Sims, Labour candidate for Auckland Central",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1694843251/Island%20Life/OscarSimscrop_wl7y55.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 893713,
+                    "width": 2637,
+                    "format": "jpg",
+                    "height": 1757,
+                    "version": 1694843251,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "Island Life/OscarSimscrop_wl7y55",
+                    "created_at": "2023-09-16T05:47:31Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1694843251/Island%20Life/OscarSimscrop_wl7y55.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1694843251/Island%20Life/OscarSimscrop_wl7y55.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1694843251/Island%20Life/OscarSimscrop_wl7y55.jpg"
+                }
+            ],
             "date_modified": "2023-09-16T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
@@ -404,23 +1027,30 @@
         },
         {
             "id": "https://www.waihekeradio.org.nz/podcast/mahesh-muralidhar-candidate-interview",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-mahesh-muralidhar-16-09-2023.mp3",
+            "url": "https://www.waihekeradio.org.nz/podcast/mahesh-muralidhar-candidate-interview",
             "title": "Mahesh Muralidhar Candidate Interview",
             "summary": "Chris Walker talks to Mahesh Muralidhar, National candidate for Auckland Central",
-            "date_modified": "2023-09-16T00:00:00.000Z",
-            "author": {
-                "name": "Waiheke Radio",
-                "url": "https://www.waihekeradio.org.nz"
-            },
-            "tags": [
-                "Community Radio Podcast"
-            ]
-        },
-        {
-            "id": "https://www.waihekeradio.org.nz/podcast/peeni-henare-candidate-interview",
-            "url": "https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-peeni-henare-16-09-2023.mp3",
-            "title": "Peeni Henare Candidate Interview",
-            "summary": "Brent Simpson talks to Peeni Henare, Labour candidate for the Tamaki Makaurau electorate",
+            "image": [
+                {
+                    "url": "http://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1694843251/Island%20Life/MaheshMuralidharcrop_ubxibm.jpg",
+                    "tags": [],
+                    "type": "upload",
+                    "bytes": 920994,
+                    "width": 2725,
+                    "format": "jpg",
+                    "height": 1709,
+                    "version": 1694843251,
+                    "duration": null,
+                    "metadata": [],
+                    "public_id": "Island Life/MaheshMuralidharcrop_ubxibm",
+                    "created_at": "2023-09-16T05:47:31Z",
+                    "secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1694843251/Island%20Life/MaheshMuralidharcrop_ubxibm.jpg",
+                    "original_url": "http://res.cloudinary.com/waiheke-radio/image/upload/v1694843251/Island%20Life/MaheshMuralidharcrop_ubxibm.jpg",
+                    "resource_type": "image",
+                    "raw_transformation": "f_auto/q_auto",
+                    "original_secure_url": "https://res.cloudinary.com/waiheke-radio/image/upload/v1694843251/Island%20Life/MaheshMuralidharcrop_ubxibm.jpg"
+                }
+            ],
             "date_modified": "2023-09-16T00:00:00.000Z",
             "author": {
                 "name": "Waiheke Radio",
