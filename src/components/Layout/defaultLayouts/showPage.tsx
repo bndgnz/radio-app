@@ -2,6 +2,7 @@ import Playlist from "@/src/components/Layout/components/playlist";
 import Staff from "@/src/components/Layout/components/staff";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { BLOCKS, INLINES } from "@contentful/rich-text-types";
+import { MdRssFeed } from 'react-icons/md';
 
 function Showpage(props: any) {
   const showlink = props.props.type.showUrl;
