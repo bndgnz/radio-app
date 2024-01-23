@@ -18,7 +18,10 @@ export default Home;
 
 export const getStaticProps: GetStaticProps<Props> = async ({preview = false }) => {
  
-  await generateRssFeed();
+  const rssArr = ['Waiheke Radio', 'rss', 'C', 'D'];
+ 
+ 
+  await generateRssFeed(rssArr);
 
   const articles = (
     await ContentService.instance.getEntriesByType<ILandingPageFields>(

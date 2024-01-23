@@ -4,7 +4,7 @@ import { IShowsFields } from "@/src/@types/contentful";
 import ContentService from "@/src/utils/content-service";
 import Seo from "@/src/components/Layout/components/seo"
 import Layout from "@/src/components/Layout";
- 
+import generateRssFeed from '@/src/utils/generateRSSFeed';
 
 interface Props {
   showPage: IShowsFields;
@@ -51,6 +51,11 @@ export const getStaticProps: GetStaticProps<Props, { slug: string }> = async (
   ctx
 ) => {
   const { slug } = ctx.params!;
+
+  const rssArr = ['Waiheke Radio', slug, 'C', 'D'];
+ 
+ 
+  await generateRssFeed(rssArr); 
   const showPage = await ContentService.instance.getShowPageBySlug(slug);
   if (!showPage) {
     return { notFound: true };

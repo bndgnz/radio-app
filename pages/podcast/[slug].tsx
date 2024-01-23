@@ -4,7 +4,7 @@ import { IAmazonPodcastFields } from "@/src/@types/contentful";
 import ContentService from "@/src/utils/content-service";
 import Layout from "@/src/components/Layout";
 import Seo from "@/src/components/Layout/components/seo";
- 
+
 
 
 interface Props {
@@ -56,6 +56,7 @@ export const getStaticProps: GetStaticProps<Props, { slug: string }> = async (
       podcastPage: podcastPage.fields,
     },
   };
+
 };
 export const getStaticPaths: GetStaticPaths = async () => {
   const showPages =
