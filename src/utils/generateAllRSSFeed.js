@@ -75,10 +75,10 @@ posts.items.forEach((post) => {
   const replaced = contents.replace('\<channel\>', '\<channel\>\n\<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />');
   const typeReplaced = replaced.replaceAll('type="image/mp3"', 'type="audio/mpeg"');
   const nameSpace = typeReplaced.replaceAll('<rss version="2.0">', '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">');
+  const length  = nameSpace.replaceAll('length="0"', 'length="123456"');
 
 
-
-  writeFile(rssFileName, nameSpace, 'utf-8', function (err) {
+  writeFile(rssFileName, length, 'utf-8', function (err) {
     console.log(err);
   });
 

@@ -5,7 +5,7 @@
         <title>DEBATES Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from DEBATES - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Tue, 23 Jan 2024 02:57:44 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Jan 2024 03:06:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -20,7 +20,7 @@
             <guid>http://localhost:3000/podcast/great-waiheke-radio-auckland-central-electorates-candidates-debate</guid>
             <pubDate>Tue, 13 Oct 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[On Sept 17 Waiheke Radio hosted a debate between the three front running candidates in the Auckland...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/candidates-debate-2020-1.mp3" length="0" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/candidates-debate-2020-1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
             <title><![CDATA[The Great Waiheke Radio Local Board Candidates Debate 2]]></title>
@@ -28,7 +28,7 @@
             <guid>http://localhost:3000/podcast/the-great-waiheke-radio-local-board-candidates-debate-2</guid>
             <pubDate>Mon, 16 Sep 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[The Great Waiheke Radio Local Board Candidates Debate. Hosted by Waiheke Radio in Artworks Theatre ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/candidate-meeting-16-sept-2019.mp3" length="0" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/candidate-meeting-16-sept-2019.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
             <title><![CDATA[The Great Waiheke Comedy Debate]]></title>
@@ -36,7 +36,7 @@
             <guid>http://localhost:3000/podcast/the-great-waiheke-comedy-debate</guid>
             <pubDate>Tue, 06 Aug 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Recorded at Palm Beach Resort  3 Aug 2019. Hear Carol Hirschfeld, Sir Bob Harvey, Melodie Robinson,...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Great-Waiheke-Comedy-Debate.mp3" length="0" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Great-Waiheke-Comedy-Debate.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
             <title><![CDATA[The Great Waiheke Radio Auckland Central Candidates Debate]]></title>
@@ -44,7 +44,7 @@
             <guid>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-candidates-debate</guid>
             <pubDate>Thu, 07 Sep 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[On Wed 6 Sept Waiheke Radio hosted a debate of candidates for the Auckland Central electorate in th...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/CandidatesDebate.mp3" length="0" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/CandidatesDebate.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
             <title><![CDATA[The Great Waiheke Radio Local Board Candidates Debate]]></title>
@@ -52,7 +52,7 @@
             <guid>http://localhost:3000/podcast/the-great-waiheke-radio-local-board-candidates-debate</guid>
             <pubDate>Mon, 19 Sep 2016 00:00:00 GMT</pubDate>
             <description><![CDATA[To conclude our local board election coverage Waiheke Radio hosted a candidates’ meeting at Artwork...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Candidates-Meeting-19-09-16.mp3" length="0" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Candidates-Meeting-19-09-16.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
             <title><![CDATA[Waiheke Budgeting Service Candidates Forum Pt. 2]]></title>
@@ -60,7 +60,7 @@
             <guid>http://localhost:3000/podcast/waiheke-budgeting-service-candidates-forum-pt-2</guid>
             <pubDate>Mon, 08 Sep 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[On Monday 8 September Waiheke Budgeting Services presented a Candidate Forum featuring Jacinda Arde...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Budgeting-Service-Debate-Pt-2.mp3" length="0" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Budgeting-Service-Debate-Pt-2.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
             <title><![CDATA[Waiheke Budgeting Service Candidates Forum Pt. 1 ]]></title>
@@ -68,7 +68,7 @@
             <guid>http://localhost:3000/podcast/waiheke-budgeting-service-candidates-forum-pt-1</guid>
             <pubDate>Mon, 08 Sep 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[On Monday 8 September Waiheke Budgeting Services presented a Candidate Forum featuring Jacinda Arde...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Budgeting-Service-Debate-Pt-1.mp3" length="0" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Budgeting-Service-Debate-Pt-1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
             <title><![CDATA[Waiheke Budgeting Service Money Week Debate]]></title>
@@ -76,7 +76,7 @@
             <guid>http://localhost:3000/podcast/waiheke-budgeting-service-money-week-debate</guid>
             <pubDate>Sun, 08 Sep 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[Photos: Shirin Brown The Waiheke Budgeting Services present the second annual Money Week ‘Debate On...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/BudgetServiceDebateSept2013-1.mp3" length="0" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/BudgetServiceDebateSept2013-1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
             <title><![CDATA[Money Is The Barometer Of A Society’s Virtue?]]></title>
@@ -84,7 +84,7 @@
             <guid>http://localhost:3000/podcast/money-is-the-barometer-of-a-societys-virtue</guid>
             <pubDate>Sun, 09 Sep 2012 00:00:00 GMT</pubDate>
             <description><![CDATA[The Waiheke Budgeting Service Debate at Ostend Market, Saturday September 8. Michael Hurst, Alan Kn...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Budget-Service-Debate-1.mp3" length="0" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Budget-Service-Debate-1.mp3" length="123456" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>
