@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+        <title>LIVE AT THE LIBRARY Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from LIVE AT THE LIBRARY - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Tue, 23 Jan 2024 03:06:40 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>LIVE AT THE LIBRARY Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[Chris Orange, Johnny Fleury  and  Steve Ingram Live at Waiheke Radio, May 2023]]></title>
+            <link>http://localhost:3000/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</link>
+            <guid>http://localhost:3000/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</guid>
+            <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Orange (bass), Johnny Fleury (chapman stick) and Steve Ingram (drums) perform live at Waiheke...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/chris-orange-johnny-fleury-steve-ingram-waiheke-library-27-may-2023.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Ian Simpson And Andy Lewis Live At Waiheke Library 30 05 09]]></title>
+            <link>http://localhost:3000/podcast/ian-simpson-and-andy-lewis-live-at-waiheke-library-30-05-09</link>
+            <guid>http://localhost:3000/podcast/ian-simpson-and-andy-lewis-live-at-waiheke-library-30-05-09</guid>
+            <pubDate>Mon, 01 Jun 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Every Saturday during May 2009 the Waiheke Library marked NZ Music Month with a live performance by...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/WPP-Ian-Simpson-and-Andy-Lewis.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waiheke High School Jazz Ensemble Live At Waiheke Library 10 May 2015]]></title>
+            <link>http://localhost:3000/podcast/waiheke-high-school-jazz-ensemble-live-at-waiheke-library-10-may-2015</link>
+            <guid>http://localhost:3000/podcast/waiheke-high-school-jazz-ensemble-live-at-waiheke-library-10-may-2015</guid>
+            <pubDate>Tue, 12 May 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[A small group of instrumentalists from Waiheke High School, playing a variety of improvisational ja...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/WHJazzEnsemble.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Tommy Pickett Live At Waiheke Library 12 May 2018]]></title>
+            <link>http://localhost:3000/podcast/tommy-pickett-live-at-waiheke-library-12-may-2018</link>
+            <guid>http://localhost:3000/podcast/tommy-pickett-live-at-waiheke-library-12-may-2018</guid>
+            <pubDate>Sat, 12 May 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Tommy Pickett performs at Waiheke Library as part of their 2018 New Zealand Music Month performance...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Tommy-Pickett-Live-Waiheke-Library-12-May-2018.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Southern Lights Live At Waiheke Library ]]></title>
+            <link>http://localhost:3000/podcast/southern-lights-live-at-waiheke-library</link>
+            <guid>http://localhost:3000/podcast/southern-lights-live-at-waiheke-library</guid>
+            <pubDate>Sat, 11 May 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Southern Lights is made up of locals Ella Rose (vocals), and Will Watterson (guitar). They played l...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/southern-lights-waiheke-library.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Solomon Cole Band Live At Waiheke Library]]></title>
+            <link>http://localhost:3000/podcast/solomon-cole-band-live-at-waiheke-library</link>
+            <guid>http://localhost:3000/podcast/solomon-cole-band-live-at-waiheke-library</guid>
+            <pubDate>Wed, 17 Jun 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Solomon Cole Band perform live at Waiheke Library on Sat 16 May 2015 as part of the library’s N...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/SolemanColeBandLibrary16May2015.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Sarah Hope Live At Waiheke Library May 2017]]></title>
+            <link>http://localhost:3000/podcast/sarah-hope-live-at-waiheke-library-may-2017</link>
+            <guid>http://localhost:3000/podcast/sarah-hope-live-at-waiheke-library-may-2017</guid>
+            <pubDate>Mon, 12 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sarah Hope played live at Waiheke Library on Sat 27 May as part of the library’s series of live per...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Sarah-Hope-Live-At-Waiheke-Library-May-2017.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Radha Stead Live At Waiheke Library May 2017 ]]></title>
+            <link>http://localhost:3000/podcast/radha-stead-live-at-waiheke-library-may-2017</link>
+            <guid>http://localhost:3000/podcast/radha-stead-live-at-waiheke-library-may-2017</guid>
+            <pubDate>Tue, 16 May 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Radha Stead  played at Waiheke Library on Sat 13 May in celebration of New Zealand Music Month. Rad...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/RadhaSteadLibraryMay2017.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Peter Forster Live At Waiheke Library Sat 2 May 2015]]></title>
+            <link>http://localhost:3000/podcast/peter-forster-live-at-waiheke-library-sat-2-may-2015</link>
+            <guid>http://localhost:3000/podcast/peter-forster-live-at-waiheke-library-sat-2-may-2015</guid>
+            <pubDate>Thu, 07 May 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Peter Forster presented an eclectic half hour of acoustic songs and sounds including native America...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Peter-Forster-Mastered-v03.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Grainneog Live At Waiheke Library]]></title>
+            <link>http://localhost:3000/podcast/grainneog-live-at-waiheke-library</link>
+            <guid>http://localhost:3000/podcast/grainneog-live-at-waiheke-library</guid>
+            <pubDate>Sun, 04 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Waiheke folk group Grainneog perform a set of New Zealand folk songs live at Waiheke Library]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/GrainneogLibrary.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Deep House Brothers Live At Waiheke Library 3 May 2015]]></title>
+            <link>http://localhost:3000/podcast/deep-house-brothers-live-at-waiheke-library-3-may-2015</link>
+            <guid>http://localhost:3000/podcast/deep-house-brothers-live-at-waiheke-library-3-may-2015</guid>
+            <pubDate>Tue, 05 May 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bass, Decks, Digiredoo, Bongos and Brass isn’t your typical band line-up, but that’s what Deep Hous...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Deep-House-Brother-Live-3-May-2015-1.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Sahara Adams  and  Friends Live At Waiheke Library May 2017]]></title>
+            <link>http://localhost:3000/podcast/sahara-adams-and-friends-live-at-waiheke-library-may-2017</link>
+            <guid>http://localhost:3000/podcast/sahara-adams-and-friends-live-at-waiheke-library-may-2017</guid>
+            <pubDate>Sat, 27 May 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sahara Adams played live at Waiheke Library on Sat 27 May as part of the library’s series of live p...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Sahara-Rachel-Live-At-Waiheke-Library-May-2017.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Royal Fortune Live At Waiheke Library May 2017]]></title>
+            <link>http://localhost:3000/podcast/the-royal-fortune-live-at-waiheke-library-may-2017</link>
+            <guid>http://localhost:3000/podcast/the-royal-fortune-live-at-waiheke-library-may-2017</guid>
+            <pubDate>Mon, 22 May 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Royal Fortune recorded live at Waiheke Library during the library’s New Zealand Music Month per...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Royal-Fortune-p-NZ-Music-Month-Waiheke-Library-2016.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Radio Rebelde Live At The Waiheke Library For NZ Music Month]]></title>
+            <link>http://localhost:3000/podcast/radio-rebelde-live-at-the-waiheke-library-for-nz-music-month</link>
+            <guid>http://localhost:3000/podcast/radio-rebelde-live-at-the-waiheke-library-for-nz-music-month</guid>
+            <pubDate>Sat, 09 May 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Local Latin-Ska band Radio Rebelde played at the Waiheke Library as part of New Zealand Music Month...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Radio-Rebelde-Live-Waiheke-Library-May-2015.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Patience Scarles Live At Waiheke Library May 2017 ]]></title>
+            <link>http://localhost:3000/podcast/patience-scarles-live-at-waiheke-library-may-2017</link>
+            <guid>http://localhost:3000/podcast/patience-scarles-live-at-waiheke-library-may-2017</guid>
+            <pubDate>Mon, 12 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Patience Scarles played live at Waiheke Library on Sat 27 May as part of the library’s series of li...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Patience-Scarles-Live-at-Waiheke-Library-May-2017.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[NZ Music Month V-12 Raises Library Roof! ]]></title>
+            <link>http://localhost:3000/podcast/nz-music-month-v-12-raises-library-roof</link>
+            <guid>http://localhost:3000/podcast/nz-music-month-v-12-raises-library-roof</guid>
+            <pubDate>Sat, 14 May 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Waiheke’s very own V12 male choir celebrated NZ Music Month at our local library with a rousing 30 ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/NZ-music-Month-2011-podcast-v12.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waiheke Choral Society]]></title>
+            <link>http://localhost:3000/podcast/waiheke-choral-society</link>
+            <guid>http://localhost:3000/podcast/waiheke-choral-society</guid>
+            <pubDate>Sun, 10 May 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[To mark NZ Music Month the Waiheke Library is hosting a series of performances by Waiheke artists. ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/NZ-Music_month-Library1.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Nick Fraser Live At Waiheke Library 26 May 2018 ]]></title>
+            <link>http://localhost:3000/podcast/nick-fraser-live-at-waiheke-library-26-may-2018</link>
+            <guid>http://localhost:3000/podcast/nick-fraser-live-at-waiheke-library-26-may-2018</guid>
+            <pubDate>Sun, 27 May 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nick Fraser performed live at Waiheke Library as part of their NZ Music Month performance series. H...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Nick-Fraser-Live-Waiheke-Library-May-2018.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[MutherTung Live At Waiheke Library  brent  MAY 4, 2014]]></title>
+            <link>http://localhost:3000/podcast/muthertung-live-at-waiheke-library-brent-may-4-2014</link>
+            <guid>http://localhost:3000/podcast/muthertung-live-at-waiheke-library-brent-may-4-2014</guid>
+            <pubDate>Sun, 04 May 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[As part of New Zealand Music Month 2014 the Waiheke Library hosts a selection of local artists. Fir...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/muthertung-library-may2014.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Malcolm McMartin And Students At Waiheke Library]]></title>
+            <link>http://localhost:3000/podcast/malcolm-mcmartin-and-students-at-waiheke-library</link>
+            <guid>http://localhost:3000/podcast/malcolm-mcmartin-and-students-at-waiheke-library</guid>
+            <pubDate>Sat, 30 May 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Malcolm McMartin entertained a lively crowd at the library showcasing his primary school students p...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/music-month-30-5-2015.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Jemilah Ross-Hayes Live At Waiheke Library May 2017 ]]></title>
+            <link>http://localhost:3000/podcast/jemilah-ross-hayes-live-at-waiheke-library-may-2017</link>
+            <guid>http://localhost:3000/podcast/jemilah-ross-hayes-live-at-waiheke-library-may-2017</guid>
+            <pubDate>Sat, 27 May 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jemilah Ross-Hayes played live at Waiheke Library on Sat 27 May as part of the library’s series of ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Jemilah-Ross-Hayes-Live-At-Waiheke-Library-May-2017.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Jay  and  Harry Live At Waiheke Library May 2017 ]]></title>
+            <link>http://localhost:3000/podcast/jay-and-harry-live-at-waiheke-library-may-2017-1</link>
+            <guid>http://localhost:3000/podcast/jay-and-harry-live-at-waiheke-library-may-2017-1</guid>
+            <pubDate>Mon, 12 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jay  and  Harry played live at Waiheke Library on Sat 27 May as part of the library’s series of liv...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Jay-Harry-Live-Waiheke-Library-May-2017.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Jay  and  Harry Live At Waiheke Library May 2017]]></title>
+            <link>http://localhost:3000/podcast/jay-and-harry-live-at-waiheke-library-may-2017</link>
+            <guid>http://localhost:3000/podcast/jay-and-harry-live-at-waiheke-library-may-2017</guid>
+            <pubDate>Mon, 12 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jay  and  Harry played live at Waiheke Library on Sat 27 May as part of the library’s series of liv...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Jay-Harry-Live-At-Waiheke-Library-May-2017.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Ian Simpson At Waiheke Library ]]></title>
+            <link>http://localhost:3000/podcast/ian-simpson-at-waiheke-library</link>
+            <guid>http://localhost:3000/podcast/ian-simpson-at-waiheke-library</guid>
+            <pubDate>Sat, 25 May 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Local singer-songwriter Ian Simpson played live at the Waiheke Library as part of New Zealand Music...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Ian-Simpson-Library-May-25-2013.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Frankie Hill  and  Lincoln Jackson Live At Waiheke Library ]]></title>
+            <link>http://localhost:3000/podcast/frankie-hill-and-lincoln-jackson-live-at-waiheke-library</link>
+            <guid>http://localhost:3000/podcast/frankie-hill-and-lincoln-jackson-live-at-waiheke-library</guid>
+            <pubDate>Sat, 31 May 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[This was a great performance by two Waiheke songwriters and performers at Waiheke Library on Sat 31...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/FrankieLincolnLibrary31014-1.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Electric Bananas Live At Waiheke Library 19 May 2018 ]]></title>
+            <link>http://localhost:3000/podcast/the-electric-bananas-live-at-waiheke-library-19-may-2018</link>
+            <guid>http://localhost:3000/podcast/the-electric-bananas-live-at-waiheke-library-19-may-2018</guid>
+            <pubDate>Sat, 19 May 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Electric Bananas playing live as part of the Waiheke Library NZ Music Month performance series ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Electric-Bananas-Live-Waiheke-Library-May-2018.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Electric Bananas Live At Waiheke Library]]></title>
+            <link>http://localhost:3000/podcast/electric-bananas-live-at-waiheke-library</link>
+            <guid>http://localhost:3000/podcast/electric-bananas-live-at-waiheke-library</guid>
+            <pubDate>Sat, 19 Oct 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Electric Bananas played a live set at Waiheke Library on Sat 19 Oct, 2019, in tribute to depart...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Electric-Bananas-Library-19-Oct-2019.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Daisy, Ciara  and  Jemilah Live At Waiheke Library May 2017]]></title>
+            <link>http://localhost:3000/podcast/daisy-ciara-and-jemilah-live-at-waiheke-library-may-2017-1</link>
+            <guid>http://localhost:3000/podcast/daisy-ciara-and-jemilah-live-at-waiheke-library-may-2017-1</guid>
+            <pubDate>Fri, 12 May 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Daisy, Ciara  and  Jemilah played live at Waiheke Library on Sat 27 May as part of the library’s se...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Daisy-Ciara-Jemilah-Live-At-Waiheke-Library-May-2017-1.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Daisy, Ciara  and  Jemilah Live At Waiheke Library May 2017]]></title>
+            <link>http://localhost:3000/podcast/daisy-ciara-and-jemilah-live-at-waiheke-library-may-2017</link>
+            <guid>http://localhost:3000/podcast/daisy-ciara-and-jemilah-live-at-waiheke-library-may-2017</guid>
+            <pubDate>Mon, 12 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Daisy, Ciara  and  Jemilah played live at Waiheke Library on Sat 27 May as part of the library’s se...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Daisy-Ciara-Jemilah-Live-At-Waiheke-Library-May-2017.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Claudia Gunn Live At Waiheke Library  Chris  MAY 16, 2017]]></title>
+            <link>http://localhost:3000/podcast/claudia-gunn-live-at-waiheke-library-chris-may-16-2017</link>
+            <guid>http://localhost:3000/podcast/claudia-gunn-live-at-waiheke-library-chris-may-16-2017</guid>
+            <pubDate>Tue, 16 May 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Award-winning New Zealand songwriter Claudia Gunn played some songs from her new album of children’...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/ClaudiaGunnWaihekeLibrary06May2107-1.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Claudia Gunn Live At Waiheke Library]]></title>
+            <link>http://localhost:3000/podcast/claudia-gunn-live-at-waiheke-library-2</link>
+            <guid>http://localhost:3000/podcast/claudia-gunn-live-at-waiheke-library-2</guid>
+            <pubDate>Thu, 23 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Claudia Gunn writes and performs songs for children. She is a regular visitor to Waiheke Island. On...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/Claudia-Gunn-Live-Waiheke-Libray-May-2019.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+    </channel>
+</rss>

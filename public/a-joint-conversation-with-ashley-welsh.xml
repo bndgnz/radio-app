@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+        <title>A JOINT CONVERSATION WITH ASHLEY WELSH Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from A JOINT CONVERSATION WITH ASHLEY WELSH - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Tue, 23 Jan 2024 03:06:39 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>A JOINT CONVERSATION WITH ASHLEY WELSH Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[A Joint Conversation With JP Fouche]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-jp-fouche</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-jp-fouche</guid>
+            <pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to Waiheke locals – this week refrigeration and air conditioning engineer JP Fou...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/joint-conversations-jp-fouche.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Mat Carpenter  Chris  SEPTEMBER 17, 2020]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-mat-carpenter-chris-september-17-2020</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-mat-carpenter-chris-september-17-2020</guid>
+            <pubDate>Thu, 17 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to Mat Carpenter from Charlie Farley’s]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/joint-conversation-mat-carpenter.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Brendan Harris]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-brendan-harris</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-brendan-harris</guid>
+            <pubDate>Thu, 13 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to the new head chef of Wild On Waiheke, Brendan Harris]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/joint-conversation-brendan-harris.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Amelia Lawley]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-amelia-lawley</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-amelia-lawley</guid>
+            <pubDate>Wed, 02 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Amelia Lawley from Waiheke Budgeting Service]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/joint-conversation-amelia-lawley.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Joel Larson]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-joel-larson</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-joel-larson</guid>
+            <pubDate>Thu, 14 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Joel Larson, owner of Tacos Y Masa, now operating out of Artworks Theatre h...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/joel-larson-conversations-11-01-21.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Tommy Pickett  Chris  OCTOBER 19, 2020]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-tommy-pickett-chris-october-19-2020</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-tommy-pickett-chris-october-19-2020</guid>
+            <pubDate>Mon, 19 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to local musician Tommy Pickett]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-tommy-pickett.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Steve Fortune]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-steve-fortune</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-steve-fortune</guid>
+            <pubDate>Mon, 15 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to Steve Fortune]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/Conversations-Steve-Fortune-15-03-21.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Sandi Bezzant]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-sandi-bezzant</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-sandi-bezzant</guid>
+            <pubDate>Sun, 04 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with long-standing Waiheke Radio presenter Sandi Bezzant]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-sandi-bezzant.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Ryan Patterson ]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-ryan-patterson</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-ryan-patterson</guid>
+            <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Ryan Patterson]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-ryan-patterson-08-02-21.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Rachel Fleming ]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-rachel-fleming</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-rachel-fleming</guid>
+            <pubDate>Mon, 01 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to Rachel Fleming]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-rachel-fleming.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Patience Scarles]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-patience-scarles</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-patience-scarles</guid>
+            <pubDate>Mon, 12 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Patience Scarles]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-patience-scarles-05-04-21.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Morgan Sobanja]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-morgan-sobanja</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-morgan-sobanja</guid>
+            <pubDate>Tue, 27 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Morgan Sobanja]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-morgan-sobanja.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Morgan Jones]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-morgan-jones</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-morgan-jones</guid>
+            <pubDate>Tue, 13 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to WDC security guard Morgan Jones]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-morgan-jones.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Maria Ines Pereyra]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-maria-ines-pereyra</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-maria-ines-pereyra</guid>
+            <pubDate>Sat, 28 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to Maria Ines Pereyra]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-maria-ines-pereyra.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Malcom McMoretone]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-malcom-mcmoretone</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-malcom-mcmoretone</guid>
+            <pubDate>Mon, 03 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Waiheke musician and music teacher Malcom McMoretone.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-malcolm-mcmoretone.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Maggie Dray]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-maggie-dray</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-maggie-dray</guid>
+            <pubDate>Mon, 15 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Maggie Dray]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/Conversations-Maggie-Dray-15-03-21.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Luke Andrews ]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-luke-andrews</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-luke-andrews</guid>
+            <pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Luke Andrews]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-luke-andrews-24-05-21.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Podcast With Lalo Sanchez]]></title>
+            <link>http://localhost:3000/podcast/a-joint-podcast-with-lalo-sanchez</link>
+            <guid>http://localhost:3000/podcast/a-joint-podcast-with-lalo-sanchez</guid>
+            <pubDate>Sat, 24 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Lalo Sanchez]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-lalo-sanchez-19-04-21.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Katy Soljak]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-katy-soljak</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-katy-soljak</guid>
+            <pubDate>Tue, 13 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to Waiheke musician Katy Soljak, and she brought her guitar!]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-katy-soljak.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Karl Davies]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-karl-davies</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-karl-davies</guid>
+            <pubDate>Sat, 07 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to Karl Davies]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-karl-davies.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Helen Carter ]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-helen-carter</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-helen-carter</guid>
+            <pubDate>Sat, 12 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Helen Carter from Onetangi restaurant and venue 372]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-helen-carter.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Harley Salter: The Return ]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-harley-salter-the-return</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-harley-salter-the-return</guid>
+            <pubDate>Tue, 13 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh has a second conversation with Harley Salter]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-harry-salter-two.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Harry Salter (Part Three) ]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-harry-salter-part-three</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-harry-salter-part-three</guid>
+            <pubDate>Sat, 01 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Harry Salter is back for a third conversation with Ashley Welsh]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-harry-salter-three-26-04-21.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Charlie Robertson  Chris  MAY 22, 2021]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-charlie-robertson-chris-may-22-2021</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-charlie-robertson-chris-may-22-2021</guid>
+            <pubDate>Sun, 22 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Charlie Robertson]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/Conversations-charlie-robertson-17-05-21.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Ben Kara]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-ben-kara</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-ben-kara</guid>
+            <pubDate>Mon, 17 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to local muso Ben Kara]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-ben-kara-10-05-21.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Andres Poggi Mastrokalo]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-andres-poggi-mastrokalo</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-andres-poggi-mastrokalo</guid>
+            <pubDate>Sun, 24 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to island legend and funny man Andres Poggi Mastrokalo]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-Andres-Poggi-Mastrokalo.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Marco Edwardes]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-marco-edwardes</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-marco-edwardes</guid>
+            <pubDate>Sat, 05 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Marco Edwardes]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-31-05-21-marco-edwardes.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Aaron Carpenter]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-aaron-carpenter</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-aaron-carpenter</guid>
+            <pubDate>Mon, 29 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks to local music legend Aaron Carpenter https://aaroncarpentertherevelators1.bandc...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-29-03-21-aaron-carpenter.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Bonnie MacGregor]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-bonnie-macgregor</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-bonnie-macgregor</guid>
+            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Waiheke super mum Bonnie MacGregor]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-26-07-21-bonnie-macgregor.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Georgie Young]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-georgie-young</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-georgie-young</guid>
+            <pubDate>Sat, 24 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Georgie Young of Sisters Carpentry https://sisterscarpentry.co.nz/]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-19-07-21-georgie-young.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Tamara Pendola – Lilith Cakes]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-tamara-pendola-lilith-cakes</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-tamara-pendola-lilith-cakes</guid>
+            <pubDate>Thu, 19 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Tamara Péndola from Lilith Cakes https://lilithwaiheke.co.nz/]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-16-08-21-tamara-pendola.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Derek Solomon]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-derek-solomon</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-derek-solomon</guid>
+            <pubDate>Sat, 14 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Waiheke musician Derek Solomon]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-09-08-21-derek-solomon.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Ami Cusack]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-ami-cusack</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-ami-cusack</guid>
+            <pubDate>Sat, 08 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Ami Cusack]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-03-05-21-ami-cusack.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[A Joint Conversation With Lizzy Barker]]></title>
+            <link>http://localhost:3000/podcast/a-joint-conversation-with-lizzy-barker</link>
+            <guid>http://localhost:3000/podcast/a-joint-conversation-with-lizzy-barker</guid>
+            <pubDate>Tue, 08 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ashley Welsh talks with Lizzy Barker]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/a-joint-conversation-lizzy-barker.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+    </channel>
+</rss>

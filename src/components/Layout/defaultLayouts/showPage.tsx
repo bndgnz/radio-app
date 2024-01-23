@@ -2,10 +2,10 @@ import Playlist from "@/src/components/Layout/components/playlist";
 import Staff from "@/src/components/Layout/components/staff";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { BLOCKS, INLINES } from "@contentful/rich-text-types";
+import { MdRssFeed } from 'react-icons/md';
 
 function Showpage(props: any) {
   const showlink = props.props.type.showUrl;
- 
   function ShowPlaylist() {
     if (props.props.type.playlistUrl) {
       return (
@@ -75,10 +75,25 @@ function Showpage(props: any) {
           <div className="col-lg-3 col-sm-12  show-page-left-col">
             {" "}
             <Dates />
+ 
+            {props.props.type.rss ? (
+              <>
+               
+
+ RSS: <a href={process.env.NEXT_PUBLIC_SITE_URL+"/"+props.props.type.slug+".xml"} title="Subscribe to the RSS feed for this show" target="_blank"><MdRssFeed color="#ee802f" size="80px" />  </a>
+ 
+ </>
+                  ) : null}
+
+
+
+
           </div>
         </div>
 
         <div className="row">
+       
+
           <div className="col-12 ">
             <Staff dj={props.props.type.dj} />
 

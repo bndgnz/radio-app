@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+        <title>THE ANYTHING ARTY SHOW Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from THE ANYTHING ARTY SHOW - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Tue, 23 Jan 2024 03:06:39 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>THE ANYTHING ARTY SHOW Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[The Anything Arty Show June 30th 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-june-30th-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-june-30th-2011</guid>
+            <pubDate>Thu, 30 Jun 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we had; a story from Waiheke Adult Literacy 2010 Programme Words, a conversation with Sus...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_4.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty - Interview with Artrist Goldsmith Part 1]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</link>
+            <guid>http://localhost:3000/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</guid>
+            <pubDate>Thu, 22 Sep 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[An opportunity to listen to a conversation with Christine Hafermalz Wheeler, her husband David and ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/e-artist-goldsmith-part-1.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty - The Artists Goldsmith Interview]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-the-artists-goldsmith-interview</link>
+            <guid>http://localhost:3000/podcast/anything-arty-the-artists-goldsmith-interview</guid>
+            <pubDate>Thu, 29 Sep 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Part 2 of an interview with Christine Hafermalz Wheeler, the Artist Goldsmith, sponsor of Waiheke R...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/artist-goldsmith-part-2.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[THE ANYTHING ARTY SHOW FEB 9TH]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-feb-9th</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-feb-9th</guid>
+            <pubDate>Thu, 09 Feb 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks arty show introduces new host Eve Bon and we looked at guns as a means of peace, the art...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_30.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[THE ANYTHING ARTY SHOW JAN 12 2012]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-jan-12-2012</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-jan-12-2012</guid>
+            <pubDate>Thu, 12 Jan 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week a conversation with Chilean artist Margarita Degorret, a chance to hear from BMW design c...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_29.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty Show Jan 5 2012]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-show-jan-5-2012</link>
+            <guid>http://localhost:3000/podcast/anything-arty-show-jan-5-2012</guid>
+            <pubDate>Thu, 05 Jan 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week: Comment on Fiona Pardington’s New Zealand Arts Foundation Laureate Award,
+Incubator inte...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_28.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[THE ANYTHING ARTY SHOW DEC 15 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</guid>
+            <pubDate>Thu, 15 Dec 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we heard from Isabel Allende sharing her view of passion and Kara Gordon playing his 3500...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_27.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show John Hawkesby]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-john-hawkesby</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-john-hawkesby</guid>
+            <pubDate>Thu, 01 Dec 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[John Hawkesby interview]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_26.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show Dec 8 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-dec-8-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-dec-8-2011</guid>
+            <pubDate>Thu, 08 Dec 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we had conversations with James Clairmont from Waiheke Island Cheese Company on the art o...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_25.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show November 24th 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-november-24th-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-november-24th-2011</guid>
+            <pubDate>Thu, 24 Nov 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we heard from Dr. Naif Al-Mutawa talking about his creation The 99 a new breed of comic b...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_24.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show November 17th 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-november-17th-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-november-17th-2011</guid>
+            <pubDate>Thu, 17 Nov 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Another chance to listen to This weeks show with a conversation with Jenny Nicholls of the fabulous...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_23.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show November 10th 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-november-10th-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-november-10th-2011</guid>
+            <pubDate>Thu, 10 Nov 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we had a conversation with Eve Bon, a new(ish) island artist talking about her passion fo...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_22.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show November 3rd 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-november-3rd-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-november-3rd-2011</guid>
+            <pubDate>Thu, 03 Nov 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we had excerpts from Icelands Library of Water writers in residence, reading from their w...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_21.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show October 27th 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-october-27th-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-october-27th-2011</guid>
+            <pubDate>Thu, 27 Oct 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear from Geraldine O’Sullivan Beere talking about the words on a Small Island book fes...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_20.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show October 20th 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-october-20th-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-october-20th-2011</guid>
+            <pubDate>Thu, 20 Oct 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week a world watch conversation with SoJo in Berlin, a conversation with Stéphane Hessel autho...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_19.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show October 13 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-october-13-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-october-13-2011</guid>
+            <pubDate>Thu, 13 Oct 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week a conversation with Rhiannon Boelens on Terry Pratchett’s writing, terry Pratchett speaki...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_18.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show Sept 29th 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-sept-29th-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-sept-29th-2011</guid>
+            <pubDate>Thu, 29 Sep 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we had the second part of a conversation with the Artist Goldsmith, comments from visitor...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_17.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show Sept 22nd 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-sept-22nd-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-sept-22nd-2011</guid>
+            <pubDate>Thu, 22 Sep 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we’ve got part 1 of a 2 part conversation with Christine Hafermalz-Wheeler, her husband D...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_16.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show Sept 15th 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-sept-15th-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-sept-15th-2011</guid>
+            <pubDate>Thu, 15 Sep 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we had a conversation with Island Artist Ingrid Berzins, and heard from Evelyn Glennie an...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_15.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show Sept 8th 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-sept-8th-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-sept-8th-2011</guid>
+            <pubDate>Thu, 08 Sep 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week amid memory loss and in-attention we managed to hear; Arianna Huffington’s big idea, Slee...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_14.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show September 1 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-september-1-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-september-1-2011</guid>
+            <pubDate>Thu, 01 Sep 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week was book week with guest Rhiannon Boelens. Rhiannon talked about two audio books she had ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_13.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty Show August 25th 2011]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-show-august-25th-2011</link>
+            <guid>http://localhost:3000/podcast/anything-arty-show-august-25th-2011</guid>
+            <pubDate>Thu, 25 Aug 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we heard from; Bill Cunningham in New York, Waiheke Artist Barry C Holland, Roger Ingerto...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_12.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[ANYTHING ARTY SHOW AUGUST 18 2011]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-show-august-18-2011</link>
+            <guid>http://localhost:3000/podcast/anything-arty-show-august-18-2011</guid>
+            <pubDate>Thu, 18 Aug 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Tonight we heard from Chris Saines on the opening of Auckland Art Gallery, Peter Gabriel on his Wit...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_11.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[ANYTHING ARTY SHOW AUGUST 11 2011]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-show-august-11-2011</link>
+            <guid>http://localhost:3000/podcast/anything-arty-show-august-11-2011</guid>
+            <pubDate>Thu, 11 Aug 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we had the second part of our conversation with Lyndal Jefferies of teh Red Shed and we h...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_10.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[ANYTHING ARTY SHOW AUGUST 4 2011]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-show-august-4-2011</link>
+            <guid>http://localhost:3000/podcast/anything-arty-show-august-4-2011</guid>
+            <pubDate>Thu, 04 Aug 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[ANYTHING ARTY SHOW AUGUST 4 2011]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_8.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[ANYTHING ARTY SHOW JULY 21 2011]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-show-july-21-2011</link>
+            <guid>http://localhost:3000/podcast/anything-arty-show-july-21-2011</guid>
+            <pubDate>Thu, 21 Jul 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[ANYTHING ARTY SHOW JULY 21 2011]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_7.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[ANYTHING ARTY SHOW JULY 14 2011]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-show-july-14-2011</link>
+            <guid>http://localhost:3000/podcast/anything-arty-show-july-14-2011</guid>
+            <pubDate>Thu, 14 Jul 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[ANYTHING ARTY SHOW JULY 14 2011]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_6.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[ANYTHING ARTY SHOW JULY 28TH]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-show-july-28th</link>
+            <guid>http://localhost:3000/podcast/anything-arty-show-july-28th</guid>
+            <pubDate>Thu, 28 Jul 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week was poetry week featuring two New Zealand poet laureates Michelle Leggott and Cilla McQue...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_9.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty Show July 7 2011]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-show-july-7-2011</link>
+            <guid>http://localhost:3000/podcast/anything-arty-show-july-7-2011</guid>
+            <pubDate>Thu, 07 Jul 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we had a stimulating conversation with Rhiannan Beolens from our community library about ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_5.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[THE ANYTHING ARTY SHOW JUNE 23RD 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-june23rd-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-june23rd-2011</guid>
+            <pubDate>Thu, 23 Jun 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we had a conversation with Elizabeth Eastmond from Tivoli on the Bash Street Kids , we he...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_3.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty. Conversation With Elizabeth Eastmond]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-conversation-with-elizabeth-eastmond</link>
+            <guid>http://localhost:3000/podcast/anything-arty-conversation-with-elizabeth-eastmond</guid>
+            <pubDate>Thu, 23 Jun 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[A conversation with Tivoli’s  Elizabeth Eastmond about The Bash Street Kids exhibitionand a book fo...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/liz-tivoli-june-1.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show June 16 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-june-16-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-june-16-2011</guid>
+            <pubDate>Thu, 16 Jun 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we were all over the place cramming in as much as I could. We had a report from Asia Down...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_2.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty Show June 9 2011]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-show-june-9-2011</link>
+            <guid>http://localhost:3000/podcast/anything-arty-show-june-9-2011</guid>
+            <pubDate>Thu, 09 Jun 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week was book week with reviews of Australian author Kate Morton’s latest book The Distant Hou...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_1.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[THE ANYTHING ARTY SHOW JUNE 2ND 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-june-2nd-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-june-2nd-2011</guid>
+            <pubDate>Thu, 02 Jun 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to listen again to Thursday’s show with conversations with Jacqueline from The Red Shed, L...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_0.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[ANYTHING ARTY SHOW MAY26TH 2011]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-show-may26th-2011</link>
+            <guid>http://localhost:3000/podcast/anything-arty-show-may26th-2011</guid>
+            <pubDate>Thu, 26 May 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we’ve a conversation with artist Kim Wesney on the Waiheke Winter Art Festival and also w...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+    </channel>
+</rss>

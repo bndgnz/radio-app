@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+        <title>B COPY AND BULLDOGS Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from B COPY AND BULLDOGS - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Tue, 23 Jan 2024 03:06:39 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>B COPY AND BULLDOGS Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS MAY 1 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-may-1-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-may-1-2011</guid>
+            <pubDate>Sun, 01 May 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is it,. The last show for a while and plenty of stories to choose from. Some of the selection ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_40.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS APRIL 24 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-april-24-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-april-24-2011</guid>
+            <pubDate>Sun, 24 Apr 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guests once again are The News QUiz team and John Clarke  and  Bryan Dawe. Some of the t...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_39.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS APRIL 17 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-april-17-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-april-17-2011</guid>
+            <pubDate>Sun, 17 Apr 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guests are The News QUiz team and John Clarke  and  Bryan Dawe. Some of the topics cover...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_38.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-Copy  and  Bulldogs April 10 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-april-10-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-april-10-2011</guid>
+            <pubDate>Sun, 10 Apr 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guests are Nicola Kean  and  Sean Gillespie in a Skype link up from New York. Some of th...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_37.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS APRIL 3 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-april-3-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-april-3-2011</guid>
+            <pubDate>Sun, 03 Apr 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guest is Greg Treadwell.  Some of the topics covered were; Photos of journalists, Headli...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_36.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS MARCH 27 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-march-27-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-march-27-2011</guid>
+            <pubDate>Sun, 27 Mar 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guest is Simon Harvey of BusinessLab.  Some of the topics covered were; Impact of rising...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_35.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS MARCH 20 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-march-20-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-march-20-2011</guid>
+            <pubDate>Sun, 20 Mar 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guest is Peta Stavelli on her final show as she heads home to Tasmania for a year. Some ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_34.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS MARCH 13 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-march-13-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-march-13-2011</guid>
+            <pubDate>Sun, 13 Mar 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guest is Damien Smith and some of the topics covered were; Stars inYour Eyes, Disaster f...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_33.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS MARCH 6 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-march-6-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-march-6-2011</guid>
+            <pubDate>Sun, 06 Mar 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Virtual guests today and another rant from me about such things as; Middle East Watch, History of a...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_32.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS FEB 27TH 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-feb-27th-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-feb-27th-2011</guid>
+            <pubDate>Sun, 27 Feb 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Virtual guests today and a rant from me about such things as; When ‘important news becomes trivial,...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_31.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS FEB 20TH 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-feb-20th-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-feb-20th-2011</guid>
+            <pubDate>Sun, 20 Feb 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Todays guest is Peta Stavelli freelance media specialist and editor of Waiheke Weekender. Topics co...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_30.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS FEB 13TH 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-feb-13th-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-feb-13th-2011</guid>
+            <pubDate>Sun, 13 Feb 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Todays guest is AUT Journalism lecturer, journalist and newspaper editor, Greg Treadwell. Topics co...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_29.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS WAITANGI DAY FEB 6 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-waitangi-day-feb-6-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-waitangi-day-feb-6-2011</guid>
+            <pubDate>Sun, 06 Feb 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Todays guest is Social Entrepreneur  and  International Business Mentor Damien Smith. Topics covere...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_28.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS JAN 30 2011]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-jan-30-2011</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-jan-30-2011</guid>
+            <pubDate>Sun, 30 Jan 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Yes, were back. B-Copy  and  Bulldogs returns to the airwaves for 2011.
+
+This week is a guest free ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_27.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-Copy  and  Bulldogs Boxing Day Special]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-boxing-day-special</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-boxing-day-special</guid>
+            <pubDate>Sun, 26 Dec 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[The boxing day special has Peta Stavelli, Brent Simpson, Greg Treadwell and Simon Harvey gathered r...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_22.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS DECEMBER 19TH]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-december-19th</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-december-19th</guid>
+            <pubDate>Sun, 19 Dec 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guest Shirin Brown. Topics covered included.  Wikileaks, Oprah v New South Wales power s...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_21.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS DECEMBER 12TH FROM NEW YORK]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-december-12th-from-new-york</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-december-12th-from-new-york</guid>
+            <pubDate>Sun, 12 Dec 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guests were Sean and Nicola Gillespie live, from New York. Topics covered included: Xmas...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_19.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS DECEMBER 5TH]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-december-5th</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-december-5th</guid>
+            <pubDate>Sun, 05 Dec 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Guest this week Damien Smith. Stories covered included: Airport lights, Buying Ireland, What to buy...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_18.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS NOVEMBER 28TH]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-november-28th</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-november-28th</guid>
+            <pubDate>Sun, 28 Nov 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guest Brent Simpson. Topics covered Twitter, Role of social media in news, I Pad and edu...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_17.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS NOV 21ST]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-nov-21st</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-nov-21st</guid>
+            <pubDate>Sun, 21 Nov 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guest Peta Stavelli. Some of the topics we covered were: Pike River, Wills  and  Kate, B...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_16.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS NOVEMBER 14TH]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-november-14th</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-november-14th</guid>
+            <pubDate>Sun, 14 Nov 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guest Greg Treadwell. Topics covered this week included; misleading headlines, misquoted...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_15.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS NOVEMBER 7TH]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-november-7th</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-november-7th</guid>
+            <pubDate>Sun, 07 Nov 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[This Week the show was broadcast from a portable studio in Martinborough with virtual guests from t...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_14.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS OCTOBER 31ST]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-october-31st</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-october-31st</guid>
+            <pubDate>Sun, 10 Oct 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guest, Simon Harvey. Stories ranged from environment, sustainability, local  board, The ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_13.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS OCT 24TH]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-oct-24th</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-oct-24th</guid>
+            <pubDate>Sun, 24 Oct 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks guest, Damien Smith]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_11.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS OCT 17TH]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-oct-17th</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-oct-17th</guid>
+            <pubDate>Sun, 17 Oct 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week had ‘virtual guests’ News Quiz panellists Jeremy Hardy, Mark Steele, Gile Brandrith and S...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_9.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS OCTOBER 10TH LIVE LINK UP FROM NEW YORK]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-october-10th-live-link-up-from-new-york</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-october-10th-live-link-up-from-new-york</guid>
+            <pubDate>Sun, 10 Oct 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Latest podcast. Guests this week Waiheke Islanders Sean  and  Nicola Gillespie in a live link up fr...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_8.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS OCTOBER 3 2010]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-october-3-2010</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-october-3-2010</guid>
+            <pubDate>Sun, 03 Oct 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Download latest show. Guest this week, Shirin Brown]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_7.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS SEPTEMBER 26TH 2010]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-september-26th-2010</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-september-26th-2010</guid>
+            <pubDate>Sun, 26 Sep 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Latest show September 26th. This weeks guest, Me!]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_6.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS SEPTEMBER 19]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-september-19</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-september-19</guid>
+            <pubDate>Sun, 19 Sep 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Latest show September 19th. This weeks guest, Greg Treadwell]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_5.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS SEPTEMBER 12]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-september-12</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-september-12</guid>
+            <pubDate>Sun, 12 Sep 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Latest show September 12th. This weeks guest Peta Stavelli]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_4.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS SEPTEMBER 5TH 2010]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-september-5th-2010</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-september-5th-2010</guid>
+            <pubDate>Sun, 05 Sep 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Latest show September 5th 2010. Guest Damien Smith]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_3.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS AUGUST 29TH 2010]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-august-29th-2010</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-august-29th-2010</guid>
+            <pubDate>Sun, 29 Aug 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Latest show August 29th 2010. This weeks guest. CountryMike]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_2.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS AUGUST 22ND]]></title>
+            <link>http://localhost:3000/podcast/b-copy-and-bulldogs-august-22nd</link>
+            <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-august-22nd</guid>
+            <pubDate>Sun, 22 Aug 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Latest Show August 22nd 2010. The guest this week was Greg Treadwell.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_1.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[B-COPY  and  BULLDOGS AUGUST 15]]></title>
+            <link>http://localhost:3000/podcast/b-copy-bulldogs-august-15</link>
+            <guid>http://localhost:3000/podcast/b-copy-bulldogs-august-15</guid>
+            <pubDate>Sun, 15 Aug 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[B-Copy  and  Bulldogs August 15]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_0.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+    </channel>
+</rss>

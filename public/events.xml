@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+        <title>EVENTS Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from EVENTS - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Tue, 23 Jan 2024 03:06:40 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>EVENTS Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[WOW By Name WOW By Nature!!! The World Of Wearable Art Takes Wellington By Storm]]></title>
+            <link>http://localhost:3000/podcast/wow-by-name-wow-by-nature-the-world-of-wearable-art-takes-wellington-by</link>
+            <guid>http://localhost:3000/podcast/wow-by-name-wow-by-nature-the-world-of-wearable-art-takes-wellington-by</guid>
+            <pubDate>Tue, 09 Oct 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hear Jenny Bennett and Katy Soljak chat about their experiences at the amazing 2012 World of Wearab...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/WOW-2012.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Counting The Beat Silver Scrolls Special 2008]]></title>
+            <link>http://localhost:3000/podcast/counting-the-beat-silver-scrolls-special-2008</link>
+            <guid>http://localhost:3000/podcast/counting-the-beat-silver-scrolls-special-2008</guid>
+            <pubDate>Mon, 22 Sep 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Silver Scrolls are New Zealand’s premier song-writing competition. Run by APRA the awards are b...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/SilverScrolls2008_64kb.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mike Lee: Navigators And Naturalists]]></title>
+            <link>http://localhost:3000/podcast/mike-lee-navigators-and-naturalists</link>
+            <guid>http://localhost:3000/podcast/mike-lee-navigators-and-naturalists</guid>
+            <pubDate>Sun, 10 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Waitemata councillor Mike Lee (pictured left) has just published a book, Navigators and Naturalists...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/mike-lee-waiheke-library-9-amr-2019.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Midwinter Dip Interviews]]></title>
+            <link>http://localhost:3000/podcast/midwinter-dip-interviews</link>
+            <guid>http://localhost:3000/podcast/midwinter-dip-interviews</guid>
+            <pubDate>Tue, 22 Jun 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Well done! Here’s the podcast – Mitch from St Johns on what it’s for, Chris on getting wet, Gina on...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/midwinterdip64.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Reminiscing About Waiheke – International Day Of The Older Person 2010]]></title>
+            <link>http://localhost:3000/podcast/reminiscing-about-waiheke-international-day-of-the-older-person-2010</link>
+            <guid>http://localhost:3000/podcast/reminiscing-about-waiheke-international-day-of-the-older-person-2010</guid>
+            <pubDate>Wed, 06 Jun 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[From the Waiheke Radio archives – this is a recording from 2010. The Waiheke Library marked Aucklan...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/International-day-of-the-older-person-2010.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Reminiscing About Waiheke History As Part Of Auckland Heritage Week]]></title>
+            <link>http://localhost:3000/podcast/reminiscing-about-waiheke-history-as-part-of-auckland-heritage-week</link>
+            <guid>http://localhost:3000/podcast/reminiscing-about-waiheke-history-as-part-of-auckland-heritage-week</guid>
+            <pubDate>Sat, 02 Oct 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[On Saturday October the 2nd, as part of Auckland’s Heritage Week and  the ‘International Day Of The...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/International-day-of-the-older-person.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Hooper Live At Waiheke Radio]]></title>
+            <link>http://localhost:3000/podcast/hooper-live-at-waiheke-radio</link>
+            <guid>http://localhost:3000/podcast/hooper-live-at-waiheke-radio</guid>
+            <pubDate>Sat, 26 May 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Waiheke Library’s NZ Music Month performance series concluded with a great set from Hooper (Nikki N...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/HooperWaihekeLibraryEdit.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Waiheke Book Festival]]></title>
+            <link>http://localhost:3000/podcast/the-waiheke-book-festival</link>
+            <guid>http://localhost:3000/podcast/the-waiheke-book-festival</guid>
+            <pubDate>Thu, 27 Oct 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[  A chance to hear from Geraldine O’Sullivan Beere talking about the words on a Small Island book f...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/geraldine-osullivan-beere-book-festival.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Auckland City Councillors Accept The Roger Award 22 May, 2010]]></title>
+            <link>http://localhost:3000/podcast/auckland-city-councillors-accept-the-roger-award-22-may-2010</link>
+            <guid>http://localhost:3000/podcast/auckland-city-councillors-accept-the-roger-award-22-may-2010</guid>
+            <pubDate>Tue, 25 May 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Waiheke Finally Presented the Roger Award to Auckland City Councillors Cathy Casey, Denise Roche, a...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/Council-gets-Roger-Awards-22-May-2010.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Chris Saines On The Auckland Art Gallery Opening]]></title>
+            <link>http://localhost:3000/podcast/chris-saines-on-the-auckland-art-gallery-opening</link>
+            <guid>http://localhost:3000/podcast/chris-saines-on-the-auckland-art-gallery-opening</guid>
+            <pubDate>Thu, 18 Aug 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[An opportunity to hear an interview with Chris Saines Director of Auckland Art Gallery on the galle...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/Auckland-Art-Gallery-reveals-opening-date.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+    </channel>
+</rss>

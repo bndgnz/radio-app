@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+        <title>THE WORLD ACCORDING TO JUAN Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from THE WORLD ACCORDING TO JUAN - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Tue, 23 Jan 2024 03:06:40 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>THE WORLD ACCORDING TO JUAN Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[The World According To Juan #1]]></title>
+            <link>http://localhost:3000/podcast/the-world-according-to-juan-1</link>
+            <guid>http://localhost:3000/podcast/the-world-according-to-juan-1</guid>
+            <pubDate>Tue, 17 Dec 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Juan sends his apologies that he couldn’t make the show, which is kind of a bummer seeing as it was...]]></description>
+            <enclosure url="https://s3.ap-southeast-2.amazonaws.com/wr-recordings/podcasts/the-world-according-to-juan/juan1.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[THE WORLD ACCORDING TO JUAN #2]]></title>
+            <link>http://localhost:3000/podcast/the-world-according-to-juan-2</link>
+            <guid>http://localhost:3000/podcast/the-world-according-to-juan-2</guid>
+            <pubDate>Sat, 21 Dec 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[While Juan makes his way to Christmas in Honduras the guys talk weird and wordly Xmas traditions, g...]]></description>
+            <enclosure url="https://s3.ap-southeast-2.amazonaws.com/wr-recordings/podcasts/the-world-according-to-juan/juan2.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The World According To Juan #3]]></title>
+            <link>http://localhost:3000/podcast/the-world-according-to-juan-3</link>
+            <guid>http://localhost:3000/podcast/the-world-according-to-juan-3</guid>
+            <pubDate>Tue, 14 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[We talk #MEGXIT of course, Drone Assassination Awareness Week (Feb 26th to March 3rd), and the Elep...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-world-according-to-juan/juan3.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The World According To Juan #4]]></title>
+            <link>http://localhost:3000/podcast/the-world-according-to-juan-4</link>
+            <guid>http://localhost:3000/podcast/the-world-according-to-juan-4</guid>
+            <pubDate>Thu, 21 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Our final podcast of Season 1 has arrived for your listening pleasure! We talk about Juan’s politic...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-world-according-to-juan/juan4.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+    </channel>
+</rss>

@@ -4,7 +4,7 @@ import { IShowsFields } from "@/src/@types/contentful";
 import ContentService from "@/src/utils/content-service";
 import Seo from "@/src/components/Layout/components/seo"
 import Layout from "@/src/components/Layout";
- 
+import generateRssFeed from '@/src/utils/generateRSSFeed';
 
 interface Props {
   showPage: IShowsFields;
@@ -24,6 +24,7 @@ const ShowPage: NextPage<Props> = ({
     showUrl,
     sponsor,
     slug,
+    rss
   },
 }) => (
   <><Seo title={title} description={introduction} />
@@ -41,6 +42,7 @@ const ShowPage: NextPage<Props> = ({
       showUrl={showUrl}
       sponsor={sponsor}
       slug={slug}
+      rss={rss}
     ></Layout>
   </>
 );
@@ -51,6 +53,12 @@ export const getStaticProps: GetStaticProps<Props, { slug: string }> = async (
   ctx
 ) => {
   const { slug } = ctx.params!;
+
+  const rssArr = ['allPosts', slug, 'C', 'D'];
+ 
+ 
+  await generateRssFeed(rssArr);
+  
   const showPage = await ContentService.instance.getShowPageBySlug(slug);
   if (!showPage) {
     return { notFound: true };

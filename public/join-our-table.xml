@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+        <title>JOIN OUR TABLE Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from JOIN OUR TABLE - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Tue, 23 Jan 2024 03:06:40 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>JOIN OUR TABLE Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[Join Our Table With Gene  and  Jane]]></title>
+            <link>http://localhost:3000/podcast/join-our-table-with-gene-and-jane</link>
+            <guid>http://localhost:3000/podcast/join-our-table-with-gene-and-jane</guid>
+            <pubDate>Tue, 04 Dec 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Join our Table brings fresh schnapper and toffee coated meringues to the table of Island Coffee’s J...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/join-our-table/JOT-jane-burn-island-coffee-island-coffee-roastery-espresso-bar.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Join Our Table With Gene  and  Nigel]]></title>
+            <link>http://localhost:3000/podcast/join-our-table-with-gene-and-nigel</link>
+            <guid>http://localhost:3000/podcast/join-our-table-with-gene-and-nigel</guid>
+            <pubDate>Tue, 20 Nov 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Join our Table brings the dishes of Turkey  and  Morocco to your radio. Join Gene’s guest Nigel Rob...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/join-our-table/Join-Our-Table-Nov-20-podcast.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Join Our Table With Guest Paul Rutherford]]></title>
+            <link>http://localhost:3000/podcast/join-our-table-with-guest-paul-rutherford</link>
+            <guid>http://localhost:3000/podcast/join-our-table-with-guest-paul-rutherford</guid>
+            <pubDate>Tue, 18 Dec 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again Join Our Table host Gene O’Neill chat with islander Paul Rutherford about fo...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/join-our-table/JOT-Paul-Rutherford-dec-18.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Join Our Table With Gene And Alessandro]]></title>
+            <link>http://localhost:3000/podcast/join-our-table-with-gene-and-alessandro</link>
+            <guid>http://localhost:3000/podcast/join-our-table-with-gene-and-alessandro</guid>
+            <pubDate>Tue, 15 Jan 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again Join Our Table host Gene O’Neill chat with Alessandro from Franco’s Bakeries...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/join-our-table/JOT-Alessandro-Francos-Italian-Bakery-Jan-15-.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Join Our Table With Gene And Carl ]]></title>
+            <link>http://localhost:3000/podcast/join-our-table-with-gene-and-carl</link>
+            <guid>http://localhost:3000/podcast/join-our-table-with-gene-and-carl</guid>
+            <pubDate>Tue, 29 Jan 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again Join Our Table host Gene O’Neill chatting with Carl Phiske of Island Thyme a...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/join-our-table/jot-carl-phiske-Island-Thyme.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+    </channel>
+</rss>
