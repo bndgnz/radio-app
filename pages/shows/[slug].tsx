@@ -24,6 +24,7 @@ const ShowPage: NextPage<Props> = ({
     showUrl,
     sponsor,
     slug,
+    rss
   },
 }) => (
   <><Seo title={title} description={introduction} />
@@ -41,6 +42,7 @@ const ShowPage: NextPage<Props> = ({
       showUrl={showUrl}
       sponsor={sponsor}
       slug={slug}
+      rss={rss}
     ></Layout>
   </>
 );

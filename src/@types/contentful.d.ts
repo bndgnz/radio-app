@@ -921,6 +921,8 @@ export interface IShowsFields {
   /** DJ */
   dj: IStaff[];
 
+  rss?: boolean | undefined;
+
   /** Components */
   components?:
     | (
