@@ -12,13 +12,13 @@ const rssFileName =  "./public/rss.xml";
  
 let rssShowTitle;
 
- rssShowTitle= props[1].replaceAll("-"," ").toUpperCase() ; 
+ rssShowTitle= props[0].replaceAll("-"," ")  ; 
   const truncate = (input) =>
   input?.length > 100 ? `${input.substring(0, 99)}...` : input;
 
   const feedOptions = {
   title: rssShowTitle +" Podcasts | RSS Feed",
-  description:"All Podcasts from " +rssShowTitle+" - Waiheke Radio, New Zealand",
+  description:"All Podcasts from " +rssShowTitle+" - New Zealand",
   id: site_url,
   link: site_url,
   image: `${site_url}/logo.png`,

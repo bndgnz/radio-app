@@ -60,9 +60,11 @@ posts.items.forEach((post) => {
   feed.addItem({
     title: post.fields.title.replaceAll("&", " and "),
     link: `${site_url}/podcast/${post.fields.slug}`,
+   
     enclosure: post.fields.amazonUrl,
     description: truncate(post.fields.description.replaceAll("&", " and ")),
     date: new Date(post.fields.date),
+
 
   });
 });
