@@ -8,7 +8,7 @@ export default async function generateRssFeed(props) {
 const site_url =  process.env.NEXT_PUBLIC_SITE_URL;
 const rssFeedTitle = props[0];
 const rssFileLink = site_url+"/"+props[1]+".xml";
-const rssFileName =  "./public/"+props[1]+".xml";
+const rssFileName =  "./public/rss.xml";
  
 let rssShowTitle;
 
@@ -45,8 +45,6 @@ const posts = await client.getEntries({
   include: 10,
   content_type: "amazonPodcast",
   order: '-sys.createdAt',
-  "fields.show.fields.slug": props[1] ,
-  'fields.show.sys.contentType.sys.id': 'shows',
   locale: "en-US",
   limit: 50,
   

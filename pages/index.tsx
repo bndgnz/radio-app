@@ -3,7 +3,7 @@ import Head from "next/head";
 import { ILandingPageFields } from "../src/@types/contentful";
 import styles from "../styles/Home.module.css";
 import ContentService from "@/src/utils/content-service";
-import generateRssFeed from '@/src/utils/generateRSSFeed';
+import generateAllRssFeed from '@/src/utils/generateAllRSSFeed';
 
 
 import Layout from "@/src/components/Layout";
@@ -21,7 +21,7 @@ export const getStaticProps: GetStaticProps<Props> = async ({preview = false }) 
   const rssArr = ['Waiheke Radio', 'rss', 'C', 'D'];
  
  
-  await generateRssFeed(rssArr);
+  await generateAllRssFeed(rssArr);
 
   const articles = (
     await ContentService.instance.getEntriesByType<ILandingPageFields>(

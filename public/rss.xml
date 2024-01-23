@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
 <atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
-        <title>Waiheke Radio Podcasts | RSS Feed</title>
+        <title>RSS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
-        <description>NaNWaiheke Radio - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Tue, 23 Jan 2024 00:56:32 GMT</lastBuildDate>
+        <description>All Podcasts from RSS - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Tue, 23 Jan 2024 02:43:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>Waiheke Radio Podcasts | RSS Feed</title>
+            <title>RSS Podcasts | RSS Feed</title>
             <url>http://localhost:3000/logo.png</url>
             <link>http://localhost:3000</link>
         </image>
@@ -254,6 +254,167 @@ Photo cr...]]></description>
             <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to Mahesh Muralidhar, National candidate for Auckland Central]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-mahesh-muralidhar-16-09-2023.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Peeni Henare Candidate Interview]]></title>
+            <link>http://localhost:3000/podcast/peeni-henare-candidate-interview</link>
+            <guid>http://localhost:3000/podcast/peeni-henare-candidate-interview</guid>
+            <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Brent Simpson talks to Peeni Henare, Labour candidate for the Tamaki Makaurau electorate]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-peeni-henare-16-09-2023.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Chris Orange, Johnny Fleury  and  Steve Ingram Live at Waiheke Radio, May 2023]]></title>
+            <link>http://localhost:3000/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</link>
+            <guid>http://localhost:3000/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</guid>
+            <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Orange (bass), Johnny Fleury (chapman stick) and Steve Ingram (drums) perform live at Waiheke...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/chris-orange-johnny-fleury-steve-ingram-waiheke-library-27-may-2023.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Chloe Swarbrick Candidate Interview]]></title>
+            <link>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</link>
+            <guid>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</guid>
+            <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Chloe Swarbrick of the Green Party who is standing for re-election as the Auc...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Electorate-2023/island-life-04-09-2023-chloe-swarbrick.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Planters Live On Air ]]></title>
+            <link>http://localhost:3000/podcast/the-planters-live-on-air</link>
+            <guid>http://localhost:3000/podcast/the-planters-live-on-air</guid>
+            <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Planters, Live on Waiheke Radio 25/08/2023]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/The%20Planters-Biodiversity-and-Jamming-out-Live-on-air-25-08-2023.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Darleen Tana Interview]]></title>
+            <link>http://localhost:3000/podcast/darleen-tana-interview</link>
+            <guid>http://localhost:3000/podcast/darleen-tana-interview</guid>
+            <pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Koro Sciascia talks to Darleen Tana]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/Darleen-Tana-interview-Mana-Mixtape.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show June 30th 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-june-30th-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-june-30th-2011</guid>
+            <pubDate>Thu, 30 Jun 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we had; a story from Waiheke Adult Literacy 2010 Programme Words, a conversation with Sus...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_4.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Inspector]]></title>
+            <link>http://localhost:3000/podcast/the-inspector</link>
+            <guid>http://localhost:3000/podcast/the-inspector</guid>
+            <pubDate>Fri, 08 Jul 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[The inspectors lines replaced with a beep]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/inspector.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Sybill]]></title>
+            <link>http://localhost:3000/podcast/sybill</link>
+            <guid>http://localhost:3000/podcast/sybill</guid>
+            <pubDate>Wed, 04 Jul 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sybill's lines replaced by a beep]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/sybill.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Sheila]]></title>
+            <link>http://localhost:3000/podcast/sheila</link>
+            <guid>http://localhost:3000/podcast/sheila</guid>
+            <pubDate>Sun, 05 Jul 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sheila's line replaced with a beep]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/sheila.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Gerald]]></title>
+            <link>http://localhost:3000/podcast/gerald</link>
+            <guid>http://localhost:3000/podcast/gerald</guid>
+            <pubDate>Fri, 07 Jul 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[Geralds lines replaced with a beep]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/gerald.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric]]></title>
+            <link>http://localhost:3000/podcast/eric</link>
+            <guid>http://localhost:3000/podcast/eric</guid>
+            <pubDate>Thu, 11 Jul 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[The play read aloud with Eric's parts removed and signalled with a beep.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/eric.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty - Interview with Artrist Goldsmith Part 1]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</link>
+            <guid>http://localhost:3000/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</guid>
+            <pubDate>Thu, 22 Sep 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[An opportunity to listen to a conversation with Christine Hafermalz Wheeler, her husband David and ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/e-artist-goldsmith-part-1.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty - The Artists Goldsmith Interview]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-the-artists-goldsmith-interview</link>
+            <guid>http://localhost:3000/podcast/anything-arty-the-artists-goldsmith-interview</guid>
+            <pubDate>Thu, 29 Sep 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Part 2 of an interview with Christine Hafermalz Wheeler, the Artist Goldsmith, sponsor of Waiheke R...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/artist-goldsmith-part-2.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[THE ANYTHING ARTY SHOW FEB 9TH]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-feb-9th</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-feb-9th</guid>
+            <pubDate>Thu, 09 Feb 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[This weeks arty show introduces new host Eve Bon and we looked at guns as a means of peace, the art...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_30.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[THE ANYTHING ARTY SHOW JAN 12 2012]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-jan-12-2012</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-jan-12-2012</guid>
+            <pubDate>Thu, 12 Jan 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week a conversation with Chilean artist Margarita Degorret, a chance to hear from BMW design c...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_29.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anything Arty Show Jan 5 2012]]></title>
+            <link>http://localhost:3000/podcast/anything-arty-show-jan-5-2012</link>
+            <guid>http://localhost:3000/podcast/anything-arty-show-jan-5-2012</guid>
+            <pubDate>Thu, 05 Jan 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week: Comment on Fiona Pardington’s New Zealand Arts Foundation Laureate Award,
+Incubator inte...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_28.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[THE ANYTHING ARTY SHOW DEC 15 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</guid>
+            <pubDate>Thu, 15 Dec 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we heard from Isabel Allende sharing her view of passion and Kara Gordon playing his 3500...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_27.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show John Hawkesby]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-john-hawkesby</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-john-hawkesby</guid>
+            <pubDate>Thu, 01 Dec 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[John Hawkesby interview]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_26.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show Dec 8 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-dec-8-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-dec-8-2011</guid>
+            <pubDate>Thu, 08 Dec 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we had conversations with James Clairmont from Waiheke Island Cheese Company on the art o...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_25.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Anything Arty Show November 24th 2011]]></title>
+            <link>http://localhost:3000/podcast/the-anything-arty-show-november-24th-2011</link>
+            <guid>http://localhost:3000/podcast/the-anything-arty-show-november-24th-2011</guid>
+            <pubDate>Thu, 24 Nov 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we heard from Dr. Naif Al-Mutawa talking about his creation The 99 a new breed of comic b...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_24.mp3" length="0" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>

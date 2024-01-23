@@ -2,258 +2,213 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
 <atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
-        <title>Waiheke Radio Podcasts | RSS Feed</title>
+        <title>VOCAL LOCAL Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
-        <description>NaNWaiheke Radio - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Tue, 23 Jan 2024 00:56:34 GMT</lastBuildDate>
+        <description>All Podcasts from VOCAL LOCAL - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Tue, 23 Jan 2024 02:43:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>Waiheke Radio Podcasts | RSS Feed</title>
+            <title>VOCAL LOCAL Podcasts | RSS Feed</title>
             <url>http://localhost:3000/logo.png</url>
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-            <title><![CDATA[Can You Dig It?! - Episode 2: 18-01-2024]]></title>
-            <link>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</link>
-            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</guid>
-            <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[This episode's guest is Waiheke home garderner Holly Brown. She is growing incredible vegetable cro...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/can-you-dig-it-episode-two-holly-brown-18-01-2024.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Lisa Smith – Waitangi Day And Living Without Violence]]></title>
+            <link>http://localhost:3000/podcast/lisa-smith-waitangi-day-and-living-without-violence</link>
+            <guid>http://localhost:3000/podcast/lisa-smith-waitangi-day-and-living-without-violence</guid>
+            <pubDate>Tue, 17 Feb 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lisa Smith talks about the Family Day organised at the Marae and Living without Violence in the Com...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Lisasmithinterview.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[WaiTalks 2023: Lucy Grace]]></title>
-            <link>http://localhost:3000/podcast/waitalks-2023-lucy-grace</link>
-            <guid>http://localhost:3000/podcast/waitalks-2023-lucy-grace</guid>
-            <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lucy Grace was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nat...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Lucy-Grace-Wai-Talks-Dec-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WASTE – The Battle Is Lost But The War Is Ongoing – Full Council Meeting 12 6 2009]]></title>
+            <link>http://localhost:3000/podcast/waste-the-battle-is-lost-but-the-war-is-ongoing-full-council-meeting-12-6</link>
+            <guid>http://localhost:3000/podcast/waste-the-battle-is-lost-but-the-war-is-ongoing-full-council-meeting-12-6</guid>
+            <pubDate>Fri, 12 Jun 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Auckland City Councillors in a full meeting  of council today, resolved to enter into a 10 year con...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Waste.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[WaiTalks 2023: Jade Gray]]></title>
-            <link>http://localhost:3000/podcast/waitalks-2023-jade-gray</link>
-            <guid>http://localhost:3000/podcast/waitalks-2023-jade-gray</guid>
-            <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Jade Gray was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Natu...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Jade-Gray-Wai-Talks-Dec-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vicky And Andres On Waiheke And Sweden]]></title>
+            <link>http://localhost:3000/podcast/vicky-and-andres-on-waiheke-and-sweden</link>
+            <guid>http://localhost:3000/podcast/vicky-and-andres-on-waiheke-and-sweden</guid>
+            <pubDate>Wed, 01 Apr 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vicky and Anders, on holiday from Sweden, share thoughts on how New Zealand is similar and differen...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/vidkyAndrespodcast.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[WaiTalks2023: Mark Lapwood]]></title>
-            <link>http://localhost:3000/podcast/waitalks2023-mark-lapwood</link>
-            <guid>http://localhost:3000/podcast/waitalks2023-mark-lapwood</guid>
-            <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Mark Lapwood was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and N...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Mark-Lapwood-Wai-Talks-Dec-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Sue Connor – Wheelie Wheelie Stupid]]></title>
+            <link>http://localhost:3000/podcast/sue-connor-wheelie-wheelie-stupid</link>
+            <guid>http://localhost:3000/podcast/sue-connor-wheelie-wheelie-stupid</guid>
+            <pubDate>Wed, 22 Apr 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[This programme is broadcast at 7.00pm on Thursday,  April 23rd and 12.00pm on Sunday, April 26th.
+
+...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Sue-Connor-podcast-Wheelie-Wheelie-Stupid.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[WaiTalks 2023: Michelle Hooper]]></title>
-            <link>http://localhost:3000/podcast/waitalks-2023-michelle-hooper</link>
-            <guid>http://localhost:3000/podcast/waitalks-2023-michelle-hooper</guid>
-            <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Michelle Hooper was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill an...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Michelle-Hooper-Wai-Talks-Dec-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal Local – Sue Bradford Referendum And Supercity Hearings Waiheke – 6 Aug 2009]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-sue-bradford-referendum-and-supercity-hearings-waiheke-6-aug</link>
+            <guid>http://localhost:3000/podcast/vocal-local-sue-bradford-referendum-and-supercity-hearings-waiheke-6-aug</guid>
+            <pubDate>Thu, 06 Aug 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[ Sue Bradford talks about being on Waiheke for the supercity hearings, the consequences of her priv...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Sue-Bradford-podcast.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[The Boy Who Ate Bugs]]></title>
-            <link>http://localhost:3000/podcast/the-boy-who-ate-bugs</link>
-            <guid>http://localhost:3000/podcast/the-boy-who-ate-bugs</guid>
-            <pubDate>Sun, 14 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Boy Who Ate Bugs was written and narrated by Waiheke writer Avi Duckor-Jones and was recorded a...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/theatre/The%20Boy%20Who%20Ate%20Bugs%20-%20final.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal Local – Richard Logan – North Shore City, Policy Advisor On Making Auckland Great (Or Not)?]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-richard-logan-north-shore-city-policy-advisor-on-making-auckland</link>
+            <guid>http://localhost:3000/podcast/vocal-local-richard-logan-north-shore-city-policy-advisor-on-making-auckland</guid>
+            <pubDate>Wed, 15 Apr 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[This programme is broadcast on Thursday 15th April at 7.00pm and Sunday 18th at 12.00pm.
+
+Greater c...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/RichardLoganpodcast.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Can You Dig It?! Episode 1: 11 Jan 2024]]></title>
-            <link>http://localhost:3000/podcast/episode-1-11-jan-2024</link>
-            <guid>http://localhost:3000/podcast/episode-1-11-jan-2024</guid>
-            <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks with Eddie Welsh, who sells vege seedlings each Saturday at Ostand market, about...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-11-01-2024-Eddie-Starter-Plants.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Phil Twyford – Supercity Submissions]]></title>
+            <link>http://localhost:3000/podcast/phil-twyford-supercity-submissions</link>
+            <guid>http://localhost:3000/podcast/phil-twyford-supercity-submissions</guid>
+            <pubDate>Thu, 18 Jun 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Phil Twyford, Labour MP and on the Supercity select committee, discusses the importance of submissi...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/PhilTwyfordpodcast.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Interview with Susi Newborn Sept 2023]]></title>
-            <link>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</link>
-            <guid>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</guid>
-            <pubDate>Thu, 04 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Interview with Susi Newborn from 22nd of September 2023 where she talks about being a protector, fa...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/koro-susi-newborn-interview-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Phil Brown – Brofidicum Drops And Conservation]]></title>
+            <link>http://localhost:3000/podcast/phil-brown-brofidicum-drops-and-conservation</link>
+            <guid>http://localhost:3000/podcast/phil-brown-brofidicum-drops-and-conservation</guid>
+            <pubDate>Sun, 15 Nov 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Broadcast 12 Nov at 7.00pm and 15 Nov at midday.  
+
+Phil Brown, Auckland programme manager for biod...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Phil-Brown-DOC-12-nov-2009.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Susi Newborn: Housing]]></title>
-            <link>http://localhost:3000/podcast/susi-newborn-housing</link>
-            <guid>http://localhost:3000/podcast/susi-newborn-housing</guid>
-            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fight...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal Local – Pita Rickys On Local Control In Governance And The Hikoi]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-pita-rickys-on-local-control-in-governance-and-the-hikoi</link>
+            <guid>http://localhost:3000/podcast/vocal-local-pita-rickys-on-local-control-in-governance-and-the-hikoi</guid>
+            <pubDate>Wed, 10 Jun 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Peta Rickys discusses why we need Maori seats,  the Hikoi on retaining Maori seats under the super ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/petarickysHikoipodcast.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Susi Newborn: The Environment]]></title>
-            <link>http://localhost:3000/podcast/susi-newborn-the-environment</link>
-            <guid>http://localhost:3000/podcast/susi-newborn-the-environment</guid>
-            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fight...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal Local – Peta Rickys – Supercity Good Or Bad For Waiheke?]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-peta-rickys-supercity-good-or-bad-for-waiheke</link>
+            <guid>http://localhost:3000/podcast/vocal-local-peta-rickys-supercity-good-or-bad-for-waiheke</guid>
+            <pubDate>Wed, 08 Apr 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Are we doomed to have a supercity?  Did the Waiheke submissions make a difference to the Royal Comm...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/peta_rikyspodcast.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Mana Mixtape interview with Teyo]]></title>
-            <link>http://localhost:3000/podcast/mana-mixtape-interview-with-teyo</link>
-            <guid>http://localhost:3000/podcast/mana-mixtape-interview-with-teyo</guid>
-            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Koro talks to Italian rapper Teyo]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/231208_TeyoRap.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal Local – Owhiti Bay – Paora Toi-Te Ranguiaia 12 March 2009]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-owhiti-bay-paora-toi-te-ranguiaia-12-march-2009</link>
+            <guid>http://localhost:3000/podcast/vocal-local-owhiti-bay-paora-toi-te-ranguiaia-12-march-2009</guid>
+            <pubDate>Fri, 13 Mar 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[I talk to Paora Toi-Te-Ranguiaia about Owhiti Bay.  We talk about:
+
+– The importance of the site in...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Owhiti-Bay-Paora-12-March-2009.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Te Korowai o Waiheke rat trial update]]></title>
-            <link>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</link>
-            <guid>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</guid>
-            <pubDate>Sat, 02 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Owain Tanner from Te Korowai o Waiheke to get an update on the Oneroa rat e...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-01-12-2023-rat-trial-owain-tanner.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal Local – James Samuel  and  Ooooby Pt 2]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-james-samuel-and-ooooby-pt-2</link>
+            <guid>http://localhost:3000/podcast/vocal-local-james-samuel-and-ooooby-pt-2</guid>
+            <pubDate>Thu, 26 Feb 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[This programme went out on the 26th of February. I talked to James Samuel, one of the founding memb...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/OOooby2.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[The Wayup Interview: Bob Hewitt]]></title>
-            <link>http://localhost:3000/podcast/the-wayup-interview-bob-hewitt</link>
-            <guid>http://localhost:3000/podcast/the-wayup-interview-bob-hewitt</guid>
-            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wayan and Jahn talk to New Yorker Bob Hewitt who has recently moved to Waiheke. They talk about the...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Bob-Hewitt-Wayup-Interview-21-11-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal Local – James Samuel  and  Ooooby Pt 1]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-james-samuel-and-ooooby-pt-1</link>
+            <guid>http://localhost:3000/podcast/vocal-local-james-samuel-and-ooooby-pt-1</guid>
+            <pubDate>Thu, 26 Feb 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[This programme went out on the 26th of February.I talked to James Samuel, one of the founding membe...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/ooooby1.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Councillor Mike Lee]]></title>
-            <link>http://localhost:3000/podcast/councillor-mike-lee</link>
-            <guid>http://localhost:3000/podcast/councillor-mike-lee</guid>
-            <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to councillor Mike Lee about the year since his re-election to Auckland Council ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-mike-lee.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal Local – Minka Firth On WASTE And City Development Meeting Of 11 6 2009]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-minka-firth-on-waste-and-city-development-meeting-of-11-6-2009</link>
+            <guid>http://localhost:3000/podcast/vocal-local-minka-firth-on-waste-and-city-development-meeting-of-11-6-2009</guid>
+            <pubDate>Thu, 11 Jun 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[This programme is broadcast on Thursday, 11 June at 7.00pm and Sunday, 14 June at midday.  Minka di...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Minka-Waste-Podcast.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Crop Swap]]></title>
-            <link>http://localhost:3000/podcast/crop-swap</link>
-            <guid>http://localhost:3000/podcast/crop-swap</guid>
-            <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Hadas Ore about Waiheke Crop Swap. Home gardeners come together to swap their...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-hadas-ore-crop-swap.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Jacqueline Carter On Matariki And The Piritahi Marae Celebrations]]></title>
+            <link>http://localhost:3000/podcast/jacqueline-carter-on-matariki-and-the-piritahi-marae-celebrations</link>
+            <guid>http://localhost:3000/podcast/jacqueline-carter-on-matariki-and-the-piritahi-marae-celebrations</guid>
+            <pubDate>Thu, 25 Jun 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Broadcasting Thursday 25th June at 7pm and Sunday, 28th of June at noon.  
+
+Jacqueline Carter talks...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Matariki-2009-Podcast.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Caulerpa Rahui]]></title>
-            <link>http://localhost:3000/podcast/caulerpa-rahui</link>
-            <guid>http://localhost:3000/podcast/caulerpa-rahui</guid>
-            <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Blair Anderson, Pou Rahui Project Manager for Ngāti Pāoa, about the rahui pla...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-blair-anderson-caulerpa-rahui.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal Local – Mark Parisien On 350 Climate Change And Living On A Boat]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-mark-parisien-on-350-climate-change-and-living-on-a-boat</link>
+            <guid>http://localhost:3000/podcast/vocal-local-mark-parisien-on-350-climate-change-and-living-on-a-boat</guid>
+            <pubDate>Thu, 22 Oct 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[ Broadcast 22 October and replaying 25 October, 12pm.  
+
+Mark Parisien, talks about spearheading th...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Mark-Parisien-podcast.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Darleen Tana Elected To Parliament]]></title>
-            <link>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</link>
-            <guid>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</guid>
-            <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Darleen Tana whio has just been elected to parliament as a Green list MP]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-21-10-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal Local – John Stansfield On Recycling, Community And Where To Now]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-john-stansfield-on-recycling-community-and-where-to-now</link>
+            <guid>http://localhost:3000/podcast/vocal-local-john-stansfield-on-recycling-community-and-where-to-now</guid>
+            <pubDate>Tue, 14 Jul 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[John Stansfield, executive director of Clean Stream, talks about community support for Clean Stream...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/John-Stansfield-podcast.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Librarian Fiona Kralicek Resigning]]></title>
-            <link>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</link>
-            <guid>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</guid>
-            <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Fiona Kralicek who has been the head librarian at Waiheke Community Library f...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-fiona-kralicek-library-20-10-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal local Chris Greaves Rubbish Tender and Wheelie Bins]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-chris-greaves-rubbish-tender-and-wheelie-bins</link>
+            <guid>http://localhost:3000/podcast/vocal-local-chris-greaves-rubbish-tender-and-wheelie-bins</guid>
+            <pubDate>Thu, 19 Mar 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Greaves talks about rubbish and recycling on the island. ]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Chris-Greaves_0.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Emily King: The Wayup Interview]]></title>
-            <link>http://localhost:3000/podcast/emily-king-the-wayup-interview</link>
-            <guid>http://localhost:3000/podcast/emily-king-the-wayup-interview</guid>
-            <pubDate>Wed, 18 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wayan and Jahn from the Wayup show interview Emily King a local Surfdale resident about her latest ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-Show-Emily-King-podcast-18-10-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Cell phone towers Andrew Crawford]]></title>
+            <link>http://localhost:3000/podcast/cell-phone-towers-andrew-crawford</link>
+            <guid>http://localhost:3000/podcast/cell-phone-towers-andrew-crawford</guid>
+            <pubDate>Mon, 02 Mar 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Andrew discusses what we need from our cell phone providers and issues around the building of cell ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Cell-phone-towers-5-March-2009.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Maia Piata Rose Week on the Maramataka]]></title>
-            <link>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</link>
-            <guid>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</guid>
-            <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Koro talks to Maia Piata Rose Week about the Maramataka. Follow Maia on Instagram https://www.insta...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Cathy Urquhart – Campaign 4 Fair Ferry Fares]]></title>
+            <link>http://localhost:3000/podcast/cathy-urquhart-campaign-4-fair-ferry-fares</link>
+            <guid>http://localhost:3000/podcast/cathy-urquhart-campaign-4-fair-ferry-fares</guid>
+            <pubDate>Wed, 18 Feb 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cathy talks about the campaign so far and what still needs to be done to get fair fares.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/campaign4fairferriespodcast_1.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[The Great Big Rescued Food Cook Off 2023]]></title>
-            <link>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</link>
-            <guid>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</guid>
-            <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Koro talks to to Laura lynch and kayleigh Appleton from the Waiheke Resources Trust about The Great...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Campaign for fair ferry fares]]></title>
+            <link>http://localhost:3000/podcast/campaign-for-fair-ferry-fares</link>
+            <guid>http://localhost:3000/podcast/campaign-for-fair-ferry-fares</guid>
+            <pubDate>Sat, 14 Feb 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[This goes out on the 12th of February.  I talk to Cathy, founding member of the Campaign for Fair F...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/campaign4fairferriespodcast.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate]]></title>
-            <link>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</link>
-            <guid>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</guid>
-            <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate. Held at Artworks Theatre on ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal Local – Basil Holmes On Learning From History]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-basil-holmes-on-learning-from-history</link>
+            <guid>http://localhost:3000/podcast/vocal-local-basil-holmes-on-learning-from-history</guid>
+            <pubDate>Wed, 10 Jun 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[ Basil Holmes, long time Waiheke resident and activist,  shares his views on living on Waiheke, the...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/BasilHolmespodcast.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Sir Peter Leitch - The Wayup Interview]]></title>
-            <link>http://localhost:3000/podcast/sir-peter-leitch-the-wayup-interview</link>
-            <guid>http://localhost:3000/podcast/sir-peter-leitch-the-wayup-interview</guid>
-            <pubDate>Thu, 21 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wayan and Jahn from Waiheke Radio's Wayup Show talk to the Mad Butcher, Sir Peter Leitch. 
-Photo cr...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-show-Mad-Butcher-interview%2021-09-2023.mp3" length="0" type="audio/mpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Darleen Tana (Green) Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</guid>
-            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Darleen Tana, Green candidate for The Tamaki Makaurau Māori electorate]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-23-09-2023.mp3" length="0" type="audio/mpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Hinurewa Te Hau (National) Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</guid>
-            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Hinurewa Te Hau, National Party candidate for the Tamaki Makaurau Māori elect...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-hinurewa-te-hau-23-09-2023.mp3" length="0" type="audio/mpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Frank Lepera · Stoat Operations Manager Te Korowai o Waiheke]]></title>
-            <link>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</link>
-            <guid>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</guid>
-            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Frank Lepera · Stoat Operations Manager at Te Korowai o Waiheke and gets an...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-te-korowai-o-waiheke-29-09-2023.mp3" length="0" type="audio/mpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Waiheke Radio Election Coverage]]></title>
-            <link>http://localhost:3000/podcast/waiheke-radio-election-coverage</link>
-            <guid>http://localhost:3000/podcast/waiheke-radio-election-coverage</guid>
-            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Chris Walker about Waiheke Radio's 2023 general election coverage]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-election-coverage-23-09-2023.mp3" length="0" type="audio/mpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Damian Sycamore (TOP) candidate interview]]></title>
-            <link>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</guid>
-            <pubDate>Thu, 21 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Damian Sycamore is a Waiheke Islander. He is standing for The Opportunities Party (TOP) in the Auck...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-damian-sycamore-21-09-2023.mp3" length="0" type="audio/mpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Oscar Sims Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/oscar-sims-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/oscar-sims-candidate-interview</guid>
-            <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Oscar Sims, Labour candidate for Auckland Central]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-oscar-sims-16-09-2023.mp3" length="0" type="audio/mpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Mahesh Muralidhar Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</guid>
-            <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Mahesh Muralidhar, National candidate for Auckland Central]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-mahesh-muralidhar-16-09-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Vocal Local – Make Dreams Come True With Adult Literacy]]></title>
+            <link>http://localhost:3000/podcast/vocal-local-make-dreams-come-true-with-adult-literacy</link>
+            <guid>http://localhost:3000/podcast/vocal-local-make-dreams-come-true-with-adult-literacy</guid>
+            <pubDate>Wed, 10 Jun 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Listen to Fran Lapsley, adult literacy co-ordinator talk about adult literacy programmes for Waihek...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Adult-Literacy-podcast.mp3" length="0" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>

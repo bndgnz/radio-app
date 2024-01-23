@@ -52,10 +52,11 @@ export const getStaticProps: GetStaticProps<Props, { slug: string }> = async (
 ) => {
   const { slug } = ctx.params!;
 
-  const rssArr = ['Waiheke Radio', slug, 'C', 'D'];
+  const rssArr = ['allPosts', slug, 'C', 'D'];
  
  
-  await generateRssFeed(rssArr); 
+  await generateRssFeed(rssArr);
+  
   const showPage = await ContentService.instance.getShowPageBySlug(slug);
   if (!showPage) {
     return { notFound: true };

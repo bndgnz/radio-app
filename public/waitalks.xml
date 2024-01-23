@@ -2,26 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
 <atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
-        <title>Waiheke Radio Podcasts | RSS Feed</title>
+        <title>WAITALKS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
-        <description>NaNWaiheke Radio - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Tue, 23 Jan 2024 00:56:32 GMT</lastBuildDate>
+        <description>All Podcasts from WAITALKS - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Tue, 23 Jan 2024 02:43:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>Waiheke Radio Podcasts | RSS Feed</title>
+            <title>WAITALKS Podcasts | RSS Feed</title>
             <url>http://localhost:3000/logo.png</url>
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
-        <item>
-            <title><![CDATA[Can You Dig It?! - Episode 2: 18-01-2024]]></title>
-            <link>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</link>
-            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</guid>
-            <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[This episode's guest is Waiheke home garderner Holly Brown. She is growing incredible vegetable cro...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/can-you-dig-it-episode-two-holly-brown-18-01-2024.mp3" length="0" type="audio/mpeg"/>
-        </item>
         <item>
             <title><![CDATA[WaiTalks 2023: Lucy Grace]]></title>
             <link>http://localhost:3000/podcast/waitalks-2023-lucy-grace</link>
@@ -55,205 +47,372 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Michelle-Hooper-Wai-Talks-Dec-2023.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[The Boy Who Ate Bugs]]></title>
-            <link>http://localhost:3000/podcast/the-boy-who-ate-bugs</link>
-            <guid>http://localhost:3000/podcast/the-boy-who-ate-bugs</guid>
-            <pubDate>Sun, 14 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Boy Who Ate Bugs was written and narrated by Waiheke writer Avi Duckor-Jones and was recorded a...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/theatre/The%20Boy%20Who%20Ate%20Bugs%20-%20final.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Zara Stanhope]]></title>
+            <link>http://localhost:3000/podcast/waitalks-zara-stanhope</link>
+            <guid>http://localhost:3000/podcast/waitalks-zara-stanhope</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks8-Zara-Stanhope.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Can You Dig It?! Episode 1: 11 Jan 2024]]></title>
-            <link>http://localhost:3000/podcast/episode-1-11-jan-2024</link>
-            <guid>http://localhost:3000/podcast/episode-1-11-jan-2024</guid>
-            <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks with Eddie Welsh, who sells vege seedlings each Saturday at Ostand market, about...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-11-01-2024-Eddie-Starter-Plants.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Pete Russell]]></title>
+            <link>http://localhost:3000/podcast/waitalks-pete-russell</link>
+            <guid>http://localhost:3000/podcast/waitalks-pete-russell</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks8-Pete-Russell.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Interview with Susi Newborn Sept 2023]]></title>
-            <link>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</link>
-            <guid>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</guid>
-            <pubDate>Thu, 04 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Interview with Susi Newborn from 22nd of September 2023 where she talks about being a protector, fa...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/koro-susi-newborn-interview-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Francisco Blaha]]></title>
+            <link>http://localhost:3000/podcast/waitalks-francisco-blaha</link>
+            <guid>http://localhost:3000/podcast/waitalks-francisco-blaha</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks8-Francisco-Blaha.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Susi Newborn: Housing]]></title>
-            <link>http://localhost:3000/podcast/susi-newborn-housing</link>
-            <guid>http://localhost:3000/podcast/susi-newborn-housing</guid>
-            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fight...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Timmy Smith]]></title>
+            <link>http://localhost:3000/podcast/waitalks-timmy-smith</link>
+            <guid>http://localhost:3000/podcast/waitalks-timmy-smith</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks7-Timmy-Smith.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Susi Newborn: The Environment]]></title>
-            <link>http://localhost:3000/podcast/susi-newborn-the-environment</link>
-            <guid>http://localhost:3000/podcast/susi-newborn-the-environment</guid>
-            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fight...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Susi Newborn Environment]]></title>
+            <link>http://localhost:3000/podcast/waitalks-susi-newborn-environment</link>
+            <guid>http://localhost:3000/podcast/waitalks-susi-newborn-environment</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks7-Susis-Environment-Talk.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Mana Mixtape interview with Teyo]]></title>
-            <link>http://localhost:3000/podcast/mana-mixtape-interview-with-teyo</link>
-            <guid>http://localhost:3000/podcast/mana-mixtape-interview-with-teyo</guid>
-            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Koro talks to Italian rapper Teyo]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/231208_TeyoRap.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Lenka Tengblad]]></title>
+            <link>http://localhost:3000/podcast/waitalks-lenka-tengblad</link>
+            <guid>http://localhost:3000/podcast/waitalks-lenka-tengblad</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks7-Lenka-Tengblad.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Te Korowai o Waiheke rat trial update]]></title>
-            <link>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</link>
-            <guid>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</guid>
-            <pubDate>Sat, 02 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Owain Tanner from Te Korowai o Waiheke to get an update on the Oneroa rat e...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-01-12-2023-rat-trial-owain-tanner.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Kimberley Alford]]></title>
+            <link>http://localhost:3000/podcast/waitalks-kimberley-alford</link>
+            <guid>http://localhost:3000/podcast/waitalks-kimberley-alford</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks7-Kimberley-Alford.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[The Wayup Interview: Bob Hewitt]]></title>
-            <link>http://localhost:3000/podcast/the-wayup-interview-bob-hewitt</link>
-            <guid>http://localhost:3000/podcast/the-wayup-interview-bob-hewitt</guid>
-            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wayan and Jahn talk to New Yorker Bob Hewitt who has recently moved to Waiheke. They talk about the...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Bob-Hewitt-Wayup-Interview-21-11-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Grant Bridger]]></title>
+            <link>http://localhost:3000/podcast/waitalks-grant-bridger</link>
+            <guid>http://localhost:3000/podcast/waitalks-grant-bridger</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks7-Grant-Bridger.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Councillor Mike Lee]]></title>
-            <link>http://localhost:3000/podcast/councillor-mike-lee</link>
-            <guid>http://localhost:3000/podcast/councillor-mike-lee</guid>
-            <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to councillor Mike Lee about the year since his re-election to Auckland Council ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-mike-lee.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Gabriel Treacey-Bond]]></title>
+            <link>http://localhost:3000/podcast/waitalks-gabriel-treacey-bond</link>
+            <guid>http://localhost:3000/podcast/waitalks-gabriel-treacey-bond</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks7-Gabriel-Treacey-Bond.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Crop Swap]]></title>
-            <link>http://localhost:3000/podcast/crop-swap</link>
-            <guid>http://localhost:3000/podcast/crop-swap</guid>
-            <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Hadas Ore about Waiheke Crop Swap. Home gardeners come together to swap their...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-hadas-ore-crop-swap.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Valli Waugh]]></title>
+            <link>http://localhost:3000/podcast/waitalks-valli-waugh</link>
+            <guid>http://localhost:3000/podcast/waitalks-valli-waugh</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-ValliWaugh.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Caulerpa Rahui]]></title>
-            <link>http://localhost:3000/podcast/caulerpa-rahui</link>
-            <guid>http://localhost:3000/podcast/caulerpa-rahui</guid>
-            <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Blair Anderson, Pou Rahui Project Manager for Ngāti Pāoa, about the rahui pla...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-blair-anderson-caulerpa-rahui.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Tanya Batt]]></title>
+            <link>http://localhost:3000/podcast/waitalks-tanya-batt</link>
+            <guid>http://localhost:3000/podcast/waitalks-tanya-batt</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-TanyaBatt.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Darleen Tana Elected To Parliament]]></title>
-            <link>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</link>
-            <guid>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</guid>
-            <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Darleen Tana whio has just been elected to parliament as a Green list MP]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-21-10-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[Simon Harvey]]></title>
+            <link>http://localhost:3000/podcast/simon-harvey</link>
+            <guid>http://localhost:3000/podcast/simon-harvey</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-SimonHarvey.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Librarian Fiona Kralicek Resigning]]></title>
-            <link>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</link>
-            <guid>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</guid>
-            <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Fiona Kralicek who has been the head librarian at Waiheke Community Library f...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-fiona-kralicek-library-20-10-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Sarah Flashman]]></title>
+            <link>http://localhost:3000/podcast/waitalks-sarah-flashman</link>
+            <guid>http://localhost:3000/podcast/waitalks-sarah-flashman</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-SarahFlashman.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Emily King: The Wayup Interview]]></title>
-            <link>http://localhost:3000/podcast/emily-king-the-wayup-interview</link>
-            <guid>http://localhost:3000/podcast/emily-king-the-wayup-interview</guid>
-            <pubDate>Wed, 18 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wayan and Jahn from the Wayup show interview Emily King a local Surfdale resident about her latest ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-Show-Emily-King-podcast-18-10-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Raul Sarrot]]></title>
+            <link>http://localhost:3000/podcast/waitalks-raul-sarrot</link>
+            <guid>http://localhost:3000/podcast/waitalks-raul-sarrot</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-RaulSarrot.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Maia Piata Rose Week on the Maramataka]]></title>
-            <link>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</link>
-            <guid>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</guid>
-            <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Koro talks to Maia Piata Rose Week about the Maramataka. Follow Maia on Instagram https://www.insta...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Philip Howard]]></title>
+            <link>http://localhost:3000/podcast/waitalks-philip-howard</link>
+            <guid>http://localhost:3000/podcast/waitalks-philip-howard</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-PhilipHoward.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[The Great Big Rescued Food Cook Off 2023]]></title>
-            <link>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</link>
-            <guid>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</guid>
-            <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Koro talks to to Laura lynch and kayleigh Appleton from the Waiheke Resources Trust about The Great...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks 6 Paul Bond]]></title>
+            <link>http://localhost:3000/podcast/waitalks-6-paul-bond</link>
+            <guid>http://localhost:3000/podcast/waitalks-6-paul-bond</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-PaulBond.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate]]></title>
-            <link>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</link>
-            <guid>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</guid>
-            <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate. Held at Artworks Theatre on ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Nikki Heuberger]]></title>
+            <link>http://localhost:3000/podcast/waitalks-nikki-heuberger</link>
+            <guid>http://localhost:3000/podcast/waitalks-nikki-heuberger</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-NikkiHeuberger.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Sir Peter Leitch - The Wayup Interview]]></title>
-            <link>http://localhost:3000/podcast/sir-peter-leitch-the-wayup-interview</link>
-            <guid>http://localhost:3000/podcast/sir-peter-leitch-the-wayup-interview</guid>
-            <pubDate>Thu, 21 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wayan and Jahn from Waiheke Radio's Wayup Show talk to the Mad Butcher, Sir Peter Leitch. 
-Photo cr...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-show-Mad-Butcher-interview%2021-09-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Lynsey Champion]]></title>
+            <link>http://localhost:3000/podcast/waitalks-lynsey-champion</link>
+            <guid>http://localhost:3000/podcast/waitalks-lynsey-champion</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-LynseyChampion.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Darleen Tana (Green) Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</guid>
-            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Darleen Tana, Green candidate for The Tamaki Makaurau Māori electorate]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-23-09-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Emily Dowding-Smith]]></title>
+            <link>http://localhost:3000/podcast/waitalks-emily-dowding-smith</link>
+            <guid>http://localhost:3000/podcast/waitalks-emily-dowding-smith</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-EmilyDowdingSmith.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Hinurewa Te Hau (National) Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</guid>
-            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Hinurewa Te Hau, National Party candidate for the Tamaki Makaurau Māori elect...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-hinurewa-te-hau-23-09-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Bass Player]]></title>
+            <link>http://localhost:3000/podcast/waitalks-bass-player</link>
+            <guid>http://localhost:3000/podcast/waitalks-bass-player</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks4-081115BassPlayer.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Frank Lepera · Stoat Operations Manager Te Korowai o Waiheke]]></title>
-            <link>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</link>
-            <guid>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</guid>
-            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Frank Lepera · Stoat Operations Manager at Te Korowai o Waiheke and gets an...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-te-korowai-o-waiheke-29-09-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Wallace]]></title>
+            <link>http://localhost:3000/podcast/waitalks-wallace</link>
+            <guid>http://localhost:3000/podcast/waitalks-wallace</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Wallace.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Waiheke Radio Election Coverage]]></title>
-            <link>http://localhost:3000/podcast/waiheke-radio-election-coverage</link>
-            <guid>http://localhost:3000/podcast/waiheke-radio-election-coverage</guid>
-            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Chris Walker about Waiheke Radio's 2023 general election coverage]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-election-coverage-23-09-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Rawiti Sanders]]></title>
+            <link>http://localhost:3000/podcast/waitalks-rawiti-sanders</link>
+            <guid>http://localhost:3000/podcast/waitalks-rawiti-sanders</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Rawiti-Sanders.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Damian Sycamore (TOP) candidate interview]]></title>
-            <link>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</guid>
-            <pubDate>Thu, 21 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Damian Sycamore is a Waiheke Islander. He is standing for The Opportunities Party (TOP) in the Auck...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-damian-sycamore-21-09-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalk Paora Toi-Te-Rangiuaia]]></title>
+            <link>http://localhost:3000/podcast/waitalk-paora-toi-te-rangiuaia</link>
+            <guid>http://localhost:3000/podcast/waitalk-paora-toi-te-rangiuaia</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Paora.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Oscar Sims Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/oscar-sims-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/oscar-sims-candidate-interview</guid>
-            <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Oscar Sims, Labour candidate for Auckland Central]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-oscar-sims-16-09-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Lyndal Jefferies]]></title>
+            <link>http://localhost:3000/podcast/waitalks-lyndal-jefferies</link>
+            <guid>http://localhost:3000/podcast/waitalks-lyndal-jefferies</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Lyndal-Jefferies.mp3" length="0" type="audio/mpeg"/>
         </item>
         <item>
-            <title><![CDATA[Mahesh Muralidhar Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</guid>
-            <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Mahesh Muralidhar, National candidate for Auckland Central]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-mahesh-muralidhar-16-09-2023.mp3" length="0" type="audio/mpeg"/>
+            <title><![CDATA[WaiTalks Ingrid Bersen]]></title>
+            <link>http://localhost:3000/podcast/waitalks-ingrid-bersen</link>
+            <guid>http://localhost:3000/podcast/waitalks-ingrid-bersen</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Ingrid-Bersen.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Neal Goshal]]></title>
+            <link>http://localhost:3000/podcast/waitalks-neal-goshal</link>
+            <guid>http://localhost:3000/podcast/waitalks-neal-goshal</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Goshal.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Drew-Arensberg]]></title>
+            <link>http://localhost:3000/podcast/waitalks-drew-arensberg</link>
+            <guid>http://localhost:3000/podcast/waitalks-drew-arensberg</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Drew-Arensberg.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalk Danny Shortland]]></title>
+            <link>http://localhost:3000/podcast/waitalk-danny-shortland</link>
+            <guid>http://localhost:3000/podcast/waitalk-danny-shortland</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Danny-Shortland.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks  Peter Forster]]></title>
+            <link>http://localhost:3000/podcast/waitalks-peter-forster</link>
+            <guid>http://localhost:3000/podcast/waitalks-peter-forster</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks280815PeterForster.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Lisa Garrity]]></title>
+            <link>http://localhost:3000/podcast/waitalks-lisa-garrity</link>
+            <guid>http://localhost:3000/podcast/waitalks-lisa-garrity</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks280815LisaGarrity.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks  Leila Lees]]></title>
+            <link>http://localhost:3000/podcast/waitalks-leila-lees</link>
+            <guid>http://localhost:3000/podcast/waitalks-leila-lees</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks280815LeilaLees.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Kimberly Moore]]></title>
+            <link>http://localhost:3000/podcast/waitalks-kimberly-moore</link>
+            <guid>http://localhost:3000/podcast/waitalks-kimberly-moore</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks280815KimberlyMoore.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Gareth Edwards]]></title>
+            <link>http://localhost:3000/podcast/waitalks-gareth-edwards</link>
+            <guid>http://localhost:3000/podcast/waitalks-gareth-edwards</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks280815GarethEdwards.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Eledir Seren]]></title>
+            <link>http://localhost:3000/podcast/waitalks-eledir-seren</link>
+            <guid>http://localhost:3000/podcast/waitalks-eledir-seren</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks280815EledirSeren.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Susi Newborn]]></title>
+            <link>http://localhost:3000/podcast/waitalks-susi-newborn</link>
+            <guid>http://localhost:3000/podcast/waitalks-susi-newborn</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Susi Newborn was a self proclaimed lunatic and activist WaiTalks was a biographical storytelling ex...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-1-Susi-Newborn.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Randall Farrant]]></title>
+            <link>http://localhost:3000/podcast/waitalks-randall-farrant</link>
+            <guid>http://localhost:3000/podcast/waitalks-randall-farrant</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-1-Randall-Farrant.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Peter Rees]]></title>
+            <link>http://localhost:3000/podcast/waitalks-peter-rees</link>
+            <guid>http://localhost:3000/podcast/waitalks-peter-rees</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-1-Peter-Rees.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Paul Bond]]></title>
+            <link>http://localhost:3000/podcast/waitalks-paul-bond</link>
+            <guid>http://localhost:3000/podcast/waitalks-paul-bond</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-1-Paul-Bond.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Emma Wright]]></title>
+            <link>http://localhost:3000/podcast/waitalks-emma-wright</link>
+            <guid>http://localhost:3000/podcast/waitalks-emma-wright</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-1-Emma-Wright.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Beatle Treadwell]]></title>
+            <link>http://localhost:3000/podcast/waitalks-beatle-treadwell</link>
+            <guid>http://localhost:3000/podcast/waitalks-beatle-treadwell</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Wai-Talks-1-Beatle-Treadwell.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2015 Event 4 – Land. Andy Spence]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2015-event-4-land-andy-spence</link>
+            <guid>http://localhost:3000/podcast/waitalks-2015-event-4-land-andy-spence</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last installation of WaiTalks 2015: Event 4 – Land. Taking place outdoors in a beautiful garden...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-1-Andy-Spence.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2015 Event 4 – Land. Maikara Ropata]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2015-event-4-land-maikara-ropata</link>
+            <guid>http://localhost:3000/podcast/waitalks-2015-event-4-land-maikara-ropata</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last installation of WaiTalks 2015: Event 4 – Land. Taking place outdoors in a beautiful garden...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks081115MaikaraRopata.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2015 Event 4 – Land. James Samuel ]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2015-event-4-land-james-samuel</link>
+            <guid>http://localhost:3000/podcast/waitalks-2015-event-4-land-james-samuel</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last installation of WaiTalks 2015: Event 4 – Land. Taking place outdoors in a beautiful garden...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks081115JamesSamuel.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2015 Event 4 – Land. Ivan Kitson ]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2015-event-4-land-ivan-kitson</link>
+            <guid>http://localhost:3000/podcast/waitalks-2015-event-4-land-ivan-kitson</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last installation of WaiTalks 2015: Event 4 – Land. Taking place outdoors in a beautiful garden...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks081115IvanKitson.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2015 Event 4 – Land. Helen Elscot  and  Jill Mulvaney ]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2015-event-4-land-helen-elscot-and-jill-mulvaney</link>
+            <guid>http://localhost:3000/podcast/waitalks-2015-event-4-land-helen-elscot-and-jill-mulvaney</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last installation of WaiTalks 2015: Event 4 – Land. Taking place outdoors in a beautiful garden...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks081115HelenElscotJillMulvaney.mp3" length="0" type="audio/mpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2015 Event 4 – Land. Gary Wilton ]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2015-event-4-land-gary-wilton</link>
+            <guid>http://localhost:3000/podcast/waitalks-2015-event-4-land-gary-wilton</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last installation of WaiTalks 2015: Event 4 – Land. Taking place outdoors in a beautiful garden...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks081115GaryWilton.mp3" length="0" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>
