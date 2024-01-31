@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>CAN YOU DIG IT Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from CAN YOU DIG IT - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Wed, 31 Jan 2024 22:14:43 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>CAN YOU DIG IT Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[Can You Dig It?! - Episode 3: Penny Holmes]]></title>
+            <link>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</link>
+            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</guid>
+            <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Penny Holmes is an enthusiastic home and community gardener with invovlement in the [Home Grown Wai...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-3-Penny-Holmes-25-01-2024.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Can You Dig It?! - Episode 2: 18-01-2024]]></title>
+            <link>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</link>
+            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</guid>
+            <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[This episode's guest is Waiheke home garderner Holly Brown. She is growing incredible vegetable cro...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/can-you-dig-it-episode-two-holly-brown-18-01-2024.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Can You Dig It?! Episode 1: 11 Jan 2024]]></title>
+            <link>http://localhost:3000/podcast/episode-1-11-jan-2024</link>
+            <guid>http://localhost:3000/podcast/episode-1-11-jan-2024</guid>
+            <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks with Eddie Welsh, who sells vege seedlings each Saturday at Ostand market, about...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-11-01-2024-Eddie-Starter-Plants.mp3" length="0" type="image/mp3"/>
+        </item>
+    </channel>
+</rss>

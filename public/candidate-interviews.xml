@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0">
     <channel>
-<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
         <title>CANDIDATE INTERVIEWS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from CANDIDATE INTERVIEWS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Tue, 23 Jan 2024 03:06:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 22:32:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -20,7 +19,7 @@
             <guid>http://localhost:3000/podcast/vic-martick-interview</guid>
             <pubDate>Mon, 20 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Vic Martick is one of 17 candidates standing for 5 positions on the Waiheke local board in the upco...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Vic-Martick-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Vic-Martick-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[ Sue McCann Candidate Interview ]]></title>
@@ -28,7 +27,7 @@
             <guid>http://localhost:3000/podcast/sue-mccann-candidate-interview</guid>
             <pubDate>Wed, 10 Apr 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[ Chris Walker talks to local board byelection canddidate Sue McCann]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Sue-McCann-Byelection-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Sue-McCann-Byelection-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Paul Walden Candidate Interview]]></title>
@@ -36,7 +35,7 @@
             <guid>http://localhost:3000/podcast/paul-walden-candidate-interview</guid>
             <pubDate>Sun, 04 Sep 2016 00:00:00 GMT</pubDate>
             <description><![CDATA[Local Board candidate Paul Walden interviewed by Chris Walker 4 Sept 2016]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/PaulWaldenInterview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/PaulWaldenInterview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Cath Handley Local Board Candidate Interview]]></title>
@@ -44,7 +43,7 @@
             <guid>http://localhost:3000/podcast/cath-handley-local-board-candidate-interview</guid>
             <pubDate>Fri, 26 Aug 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Cath Handley Local Board Candidate Interview ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/HandleyCathInterview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/HandleyCathInterview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Graham Hooper Candidate Interview]]></title>
@@ -52,7 +51,7 @@
             <guid>http://localhost:3000/podcast/graham-hooper-candidate-interview-2</guid>
             <pubDate>Sat, 18 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Graham Hooper is one of 17 candidates standing for 5 positions on the Waiheke local board in the up...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Graham-Hooper-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Graham-Hooper-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[David Baigent Candidate Interview]]></title>
@@ -60,7 +59,7 @@
             <guid>http://localhost:3000/podcast/david-baigent-candidate-interview</guid>
             <pubDate>Tue, 03 Sep 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker interviews 2019 Waiheke Local Board candidate David Baigent. ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/David-Baigent-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/David-Baigent-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Colin Beardon Candidate Interview ]]></title>
@@ -68,7 +67,7 @@
             <guid>http://localhost:3000/podcast/colin-beardon-candidate-interview</guid>
             <pubDate>Sat, 18 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Colin Beardon is one of 17 candidates standing for 5 positions on the Waiheke local board in the up...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Colin-Beardon-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Colin-Beardon-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Charissa Snijders Interview]]></title>
@@ -76,7 +75,7 @@
             <guid>http://localhost:3000/podcast/charissa-snijders-interview</guid>
             <pubDate>Mon, 20 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Charissa Snijders is one of 17 candidates standing for 5 positions on the Waiheke local board in th...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Charissa-Snijders_0.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Charissa-Snijders_0.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Allen Davies Interview]]></title>
@@ -84,7 +83,7 @@
             <guid>http://localhost:3000/podcast/allen-davies-interview</guid>
             <pubDate>Mon, 20 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Allen Davies is one of 17 candidates standing for 5 positions on the Waiheke local board in the upc...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Allen-Davies-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Allen-Davies-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Allen Davies]]></title>
@@ -92,7 +91,7 @@
             <guid>http://localhost:3000/podcast/allen-davies</guid>
             <pubDate>Mon, 20 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[On the 1st of November a new form of Auckland city comes into existance. Before then you’ll have th...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Allen-Davies.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Allen-Davies.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Kathy Voyles Candidate Interview]]></title>
@@ -100,7 +99,7 @@
             <guid>http://localhost:3000/podcast/kathy-voyles-candidate-interview</guid>
             <pubDate>Sat, 14 Sep 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to Kathy Voyles, candidate in the 2019 Waiheke Local Board elections. ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Kathy-Voyles-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Kathy-Voyles-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Kathy Voyles Local Board Candidate Interview]]></title>
@@ -108,7 +107,7 @@
             <guid>http://localhost:3000/podcast/kathy-voyles-local-board-candidate-interview</guid>
             <pubDate>Sun, 04 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Kathy Voyles Local Board Candidate Interview]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/KathyVoylesCandidateInterview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/KathyVoylesCandidateInterview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Tracey Weston Candidate Interview]]></title>
@@ -116,7 +115,7 @@
             <guid>http://localhost:3000/podcast/tracey-weston-candidate-interview</guid>
             <pubDate>Sat, 10 Sep 2016 00:00:00 GMT</pubDate>
             <description><![CDATA[Local Board candidate Tracey Weston interviewed on 10 Sept 2016]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Tracey-Weston-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Tracey-Weston-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Tracey Mancer Candidate Interview]]></title>
@@ -124,7 +123,7 @@
             <guid>http://localhost:3000/podcast/tracey-mancer-candidate-interview</guid>
             <pubDate>Wed, 10 Apr 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to local board byelection candidate Tracey Mancer.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Tracey-Mancer-candidate-interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Tracey-Mancer-candidate-interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Sue McCann Candidate Interview]]></title>
@@ -132,7 +131,7 @@
             <guid>http://localhost:3000/podcast/sue-mccann-candidate-interview-2</guid>
             <pubDate>Sun, 22 Sep 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[David Basham talks to local board candidate Sue McCann]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Sue-McCann-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Sue-McCann-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Shirin Brown Candidate Interview]]></title>
@@ -140,7 +139,7 @@
             <guid>http://localhost:3000/podcast/shirin-brown-candidate-interview-2</guid>
             <pubDate>Sat, 03 Sep 2016 00:00:00 GMT</pubDate>
             <description><![CDATA[Waiheke local board candidate Shirin brown interviewed by Chris Walker on Sat 3 Sept 2016]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Shirin-Brown-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Shirin-Brown-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Shirin Brown Candidate Interview]]></title>
@@ -148,7 +147,7 @@
             <guid>http://localhost:3000/podcast/shirin-brown-candidate-interview</guid>
             <pubDate>Sun, 15 Sep 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to local board candidate Shirin Brown. Disclaimer: Shirin Brown is an active Wai...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/ShirinBrownInterview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/ShirinBrownInterview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Sara McLeod Candidate Interview]]></title>
@@ -156,7 +155,7 @@
             <guid>http://localhost:3000/podcast/sara-mcleod-candidate-interview</guid>
             <pubDate>Sat, 10 Sep 2016 00:00:00 GMT</pubDate>
             <description><![CDATA[Local Board candidate Sara McLeod interviewed by Chris Walker]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Sara-McLeod-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Sara-McLeod-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Ross Gillespie Candidate Interview]]></title>
@@ -164,7 +163,7 @@
             <guid>http://localhost:3000/podcast/ross-gillespie-candidate-interview</guid>
             <pubDate>Sun, 22 Sep 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to local board candidate Ross Gillespie ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Ross-Gillespie-candidate-statement.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Ross-Gillespie-candidate-statement.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Norm Robins Candidate Interview]]></title>
@@ -172,7 +171,7 @@
             <guid>http://localhost:3000/podcast/norm-robins-candidate-interview-2</guid>
             <pubDate>Sun, 21 Aug 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Norm Robins Local Board Candidate Interview]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/RobinsNormInterview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/RobinsNormInterview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Robin Tucker Candidate Interview]]></title>
@@ -180,7 +179,7 @@
             <guid>http://localhost:3000/podcast/robin-tucker-candidate-interview</guid>
             <pubDate>Sat, 14 Sep 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to Robin Tucker, candidate in the 2019 Waiheke Local Board elections.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Robin-Tucker-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Robin-Tucker-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Robin Tucker Local Board Candidate Interview]]></title>
@@ -188,7 +187,7 @@
             <guid>http://localhost:3000/podcast/robin-tucker-local-board-candidate-interview</guid>
             <pubDate>Sat, 10 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Robin Tucker Local Board Candidate Interview ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/RobinTuckerCandidateInterview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/RobinTuckerCandidateInterview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Council Candidate Rob Thomas]]></title>
@@ -196,7 +195,7 @@
             <guid>http://localhost:3000/podcast/council-candidate-rob-thomas</guid>
             <pubDate>Wed, 15 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Candidate for the Waitemata Gulf Islands ward of the new Auckland Council, Rob Thomas, is interview...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Rob-Thomas-Council-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Rob-Thomas-Council-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Pippa Coom: Candidate Interview]]></title>
@@ -204,7 +203,7 @@
             <guid>http://localhost:3000/podcast/pippa-coom-candidate-interview</guid>
             <pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Shirin Brown (stepping down after 6 years on the Waiheke Local Board, and a former Waiheke Radio Is...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Pippa-Coom-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Pippa-Coom-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Paul Walden Candidate Interview]]></title>
@@ -212,7 +211,7 @@
             <guid>http://localhost:3000/podcast/paul-walden-candidate-interview-2</guid>
             <pubDate>Sat, 18 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to local board candidate Paul Walden ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Paul-Walden-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Paul-Walden-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Paul Walden Candidate Interview]]></title>
@@ -220,7 +219,7 @@
             <guid>http://localhost:3000/podcast/paul-walden-candidate-interview-4</guid>
             <pubDate>Tue, 03 Sep 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker interviews 2019 Waiheke Local Board candidate, and current board member, Paul Walden.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Paul-Walden-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Paul-Walden-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Paul Walden Local Board Candidate Interview]]></title>
@@ -228,7 +227,7 @@
             <guid>http://localhost:3000/podcast/paul-walden-local-board-candidate-interview</guid>
             <pubDate>Sat, 10 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Paul Walden Local Board Candidate Interview ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/PaulWaldenCandidateInterview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/PaulWaldenCandidateInterview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[By-Election Interview: Paul Walden]]></title>
@@ -236,7 +235,7 @@
             <guid>http://localhost:3000/podcast/by-election-interview-paul-walden</guid>
             <pubDate>Fri, 22 Mar 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[Waiheke Radio is interviewing the candidates for the May 2012 local board by-election. Here Shirin ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Paul-Walden-Byelection-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Paul-Walden-Byelection-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Norm Robins Candidate Interview ]]></title>
@@ -244,7 +243,7 @@
             <guid>http://localhost:3000/podcast/norm-robins-candidate-interview</guid>
             <pubDate>Sat, 31 Aug 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Brent Simpson interviews 2019 Waiheke Local Board candidate Norm Robins]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Norm-Robins-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Norm-Robins-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Local Govt Commission Says NO To Thames/Coromandel Proposal]]></title>
@@ -252,7 +251,7 @@
             <guid>http://localhost:3000/podcast/local-govt-commission-says-no-to-thames-coromandel-proposal</guid>
             <pubDate>Sun, 23 Aug 2009 00:00:00 GMT</pubDate>
             <description><![CDATA[On Friday 21 Aug the Local Government Commission released it’s decision on the proposal to have Wai...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Nobilangelo-Ceramalus-22-August-2009.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Nobilangelo-Ceramalus-22-August-2009.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Morgan Sobanja Candidate Interview ]]></title>
@@ -260,7 +259,7 @@
             <guid>http://localhost:3000/podcast/morgan-sobanja-candidate-interview</guid>
             <pubDate>Sat, 31 Aug 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Brent Simpson interviews 2019 Waiheke Local Board candidate Morgan Sobanja]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Morgan-Sobanja-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Morgan-Sobanja-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Millie Watkins Candidate Interview]]></title>
@@ -268,7 +267,7 @@
             <guid>http://localhost:3000/podcast/millie-watkins-candidate-interview</guid>
             <pubDate>Sat, 18 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Millie Watkins is one of 17 candidates standing for 5 positions on the Waiheke local board in the u...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Millie-Watkins-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Millie-Watkins-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Mike Lee Interview]]></title>
@@ -276,7 +275,7 @@
             <guid>http://localhost:3000/podcast/mike-lee-interview</guid>
             <pubDate>Mon, 06 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Mike Lee is a long time Waiheke resident, an environmentalist  and for the past 6 years has been ch...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Mike-Lee-interview-04-09-10.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Mike-Lee-interview-04-09-10.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Mike Lee: Candidate Interview]]></title>
@@ -284,7 +283,7 @@
             <guid>http://localhost:3000/podcast/mike-lee-candidate-interview</guid>
             <pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Shirin Brown (stepping down after 6 years on the Waiheke Local Board, and a former Waiheke Radio Is...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Mike-Lee-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Mike-Lee-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Marijke Ransom Candidate Interview]]></title>
@@ -292,7 +291,7 @@
             <guid>http://localhost:3000/podcast/marijke-ransom-candidate-interview</guid>
             <pubDate>Sat, 18 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Marijke Ransom is one of 17 candidates standing for 5 positions on the Waiheke local board in the u...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Marijke-Ransom-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Marijke-Ransom-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Olivier Lequeux Local Board Candidate Interview ]]></title>
@@ -300,7 +299,7 @@
             <guid>http://localhost:3000/podcast/olivier-lequeux-local-board-candidate-interview</guid>
             <pubDate>Fri, 09 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Olivier Lequeux Local Board Candidate Interview]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/OlivierLequeuxInterview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/OlivierLequeuxInterview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Kylee Matthews Candiate Interview]]></title>
@@ -308,7 +307,7 @@
             <guid>http://localhost:3000/podcast/kylee-matthews-candiate-interview</guid>
             <pubDate>Sun, 21 Aug 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Kylee Matthews Candidate Interview ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Kylee-Matthews-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Kylee-Matthews-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Kylee Matthews Candidate Interview]]></title>
@@ -316,7 +315,7 @@
             <guid>http://localhost:3000/podcast/kylee-matthews-candidate-interview</guid>
             <pubDate>Sat, 07 Sep 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Greg Treadwell talks to Kylee Matthews, candidate for the Waiheke Local Board in the 2019 local bod...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Kylee-Matthews-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Kylee-Matthews-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[John Meeuwsen Candidate Interview ]]></title>
@@ -324,7 +323,7 @@
             <guid>http://localhost:3000/podcast/john-meeuwsen-candidate-interview-2</guid>
             <pubDate>Sun, 15 Sep 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[Jan Scott talks to local board candidate John Meeuwsen]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/John-Meeuwsen-Candidate-Interview_1.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/John-Meeuwsen-Candidate-Interview_1.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[John Meeuwsen Candidate Interview]]></title>
@@ -332,7 +331,7 @@
             <guid>http://localhost:3000/podcast/john-meeuwsen-candidate-interview</guid>
             <pubDate>Fri, 09 Sep 2016 00:00:00 GMT</pubDate>
             <description><![CDATA[Local Board candidate John Meeuwsen interviewed by Chris Walker on Thurs Sept 8 2016]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/John-Meeuwsen-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/John-Meeuwsen-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Jo Holmes Candidate Interview ]]></title>
@@ -340,7 +339,7 @@
             <guid>http://localhost:3000/podcast/jo-holmes-candidate-interview-2</guid>
             <pubDate>Sun, 22 Sep 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[David Basham talks to local board candidate Jo Holmes]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Jo-Holmes-candidate-interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Jo-Holmes-candidate-interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Jo Holmes Candidate Interview]]></title>
@@ -348,7 +347,7 @@
             <guid>http://localhost:3000/podcast/jo-holmes-candidate-interview</guid>
             <pubDate>Sat, 03 Sep 2016 00:00:00 GMT</pubDate>
             <description><![CDATA[Waiheke local board candidate Jo Holmes interviewed by Chris Walker Sat 3 Sept 2016]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Jo-Holmes-Candidate-Interview_0.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Jo-Holmes-Candidate-Interview_0.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Irene Armstrong Candidate Interview]]></title>
@@ -356,7 +355,7 @@
             <guid>http://localhost:3000/podcast/irene-armstrong-candidate-interview</guid>
             <pubDate>Sat, 10 Sep 2016 00:00:00 GMT</pubDate>
             <description><![CDATA[Waiheke Local Board candidate Irene Armstrong interviewed by Chris Walker on 10 Sept 2016]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Irene-Armstrong-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Irene-Armstrong-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Herb Romaniuk Candidate Interview]]></title>
@@ -364,7 +363,7 @@
             <guid>http://localhost:3000/podcast/herb-romaniuk-candidate-interview</guid>
             <pubDate>Sun, 14 Apr 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[Jan Scott talks to Waiheke local board byelection candidate Herb Romaniuk]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/HerbRomaniukCandidateInterview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/HerbRomaniukCandidateInterview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Faye Storer]]></title>
@@ -372,7 +371,7 @@
             <guid>http://localhost:3000/podcast/faye-storer-2</guid>
             <pubDate>Tue, 31 Aug 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[On the 1st of November a new form of Auckland city comes into existance. Before then you’ll have th...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Faye-Storer.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Faye-Storer.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Faye Storer Sworn As Local Board Chair]]></title>
@@ -380,7 +379,7 @@
             <guid>http://localhost:3000/podcast/faye-storer-sworn-as-local-board-chair</guid>
             <pubDate>Sat, 06 Nov 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Faye Storer being sworn as Local Board chair ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Faye-Storer-Sworn-as-Chair.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Faye-Storer-Sworn-as-Chair.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Faye Storer Candidate Interview]]></title>
@@ -388,7 +387,7 @@
             <guid>http://localhost:3000/podcast/faye-storer-candidate-interview</guid>
             <pubDate>Sun, 22 Sep 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[David Basham talks to Waiheke local board candidate Faye Storer ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Faye-Storer-Interview_0.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Faye-Storer-Interview_0.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Faye Storer Interview]]></title>
@@ -396,7 +395,7 @@
             <guid>http://localhost:3000/podcast/faye-storer-interview</guid>
             <pubDate>Thu, 23 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Faye Storer is one of 17 candidates standing for 5 positions on the Waiheke local board in the upco...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Faye-Storer-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Faye-Storer-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Ewen Sutherland Candidate Interview ]]></title>
@@ -404,7 +403,7 @@
             <guid>http://localhost:3000/podcast/ewen-sutherland-candidate-interview</guid>
             <pubDate>Sat, 18 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Ewen Sutherland is one of 17 candidates standing for 5 positions on the Waiheke local board in the ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Ewen-Sutherland-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Ewen-Sutherland-Interview.mp3" length="0" type="image/mp3"/>
         </item>
         <item>
             <title><![CDATA[Dorte Wray Interview]]></title>
@@ -412,7 +411,7 @@
             <guid>http://localhost:3000/podcast/dorte-wray-interview</guid>
             <pubDate>Mon, 20 Sep 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Dorte Wray is one of 17 candidates standing for 5 positions on the Waiheke local board in the upcom...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Dorte-Wray-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Dorte-Wray-Candidate-Interview.mp3" length="0" type="image/mp3"/>
         </item>
     </channel>
 </rss>

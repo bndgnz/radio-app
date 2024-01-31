@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>FOREIGN ACCENTS Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from FOREIGN ACCENTS - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Wed, 31 Jan 2024 22:14:44 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>FOREIGN ACCENTS Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[FOREIGN ACCENTS – XMAS 2009]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-xmas-2009</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-xmas-2009</guid>
+            <pubDate>Wed, 23 Dec 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chosen morceaux – a compilation of bits of some of the interviews I made for Foreign Accents in 2009]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FAXmasCompil.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[FOREIGN ACCENTS – DANIEL FROM PORTUGAL. PART 2]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-daniel-from-portugal-part-2</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-daniel-from-portugal-part-2</guid>
+            <pubDate>Tue, 17 Nov 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Music, art, wheelie bins and spies, we tackle all the essential topics with Daniel.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA_Daniel_PortP2.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Foreign Accents – Daniel From Portugal. Part 1]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-daniel-from-portugal-part-1</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-daniel-from-portugal-part-1</guid>
+            <pubDate>Tue, 17 Nov 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Music, art, wheelie bins and spies, we tackle all the essential topics with Daniel.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA_Daniel_PortP1.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[FOREIGN ACCENTS – EMILIA, ACADEMIC IN COMPUTER SCIENCE, FROM RIO DE JANEIRO, BRAZIL. PART 2]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-emilia-academic-in-computer-science-from-rio-de-janeiro-brazil-part-2</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-emilia-academic-in-computer-science-from-rio-de-janeiro-brazil-part-2</guid>
+            <pubDate>Mon, 05 Oct 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Emilia worked in Brazil as a software developer before studying for her PhD in UK. From there she m...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA_Brazil_EmiliaP2.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[FOREIGN ACCENTS WITH MATIAS, CHILEAN FILMMAKER AND MUSICIAN – 17 JAN 10]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-with-matias-chilean-filmmaker-and-musician-17-jan-10</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-with-matias-chilean-filmmaker-and-musician-17-jan-10</guid>
+            <pubDate>Sun, 17 Jan 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chilean film maker Matias also plays drums for local band Radio Rebelde. Rollin Guadalupe, Matias’s...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA_Matias_100117.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[FOREIGN ACCENTS – WITH FOZI, PALESTINIAN FROM SYRIA (PART 2)]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-with-fozi-palestinian-from-syria-part-2</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-with-fozi-palestinian-from-syria-part-2</guid>
+            <pubDate>Wed, 08 Jul 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Palestinian, Fozi was born in Syria where he grew up before moving with his family to Dubai to avoi...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA_Palestine_FoziP2.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[FOREIGN ACCENTS – WITH FOZI, PALESTINIAN FROM SYRIA (PART 1)]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-with-fozi-palestinian-from-syria-part-1</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-with-fozi-palestinian-from-syria-part-1</guid>
+            <pubDate>Wed, 08 Jul 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Palestinian, Fozi was born in Syria where he grew up before moving with his family to Dubai to avoi...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA_Palestine_FoziP1.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[FOREIGN ACCENTS – SAMOA – PART 2]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-samoa-part-2</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-samoa-part-2</guid>
+            <pubDate>Mon, 12 Oct 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Italian-born Renzo works in disaster management and humanitarian aid for Oxfam New Zealand. He left...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA_SamoaP2.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[FOREIGN ACCENTS – SAMOA – PART 1]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-samoa-part-1</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-samoa-part-1</guid>
+            <pubDate>Mon, 12 Oct 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Italian-born Renzo works in disaster management and humanitarian aid for Oxfam New Zealand. He left...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA_SamoaP1.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[FOREIGN ACCENTS- 16 AUGUST 09 – WITH FELIPE, LAWYER, FROM BOGOTA, COLOMBIA (PART 2)]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-16-august-09-with-felipe-lawyer-from-bogota-colombia-part-2</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-16-august-09-with-felipe-lawyer-from-bogota-colombia-part-2</guid>
+            <pubDate>Sun, 16 Aug 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Felipe is a lawyer trained in Colombia where he worked for Human Rights. He arrived in NZ in 2008 w...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA-Colombia-FelipeP2.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Foreign Accents- 16 August 09 – With Felipe, Lawyer, From Bogota, Colombia (Part 1)]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-16-august-09-with-felipe-lawyer-from-bogota-colombia-part-1</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-16-august-09-with-felipe-lawyer-from-bogota-colombia-part-1</guid>
+            <pubDate>Sun, 16 Aug 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Felipe is a lawyer trained in Colombia where he worked for Human Rights. He arrived in NZ in 2008 w...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA-Colombia-FelipeP1.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Foreign Accents – Jerome, Foreign Correspondent For "Les Nouvelles Caledoniennes" And Musician. Part Two.]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-jerome-foreign-correspondent-for-les-nouvelles-caledoniennes-and-musician-part-two</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-jerome-foreign-correspondent-for-les-nouvelles-caledoniennes-and-musician-part-two</guid>
+            <pubDate>Tue, 23 Jun 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Foreign Accents – Jerome, Foreign Correspondent For "Les Nouvelles Caledoniennes" And Musician. Par...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA-France_JeromeP2.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Foreign Accents – Jerome, Foreign Correspondent For "Les Nouvelles Caledoniennes" And Musician. Part One.]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-jerome-foreign-correspondent-for-les-nouvelles-caledoniennes-and-musician-part-one</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-jerome-foreign-correspondent-for-les-nouvelles-caledoniennes-and-musician-part-one</guid>
+            <pubDate>Tue, 23 Jun 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jerome, Foreign Correspondent For "Les Nouvelles Caledoniennes" And Musician. Part One.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA-France_JeromeP1.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Foreign Accents – With Paramjit, From Punjab, India (Part 2)]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-with-paramjit-from-punjab-india-part-2</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-with-paramjit-from-punjab-india-part-2</guid>
+            <pubDate>Tue, 21 Jul 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Paramjit and her husband Jagtar are Waiheke-famous for they amiability. They were the owners of Ost...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA-India-ParamjitP2.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Foreign Accents – With Paramjit, From Punjab, India (Part 1)]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-with-paramjit-from-punjab-india-part-1</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-with-paramjit-from-punjab-india-part-1</guid>
+            <pubDate>Tue, 21 Jul 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Paramjit and her husband Jagtar are Waiheke-famous for they amiability. They were the owners of Ost...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/FA-India-ParamjitP1.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Claudia Lapp  - Germany]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-claudia</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-claudia</guid>
+            <pubDate>Wed, 14 Jan 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Claudia shares her time between Germany, New Zealand, Canada and Australia. With Claudia we talked ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/foreign-accents/Foreign_Accents-Claudia-Germany.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[FOREIGN ACCENTS – EMILIA, ACADEMIC IN COMPUTER SCIENCE, FROM RIO DE JANEIRO, BRAZIL. PART 1]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-emilia-academic-in-computer-science-from-rio-de-janeiro-brazil-part-1</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-emilia-academic-in-computer-science-from-rio-de-janeiro-brazil-part-1</guid>
+            <pubDate>Mon, 05 Oct 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Emilia worked in Brazil as a software developer before studying for her PhD in UK. From there she m...]]></description>
+            <enclosure url="https://s3.ap-southeast-2.amazonaws.com/wr-recordings/podcasts/foreign-accents/FA_Brazil_EmiliaP1.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[FOREIGN ACCENTS – A 4 MINUTES RETROSPECTIVE]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-a-4-minutes-retrospective</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-a-4-minutes-retrospective</guid>
+            <pubDate>Sun, 31 Jan 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[The show is essentially about giving a voice to migrants newly arrived in New Zealand, but also to ...]]></description>
+            <enclosure url="https://s3.ap-southeast-2.amazonaws.com/wr-recordings/podcasts/foreign-accents/fa_retrospective.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Foreign Accents – Arya From Borneo, Indonesia. Part 2]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-arya-from-borneo-indonesia-part-2</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-arya-from-borneo-indonesia-part-2</guid>
+            <pubDate>Sun, 29 Nov 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Aryah from Borneo, Indonesia.
+
+Playlist:
+Samsons – Kenangan Terindah
+Glenn Fredly – Selamat Pagi, D...]]></description>
+            <enclosure url="https://s3.ap-southeast-2.amazonaws.com/wr-recordings/podcasts/foreign-accents/AryaP2.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Foreign Accents – Arya From Borneo, Indonesia. Part 1]]></title>
+            <link>http://localhost:3000/podcast/foreign-accents-arya-from-borneo-indonesia-part-1</link>
+            <guid>http://localhost:3000/podcast/foreign-accents-arya-from-borneo-indonesia-part-1</guid>
+            <pubDate>Mon, 09 Nov 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Marie-France Duhamel interviews Aryah from Borneo, Indonesia.
+
+Playlist:
+Samsons – Kenangan Terinda...]]></description>
+            <enclosure url="https://s3.ap-southeast-2.amazonaws.com/wr-recordings/podcasts/foreign-accents/AryaP1.mp3" length="0" type="image/mp3"/>
+        </item>
+    </channel>
+</rss>

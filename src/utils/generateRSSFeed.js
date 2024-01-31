@@ -30,6 +30,7 @@ let rssShowTitle;
     json: `${site_url}/feed.json`,
     atom: `${site_url}/atom.xml`
   },
+ 
   
 };
 
@@ -49,6 +50,7 @@ const posts = await client.getEntries({
   'fields.show.sys.contentType.sys.id': 'shows',
   locale: "en-US",
   limit: 50,
+
   
 
 });
@@ -64,7 +66,8 @@ posts.items.forEach((post) => {
     enclosure: post.fields.amazonUrl,
     description: truncate(post.fields.description.replaceAll("&", " and ")),
     date: new Date(post.fields.date),
-
+ 
+     
 
   });
 });
@@ -80,10 +83,8 @@ posts.items.forEach((post) => {
   const typeReplaced = replaced.replaceAll('type="image/mp3"', 'type="audio/mpeg"');
   const nameSpace = typeReplaced.replaceAll('<rss version="2.0">', '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">');
   const length  = nameSpace.replaceAll('length="0"', 'length="123456"');
-
-
-
-  writeFile(rssFileName, length, 'utf-8', function (err) {
+ 
+  writeFile(rssFileName, final, 'utf-8', function (err) {
     console.log(err);
   });
 
