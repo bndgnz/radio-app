@@ -5,7 +5,7 @@
         <title>Waiheke Radio Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from Waiheke Radio - New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:32:53 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 22:35:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>

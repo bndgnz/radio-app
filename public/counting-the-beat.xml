@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
         <title>COUNTING THE BEAT Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from COUNTING THE BEAT - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:32:52 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 22:35:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,6 +15,8 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Counting The Beat Hamish Kilgour Special]]></title>
             <link>http://localhost:3000/podcast/counting-the-beat-hamish-kilgour-special</link>
             <guid>http://localhost:3000/podcast/counting-the-beat-hamish-kilgour-special</guid>
@@ -23,7 +26,7 @@
 Playlist:
 
 ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/CTBDec2022HamishKilgour.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/CTBDec2022HamishKilgour.mp3" length="123456" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>

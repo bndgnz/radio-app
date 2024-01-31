@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
         <title>SCHOOLS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from SCHOOLS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:32:53 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 22:35:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,54 +15,68 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Matariki At Waiheke High School]]></title>
             <link>http://localhost:3000/podcast/matariki-at-waiheke-high-school</link>
             <guid>http://localhost:3000/podcast/matariki-at-waiheke-high-school</guid>
             <pubDate>Sat, 18 Jul 2015 00:00:00 GMT</pubDate>
             <description><![CDATA[Matariki at Waiheke High School is by many accounts uniquely celebrated. The school’s four houses s...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/matariki-waiheke-high-2015.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/matariki-waiheke-high-2015.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Canto Isola]]></title>
             <link>http://localhost:3000/podcast/canto-isola</link>
             <guid>http://localhost:3000/podcast/canto-isola</guid>
             <pubDate>Sat, 24 May 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Canto Isola is a year 9-13 young women’s choir at Waiheke High School, currently in its sixth year....]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/canto-isola-library-may2014_0-1.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/canto-isola-library-may2014_0-1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Waiheke High School Jazz Ensemble Live At Waiheke Library 2]]></title>
             <link>http://localhost:3000/podcast/waiheke-high-school-jazz-ensemble-live-at-waiheke-library-2</link>
             <guid>http://localhost:3000/podcast/waiheke-high-school-jazz-ensemble-live-at-waiheke-library-2</guid>
             <pubDate>Sat, 10 May 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[As part of New Zealand Music Month 2014 the Waiheke Library hosts a selection of local artists. On ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/Waiheke-High-School-Jazz-Ensemble.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/Waiheke-High-School-Jazz-Ensemble.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Waiheke High School Canto Isola Live at the Library]]></title>
             <link>http://localhost:3000/podcast/waiheke-high-school-canto-isola-live-at-the-library</link>
             <guid>http://localhost:3000/podcast/waiheke-high-school-canto-isola-live-at-the-library</guid>
             <pubDate>Mon, 18 May 2015 00:00:00 GMT</pubDate>
             <description><![CDATA[Waiheke High School Canto Isola Live at the Library]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/WaihekeHighChoirLibrary180513.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/WaihekeHighChoirLibrary180513.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Waiheke High School Jazz Ensemble Live At Waiheke Library]]></title>
             <link>http://localhost:3000/podcast/waiheke-high-school-jazz-ensemble-live-at-waiheke-library</link>
             <guid>http://localhost:3000/podcast/waiheke-high-school-jazz-ensemble-live-at-waiheke-library</guid>
             <pubDate>Tue, 21 May 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[The Waiheke High School Jazz Ensemble performed live at Waiheke Library on Saturday 18th May 2013 a...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/Waiheke-High-School-Jazz-Ensemble.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/Waiheke-High-School-Jazz-Ensemble.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Waiheke Primary School – Kapa Haka Group Dec15]]></title>
             <link>http://localhost:3000/podcast/waiheke-primary-school-kapa-haka-group-dec15</link>
             <guid>http://localhost:3000/podcast/waiheke-primary-school-kapa-haka-group-dec15</guid>
             <pubDate>Sat, 15 Dec 2012 00:00:00 GMT</pubDate>
             <description><![CDATA[On dec 15 Island Life played a recording of the Waiheke High School Kapa haka group performing some...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/Primary-school-kapa-haka-with-intro.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/Primary-school-kapa-haka-with-intro.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Karaka Class From Waiheke Primary Visit The Station]]></title>
             <link>http://localhost:3000/podcast/karaka-class-from-waiheke-primary-visit-the-station</link>
             <guid>http://localhost:3000/podcast/karaka-class-from-waiheke-primary-visit-the-station</guid>
@@ -69,15 +84,17 @@
             <description><![CDATA[
 Karaka Class From Waiheke Primary Visit The Station
 On Thursday 14 June the children from Karaka c...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/KarakaClassVisit140612.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/KarakaClassVisit140612.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[High School Students for NZ Music Month]]></title>
             <link>http://localhost:3000/podcast/high-school-students-for-nz-music-month</link>
             <guid>http://localhost:3000/podcast/high-school-students-for-nz-music-month</guid>
             <pubDate>Sat, 17 May 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Sarah McNabb introduces a group of high school students playing at the library for NZ Music Month]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/HighSchoolStudentsLibraryMusicMonth.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/schools/HighSchoolStudentsLibraryMusicMonth.mp3" length="123456" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>

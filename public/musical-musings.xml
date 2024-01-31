@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
         <title>MUSICAL MUSINGS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from MUSICAL MUSINGS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:32:53 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 22:35:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,44 +15,54 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Musical Musings Interview With Pilar From Spice Cafe]]></title>
             <link>http://localhost:3000/podcast/musical-musings-interview-with-pilar-from-spice-cafe</link>
             <guid>http://localhost:3000/podcast/musical-musings-interview-with-pilar-from-spice-cafe</guid>
             <pubDate>Sun, 03 Oct 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Musical Musings Interview With Pilar From Spice Cafe]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/pilar-from-spice-5th-june-final.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/pilar-from-spice-5th-june-final.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Phillipa Karn On Musical Musings]]></title>
             <link>http://localhost:3000/podcast/phillipa-karn-on-musical-musings</link>
             <guid>http://localhost:3000/podcast/phillipa-karn-on-musical-musings</guid>
             <pubDate>Sat, 16 Oct 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Phillipa Karn On Musical Musings]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/philipa-karn-final.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/philipa-karn-final.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Martini Gotje Part 1 On Musical Musings]]></title>
             <link>http://localhost:3000/podcast/martini-gotje-part-1-on-musical-musings</link>
             <guid>http://localhost:3000/podcast/martini-gotje-part-1-on-musical-musings</guid>
             <pubDate>Sat, 16 Oct 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Martini Gotje Part 1 On Musical Musings]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/martini-part-1.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/martini-part-1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Martini Gotje Part 2 On Musical Musings]]></title>
             <link>http://localhost:3000/podcast/martini-gotje-part-2-on-musical-musings</link>
             <guid>http://localhost:3000/podcast/martini-gotje-part-2-on-musical-musings</guid>
             <pubDate>Sat, 16 Oct 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Martini Gotje Part 2 On Musical Musings]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/martine-part-2.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/martine-part-2.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+
             <title><![CDATA[Musical Musings Interview With Bernard Rhodes ]]></title>
             <link>http://localhost:3000/podcast/musical-musings-interview-with-bernard-rhodes</link>
             <guid>http://localhost:3000/podcast/musical-musings-interview-with-bernard-rhodes</guid>
             <pubDate>Sun, 03 Oct 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[Musical Musings Interview With Bernard Rhodes ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/bernard-rhodesfinal.mp3" length="0" type="image/mp3"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/bernard-rhodesfinal.mp3" length="123456" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>
