@@ -84,7 +84,7 @@ posts.items.forEach((post) => {
   const nameSpace = typeReplaced.replaceAll('<rss version="2.0">', '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">');
   const length  = nameSpace.replaceAll('length="0"', 'length="123456"');
 
-  const author  = length.replaceAll('<item>', '<item>\n<author>Waiheke Radio (info@waihekeradio.org.nz)</author>\n');
+  const author  = length.replaceAll('<item>', '<item>\n<author>Waiheke Radio (info@waihekeradio.org.nz) </author>\n');
  
   writeFile(rssFileName, author, 'utf-8', function (err) {
     console.log(err);
