@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>SCULPTURE ON THE GULF Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from SCULPTURE ON THE GULF - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Wed, 31 Jan 2024 22:14:45 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>SCULPTURE ON THE GULF Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Jonathan Organ – Artist Talk]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-jonathan-organ-artist-talk</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-jonathan-organ-artist-talk</guid>
+            <pubDate>Tue, 29 Jan 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again the artist talk from Jonathan recorded in the Pavilion at Matiatia on Waihek...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/jonathan-edited.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Regan Gentry – Artist Talk]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-regan-gentry-artist-talk</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-regan-gentry-artist-talk</guid>
+            <pubDate>Wed, 30 Jan 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+Headland Sculpture On The Gulf – Regan Gentry – Artist Talk
+
+A chance to hear again the artist tal...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/Regan-Gentry-Podcast.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Sharonagh Montrose – Artist Talk]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-sharonagh-montrose-artist-talk</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-sharonagh-montrose-artist-talk</guid>
+            <pubDate>Wed, 30 Jan 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[ A chance to hear again the artist talk from Sharonagh recorded in the Pavilion at Matiatia on Waih...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Sharonagh-Montrose-Artist-Talk-Podcast.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Veronica Herber – Artist Talk]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-veronica-herber-artist-talk</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-veronica-herber-artist-talk</guid>
+            <pubDate>Fri, 01 Feb 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again the artist talk from Veronica Herber recorded in the Pavilion at Matiatia on...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Veronica-Herber-Artist-Talk-Podcast.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Behind The Scenes With Nansi Thompson  and  Nicky Cairns]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-behind-the-scenes-with-nansi-thompson-and</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-behind-the-scenes-with-nansi-thompson-and</guid>
+            <pubDate>Fri, 01 Feb 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear a conversation with Nansi Thompson Artistic Director of Scultpture on The Gulf 201...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Nicky-Cairns-Nansi-Thompson.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Matthew Muir – Artist Talk ]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-matthew-muir-artist-talk</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-matthew-muir-artist-talk</guid>
+            <pubDate>Mon, 04 Feb 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again the artist talk from Matthew Muir recorded in the Pavilion at Matiatia on Wa...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Matthew-Muir-Artist-Talk-Podcast-.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Aaron McConchie – Artist Talk]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-aaron-mcconchie-artist-talk</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-aaron-mcconchie-artist-talk</guid>
+            <pubDate>Tue, 05 Feb 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again the artist talk from Aaron McConchie recorded in the Pavilion at Matiatia on...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Aaron-McConchie-Artist-Talk-Podcast-.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Sarah Brill – Artist Talk]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-sarah-brill-artist-talk</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-sarah-brill-artist-talk</guid>
+            <pubDate>Wed, 06 Feb 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again the artist talk from Sarah Brill recorded in the Pavilion at Matiatia on Wai...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Sarah-Brill-Artist-Talk-Podcast.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Kazu Nakagawa  and  Andrew Caldwell – Artist Talk ]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-kazu-nakagawa-and-andrew-caldwell-artist-talk</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-kazu-nakagawa-and-andrew-caldwell-artist-talk</guid>
+            <pubDate>Thu, 07 Feb 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again the artist talk from Kazu Nakagawa  and  Andrew Caldwell recorded in the Pav...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Kazu-Nakagawa-Andrew-Caldwell-Artist-Talk-Podcast.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Delicia Sampero – Artist Talk]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-delicia-sampero-artist-talk</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-delicia-sampero-artist-talk</guid>
+            <pubDate>Sat, 09 Feb 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again the artist talk from Delicia Sampero recorded in the Pavilion at Matiatia on...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Delicia-Sampero-Artist-Talk-Podcast.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Catwalk Panel Discussion Chaired By Kazu Nakagawa]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-catwalk-panel-discussion-chaired-by-kazu</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-catwalk-panel-discussion-chaired-by-kazu</guid>
+            <pubDate>Mon, 11 Feb 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again a panel discussion about Catwalk, Winner of the Headland Sculpture on the Gu...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Kazu-Panel-Discussion-Artist-Talk-Podcast.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Anthony Cribb – Artist Talk]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-anthony-cribb-artist-talk</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-anthony-cribb-artist-talk</guid>
+            <pubDate>Sun, 12 Feb 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again the artist talk from Anthony Cribb recorded in the Pavilion at Matiatia on W...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Anthony-Cribb-Artist-Talk-Podcast-.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Christian Nicholson – Artist Talk  cujimi  FEBRUARY 13, 2013]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-christian-nicholson-artist-talk-cujimi</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-christian-nicholson-artist-talk-cujimi</guid>
+            <pubDate>Wed, 13 Feb 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again the artist talk from Christian Nicholson recorded in the Pavilion at Matiati...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Christian-Nicholson-Artist-Talk-Podcast.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Headland Sculpture On The Gulf – Jeff Thomson – Artist Talk]]></title>
+            <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-jeff-thomson-artist-talk</link>
+            <guid>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-jeff-thomson-artist-talk</guid>
+            <pubDate>Wed, 13 Feb 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear again the artist talk from Jeff Thomson recorded in the Pavilion at Matiatia on Wa...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Jeff-Thomson-Artist-Talk-Podcast.mp3" length="0" type="image/mp3"/>
+        </item>
+    </channel>
+</rss>

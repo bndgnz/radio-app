@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>WHY RADIO Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from WHY RADIO - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Wed, 31 Jan 2024 22:14:44 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>WHY RADIO Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+    </channel>
+</rss>

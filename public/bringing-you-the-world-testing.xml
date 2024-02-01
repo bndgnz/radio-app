@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>BRINGING YOU THE WORLD Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from BRINGING YOU THE WORLD - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Wed, 31 Jan 2024 22:14:45 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>BRINGING YOU THE WORLD Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[A French Experience In Marseillan, South Of France With Liz And Gene]]></title>
+            <link>http://localhost:3000/podcast/a-french-experience-in-marseillan-south-of-france-with-liz-and-gene</link>
+            <guid>http://localhost:3000/podcast/a-french-experience-in-marseillan-south-of-france-with-liz-and-gene</guid>
+            <pubDate>Tue, 25 Sep 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hear gourmet foodies Liz Eglinton and Gene O’Neill from Te Whau Lodge, Waiheke Island, NZ talk abou...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/Te-Whau-Lodge-goes-to-Languedoc-South-of-France-June-2013.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Travel To Santorini  and  The Greek Islands]]></title>
+            <link>http://localhost:3000/podcast/travel-to-santorini-and-the-greek-islands</link>
+            <guid>http://localhost:3000/podcast/travel-to-santorini-and-the-greek-islands</guid>
+            <pubDate>Fri, 09 Nov 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Take a trip to Santorini and the Greek Islands with Bringing You The World. Thanks to our show spon...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/Santorini-the-Greek-Islands.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Rock Rhodes Across America ]]></title>
+            <link>http://localhost:3000/podcast/rock-rhodes-across-america</link>
+            <guid>http://localhost:3000/podcast/rock-rhodes-across-america</guid>
+            <pubDate>Wed, 12 Sep 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chance to hear Jenny talk with island resident Rocky Rhodes about his recent adventures as he rod...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/Greyhound-Bus-Trip-Rocky-Rhodes-USA-Sept-2012-Bringing-you-the-World.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Cunard Cruising And Probus  and  Solo Travelling Clubs With Islander Lyn Ross]]></title>
+            <link>http://localhost:3000/podcast/cunard-cruising-and-probus-and-solo-travelling-clubs-with-islander-lyn-ross</link>
+            <guid>http://localhost:3000/podcast/cunard-cruising-and-probus-and-solo-travelling-clubs-with-islander-lyn-ross</guid>
+            <pubDate>Sat, 15 Dec 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Listen again to Jenny’s conversation with Islander Lyn Ross about the Waiheke Probus Club, Solo Tra...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/Cruising-with-Cunard-on-Queen-Elizabeth-11th-Dec-2012.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Bringing You The World May 8th]]></title>
+            <link>http://localhost:3000/podcast/bringing-you-the-world-may-8th</link>
+            <guid>http://localhost:3000/podcast/bringing-you-the-world-may-8th</guid>
+            <pubDate>Thu, 10 May 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week saw us in Hong Kong, Macau and river cruising]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/bytw-may8.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Bringing You The World Takes You To Vietnam]]></title>
+            <link>http://localhost:3000/podcast/bringing-you-the-world-takes-you-to-vietnam</link>
+            <guid>http://localhost:3000/podcast/bringing-you-the-world-takes-you-to-vietnam</guid>
+            <pubDate>Tue, 10 Apr 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Take a trip to Vietnam with Penny  and  Jeryl]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/bringing-you-the-world-vietnam.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Travel To Cuba]]></title>
+            <link>http://localhost:3000/podcast/travel-to-cuba</link>
+            <guid>http://localhost:3000/podcast/travel-to-cuba</guid>
+            <pubDate>Fri, 03 Aug 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Listen in to find out about sensational Cuba. Cigars, salsa, great travel deals from NZ, it’s all h...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/Bringing-You-The-World-Cuba-31st-July-2012.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Hear About Travels In Beijing With Islander Patrik Argourd]]></title>
+            <link>http://localhost:3000/podcast/hear-about-travels-in-beijing-with-islander-patrik-argourd</link>
+            <guid>http://localhost:3000/podcast/hear-about-travels-in-beijing-with-islander-patrik-argourd</guid>
+            <pubDate>Wed, 28 Nov 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[ Bringing You The World. A chance to hear again Jenny’s conversation with islander Patrik Argourd a...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/Beijing-China-with-Patrik-Argourd-United-Travel-Waiheke-Nov-2012.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[P and O PNG Cruises and Cpt Cook Cruises Golf Special 2013/2014 ]]></title>
+            <link>http://localhost:3000/podcast/p-and-o-png-cruises-and-cpt-cook-cruises-golf-special-2013-2014</link>
+            <guid>http://localhost:3000/podcast/p-and-o-png-cruises-and-cpt-cook-cruises-golf-special-2013-2014</guid>
+            <pubDate>Tue, 24 Apr 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today I was talking about Cruise specials including the new P and O PNG (Papua New Guinea) cruises ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/24th-april-2012.mp3" length="0" type="image/mp3"/>
+        </item>
+    </channel>
+</rss>

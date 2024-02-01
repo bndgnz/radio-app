@@ -5,7 +5,7 @@
         <title>VOCAL LOCAL Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from VOCAL LOCAL - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Tue, 23 Jan 2024 03:06:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,6 +15,8 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Lisa Smith – Waitangi Day And Living Without Violence]]></title>
             <link>http://localhost:3000/podcast/lisa-smith-waitangi-day-and-living-without-violence</link>
             <guid>http://localhost:3000/podcast/lisa-smith-waitangi-day-and-living-without-violence</guid>
@@ -23,6 +25,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Lisasmithinterview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[WASTE – The Battle Is Lost But The War Is Ongoing – Full Council Meeting 12 6 2009]]></title>
             <link>http://localhost:3000/podcast/waste-the-battle-is-lost-but-the-war-is-ongoing-full-council-meeting-12-6</link>
             <guid>http://localhost:3000/podcast/waste-the-battle-is-lost-but-the-war-is-ongoing-full-council-meeting-12-6</guid>
@@ -31,6 +35,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Waste.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vicky And Andres On Waiheke And Sweden]]></title>
             <link>http://localhost:3000/podcast/vicky-and-andres-on-waiheke-and-sweden</link>
             <guid>http://localhost:3000/podcast/vicky-and-andres-on-waiheke-and-sweden</guid>
@@ -39,6 +45,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/vidkyAndrespodcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Sue Connor – Wheelie Wheelie Stupid]]></title>
             <link>http://localhost:3000/podcast/sue-connor-wheelie-wheelie-stupid</link>
             <guid>http://localhost:3000/podcast/sue-connor-wheelie-wheelie-stupid</guid>
@@ -49,6 +57,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Sue-Connor-podcast-Wheelie-Wheelie-Stupid.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal Local – Sue Bradford Referendum And Supercity Hearings Waiheke – 6 Aug 2009]]></title>
             <link>http://localhost:3000/podcast/vocal-local-sue-bradford-referendum-and-supercity-hearings-waiheke-6-aug</link>
             <guid>http://localhost:3000/podcast/vocal-local-sue-bradford-referendum-and-supercity-hearings-waiheke-6-aug</guid>
@@ -57,6 +67,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Sue-Bradford-podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal Local – Richard Logan – North Shore City, Policy Advisor On Making Auckland Great (Or Not)?]]></title>
             <link>http://localhost:3000/podcast/vocal-local-richard-logan-north-shore-city-policy-advisor-on-making-auckland</link>
             <guid>http://localhost:3000/podcast/vocal-local-richard-logan-north-shore-city-policy-advisor-on-making-auckland</guid>
@@ -67,6 +79,8 @@ Greater c...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/RichardLoganpodcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Phil Twyford – Supercity Submissions]]></title>
             <link>http://localhost:3000/podcast/phil-twyford-supercity-submissions</link>
             <guid>http://localhost:3000/podcast/phil-twyford-supercity-submissions</guid>
@@ -75,6 +89,8 @@ Greater c...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/PhilTwyfordpodcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Phil Brown – Brofidicum Drops And Conservation]]></title>
             <link>http://localhost:3000/podcast/phil-brown-brofidicum-drops-and-conservation</link>
             <guid>http://localhost:3000/podcast/phil-brown-brofidicum-drops-and-conservation</guid>
@@ -85,6 +101,8 @@ Phil Brown, Auckland programme manager for biod...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Phil-Brown-DOC-12-nov-2009.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal Local – Pita Rickys On Local Control In Governance And The Hikoi]]></title>
             <link>http://localhost:3000/podcast/vocal-local-pita-rickys-on-local-control-in-governance-and-the-hikoi</link>
             <guid>http://localhost:3000/podcast/vocal-local-pita-rickys-on-local-control-in-governance-and-the-hikoi</guid>
@@ -93,6 +111,8 @@ Phil Brown, Auckland programme manager for biod...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/petarickysHikoipodcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal Local – Peta Rickys – Supercity Good Or Bad For Waiheke?]]></title>
             <link>http://localhost:3000/podcast/vocal-local-peta-rickys-supercity-good-or-bad-for-waiheke</link>
             <guid>http://localhost:3000/podcast/vocal-local-peta-rickys-supercity-good-or-bad-for-waiheke</guid>
@@ -101,6 +121,8 @@ Phil Brown, Auckland programme manager for biod...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/peta_rikyspodcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal Local – Owhiti Bay – Paora Toi-Te Ranguiaia 12 March 2009]]></title>
             <link>http://localhost:3000/podcast/vocal-local-owhiti-bay-paora-toi-te-ranguiaia-12-march-2009</link>
             <guid>http://localhost:3000/podcast/vocal-local-owhiti-bay-paora-toi-te-ranguiaia-12-march-2009</guid>
@@ -111,6 +133,8 @@ Phil Brown, Auckland programme manager for biod...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Owhiti-Bay-Paora-12-March-2009.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal Local – James Samuel  and  Ooooby Pt 2]]></title>
             <link>http://localhost:3000/podcast/vocal-local-james-samuel-and-ooooby-pt-2</link>
             <guid>http://localhost:3000/podcast/vocal-local-james-samuel-and-ooooby-pt-2</guid>
@@ -119,6 +143,8 @@ Phil Brown, Auckland programme manager for biod...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/OOooby2.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal Local – James Samuel  and  Ooooby Pt 1]]></title>
             <link>http://localhost:3000/podcast/vocal-local-james-samuel-and-ooooby-pt-1</link>
             <guid>http://localhost:3000/podcast/vocal-local-james-samuel-and-ooooby-pt-1</guid>
@@ -127,6 +153,8 @@ Phil Brown, Auckland programme manager for biod...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/ooooby1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal Local – Minka Firth On WASTE And City Development Meeting Of 11 6 2009]]></title>
             <link>http://localhost:3000/podcast/vocal-local-minka-firth-on-waste-and-city-development-meeting-of-11-6-2009</link>
             <guid>http://localhost:3000/podcast/vocal-local-minka-firth-on-waste-and-city-development-meeting-of-11-6-2009</guid>
@@ -135,6 +163,8 @@ Phil Brown, Auckland programme manager for biod...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Minka-Waste-Podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Jacqueline Carter On Matariki And The Piritahi Marae Celebrations]]></title>
             <link>http://localhost:3000/podcast/jacqueline-carter-on-matariki-and-the-piritahi-marae-celebrations</link>
             <guid>http://localhost:3000/podcast/jacqueline-carter-on-matariki-and-the-piritahi-marae-celebrations</guid>
@@ -145,6 +175,8 @@ Jacqueline Carter talks...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Matariki-2009-Podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal Local – Mark Parisien On 350 Climate Change And Living On A Boat]]></title>
             <link>http://localhost:3000/podcast/vocal-local-mark-parisien-on-350-climate-change-and-living-on-a-boat</link>
             <guid>http://localhost:3000/podcast/vocal-local-mark-parisien-on-350-climate-change-and-living-on-a-boat</guid>
@@ -155,6 +187,8 @@ Mark Parisien, talks about spearheading th...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Mark-Parisien-podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal Local – John Stansfield On Recycling, Community And Where To Now]]></title>
             <link>http://localhost:3000/podcast/vocal-local-john-stansfield-on-recycling-community-and-where-to-now</link>
             <guid>http://localhost:3000/podcast/vocal-local-john-stansfield-on-recycling-community-and-where-to-now</guid>
@@ -163,6 +197,8 @@ Mark Parisien, talks about spearheading th...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/John-Stansfield-podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal local Chris Greaves Rubbish Tender and Wheelie Bins]]></title>
             <link>http://localhost:3000/podcast/vocal-local-chris-greaves-rubbish-tender-and-wheelie-bins</link>
             <guid>http://localhost:3000/podcast/vocal-local-chris-greaves-rubbish-tender-and-wheelie-bins</guid>
@@ -171,6 +207,8 @@ Mark Parisien, talks about spearheading th...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Chris-Greaves_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Cell phone towers Andrew Crawford]]></title>
             <link>http://localhost:3000/podcast/cell-phone-towers-andrew-crawford</link>
             <guid>http://localhost:3000/podcast/cell-phone-towers-andrew-crawford</guid>
@@ -179,6 +217,8 @@ Mark Parisien, talks about spearheading th...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/Cell-phone-towers-5-March-2009.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Cathy Urquhart – Campaign 4 Fair Ferry Fares]]></title>
             <link>http://localhost:3000/podcast/cathy-urquhart-campaign-4-fair-ferry-fares</link>
             <guid>http://localhost:3000/podcast/cathy-urquhart-campaign-4-fair-ferry-fares</guid>
@@ -187,6 +227,8 @@ Mark Parisien, talks about spearheading th...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/campaign4fairferriespodcast_1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Campaign for fair ferry fares]]></title>
             <link>http://localhost:3000/podcast/campaign-for-fair-ferry-fares</link>
             <guid>http://localhost:3000/podcast/campaign-for-fair-ferry-fares</guid>
@@ -195,6 +237,8 @@ Mark Parisien, talks about spearheading th...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/campaign4fairferriespodcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal Local – Basil Holmes On Learning From History]]></title>
             <link>http://localhost:3000/podcast/vocal-local-basil-holmes-on-learning-from-history</link>
             <guid>http://localhost:3000/podcast/vocal-local-basil-holmes-on-learning-from-history</guid>
@@ -203,6 +247,8 @@ Mark Parisien, talks about spearheading th...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/vocal-local/BasilHolmespodcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Vocal Local – Make Dreams Come True With Adult Literacy]]></title>
             <link>http://localhost:3000/podcast/vocal-local-make-dreams-come-true-with-adult-literacy</link>
             <guid>http://localhost:3000/podcast/vocal-local-make-dreams-come-true-with-adult-literacy</guid>

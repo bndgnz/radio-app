@@ -5,7 +5,7 @@
         <title>B COPY AND BULLDOGS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from B COPY AND BULLDOGS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Tue, 23 Jan 2024 03:06:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,6 +15,8 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS MAY 1 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-may-1-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-may-1-2011</guid>
@@ -23,6 +25,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_40.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS APRIL 24 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-april-24-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-april-24-2011</guid>
@@ -31,6 +35,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_39.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS APRIL 17 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-april-17-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-april-17-2011</guid>
@@ -39,6 +45,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_38.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-Copy  and  Bulldogs April 10 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-april-10-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-april-10-2011</guid>
@@ -47,6 +55,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_37.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS APRIL 3 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-april-3-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-april-3-2011</guid>
@@ -55,6 +65,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_36.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS MARCH 27 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-march-27-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-march-27-2011</guid>
@@ -63,6 +75,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_35.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS MARCH 20 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-march-20-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-march-20-2011</guid>
@@ -71,6 +85,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_34.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS MARCH 13 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-march-13-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-march-13-2011</guid>
@@ -79,6 +95,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_33.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS MARCH 6 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-march-6-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-march-6-2011</guid>
@@ -87,6 +105,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_32.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS FEB 27TH 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-feb-27th-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-feb-27th-2011</guid>
@@ -95,6 +115,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_31.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS FEB 20TH 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-feb-20th-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-feb-20th-2011</guid>
@@ -103,6 +125,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_30.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS FEB 13TH 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-feb-13th-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-feb-13th-2011</guid>
@@ -111,6 +135,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_29.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS WAITANGI DAY FEB 6 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-waitangi-day-feb-6-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-waitangi-day-feb-6-2011</guid>
@@ -119,6 +145,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_28.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS JAN 30 2011]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-jan-30-2011</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-jan-30-2011</guid>
@@ -129,6 +157,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_27.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-Copy  and  Bulldogs Boxing Day Special]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-boxing-day-special</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-boxing-day-special</guid>
@@ -137,6 +167,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_22.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS DECEMBER 19TH]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-december-19th</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-december-19th</guid>
@@ -145,6 +177,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS DECEMBER 12TH FROM NEW YORK]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-december-12th-from-new-york</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-december-12th-from-new-york</guid>
@@ -153,6 +187,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_19.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS DECEMBER 5TH]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-december-5th</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-december-5th</guid>
@@ -161,6 +197,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_18.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS NOVEMBER 28TH]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-november-28th</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-november-28th</guid>
@@ -169,6 +207,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_17.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS NOV 21ST]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-nov-21st</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-nov-21st</guid>
@@ -177,6 +217,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_16.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS NOVEMBER 14TH]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-november-14th</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-november-14th</guid>
@@ -185,6 +227,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_15.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS NOVEMBER 7TH]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-november-7th</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-november-7th</guid>
@@ -193,6 +237,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_14.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS OCTOBER 31ST]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-october-31st</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-october-31st</guid>
@@ -201,6 +247,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_13.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS OCT 24TH]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-oct-24th</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-oct-24th</guid>
@@ -209,6 +257,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_11.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS OCT 17TH]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-oct-17th</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-oct-17th</guid>
@@ -217,6 +267,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_9.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS OCTOBER 10TH LIVE LINK UP FROM NEW YORK]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-october-10th-live-link-up-from-new-york</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-october-10th-live-link-up-from-new-york</guid>
@@ -225,6 +277,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_8.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS OCTOBER 3 2010]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-october-3-2010</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-october-3-2010</guid>
@@ -233,6 +287,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_7.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS SEPTEMBER 26TH 2010]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-september-26th-2010</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-september-26th-2010</guid>
@@ -241,6 +297,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_6.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS SEPTEMBER 19]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-september-19</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-september-19</guid>
@@ -249,6 +307,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_5.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS SEPTEMBER 12]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-september-12</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-september-12</guid>
@@ -257,6 +317,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_4.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS SEPTEMBER 5TH 2010]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-september-5th-2010</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-september-5th-2010</guid>
@@ -265,6 +327,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_3.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS AUGUST 29TH 2010]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-august-29th-2010</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-august-29th-2010</guid>
@@ -273,6 +337,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_2.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS AUGUST 22ND]]></title>
             <link>http://localhost:3000/podcast/b-copy-and-bulldogs-august-22nd</link>
             <guid>http://localhost:3000/podcast/b-copy-and-bulldogs-august-22nd</guid>
@@ -281,6 +347,8 @@ This week is a guest free ...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/b-copy-and-bulldog/bcopy_1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[B-COPY  and  BULLDOGS AUGUST 15]]></title>
             <link>http://localhost:3000/podcast/b-copy-bulldogs-august-15</link>
             <guid>http://localhost:3000/podcast/b-copy-bulldogs-august-15</guid>

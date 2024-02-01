@@ -5,7 +5,7 @@
         <title>EVENTS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from EVENTS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Tue, 23 Jan 2024 03:06:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,6 +15,8 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[WOW By Name WOW By Nature!!! The World Of Wearable Art Takes Wellington By Storm]]></title>
             <link>http://localhost:3000/podcast/wow-by-name-wow-by-nature-the-world-of-wearable-art-takes-wellington-by</link>
             <guid>http://localhost:3000/podcast/wow-by-name-wow-by-nature-the-world-of-wearable-art-takes-wellington-by</guid>
@@ -23,6 +25,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/WOW-2012.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Counting The Beat Silver Scrolls Special 2008]]></title>
             <link>http://localhost:3000/podcast/counting-the-beat-silver-scrolls-special-2008</link>
             <guid>http://localhost:3000/podcast/counting-the-beat-silver-scrolls-special-2008</guid>
@@ -31,6 +35,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/SilverScrolls2008_64kb.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mike Lee: Navigators And Naturalists]]></title>
             <link>http://localhost:3000/podcast/mike-lee-navigators-and-naturalists</link>
             <guid>http://localhost:3000/podcast/mike-lee-navigators-and-naturalists</guid>
@@ -39,6 +45,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/mike-lee-waiheke-library-9-amr-2019.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Midwinter Dip Interviews]]></title>
             <link>http://localhost:3000/podcast/midwinter-dip-interviews</link>
             <guid>http://localhost:3000/podcast/midwinter-dip-interviews</guid>
@@ -47,6 +55,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/midwinterdip64.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Reminiscing About Waiheke – International Day Of The Older Person 2010]]></title>
             <link>http://localhost:3000/podcast/reminiscing-about-waiheke-international-day-of-the-older-person-2010</link>
             <guid>http://localhost:3000/podcast/reminiscing-about-waiheke-international-day-of-the-older-person-2010</guid>
@@ -55,6 +65,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/International-day-of-the-older-person-2010.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Reminiscing About Waiheke History As Part Of Auckland Heritage Week]]></title>
             <link>http://localhost:3000/podcast/reminiscing-about-waiheke-history-as-part-of-auckland-heritage-week</link>
             <guid>http://localhost:3000/podcast/reminiscing-about-waiheke-history-as-part-of-auckland-heritage-week</guid>
@@ -63,6 +75,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/International-day-of-the-older-person.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Hooper Live At Waiheke Radio]]></title>
             <link>http://localhost:3000/podcast/hooper-live-at-waiheke-radio</link>
             <guid>http://localhost:3000/podcast/hooper-live-at-waiheke-radio</guid>
@@ -71,6 +85,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/HooperWaihekeLibraryEdit.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[The Waiheke Book Festival]]></title>
             <link>http://localhost:3000/podcast/the-waiheke-book-festival</link>
             <guid>http://localhost:3000/podcast/the-waiheke-book-festival</guid>
@@ -79,6 +95,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/geraldine-osullivan-beere-book-festival.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Auckland City Councillors Accept The Roger Award 22 May, 2010]]></title>
             <link>http://localhost:3000/podcast/auckland-city-councillors-accept-the-roger-award-22-may-2010</link>
             <guid>http://localhost:3000/podcast/auckland-city-councillors-accept-the-roger-award-22-may-2010</guid>
@@ -87,6 +105,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/events/Council-gets-Roger-Awards-22-May-2010.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Chris Saines On The Auckland Art Gallery Opening]]></title>
             <link>http://localhost:3000/podcast/chris-saines-on-the-auckland-art-gallery-opening</link>
             <guid>http://localhost:3000/podcast/chris-saines-on-the-auckland-art-gallery-opening</guid>

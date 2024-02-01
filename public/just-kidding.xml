@@ -5,7 +5,7 @@
         <title>JUST KIDDING Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from JUST KIDDING - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Tue, 23 Jan 2024 03:06:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>

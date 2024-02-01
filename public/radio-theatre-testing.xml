@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>RADIO THEATRE Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from RADIO THEATRE - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Wed, 31 Jan 2024 22:14:43 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>RADIO THEATRE Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[The Boy Who Ate Bugs]]></title>
+            <link>http://localhost:3000/podcast/the-boy-who-ate-bugs</link>
+            <guid>http://localhost:3000/podcast/the-boy-who-ate-bugs</guid>
+            <pubDate>Sun, 14 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Boy Who Ate Bugs was written and narrated by Waiheke writer Avi Duckor-Jones and was recorded a...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/theatre/The%20Boy%20Who%20Ate%20Bugs%20-%20final.mp3" length="0" type="image/mp3"/>
+        </item>
+    </channel>
+</rss>

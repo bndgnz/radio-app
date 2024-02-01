@@ -5,7 +5,7 @@
         <title>FROM THE VAULTS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from FROM THE VAULTS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Tue, 23 Jan 2024 03:06:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,6 +15,8 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[From The Vaults 003]]></title>
             <link>http://localhost:3000/podcast/from-the-vaults-003</link>
             <guid>http://localhost:3000/podcast/from-the-vaults-003</guid>
@@ -23,6 +25,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/from-the-vaults/FromTheVaults003.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[From The Vaults 002]]></title>
             <link>http://localhost:3000/podcast/from-the-vaults-002</link>
             <guid>http://localhost:3000/podcast/from-the-vaults-002</guid>
@@ -31,6 +35,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/from-the-vaults/FromTheVaults002.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[From The Vaults 001]]></title>
             <link>http://localhost:3000/podcast/from-the-vaults-001</link>
             <guid>http://localhost:3000/podcast/from-the-vaults-001</guid>

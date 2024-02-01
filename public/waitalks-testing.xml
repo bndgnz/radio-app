@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>WAITALKS Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from WAITALKS - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Wed, 31 Jan 2024 22:14:43 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>WAITALKS Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[WaiTalks 2023: Lucy Grace]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2023-lucy-grace</link>
+            <guid>http://localhost:3000/podcast/waitalks-2023-lucy-grace</guid>
+            <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lucy Grace was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nat...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Lucy-Grace-Wai-Talks-Dec-2023.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2023: Jade Gray]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2023-jade-gray</link>
+            <guid>http://localhost:3000/podcast/waitalks-2023-jade-gray</guid>
+            <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jade Gray was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Natu...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Jade-Gray-Wai-Talks-Dec-2023.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks2023: Mark Lapwood]]></title>
+            <link>http://localhost:3000/podcast/waitalks2023-mark-lapwood</link>
+            <guid>http://localhost:3000/podcast/waitalks2023-mark-lapwood</guid>
+            <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mark Lapwood was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and N...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Mark-Lapwood-Wai-Talks-Dec-2023.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2023: Michelle Hooper]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2023-michelle-hooper</link>
+            <guid>http://localhost:3000/podcast/waitalks-2023-michelle-hooper</guid>
+            <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Michelle Hooper was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill an...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Michelle-Hooper-Wai-Talks-Dec-2023.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Zara Stanhope]]></title>
+            <link>http://localhost:3000/podcast/waitalks-zara-stanhope</link>
+            <guid>http://localhost:3000/podcast/waitalks-zara-stanhope</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks8-Zara-Stanhope.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Pete Russell]]></title>
+            <link>http://localhost:3000/podcast/waitalks-pete-russell</link>
+            <guid>http://localhost:3000/podcast/waitalks-pete-russell</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks8-Pete-Russell.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Francisco Blaha]]></title>
+            <link>http://localhost:3000/podcast/waitalks-francisco-blaha</link>
+            <guid>http://localhost:3000/podcast/waitalks-francisco-blaha</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks8-Francisco-Blaha.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Timmy Smith]]></title>
+            <link>http://localhost:3000/podcast/waitalks-timmy-smith</link>
+            <guid>http://localhost:3000/podcast/waitalks-timmy-smith</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks7-Timmy-Smith.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Susi Newborn Environment]]></title>
+            <link>http://localhost:3000/podcast/waitalks-susi-newborn-environment</link>
+            <guid>http://localhost:3000/podcast/waitalks-susi-newborn-environment</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks7-Susis-Environment-Talk.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Lenka Tengblad]]></title>
+            <link>http://localhost:3000/podcast/waitalks-lenka-tengblad</link>
+            <guid>http://localhost:3000/podcast/waitalks-lenka-tengblad</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks7-Lenka-Tengblad.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Kimberley Alford]]></title>
+            <link>http://localhost:3000/podcast/waitalks-kimberley-alford</link>
+            <guid>http://localhost:3000/podcast/waitalks-kimberley-alford</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks7-Kimberley-Alford.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Grant Bridger]]></title>
+            <link>http://localhost:3000/podcast/waitalks-grant-bridger</link>
+            <guid>http://localhost:3000/podcast/waitalks-grant-bridger</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks7-Grant-Bridger.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Gabriel Treacey-Bond]]></title>
+            <link>http://localhost:3000/podcast/waitalks-gabriel-treacey-bond</link>
+            <guid>http://localhost:3000/podcast/waitalks-gabriel-treacey-bond</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks7-Gabriel-Treacey-Bond.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Valli Waugh]]></title>
+            <link>http://localhost:3000/podcast/waitalks-valli-waugh</link>
+            <guid>http://localhost:3000/podcast/waitalks-valli-waugh</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-ValliWaugh.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Tanya Batt]]></title>
+            <link>http://localhost:3000/podcast/waitalks-tanya-batt</link>
+            <guid>http://localhost:3000/podcast/waitalks-tanya-batt</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-TanyaBatt.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Simon Harvey]]></title>
+            <link>http://localhost:3000/podcast/simon-harvey</link>
+            <guid>http://localhost:3000/podcast/simon-harvey</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-SimonHarvey.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Sarah Flashman]]></title>
+            <link>http://localhost:3000/podcast/waitalks-sarah-flashman</link>
+            <guid>http://localhost:3000/podcast/waitalks-sarah-flashman</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-SarahFlashman.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Raul Sarrot]]></title>
+            <link>http://localhost:3000/podcast/waitalks-raul-sarrot</link>
+            <guid>http://localhost:3000/podcast/waitalks-raul-sarrot</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-RaulSarrot.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Philip Howard]]></title>
+            <link>http://localhost:3000/podcast/waitalks-philip-howard</link>
+            <guid>http://localhost:3000/podcast/waitalks-philip-howard</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-PhilipHoward.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 6 Paul Bond]]></title>
+            <link>http://localhost:3000/podcast/waitalks-6-paul-bond</link>
+            <guid>http://localhost:3000/podcast/waitalks-6-paul-bond</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-PaulBond.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Nikki Heuberger]]></title>
+            <link>http://localhost:3000/podcast/waitalks-nikki-heuberger</link>
+            <guid>http://localhost:3000/podcast/waitalks-nikki-heuberger</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-NikkiHeuberger.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Lynsey Champion]]></title>
+            <link>http://localhost:3000/podcast/waitalks-lynsey-champion</link>
+            <guid>http://localhost:3000/podcast/waitalks-lynsey-champion</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-LynseyChampion.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Emily Dowding-Smith]]></title>
+            <link>http://localhost:3000/podcast/waitalks-emily-dowding-smith</link>
+            <guid>http://localhost:3000/podcast/waitalks-emily-dowding-smith</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks6-EmilyDowdingSmith.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Bass Player]]></title>
+            <link>http://localhost:3000/podcast/waitalks-bass-player</link>
+            <guid>http://localhost:3000/podcast/waitalks-bass-player</guid>
+            <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks4-081115BassPlayer.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Wallace]]></title>
+            <link>http://localhost:3000/podcast/waitalks-wallace</link>
+            <guid>http://localhost:3000/podcast/waitalks-wallace</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Wallace.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Rawiti Sanders]]></title>
+            <link>http://localhost:3000/podcast/waitalks-rawiti-sanders</link>
+            <guid>http://localhost:3000/podcast/waitalks-rawiti-sanders</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Rawiti-Sanders.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalk Paora Toi-Te-Rangiuaia]]></title>
+            <link>http://localhost:3000/podcast/waitalk-paora-toi-te-rangiuaia</link>
+            <guid>http://localhost:3000/podcast/waitalk-paora-toi-te-rangiuaia</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Paora.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Lyndal Jefferies]]></title>
+            <link>http://localhost:3000/podcast/waitalks-lyndal-jefferies</link>
+            <guid>http://localhost:3000/podcast/waitalks-lyndal-jefferies</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Lyndal-Jefferies.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Ingrid Bersen]]></title>
+            <link>http://localhost:3000/podcast/waitalks-ingrid-bersen</link>
+            <guid>http://localhost:3000/podcast/waitalks-ingrid-bersen</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Ingrid-Bersen.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Neal Goshal]]></title>
+            <link>http://localhost:3000/podcast/waitalks-neal-goshal</link>
+            <guid>http://localhost:3000/podcast/waitalks-neal-goshal</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Goshal.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks Drew-Arensberg]]></title>
+            <link>http://localhost:3000/podcast/waitalks-drew-arensberg</link>
+            <guid>http://localhost:3000/podcast/waitalks-drew-arensberg</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Drew-Arensberg.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalk Danny Shortland]]></title>
+            <link>http://localhost:3000/podcast/waitalk-danny-shortland</link>
+            <guid>http://localhost:3000/podcast/waitalk-danny-shortland</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-2-Danny-Shortland.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks  Peter Forster]]></title>
+            <link>http://localhost:3000/podcast/waitalks-peter-forster</link>
+            <guid>http://localhost:3000/podcast/waitalks-peter-forster</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks280815PeterForster.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Lisa Garrity]]></title>
+            <link>http://localhost:3000/podcast/waitalks-lisa-garrity</link>
+            <guid>http://localhost:3000/podcast/waitalks-lisa-garrity</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks280815LisaGarrity.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks  Leila Lees]]></title>
+            <link>http://localhost:3000/podcast/waitalks-leila-lees</link>
+            <guid>http://localhost:3000/podcast/waitalks-leila-lees</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks280815LeilaLees.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Kimberly Moore]]></title>
+            <link>http://localhost:3000/podcast/waitalks-kimberly-moore</link>
+            <guid>http://localhost:3000/podcast/waitalks-kimberly-moore</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks280815KimberlyMoore.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Gareth Edwards]]></title>
+            <link>http://localhost:3000/podcast/waitalks-gareth-edwards</link>
+            <guid>http://localhost:3000/podcast/waitalks-gareth-edwards</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks280815GarethEdwards.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Eledir Seren]]></title>
+            <link>http://localhost:3000/podcast/waitalks-eledir-seren</link>
+            <guid>http://localhost:3000/podcast/waitalks-eledir-seren</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks280815EledirSeren.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Susi Newborn]]></title>
+            <link>http://localhost:3000/podcast/waitalks-susi-newborn</link>
+            <guid>http://localhost:3000/podcast/waitalks-susi-newborn</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Susi Newborn was a self proclaimed lunatic and activist WaiTalks was a biographical storytelling ex...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-1-Susi-Newborn.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Randall Farrant]]></title>
+            <link>http://localhost:3000/podcast/waitalks-randall-farrant</link>
+            <guid>http://localhost:3000/podcast/waitalks-randall-farrant</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-1-Randall-Farrant.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Peter Rees]]></title>
+            <link>http://localhost:3000/podcast/waitalks-peter-rees</link>
+            <guid>http://localhost:3000/podcast/waitalks-peter-rees</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-1-Peter-Rees.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Paul Bond]]></title>
+            <link>http://localhost:3000/podcast/waitalks-paul-bond</link>
+            <guid>http://localhost:3000/podcast/waitalks-paul-bond</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-1-Paul-Bond.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Emma Wright]]></title>
+            <link>http://localhost:3000/podcast/waitalks-emma-wright</link>
+            <guid>http://localhost:3000/podcast/waitalks-emma-wright</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-1-Emma-Wright.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Waitalks Beatle Treadwell]]></title>
+            <link>http://localhost:3000/podcast/waitalks-beatle-treadwell</link>
+            <guid>http://localhost:3000/podcast/waitalks-beatle-treadwell</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[WaiTalks was a biographical storytelling experience that ran from 2015 to 2017. Over this time WaiT...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Wai-Talks-1-Beatle-Treadwell.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2015 Event 4 – Land. Andy Spence]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2015-event-4-land-andy-spence</link>
+            <guid>http://localhost:3000/podcast/waitalks-2015-event-4-land-andy-spence</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last installation of WaiTalks 2015: Event 4 – Land. Taking place outdoors in a beautiful garden...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks-1-Andy-Spence.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2015 Event 4 – Land. Maikara Ropata]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2015-event-4-land-maikara-ropata</link>
+            <guid>http://localhost:3000/podcast/waitalks-2015-event-4-land-maikara-ropata</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last installation of WaiTalks 2015: Event 4 – Land. Taking place outdoors in a beautiful garden...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks081115MaikaraRopata.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2015 Event 4 – Land. James Samuel ]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2015-event-4-land-james-samuel</link>
+            <guid>http://localhost:3000/podcast/waitalks-2015-event-4-land-james-samuel</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last installation of WaiTalks 2015: Event 4 – Land. Taking place outdoors in a beautiful garden...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks081115JamesSamuel.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2015 Event 4 – Land. Ivan Kitson ]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2015-event-4-land-ivan-kitson</link>
+            <guid>http://localhost:3000/podcast/waitalks-2015-event-4-land-ivan-kitson</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last installation of WaiTalks 2015: Event 4 – Land. Taking place outdoors in a beautiful garden...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks081115IvanKitson.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2015 Event 4 – Land. Helen Elscot  and  Jill Mulvaney ]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2015-event-4-land-helen-elscot-and-jill-mulvaney</link>
+            <guid>http://localhost:3000/podcast/waitalks-2015-event-4-land-helen-elscot-and-jill-mulvaney</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last installation of WaiTalks 2015: Event 4 – Land. Taking place outdoors in a beautiful garden...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks081115HelenElscotJillMulvaney.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[WaiTalks 2015 Event 4 – Land. Gary Wilton ]]></title>
+            <link>http://localhost:3000/podcast/waitalks-2015-event-4-land-gary-wilton</link>
+            <guid>http://localhost:3000/podcast/waitalks-2015-event-4-land-gary-wilton</guid>
+            <pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last installation of WaiTalks 2015: Event 4 – Land. Taking place outdoors in a beautiful garden...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/WaiTalks081115GaryWilton.mp3" length="0" type="image/mp3"/>
+        </item>
+    </channel>
+</rss>

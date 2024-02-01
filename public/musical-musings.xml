@@ -5,7 +5,7 @@
         <title>MUSICAL MUSINGS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from MUSICAL MUSINGS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Tue, 23 Jan 2024 03:06:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,6 +15,8 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Musical Musings Interview With Pilar From Spice Cafe]]></title>
             <link>http://localhost:3000/podcast/musical-musings-interview-with-pilar-from-spice-cafe</link>
             <guid>http://localhost:3000/podcast/musical-musings-interview-with-pilar-from-spice-cafe</guid>
@@ -23,6 +25,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/pilar-from-spice-5th-june-final.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Phillipa Karn On Musical Musings]]></title>
             <link>http://localhost:3000/podcast/phillipa-karn-on-musical-musings</link>
             <guid>http://localhost:3000/podcast/phillipa-karn-on-musical-musings</guid>
@@ -31,6 +35,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/philipa-karn-final.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Martini Gotje Part 1 On Musical Musings]]></title>
             <link>http://localhost:3000/podcast/martini-gotje-part-1-on-musical-musings</link>
             <guid>http://localhost:3000/podcast/martini-gotje-part-1-on-musical-musings</guid>
@@ -39,6 +45,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/martini-part-1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Martini Gotje Part 2 On Musical Musings]]></title>
             <link>http://localhost:3000/podcast/martini-gotje-part-2-on-musical-musings</link>
             <guid>http://localhost:3000/podcast/martini-gotje-part-2-on-musical-musings</guid>
@@ -47,6 +55,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/musical-musings/martine-part-2.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Musical Musings Interview With Bernard Rhodes ]]></title>
             <link>http://localhost:3000/podcast/musical-musings-interview-with-bernard-rhodes</link>
             <guid>http://localhost:3000/podcast/musical-musings-interview-with-bernard-rhodes</guid>

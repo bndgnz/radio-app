@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>ARTWORKS VOLUNTEERS Podcasts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>All Podcasts from ARTWORKS VOLUNTEERS - Waiheke Radio, New Zealand</description>
+        <lastBuildDate>Wed, 31 Jan 2024 22:14:45 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>ARTWORKS VOLUNTEERS Podcasts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+            <title><![CDATA[Artworks Volunteers Oral History Project Janet Cuthbert]]></title>
+            <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-janet-cuthbert</link>
+            <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-janet-cuthbert</guid>
+            <pubDate>Fri, 30 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Artworks Volunteers Oral History Project. Julia conducted a number of interviews with volunteer...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Janet-Cuthbert.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Artworks Volunteers Oral History Project Gillian Bayne]]></title>
+            <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-gillian-bayne</link>
+            <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-gillian-bayne</guid>
+            <pubDate>Fri, 30 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Artworks Volunteers Oral History Project. Julia conducted a number of interviews with volunteer...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Gillian-Baynes.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Artworks Volunteers Oral History Project  Gabrielle Smith]]></title>
+            <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-gabrielle-smith</link>
+            <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-gabrielle-smith</guid>
+            <pubDate>Fri, 30 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Artworks Volunteers Oral History Project. Julia conducted a number of interviews with volunteer...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Gabrielle-Smith.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Artworks Volunteers Oral History Project Emma Mui-Woodley]]></title>
+            <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-emma-mui-woodley</link>
+            <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-emma-mui-woodley</guid>
+            <pubDate>Fri, 30 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Artworks Volunteers Oral History Project. Julia conducted a number of interviews with volunteer...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Emma-Mui-Woodley.mp3" length="0" type="image/mp3"/>
+        </item>
+        <item>
+            <title><![CDATA[Artworks Volunteers Oral History Project Brent Simpson]]></title>
+            <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-brent-simpson</link>
+            <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-brent-simpson</guid>
+            <pubDate>Fri, 30 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Artworks Volunteers Oral History Project. Julia conducted a number of interviews with volunteer...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Brent-Simpson.mp3" length="0" type="image/mp3"/>
+        </item>
+    </channel>
+</rss>

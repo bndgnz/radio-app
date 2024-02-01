@@ -5,7 +5,7 @@
         <title>MOSTLY LOCALLY Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from MOSTLY LOCALLY - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Tue, 23 Jan 2024 03:06:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,6 +15,8 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Pio Wulf]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-pio-wulf</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-pio-wulf</guid>
@@ -23,6 +25,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Pio-Wulf.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Belinda Robinson ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-belinda-robinson</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-belinda-robinson</guid>
@@ -31,6 +35,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Locally-Belinda.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Jamie Wilkie]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-jamie-wilkie</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-jamie-wilkie</guid>
@@ -39,6 +45,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Jamie-Wilkie.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Harold Singh]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-harold-singh</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-harold-singh</guid>
@@ -47,6 +55,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Harold-Singh.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Timmy Smith]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-timmy-smith</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-timmy-smith</guid>
@@ -55,6 +65,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Timmy-Smith_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Santa]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-santa</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-santa</guid>
@@ -63,6 +75,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Santa.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Robyn Manuel]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-robyn-manuel</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-robyn-manuel</guid>
@@ -71,6 +85,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Robyn-Manuel.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Rae (Rae) Finlay]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-rae-rae-finlay</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-rae-rae-finlay</guid>
@@ -79,6 +95,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/RaeRae-Finlay.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Nicola Hambly]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-nicola-hambly</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-nicola-hambly</guid>
@@ -87,6 +105,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Nicola-Hambly.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Tommy “Two Toes” Kendrick And Jake “The Bus” Thornton ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-tommy-two-toes-kendrick-and-jake-the-bus-thornton</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-tommy-two-toes-kendrick-and-jake-the-bus-thornton</guid>
@@ -95,6 +115,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Tommy-and-Jake.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Ricky Grounds ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-ricky-grounds</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-ricky-grounds</guid>
@@ -103,6 +125,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Ricky.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With David Basham]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-david-basham</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-david-basham</guid>
@@ -111,6 +135,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Locally-with-David-Basham.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With James Samuel]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-james-samuel</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-james-samuel</guid>
@@ -119,6 +145,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Locally-James-Samuel-Broadcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Jess Wallace ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-jess-wallace</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-jess-wallace</guid>
@@ -127,6 +155,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Jess-Wallace.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Hilton Galinsky]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-hilton-galinsky</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-hilton-galinsky</guid>
@@ -135,6 +165,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Hilton.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Amelia Lawley ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-amelia-lawley</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-amelia-lawley</guid>
@@ -143,6 +175,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Amelia.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Mike Gray]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-mike-gray</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-mike-gray</guid>
@@ -151,6 +185,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mike-Gray.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Mike Cox]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-mike-cox</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-mike-cox</guid>
@@ -159,6 +195,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mike-Cox.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Malcolm McMartin]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-malcolm-mcmartin</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-malcolm-mcmartin</guid>
@@ -167,6 +205,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Malcolm-McMartin.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Elske-Sanne Hunt ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-elske-sanne-hunt</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-elske-sanne-hunt</guid>
@@ -175,6 +215,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Elske-Sanne.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Denise Whitfield]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-denise-whitfield</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-denise-whitfield</guid>
@@ -183,6 +225,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Denise-Whitfield.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With David Saul]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-david-saul</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-david-saul</guid>
@@ -191,6 +235,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/David-Saul.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Cindy Peterken]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-cindy-peterken</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-cindy-peterken</guid>
@@ -199,6 +245,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Cindy-P.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Chris Hoff-Nielsen ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-chris-hoff-nielsen</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-chris-hoff-nielsen</guid>
@@ -207,6 +255,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Chris-Hoff-Nielsen.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Chris Bailey]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-chris-bailey</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-chris-bailey</guid>
@@ -215,6 +265,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Chris-Bailey.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Bruce Beaumont]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-bruce-beaumont</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-bruce-beaumont</guid>
@@ -223,6 +275,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Bruce-Beaumont_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Brendan Moon ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-brendan-moon</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-brendan-moon</guid>
@@ -231,6 +285,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Brendan-Moon_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Andre Gonzalez]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-andre-gonzalez</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-andre-gonzalez</guid>
@@ -239,6 +295,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Andre-Gonzalez.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Adam Hunt]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-adam-hunt</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-adam-hunt</guid>
@@ -247,6 +305,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Adam-Hunt.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Mike Friedberg]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-mike-friedberg</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-mike-friedberg</guid>
@@ -255,6 +315,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/140326-Mostly-Michael-F-Small_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Mags Macleod]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-mags-macleod</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-mags-macleod</guid>
@@ -263,6 +325,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/140305-Mostly-Mags_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally With Graeme Ransom ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-graeme-ransom</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-graeme-ransom</guid>
@@ -271,6 +335,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/140226-Mostly-Graeme-Ransom.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Mostly Locally – Michelle Barber]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-michelle-barber</link>
             <guid>http://localhost:3000/podcast/mostly-locally-michelle-barber</guid>
