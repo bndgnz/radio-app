@@ -5,7 +5,7 @@
         <title>RADIO PLAYS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from RADIO PLAYS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 23:59:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Feb 2024 01:48:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,9 +14,9 @@
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
-        <item>
 <author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
+        <item>
             <title><![CDATA[Who’s The Angel Now?]]></title>
             <link>http://localhost:3000/podcast/whos-the-angel-now</link>
             <guid>http://localhost:3000/podcast/whos-the-angel-now</guid>
@@ -25,8 +25,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Whos-The-Angel-Now-Ursula-Hoult.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Tui Karma]]></title>
             <link>http://localhost:3000/podcast/tui-karma</link>
             <guid>http://localhost:3000/podcast/tui-karma</guid>
@@ -35,8 +33,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Tui-Karma-Waiheke-Style-Rita-Ansin.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Thames Frost Fair ]]></title>
             <link>http://localhost:3000/podcast/thames-frost-fair</link>
             <guid>http://localhost:3000/podcast/thames-frost-fair</guid>
@@ -45,8 +41,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Thames-Frost-Fair-Ursula-Hoult.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Rock-A-Bye Baby]]></title>
             <link>http://localhost:3000/podcast/rock-a-bye-baby</link>
             <guid>http://localhost:3000/podcast/rock-a-bye-baby</guid>
@@ -55,8 +49,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Rock-A-Bye-Baby-Maara-White.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Talking Heads: Bed Among The Lentils]]></title>
             <link>http://localhost:3000/podcast/talking-heads-bed-among-the-lentils</link>
             <guid>http://localhost:3000/podcast/talking-heads-bed-among-the-lentils</guid>
@@ -65,8 +57,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/RADIO-FINAL-Bed-among-the-Lentils.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Talking Heads: A Lady Of Letters]]></title>
             <link>http://localhost:3000/podcast/talking-heads-a-lady-of-letters</link>
             <guid>http://localhost:3000/podcast/talking-heads-a-lady-of-letters</guid>
@@ -75,8 +65,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/RADIO-FINAL-A-Lady-of-Letters.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Talking Heads: A Cream Cracker Under The Settee]]></title>
             <link>http://localhost:3000/podcast/talking-heads-a-cream-cracker-under-the-settee</link>
             <guid>http://localhost:3000/podcast/talking-heads-a-cream-cracker-under-the-settee</guid>
@@ -85,8 +73,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/RADIO-FINAL-A-Cream-Cracker-under-the-Settee.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Talking Heads: A Chip In The Sugar]]></title>
             <link>http://localhost:3000/podcast/talking-heads-a-chip-in-the-sugar</link>
             <guid>http://localhost:3000/podcast/talking-heads-a-chip-in-the-sugar</guid>
@@ -95,8 +81,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/RADIO-FINAL-A-Chip-In-The-Sugar.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Introduction To Wordsmith Radio Writing]]></title>
             <link>http://localhost:3000/podcast/introduction-to-wordsmith-radio-writing</link>
             <guid>http://localhost:3000/podcast/introduction-to-wordsmith-radio-writing</guid>
@@ -105,8 +89,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Intro-Wordsmith-Radio-Writing-Course.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Saturday Special – Dracula]]></title>
             <link>http://localhost:3000/podcast/saturday-special-dracula</link>
             <guid>http://localhost:3000/podcast/saturday-special-dracula</guid>
