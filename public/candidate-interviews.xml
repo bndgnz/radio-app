@@ -5,7 +5,7 @@
         <title>CANDIDATE INTERVIEWS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from CANDIDATE INTERVIEWS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:35:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,7 +15,7 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Vic Martick Interview ]]></title>
             <link>http://localhost:3000/podcast/vic-martick-interview</link>
@@ -25,7 +25,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Vic-Martick-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[ Sue McCann Candidate Interview ]]></title>
             <link>http://localhost:3000/podcast/sue-mccann-candidate-interview</link>
@@ -35,7 +35,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Sue-McCann-Byelection-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Paul Walden Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/paul-walden-candidate-interview</link>
@@ -45,7 +45,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/PaulWaldenInterview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Cath Handley Local Board Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/cath-handley-local-board-candidate-interview</link>
@@ -55,7 +55,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/HandleyCathInterview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Graham Hooper Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/graham-hooper-candidate-interview-2</link>
@@ -65,7 +65,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Graham-Hooper-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[David Baigent Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/david-baigent-candidate-interview</link>
@@ -75,7 +75,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/David-Baigent-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Colin Beardon Candidate Interview ]]></title>
             <link>http://localhost:3000/podcast/colin-beardon-candidate-interview</link>
@@ -85,7 +85,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Colin-Beardon-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Charissa Snijders Interview]]></title>
             <link>http://localhost:3000/podcast/charissa-snijders-interview</link>
@@ -95,7 +95,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Charissa-Snijders_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Allen Davies Interview]]></title>
             <link>http://localhost:3000/podcast/allen-davies-interview</link>
@@ -105,7 +105,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Allen-Davies-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Allen Davies]]></title>
             <link>http://localhost:3000/podcast/allen-davies</link>
@@ -115,7 +115,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Allen-Davies.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Kathy Voyles Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/kathy-voyles-candidate-interview</link>
@@ -125,7 +125,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Kathy-Voyles-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Kathy Voyles Local Board Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/kathy-voyles-local-board-candidate-interview</link>
@@ -135,7 +135,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/KathyVoylesCandidateInterview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Tracey Weston Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/tracey-weston-candidate-interview</link>
@@ -145,7 +145,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Tracey-Weston-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Tracey Mancer Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/tracey-mancer-candidate-interview</link>
@@ -155,7 +155,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Tracey-Mancer-candidate-interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Sue McCann Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/sue-mccann-candidate-interview-2</link>
@@ -165,7 +165,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Sue-McCann-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Shirin Brown Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/shirin-brown-candidate-interview-2</link>
@@ -175,7 +175,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Shirin-Brown-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Shirin Brown Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/shirin-brown-candidate-interview</link>
@@ -185,7 +185,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/ShirinBrownInterview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Sara McLeod Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/sara-mcleod-candidate-interview</link>
@@ -195,7 +195,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Sara-McLeod-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Ross Gillespie Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/ross-gillespie-candidate-interview</link>
@@ -205,7 +205,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Ross-Gillespie-candidate-statement.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Norm Robins Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/norm-robins-candidate-interview-2</link>
@@ -215,7 +215,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/RobinsNormInterview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Robin Tucker Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/robin-tucker-candidate-interview</link>
@@ -225,7 +225,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Robin-Tucker-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Robin Tucker Local Board Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/robin-tucker-local-board-candidate-interview</link>
@@ -235,7 +235,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/RobinTuckerCandidateInterview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Council Candidate Rob Thomas]]></title>
             <link>http://localhost:3000/podcast/council-candidate-rob-thomas</link>
@@ -245,7 +245,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Rob-Thomas-Council-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Pippa Coom: Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/pippa-coom-candidate-interview</link>
@@ -255,7 +255,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Pippa-Coom-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Paul Walden Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/paul-walden-candidate-interview-2</link>
@@ -265,7 +265,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Paul-Walden-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Paul Walden Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/paul-walden-candidate-interview-4</link>
@@ -275,7 +275,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Paul-Walden-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Paul Walden Local Board Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/paul-walden-local-board-candidate-interview</link>
@@ -285,7 +285,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/PaulWaldenCandidateInterview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[By-Election Interview: Paul Walden]]></title>
             <link>http://localhost:3000/podcast/by-election-interview-paul-walden</link>
@@ -295,7 +295,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Paul-Walden-Byelection-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Norm Robins Candidate Interview ]]></title>
             <link>http://localhost:3000/podcast/norm-robins-candidate-interview</link>
@@ -305,7 +305,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Norm-Robins-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Local Govt Commission Says NO To Thames/Coromandel Proposal]]></title>
             <link>http://localhost:3000/podcast/local-govt-commission-says-no-to-thames-coromandel-proposal</link>
@@ -315,7 +315,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Nobilangelo-Ceramalus-22-August-2009.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Morgan Sobanja Candidate Interview ]]></title>
             <link>http://localhost:3000/podcast/morgan-sobanja-candidate-interview</link>
@@ -325,7 +325,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Morgan-Sobanja-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Millie Watkins Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/millie-watkins-candidate-interview</link>
@@ -335,7 +335,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Millie-Watkins-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Mike Lee Interview]]></title>
             <link>http://localhost:3000/podcast/mike-lee-interview</link>
@@ -345,7 +345,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Mike-Lee-interview-04-09-10.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Mike Lee: Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/mike-lee-candidate-interview</link>
@@ -355,7 +355,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Mike-Lee-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Marijke Ransom Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/marijke-ransom-candidate-interview</link>
@@ -365,7 +365,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Marijke-Ransom-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Olivier Lequeux Local Board Candidate Interview ]]></title>
             <link>http://localhost:3000/podcast/olivier-lequeux-local-board-candidate-interview</link>
@@ -375,7 +375,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/OlivierLequeuxInterview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Kylee Matthews Candiate Interview]]></title>
             <link>http://localhost:3000/podcast/kylee-matthews-candiate-interview</link>
@@ -385,7 +385,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Kylee-Matthews-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Kylee Matthews Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/kylee-matthews-candidate-interview</link>
@@ -395,7 +395,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Kylee-Matthews-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[John Meeuwsen Candidate Interview ]]></title>
             <link>http://localhost:3000/podcast/john-meeuwsen-candidate-interview-2</link>
@@ -405,7 +405,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/John-Meeuwsen-Candidate-Interview_1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[John Meeuwsen Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/john-meeuwsen-candidate-interview</link>
@@ -415,7 +415,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/John-Meeuwsen-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Jo Holmes Candidate Interview ]]></title>
             <link>http://localhost:3000/podcast/jo-holmes-candidate-interview-2</link>
@@ -425,7 +425,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Jo-Holmes-candidate-interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Jo Holmes Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/jo-holmes-candidate-interview</link>
@@ -435,7 +435,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Jo-Holmes-Candidate-Interview_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Irene Armstrong Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/irene-armstrong-candidate-interview</link>
@@ -445,7 +445,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Irene-Armstrong-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Herb Romaniuk Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/herb-romaniuk-candidate-interview</link>
@@ -455,7 +455,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/HerbRomaniukCandidateInterview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Faye Storer]]></title>
             <link>http://localhost:3000/podcast/faye-storer-2</link>
@@ -465,7 +465,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Faye-Storer.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Faye Storer Sworn As Local Board Chair]]></title>
             <link>http://localhost:3000/podcast/faye-storer-sworn-as-local-board-chair</link>
@@ -475,7 +475,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Faye-Storer-Sworn-as-Chair.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Faye Storer Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/faye-storer-candidate-interview</link>
@@ -485,7 +485,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Faye-Storer-Interview_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Faye Storer Interview]]></title>
             <link>http://localhost:3000/podcast/faye-storer-interview</link>
@@ -495,7 +495,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Faye-Storer-Candidate-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Ewen Sutherland Candidate Interview ]]></title>
             <link>http://localhost:3000/podcast/ewen-sutherland-candidate-interview</link>
@@ -505,7 +505,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Ewen-Sutherland-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Dorte Wray Interview]]></title>
             <link>http://localhost:3000/podcast/dorte-wray-interview</link>

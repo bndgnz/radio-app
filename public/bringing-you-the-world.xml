@@ -5,7 +5,7 @@
         <title>BRINGING YOU THE WORLD Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from BRINGING YOU THE WORLD - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:35:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,7 +15,7 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A French Experience In Marseillan, South Of France With Liz And Gene]]></title>
             <link>http://localhost:3000/podcast/a-french-experience-in-marseillan-south-of-france-with-liz-and-gene</link>
@@ -25,7 +25,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/Te-Whau-Lodge-goes-to-Languedoc-South-of-France-June-2013.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Travel To Santorini  and  The Greek Islands]]></title>
             <link>http://localhost:3000/podcast/travel-to-santorini-and-the-greek-islands</link>
@@ -35,7 +35,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/Santorini-the-Greek-Islands.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Rock Rhodes Across America ]]></title>
             <link>http://localhost:3000/podcast/rock-rhodes-across-america</link>
@@ -45,7 +45,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/Greyhound-Bus-Trip-Rocky-Rhodes-USA-Sept-2012-Bringing-you-the-World.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Cunard Cruising And Probus  and  Solo Travelling Clubs With Islander Lyn Ross]]></title>
             <link>http://localhost:3000/podcast/cunard-cruising-and-probus-and-solo-travelling-clubs-with-islander-lyn-ross</link>
@@ -55,7 +55,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/Cruising-with-Cunard-on-Queen-Elizabeth-11th-Dec-2012.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Bringing You The World May 8th]]></title>
             <link>http://localhost:3000/podcast/bringing-you-the-world-may-8th</link>
@@ -65,7 +65,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/bytw-may8.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Bringing You The World Takes You To Vietnam]]></title>
             <link>http://localhost:3000/podcast/bringing-you-the-world-takes-you-to-vietnam</link>
@@ -75,7 +75,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/bringing-you-the-world-vietnam.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Travel To Cuba]]></title>
             <link>http://localhost:3000/podcast/travel-to-cuba</link>
@@ -85,7 +85,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/Bringing-You-The-World-Cuba-31st-July-2012.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Hear About Travels In Beijing With Islander Patrik Argourd]]></title>
             <link>http://localhost:3000/podcast/hear-about-travels-in-beijing-with-islander-patrik-argourd</link>
@@ -95,7 +95,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/bringing-you-the-world/Beijing-China-with-Patrik-Argourd-United-Travel-Waiheke-Nov-2012.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[P and O PNG Cruises and Cpt Cook Cruises Golf Special 2013/2014 ]]></title>
             <link>http://localhost:3000/podcast/p-and-o-png-cruises-and-cpt-cook-cruises-golf-special-2013-2014</link>

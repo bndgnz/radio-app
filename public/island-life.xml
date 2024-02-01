@@ -5,7 +5,7 @@
         <title>ISLAND LIFE Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from ISLAND LIFE - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:35:37 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,7 +15,7 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Susi Newborn: Housing]]></title>
             <link>http://localhost:3000/podcast/susi-newborn-housing</link>
@@ -25,7 +25,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Susi Newborn: The Environment]]></title>
             <link>http://localhost:3000/podcast/susi-newborn-the-environment</link>
@@ -35,7 +35,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Te Korowai o Waiheke rat trial update]]></title>
             <link>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</link>
@@ -45,7 +45,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-01-12-2023-rat-trial-owain-tanner.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Councillor Mike Lee]]></title>
             <link>http://localhost:3000/podcast/councillor-mike-lee</link>
@@ -55,7 +55,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-mike-lee.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Crop Swap]]></title>
             <link>http://localhost:3000/podcast/crop-swap</link>
@@ -65,7 +65,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-hadas-ore-crop-swap.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Caulerpa Rahui]]></title>
             <link>http://localhost:3000/podcast/caulerpa-rahui</link>
@@ -75,7 +75,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-blair-anderson-caulerpa-rahui.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Darleen Tana Elected To Parliament]]></title>
             <link>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</link>
@@ -85,7 +85,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-21-10-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Librarian Fiona Kralicek Resigning]]></title>
             <link>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</link>
@@ -95,7 +95,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-fiona-kralicek-library-20-10-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate]]></title>
             <link>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</link>
@@ -105,7 +105,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Darleen Tana (Green) Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</link>
@@ -115,7 +115,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-23-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Hinurewa Te Hau (National) Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</link>
@@ -125,7 +125,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-hinurewa-te-hau-23-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Frank Lepera · Stoat Operations Manager Te Korowai o Waiheke]]></title>
             <link>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</link>
@@ -135,7 +135,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-te-korowai-o-waiheke-29-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Waiheke Radio Election Coverage]]></title>
             <link>http://localhost:3000/podcast/waiheke-radio-election-coverage</link>
@@ -145,7 +145,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-election-coverage-23-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Damian Sycamore (TOP) candidate interview]]></title>
             <link>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</link>
@@ -155,7 +155,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-damian-sycamore-21-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Oscar Sims Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/oscar-sims-candidate-interview</link>
@@ -165,7 +165,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-oscar-sims-16-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Mahesh Muralidhar Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</link>
@@ -175,7 +175,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-mahesh-muralidhar-16-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Peeni Henare Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/peeni-henare-candidate-interview</link>
@@ -185,7 +185,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-peeni-henare-16-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Chloe Swarbrick Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</link>
@@ -195,7 +195,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Electorate-2023/island-life-04-09-2023-chloe-swarbrick.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Cath Handley on Auckland Budget Outcomes]]></title>
             <link>http://localhost:3000/podcast/cath-handley-on-auckland-budget-outcomes</link>
@@ -205,7 +205,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-council-budget-cath-handley-01-07-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Entrust Power Consumer Dividend]]></title>
             <link>http://localhost:3000/podcast/entrust-power-consumer-dividend</link>
@@ -215,7 +215,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-entrust-dividend-denise-lee-30-06-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Island Life 02 July 2016 Zara Strongman Sculpture On The Gulf]]></title>
             <link>http://localhost:3000/podcast/island-life-02-july-2016-zara-strongman-sculpture-on-the-gulf</link>
@@ -225,7 +225,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2016/Island-Life-02-July-2016-Sculpture.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Volunteering For Sculpture On The Gulf]]></title>
             <link>http://localhost:3000/podcast/volunteering-for-sculpture-on-the-gulf</link>
@@ -235,7 +235,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2019/island-life-sculpture-volunteers.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Live Lightly: Sustainable House Tour]]></title>
             <link>http://localhost:3000/podcast/live-lightly-sustainable-house-tour</link>
@@ -245,7 +245,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-06-04-23-sustainable-house.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Playwright Geoffrey Clendon: Rangitoto]]></title>
             <link>http://localhost:3000/podcast/playwright-geoffrey-clendon-rangitoto</link>
@@ -255,7 +255,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-03-23-Geoffrey-clendon-playwight.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Cath Handley: Auckland Council Budget Consultation ]]></title>
             <link>http://localhost:3000/podcast/cath-handley-auckland-council-budget-consultation</link>
@@ -265,7 +265,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-03-23-auckland-budget-consultation.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Waiheke Homemade Chili Sauce Fest’ 2023]]></title>
             <link>http://localhost:3000/podcast/waiheke-homemade-chili-sauce-fest-2023</link>
@@ -275,7 +275,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-03-23-chili-sauce-fest.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Remembering Grant Bridger]]></title>
             <link>http://localhost:3000/podcast/remembering-grant-bridger</link>
@@ -285,7 +285,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-03-23-grant-bridger.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Junk To Funk 2023]]></title>
             <link>http://localhost:3000/podcast/junk-to-funk-2023</link>
@@ -295,7 +295,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-29-04-23-junk-to-funk.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Noise Isle]]></title>
             <link>http://localhost:3000/podcast/noise-isle</link>
@@ -305,7 +305,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-29-04-23-noise-isle.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Nikki Kaye On Island Life 30 05 09]]></title>
             <link>http://localhost:3000/podcast/nikki-kaye-on-island-life-30-05-09</link>
@@ -315,7 +315,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Nikki-Kaye-Auckland-Governance-Island-Life-30-05-09.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Cath Handley Takes On The Local Board Chair Role]]></title>
             <link>http://localhost:3000/podcast/cath-handley-takes-on-the-local-board-chair-role</link>
@@ -325,7 +325,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Cath-Handley-07-April-2018.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Rat Attack: Punk Rock At Onetangi 5 Nov]]></title>
             <link>http://localhost:3000/podcast/rat-attack-punk-rock-at-onetangi-5-nov</link>
@@ -335,7 +335,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-rat-attack-29-Oct-2022.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Post Election Special: Results  and  Interviews]]></title>
             <link>http://localhost:3000/podcast/post-election-special-results-and-interviews</link>
@@ -345,7 +345,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/IslandLifePostElection2022.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Rat Eradication: Markus Gronwald Of Te Korowai O Waiheke]]></title>
             <link>http://localhost:3000/podcast/rat-eradication-markus-gronwald-of-te-korowai-o-waiheke-2</link>
@@ -355,7 +355,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-24-09-22-te-korowai-o-waiheke.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Barry Danby  and  Stuart Jobling Art Exhibition ]]></title>
             <link>http://localhost:3000/podcast/barry-danby-and-stuart-jobling-art-exhibition</link>
@@ -365,7 +365,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-24-09-22-barry-danby-artist.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Waiheke High School Media Studies Teacher]]></title>
             <link>http://localhost:3000/podcast/waiheke-high-school-media-studies-teacher</link>
@@ -375,7 +375,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-21-08-22-waiheke-high.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[History Book, Waiheke Pioneers, Republished]]></title>
             <link>http://localhost:3000/podcast/history-book-waiheke-pioneers-republished</link>
@@ -385,7 +385,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-19-11-22-waiheke-pioneers.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Local Board Chair Cath Handley]]></title>
             <link>http://localhost:3000/podcast/local-board-chair-cath-handley-2</link>
@@ -395,7 +395,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-19-11-22-cath-handley.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Rat Eradication: Markus Gronwald Of Te Korowai O Waiheke]]></title>
             <link>http://localhost:3000/podcast/rat-eradication-markus-gronwald-of-te-korowai-o-waiheke</link>
@@ -405,7 +405,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-15-10-22-te-korowai-rats.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Murder At Waiheke Library]]></title>
             <link>http://localhost:3000/podcast/murder-at-waiheke-library</link>
@@ -415,7 +415,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/IL130822RhiannonLibrary.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Dairy Doco Milked Screens On Waiheke]]></title>
             <link>http://localhost:3000/podcast/dairy-doco-milked-screens-on-waiheke</link>
@@ -425,7 +425,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/IL130822Milked.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[The Keys Are In The Margarine]]></title>
             <link>http://localhost:3000/podcast/the-keys-are-in-the-margarine</link>
@@ -435,7 +435,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/IL130822KeysMargarine.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Whakanewha Dolphin Stranding]]></title>
             <link>http://localhost:3000/podcast/whakanewha-dolphin-stranding</link>
@@ -445,7 +445,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/IL130822DarleenTanaDolphins.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[The Great Waiheke Radio Local Board Candidates Debate 2022]]></title>
             <link>http://localhost:3000/podcast/the-great-waiheke-radio-local-board-candidates-debate-2022</link>
@@ -455,7 +455,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/CandidatesDebate2022.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Wind In The Willows]]></title>
             <link>http://localhost:3000/podcast/wind-in-the-willows</link>
@@ -465,7 +465,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2021/island-life-wind-in-the-willows.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Save Kennedy Point Lose Supreme Court Appeal]]></title>
             <link>http://localhost:3000/podcast/save-kennedy-point-lose-supreme-court-appeal</link>
@@ -475,7 +475,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2021/island-life-sebastian-cassie-skp-01-05-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Nga Uri O Ngati Paoa Occupation Of Putiki Bay ]]></title>
             <link>http://localhost:3000/podcast/nga-uri-o-ngati-paoa-occupation-of-putiki-bay</link>
@@ -485,7 +485,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2021/island-life-nga-uri-o-ngati-paoa-01-05-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Ngati Paoa Trust Board ]]></title>
             <link>http://localhost:3000/podcast/ngati-paoa-trust-board</link>
@@ -495,7 +495,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2021/island-life-ngati-paoa-trust-board-01-05-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Lunch In Jassy’s Gardens ]]></title>
             <link>http://localhost:3000/podcast/lunch-in-jassys-gardens</link>
@@ -505,7 +505,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2021/Island-life-lunch-jassy-garden-nov21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Film Maker Kayla Hamilton]]></title>
             <link>http://localhost:3000/podcast/film-maker-kayla-hamilton</link>

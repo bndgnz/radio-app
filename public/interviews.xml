@@ -5,7 +5,7 @@
         <title>INTERVIEWS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from INTERVIEWS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:35:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,7 +15,7 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Rien Achterberg On Waste Management And Non-Violent Direct Action]]></title>
             <link>http://localhost:3000/podcast/rien-achterberg-on-waste-management-and-non-violent-direct-action</link>
@@ -25,7 +25,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Rien-Achterberg-on-Island-Life.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[The Great Waiheke Plum Drive]]></title>
             <link>http://localhost:3000/podcast/the-great-waiheke-plum-drive</link>
@@ -35,7 +35,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Plum-Drive.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Flotsam #2 – Suzie Newborn]]></title>
             <link>http://localhost:3000/podcast/flotsam-2-suzie-newborn</link>
@@ -45,7 +45,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/flotsam-susi-newborne.mp3.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Flotsam – Ken Rhodes And Masai Ito]]></title>
             <link>http://localhost:3000/podcast/flotsam-ken-rhodes-and-masai-ito</link>
@@ -55,7 +55,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/flotsam1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Whakanewha Bellbird Release Audio]]></title>
             <link>http://localhost:3000/podcast/whakanewha-bellbird-release-audio</link>
@@ -65,7 +65,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/WhakanewhaBellbirdReleaseMay2010.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[My Waiheke Wedding Island Life Interview]]></title>
             <link>http://localhost:3000/podcast/my-waiheke-wedding-island-life-interview</link>
@@ -75,7 +75,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/WeddingsSophia.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Nobilangelo Ceramalus Interview Chris  MARCH 8, 2009]]></title>
             <link>http://localhost:3000/podcast/nobilangelo-ceramalus-interview-chris-march-8-2009</link>
@@ -85,7 +85,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Waiheke-Radio-Nobilangelo-07-03-09.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Conversation With James Clairmont Of Waiheke Island Cheese Company]]></title>
             <link>http://localhost:3000/podcast/a-conversation-with-james-clairmont-of-waiheke-island-cheese-company</link>
@@ -95,7 +95,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/waiheke-island-cheese-co.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[The Waiheke Comedy Show Island Life Interview Jan 31]]></title>
             <link>http://localhost:3000/podcast/the-waiheke-comedy-show-island-life-interview-jan-31</link>
@@ -105,7 +105,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Waiheke-Comedy-Show-WR-Interview-jan-31.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Waiheke Comedy Show Island Life Interview]]></title>
             <link>http://localhost:3000/podcast/waiheke-comedy-show-island-life-interview</link>
@@ -115,7 +115,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Waiheke-Comedy-Show-Interview-sat-april-11.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Island Poet And Author Vanessa Ryan Talks About Reclaiming Her Literacy]]></title>
             <link>http://localhost:3000/podcast/island-poet-and-author-vanessa-ryan-talks-about-reclaiming-her-literacy</link>
@@ -125,7 +125,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/vanessa-ryan-edited-_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[The Waiheke Project: Premaloka ]]></title>
             <link>http://localhost:3000/podcast/the-waiheke-project-premaloka</link>
@@ -135,7 +135,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/The-Waiheke-Project-Premaloka.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[The Navigator Talks To Friends Of The Street]]></title>
             <link>http://localhost:3000/podcast/the-navigator-talks-to-friends-of-the-street</link>
@@ -145,7 +145,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/The-Navigator-Interview-2.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[The Navigator Talks To Skate From The Waiheke Peace Group]]></title>
             <link>http://localhost:3000/podcast/the-navigator-talks-to-skate-from-the-waiheke-peace-group</link>
@@ -155,7 +155,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/The-Navigator-Interview-1v2.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[KiwiAs! Interviews Dianne Swann From The Bads 150709]]></title>
             <link>http://localhost:3000/podcast/kiwias-interviews-dianne-swann-from-the-bads-150709</link>
@@ -165,7 +165,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/the-bads-interview-kiwias-150709.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Selina Tusitala Marsh]]></title>
             <link>http://localhost:3000/podcast/selina-tusitala-marsh</link>
@@ -175,7 +175,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Selina-Tusitala-Marsh-Interview-64.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Sarah McNabb – Head Of Music, Waiheke High]]></title>
             <link>http://localhost:3000/podcast/sarah-mcnabb-head-of-music-waiheke-high</link>
@@ -185,7 +185,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/SarahMcNabbInterview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Interview With Sarah Kember, Replanting Onetangi Dunes After The Storm ]]></title>
             <link>http://localhost:3000/podcast/interview-with-sarah-kember-replanting-onetangi-dunes-after-the-storm</link>
@@ -195,7 +195,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/sarah-kember-onetangi-beach.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Ramon Bridgland Inteviews Ben Martens Of Vessel]]></title>
             <link>http://localhost:3000/podcast/ramon-bridgland-inteviews-ben-martens-of-vessel</link>
@@ -205,7 +205,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/raysdrive-martens-interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Wakey Wakey Waiheke – Sponsors Corner – Dec 15]]></title>
             <link>http://localhost:3000/podcast/wakey-wakey-waiheke-sponsors-corner-dec-15</link>
@@ -215,7 +215,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/pukeko.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Interview With Pippa Blake, Part Two ]]></title>
             <link>http://localhost:3000/podcast/interview-with-pippa-blake-part-two</link>
@@ -225,7 +225,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Pippa_Part_Two.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Interview With Pippa Blake, Part One]]></title>
             <link>http://localhost:3000/podcast/interview-with-pippa-blake-part-one</link>
@@ -235,7 +235,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Pippa_Part_One.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Boating Show – Pilot]]></title>
             <link>http://localhost:3000/podcast/boating-show-pilot</link>
@@ -247,7 +247,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Pilot128_Clive_Pickthall.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Our Waiheke Hikoi ]]></title>
             <link>http://localhost:3000/podcast/our-waiheke-hikoi</link>
@@ -257,7 +257,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/OurWaihekeHikoi.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Comedy Festival Conversation With Keith Paterson #2]]></title>
             <link>http://localhost:3000/podcast/comedy-festival-conversation-with-keith-paterson-2</link>
@@ -267,7 +267,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/NZ-Comedy-Festival-Conversation-2014-2.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Keith Paterson Comedy Festival Conversation 1]]></title>
             <link>http://localhost:3000/podcast/keith-paterson-comedy-festival-conversation-1</link>
@@ -277,7 +277,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/NZ-Comedy-Festival-Conversation-2014-.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Nikki Kaye – Your MP On Waiheke Radio]]></title>
             <link>http://localhost:3000/podcast/nikki-kaye-your-mp-on-waiheke-radio</link>
@@ -287,7 +287,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Nikki_Kaye_Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Pat Urlich – All On The Same Side]]></title>
             <link>http://localhost:3000/podcast/pat-urlich-all-on-the-same-side</link>
@@ -297,7 +297,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/NeilHardingWorldCupSong.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Mix Tape Radio – Marsha Talks To Miles Gillete]]></title>
             <link>http://localhost:3000/podcast/mix-tape-radio-marsha-talks-to-miles-gillete</link>
@@ -307,7 +307,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/mixtape_miles.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Maynie Thompson]]></title>
             <link>http://localhost:3000/podcast/maynie-thompson</link>
@@ -317,7 +317,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/MaynieThompson.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Conversation With Chilean Artist Margarita Dagorret ]]></title>
             <link>http://localhost:3000/podcast/a-conversation-with-chilean-artist-margarita-dagorret</link>
@@ -327,7 +327,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/margarita-dagorret.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Waiheke Weatherman – Malcolm Philcox]]></title>
             <link>http://localhost:3000/podcast/waiheke-weatherman-malcolm-philcox</link>
@@ -337,7 +337,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/malcolm-philcox.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Lyndal Jefferies Red Shed 2 Current And Future]]></title>
             <link>http://localhost:3000/podcast/lyndal-jefferies-red-shed-2-current-and-future</link>
@@ -347,7 +347,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/lyndal-red-shed-part-2.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Red Shed History]]></title>
             <link>http://localhost:3000/podcast/red-shed-history</link>
@@ -357,7 +357,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/lyndal-red-shed-interview-part-1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Lynda Johnson On Heirloom Crafts And The Palm Beach Fabric Fair]]></title>
             <link>http://localhost:3000/podcast/lynda-johnson-on-heirloom-crafts-and-the-palm-beach-fabric-fair</link>
@@ -367,7 +367,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/lynda-johnson-precious-pieces-red-shed.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Simon  and  El Interview Sculptress Lucy Bucknall]]></title>
             <link>http://localhost:3000/podcast/simon-and-el-interview-sculptress-lucy-bucknall</link>
@@ -377,7 +377,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/lucy_bucknall_interview_jan_24_2009.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Waiheke Winter Arts Festival ]]></title>
             <link>http://localhost:3000/podcast/waiheke-winter-arts-festival</link>
@@ -387,7 +387,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/linda-community-art-gallery-6min-15.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Mayor Len Brown’s Speech At Inaugural Waiheke Local Board Meeting ]]></title>
             <link>http://localhost:3000/podcast/mayor-len-browns-speech-at-inaugural-waiheke-local-board-meeting</link>
@@ -397,7 +397,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Len-Brown-Speech.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Mayor Len Brown At Inaugural Waiheke Local Board Meeting ]]></title>
             <link>http://localhost:3000/podcast/mayor-len-brown-at-inaugural-waiheke-local-board-meeting</link>
@@ -407,7 +407,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Len-Brown-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Last Laughs Tuesday]]></title>
             <link>http://localhost:3000/podcast/last-laughs-tuesday</link>
@@ -417,7 +417,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Lance-LLT-interview-with-Brent-Simpson-Island-Life-Radio-Waiheke-.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Kunda Dixit – Frames Of War Photo Exhibition, The Press And Democracy]]></title>
             <link>http://localhost:3000/podcast/kunda-dixit-frames-of-war-photo-exhibition-the-press-and-democracy</link>
@@ -427,7 +427,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/kunda-Dixit-_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Kiwi As – Optimus Gryme Inteview]]></title>
             <link>http://localhost:3000/podcast/kiwi-as-optimus-gryme-inteview</link>
@@ -437,7 +437,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Kiwi-As-Optimus-Gryme-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Barry Saunders Interviewed On Kiwi As!]]></title>
             <link>http://localhost:3000/podcast/barry-saunders-interviewed-on-kiwi-as</link>
@@ -447,7 +447,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Kiwi-As-Barry-Saunders-Interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Ian Simpson Live 2 Air On KiwiAs! 29th April 09 (Shortened Version) ]]></title>
             <link>http://localhost:3000/podcast/ian-simpson-live-2-air-on-kiwias-29th-april-09-shortened-version</link>
@@ -457,7 +457,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/kiwias290409-Ian-Simpson-Live.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Kiri Eriwata Interview On The Saturday Breakfast Show]]></title>
             <link>http://localhost:3000/podcast/kiri-eriwata-interview-on-the-saturday-breakfast-show</link>
@@ -467,7 +467,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Kiri-Eriwata-interview.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Artist Kim Wesney Chats About The 2011 Waiheke Winter Arts Festival]]></title>
             <link>http://localhost:3000/podcast/artist-kim-wesney-chats-about-the-2011-waiheke-winter-arts-festival</link>
@@ -477,7 +477,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/kim-waiheke-winter-art-festival.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Comedy Festival Conversation With Keith Paterson #4]]></title>
             <link>http://localhost:3000/podcast/comedy-festival-conversation-with-keith-paterson-4</link>
@@ -487,7 +487,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/Keith-Paterson-Comedy-Festival-Interview-4-Full.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Comedy Festival Conversation With Keith Paterson. Final]]></title>
             <link>http://localhost:3000/podcast/comedy-festival-conversation-with-keith-paterson-final</link>
@@ -497,7 +497,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/keith-paterson-festival-conversation-6-final.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Musicial Musings with John Stansfirld]]></title>
             <link>http://localhost:3000/podcast/musicial-musings-with-john-stansfirld</link>
@@ -507,7 +507,7 @@ As part of the Waiheke Radio training course currently being...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/john-stansfield.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Simon  and  El Interview Local Man John Hedley About Being Struck By Lightning Simon  JULY 5, 2009]]></title>
             <link>http://localhost:3000/podcast/simon-and-el-interview-local-man-john-hedley-about-being-struck-by-lightning</link>

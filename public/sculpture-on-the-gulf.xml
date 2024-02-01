@@ -5,7 +5,7 @@
         <title>SCULPTURE ON THE GULF Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from SCULPTURE ON THE GULF - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:35:37 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,7 +15,7 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Jonathan Organ – Artist Talk]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-jonathan-organ-artist-talk</link>
@@ -25,7 +25,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/jonathan-edited.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Regan Gentry – Artist Talk]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-regan-gentry-artist-talk</link>
@@ -38,7 +38,7 @@ A chance to hear again the artist tal...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/Regan-Gentry-Podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Sharonagh Montrose – Artist Talk]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-sharonagh-montrose-artist-talk</link>
@@ -48,7 +48,7 @@ A chance to hear again the artist tal...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Sharonagh-Montrose-Artist-Talk-Podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Veronica Herber – Artist Talk]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-veronica-herber-artist-talk</link>
@@ -58,7 +58,7 @@ A chance to hear again the artist tal...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Veronica-Herber-Artist-Talk-Podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Behind The Scenes With Nansi Thompson  and  Nicky Cairns]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-behind-the-scenes-with-nansi-thompson-and</link>
@@ -68,7 +68,7 @@ A chance to hear again the artist tal...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Nicky-Cairns-Nansi-Thompson.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Matthew Muir – Artist Talk ]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-matthew-muir-artist-talk</link>
@@ -78,7 +78,7 @@ A chance to hear again the artist tal...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Matthew-Muir-Artist-Talk-Podcast-.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Aaron McConchie – Artist Talk]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-aaron-mcconchie-artist-talk</link>
@@ -88,7 +88,7 @@ A chance to hear again the artist tal...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Aaron-McConchie-Artist-Talk-Podcast-.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Sarah Brill – Artist Talk]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-sarah-brill-artist-talk</link>
@@ -98,7 +98,7 @@ A chance to hear again the artist tal...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Sarah-Brill-Artist-Talk-Podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Kazu Nakagawa  and  Andrew Caldwell – Artist Talk ]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-kazu-nakagawa-and-andrew-caldwell-artist-talk</link>
@@ -108,7 +108,7 @@ A chance to hear again the artist tal...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Kazu-Nakagawa-Andrew-Caldwell-Artist-Talk-Podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Delicia Sampero – Artist Talk]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-delicia-sampero-artist-talk</link>
@@ -118,7 +118,7 @@ A chance to hear again the artist tal...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Delicia-Sampero-Artist-Talk-Podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Catwalk Panel Discussion Chaired By Kazu Nakagawa]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-catwalk-panel-discussion-chaired-by-kazu</link>
@@ -128,7 +128,7 @@ A chance to hear again the artist tal...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Kazu-Panel-Discussion-Artist-Talk-Podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Anthony Cribb – Artist Talk]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-anthony-cribb-artist-talk</link>
@@ -138,7 +138,7 @@ A chance to hear again the artist tal...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Anthony-Cribb-Artist-Talk-Podcast-.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Christian Nicholson – Artist Talk  cujimi  FEBRUARY 13, 2013]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-christian-nicholson-artist-talk-cujimi</link>
@@ -148,7 +148,7 @@ A chance to hear again the artist tal...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/sculpture-on-the-gulf/SOTG-Christian-Nicholson-Artist-Talk-Podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Headland Sculpture On The Gulf – Jeff Thomson – Artist Talk]]></title>
             <link>http://localhost:3000/podcast/headland-sculpture-on-the-gulf-jeff-thomson-artist-talk</link>

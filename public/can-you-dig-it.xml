@@ -5,7 +5,7 @@
         <title>CAN YOU DIG IT Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from CAN YOU DIG IT - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:35:35 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,7 +15,7 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Can You Dig It?! - Episode 3: Penny Holmes]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</link>
@@ -25,7 +25,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-3-Penny-Holmes-25-01-2024.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Can You Dig It?! - Episode 2: 18-01-2024]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</link>
@@ -35,7 +35,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/can-you-dig-it-episode-two-holly-brown-18-01-2024.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Can You Dig It?! Episode 1: 11 Jan 2024]]></title>
             <link>http://localhost:3000/podcast/episode-1-11-jan-2024</link>

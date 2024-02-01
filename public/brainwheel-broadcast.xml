@@ -5,7 +5,7 @@
         <title>BRAINWHEEL BROADCAST Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from BRAINWHEEL BROADCAST - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:35:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>

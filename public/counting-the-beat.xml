@@ -5,7 +5,7 @@
         <title>COUNTING THE BEAT Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from COUNTING THE BEAT - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:35:36 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,7 +15,7 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[Counting The Beat Hamish Kilgour Special]]></title>
             <link>http://localhost:3000/podcast/counting-the-beat-hamish-kilgour-special</link>

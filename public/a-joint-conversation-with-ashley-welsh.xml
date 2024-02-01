@@ -5,7 +5,7 @@
         <title>A JOINT CONVERSATION WITH ASHLEY WELSH Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from A JOINT CONVERSATION WITH ASHLEY WELSH - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 22:35:36 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:59:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,7 +15,7 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With JP Fouche]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-jp-fouche</link>
@@ -25,7 +25,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/joint-conversations-jp-fouche.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Mat Carpenter  Chris  SEPTEMBER 17, 2020]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-mat-carpenter-chris-september-17-2020</link>
@@ -35,7 +35,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/joint-conversation-mat-carpenter.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Brendan Harris]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-brendan-harris</link>
@@ -45,7 +45,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/joint-conversation-brendan-harris.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Amelia Lawley]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-amelia-lawley</link>
@@ -55,7 +55,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/joint-conversation-amelia-lawley.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Joel Larson]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-joel-larson</link>
@@ -65,7 +65,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/joel-larson-conversations-11-01-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Tommy Pickett  Chris  OCTOBER 19, 2020]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-tommy-pickett-chris-october-19-2020</link>
@@ -75,7 +75,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-tommy-pickett.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Steve Fortune]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-steve-fortune</link>
@@ -85,7 +85,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/Conversations-Steve-Fortune-15-03-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Sandi Bezzant]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-sandi-bezzant</link>
@@ -95,7 +95,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-sandi-bezzant.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Ryan Patterson ]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-ryan-patterson</link>
@@ -105,7 +105,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-ryan-patterson-08-02-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Rachel Fleming ]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-rachel-fleming</link>
@@ -115,7 +115,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-rachel-fleming.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Patience Scarles]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-patience-scarles</link>
@@ -125,7 +125,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-patience-scarles-05-04-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Morgan Sobanja]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-morgan-sobanja</link>
@@ -135,7 +135,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-morgan-sobanja.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Morgan Jones]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-morgan-jones</link>
@@ -145,7 +145,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-morgan-jones.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Maria Ines Pereyra]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-maria-ines-pereyra</link>
@@ -155,7 +155,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-maria-ines-pereyra.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Malcom McMoretone]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-malcom-mcmoretone</link>
@@ -165,7 +165,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-malcolm-mcmoretone.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Maggie Dray]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-maggie-dray</link>
@@ -175,7 +175,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/Conversations-Maggie-Dray-15-03-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Luke Andrews ]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-luke-andrews</link>
@@ -185,7 +185,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-luke-andrews-24-05-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Podcast With Lalo Sanchez]]></title>
             <link>http://localhost:3000/podcast/a-joint-podcast-with-lalo-sanchez</link>
@@ -195,7 +195,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-lalo-sanchez-19-04-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Katy Soljak]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-katy-soljak</link>
@@ -205,7 +205,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-katy-soljak.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Karl Davies]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-karl-davies</link>
@@ -215,7 +215,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-karl-davies.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Helen Carter ]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-helen-carter</link>
@@ -225,7 +225,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-helen-carter.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Harley Salter: The Return ]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-harley-salter-the-return</link>
@@ -235,7 +235,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-harry-salter-two.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Harry Salter (Part Three) ]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-harry-salter-part-three</link>
@@ -245,7 +245,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-harry-salter-three-26-04-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Charlie Robertson  Chris  MAY 22, 2021]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-charlie-robertson-chris-may-22-2021</link>
@@ -255,7 +255,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/Conversations-charlie-robertson-17-05-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Ben Kara]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-ben-kara</link>
@@ -265,7 +265,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-ben-kara-10-05-21.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Andres Poggi Mastrokalo]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-andres-poggi-mastrokalo</link>
@@ -275,7 +275,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-Andres-Poggi-Mastrokalo.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Marco Edwardes]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-marco-edwardes</link>
@@ -285,7 +285,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-31-05-21-marco-edwardes.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Aaron Carpenter]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-aaron-carpenter</link>
@@ -295,7 +295,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-29-03-21-aaron-carpenter.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Bonnie MacGregor]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-bonnie-macgregor</link>
@@ -305,7 +305,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-26-07-21-bonnie-macgregor.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Georgie Young]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-georgie-young</link>
@@ -315,7 +315,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-19-07-21-georgie-young.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Tamara Pendola – Lilith Cakes]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-tamara-pendola-lilith-cakes</link>
@@ -325,7 +325,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-16-08-21-tamara-pendola.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Derek Solomon]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-derek-solomon</link>
@@ -335,7 +335,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-09-08-21-derek-solomon.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Ami Cusack]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-ami-cusack</link>
@@ -345,7 +345,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/a-joint-conversation/conversations-03-05-21-ami-cusack.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>Waiheke Radio (info@waihekeradio.org.nz)</author>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
             <title><![CDATA[A Joint Conversation With Lizzy Barker]]></title>
             <link>http://localhost:3000/podcast/a-joint-conversation-with-lizzy-barker</link>
