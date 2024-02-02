@@ -2,10 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
 <atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+<itunes:author>Waiheke Radio</itunes:author>
+<itunes:category text="Podcasts" />
+<itunes:type>episodic</itunes:type>
+<itunes:image href="https://www.waihekeradio.org.nz/logo.png" />
         <title>INTERVIEWS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from INTERVIEWS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Fri, 02 Feb 2024 03:41:50 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 04:00:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
