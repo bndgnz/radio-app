@@ -3,14 +3,14 @@
     <channel>
 <language>en</language>
 <itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>
-<itunes:category text="Society & Culture"></itunes:category>
+<itunes:category text="Society & Culture" />
 <itunes:type>episodic</itunes:type>
 <spotify:countryOfOrigin>NZ-AUK</spotify:countryOfOrigin>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
         <title>Waiheke Radio Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from Waiheke Radio - New Zealand</description>
-        <lastBuildDate>Fri, 02 Feb 2024 21:37:33 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 21:39:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
