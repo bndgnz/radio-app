@@ -79,11 +79,11 @@ posts.items.forEach((post) => {
     return;
   }
  
-  const replaced = contents.replace('<channel\>', '\<channel\>\n\<atom:link href="https://www.waihekeradio.org.nz/rss.xml" type="application/rss+xml" />');
+  const replaced = contents.replace('<channel\>', '\<channel\>\n\<atom:link href="https://www.waihekeradio.org.nz/rss.xml" type="application/rss+xml"  rel="self" />');
   const typeReplaced = replaced.replaceAll('type="image/mp3"', 'type="audio/mpeg"');
-  const nameSpace = typeReplaced.replaceAll('<rss version="2.0">', '<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0"  rel="self">');
+  const nameSpace = typeReplaced.replaceAll('<rss version="2.0">', '<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">');
   const length  = nameSpace.replaceAll('length="0"', 'length="4123456"');
-  const author  = length.replaceAll('<channel>', '<channel><itunes:explicit>no</itunes:explicit>\n<itunes:email>admin@waihekeradio.org.nz</itunes:email>\n<language>en</language>\n<itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>\n<itunes:category text="Arts" />\n<itunes:type>episodic</itunes:type>\n');
+  const author  = length.replaceAll('<channel>', '<channel>\n<itunes:owner>\n<itunes:name>Waiheke Radio</itunes:name>\n<itunes:email>admin@waihekeradio.org.nz</itunes:email>\n</itunes:owner>\n<itunes:explicit>false</itunes:explicit>\n<language>en</language>\n<itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>\n<itunes:category text="Arts" />\n<itunes:type>episodic</itunes:type>\n');
   const itemauthor  = author.replaceAll('<item>', '<item>\n<itunes:author>Waiheke Radio</itunes:author>');
 
   writeFile(rssFileName, itemauthor, 'utf-8', function (err) {
