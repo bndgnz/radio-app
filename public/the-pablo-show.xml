@@ -5,7 +5,7 @@
         <title>THE PABLO SHOW Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from THE PABLO SHOW - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Fri, 02 Feb 2024 21:58:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 22:00:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>

@@ -10,7 +10,7 @@
         <title>Waiheke Radio Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from Waiheke Radio - New Zealand</description>
-        <lastBuildDate>Fri, 02 Feb 2024 21:58:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 22:00:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -21,6 +21,7 @@
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Can You Dig It?! - Episode 4: Eddie Welsh  and  The Reach Out Garden]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</guid>
@@ -30,6 +31,7 @@
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Can You Dig It?! - Episode 3: Penny Holmes]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</guid>
@@ -39,6 +41,7 @@
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Can You Dig It?! - Episode 2: 18-01-2024]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</guid>
@@ -48,6 +51,7 @@
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[WaiTalks 2023: Lucy Grace]]></title>
             <link>http://localhost:3000/podcast/waitalks-2023-lucy-grace</link>
             <guid>http://localhost:3000/podcast/waitalks-2023-lucy-grace</guid>
@@ -58,6 +62,7 @@
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[WaiTalks 2023: Jade Gray]]></title>
             <link>http://localhost:3000/podcast/waitalks-2023-jade-gray</link>
             <guid>http://localhost:3000/podcast/waitalks-2023-jade-gray</guid>
@@ -68,6 +73,7 @@ T...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[WaiTalks2023: Mark Lapwood]]></title>
             <link>http://localhost:3000/podcast/waitalks2023-mark-lapwood</link>
             <guid>http://localhost:3000/podcast/waitalks2023-mark-lapwood</guid>
@@ -77,6 +83,7 @@ T...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[WaiTalks 2023: Michelle Hooper]]></title>
             <link>http://localhost:3000/podcast/waitalks-2023-michelle-hooper</link>
             <guid>http://localhost:3000/podcast/waitalks-2023-michelle-hooper</guid>
@@ -86,6 +93,7 @@ T...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Boy Who Ate Bugs]]></title>
             <link>http://localhost:3000/podcast/the-boy-who-ate-bugs</link>
             <guid>http://localhost:3000/podcast/the-boy-who-ate-bugs</guid>
@@ -95,6 +103,7 @@ T...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Can You Dig It?! Episode 1: 11 Jan 2024]]></title>
             <link>http://localhost:3000/podcast/episode-1-11-jan-2024</link>
             <guid>http://localhost:3000/podcast/episode-1-11-jan-2024</guid>
@@ -104,6 +113,7 @@ T...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Interview with Susi Newborn Sept 2023]]></title>
             <link>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</link>
             <guid>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</guid>
@@ -113,6 +123,7 @@ T...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Susi Newborn: Housing]]></title>
             <link>http://localhost:3000/podcast/susi-newborn-housing</link>
             <guid>http://localhost:3000/podcast/susi-newborn-housing</guid>
@@ -122,6 +133,7 @@ T...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Susi Newborn: The Environment]]></title>
             <link>http://localhost:3000/podcast/susi-newborn-the-environment</link>
             <guid>http://localhost:3000/podcast/susi-newborn-the-environment</guid>
@@ -131,6 +143,7 @@ T...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mana Mixtape interview with Teyo]]></title>
             <link>http://localhost:3000/podcast/mana-mixtape-interview-with-teyo</link>
             <guid>http://localhost:3000/podcast/mana-mixtape-interview-with-teyo</guid>
@@ -140,6 +153,7 @@ T...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Te Korowai o Waiheke rat trial update]]></title>
             <link>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</link>
             <guid>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</guid>
@@ -149,6 +163,7 @@ T...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Wayup Interview: Bob Hewitt]]></title>
             <link>http://localhost:3000/podcast/the-wayup-interview-bob-hewitt</link>
             <guid>http://localhost:3000/podcast/the-wayup-interview-bob-hewitt</guid>
@@ -158,6 +173,7 @@ T...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Councillor Mike Lee]]></title>
             <link>http://localhost:3000/podcast/councillor-mike-lee</link>
             <guid>http://localhost:3000/podcast/councillor-mike-lee</guid>
@@ -168,6 +184,7 @@ Photo credit: NZ Herald]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Crop Swap]]></title>
             <link>http://localhost:3000/podcast/crop-swap</link>
             <guid>http://localhost:3000/podcast/crop-swap</guid>
@@ -177,6 +194,7 @@ Photo credit: NZ Herald]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Caulerpa Rahui]]></title>
             <link>http://localhost:3000/podcast/caulerpa-rahui</link>
             <guid>http://localhost:3000/podcast/caulerpa-rahui</guid>
@@ -186,6 +204,7 @@ Photo credit: NZ Herald]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Darleen Tana Elected To Parliament]]></title>
             <link>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</link>
             <guid>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</guid>
@@ -195,6 +214,7 @@ Photo credit: NZ Herald]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Librarian Fiona Kralicek Resigning]]></title>
             <link>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</link>
             <guid>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</guid>
@@ -204,6 +224,7 @@ Photo credit: NZ Herald]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Emily King: The Wayup Interview]]></title>
             <link>http://localhost:3000/podcast/emily-king-the-wayup-interview</link>
             <guid>http://localhost:3000/podcast/emily-king-the-wayup-interview</guid>
@@ -213,6 +234,7 @@ Photo credit: NZ Herald]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Maia Piata Rose Week on the Maramataka]]></title>
             <link>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</link>
             <guid>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</guid>
@@ -222,6 +244,7 @@ Photo credit: NZ Herald]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Great Big Rescued Food Cook Off 2023]]></title>
             <link>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</link>
             <guid>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</guid>
@@ -232,6 +255,7 @@ Photo credit: Waiheke Gulf News]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate]]></title>
             <link>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</link>
             <guid>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</guid>
@@ -241,6 +265,7 @@ Photo credit: Waiheke Gulf News]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Sir Peter Leitch - The Wayup Interview]]></title>
             <link>http://localhost:3000/podcast/sir-peter-leitch-the-wayup-interview</link>
             <guid>http://localhost:3000/podcast/sir-peter-leitch-the-wayup-interview</guid>
@@ -251,6 +276,7 @@ Photo credit: Stuff]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Darleen Tana (Green) Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</link>
             <guid>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</guid>
@@ -260,6 +286,7 @@ Photo credit: Stuff]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Hinurewa Te Hau (National) Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</link>
             <guid>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</guid>
@@ -269,6 +296,7 @@ Photo credit: Stuff]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Frank Lepera · Stoat Operations Manager Te Korowai o Waiheke]]></title>
             <link>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</link>
             <guid>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</guid>
@@ -278,6 +306,7 @@ Photo credit: Stuff]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Waiheke Radio Election Coverage]]></title>
             <link>http://localhost:3000/podcast/waiheke-radio-election-coverage</link>
             <guid>http://localhost:3000/podcast/waiheke-radio-election-coverage</guid>
@@ -287,6 +316,7 @@ Photo credit: Stuff]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Damian Sycamore (TOP) candidate interview]]></title>
             <link>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</link>
             <guid>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</guid>
@@ -296,6 +326,7 @@ Photo credit: Stuff]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Oscar Sims Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/oscar-sims-candidate-interview</link>
             <guid>http://localhost:3000/podcast/oscar-sims-candidate-interview</guid>
@@ -305,6 +336,7 @@ Photo credit: Stuff]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mahesh Muralidhar Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</link>
             <guid>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</guid>
@@ -314,6 +346,7 @@ Photo credit: Stuff]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Peeni Henare Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/peeni-henare-candidate-interview</link>
             <guid>http://localhost:3000/podcast/peeni-henare-candidate-interview</guid>
@@ -323,6 +356,7 @@ Photo credit: Stuff]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Chris Orange, Johnny Fleury  and  Steve Ingram Live at Waiheke Radio, May 2023]]></title>
             <link>http://localhost:3000/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</link>
             <guid>http://localhost:3000/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</guid>
@@ -333,6 +367,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Chloe Swarbrick Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</link>
             <guid>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</guid>
@@ -342,6 +377,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Planters Live On Air ]]></title>
             <link>http://localhost:3000/podcast/the-planters-live-on-air</link>
             <guid>http://localhost:3000/podcast/the-planters-live-on-air</guid>
@@ -351,6 +387,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Darleen Tana Interview]]></title>
             <link>http://localhost:3000/podcast/darleen-tana-interview</link>
             <guid>http://localhost:3000/podcast/darleen-tana-interview</guid>
@@ -360,6 +397,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Anything Arty Show June 30th 2011]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-june-30th-2011</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-june-30th-2011</guid>
@@ -369,6 +407,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Inspector]]></title>
             <link>http://localhost:3000/podcast/the-inspector</link>
             <guid>http://localhost:3000/podcast/the-inspector</guid>
@@ -378,6 +417,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Sybill]]></title>
             <link>http://localhost:3000/podcast/sybill</link>
             <guid>http://localhost:3000/podcast/sybill</guid>
@@ -387,6 +427,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Sheila]]></title>
             <link>http://localhost:3000/podcast/sheila</link>
             <guid>http://localhost:3000/podcast/sheila</guid>
@@ -396,6 +437,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Gerald]]></title>
             <link>http://localhost:3000/podcast/gerald</link>
             <guid>http://localhost:3000/podcast/gerald</guid>
@@ -405,6 +447,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Eric]]></title>
             <link>http://localhost:3000/podcast/eric</link>
             <guid>http://localhost:3000/podcast/eric</guid>
@@ -414,6 +457,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Anything Arty - Interview with Artrist Goldsmith Part 1]]></title>
             <link>http://localhost:3000/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</link>
             <guid>http://localhost:3000/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</guid>
@@ -423,6 +467,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Anything Arty - The Artists Goldsmith Interview]]></title>
             <link>http://localhost:3000/podcast/anything-arty-the-artists-goldsmith-interview</link>
             <guid>http://localhost:3000/podcast/anything-arty-the-artists-goldsmith-interview</guid>
@@ -432,6 +477,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[THE ANYTHING ARTY SHOW FEB 9TH]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-feb-9th</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-feb-9th</guid>
@@ -441,6 +487,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[THE ANYTHING ARTY SHOW JAN 12 2012]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-jan-12-2012</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-jan-12-2012</guid>
@@ -450,6 +497,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Anything Arty Show Jan 5 2012]]></title>
             <link>http://localhost:3000/podcast/anything-arty-show-jan-5-2012</link>
             <guid>http://localhost:3000/podcast/anything-arty-show-jan-5-2012</guid>
@@ -461,6 +509,7 @@ Reading from author Rebecca Solnit on her essays The Distance ...]]></descriptio
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[THE ANYTHING ARTY SHOW DEC 15 2011]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</guid>
@@ -470,6 +519,7 @@ Reading from author Rebecca Solnit on her essays The Distance ...]]></descriptio
         </item>
         <item>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Anything Arty Show John Hawkesby]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-john-hawkesby</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-john-hawkesby</guid>
