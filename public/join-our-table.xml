@@ -5,7 +5,7 @@
         <title>JOIN OUR TABLE Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from JOIN OUR TABLE - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 23:59:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Feb 2024 01:48:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,9 +14,9 @@
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
-        <item>
 <author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
+        <item>
             <title><![CDATA[Join Our Table With Gene  and  Jane]]></title>
             <link>http://localhost:3000/podcast/join-our-table-with-gene-and-jane</link>
             <guid>http://localhost:3000/podcast/join-our-table-with-gene-and-jane</guid>
@@ -25,8 +25,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/join-our-table/JOT-jane-burn-island-coffee-island-coffee-roastery-espresso-bar.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Join Our Table With Gene  and  Nigel]]></title>
             <link>http://localhost:3000/podcast/join-our-table-with-gene-and-nigel</link>
             <guid>http://localhost:3000/podcast/join-our-table-with-gene-and-nigel</guid>
@@ -35,8 +33,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/join-our-table/Join-Our-Table-Nov-20-podcast.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Join Our Table With Guest Paul Rutherford]]></title>
             <link>http://localhost:3000/podcast/join-our-table-with-guest-paul-rutherford</link>
             <guid>http://localhost:3000/podcast/join-our-table-with-guest-paul-rutherford</guid>
@@ -45,8 +41,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/join-our-table/JOT-Paul-Rutherford-dec-18.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Join Our Table With Gene And Alessandro]]></title>
             <link>http://localhost:3000/podcast/join-our-table-with-gene-and-alessandro</link>
             <guid>http://localhost:3000/podcast/join-our-table-with-gene-and-alessandro</guid>
@@ -55,8 +49,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/join-our-table/JOT-Alessandro-Francos-Italian-Bakery-Jan-15-.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Join Our Table With Gene And Carl ]]></title>
             <link>http://localhost:3000/podcast/join-our-table-with-gene-and-carl</link>
             <guid>http://localhost:3000/podcast/join-our-table-with-gene-and-carl</guid>

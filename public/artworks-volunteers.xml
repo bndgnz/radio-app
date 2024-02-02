@@ -5,7 +5,7 @@
         <title>ARTWORKS VOLUNTEERS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from ARTWORKS VOLUNTEERS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 23:59:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Feb 2024 01:48:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,9 +14,9 @@
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
-        <item>
 <author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
+        <item>
             <title><![CDATA[Artworks Volunteers Oral History Project Janet Cuthbert]]></title>
             <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-janet-cuthbert</link>
             <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-janet-cuthbert</guid>
@@ -25,8 +25,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Janet-Cuthbert.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Artworks Volunteers Oral History Project Gillian Bayne]]></title>
             <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-gillian-bayne</link>
             <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-gillian-bayne</guid>
@@ -35,8 +33,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Gillian-Baynes.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Artworks Volunteers Oral History Project  Gabrielle Smith]]></title>
             <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-gabrielle-smith</link>
             <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-gabrielle-smith</guid>
@@ -45,8 +41,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Gabrielle-Smith.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Artworks Volunteers Oral History Project Emma Mui-Woodley]]></title>
             <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-emma-mui-woodley</link>
             <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-emma-mui-woodley</guid>
@@ -55,8 +49,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Emma-Mui-Woodley.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[Artworks Volunteers Oral History Project Brent Simpson]]></title>
             <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-brent-simpson</link>
             <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-brent-simpson</guid>

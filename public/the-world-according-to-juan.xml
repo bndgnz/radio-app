@@ -5,7 +5,7 @@
         <title>THE WORLD ACCORDING TO JUAN Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from THE WORLD ACCORDING TO JUAN - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 23:59:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Feb 2024 01:48:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,9 +14,9 @@
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
-        <item>
 <author>info@waihekeradio.org.nz (Waiheke Radio) </author>
 
+        <item>
             <title><![CDATA[The World According To Juan #1]]></title>
             <link>http://localhost:3000/podcast/the-world-according-to-juan-1</link>
             <guid>http://localhost:3000/podcast/the-world-according-to-juan-1</guid>
@@ -25,8 +25,6 @@
             <enclosure url="https://s3.ap-southeast-2.amazonaws.com/wr-recordings/podcasts/the-world-according-to-juan/juan1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[THE WORLD ACCORDING TO JUAN #2]]></title>
             <link>http://localhost:3000/podcast/the-world-according-to-juan-2</link>
             <guid>http://localhost:3000/podcast/the-world-according-to-juan-2</guid>
@@ -35,8 +33,6 @@
             <enclosure url="https://s3.ap-southeast-2.amazonaws.com/wr-recordings/podcasts/the-world-according-to-juan/juan2.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[The World According To Juan #3]]></title>
             <link>http://localhost:3000/podcast/the-world-according-to-juan-3</link>
             <guid>http://localhost:3000/podcast/the-world-according-to-juan-3</guid>
@@ -45,8 +41,6 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-world-according-to-juan/juan3.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
             <title><![CDATA[The World According To Juan #4]]></title>
             <link>http://localhost:3000/podcast/the-world-according-to-juan-4</link>
             <guid>http://localhost:3000/podcast/the-world-according-to-juan-4</guid>

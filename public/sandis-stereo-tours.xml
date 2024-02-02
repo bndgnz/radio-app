@@ -5,7 +5,7 @@
         <title>SANDIS STEREO TOURS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from SANDIS STEREO TOURS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 31 Jan 2024 23:59:50 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Feb 2024 01:48:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,5 +14,7 @@
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+
     </channel>
 </rss>
