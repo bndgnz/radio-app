@@ -11,7 +11,7 @@
 <itunes:category text="Arts" />
 <itunes:type>episodic</itunes:type>
 
-<atom:link href="https://www.waihekeradio.org.nz/rss.xml" type="application/rss+xml"  rel="self" />
+<atom:link href="https://www.waihekeradio.org.nz/spotify-rss.xml" type="application/rss+xml"  rel="self" />
         <title>Waiheke Radio Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from Waiheke Radio - New Zealand</description>
