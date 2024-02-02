@@ -83,7 +83,7 @@ posts.items.forEach((post) => {
   const typeReplaced = replaced.replaceAll('type="image/mp3"', 'type="audio/mpeg"');
   const nameSpace = typeReplaced.replaceAll('<rss version="2.0">', '<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0"  rel="self">');
   const length  = nameSpace.replaceAll('length="0"', 'length="123456"');
-  const author  = length.replaceAll('<channel>', '<channel>\n<language>en</language>\n<itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>\n<itunes:category text="Arts" />\n<itunes:type>episodic</itunes:type>\n<spotify:countryOfOrigin>NZ-AUK</spotify:countryOfOrigin>\n');
+  const author  = length.replaceAll('<channel>', '<channel>\n<language>en</language>\n<itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>\n<itunes:category text="Arts" />\n<itunes:type>episodic</itunes:type>\n');
   const itemauthor  = author.replaceAll('<item>', '<item>\n<itunes:email>admin@waihekeradio.org.nz</itunes:email>');
 
   writeFile(rssFileName, itemauthor, 'utf-8', function (err) {
