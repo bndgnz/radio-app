@@ -5,7 +5,7 @@
         <title>Waiheke Radio Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from Waiheke Radio - New Zealand</description>
-        <lastBuildDate>Thu, 01 Feb 2024 01:48:27 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 02:53:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,9 +13,17 @@
             <url>http://localhost:3000/logo.png</url>
             <link>http://localhost:3000</link>
         </image>
-        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
+        <copyright>All rights reserved 2024, Waiheke Radio<item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
 
+        <item>
+            <title><![CDATA[Can You Dig It?! - Episode 4: Eddie Welsh  and  The Reach Out Garden]]></title>
+            <link>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</link>
+            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</guid>
+            <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Eddie Welsh from Starter Plants who shares some tips on what to plant at this...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-4-01-02-2024.mp3" length="123456" type="audio/mpeg"/>
+        </item>
         <item>
             <title><![CDATA[Can You Dig It?! - Episode 3: Penny Holmes]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</link>
@@ -409,14 +417,6 @@ Incubator inte...]]></description>
             <pubDate>Thu, 01 Dec 2011 00:00:00 GMT</pubDate>
             <description><![CDATA[John Hawkesby interview]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_26.mp3" length="123456" type="audio/mpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[The Anything Arty Show Dec 8 2011]]></title>
-            <link>http://localhost:3000/podcast/the-anything-arty-show-dec-8-2011</link>
-            <guid>http://localhost:3000/podcast/the-anything-arty-show-dec-8-2011</guid>
-            <pubDate>Thu, 08 Dec 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[This week we had conversations with James Clairmont from Waiheke Island Cheese Company on the art o...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_25.mp3" length="123456" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>

@@ -5,7 +5,7 @@
         <title>TALKIN BOUT MY GENERATION Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from TALKIN BOUT MY GENERATION - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Thu, 01 Feb 2024 01:48:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 02:53:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,9 +14,9 @@
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Talkin’ ‘Bout My Generation 01]]></title>
             <link>http://localhost:3000/podcast/talkin-bout-my-generation-01</link>
             <guid>http://localhost:3000/podcast/talkin-bout-my-generation-01</guid>
@@ -25,6 +25,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/talkin-bout-my-generation/Talkin-Bout-My-Generation-01-podcast_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Talkin’ ‘Bout My Generation 02 Ian Simpson And Kara Britton]]></title>
             <link>http://localhost:3000/podcast/talkin-bout-my-generation-02-ian-simpson-and-kara-britton</link>
             <guid>http://localhost:3000/podcast/talkin-bout-my-generation-02-ian-simpson-and-kara-britton</guid>
@@ -33,6 +35,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/talkin-bout-my-generation/TBMG2podcast_0.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Talkin’ ‘Bout My Generation 03 Aaron Carpenter  and  Patience Scarles ]]></title>
             <link>http://localhost:3000/podcast/talkin-bout-my-generation-03-aaron-carpenter-and-patience-scarles</link>
             <guid>http://localhost:3000/podcast/talkin-bout-my-generation-03-aaron-carpenter-and-patience-scarles</guid>

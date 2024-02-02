@@ -5,7 +5,7 @@
         <title>DEBATES Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from DEBATES - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Thu, 01 Feb 2024 01:48:26 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 02:53:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,9 +14,9 @@
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Great Waiheke Radio Auckland Central Electorates Candidates Debate]]></title>
             <link>http://localhost:3000/podcast/great-waiheke-radio-auckland-central-electorates-candidates-debate</link>
             <guid>http://localhost:3000/podcast/great-waiheke-radio-auckland-central-electorates-candidates-debate</guid>
@@ -25,6 +25,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/candidates-debate-2020-1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[The Great Waiheke Radio Local Board Candidates Debate 2]]></title>
             <link>http://localhost:3000/podcast/the-great-waiheke-radio-local-board-candidates-debate-2</link>
             <guid>http://localhost:3000/podcast/the-great-waiheke-radio-local-board-candidates-debate-2</guid>
@@ -33,6 +35,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/candidate-meeting-16-sept-2019.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[The Great Waiheke Comedy Debate]]></title>
             <link>http://localhost:3000/podcast/the-great-waiheke-comedy-debate</link>
             <guid>http://localhost:3000/podcast/the-great-waiheke-comedy-debate</guid>
@@ -41,6 +45,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Great-Waiheke-Comedy-Debate.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[The Great Waiheke Radio Auckland Central Candidates Debate]]></title>
             <link>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-candidates-debate</link>
             <guid>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-candidates-debate</guid>
@@ -49,6 +55,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/CandidatesDebate.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[The Great Waiheke Radio Local Board Candidates Debate]]></title>
             <link>http://localhost:3000/podcast/the-great-waiheke-radio-local-board-candidates-debate</link>
             <guid>http://localhost:3000/podcast/the-great-waiheke-radio-local-board-candidates-debate</guid>
@@ -57,6 +65,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Candidates-Meeting-19-09-16.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Waiheke Budgeting Service Candidates Forum Pt. 2]]></title>
             <link>http://localhost:3000/podcast/waiheke-budgeting-service-candidates-forum-pt-2</link>
             <guid>http://localhost:3000/podcast/waiheke-budgeting-service-candidates-forum-pt-2</guid>
@@ -65,6 +75,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Budgeting-Service-Debate-Pt-2.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Waiheke Budgeting Service Candidates Forum Pt. 1 ]]></title>
             <link>http://localhost:3000/podcast/waiheke-budgeting-service-candidates-forum-pt-1</link>
             <guid>http://localhost:3000/podcast/waiheke-budgeting-service-candidates-forum-pt-1</guid>
@@ -73,6 +85,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/Budgeting-Service-Debate-Pt-1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Waiheke Budgeting Service Money Week Debate]]></title>
             <link>http://localhost:3000/podcast/waiheke-budgeting-service-money-week-debate</link>
             <guid>http://localhost:3000/podcast/waiheke-budgeting-service-money-week-debate</guid>
@@ -81,6 +95,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/debates/BudgetServiceDebateSept2013-1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Money Is The Barometer Of A Society’s Virtue?]]></title>
             <link>http://localhost:3000/podcast/money-is-the-barometer-of-a-societys-virtue</link>
             <guid>http://localhost:3000/podcast/money-is-the-barometer-of-a-societys-virtue</guid>
