@@ -79,7 +79,7 @@ posts.items.forEach((post) => {
     console.log(err);
     return;
   }
-  const replaced = contents.replace('\<channel\>', '\<channel\>\n\<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />\n<itunes:author>Waiheke Radio</itunes:author>\n<itunes:category text="Podcasts" />\n<itunes:type>episodic</itunes:type>\n<itunes:image href="https://www.waihekeradio.org.nz/logo.png" />');
+  const replaced = contents.replace('\<channel\>', '\<channel\>\n\<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />');
   const typeReplaced = replaced.replaceAll('type="image/mp3"', 'type="audio/mpeg"');
   const nameSpace = typeReplaced.replaceAll('<rss version="2.0">', '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">');
   const length  = nameSpace.replaceAll('length="0"', 'length="123456"');
