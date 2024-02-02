@@ -4,6 +4,7 @@ import { ILandingPageFields } from "../src/@types/contentful";
 import styles from "../styles/Home.module.css";
 import ContentService from "@/src/utils/content-service";
 import generateAllRssFeed from '@/src/utils/generateAllRSSFeed';
+import generateAllSpotifyFeed from '@/src/utils/generateAllSpotifyFeed';
 
 
 import Layout from "@/src/components/Layout";
@@ -22,6 +23,7 @@ export const getStaticProps: GetStaticProps<Props> = async ({preview = false }) 
  
  
   await generateAllRssFeed(rssArr);
+  await generateAllSpotifyFeed(rssArr);
 
   const articles = (
     await ContentService.instance.getEntriesByType<ILandingPageFields>(

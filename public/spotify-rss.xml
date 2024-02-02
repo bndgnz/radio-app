@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
-<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+<itunes:owner>
+<itunes:name>Waiheke Radio</itunes:name>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
+</itunes:owner>
+<itunes:explicit>false</itunes:explicit>
+<language>en</language>
+<itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>
+<itunes:category text="Arts" />
+<itunes:type>episodic</itunes:type>
+
+<atom:link href="https://www.waihekeradio.org.nz/spotify-rss.xml" type="application/rss+xml"  rel="self" />
         <title>Waiheke Radio Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from Waiheke Radio - New Zealand</description>
@@ -15,506 +25,462 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Can You Dig It?! - Episode 4: Eddie Welsh  and  The Reach Out Garden]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</guid>
             <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Eddie Welsh from Starter Plants who shares some tips on what to plant at this...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-4-01-02-2024.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Chris Walker talks to Eddie Welsh from Starter Plants who shares some tips on what to plant at this time of year and how to care for what you sow in this sweltering heat. Then he talks with Teresa Qu...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-4-01-02-2024.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Can You Dig It?! - Episode 3: Penny Holmes]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</guid>
             <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Penny Holmes is an enthusiastic home and community gardener with invovlement in the [Home Grown Wai...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-3-Penny-Holmes-25-01-2024.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Penny Holmes is an enthusiastic home and community gardener with invovlement in the [Home Grown Waiheke](https://www.homegrownwaiheke.nz/) Trust and Ostend Community Garden.![Ostend Community Garden]...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-3-Penny-Holmes-25-01-2024.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Can You Dig It?! - Episode 2: 18-01-2024]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</guid>
             <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[This episode's guest is Waiheke home garderner Holly Brown. She is growing incredible vegetable cro...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/can-you-dig-it-episode-two-holly-brown-18-01-2024.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[This episode's guest is Waiheke home garderner Holly Brown. She is growing incredible vegetable crops and flowers. Check out her Instagram account for beautiful photos of her garden and produce - [ht...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/can-you-dig-it-episode-two-holly-brown-18-01-2024.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[WaiTalks 2023: Lucy Grace]]></title>
             <link>http://localhost:3000/podcast/waitalks-2023-lucy-grace</link>
             <guid>http://localhost:3000/podcast/waitalks-2023-lucy-grace</guid>
             <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lucy Grace was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nat...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Lucy-Grace-Wai-Talks-Dec-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Lucy Grace was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nature2classroom’s research, programmes and well being days for the children and teachers of our Motu.
+...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Lucy-Grace-Wai-Talks-Dec-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[WaiTalks 2023: Jade Gray]]></title>
             <link>http://localhost:3000/podcast/waitalks-2023-jade-gray</link>
             <guid>http://localhost:3000/podcast/waitalks-2023-jade-gray</guid>
             <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Jade Gray was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Natu...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Jade-Gray-Wai-Talks-Dec-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Jade Gray was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nature2classroom’s research, programmes and well being days for the children and teachers of our Motu.
+T...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Jade-Gray-Wai-Talks-Dec-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[WaiTalks2023: Mark Lapwood]]></title>
             <link>http://localhost:3000/podcast/waitalks2023-mark-lapwood</link>
             <guid>http://localhost:3000/podcast/waitalks2023-mark-lapwood</guid>
             <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Mark Lapwood was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and N...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Mark-Lapwood-Wai-Talks-Dec-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Mark Lapwood was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nature2classroom’s research, programmes and well being days for the children and teachers of our Motu...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Mark-Lapwood-Wai-Talks-Dec-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[WaiTalks 2023: Michelle Hooper]]></title>
             <link>http://localhost:3000/podcast/waitalks-2023-michelle-hooper</link>
             <guid>http://localhost:3000/podcast/waitalks-2023-michelle-hooper</guid>
             <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Michelle Hooper was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill an...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Michelle-Hooper-Wai-Talks-Dec-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Michelle Hooper was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nature2classroom’s research, programmes and well being days for the children and teachers of our M...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Michelle-Hooper-Wai-Talks-Dec-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Boy Who Ate Bugs]]></title>
             <link>http://localhost:3000/podcast/the-boy-who-ate-bugs</link>
             <guid>http://localhost:3000/podcast/the-boy-who-ate-bugs</guid>
             <pubDate>Sun, 14 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Boy Who Ate Bugs was written and narrated by Waiheke writer Avi Duckor-Jones and was recorded a...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/theatre/The%20Boy%20Who%20Ate%20Bugs%20-%20final.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[The Boy Who Ate Bugs was written and narrated by Waiheke writer Avi Duckor-Jones and was recorded and produced by Brent Simpson. ]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/theatre/The%20Boy%20Who%20Ate%20Bugs%20-%20final.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Can You Dig It?! Episode 1: 11 Jan 2024]]></title>
             <link>http://localhost:3000/podcast/episode-1-11-jan-2024</link>
             <guid>http://localhost:3000/podcast/episode-1-11-jan-2024</guid>
             <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks with Eddie Welsh, who sells vege seedlings each Saturday at Ostand market, about...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-11-01-2024-Eddie-Starter-Plants.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Chris Walker talks with Eddie Welsh, who sells vege seedlings each Saturday at Ostand market, about what to plant in your home garden. ]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-11-01-2024-Eddie-Starter-Plants.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Interview with Susi Newborn Sept 2023]]></title>
             <link>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</link>
             <guid>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</guid>
             <pubDate>Thu, 04 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Interview with Susi Newborn from 22nd of September 2023 where she talks about being a protector, fa...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/koro-susi-newborn-interview-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Interview with Susi Newborn from 22nd of September 2023 where she talks about being a protector, family, the history behind the rainbow warrior. It was such a honour to have Susi in Studio for this i...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/koro-susi-newborn-interview-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Susi Newborn: Housing]]></title>
             <link>http://localhost:3000/podcast/susi-newborn-housing</link>
             <guid>http://localhost:3000/podcast/susi-newborn-housing</guid>
             <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fight...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fighting to make the world a better place, with an unwavering commitment to addressing social justice and...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Susi Newborn: The Environment]]></title>
             <link>http://localhost:3000/podcast/susi-newborn-the-environment</link>
             <guid>http://localhost:3000/podcast/susi-newborn-the-environment</guid>
             <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fight...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fighting to make the world a better place, with an unwavering commitment to addressing social justice and...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mana Mixtape interview with Teyo]]></title>
             <link>http://localhost:3000/podcast/mana-mixtape-interview-with-teyo</link>
             <guid>http://localhost:3000/podcast/mana-mixtape-interview-with-teyo</guid>
             <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Koro talks to Italian rapper Teyo]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/231208_TeyoRap.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/231208_TeyoRap.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Te Korowai o Waiheke rat trial update]]></title>
             <link>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</link>
             <guid>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</guid>
             <pubDate>Sat, 02 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Owain Tanner from Te Korowai o Waiheke to get an update on the Oneroa rat e...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-01-12-2023-rat-trial-owain-tanner.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Greg Treadwell talks to Owain Tanner from Te Korowai o Waiheke to get an update on the Oneroa rat eradication trial]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-01-12-2023-rat-trial-owain-tanner.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Wayup Interview: Bob Hewitt]]></title>
             <link>http://localhost:3000/podcast/the-wayup-interview-bob-hewitt</link>
             <guid>http://localhost:3000/podcast/the-wayup-interview-bob-hewitt</guid>
             <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wayan and Jahn talk to New Yorker Bob Hewitt who has recently moved to Waiheke. They talk about the...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Bob-Hewitt-Wayup-Interview-21-11-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Wayan and Jahn talk to New Yorker Bob Hewitt who has recently moved to Waiheke. They talk about the two books he's written about AI, his love of board games and the after school programme he set up i...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Bob-Hewitt-Wayup-Interview-21-11-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Councillor Mike Lee]]></title>
             <link>http://localhost:3000/podcast/councillor-mike-lee</link>
             <guid>http://localhost:3000/podcast/councillor-mike-lee</guid>
             <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to councillor Mike Lee about the year since his re-election to Auckland Council ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-mike-lee.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Chris Walker talks to councillor Mike Lee about the year since his re-election to Auckland Council and his decision to vote against the introduction of Māori wards.
+Photo credit: NZ Herald]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-mike-lee.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Crop Swap]]></title>
             <link>http://localhost:3000/podcast/crop-swap</link>
             <guid>http://localhost:3000/podcast/crop-swap</guid>
             <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Hadas Ore about Waiheke Crop Swap. Home gardeners come together to swap their...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-hadas-ore-crop-swap.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Chris Walker talks to Hadas Ore about Waiheke Crop Swap. Home gardeners come together to swap their excess produce and share gardening tips. ]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-hadas-ore-crop-swap.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Caulerpa Rahui]]></title>
             <link>http://localhost:3000/podcast/caulerpa-rahui</link>
             <guid>http://localhost:3000/podcast/caulerpa-rahui</guid>
             <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Blair Anderson, Pou Rahui Project Manager for Ngāti Pāoa, about the rahui pla...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-blair-anderson-caulerpa-rahui.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Chris Walker talks to Blair Anderson, Pou Rahui Project Manager for Ngāti Pāoa, about the rahui placed by the iwi to prevent the spread of the invasive Caulerpa seaweed.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-blair-anderson-caulerpa-rahui.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Darleen Tana Elected To Parliament]]></title>
             <link>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</link>
             <guid>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</guid>
             <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to Darleen Tana whio has just been elected to parliament as a Green list MP]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-21-10-2023.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-21-10-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Librarian Fiona Kralicek Resigning]]></title>
             <link>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</link>
             <guid>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</guid>
             <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Fiona Kralicek who has been the head librarian at Waiheke Community Library f...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-fiona-kralicek-library-20-10-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Chris Walker talks to Fiona Kralicek who has been the head librarian at Waiheke Community Library for 28 years.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-fiona-kralicek-library-20-10-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Emily King: The Wayup Interview]]></title>
             <link>http://localhost:3000/podcast/emily-king-the-wayup-interview</link>
             <guid>http://localhost:3000/podcast/emily-king-the-wayup-interview</guid>
             <pubDate>Wed, 18 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wayan and Jahn from the Wayup show interview Emily King a local Surfdale resident about her latest ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-Show-Emily-King-podcast-18-10-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Wayan and Jahn from the Wayup show interview Emily King a local Surfdale resident about her latest book "Re-food" about New Zealands troubled food networks. The interview covers some of the challenge...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-Show-Emily-King-podcast-18-10-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Maia Piata Rose Week on the Maramataka]]></title>
             <link>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</link>
             <guid>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</guid>
             <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Koro talks to Maia Piata Rose Week about the Maramataka. Follow Maia on Instagram https://www.insta...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Koro talks to Maia Piata Rose Week about the Maramataka. Follow Maia on Instagram https://www.instagram.com/maia_moomies/]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Great Big Rescued Food Cook Off 2023]]></title>
             <link>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</link>
             <guid>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</guid>
             <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Koro talks to to Laura lynch and kayleigh Appleton from the Waiheke Resources Trust about The Great...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Koro talks to to Laura lynch and kayleigh Appleton from the Waiheke Resources Trust about The Great Big Rescued Food Cokk Off being held on 18 Oct 2023
+Photo credit: Waiheke Gulf News]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate]]></title>
             <link>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</link>
             <guid>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</guid>
             <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate. Held at Artworks Theatre on ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate. Held at Artworks Theatre on Thurs 28 September, 2023. The candidates were Mahesh Muralidhar (National), Oscar Sims (Labour) and ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Sir Peter Leitch - The Wayup Interview]]></title>
             <link>http://localhost:3000/podcast/sir-peter-leitch-the-wayup-interview</link>
             <guid>http://localhost:3000/podcast/sir-peter-leitch-the-wayup-interview</guid>
             <pubDate>Thu, 21 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Wayan and Jahn from Waiheke Radio's Wayup Show talk to the Mad Butcher, Sir Peter Leitch. 
-Photo cr...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-show-Mad-Butcher-interview%2021-09-2023.mp3" length="123456" type="audio/mpeg"/>
+Photo credit: Stuff]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-show-Mad-Butcher-interview%2021-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Darleen Tana (Green) Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</link>
             <guid>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</guid>
             <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to Darleen Tana, Green candidate for The Tamaki Makaurau Māori electorate]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-23-09-2023.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-23-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Hinurewa Te Hau (National) Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</link>
             <guid>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</guid>
             <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Hinurewa Te Hau, National Party candidate for the Tamaki Makaurau Māori elect...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-hinurewa-te-hau-23-09-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Chris Walker talks to Hinurewa Te Hau, National Party candidate for the Tamaki Makaurau Māori electorate]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-hinurewa-te-hau-23-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Frank Lepera · Stoat Operations Manager Te Korowai o Waiheke]]></title>
             <link>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</link>
             <guid>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</guid>
             <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Frank Lepera · Stoat Operations Manager at Te Korowai o Waiheke and gets an...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-te-korowai-o-waiheke-29-09-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Greg Treadwell talks to Frank Lepera · Stoat Operations Manager at Te Korowai o Waiheke and gets an update on the progress in the project to eradicate stoats from the island.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-te-korowai-o-waiheke-29-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Waiheke Radio Election Coverage]]></title>
             <link>http://localhost:3000/podcast/waiheke-radio-election-coverage</link>
             <guid>http://localhost:3000/podcast/waiheke-radio-election-coverage</guid>
             <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Greg Treadwell talks to Chris Walker about Waiheke Radio's 2023 general election coverage]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-election-coverage-23-09-2023.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-election-coverage-23-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Damian Sycamore (TOP) candidate interview]]></title>
             <link>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</link>
             <guid>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</guid>
             <pubDate>Thu, 21 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Damian Sycamore is a Waiheke Islander. He is standing for The Opportunities Party (TOP) in the Auck...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-damian-sycamore-21-09-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Damian Sycamore is a Waiheke Islander. He is standing for The Opportunities Party (TOP) in the Auckland Central electorate. He spoke to Chris Walker about how TOP policies would address local Waiheke...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-damian-sycamore-21-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Oscar Sims Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/oscar-sims-candidate-interview</link>
             <guid>http://localhost:3000/podcast/oscar-sims-candidate-interview</guid>
             <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to Oscar Sims, Labour candidate for Auckland Central]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-oscar-sims-16-09-2023.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-oscar-sims-16-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mahesh Muralidhar Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</link>
             <guid>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</guid>
             <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to Mahesh Muralidhar, National candidate for Auckland Central]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-mahesh-muralidhar-16-09-2023.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-mahesh-muralidhar-16-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Peeni Henare Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/peeni-henare-candidate-interview</link>
             <guid>http://localhost:3000/podcast/peeni-henare-candidate-interview</guid>
             <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Brent Simpson talks to Peeni Henare, Labour candidate for the Tamaki Makaurau electorate]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-peeni-henare-16-09-2023.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-peeni-henare-16-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Chris Orange, Johnny Fleury  and  Steve Ingram Live at Waiheke Radio, May 2023]]></title>
             <link>http://localhost:3000/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</link>
             <guid>http://localhost:3000/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</guid>
             <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Orange (bass), Johnny Fleury (chapman stick) and Steve Ingram (drums) perform live at Waiheke...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/chris-orange-johnny-fleury-steve-ingram-waiheke-library-27-may-2023.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Chris Orange (bass), Johnny Fleury (chapman stick) and Steve Ingram (drums) perform live at Waiheke Library on Sat 27 May 2023 to mark NZ Music Month.
+Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/chris-orange-johnny-fleury-steve-ingram-waiheke-library-27-may-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Chloe Swarbrick Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</link>
             <guid>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</guid>
             <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Chloe Swarbrick of the Green Party who is standing for re-election as the Auc...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Electorate-2023/island-life-04-09-2023-chloe-swarbrick.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Chris Walker talks to Chloe Swarbrick of the Green Party who is standing for re-election as the Auckland Central electorate MP.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Electorate-2023/island-life-04-09-2023-chloe-swarbrick.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Planters Live On Air ]]></title>
             <link>http://localhost:3000/podcast/the-planters-live-on-air</link>
             <guid>http://localhost:3000/podcast/the-planters-live-on-air</guid>
             <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[The Planters, Live on Waiheke Radio 25/08/2023]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/The%20Planters-Biodiversity-and-Jamming-out-Live-on-air-25-08-2023.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/The%20Planters-Biodiversity-and-Jamming-out-Live-on-air-25-08-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Darleen Tana Interview]]></title>
             <link>http://localhost:3000/podcast/darleen-tana-interview</link>
             <guid>http://localhost:3000/podcast/darleen-tana-interview</guid>
             <pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Koro Sciascia talks to Darleen Tana]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/Darleen-Tana-interview-Mana-Mixtape.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/Darleen-Tana-interview-Mana-Mixtape.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Anything Arty Show June 30th 2011]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-june-30th-2011</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-june-30th-2011</guid>
             <pubDate>Thu, 30 Jun 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[This week we had; a story from Waiheke Adult Literacy 2010 Programme Words, a conversation with Sus...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_4.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[This week we had; a story from Waiheke Adult Literacy 2010 Programme Words, a conversation with Susi Newborn on her role in the Women in Film and TV NZ Organization, the release of the Chinese artist...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_4.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Inspector]]></title>
             <link>http://localhost:3000/podcast/the-inspector</link>
             <guid>http://localhost:3000/podcast/the-inspector</guid>
             <pubDate>Fri, 08 Jul 2005 00:00:00 GMT</pubDate>
             <description><![CDATA[The inspectors lines replaced with a beep]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/inspector.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/inspector.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Sybill]]></title>
             <link>http://localhost:3000/podcast/sybill</link>
             <guid>http://localhost:3000/podcast/sybill</guid>
             <pubDate>Wed, 04 Jul 2007 00:00:00 GMT</pubDate>
             <description><![CDATA[Sybill's lines replaced by a beep]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/sybill.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/sybill.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Sheila]]></title>
             <link>http://localhost:3000/podcast/sheila</link>
             <guid>http://localhost:3000/podcast/sheila</guid>
             <pubDate>Sun, 05 Jul 2015 00:00:00 GMT</pubDate>
             <description><![CDATA[Sheila's line replaced with a beep]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/sheila.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/sheila.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Gerald]]></title>
             <link>http://localhost:3000/podcast/gerald</link>
             <guid>http://localhost:3000/podcast/gerald</guid>
             <pubDate>Fri, 07 Jul 2006 00:00:00 GMT</pubDate>
             <description><![CDATA[Geralds lines replaced with a beep]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/gerald.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/gerald.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Eric]]></title>
             <link>http://localhost:3000/podcast/eric</link>
             <guid>http://localhost:3000/podcast/eric</guid>
             <pubDate>Thu, 11 Jul 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[The play read aloud with Eric's parts removed and signalled with a beep.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/eric.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/eric.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Anything Arty - Interview with Artrist Goldsmith Part 1]]></title>
             <link>http://localhost:3000/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</link>
             <guid>http://localhost:3000/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</guid>
             <pubDate>Thu, 22 Sep 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[An opportunity to listen to a conversation with Christine Hafermalz Wheeler, her husband David and ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/e-artist-goldsmith-part-1.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[An opportunity to listen to a conversation with Christine Hafermalz Wheeler, her husband David and Bernie Lee owner of Waiheke based builders Island 2000  talking about the building of David  and  Ch...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/e-artist-goldsmith-part-1.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Anything Arty - The Artists Goldsmith Interview]]></title>
             <link>http://localhost:3000/podcast/anything-arty-the-artists-goldsmith-interview</link>
             <guid>http://localhost:3000/podcast/anything-arty-the-artists-goldsmith-interview</guid>
             <pubDate>Thu, 29 Sep 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[Part 2 of an interview with Christine Hafermalz Wheeler, the Artist Goldsmith, sponsor of Waiheke R...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/artist-goldsmith-part-2.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[Part 2 of an interview with Christine Hafermalz Wheeler, the Artist Goldsmith, sponsor of Waiheke Radio's The Anything Arty Show]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/artist-goldsmith-part-2.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[THE ANYTHING ARTY SHOW FEB 9TH]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-feb-9th</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-feb-9th</guid>
             <pubDate>Thu, 09 Feb 2012 00:00:00 GMT</pubDate>
-            <description><![CDATA[This weeks arty show introduces new host Eve Bon and we looked at guns as a means of peace, the art...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_30.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[This weeks arty show introduces new host Eve Bon and we looked at guns as a means of peace, the art of pasta, what’s on round the galleries and the Kermit challenge!]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_30.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[THE ANYTHING ARTY SHOW JAN 12 2012]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-jan-12-2012</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-jan-12-2012</guid>
             <pubDate>Thu, 12 Jan 2012 00:00:00 GMT</pubDate>
-            <description><![CDATA[This week a conversation with Chilean artist Margarita Degorret, a chance to hear from BMW design c...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_29.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[This week a conversation with Chilean artist Margarita Degorret, a chance to hear from BMW design chief Chris Bangle on cars as art and a run through of the latest movies to play at Waiheke Community...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_29.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Anything Arty Show Jan 5 2012]]></title>
             <link>http://localhost:3000/podcast/anything-arty-show-jan-5-2012</link>
             <guid>http://localhost:3000/podcast/anything-arty-show-jan-5-2012</guid>
             <pubDate>Thu, 05 Jan 2012 00:00:00 GMT</pubDate>
             <description><![CDATA[This week: Comment on Fiona Pardington’s New Zealand Arts Foundation Laureate Award,
-Incubator inte...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_28.mp3" length="123456" type="audio/mpeg"/>
+Incubator interview with island artist Brett Oakes,
+Reading from author Rebecca Solnit on her essays The Distance ...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_28.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[THE ANYTHING ARTY SHOW DEC 15 2011]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</guid>
             <pubDate>Thu, 15 Dec 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[This week we heard from Isabel Allende sharing her view of passion and Kara Gordon playing his 3500...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_27.mp3" length="123456" type="audio/mpeg"/>
+            <description><![CDATA[This week we heard from Isabel Allende sharing her view of passion and Kara Gordon playing his 35000 year old lancaster guitar]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_27.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Anything Arty Show John Hawkesby]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-john-hawkesby</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-john-hawkesby</guid>
             <pubDate>Thu, 01 Dec 2011 00:00:00 GMT</pubDate>
             <description><![CDATA[John Hawkesby interview]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_26.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_26.mp3" length="4123456" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>
