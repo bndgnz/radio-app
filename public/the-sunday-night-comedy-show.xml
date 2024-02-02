@@ -5,7 +5,7 @@
         <title>THE SUNDAY NIGHT COMEDY SHOW Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from THE SUNDAY NIGHT COMEDY SHOW - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Thu, 01 Feb 2024 01:48:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 02:53:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,7 +14,5 @@
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
     </channel>
 </rss>

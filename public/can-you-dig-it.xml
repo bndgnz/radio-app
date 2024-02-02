@@ -5,7 +5,7 @@
         <title>CAN YOU DIG IT Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from CAN YOU DIG IT - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Thu, 01 Feb 2024 01:48:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 02:53:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,9 +14,19 @@
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
-<author>info@waihekeradio.org.nz (Waiheke Radio) </author>
-
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
+            <title><![CDATA[Can You Dig It?! - Episode 4: Eddie Welsh  and  The Reach Out Garden]]></title>
+            <link>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</link>
+            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</guid>
+            <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Eddie Welsh from Starter Plants who shares some tips on what to plant at this...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-4-01-02-2024.mp3" length="123456" type="audio/mpeg"/>
+        </item>
+        <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Can You Dig It?! - Episode 3: Penny Holmes]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</guid>
@@ -25,6 +35,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-3-Penny-Holmes-25-01-2024.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Can You Dig It?! - Episode 2: 18-01-2024]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</guid>
@@ -33,6 +45,8 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/can-you-dig-it-episode-two-holly-brown-18-01-2024.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
+
             <title><![CDATA[Can You Dig It?! Episode 1: 11 Jan 2024]]></title>
             <link>http://localhost:3000/podcast/episode-1-11-jan-2024</link>
             <guid>http://localhost:3000/podcast/episode-1-11-jan-2024</guid>
