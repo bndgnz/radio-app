@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:spotify="http://www.spotify.com/ns/rss" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0"  rel="self">
     <channel>
 <language>en</language>
 <itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>
 <itunes:category text="Arts" />
 <itunes:type>episodic</itunes:type>
 <spotify:countryOfOrigin>NZ-AUK</spotify:countryOfOrigin>
-<itunes:email>admin@waihekeradio.org.nz</itunes:email>
+
+<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
         <title>Waiheke Radio Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from Waiheke Radio - New Zealand</description>
-        <lastBuildDate>Fri, 02 Feb 2024 21:41:52 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 21:53:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -20,6 +21,7 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Can You Dig It?! - Episode 4: Eddie Welsh  and  The Reach Out Garden]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</guid>
@@ -28,6 +30,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-4-01-02-2024.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Can You Dig It?! - Episode 3: Penny Holmes]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</guid>
@@ -36,6 +39,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-3-Penny-Holmes-25-01-2024.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Can You Dig It?! - Episode 2: 18-01-2024]]></title>
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</guid>
@@ -44,6 +48,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/can-you-dig-it-episode-two-holly-brown-18-01-2024.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[WaiTalks 2023: Lucy Grace]]></title>
             <link>http://localhost:3000/podcast/waitalks-2023-lucy-grace</link>
             <guid>http://localhost:3000/podcast/waitalks-2023-lucy-grace</guid>
@@ -53,6 +58,7 @@
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Lucy-Grace-Wai-Talks-Dec-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[WaiTalks 2023: Jade Gray]]></title>
             <link>http://localhost:3000/podcast/waitalks-2023-jade-gray</link>
             <guid>http://localhost:3000/podcast/waitalks-2023-jade-gray</guid>
@@ -62,6 +68,7 @@ T...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Jade-Gray-Wai-Talks-Dec-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[WaiTalks2023: Mark Lapwood]]></title>
             <link>http://localhost:3000/podcast/waitalks2023-mark-lapwood</link>
             <guid>http://localhost:3000/podcast/waitalks2023-mark-lapwood</guid>
@@ -70,6 +77,7 @@ T...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Mark-Lapwood-Wai-Talks-Dec-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[WaiTalks 2023: Michelle Hooper]]></title>
             <link>http://localhost:3000/podcast/waitalks-2023-michelle-hooper</link>
             <guid>http://localhost:3000/podcast/waitalks-2023-michelle-hooper</guid>
@@ -78,6 +86,7 @@ T...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Michelle-Hooper-Wai-Talks-Dec-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[The Boy Who Ate Bugs]]></title>
             <link>http://localhost:3000/podcast/the-boy-who-ate-bugs</link>
             <guid>http://localhost:3000/podcast/the-boy-who-ate-bugs</guid>
@@ -86,6 +95,7 @@ T...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/theatre/The%20Boy%20Who%20Ate%20Bugs%20-%20final.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Can You Dig It?! Episode 1: 11 Jan 2024]]></title>
             <link>http://localhost:3000/podcast/episode-1-11-jan-2024</link>
             <guid>http://localhost:3000/podcast/episode-1-11-jan-2024</guid>
@@ -94,6 +104,7 @@ T...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-11-01-2024-Eddie-Starter-Plants.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Interview with Susi Newborn Sept 2023]]></title>
             <link>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</link>
             <guid>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</guid>
@@ -102,6 +113,7 @@ T...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/koro-susi-newborn-interview-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Susi Newborn: Housing]]></title>
             <link>http://localhost:3000/podcast/susi-newborn-housing</link>
             <guid>http://localhost:3000/podcast/susi-newborn-housing</guid>
@@ -110,6 +122,7 @@ T...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Susi Newborn: The Environment]]></title>
             <link>http://localhost:3000/podcast/susi-newborn-the-environment</link>
             <guid>http://localhost:3000/podcast/susi-newborn-the-environment</guid>
@@ -118,6 +131,7 @@ T...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Mana Mixtape interview with Teyo]]></title>
             <link>http://localhost:3000/podcast/mana-mixtape-interview-with-teyo</link>
             <guid>http://localhost:3000/podcast/mana-mixtape-interview-with-teyo</guid>
@@ -126,6 +140,7 @@ T...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/231208_TeyoRap.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Te Korowai o Waiheke rat trial update]]></title>
             <link>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</link>
             <guid>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</guid>
@@ -134,6 +149,7 @@ T...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-01-12-2023-rat-trial-owain-tanner.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[The Wayup Interview: Bob Hewitt]]></title>
             <link>http://localhost:3000/podcast/the-wayup-interview-bob-hewitt</link>
             <guid>http://localhost:3000/podcast/the-wayup-interview-bob-hewitt</guid>
@@ -142,6 +158,7 @@ T...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Bob-Hewitt-Wayup-Interview-21-11-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Councillor Mike Lee]]></title>
             <link>http://localhost:3000/podcast/councillor-mike-lee</link>
             <guid>http://localhost:3000/podcast/councillor-mike-lee</guid>
@@ -151,6 +168,7 @@ Photo credit: NZ Herald]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-mike-lee.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Crop Swap]]></title>
             <link>http://localhost:3000/podcast/crop-swap</link>
             <guid>http://localhost:3000/podcast/crop-swap</guid>
@@ -159,6 +177,7 @@ Photo credit: NZ Herald]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-hadas-ore-crop-swap.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Caulerpa Rahui]]></title>
             <link>http://localhost:3000/podcast/caulerpa-rahui</link>
             <guid>http://localhost:3000/podcast/caulerpa-rahui</guid>
@@ -167,6 +186,7 @@ Photo credit: NZ Herald]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-blair-anderson-caulerpa-rahui.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Darleen Tana Elected To Parliament]]></title>
             <link>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</link>
             <guid>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</guid>
@@ -175,6 +195,7 @@ Photo credit: NZ Herald]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-21-10-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Librarian Fiona Kralicek Resigning]]></title>
             <link>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</link>
             <guid>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</guid>
@@ -183,6 +204,7 @@ Photo credit: NZ Herald]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-fiona-kralicek-library-20-10-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Emily King: The Wayup Interview]]></title>
             <link>http://localhost:3000/podcast/emily-king-the-wayup-interview</link>
             <guid>http://localhost:3000/podcast/emily-king-the-wayup-interview</guid>
@@ -191,6 +213,7 @@ Photo credit: NZ Herald]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-Show-Emily-King-podcast-18-10-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Maia Piata Rose Week on the Maramataka]]></title>
             <link>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</link>
             <guid>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</guid>
@@ -199,6 +222,7 @@ Photo credit: NZ Herald]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[The Great Big Rescued Food Cook Off 2023]]></title>
             <link>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</link>
             <guid>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</guid>
@@ -208,6 +232,7 @@ Photo credit: Waiheke Gulf News]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate]]></title>
             <link>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</link>
             <guid>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</guid>
@@ -216,6 +241,7 @@ Photo credit: Waiheke Gulf News]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Sir Peter Leitch - The Wayup Interview]]></title>
             <link>http://localhost:3000/podcast/sir-peter-leitch-the-wayup-interview</link>
             <guid>http://localhost:3000/podcast/sir-peter-leitch-the-wayup-interview</guid>
@@ -225,6 +251,7 @@ Photo credit: Stuff]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-show-Mad-Butcher-interview%2021-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Darleen Tana (Green) Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</link>
             <guid>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</guid>
@@ -233,6 +260,7 @@ Photo credit: Stuff]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-23-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Hinurewa Te Hau (National) Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</link>
             <guid>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</guid>
@@ -241,6 +269,7 @@ Photo credit: Stuff]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-hinurewa-te-hau-23-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Frank Lepera · Stoat Operations Manager Te Korowai o Waiheke]]></title>
             <link>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</link>
             <guid>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</guid>
@@ -249,6 +278,7 @@ Photo credit: Stuff]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-te-korowai-o-waiheke-29-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Waiheke Radio Election Coverage]]></title>
             <link>http://localhost:3000/podcast/waiheke-radio-election-coverage</link>
             <guid>http://localhost:3000/podcast/waiheke-radio-election-coverage</guid>
@@ -257,6 +287,7 @@ Photo credit: Stuff]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-election-coverage-23-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Damian Sycamore (TOP) candidate interview]]></title>
             <link>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</link>
             <guid>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</guid>
@@ -265,6 +296,7 @@ Photo credit: Stuff]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-damian-sycamore-21-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Oscar Sims Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/oscar-sims-candidate-interview</link>
             <guid>http://localhost:3000/podcast/oscar-sims-candidate-interview</guid>
@@ -273,6 +305,7 @@ Photo credit: Stuff]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-oscar-sims-16-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Mahesh Muralidhar Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</link>
             <guid>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</guid>
@@ -281,6 +314,7 @@ Photo credit: Stuff]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-mahesh-muralidhar-16-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Peeni Henare Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/peeni-henare-candidate-interview</link>
             <guid>http://localhost:3000/podcast/peeni-henare-candidate-interview</guid>
@@ -289,6 +323,7 @@ Photo credit: Stuff]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-peeni-henare-16-09-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Chris Orange, Johnny Fleury  and  Steve Ingram Live at Waiheke Radio, May 2023]]></title>
             <link>http://localhost:3000/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</link>
             <guid>http://localhost:3000/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</guid>
@@ -298,6 +333,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/chris-orange-johnny-fleury-steve-ingram-waiheke-library-27-may-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Chloe Swarbrick Candidate Interview]]></title>
             <link>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</link>
             <guid>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</guid>
@@ -306,6 +342,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Electorate-2023/island-life-04-09-2023-chloe-swarbrick.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[The Planters Live On Air ]]></title>
             <link>http://localhost:3000/podcast/the-planters-live-on-air</link>
             <guid>http://localhost:3000/podcast/the-planters-live-on-air</guid>
@@ -314,6 +351,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/The%20Planters-Biodiversity-and-Jamming-out-Live-on-air-25-08-2023.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Darleen Tana Interview]]></title>
             <link>http://localhost:3000/podcast/darleen-tana-interview</link>
             <guid>http://localhost:3000/podcast/darleen-tana-interview</guid>
@@ -322,6 +360,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/Darleen-Tana-interview-Mana-Mixtape.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[The Anything Arty Show June 30th 2011]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-june-30th-2011</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-june-30th-2011</guid>
@@ -330,6 +369,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_4.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[The Inspector]]></title>
             <link>http://localhost:3000/podcast/the-inspector</link>
             <guid>http://localhost:3000/podcast/the-inspector</guid>
@@ -338,6 +378,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/inspector.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Sybill]]></title>
             <link>http://localhost:3000/podcast/sybill</link>
             <guid>http://localhost:3000/podcast/sybill</guid>
@@ -346,6 +387,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/sybill.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Sheila]]></title>
             <link>http://localhost:3000/podcast/sheila</link>
             <guid>http://localhost:3000/podcast/sheila</guid>
@@ -354,6 +396,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/sheila.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Gerald]]></title>
             <link>http://localhost:3000/podcast/gerald</link>
             <guid>http://localhost:3000/podcast/gerald</guid>
@@ -362,6 +405,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/gerald.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Eric]]></title>
             <link>http://localhost:3000/podcast/eric</link>
             <guid>http://localhost:3000/podcast/eric</guid>
@@ -370,6 +414,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/an-inspector-calls/eric.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Anything Arty - Interview with Artrist Goldsmith Part 1]]></title>
             <link>http://localhost:3000/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</link>
             <guid>http://localhost:3000/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</guid>
@@ -378,6 +423,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/e-artist-goldsmith-part-1.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Anything Arty - The Artists Goldsmith Interview]]></title>
             <link>http://localhost:3000/podcast/anything-arty-the-artists-goldsmith-interview</link>
             <guid>http://localhost:3000/podcast/anything-arty-the-artists-goldsmith-interview</guid>
@@ -386,6 +432,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/artist-goldsmith-part-2.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[THE ANYTHING ARTY SHOW FEB 9TH]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-feb-9th</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-feb-9th</guid>
@@ -394,6 +441,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_30.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[THE ANYTHING ARTY SHOW JAN 12 2012]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-jan-12-2012</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-jan-12-2012</guid>
@@ -402,6 +450,7 @@ Tracks performed: In the Dark; Origin; Toro; Cra...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_29.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[Anything Arty Show Jan 5 2012]]></title>
             <link>http://localhost:3000/podcast/anything-arty-show-jan-5-2012</link>
             <guid>http://localhost:3000/podcast/anything-arty-show-jan-5-2012</guid>
@@ -412,6 +461,7 @@ Reading from author Rebecca Solnit on her essays The Distance ...]]></descriptio
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_28.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[THE ANYTHING ARTY SHOW DEC 15 2011]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</guid>
@@ -420,6 +470,7 @@ Reading from author Rebecca Solnit on her essays The Distance ...]]></descriptio
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_27.mp3" length="123456" type="audio/mpeg"/>
         </item>
         <item>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
             <title><![CDATA[The Anything Arty Show John Hawkesby]]></title>
             <link>http://localhost:3000/podcast/the-anything-arty-show-john-hawkesby</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-john-hawkesby</guid>
