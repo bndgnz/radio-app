@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
-<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+<itunes:owner>
+<itunes:name>Waiheke Radio</itunes:name>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
+</itunes:owner>
+<itunes:explicit>false</itunes:explicit>
+<language>en</language>
+<itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>
+<itunes:category text="Arts" />
+<itunes:type>episodic</itunes:type>
+
+<atom:link href="https://www.waihekeradio.org.nz/spotify-rss.xml" type="application/rss+xml"  rel="self" />
         <title>ARTWORKS VOLUNTEERS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from ARTWORKS VOLUNTEERS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Fri, 02 Feb 2024 22:20:35 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 22:33:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,54 +25,49 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Artworks Volunteers Oral History Project Janet Cuthbert]]></title>
             <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-janet-cuthbert</link>
             <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-janet-cuthbert</guid>
             <pubDate>Fri, 30 Jun 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[The Artworks Volunteers Oral History Project. Julia conducted a number of interviews with volunteer...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Janet-Cuthbert.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Janet-Cuthbert.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Artworks Volunteers Oral History Project Gillian Bayne]]></title>
             <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-gillian-bayne</link>
             <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-gillian-bayne</guid>
             <pubDate>Fri, 30 Jun 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[The Artworks Volunteers Oral History Project. Julia conducted a number of interviews with volunteer...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Gillian-Baynes.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Gillian-Baynes.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Artworks Volunteers Oral History Project  Gabrielle Smith]]></title>
             <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-gabrielle-smith</link>
             <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-gabrielle-smith</guid>
             <pubDate>Fri, 30 Jun 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[The Artworks Volunteers Oral History Project. Julia conducted a number of interviews with volunteer...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Gabrielle-Smith.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Gabrielle-Smith.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Artworks Volunteers Oral History Project Emma Mui-Woodley]]></title>
             <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-emma-mui-woodley</link>
             <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-emma-mui-woodley</guid>
             <pubDate>Fri, 30 Jun 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[The Artworks Volunteers Oral History Project. Julia conducted a number of interviews with volunteer...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Emma-Mui-Woodley.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Emma-Mui-Woodley.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Artworks Volunteers Oral History Project Brent Simpson]]></title>
             <link>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-brent-simpson</link>
             <guid>http://localhost:3000/podcast/artworks-volunteers-oral-history-project-brent-simpson</guid>
             <pubDate>Fri, 30 Jun 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[The Artworks Volunteers Oral History Project. Julia conducted a number of interviews with volunteer...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Brent-Simpson.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/artwork-volunteers/Artworks-Volunteers-2018-Brent-Simpson.mp3" length="4123456" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>

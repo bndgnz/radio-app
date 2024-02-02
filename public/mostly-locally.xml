@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
-<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+<itunes:owner>
+<itunes:name>Waiheke Radio</itunes:name>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
+</itunes:owner>
+<itunes:explicit>false</itunes:explicit>
+<language>en</language>
+<itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>
+<itunes:category text="Arts" />
+<itunes:type>episodic</itunes:type>
+
+<atom:link href="https://www.waihekeradio.org.nz/spotify-rss.xml" type="application/rss+xml"  rel="self" />
         <title>MOSTLY LOCALLY Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from MOSTLY LOCALLY - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Fri, 02 Feb 2024 22:20:35 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 22:33:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,334 +25,301 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Pio Wulf]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-pio-wulf</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-pio-wulf</guid>
             <pubDate>Tue, 15 Jul 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Listen in to Pio Wulf and his very cute daughter Freda causing mayhem in the studio including tryin...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Pio-Wulf.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Pio-Wulf.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Belinda Robinson ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-belinda-robinson</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-belinda-robinson</guid>
             <pubDate>Tue, 01 Apr 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Hear some stories about the old Waiheke Island, and also hear a bit about what makes Belinda tick…]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Locally-Belinda.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Locally-Belinda.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Jamie Wilkie]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-jamie-wilkie</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-jamie-wilkie</guid>
             <pubDate>Tue, 05 Aug 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Mostly Locally this week has guest Jamie Wilkie, PHD student, brain expert, Waiheke resident, and a...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Jamie-Wilkie.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Jamie-Wilkie.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Harold Singh]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-harold-singh</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-harold-singh</guid>
             <pubDate>Tue, 02 Dec 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Today on Mostly Locally we have local business owner and caffeine distributor Harold Singh. Tune in...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Harold-Singh.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Harold-Singh.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Timmy Smith]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-timmy-smith</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-timmy-smith</guid>
             <pubDate>Tue, 04 Nov 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Today we have Timmy Smith on the show, tune in and listen to Timmy talk jewellery design, park rang...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Timmy-Smith_0.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Timmy-Smith_0.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Santa]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-santa</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-santa</guid>
             <pubDate>Tue, 16 Dec 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Today on the show we are very lucky to have Santa joining us. Have a listen to Santa talking travel...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Santa.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Santa.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Robyn Manuel]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-robyn-manuel</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-robyn-manuel</guid>
             <pubDate>Wed, 18 Jun 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Listen in to Mostly Locally with guest Dr Robyn Manuel, manager of Hike Bike Ako here on Waiheke. H...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Robyn-Manuel.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Robyn-Manuel.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Rae (Rae) Finlay]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-rae-rae-finlay</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-rae-rae-finlay</guid>
             <pubDate>Wed, 24 Sep 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Our guest this week on Mostly Locally is Rae (Rae) Finlay. Rae is a new(ish) full time local but ha...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/RaeRae-Finlay.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/RaeRae-Finlay.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Nicola Hambly]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-nicola-hambly</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-nicola-hambly</guid>
             <pubDate>Tue, 22 Jul 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Nicola Hambly joins us on the show today talking insurance, local charity, high school, David Ginol...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Nicola-Hambly.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Nicola-Hambly.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Tommy “Two Toes” Kendrick And Jake “The Bus” Thornton ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-tommy-two-toes-kendrick-and-jake-the-bus-thornton</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-tommy-two-toes-kendrick-and-jake-the-bus-thornton</guid>
             <pubDate>Wed, 16 Apr 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Listen to Tommy and Jake, long term locals talking about how they came to the island and what makes...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Tommy-and-Jake.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Tommy-and-Jake.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Ricky Grounds ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-ricky-grounds</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-ricky-grounds</guid>
             <pubDate>Tue, 06 May 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Listen to Ricky Grounds, local business owner, traveler and all round nice guy share a little about...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Ricky.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Ricky.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With David Basham]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-david-basham</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-david-basham</guid>
             <pubDate>Tue, 14 Oct 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[This morning on Mostly Locally we have local David Basham talking everything from mental health, pl...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Locally-with-David-Basham.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Locally-with-David-Basham.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With James Samuel]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-james-samuel</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-james-samuel</guid>
             <pubDate>Tue, 30 Sep 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Today we have James Samuel on the show talking food forests, facebook pages, favourite pets, OOOOBY...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Locally-James-Samuel-Broadcast.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Locally-James-Samuel-Broadcast.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Jess Wallace ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-jess-wallace</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-jess-wallace</guid>
             <pubDate>Wed, 13 May 2015 00:00:00 GMT</pubDate>
             <description><![CDATA[This week on the show we have Jess Wallace, expat Americano, civil engineer, philosopher, educator,...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Jess-Wallace.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Jess-Wallace.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Hilton Galinsky]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-hilton-galinsky</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-hilton-galinsky</guid>
             <pubDate>Tue, 13 May 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Diamond merchant, DJ, Waste Water expert, listen to Hilton Galinsky share a lot about himself and w...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Hilton.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Hilton.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Amelia Lawley ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-amelia-lawley</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-amelia-lawley</guid>
             <pubDate>Tue, 08 Apr 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Listen to Amelia Lawley discuss all things Waiheke with host Andy on Mostly Locally]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Amelia.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mostly-Amelia.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Mike Gray]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-mike-gray</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-mike-gray</guid>
             <pubDate>Tue, 20 May 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Listen in to hear Mike Gray on how he found his way to Waiheke after the Christchurch earthquake, h...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mike-Gray.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mike-Gray.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Mike Cox]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-mike-cox</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-mike-cox</guid>
             <pubDate>Sun, 24 Aug 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Mostly Locally has local Mike Cox as our guest this week. Tune in to hear Mike on Yurts, Sherbert, ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mike-Cox.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Mike-Cox.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Malcolm McMartin]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-malcolm-mcmartin</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-malcolm-mcmartin</guid>
             <pubDate>Thu, 10 Jul 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Listen in to local Malcolm McMartin talk born again atheism, the deepsouth of NZ and life in rural ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Malcolm-McMartin.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Malcolm-McMartin.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Elske-Sanne Hunt ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-elske-sanne-hunt</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-elske-sanne-hunt</guid>
             <pubDate>Wed, 30 Jul 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Mostly Locally – It’s all wine making, coffee roasting, bucket list motorcycling goodness on todays...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Elske-Sanne.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Elske-Sanne.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Denise Whitfield]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-denise-whitfield</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-denise-whitfield</guid>
             <pubDate>Tue, 16 Sep 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Have a listen to local Denise Whitfield talking Japanese, unroped crevasse traversing, walking on w...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Denise-Whitfield.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Denise-Whitfield.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With David Saul]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-david-saul</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-david-saul</guid>
             <pubDate>Tue, 24 Jun 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Have a listen to Dr David Saul on Mostly Locally, covering everything from life on Mars, extreme ba...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/David-Saul.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/David-Saul.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Cindy Peterken]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-cindy-peterken</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-cindy-peterken</guid>
             <pubDate>Wed, 23 Apr 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Listen to local drama director, sailor, adventurer and teacher Cindy Peterken share some stories of...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Cindy-P.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Cindy-P.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Chris Hoff-Nielsen ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-chris-hoff-nielsen</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-chris-hoff-nielsen</guid>
             <pubDate>Tue, 11 Nov 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Have a listen to Chris Hoff-Nielsen discuss extreme sailing, only packing a tooth brush, the future...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Chris-Hoff-Nielsen.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Chris-Hoff-Nielsen.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Chris Bailey]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-chris-bailey</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-chris-bailey</guid>
             <pubDate>Tue, 18 Nov 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[This week on Mostly Locally we have international award winning artist Chris Bailey on the show. Ha...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Chris-Bailey.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Chris-Bailey.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Bruce Beaumont]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-bruce-beaumont</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-bruce-beaumont</guid>
             <pubDate>Wed, 20 Aug 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[This week on Mostly Locally we have Bruce Beaumont on his move to Waiheke, Fireworks, Dirt Track Ra...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Bruce-Beaumont_0.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Bruce-Beaumont_0.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Brendan Moon ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-brendan-moon</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-brendan-moon</guid>
             <pubDate>Wed, 10 Sep 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Live from the causeway Brendan Moon is the guest this week offering conversation spanning his time ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Brendan-Moon_0.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Brendan-Moon_0.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Andre Gonzalez]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-andre-gonzalez</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-andre-gonzalez</guid>
             <pubDate>Tue, 25 Nov 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[A little bit of Brazil on Mostly Locally with Andre Gonzalez the owner of Preto the mens barbers in...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Andre-Gonzalez.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Andre-Gonzalez.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Adam Hunt]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-adam-hunt</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-adam-hunt</guid>
             <pubDate>Tue, 12 Aug 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Mostly Locally has Adam Hunt as guest today covering a diverse range of topics, from internet secur...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Adam-Hunt.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/Adam-Hunt.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Mike Friedberg]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-mike-friedberg</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-mike-friedberg</guid>
             <pubDate>Tue, 01 Apr 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Listen to Mostly Locally with host Andy talking with Mike Friedberg, voted the best dressed man on ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/140326-Mostly-Michael-F-Small_0.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/140326-Mostly-Michael-F-Small_0.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Mags Macleod]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-mags-macleod</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-mags-macleod</guid>
             <pubDate>Tue, 13 May 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Local heroine, long time resident and hospice champion Mags Macleod joins us on Mostly Locally.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/140305-Mostly-Mags_0.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/140305-Mostly-Mags_0.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally With Graeme Ransom ]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-with-graeme-ransom</link>
             <guid>http://localhost:3000/podcast/mostly-locally-with-graeme-ransom</guid>
             <pubDate>Tue, 13 May 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Guest Greame Ransom talks Blues, the state of Waiheke and BB King]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/140226-Mostly-Graeme-Ransom.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/140226-Mostly-Graeme-Ransom.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mostly Locally – Michelle Barber]]></title>
             <link>http://localhost:3000/podcast/mostly-locally-michelle-barber</link>
             <guid>http://localhost:3000/podcast/mostly-locally-michelle-barber</guid>
             <pubDate>Fri, 07 Mar 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[Mostly Locally from February 12th with guest Michelle Barber]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/140205-Mostly-Michelle-Barber.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mostly-locally/140205-Mostly-Michelle-Barber.mp3" length="4123456" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>
