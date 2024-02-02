@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
-<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+<itunes:owner>
+<itunes:name>Waiheke Radio</itunes:name>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
+</itunes:owner>
+<itunes:explicit>false</itunes:explicit>
+<language>en</language>
+<itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>
+<itunes:category text="Arts" />
+<itunes:type>episodic</itunes:type>
+
+<atom:link href="https://www.waihekeradio.org.nz/spotify-rss.xml" type="application/rss+xml"  rel="self" />
         <title>COUNTING THE BEAT Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from COUNTING THE BEAT - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Fri, 02 Feb 2024 22:20:34 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 22:33:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,8 +25,7 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Counting The Beat Hamish Kilgour Special]]></title>
             <link>http://localhost:3000/podcast/counting-the-beat-hamish-kilgour-special</link>
             <guid>http://localhost:3000/podcast/counting-the-beat-hamish-kilgour-special</guid>
@@ -26,7 +35,7 @@
 Playlist:
 
 ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/CTBDec2022HamishKilgour.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/CTBDec2022HamishKilgour.mp3" length="4123456" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>

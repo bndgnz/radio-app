@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
-<atom:link href="https://www.waihekeradio.org.nz/rss.xml" rel="self" type="application/rss+xml" />
+<itunes:owner>
+<itunes:name>Waiheke Radio</itunes:name>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
+</itunes:owner>
+<itunes:explicit>false</itunes:explicit>
+<language>en</language>
+<itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>
+<itunes:category text="Arts" />
+<itunes:type>episodic</itunes:type>
+
+<atom:link href="https://www.waihekeradio.org.nz/spotify-rss.xml" type="application/rss+xml"  rel="self" />
         <title>RADIO PLAYS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from RADIO PLAYS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Fri, 02 Feb 2024 22:20:34 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 22:33:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,104 +25,94 @@
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Who’s The Angel Now?]]></title>
             <link>http://localhost:3000/podcast/whos-the-angel-now</link>
             <guid>http://localhost:3000/podcast/whos-the-angel-now</guid>
             <pubDate>Tue, 07 Jul 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Ursula Hoult’s ingenious murder story, WHO’S THE ANGEL NOW?, won her a place in the semi finals of ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Whos-The-Angel-Now-Ursula-Hoult.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Whos-The-Angel-Now-Ursula-Hoult.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Tui Karma]]></title>
             <link>http://localhost:3000/podcast/tui-karma</link>
             <guid>http://localhost:3000/podcast/tui-karma</guid>
             <pubDate>Tue, 07 Jul 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Rita Ansin’s radio play, TUI KARMA, sprang from a science fiction climate change exercise that requ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Tui-Karma-Waiheke-Style-Rita-Ansin.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Tui-Karma-Waiheke-Style-Rita-Ansin.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Thames Frost Fair ]]></title>
             <link>http://localhost:3000/podcast/thames-frost-fair</link>
             <guid>http://localhost:3000/podcast/thames-frost-fair</guid>
             <pubDate>Tue, 07 Jul 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Ursula Hoult’s evocative historical short story, THAMES FROST FAIR, is set to the traditional song ...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Thames-Frost-Fair-Ursula-Hoult.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Thames-Frost-Fair-Ursula-Hoult.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Rock-A-Bye Baby]]></title>
             <link>http://localhost:3000/podcast/rock-a-bye-baby</link>
             <guid>http://localhost:3000/podcast/rock-a-bye-baby</guid>
             <pubDate>Sun, 07 Jun 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Maara White’s radio drama, ROCK-A-BYE BABY, began as an exercise to write a crescendo in sound, beg...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Rock-A-Bye-Baby-Maara-White.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Rock-A-Bye-Baby-Maara-White.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Talking Heads: Bed Among The Lentils]]></title>
             <link>http://localhost:3000/podcast/talking-heads-bed-among-the-lentils</link>
             <guid>http://localhost:3000/podcast/talking-heads-bed-among-the-lentils</guid>
             <pubDate>Sat, 09 May 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Waiheke Theatre Company, Artworks Theatre and Waiheke Radio present Talking Heads, a series of audi...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/RADIO-FINAL-Bed-among-the-Lentils.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/RADIO-FINAL-Bed-among-the-Lentils.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Talking Heads: A Lady Of Letters]]></title>
             <link>http://localhost:3000/podcast/talking-heads-a-lady-of-letters</link>
             <guid>http://localhost:3000/podcast/talking-heads-a-lady-of-letters</guid>
             <pubDate>Sat, 18 Apr 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Waiheke Theatre Company, Artworks Theatre and Waiheke Radio present Talking Heads, a series of audi...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/RADIO-FINAL-A-Lady-of-Letters.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/RADIO-FINAL-A-Lady-of-Letters.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Talking Heads: A Cream Cracker Under The Settee]]></title>
             <link>http://localhost:3000/podcast/talking-heads-a-cream-cracker-under-the-settee</link>
             <guid>http://localhost:3000/podcast/talking-heads-a-cream-cracker-under-the-settee</guid>
             <pubDate>Sat, 18 Apr 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Waiheke Theatre Company, Artworks Theatre and Waiheke Radio present Talking Heads, a series of audi...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/RADIO-FINAL-A-Cream-Cracker-under-the-Settee.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/RADIO-FINAL-A-Cream-Cracker-under-the-Settee.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Talking Heads: A Chip In The Sugar]]></title>
             <link>http://localhost:3000/podcast/talking-heads-a-chip-in-the-sugar</link>
             <guid>http://localhost:3000/podcast/talking-heads-a-chip-in-the-sugar</guid>
             <pubDate>Sat, 18 Apr 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Waiheke Theatre Company, Artworks Theatre and Waiheke Radio present Talking Heads, a series of audi...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/RADIO-FINAL-A-Chip-In-The-Sugar.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/RADIO-FINAL-A-Chip-In-The-Sugar.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Introduction To Wordsmith Radio Writing]]></title>
             <link>http://localhost:3000/podcast/introduction-to-wordsmith-radio-writing</link>
             <guid>http://localhost:3000/podcast/introduction-to-wordsmith-radio-writing</guid>
             <pubDate>Tue, 07 Jul 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Alan Knight introduces Wordsmith Radio Writing]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Intro-Wordsmith-Radio-Writing-Course.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Intro-Wordsmith-Radio-Writing-Course.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
-<author>admin@waihekeradio.org.nz (Waiheke Radio) </author>
-
+<itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Saturday Special – Dracula]]></title>
             <link>http://localhost:3000/podcast/saturday-special-dracula</link>
             <guid>http://localhost:3000/podcast/saturday-special-dracula</guid>
             <pubDate>Tue, 26 Oct 2010 00:00:00 GMT</pubDate>
             <description><![CDATA[This weeks Saturday Special will leave you shaking in your boots. At 9pm we proudly present Dracula...]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Dracula128.mp3" length="123456" type="audio/mpeg"/>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/radio-plays/Dracula128.mp3" length="4123456" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>
