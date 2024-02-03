@@ -112,7 +112,7 @@ export default async function generateRssFeed(props) {
       );
       const nameSpace = typeReplaced.replaceAll(
         '<rss version="2.0">',
-        '<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">'
+        '<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:psc="http://podlove.org/simple-chapters/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">'
       );
       const length = nameSpace.replaceAll('length="0"', 'length="4123456"');
       const author = length.replaceAll(
