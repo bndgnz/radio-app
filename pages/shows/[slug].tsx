@@ -54,10 +54,9 @@ export const getStaticProps: GetStaticProps<Props, { slug: string }> = async (
 ) => {
   const { slug } = ctx.params!;
 
-  const rssArr = ['allPosts', slug, 'C', 'D'];
- 
- 
-  await generateRssFeed(rssArr);
+  const rssArr = ['allPosts', slug, "", 'D'];
+  
+
   
   const showPage = await ContentService.instance.getShowPageBySlug(slug);
   if (!showPage) {

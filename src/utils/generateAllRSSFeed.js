@@ -7,10 +7,6 @@ import { createClient } from "contentful";
 export default async function generateRssFeed(props) {
 
 const site_url =  process.env.NEXT_PUBLIC_SITE_URL;
-
-
-
-
 const rssFeedTitle = props[0];
 const rssFileLink = site_url+"/"+props[1]+".xml";
 const rssFileName =  "./public/rss.xml";
