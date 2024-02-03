@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:psc="http://podlove.org/simple-chapters/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom"  xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:psc="http://podlove.org/simple-chapters/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
     <channel>
+<spotify:countryOfOrigin>NZ-AUK</spotify:countryOfOrigin>
 <itunes:owner>
 <itunes:name>Waiheke Radio</itunes:name>
 <itunes:email>admin@waihekeradio.org.nz</itunes:email>
@@ -10,12 +11,13 @@
 <itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>
 <itunes:category text="Arts" />
 <itunes:type>episodic</itunes:type>
-<itunes:author>Waiheke Radio</itunes:author>
+<itunes:author>Waiheke Radio</itunes:author><itunes:keywords>Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa</itunes:keywords>
+
 <atom:link href="http://localhost:3000/rss.xml" type="application/rss+xml"  rel="self" />
         <title>Waiheke Radio Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from Waiheke Radio - New Zealand</description>
-        <lastBuildDate>Sat, 03 Feb 2024 21:00:54 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Feb 2024 21:51:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -30,7 +32,8 @@
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</guid>
             <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Eddie Welsh from Starter Plants who shares some tips on what to plant at this...]]></description>
+            <description><![CDATA[Chris Walker talks to Eddie Welsh from Starter Plants who shares some tips on what to plant at this time of year and how to care for what you sow in this sweltering heat. Then he talks with Teresa Quinn from [Project Reach Out](https://reachoutwaiheke.org.nz/) who are growing produce to support mental health and social connection on Waiheke.
+![Teresa Stall](//images.ctfassets.net/muwn01agnrp5/3ySEmPV5f5BZDDtynelujO/37abb9fabf719ed5e010fb4149ee7fa5/Teresa.jpg)![Cabbages](//images.ctfassets.net/m...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-4-01-02-2024.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -39,7 +42,7 @@
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</guid>
             <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Penny Holmes is an enthusiastic home and community gardener with invovlement in the [Home Grown Wai...]]></description>
+            <description><![CDATA[Penny Holmes is an enthusiastic home and community gardener with invovlement in the [Home Grown Waiheke](https://www.homegrownwaiheke.nz/) Trust and Ostend Community Garden.![Ostend Community Garden](//images.ctfassets.net/muwn01agnrp5/6DNC0rAmqUf11LMu4HBjeE/e181a4b60f57589a774d8c7acaf41de8/20240118_115651.jpg)![Community Garden 1](//images.ctfassets.net/muwn01agnrp5/58YH6yngHK4qnUPUiEdmOt/97c2d2aba5948bc5a7e91dcdeafa7c77/20240118_115950.jpg)![Peaches](//images.ctfassets.net/muwn01agnrp5/4lz2hl...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-3-Penny-Holmes-25-01-2024.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -48,7 +51,8 @@
             <link>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</link>
             <guid>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</guid>
             <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[This episode's guest is Waiheke home garderner Holly Brown. She is growing incredible vegetable cro...]]></description>
+            <description><![CDATA[This episode's guest is Waiheke home garderner Holly Brown. She is growing incredible vegetable crops and flowers. Check out her Instagram account for beautiful photos of her garden and produce - [https://www.instagram.com/hollyamberbrown/](https://www.instagram.com/hollyamberbrown/)
+![HB1](//images.ctfassets.net/muwn01agnrp5/3giJPeyGmM888SAvcyYS4l/f8236218638d32991420589ef0805d85/HB1.jpg)![HB2](//images.ctfassets.net/muwn01agnrp5/69SIlAPxYecp0InPZUupp7/554acb8919ca0c5289e786d5680a9e07/HB2.jpg)]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/can-you-dig-it-episode-two-holly-brown-18-01-2024.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -57,7 +61,12 @@
             <link>http://localhost:3000/podcast/waitalks-2023-lucy-grace</link>
             <guid>http://localhost:3000/podcast/waitalks-2023-lucy-grace</guid>
             <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lucy Grace was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nat...]]></description>
+            <description><![CDATA[Lucy Grace was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nature2classroom’s research, programmes and well being days for the children and teachers of our Motu.
+The event was held at Morra Hall, Oneroa on 2nd Dec 2023. https://www.wai-talks.com/
+
+Lucy's talk is preceded by her sharing a poem.
+
+Lucy Grace is an internationally renowned Spiritual Teacher, Holistic Therapist and Poet. She has lived many lives – including as a television journalist for One News...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Lucy-Grace-Wai-Talks-Dec-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -66,7 +75,10 @@
             <link>http://localhost:3000/podcast/waitalks-2023-jade-gray</link>
             <guid>http://localhost:3000/podcast/waitalks-2023-jade-gray</guid>
             <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Jade Gray was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Natu...]]></description>
+            <description><![CDATA[Jade Gray was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nature2classroom’s research, programmes and well being days for the children and teachers of our Motu.
+The event was held at Morra Hall, Oneroa on 2nd Dec 2023. https://www.wai-talks.com/
+
+Jade Gray left New Zealand for China in 1996 with a smattering of Mandarin and a dream to make it in the worlds fastest growing economy. In a corporate career ranging from managing cattle breeding farms in the North...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Jade-Gray-Wai-Talks-Dec-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -75,7 +87,12 @@
             <link>http://localhost:3000/podcast/waitalks2023-mark-lapwood</link>
             <guid>http://localhost:3000/podcast/waitalks2023-mark-lapwood</guid>
             <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Mark Lapwood was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and N...]]></description>
+            <description><![CDATA[Mark Lapwood was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nature2classroom’s research, programmes and well being days for the children and teachers of our Motu.
+The event was held at Morra Hall, Oneroa on 2nd Dec 2023. https://www.wai-talks.com/
+
+Mark Lapwood, an acclaimed cinematographer with over 25 years of professional experience, has made his mark in the world of documentaries, television commercials, music videos, and feature films.  
+
+He earned pre...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Mark-Lapwood-Wai-Talks-Dec-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -84,7 +101,10 @@
             <link>http://localhost:3000/podcast/waitalks-2023-michelle-hooper</link>
             <guid>http://localhost:3000/podcast/waitalks-2023-michelle-hooper</guid>
             <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Michelle Hooper was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill an...]]></description>
+            <description><![CDATA[Michelle Hooper was a guest speaker at WaiTalks 2023. An fundraising event for Talking Tree Hill and Nature2classroom’s research, programmes and well being days for the children and teachers of our Motu.
+The event was held at Morra Hall, Oneroa on 2nd Dec 2023. https://www.wai-talks.com/
+
+Michelle has a career spanning 25 years in the major international sporting events industry. Which has included delivering events for World Rugby, FIFA, the International Triathlon Union (ITU), the America’s C...]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wai-talks/Michelle-Hooper-Wai-Talks-Dec-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -93,7 +113,7 @@
             <link>http://localhost:3000/podcast/the-boy-who-ate-bugs</link>
             <guid>http://localhost:3000/podcast/the-boy-who-ate-bugs</guid>
             <pubDate>Sun, 14 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Boy Who Ate Bugs was written and narrated by Waiheke writer Avi Duckor-Jones and was recorded a...]]></description>
+            <description><![CDATA[The Boy Who Ate Bugs was written and narrated by Waiheke writer Avi Duckor-Jones and was recorded and produced by Brent Simpson. ]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/theatre/The%20Boy%20Who%20Ate%20Bugs%20-%20final.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -102,7 +122,7 @@
             <link>http://localhost:3000/podcast/episode-1-11-jan-2024</link>
             <guid>http://localhost:3000/podcast/episode-1-11-jan-2024</guid>
             <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks with Eddie Welsh, who sells vege seedlings each Saturday at Ostand market, about...]]></description>
+            <description><![CDATA[Chris Walker talks with Eddie Welsh, who sells vege seedlings each Saturday at Ostand market, about what to plant in your home garden. ]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-11-01-2024-Eddie-Starter-Plants.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -111,7 +131,7 @@
             <link>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</link>
             <guid>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</guid>
             <pubDate>Thu, 04 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Interview with Susi Newborn from 22nd of September 2023 where she talks about being a protector, fa...]]></description>
+            <description><![CDATA[Interview with Susi Newborn from 22nd of September 2023 where she talks about being a protector, family, the history behind the rainbow warrior. It was such a honour to have Susi in Studio for this interview, she will be fondly remembered and missed by everyone whose life she touched.]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/koro-susi-newborn-interview-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -120,7 +140,9 @@
             <link>http://localhost:3000/podcast/susi-newborn-housing</link>
             <guid>http://localhost:3000/podcast/susi-newborn-housing</guid>
             <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fight...]]></description>
+            <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fighting to make the world a better place, with an unwavering commitment to addressing social justice and environmental issues locally and internationally. She sadly passed away on 31 Jan, 2023. 
+Here she speaks with Greg Treadwell in 2017 about island housing
+Photo credit: Diana Worth/STUFF]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -129,7 +151,9 @@
             <link>http://localhost:3000/podcast/susi-newborn-the-environment</link>
             <guid>http://localhost:3000/podcast/susi-newborn-the-environment</guid>
             <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fight...]]></description>
+            <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fighting to make the world a better place, with an unwavering commitment to addressing social justice and environmental issues locally and internationally. She sadly passed away on 31 Jan, 2023. 
+Here she speaks at a 2015 Waitalks event about one of her great passions - the environment. 
+Photo credit: ABIGAIL DOUGHERTY/STUFF]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -147,7 +171,7 @@
             <link>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</link>
             <guid>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</guid>
             <pubDate>Sat, 02 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Owain Tanner from Te Korowai o Waiheke to get an update on the Oneroa rat e...]]></description>
+            <description><![CDATA[Greg Treadwell talks to Owain Tanner from Te Korowai o Waiheke to get an update on the Oneroa rat eradication trial]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-01-12-2023-rat-trial-owain-tanner.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -156,7 +180,7 @@
             <link>http://localhost:3000/podcast/the-wayup-interview-bob-hewitt</link>
             <guid>http://localhost:3000/podcast/the-wayup-interview-bob-hewitt</guid>
             <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wayan and Jahn talk to New Yorker Bob Hewitt who has recently moved to Waiheke. They talk about the...]]></description>
+            <description><![CDATA[Wayan and Jahn talk to New Yorker Bob Hewitt who has recently moved to Waiheke. They talk about the two books he's written about AI, his love of board games and the after school programme he set up in Brooklyn. They also talk about his plans for life on Waiheke Island.]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Bob-Hewitt-Wayup-Interview-21-11-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -165,7 +189,8 @@
             <link>http://localhost:3000/podcast/councillor-mike-lee</link>
             <guid>http://localhost:3000/podcast/councillor-mike-lee</guid>
             <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to councillor Mike Lee about the year since his re-election to Auckland Council ...]]></description>
+            <description><![CDATA[Chris Walker talks to councillor Mike Lee about the year since his re-election to Auckland Council and his decision to vote against the introduction of Māori wards.
+Photo credit: NZ Herald]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-mike-lee.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -174,7 +199,7 @@
             <link>http://localhost:3000/podcast/crop-swap</link>
             <guid>http://localhost:3000/podcast/crop-swap</guid>
             <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Hadas Ore about Waiheke Crop Swap. Home gardeners come together to swap their...]]></description>
+            <description><![CDATA[Chris Walker talks to Hadas Ore about Waiheke Crop Swap. Home gardeners come together to swap their excess produce and share gardening tips. ]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-hadas-ore-crop-swap.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -183,7 +208,7 @@
             <link>http://localhost:3000/podcast/caulerpa-rahui</link>
             <guid>http://localhost:3000/podcast/caulerpa-rahui</guid>
             <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Blair Anderson, Pou Rahui Project Manager for Ngāti Pāoa, about the rahui pla...]]></description>
+            <description><![CDATA[Chris Walker talks to Blair Anderson, Pou Rahui Project Manager for Ngāti Pāoa, about the rahui placed by the iwi to prevent the spread of the invasive Caulerpa seaweed.]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-blair-anderson-caulerpa-rahui.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -201,7 +226,7 @@
             <link>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</link>
             <guid>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</guid>
             <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Fiona Kralicek who has been the head librarian at Waiheke Community Library f...]]></description>
+            <description><![CDATA[Chris Walker talks to Fiona Kralicek who has been the head librarian at Waiheke Community Library for 28 years.]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-fiona-kralicek-library-20-10-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -210,7 +235,9 @@
             <link>http://localhost:3000/podcast/emily-king-the-wayup-interview</link>
             <guid>http://localhost:3000/podcast/emily-king-the-wayup-interview</guid>
             <pubDate>Wed, 18 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wayan and Jahn from the Wayup show interview Emily King a local Surfdale resident about her latest ...]]></description>
+            <description><![CDATA[Wayan and Jahn from the Wayup show interview Emily King a local Surfdale resident about her latest book "Re-food" about New Zealands troubled food networks. The interview covers some of the challenges we face as a nation and how we can tackle them.
+Read more about Emily https://www.spira.nz/about
+]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-Show-Emily-King-podcast-18-10-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -219,7 +246,7 @@
             <link>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</link>
             <guid>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</guid>
             <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Koro talks to Maia Piata Rose Week about the Maramataka. Follow Maia on Instagram https://www.insta...]]></description>
+            <description><![CDATA[Koro talks to Maia Piata Rose Week about the Maramataka. Follow Maia on Instagram https://www.instagram.com/maia_moomies/]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -228,7 +255,8 @@
             <link>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</link>
             <guid>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</guid>
             <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Koro talks to to Laura lynch and kayleigh Appleton from the Waiheke Resources Trust about The Great...]]></description>
+            <description><![CDATA[Koro talks to to Laura lynch and kayleigh Appleton from the Waiheke Resources Trust about The Great Big Rescued Food Cokk Off being held on 18 Oct 2023
+Photo credit: Waiheke Gulf News]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -237,7 +265,7 @@
             <link>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</link>
             <guid>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</guid>
             <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate. Held at Artworks Theatre on ...]]></description>
+            <description><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate. Held at Artworks Theatre on Thurs 28 September, 2023. The candidates were Mahesh Muralidhar (National), Oscar Sims (Labour) and Chloe Swarbrick (Green). Facilitated by Chris Walker.]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -247,7 +275,7 @@
             <guid>http://localhost:3000/podcast/sir-peter-leitch-the-wayup-interview</guid>
             <pubDate>Thu, 21 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Wayan and Jahn from Waiheke Radio's Wayup Show talk to the Mad Butcher, Sir Peter Leitch. 
-Photo cr...]]></description>
+Photo credit: Stuff]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/wayup-show/Wayup-show-Mad-Butcher-interview%2021-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -265,7 +293,7 @@ Photo cr...]]></description>
             <link>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</link>
             <guid>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</guid>
             <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Hinurewa Te Hau, National Party candidate for the Tamaki Makaurau Māori elect...]]></description>
+            <description><![CDATA[Chris Walker talks to Hinurewa Te Hau, National Party candidate for the Tamaki Makaurau Māori electorate]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-hinurewa-te-hau-23-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -274,7 +302,7 @@ Photo cr...]]></description>
             <link>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</link>
             <guid>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</guid>
             <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Frank Lepera · Stoat Operations Manager at Te Korowai o Waiheke and gets an...]]></description>
+            <description><![CDATA[Greg Treadwell talks to Frank Lepera · Stoat Operations Manager at Te Korowai o Waiheke and gets an update on the progress in the project to eradicate stoats from the island.]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-te-korowai-o-waiheke-29-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -292,7 +320,7 @@ Photo cr...]]></description>
             <link>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</link>
             <guid>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</guid>
             <pubDate>Thu, 21 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Damian Sycamore is a Waiheke Islander. He is standing for The Opportunities Party (TOP) in the Auck...]]></description>
+            <description><![CDATA[Damian Sycamore is a Waiheke Islander. He is standing for The Opportunities Party (TOP) in the Auckland Central electorate. He spoke to Chris Walker about how TOP policies would address local Waiheke issues.]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-damian-sycamore-21-09-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -328,7 +356,9 @@ Photo cr...]]></description>
             <link>http://localhost:3000/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</link>
             <guid>http://localhost:3000/podcast/chris-orange-johnny-fleury-and-steve-ingram-live-at-waiheke-radio-may-2023</guid>
             <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Orange (bass), Johnny Fleury (chapman stick) and Steve Ingram (drums) perform live at Waiheke...]]></description>
+            <description><![CDATA[Chris Orange (bass), Johnny Fleury (chapman stick) and Steve Ingram (drums) perform live at Waiheke Library on Sat 27 May 2023 to mark NZ Music Month.
+Tracks performed: In the Dark; Origin; Toro; Crazy; Big Tide This Time; Politics Of Certainty
+]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/live-at-the-library/chris-orange-johnny-fleury-steve-ingram-waiheke-library-27-may-2023.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -337,7 +367,7 @@ Photo cr...]]></description>
             <link>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</link>
             <guid>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</guid>
             <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Chloe Swarbrick of the Green Party who is standing for re-election as the Auc...]]></description>
+            <description><![CDATA[Chris Walker talks to Chloe Swarbrick of the Green Party who is standing for re-election as the Auckland Central electorate MP.]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Electorate-2023/island-life-04-09-2023-chloe-swarbrick.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -364,7 +394,7 @@ Photo cr...]]></description>
             <link>http://localhost:3000/podcast/the-anything-arty-show-june-30th-2011</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-june-30th-2011</guid>
             <pubDate>Thu, 30 Jun 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[This week we had; a story from Waiheke Adult Literacy 2010 Programme Words, a conversation with Sus...]]></description>
+            <description><![CDATA[This week we had; a story from Waiheke Adult Literacy 2010 Programme Words, a conversation with Susi Newborn on her role in the Women in Film and TV NZ Organization, the release of the Chinese artist Ai WeiWei, an episode from the stories of Barry Pilton, the ever popular cinema competition, and ep 5 of our Great Gatsby serialisation]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_4.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -418,7 +448,7 @@ Photo cr...]]></description>
             <link>http://localhost:3000/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</link>
             <guid>http://localhost:3000/podcast/anything-arty-interview-with-artrist-goldsmith-part-1</guid>
             <pubDate>Thu, 22 Sep 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[An opportunity to listen to a conversation with Christine Hafermalz Wheeler, her husband David and ...]]></description>
+            <description><![CDATA[An opportunity to listen to a conversation with Christine Hafermalz Wheeler, her husband David and Bernie Lee owner of Waiheke based builders Island 2000  talking about the building of David  and  Christine’s home, Citrine]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/interviews/e-artist-goldsmith-part-1.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -427,7 +457,7 @@ Photo cr...]]></description>
             <link>http://localhost:3000/podcast/anything-arty-the-artists-goldsmith-interview</link>
             <guid>http://localhost:3000/podcast/anything-arty-the-artists-goldsmith-interview</guid>
             <pubDate>Thu, 29 Sep 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[Part 2 of an interview with Christine Hafermalz Wheeler, the Artist Goldsmith, sponsor of Waiheke R...]]></description>
+            <description><![CDATA[Part 2 of an interview with Christine Hafermalz Wheeler, the Artist Goldsmith, sponsor of Waiheke Radio's The Anything Arty Show]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/artist-goldsmith-part-2.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -436,7 +466,7 @@ Photo cr...]]></description>
             <link>http://localhost:3000/podcast/the-anything-arty-show-feb-9th</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-feb-9th</guid>
             <pubDate>Thu, 09 Feb 2012 00:00:00 GMT</pubDate>
-            <description><![CDATA[This weeks arty show introduces new host Eve Bon and we looked at guns as a means of peace, the art...]]></description>
+            <description><![CDATA[This weeks arty show introduces new host Eve Bon and we looked at guns as a means of peace, the art of pasta, what’s on round the galleries and the Kermit challenge!]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_30.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -445,7 +475,7 @@ Photo cr...]]></description>
             <link>http://localhost:3000/podcast/the-anything-arty-show-jan-12-2012</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-jan-12-2012</guid>
             <pubDate>Thu, 12 Jan 2012 00:00:00 GMT</pubDate>
-            <description><![CDATA[This week a conversation with Chilean artist Margarita Degorret, a chance to hear from BMW design c...]]></description>
+            <description><![CDATA[This week a conversation with Chilean artist Margarita Degorret, a chance to hear from BMW design chief Chris Bangle on cars as art and a run through of the latest movies to play at Waiheke Community Cinema]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_29.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -455,7 +485,8 @@ Photo cr...]]></description>
             <guid>http://localhost:3000/podcast/anything-arty-show-jan-5-2012</guid>
             <pubDate>Thu, 05 Jan 2012 00:00:00 GMT</pubDate>
             <description><![CDATA[This week: Comment on Fiona Pardington’s New Zealand Arts Foundation Laureate Award,
-Incubator inte...]]></description>
+Incubator interview with island artist Brett Oakes,
+Reading from author Rebecca Solnit on her essays The Distance Of Blue from A Field Guide To Getting Lost]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_28.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
@@ -464,7 +495,7 @@ Incubator inte...]]></description>
             <link>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</link>
             <guid>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</guid>
             <pubDate>Thu, 15 Dec 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[This week we heard from Isabel Allende sharing her view of passion and Kara Gordon playing his 3500...]]></description>
+            <description><![CDATA[This week we heard from Isabel Allende sharing her view of passion and Kara Gordon playing his 35000 year old lancaster guitar]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_27.mp3" length="4123456" type="audio/mpeg"/>
         </item>
         <item>
