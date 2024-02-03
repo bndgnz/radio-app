@@ -5,6 +5,7 @@ import { createClient } from "contentful";
 import { useQuery, gql } from "@apollo/client";
 
 export default async function generateRssFeed(props) {
+
   const site_url = process.env.NEXT_PUBLIC_SITE_URL;
   const rssFeedTitle = props[0];
   const rssFileLink = site_url + "/" + props[1] + ".xml";
@@ -19,7 +20,7 @@ export default async function generateRssFeed(props) {
 
   const show = await client
     .getEntries({
-      content_type: "shows",
+      content_type: "shows", 
       "fields.slug": props[1],
       locale: "en-US",
       limit: 1,
@@ -28,27 +29,22 @@ export default async function generateRssFeed(props) {
       entries.items.forEach(function (entry) {
         if (entry.fields.rss == true) {
           doBuild = true;
-
-          if (
-            entry.fields.rssFeedThumbnail != null ||
-            entry.fields.rssFeedThumbnail != undefined
-          ) {
-            rssImage = entry.fields.rssFeedThumbnail[0].secure_url;
-          } else {
-            rssImage = site_url + "/logo.png";
-          }
+         
+          if (entry.fields.rssFeedThumbnail !=null ||entry.fields.rssFeedThumbnail != undefined)  
+          {rssImage = entry.fields.rssFeedThumbnail[0].secure_url;}
+          else {rssImage = site_url+'/logo.png'}
+              
+        
         }
       });
     });
 
   if (doBuild == true) {
+
+
     let rssShowTitle;
 
     rssShowTitle = props[1].replaceAll("-", " ").toUpperCase();
- 
-    
-
-
     const truncate = (input) =>
       input?.length > 100 ? `${input.substring(0, 99)}...` : input;
 
