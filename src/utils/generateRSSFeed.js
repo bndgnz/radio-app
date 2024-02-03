@@ -6,7 +6,6 @@ import { useQuery, gql } from "@apollo/client";
 
 export default async function generateRssFeed(props) {
   const site_url = process.env.NEXT_PUBLIC_SITE_URL;
-  const rssFeedTitle = props[0];
   const rssFileLink = site_url + "/" + props[1] + ".xml";
   const rssFileName = "./public/" + props[1] + ".xml";
   var doBuild;
@@ -43,14 +42,10 @@ export default async function generateRssFeed(props) {
 
   if (doBuild == true) {
     let rssShowTitle;
-
     rssShowTitle = props[1].replaceAll("-", " ").toUpperCase();
  
-    
-
-
     const truncate = (input) =>
-      input?.length > 100 ? `${input.substring(0, 99)}...` : input;
+      input?.length > 500 ? `${input.substring(0, 499)}...` : input;
 
     const feedOptions = {
       title: rssShowTitle + " Podcasts | RSS Feed",
@@ -112,12 +107,12 @@ export default async function generateRssFeed(props) {
       );
       const nameSpace = typeReplaced.replaceAll(
         '<rss version="2.0">',
-        '<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:psc="http://podlove.org/simple-chapters/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">'
+        '<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:spotify="http://www.spotify.com/ns/rss"  xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:psc="http://podlove.org/simple-chapters/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">'
       );
       const length = nameSpace.replaceAll('length="0"', 'length="4123456"');
       const author = length.replaceAll(
         "<channel>",
-        '<channel>\n<itunes:owner>\n<itunes:name>Waiheke Radio</itunes:name>\n<itunes:email>admin@waihekeradio.org.nz</itunes:email>\n</itunes:owner>\n<itunes:explicit>false</itunes:explicit>\n<language>en</language>\n<itunes:image href="'+rssImage+'"/>\n<itunes:category text="Arts" />\n<itunes:type>episodic</itunes:type>\n'
+        '<channel>\n<spotify:countryOfOrigin>NZ-AUK</spotify:countryOfOrigin>\n<itunes:owner>\n<itunes:name>Waiheke Radio</itunes:name>\n<itunes:email>admin@waihekeradio.org.nz</itunes:email>\n</itunes:owner>\n<itunes:explicit>false</itunes:explicit>\n<language>en</language>\n<itunes:image href="'+rssImage+'"/>\n<itunes:category text="Arts" />\n<itunes:type>episodic</itunes:type>\n<itunes:keywords>'+rssShowTitle+' Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>\n'
       );
       const itemauthor = author.replaceAll(
         "<item>",
