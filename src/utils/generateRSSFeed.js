@@ -117,7 +117,7 @@ export default async function generateRssFeed(props) {
       const length = nameSpace.replaceAll('length="0"', 'length="4123456"');
       const author = length.replaceAll(
         "<channel>",
-        '<channel>\n<itunes:owner>\n<itunes:name>Waiheke Radio</itunes:name>\n<itunes:email>admin@waihekeradio.org.nz</itunes:email>\n</itunes:owner>\n<itunes:explicit>false</itunes:explicit>\n<language>en</language>\n<itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>\n<itunes:category text="Arts" />\n<itunes:type>episodic</itunes:type>\n'
+        '<channel>\n<itunes:owner>\n<itunes:name>Waiheke Radio</itunes:name>\n<itunes:email>admin@waihekeradio.org.nz</itunes:email>\n</itunes:owner>\n<itunes:explicit>false</itunes:explicit>\n<language>en</language>\n<itunes:image href="'+rssImage+'"/>\n<itunes:category text="Arts" />\n<itunes:type>episodic</itunes:type>\n'
       );
       const itemauthor = author.replaceAll(
         "<item>",

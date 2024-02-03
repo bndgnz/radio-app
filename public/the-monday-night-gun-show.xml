@@ -7,7 +7,7 @@
 </itunes:owner>
 <itunes:explicit>false</itunes:explicit>
 <language>en</language>
-<itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>
+<itunes:image href="https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1706942691/RSS%20Feeds/gun-show-rss-thumb_agi2yv.png"/>
 <itunes:category text="Arts" />
 <itunes:type>episodic</itunes:type>
 
@@ -15,7 +15,7 @@
         <title>THE MONDAY NIGHT GUN SHOW Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from THE MONDAY NIGHT GUN SHOW - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Sat, 03 Feb 2024 20:22:53 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Feb 2024 20:51:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
