@@ -11,11 +11,11 @@
 <itunes:category text="Arts" />
 <itunes:type>episodic</itunes:type>
 
-<atom:link href="https://www.waihekeradio.org.nz/mana-mixtape.xml" type="application/rss+xml"  rel="self" />
+<atom:link href="http://localhost:3000/mana-mixtape.xml" type="application/rss+xml"  rel="self" />
         <title>MANA MIXTAPE Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from MANA MIXTAPE - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Sat, 03 Feb 2024 00:51:21 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Feb 2024 01:01:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
