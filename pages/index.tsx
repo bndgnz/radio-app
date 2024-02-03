@@ -23,7 +23,7 @@ export const getStaticProps: GetStaticProps<Props> = async ({preview = false }) 
  
  
   await generateAllRssFeed(rssArr);
-  await generateAllSpotifyFeed(rssArr);
+ 
 
   const articles = (
     await ContentService.instance.getEntriesByType<ILandingPageFields>(
