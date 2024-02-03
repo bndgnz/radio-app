@@ -11,13 +11,14 @@
 <itunes:image href="https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1706942418/RSS%20Feeds/can-you-dig-it-rss-thumb_lgr18s.png"/>
 <itunes:category text="Arts" />
 <itunes:type>episodic</itunes:type>
-<itunes:keywords>CAN YOU DIG IT Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa</itunes:keywords>
+<itunes:keywords>CAN YOU DIG IT Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
+<itunes:author>Waiheke Radio</itunes:author>
 
 <atom:link href="http://localhost:3000/can-you-dig-it.xml" type="application/rss+xml"  rel="self" />
         <title>CAN YOU DIG IT Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from CAN YOU DIG IT - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Sat, 03 Feb 2024 21:51:35 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Feb 2024 22:28:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
