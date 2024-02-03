@@ -82,7 +82,7 @@ posts.items.forEach((post) => {
   }
 
 
-   const replacestring = '<channel>\n\<atom:link href="https://www.waihekeradio.org.nz/'+props[1]+'.xml" type="application/rss+xml"  rel="self" />'
+   const replacestring = '<channel>\n\<atom:link href="'+site_url+'/'+props[1]+'.xml" type="application/rss+xml"  rel="self" />'
 
   const replaced = contents.replace('<channel>', replacestring );
   const typeReplaced = replaced.replaceAll('type="image/mp3"', 'type="audio/mpeg"');
