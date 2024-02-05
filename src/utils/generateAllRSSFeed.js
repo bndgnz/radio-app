@@ -20,7 +20,7 @@ export default async function generateRssFeed(props) {
     description: "All Podcasts from " + rssShowTitle + " - New Zealand",
     id: site_url,
     link: site_url,
-    image: `${site_url}/logo.png`,
+    image: `${site_url}/Waiheke-Radio-logo-transparent.png`,
     favicon: `${site_url}/favicon.png`,
     copyright: `All rights reserved ${new Date().getFullYear()}, Waiheke Radio`,
     generator: "Feed for Node.js",

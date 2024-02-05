@@ -8,7 +8,7 @@
 </itunes:owner>
 <itunes:explicit>false</itunes:explicit>
 <language>en</language>
-<itunes:image href="https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1706942691/RSS%20Feeds/gun-show-rss-thumb_agi2yv.png"/>
+<itunes:image href="https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707163689/RSS%20Feeds/gun-show-rss_htyi0y.png"/>
 <itunes:category text="Arts" />
 <itunes:type>episodic</itunes:type>
 <itunes:keywords>THE MONDAY NIGHT GUN SHOW Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
@@ -18,12 +18,12 @@
         <title>THE MONDAY NIGHT GUN SHOW Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from THE MONDAY NIGHT GUN SHOW - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Sat, 03 Feb 2024 22:28:22 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Feb 2024 20:20:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>THE MONDAY NIGHT GUN SHOW Podcasts | RSS Feed</title>
-            <url>https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1706942691/RSS%20Feeds/gun-show-rss-thumb_agi2yv.png</url>
+            <url>https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707163689/RSS%20Feeds/gun-show-rss_htyi0y.png</url>
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
