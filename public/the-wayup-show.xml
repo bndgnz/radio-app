@@ -8,7 +8,7 @@
 </itunes:owner>
 <itunes:explicit>false</itunes:explicit>
 <language>en</language>
-<itunes:image href="https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1706942827/RSS%20Feeds/wayup-show-rss-thumb_q4fjcs.png"/>
+<itunes:image href="https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707164203/RSS%20Feeds/wayup-show-rss_ez7xdz.png"/>
 <itunes:category text="Arts" />
 <itunes:type>episodic</itunes:type>
 <itunes:keywords>THE WAYUP SHOW Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
@@ -18,12 +18,12 @@
         <title>THE WAYUP SHOW Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from THE WAYUP SHOW - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Sat, 03 Feb 2024 22:28:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Feb 2024 20:20:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>THE WAYUP SHOW Podcasts | RSS Feed</title>
-            <url>https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1706942827/RSS%20Feeds/wayup-show-rss-thumb_q4fjcs.png</url>
+            <url>https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707164203/RSS%20Feeds/wayup-show-rss_ez7xdz.png</url>
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>

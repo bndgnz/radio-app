@@ -8,7 +8,7 @@
 </itunes:owner>
 <itunes:explicit>false</itunes:explicit>
 <language>en</language>
-<itunes:image href="https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1706942418/RSS%20Feeds/can-you-dig-it-rss-thumb_lgr18s.png"/>
+<itunes:image href="https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707163827/RSS%20Feeds/Tomatoes_fnslc1_-_Square_Post_ssiv1v.png"/>
 <itunes:category text="Arts" />
 <itunes:type>episodic</itunes:type>
 <itunes:keywords>CAN YOU DIG IT Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
@@ -18,12 +18,12 @@
         <title>CAN YOU DIG IT Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from CAN YOU DIG IT - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Sat, 03 Feb 2024 22:28:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Feb 2024 20:20:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>CAN YOU DIG IT Podcasts | RSS Feed</title>
-            <url>https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1706942418/RSS%20Feeds/can-you-dig-it-rss-thumb_lgr18s.png</url>
+            <url>https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707163827/RSS%20Feeds/Tomatoes_fnslc1_-_Square_Post_ssiv1v.png</url>
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>

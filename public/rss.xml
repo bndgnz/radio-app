@@ -17,12 +17,12 @@
         <title>Waiheke Radio Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from Waiheke Radio - New Zealand</description>
-        <lastBuildDate>Sat, 03 Feb 2024 22:28:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Feb 2024 20:20:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>Waiheke Radio Podcasts | RSS Feed</title>
-            <url>http://localhost:3000/logo.png</url>
+            <url>http://localhost:3000/Waiheke-Radio-logo-transparent.png</url>
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
