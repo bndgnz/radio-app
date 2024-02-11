@@ -20,7 +20,7 @@ export default async function generateRssFeed(props) {
     description: "All Podcasts from " + rssShowTitle + " - New Zealand",
     id: site_url,
     link: site_url,
-    image: `${site_url}/Waiheke-Radio-logo-transparent.png`,
+    image: `${site_url}/WR-logo-3000-3000.png`,
     favicon: `${site_url}/favicon.png`,
     copyright: `All rights reserved ${new Date().getFullYear()}, Waiheke Radio`,
     generator: "Feed for Node.js",
@@ -85,7 +85,7 @@ export default async function generateRssFeed(props) {
     const length = nameSpace.replaceAll('length="0"', 'length="4123456"');
     const author = length.replaceAll(
       "<channel>",
-      '<channel>\n<spotify:countryOfOrigin>NZ-AUK</spotify:countryOfOrigin>\n<itunes:owner>\n<itunes:name>Waiheke Radio</itunes:name>\n<itunes:email>admin@waihekeradio.org.nz</itunes:email>\n</itunes:owner>\n<itunes:explicit>false</itunes:explicit>\n<language>en</language>\n<itunes:image href="https://www.waihekeradio.org.nz/logo.png"/>\n<itunes:category text="Arts" />\n<itunes:type>episodic</itunes:type>\n<itunes:keywords>Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>\n<itunes:author>Waiheke Radio</itunes:author>'
+      '<channel>\n<spotify:countryOfOrigin>NZ-AUK</spotify:countryOfOrigin>\n<itunes:owner>\n<itunes:name>Waiheke Radio</itunes:name>\n<itunes:email>admin@waihekeradio.org.nz</itunes:email>\n</itunes:owner>\n<itunes:explicit>false</itunes:explicit>\n<language>en</language>\n<itunes:image href="https://www.waihekeradio.org.nz/WR-logo-3000-3000.png"/>\n<itunes:category text="Arts" />\n<itunes:type>episodic</itunes:type>\n<itunes:keywords>Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>\n<itunes:author>Waiheke Radio</itunes:author>'
     );
     const itemauthor = author.replaceAll(
       "<item>",

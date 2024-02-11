@@ -18,7 +18,7 @@
         <title>MANA MIXTAPE Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
         <description>All Podcasts from MANA MIXTAPE - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Mon, 05 Feb 2024 20:20:58 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Feb 2024 20:22:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
