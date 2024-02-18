@@ -11,14 +11,14 @@
 <itunes:image href="https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707164101/RSS%20Feeds/waitalks-rss_feghno.png"/>
 <itunes:category text="Arts" />
 <itunes:type>episodic</itunes:type>
-<itunes:keywords>WAITALKS Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
+<itunes:keywords>WAITALKS Podcasts | RSS Feed Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
 <itunes:author>Waiheke Radio</itunes:author>
 
 <atom:link href="http://localhost:3000/waitalks.xml" type="application/rss+xml"  rel="self" />
         <title>WAITALKS Podcasts | RSS Feed</title>
         <link>http://localhost:3000</link>
-        <description>All Podcasts from WAITALKS - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 07 Feb 2024 20:22:30 GMT</lastBuildDate>
+        <description>Podcasts from WAITALKS</description>
+        <lastBuildDate>Sun, 18 Feb 2024 02:04:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
