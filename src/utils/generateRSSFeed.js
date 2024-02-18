@@ -10,6 +10,8 @@ export default async function generateRssFeed(props) {
   const rssFileName = "./public/" + props[1] + ".xml";
   var doBuild;
   var rssImage;
+  var rssDescription;
+  var rssShowTitle;
 
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
@@ -36,21 +38,35 @@ export default async function generateRssFeed(props) {
           } else {
             rssImage = site_url + "/logo.png";
           }
+            
+          if (entry.fields.podcastTitle != null ||entry.fields.podcastTitle != null) {
+            rssShowTitle = entry.fields.podcastTitle ;
+
+          }
+
+          else {rssShowTitle = props[1].replaceAll("-", " ").toUpperCase() + " Podcasts | RSS Feed"}
+          
+          if (entry.fields.podcastDescription!=null|| entry.fields.podcastDescription != undefined) {
+            rssDescription = entry.fields.podcastDescription   
+
+          }
+          else {rssDescription = "Podcasts from " + props[1].replaceAll("-", " ").toUpperCase()}
+
+
         }
       });
     });
 
   if (doBuild == true) {
-    let rssShowTitle;
-    rssShowTitle = props[1].replaceAll("-", " ").toUpperCase();
+   
+ 
  
     const truncate = (input) =>
       input?.length > 500 ? `${input.substring(0, 499)}...` : input;
 
     const feedOptions = {
-      title: rssShowTitle + " Podcasts | RSS Feed",
-      description:
-        "All Podcasts from " + rssShowTitle + " - Waiheke Radio, New Zealand",
+      title: rssShowTitle,
+      description:rssDescription,  
       id: site_url,
       link: site_url,
       image: `${rssImage}`,

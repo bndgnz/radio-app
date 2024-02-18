@@ -16,8 +16,8 @@ export default async function generateRssFeed(props) {
     input?.length > 500 ? `${input.substring(0, 499)}...` : input;
 
   const feedOptions = {
-    title: rssShowTitle + " Podcasts | RSS Feed",
-    description: "All Podcasts from " + rssShowTitle + " - New Zealand",
+    title:"Waiheke Radio Podcasts",
+    description: "All podcasts from community radio station Waiheke Radio. Aotearoa/New Zealand",
     id: site_url,
     link: site_url,
     image: `${site_url}/WR-logo-3000-3000.png`,

@@ -14,18 +14,37 @@
 <itunes:keywords>Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
 <itunes:author>Waiheke Radio</itunes:author>
 <atom:link href="http://localhost:3000/rss.xml" type="application/rss+xml"  rel="self" />
-        <title>Waiheke Radio Podcasts | RSS Feed</title>
+        <title>Waiheke Radio Podcasts</title>
         <link>http://localhost:3000</link>
-        <description>All Podcasts from Waiheke Radio - New Zealand</description>
-        <lastBuildDate>Wed, 07 Feb 2024 20:22:29 GMT</lastBuildDate>
+        <description>All podcasts from community radio station Waiheke Radio. Aotearoa/New Zealand</description>
+        <lastBuildDate>Sun, 18 Feb 2024 02:04:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>Waiheke Radio Podcasts | RSS Feed</title>
+            <title>Waiheke Radio Podcasts</title>
             <url>http://localhost:3000/WR-logo-3000-3000.png</url>
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Can You Dig It?! - Episode 6: Compost]]></title>
+            <link>http://localhost:3000/podcast/can-you-dig-it-episode-6-compost</link>
+            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-6-compost</guid>
+            <pubDate>Fri, 16 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kayleigh Appleton and Mike Fogarty from the Waiheke Resources Trust share tips for creating amazing compost at home.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-6-Compost-16-02-2024.mp3" length="4123456" type="audio/mpeg"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Can You Dig It?! - Episode 5: Loloma Andrews]]></title>
+            <link>http://localhost:3000/podcast/can-you-dig-it-episode-5-loloma-andrews</link>
+            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-5-loloma-andrews</guid>
+            <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris walker talks to Loloma Andrews about public orchards and her home gardening.
+![Orchard Bee](//images.ctfassets.net/muwn01agnrp5/2460ggpCbxnnSmSNpnpnW2/b6188f690f3eaf85e0553e7e2aa231a1/OrchardBee2.jpg)]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-5-Loloma-Andrews-08-02-2024.mp3" length="4123456" type="audio/mpeg"/>
+        </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Can You Dig It?! - Episode 4: Eddie Welsh  and  The Reach Out Garden]]></title>
@@ -488,24 +507,6 @@ Tracks performed: In the Dark; Origin; Toro; Crazy; Big Tide This Time; Politics
 Incubator interview with island artist Brett Oakes,
 Reading from author Rebecca Solnit on her essays The Distance Of Blue from A Field Guide To Getting Lost]]></description>
             <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_28.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[THE ANYTHING ARTY SHOW DEC 15 2011]]></title>
-            <link>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</link>
-            <guid>http://localhost:3000/podcast/the-anything-arty-show-dec-15-2011</guid>
-            <pubDate>Thu, 15 Dec 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[This week we heard from Isabel Allende sharing her view of passion and Kara Gordon playing his 35000 year old lancaster guitar]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_27.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[The Anything Arty Show John Hawkesby]]></title>
-            <link>http://localhost:3000/podcast/the-anything-arty-show-john-hawkesby</link>
-            <guid>http://localhost:3000/podcast/the-anything-arty-show-john-hawkesby</guid>
-            <pubDate>Thu, 01 Dec 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[John Hawkesby interview]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/the-anything-arty-show/arts_show_26.mp3" length="4123456" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>

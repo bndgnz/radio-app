@@ -11,18 +11,18 @@
 <itunes:image href="https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707163593/RSS%20Feeds/mana-mixtape_csyvyi-Square_oynlgj.jpg"/>
 <itunes:category text="Arts" />
 <itunes:type>episodic</itunes:type>
-<itunes:keywords>MANA MIXTAPE Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
+<itunes:keywords>Mana Mixtape Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
 <itunes:author>Waiheke Radio</itunes:author>
 
 <atom:link href="http://localhost:3000/mana-mixtape.xml" type="application/rss+xml"  rel="self" />
-        <title>MANA MIXTAPE Podcasts | RSS Feed</title>
+        <title>Mana Mixtape</title>
         <link>http://localhost:3000</link>
-        <description>All Podcasts from MANA MIXTAPE - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 07 Feb 2024 20:22:30 GMT</lastBuildDate>
+        <description>Arts, culture, events and interesting people on Waiheke Island</description>
+        <lastBuildDate>Sun, 18 Feb 2024 02:04:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>MANA MIXTAPE Podcasts | RSS Feed</title>
+            <title>Mana Mixtape</title>
             <url>https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707163593/RSS%20Feeds/mana-mixtape_csyvyi-Square_oynlgj.jpg</url>
             <link>http://localhost:3000</link>
         </image>

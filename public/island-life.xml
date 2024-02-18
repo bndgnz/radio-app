@@ -11,18 +11,18 @@
 <itunes:image href="https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707163255/RSS%20Feeds/island-life_prleze-Square_nbdwcu.jpg"/>
 <itunes:category text="Arts" />
 <itunes:type>episodic</itunes:type>
-<itunes:keywords>ISLAND LIFE Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
+<itunes:keywords>Island Life  Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
 <itunes:author>Waiheke Radio</itunes:author>
 
 <atom:link href="http://localhost:3000/island-life.xml" type="application/rss+xml"  rel="self" />
-        <title>ISLAND LIFE Podcasts | RSS Feed</title>
+        <title>Island Life </title>
         <link>http://localhost:3000</link>
-        <description>All Podcasts from ISLAND LIFE - Waiheke Radio, New Zealand</description>
-        <lastBuildDate>Wed, 07 Feb 2024 20:22:30 GMT</lastBuildDate>
+        <description>Interviews and discussions about Waiheke Island issues, events and people</description>
+        <lastBuildDate>Sun, 18 Feb 2024 02:04:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>ISLAND LIFE Podcasts | RSS Feed</title>
+            <title>Island Life </title>
             <url>https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707163255/RSS%20Feeds/island-life_prleze-Square_nbdwcu.jpg</url>
             <link>http://localhost:3000</link>
         </image>
