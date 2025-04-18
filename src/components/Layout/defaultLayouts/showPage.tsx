@@ -80,7 +80,7 @@ function Showpage(props: any) {
               <>
                
 
- RSS: <a href={process.env.NEXT_PUBLIC_SITE_URL+"/"+props.props.type.slug+".xml"} title="Subscribe to the RSS feed for this show" target="_blank"><MdRssFeed color="#ee802f" size="80px" />  </a>
+ RSS: <a href={process.env.NEXT_PUBLIC_SITE_URL+"/"+props.props.type.slug+".xml"} title="Subscribe to the RSS feed for this show" target="_blank">RSS </a>
  
  </>
                   ) : null}
