@@ -5,6 +5,7 @@ import { createClient } from "contentful";
 import { useQuery, gql } from "@apollo/client";
 
 export default async function generateRssFeed(props) {
+
   const site_url = process.env.NEXT_PUBLIC_SITE_URL;
   const rssFileLink = site_url + "/" + props[1] + ".xml";
   const rssFileName = "./public/" + props[1] + ".xml";
@@ -52,16 +53,13 @@ export default async function generateRssFeed(props) {
           }
           else {rssDescription = "Podcasts from " + props[1].replaceAll("-", " ").toUpperCase()}
 
-
         }
       });
     });
 
   if (doBuild == true) {
    
- 
- 
-    const truncate = (input) =>
+   const truncate = (input) =>
       input?.length > 500 ? `${input.substring(0, 499)}...` : input;
 
     const feedOptions = {
