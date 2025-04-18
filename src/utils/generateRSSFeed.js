@@ -59,6 +59,8 @@ export default async function generateRssFeed(props) {
 
   if (doBuild == true) {
    
+
+    
    const truncate = (input) =>
       input?.length > 500 ? `${input.substring(0, 499)}...` : input;
 
