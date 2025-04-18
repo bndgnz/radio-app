@@ -34,34 +34,7 @@ function renderComponents(props: any) {
     switch (type) {
       case "list":
         return <Listresolver props={id.item} />;
-      case "amazonpodcast":
-        return <AmazonPodcast props={id.item} />;
-
-      case "filteredamazonplaylist":
-        return <FilteredPlaylist id={id.item} />;
-      case "latestpodcasts":
-        return <LatestAmazonPodcasts id={id.item} />;
-      case "amazonplaylist":
-        return <AmazonPlaylist id={id.item} />;
-      case "showlist":
-        return <Shows id={id.item} />;
-      case "schedule":
-        return <Schedule id={id.item} />;
-      case "querystringplaylist":
-        return <QueryStringPlaylist />;
-      case "accordion":
-        return <Accordion id={id.item} />;
-      case "layout":
-        return <LayoutResolver id={id.item} />;
-      case "video":
-        return <h1>Video </h1>;
-      case "stream":
-        return <Stream id={id.item} />;
-      case "playlist":
-        return <Playlist id={id.item} />;
-      case "message":
-        return <Message id={id.item} />;
-      default:
+       default:
         return null;
     }
   }
