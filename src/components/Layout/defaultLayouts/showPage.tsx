@@ -3,6 +3,7 @@ import Staff from "@/src/components/Layout/components/staff";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { BLOCKS, INLINES } from "@contentful/rich-text-types";
 import { MdRssFeed } from 'react-icons/md';
+import React from 'react';
 
 function Showpage(props: any) {
   const showlink = props.props.type.showUrl;
@@ -80,7 +81,7 @@ function Showpage(props: any) {
               <>
                
 
- RSS: <a href={process.env.NEXT_PUBLIC_SITE_URL+"/"+props.props.type.slug+".xml"} title="Subscribe to the RSS feed for this show" target="_blank"><MdRssFeed color="#ee802f" size="80px" />  </a>
+ RSS: <a href={process.env.NEXT_PUBLIC_SITE_URL+"/"+props.props.type.slug+".xml"} title="Subscribe to the RSS feed for this show" target="_blank" rel="noopener noreferrer">{(MdRssFeed as any)({ color: "#ee802f", size: 80 })}  </a>
  
  </>
                   ) : null}

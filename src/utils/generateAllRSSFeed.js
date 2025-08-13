@@ -1,13 +1,15 @@
 import fs from "fs";
-const { readFile, writeFile } = require("fs");
+import path from "path";
 import { Feed } from "feed";
 import { createClient } from "contentful";
 
 export default async function generateRssFeed(props) {
   const site_url = process.env.NEXT_PUBLIC_SITE_URL;
+
+  console.log("???????????????????", site_url)
   const rssFeedTitle = props[0];
   const rssFileLink = site_url + "/" + props[1] + ".xml";
-  const rssFileName = "./public/rss.xml";
+  const rssFileName = path.join(process.cwd(), "public", "rss.xml");
 
   let rssShowTitle;
 
@@ -47,10 +49,9 @@ export default async function generateRssFeed(props) {
   const feed = new Feed(feedOptions);
 
   posts.items.forEach((post) => {
-    feed.addItem({
+    const itemData = {
       title: post.fields.title.replaceAll("&", " and "),
       link: `${site_url}/podcast/${post.fields.slug}`,
-      enclosure: post.fields.amazonUrl,
       description: truncate(post.fields.description.replaceAll("&", " and ")),
       date: new Date(post.fields.date),
       author: {
@@ -58,12 +59,27 @@ export default async function generateRssFeed(props) {
         email: "info@waihekeradio.org.nz",
         link: "http://waihekeradio.org.nz",
       },
-    });
+    };
+    
+    // Only add enclosure if amazonUrl exists and is a valid URL
+    if (post.fields.amazonUrl && typeof post.fields.amazonUrl === 'string' && post.fields.amazonUrl.startsWith('http')) {
+      itemData.enclosure = {
+        url: post.fields.amazonUrl,
+        type: 'audio/mpeg'
+      };
+    }
+    
+    feed.addItem(itemData);
   });
 
-  fs.writeFileSync(rssFileName, feed.rss2());
+  try {
+    fs.writeFileSync(rssFileName, feed.rss2());
+  } catch (error) {
+    console.error("Error writing RSS file:", error);
+    return;
+  }
 
-  readFile(rssFileName, "utf-8", function (err, contents) {
+  fs.readFile(rssFileName, "utf-8", function (err, contents) {
     if (err) {
       console.log(err);
       return;
@@ -92,8 +108,8 @@ export default async function generateRssFeed(props) {
       "<item>\n<itunes:author>Waiheke Radio</itunes:author>"
     );
 
-    writeFile(rssFileName, itemauthor, "utf-8", function (err) {
-      console.log(err);
+    fs.writeFile(rssFileName, itemauthor, "utf-8", function (err) {
+      if (err) console.log(err);
     });
   });
 }
