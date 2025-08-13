@@ -8340,57 +8340,93 @@ section.blog-area.ptb-100.schedule {
 .search-overlay-content {
   position: relative;
   background: #fff;
-  border-radius: 10px;
-  padding: 40px 30px 30px;
+  border-radius: 20px;
+  padding: 30px 40px 40px;
   width: 90%;
-  max-width: 600px;
-  max-height: 80vh;
+  max-width: 650px;
+  max-height: 70vh;
   overflow-y: auto;
   animation: slideIn 0.3s ease;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .search-close-btn {
   position: absolute;
-  top: 15px;
-  right: 15px;
-  background: none;
+  top: 20px;
+  right: 20px;
+  background: #f8f9fa;
   border: none;
   cursor: pointer;
   color: #666;
-  padding: 5px;
+  padding: 12px;
   border-radius: 50%;
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .search-close-btn:hover {
-  background-color: #f0f0f0;
-  color: #333;
+  background-color: #bf1a2c;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(191, 26, 44, 0.3);
 }
 
 .search-container {
-  margin-top: 20px;
+  margin-top: 40px;
+  overflow: hidden;
 }
 
 .search-container .search-box {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .search-container #algolia_search {
   width: 100%;
-  padding: 15px 20px;
-  border: 2px solid #e0e0e0;
-  border-radius: 25px;
+  padding: 18px 25px 18px 50px;
+  border: none;
+  border-radius: 50px;
   font-size: 16px;
+  font-weight: 400;
   outline: none;
-  transition: border-color 0.3s ease;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
 }
 
 .search-container #algolia_search:focus {
-  border-color: #bf1a2c;
+  background-color: #fff;
+  box-shadow: 0 8px 30px rgba(191, 26, 44, 0.15);
+  transform: translateY(-2px);
+}
+
+.search-container #algolia_search::placeholder {
+  color: #999;
+  font-weight: 300;
+}
+
+/* Add search icon inside the input */
+.search-container .search-box {
+  position: relative;
+}
+
+.search-container .search-box::before {
+  content: "🔍";
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  z-index: 1;
+  pointer-events: none;
 }
 
 @keyframes fadeIn {
@@ -8421,11 +8457,35 @@ section.blog-area.ptb-100.schedule {
 @media (max-width: 768px) {
   .search-overlay {
     padding-top: 80px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
   }
   
   .search-overlay-content {
     width: 95%;
-    padding: 30px 20px 20px;
+    padding: 25px 20px 30px;
+    max-height: calc(100vh - 120px);
+    margin-bottom: 20px;
+    overflow-y: hidden;
+    border-radius: 15px;
+  }
+  
+  .search-container #algolia_search {
+    padding: 16px 20px 16px 45px;
+    font-size: 15px;
+  }
+  
+  .search-container .search-box::before {
+    left: 16px;
+    font-size: 16px;
+  }
+  
+  .search-close-btn {
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
   }
   
   /* Hide desktop search icon on mobile */
@@ -8439,6 +8499,13 @@ section.blog-area.ptb-100.schedule {
   .mobile-search-icon {
     display: none !important;
   }
+}
+
+/* Search Results Styling */
+.search-result-title {
+  font-weight: 600;
+  color: #333;
+  cursor: default;
 }
 
 .row.showpage-top-row {
