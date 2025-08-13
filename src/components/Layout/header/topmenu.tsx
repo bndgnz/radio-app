@@ -74,7 +74,7 @@ const TopMenu = ({ data, toggleNavbar }) => {
           onClick={() => setShowSearchOverlay(true)}
           aria-label="Open search"
         >
-{(FaSearch as any)({ size: 20 })}
+{(FaSearch as any)({ size: 25 })}
         </button>
       </div>
       
