@@ -14,477 +14,477 @@
 <itunes:keywords>Island Life  Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
 <itunes:author>Waiheke Radio</itunes:author>
 
-<atom:link href="http://localhost:3000/island-life.xml" type="application/rss+xml"  rel="self" />
+<atom:link href="localhost:3000/island-life.xml" type="application/rss+xml"  rel="self" />
         <title>Island Life </title>
-        <link>http://localhost:3000</link>
+        <link>localhost:3000</link>
         <description>Interviews and discussions about Waiheke Island issues, events and people</description>
-        <lastBuildDate>Sun, 18 Feb 2024 02:04:33 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Aug 2025 04:20:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>Island Life </title>
             <url>https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707163255/RSS%20Feeds/island-life_prleze-Square_nbdwcu.jpg</url>
-            <link>http://localhost:3000</link>
+            <link>localhost:3000</link>
         </image>
-        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <copyright>All rights reserved 2025, Waiheke Radio</copyright>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Bowel Cancer Screening]]></title>
+            <link>localhost:3000/podcast/bowel-cancer-screening</link>
+            <guid>localhost:3000/podcast/bowel-cancer-screening</guid>
+            <pubDate>Sat, 26 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Anthony Petera, Community Engagement Lead – Te Toka Tumai Auckland Bowel Screening]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-bowel-screening-26-07-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Short Play Festival]]></title>
+            <link>localhost:3000/podcast/short-play-festival</link>
+            <guid>localhost:3000/podcast/short-play-festival</guid>
+            <pubDate>Sat, 26 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Kara Veugelers, Elsa Gibberd and Freya Gibberd about the Artworks Theatre Short Play Festival]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-short-play-festival-26-07-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Playwright Shirin Brown: My AI Twin]]></title>
+            <link>localhost:3000/podcast/playwright-shirin-brown-my-ai-twin</link>
+            <guid>localhost:3000/podcast/playwright-shirin-brown-my-ai-twin</guid>
+            <pubDate>Sat, 26 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks with local playwright Shirin Brown about her play My AI Twin which has a season at Auckland's Basement Theatre]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-shirin-brown-my-ai-twin-26-07-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Waiheke Community Housing Trust Visitor Accommodation Hui : Kylee Matthews]]></title>
+            <link>localhost:3000/podcast/waiheke-community-housing-trust-visitor-accommodation-hui-kylee-matthews</link>
+            <guid>localhost:3000/podcast/waiheke-community-housing-trust-visitor-accommodation-hui-kylee-matthews</guid>
+            <pubDate>Sat, 26 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Waiheke local board member Kylee Matthews speaks at a Waiheke Community Housing Trust hui focused on gaining support for a change to allow visitor accommodation units to be able to be let for long term rentals.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/waiheke-community-housing-trust-visitor-accommodation-kylee-matthews.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Waiheke Community Housing Trust Visitor Accommodation Hui: Tom French]]></title>
+            <link>localhost:3000/podcast/waiheke-community-housing-trust-visitor-accommodation-hui-tom-french</link>
+            <guid>localhost:3000/podcast/waiheke-community-housing-trust-visitor-accommodation-hui-tom-french</guid>
+            <pubDate>Sat, 26 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Visitor accommodation manager Tom French speaks at a Waiheke Community Housing Trust hui focused on gaining support for a change to allow visitor accommodation units to be able to be let for long term rentals.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/waiheke-community-housing-trust-visitor-accommodation-tom-french.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Waiheke Community Housing Trust Visitor Accommodation Hui: Jaimie Wilkie]]></title>
+            <link>localhost:3000/podcast/waiheke-community-housing-trust-visitor-accommodation-hui-jaimie-wilkie</link>
+            <guid>localhost:3000/podcast/waiheke-community-housing-trust-visitor-accommodation-hui-jaimie-wilkie</guid>
+            <pubDate>Sat, 26 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jaimie Wilikie speaks about the island's housing shortage at a Waiheke Community Housing Trust hui focused on gaining support for a change to allow visitor accommodation units to be able to be let for long term rentals.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/waiheke-community-housing-trust-visitor-accommodation-jaimie-wilkie.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Waiheke Community Housing Trust Visitor Accommodation Hui - Craig Brown]]></title>
+            <link>localhost:3000/podcast/waiheke-community-housing-trust-visitor-accommodation-hui-craig-brown</link>
+            <guid>localhost:3000/podcast/waiheke-community-housing-trust-visitor-accommodation-hui-craig-brown</guid>
+            <pubDate>Sat, 26 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Waste water specialist Craig Brown speaks at a Waiheke Community Housing Trust hui focused on gaining support for a change to allow visitor accommodation units to be able to be let for long term rentals.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/waiheke-community-housing-trust-visitor-accommodation-craig-brown.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Waiheke Community Housing Trust Vistor Accommodation Hui: Kym Lewis]]></title>
+            <link>localhost:3000/podcast/waiheke-community-housing-trust-vistor-accommodation-hui-kym-lewis</link>
+            <guid>localhost:3000/podcast/waiheke-community-housing-trust-vistor-accommodation-hui-kym-lewis</guid>
+            <pubDate>Sat, 26 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Planner Kym Lewis speaks at a Waiheke Community Housing Trust hui focused on gaining support for a change to allow visitor accommodation units to be able to be let for long term rentals.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/waiheke-community-housing-trust-visitor-accommodation-kym-lewis.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Waiheke Community Housing Trust: Visitor Accommodation Hui - Damian Sycamore]]></title>
+            <link>localhost:3000/podcast/waiheke-community-housing-trust-visitor-accommodation-hui-damian-sycamore</link>
+            <guid>localhost:3000/podcast/waiheke-community-housing-trust-visitor-accommodation-hui-damian-sycamore</guid>
+            <pubDate>Sat, 26 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Damian Sycamore from Waiheke Community Housing Trust introduces a hui focused on gaining support for a change to allow visitor accommodation units to be able to be let for long term rentals.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/waiheke-community-housing-trust-visitor-accommodation-damian-sycamore.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Waiheke Volunteer Fire Brigade]]></title>
+            <link>localhost:3000/podcast/waiheke-volunteer-fire-brigade</link>
+            <guid>localhost:3000/podcast/waiheke-volunteer-fire-brigade</guid>
+            <pubDate>Sat, 28 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Amy Cunningham from Waiheke Volunteer Fire Brigade about their fundraising efforts.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-amy-cunningham-volunteer-fire-brigade-28-06-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Festus McBoyle at Artworks 6 July]]></title>
+            <link>localhost:3000/podcast/festus-mcboyle-at-artworks-6-july</link>
+            <guid>localhost:3000/podcast/festus-mcboyle-at-artworks-6-july</guid>
+            <pubDate>Sat, 28 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Captain Festus McBoyle ahead of his two performances at Artworks Theatre on Sunday 6 July.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-festus-mcboyle.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Jonathan McQuillan reads from High Impact Insensitivity]]></title>
+            <link>localhost:3000/podcast/jonathan-mcquillan-reads-from-high-impact-insensitivity</link>
+            <guid>localhost:3000/podcast/jonathan-mcquillan-reads-from-high-impact-insensitivity</guid>
+            <pubDate>Tue, 17 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Waiheke author Jonathan McQuillan reads a chapter of his novel High Impact Insensitivity]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/Jonathan-McQuillan-High-Impact-Insensitivity-reading.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Author Jonathan McQuillan]]></title>
+            <link>localhost:3000/podcast/author-jonathan-mcquillan</link>
+            <guid>localhost:3000/podcast/author-jonathan-mcquillan</guid>
+            <pubDate>Tue, 17 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to author Jonathan McQuillan about his novel set in a radio station on Waiheke Island, High Impact Insensitivity.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-jonathan-mcquillan-author-16-06-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Sue Neureuter: Custodian of The Noises]]></title>
+            <link>localhost:3000/podcast/sue-neureuter-custodian-of-the-noises</link>
+            <guid>localhost:3000/podcast/sue-neureuter-custodian-of-the-noises</guid>
+            <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sue Neureuter talks to Chris Walker about her family's mission to preserve and restore the Hauraki island group The Noises]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/Neureuter%20Noises%20Trust.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Archeological Research on Ōtata]]></title>
+            <link>localhost:3000/podcast/archeological-research-on-tata</link>
+            <guid>localhost:3000/podcast/archeological-research-on-tata</guid>
+            <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ōtata is the largest of The Noises islands. On the main beach of Ōtata Island is a large, historic midden, made up of layers of shells, animal bones and other archaeological evidence.
+Auckland Museum Archaeologists Dr Louise Furey and Emma Ash worked in collaboration with mana whenua, Ngāi Tai ki Tāmaki, and the Neureuter family, to undertake excavations of the Ōtata midden, with digs taking place during the March 2020 and again in February 2021.
+What that research showed was The Noises were vi...]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/Otata-Midden-May-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Wētāpunga on Ōtata]]></title>
+            <link>localhost:3000/podcast/wetapunga-on-tata</link>
+            <guid>localhost:3000/podcast/wetapunga-on-tata</guid>
+            <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sue Neureuter talks about the thriving population of New Zealand's largest insect, wētāpunga, on Ōtata.
+The wētāpunga is the largest insect in New Zealand. It's a nocturnal, tree-dwelling creature of the forest. The average body length of adult females is around 65 mm (2.6 in) from head to the tip of the abdomen.
+The species was extinct on mainland NZ by the 1870s. The Hauraki Gulf islands provided the last strongholds for wētāpunga. Formerly, the species was known from Aotea (Great Barrier Isl...]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/Wetapunga-The-Noises-May-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Nikita Daniel: The Noises Coastal Marine Researcher]]></title>
+            <link>localhost:3000/podcast/nikita-daniel-the-noises-coastal-marine-researcher</link>
+            <guid>localhost:3000/podcast/nikita-daniel-the-noises-coastal-marine-researcher</guid>
+            <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Nikita Daniel about her research in the coastal areas of The Noises.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/Nikita-Daniels-Noises-Coastal-Marine-Research.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Sue Neureuter on the marine environment of The Noises]]></title>
+            <link>localhost:3000/podcast/sue-neureuter-on-the-marine-environment-of-the-noises</link>
+            <guid>localhost:3000/podcast/sue-neureuter-on-the-marine-environment-of-the-noises</guid>
+            <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Noises custodian Sue Neureuter talks about efforts to protect and rejuvenate the marine environment around The Noises.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/Sue-Neureuter-Noises-Marine-Environment.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Bianca Ranson: Hauraki Gulf Protection]]></title>
+            <link>localhost:3000/podcast/bianca-ranson-hauraki-gulf-protection</link>
+            <guid>localhost:3000/podcast/bianca-ranson-hauraki-gulf-protection</guid>
+            <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Bianca Ranson, Waiheke Local Board representative on the Hauraki Gulf Forum and Forest and Bird National Conservation Advocate, about the Hauraki Gulf Marine Protection Bill and the delays in implementing it.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-14-06-2025-bianca-ranson-high-protection-areas.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Sue Neureuter on Ōtata, The Noises]]></title>
+            <link>localhost:3000/podcast/sue-neureuter-on-tata-the-noises</link>
+            <guid>localhost:3000/podcast/sue-neureuter-on-tata-the-noises</guid>
+            <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sue Neureuter is custodian of The Noises, a group of small islands 7km Northeast of Waiheke. In this recording Sue talks about the early days of her family owning the islands and the conservation journey they have championed. Recorded on the largest of the islands, Ōtata in May 2025.
+The Noises lie around 7kn northeast of Waiheke Island. The island group has owned by the Wainright and Neureuter family since 1933, although in recent years it has been placed in a trust administered by the family....]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/Sue-Neureuter-Noises-May-18-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[InFocus Exhibition on the work of Waiheke Health Trust]]></title>
+            <link>localhost:3000/podcast/infocus-exhibition-on-the-work-of-waiheke-health-trust</link>
+            <guid>localhost:3000/podcast/infocus-exhibition-on-the-work-of-waiheke-health-trust</guid>
+            <pubDate>Mon, 12 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Waiheke Health Trust CEO Jen Glover about photographic exhibition InFocus - The Unseen Journey of Compassion, Commitment and Care which showcases the work of the trust.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-in-focus-waiheke-health-trust-10-05-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Instrument Maker Peter Forster]]></title>
+            <link>localhost:3000/podcast/instrument-maker-peter-forster</link>
+            <guid>localhost:3000/podcast/instrument-maker-peter-forster</guid>
+            <pubDate>Mon, 12 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Waiheke musician and instrument maker Peter Forster.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-peter-forster-10-05-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Waiheke Author Belinda Robinson: Unforgetting]]></title>
+            <link>localhost:3000/podcast/waiheke-author-belinda-robinson-unforgetting</link>
+            <guid>localhost:3000/podcast/waiheke-author-belinda-robinson-unforgetting</guid>
+            <pubDate>Mon, 12 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Waiheke author Belinda Robinson about her memoir Unforgetting.From her childhood with parents Bruce and Diane Mason to hippy days on Waiheke and beyond. Photo credit: The Post]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-belinda-robinson-unforgetting-10-05-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Catherine Mitchell Arts Centre: Past, Present, Future]]></title>
+            <link>localhost:3000/podcast/catherine-mitchell-arts-centre-past-present-future</link>
+            <guid>localhost:3000/podcast/catherine-mitchell-arts-centre-past-present-future</guid>
+            <pubDate>Sat, 26 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Helen Charters and Hilary Kerrod from the Catherine Mitchell Arts Centre. They talk about the origins and history of the centre which has been an important part of the local arts scene for more than 50 years.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-catherine-mitchell-arts-centre-26-04-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[New Waiheke Music: Night Creams]]></title>
+            <link>localhost:3000/podcast/new-waiheke-music-night-creams</link>
+            <guid>localhost:3000/podcast/new-waiheke-music-night-creams</guid>
+            <pubDate>Sat, 26 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Jamie Stone and Rachel Woods from new local musical act Night Creams about the impending release of their album Auditions for a Melt Movie]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-night-creams-26-04-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Ostend Market 50th Anniversary]]></title>
+            <link>localhost:3000/podcast/ostend-market-50th-anniversary</link>
+            <guid>localhost:3000/podcast/ostend-market-50th-anniversary</guid>
+            <pubDate>Thu, 17 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Penny Holmes of Waiheke Community Childcare Centre about the history of the Waiheke Ostend Market. The market, a centrepiece of the island community, has it's 50th anniversary Easter 2025. The interview ends abruptly due to a power cut.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-penny-holmes-ostend-market-april-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Market Talks: Mattias Kroeger]]></title>
+            <link>localhost:3000/podcast/market-talks-mattias-kroeger</link>
+            <guid>localhost:3000/podcast/market-talks-mattias-kroeger</guid>
+            <pubDate>Thu, 17 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Penny Holmes talks to Mattias Kroeger as part of her documentation of the history of the Waiheke Ostend Market to mark it's 50th anniversay at Easter 2025.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/Market%20Talks%20-%20Mattias%20and%20Penny.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Market Talks: Kathryn Ngapo]]></title>
+            <link>localhost:3000/podcast/market-talks-kathryn-ngapo</link>
+            <guid>localhost:3000/podcast/market-talks-kathryn-ngapo</guid>
+            <pubDate>Thu, 17 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Penny Holmes talks to Kathryn Ngapo as part of her documentation of the history of the Waiheke Ostend Market to mark it's 50th anniversay at Easter 2025.]]></description>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Market Talks: Audrey Betterton]]></title>
+            <link>localhost:3000/podcast/market-talks-audrey-betterton</link>
+            <guid>localhost:3000/podcast/market-talks-audrey-betterton</guid>
+            <pubDate>Thu, 17 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Penny Holmes talks to Audrey Betterton as part of her documentation of the history of the Waiheke Ostend Market to mark it's 50th anniversay at Easter 2025.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/Market%20Talks%20-%20Audrey%20and%20Penny.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Cath Handley: Local Board Plan Consultation]]></title>
+            <link>localhost:3000/podcast/cath-handley-local-board-plan-consultation</link>
+            <guid>localhost:3000/podcast/cath-handley-local-board-plan-consultation</guid>
+            <pubDate>Sat, 08 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker to Local Board chair Cath Handley about consultation on the local board annual plan.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-08-03-2025-cath-handley-local-board-plan.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Waiheke Chamber Music Festival]]></title>
+            <link>localhost:3000/podcast/waiheke-chamber-music-festival</link>
+            <guid>localhost:3000/podcast/waiheke-chamber-music-festival</guid>
+            <pubDate>Sat, 08 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Amalia Hall about the upcoming Waiheke Chamber Music festival, 23-24 March.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-08-03-2025-chamber-music-festival.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Central Landscape Supplies Celebrate 20 Years]]></title>
+            <link>localhost:3000/podcast/central-landscape-supplies-celebrate-20-years</link>
+            <guid>localhost:3000/podcast/central-landscape-supplies-celebrate-20-years</guid>
+            <pubDate>Sat, 08 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Dean Risetto, owner of Central Landscape Supplies Waiheke. They are marking 20 years in the Waiheke community with a family fun day on Sat 15 March 10am-12pm, 88 Onetangi Rd.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-08-03-2025-central-landscape-supplies-20-years.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Wiremu Te Taniwha - Emergency Housing on Waiheke]]></title>
+            <link>localhost:3000/podcast/wiremu-te-taniwha-emergency-housing-on-waiheke</link>
+            <guid>localhost:3000/podcast/wiremu-te-taniwha-emergency-housing-on-waiheke</guid>
+            <pubDate>Sat, 15 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Pastor Wiremu Te Taniwha from Living Waters Waiheke about their application to extend emergency housing provision at their Surfdale site.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-15-02-2025-wiremu-te-taniwha.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Damian Sycamore - Waiheke Community Housing Trust]]></title>
+            <link>localhost:3000/podcast/damian-sycamore-waiheke-community-housing-trust</link>
+            <guid>localhost:3000/podcast/damian-sycamore-waiheke-community-housing-trust</guid>
+            <pubDate>Sat, 15 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Damian Sycamore from Waiheke Community Housing Trust about housing shortage issues on the island. Photo credit: Gulf News]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-15-02-2025-damian-sycamore-housing.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Waiheke journalist and podcaster Bernard Hickey]]></title>
+            <link>localhost:3000/podcast/waiheke-journalist-and-podcaster-bernard-hickey</link>
+            <guid>localhost:3000/podcast/waiheke-journalist-and-podcaster-bernard-hickey</guid>
+            <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talk to Waiheke finance, climate and politics journalist and podcaster Bernard Hickey.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-01-02-2025-bernard-hickey.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Creative Sundays throughout February at Artworks Theatre]]></title>
+            <link>localhost:3000/podcast/creative-sundays-throughout-february-at-artworks-theatre</link>
+            <guid>localhost:3000/podcast/creative-sundays-throughout-february-at-artworks-theatre</guid>
+            <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walekr talks to Kara Veugelers from Artworks Theatre about their Creative Sundays programme running through February.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-01-02-2025-artworks-creative-sundays.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Morra Hall needs volunteers]]></title>
+            <link>localhost:3000/podcast/morra-hall-needs-volunteers</link>
+            <guid>localhost:3000/podcast/morra-hall-needs-volunteers</guid>
+            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Graham Crooks from the Matiatia and Oneroa Residents and Ratepayers Aoociation about the desperate need for more volunteers to keep the Morra Hall opertating.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2024/island-life-16-11-2024-morra-hall.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Comic Potential]]></title>
+            <link>localhost:3000/podcast/comic-potential</link>
+            <guid>localhost:3000/podcast/comic-potential</guid>
+            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to director, Linda Savage, stage manager, Toni Elliott, and cast member, Lance Driver from the comedy play Comic Potential, soon to start at Artworks Theatre.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2024/island-life-16-11-2024-comic-potential.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Waiheke's Bird of the Year]]></title>
+            <link>localhost:3000/podcast/waihekes-bird-of-the-year</link>
+            <guid>localhost:3000/podcast/waihekes-bird-of-the-year</guid>
+            <pubDate>Sat, 19 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Brent Simpson interviews Ella Singh, Te Korowai o Waiheke's communications and engagement assistant for the organisation, about Waiheke's Bird of the Year 2024. ]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://s3.ap-southeast-2.amazonaws.com/wr-recordings/podcasts/island-life/2024/Island-life-19-10-2034-Waiheke-Bird-of-the-Year.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Darleen Tana Interview]]></title>
+            <link>localhost:3000/podcast/darleem-tana-interview</link>
+            <guid>localhost:3000/podcast/darleem-tana-interview</guid>
+            <pubDate>Sat, 12 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[An extended interview with independent MP and Waiheke local Darleen Tana ahead of a meeting of Green Party members to determine her future in Parliament. Recorded 10 October 2024.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2024/Island-Life-Darleen-Tana-10-10-24.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Local Board Chair Cath Handley Aug 2024]]></title>
+            <link>localhost:3000/podcast/local-board-chair-cath-handley-aug-2024</link>
+            <guid>localhost:3000/podcast/local-board-chair-cath-handley-aug-2024</guid>
+            <pubDate>Sat, 31 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[An extended interview with chair of the Waiheke Local Board Cath Hnadley about a recent report on island housing, the community lease on council land at Piritahi, location of the pony club and island after hours medical care.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2024/island-life-31-08-24-cath-handley.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Noise Isle II]]></title>
+            <link>localhost:3000/podcast/noise-isle-ii</link>
+            <guid>localhost:3000/podcast/noise-isle-ii</guid>
+            <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Paul and Dave from Waiheke band Body In The Forest about an upcoming evening of heavy, noisy rock Noise Isle II]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2024/island-life-noise-isle-ii-16-03-2024.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Tanya Batt: Kai For Community Festival]]></title>
+            <link>localhost:3000/podcast/tanya-batt-kai-for-community-festival</link>
+            <guid>localhost:3000/podcast/tanya-batt-kai-for-community-festival</guid>
+            <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Tanya Batt about the inaugural Kai for Community festival]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2024/island-life-16-03-2024-kai-for-community-tanya-batt.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Sculpture on the Gulf- Fiona Blanchard]]></title>
+            <link>localhost:3000/podcast/sculpture-on-the-gulf-fiona-blanchard</link>
+            <guid>localhost:3000/podcast/sculpture-on-the-gulf-fiona-blanchard</guid>
+            <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Fiona Blanchard, director of Waiheke Community Art Gallery about Sculpture on the Gulf 2024]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2024/island-life-16-03-2024-sculpture-on-the-gulf.mp3"/>
+        </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Susi Newborn: Housing]]></title>
-            <link>http://localhost:3000/podcast/susi-newborn-housing</link>
-            <guid>http://localhost:3000/podcast/susi-newborn-housing</guid>
+            <link>localhost:3000/podcast/susi-newborn-housing</link>
+            <guid>localhost:3000/podcast/susi-newborn-housing</guid>
             <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fighting to make the world a better place, with an unwavering commitment to addressing social justice and environmental issues locally and internationally. She sadly passed away on 31 Jan, 2023. 
 Here she speaks with Greg Treadwell in 2017 about island housing
 Photo credit: Diana Worth/STUFF]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3"/>
         </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Susi Newborn: The Environment]]></title>
-            <link>http://localhost:3000/podcast/susi-newborn-the-environment</link>
-            <guid>http://localhost:3000/podcast/susi-newborn-the-environment</guid>
+            <link>localhost:3000/podcast/susi-newborn-the-environment</link>
+            <guid>localhost:3000/podcast/susi-newborn-the-environment</guid>
             <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Susi Newborn was a self proclaimed "lunatic and activist". She spent every moment of her life fighting to make the world a better place, with an unwavering commitment to addressing social justice and environmental issues locally and internationally. She sadly passed away on 31 Jan, 2023. 
 Here she speaks at a 2015 Waitalks event about one of her great passions - the environment. 
 Photo credit: ABIGAIL DOUGHERTY/STUFF]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/WaiTalks-1-Susi-Newborn.mp3"/>
         </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Te Korowai o Waiheke rat trial update]]></title>
-            <link>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</link>
-            <guid>http://localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</guid>
+            <link>localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</link>
+            <guid>localhost:3000/podcast/te-korowai-o-waiheke-rat-trial-update</guid>
             <pubDate>Sat, 02 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Greg Treadwell talks to Owain Tanner from Te Korowai o Waiheke to get an update on the Oneroa rat eradication trial]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-01-12-2023-rat-trial-owain-tanner.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-01-12-2023-rat-trial-owain-tanner.mp3"/>
         </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Councillor Mike Lee]]></title>
-            <link>http://localhost:3000/podcast/councillor-mike-lee</link>
-            <guid>http://localhost:3000/podcast/councillor-mike-lee</guid>
+            <link>localhost:3000/podcast/councillor-mike-lee</link>
+            <guid>localhost:3000/podcast/councillor-mike-lee</guid>
             <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to councillor Mike Lee about the year since his re-election to Auckland Council and his decision to vote against the introduction of Māori wards.
 Photo credit: NZ Herald]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-mike-lee.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-mike-lee.mp3"/>
         </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Crop Swap]]></title>
-            <link>http://localhost:3000/podcast/crop-swap</link>
-            <guid>http://localhost:3000/podcast/crop-swap</guid>
+            <link>localhost:3000/podcast/crop-swap</link>
+            <guid>localhost:3000/podcast/crop-swap</guid>
             <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to Hadas Ore about Waiheke Crop Swap. Home gardeners come together to swap their excess produce and share gardening tips. ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-hadas-ore-crop-swap.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-hadas-ore-crop-swap.mp3"/>
         </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Caulerpa Rahui]]></title>
-            <link>http://localhost:3000/podcast/caulerpa-rahui</link>
-            <guid>http://localhost:3000/podcast/caulerpa-rahui</guid>
+            <link>localhost:3000/podcast/caulerpa-rahui</link>
+            <guid>localhost:3000/podcast/caulerpa-rahui</guid>
             <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Chris Walker talks to Blair Anderson, Pou Rahui Project Manager for Ngāti Pāoa, about the rahui placed by the iwi to prevent the spread of the invasive Caulerpa seaweed.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-blair-anderson-caulerpa-rahui.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Darleen Tana Elected To Parliament]]></title>
-            <link>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</link>
-            <guid>http://localhost:3000/podcast/darleen-tana-elected-to-parliament</guid>
-            <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Darleen Tana whio has just been elected to parliament as a Green list MP]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-21-10-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Librarian Fiona Kralicek Resigning]]></title>
-            <link>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</link>
-            <guid>http://localhost:3000/podcast/librarian-fiona-kralicek-resigning</guid>
-            <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Fiona Kralicek who has been the head librarian at Waiheke Community Library for 28 years.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-fiona-kralicek-library-20-10-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate]]></title>
-            <link>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</link>
-            <guid>http://localhost:3000/podcast/the-great-waiheke-radio-auckland-central-electorate-candidates-debate</guid>
-            <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Great Waiheke Radio Auckland Central Electorate Candidates Debate. Held at Artworks Theatre on Thurs 28 September, 2023. The candidates were Mahesh Muralidhar (National), Oscar Sims (Labour) and Chloe Swarbrick (Green). Facilitated by Chris Walker.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-candidates-debate-28-09-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Darleen Tana (Green) Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/darleen-tana-green-candidate-interview</guid>
-            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Darleen Tana, Green candidate for The Tamaki Makaurau Māori electorate]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-darleen-tana-23-09-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Hinurewa Te Hau (National) Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/hinurewa-te-hau-national-candidate-interview</guid>
-            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Hinurewa Te Hau, National Party candidate for the Tamaki Makaurau Māori electorate]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-hinurewa-te-hau-23-09-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Frank Lepera · Stoat Operations Manager Te Korowai o Waiheke]]></title>
-            <link>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</link>
-            <guid>http://localhost:3000/podcast/frank-lepera-stoat-operations-manager-te-korowai-o-waiheke</guid>
-            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Frank Lepera · Stoat Operations Manager at Te Korowai o Waiheke and gets an update on the progress in the project to eradicate stoats from the island.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-te-korowai-o-waiheke-29-09-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Waiheke Radio Election Coverage]]></title>
-            <link>http://localhost:3000/podcast/waiheke-radio-election-coverage</link>
-            <guid>http://localhost:3000/podcast/waiheke-radio-election-coverage</guid>
-            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Chris Walker about Waiheke Radio's 2023 general election coverage]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-election-coverage-23-09-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Damian Sycamore (TOP) candidate interview]]></title>
-            <link>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/damian-sycamore-top-candidate-interview</guid>
-            <pubDate>Thu, 21 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Damian Sycamore is a Waiheke Islander. He is standing for The Opportunities Party (TOP) in the Auckland Central electorate. He spoke to Chris Walker about how TOP policies would address local Waiheke issues.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-damian-sycamore-21-09-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Oscar Sims Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/oscar-sims-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/oscar-sims-candidate-interview</guid>
-            <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Oscar Sims, Labour candidate for Auckland Central]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-oscar-sims-16-09-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Mahesh Muralidhar Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/mahesh-muralidhar-candidate-interview</guid>
-            <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Mahesh Muralidhar, National candidate for Auckland Central]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-mahesh-muralidhar-16-09-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Peeni Henare Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/peeni-henare-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/peeni-henare-candidate-interview</guid>
-            <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Brent Simpson talks to Peeni Henare, Labour candidate for the Tamaki Makaurau electorate]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-peeni-henare-16-09-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Chloe Swarbrick Candidate Interview]]></title>
-            <link>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</link>
-            <guid>http://localhost:3000/podcast/chloe-swarbrick-candidate-interview</guid>
-            <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Chloe Swarbrick of the Green Party who is standing for re-election as the Auckland Central electorate MP.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Electorate-2023/island-life-04-09-2023-chloe-swarbrick.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Cath Handley on Auckland Budget Outcomes]]></title>
-            <link>http://localhost:3000/podcast/cath-handley-on-auckland-budget-outcomes</link>
-            <guid>http://localhost:3000/podcast/cath-handley-on-auckland-budget-outcomes</guid>
-            <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Cath Handley, Local Board chair, about the final outcome of the Auckland COuncil budget debate and the implications for Waiheke Island. ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-council-budget-cath-handley-01-07-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Entrust Power Consumer Dividend]]></title>
-            <link>http://localhost:3000/podcast/entrust-power-consumer-dividend</link>
-            <guid>http://localhost:3000/podcast/entrust-power-consumer-dividend</guid>
-            <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Densie Lee, Entrust trustee about the annual divident payment for Auckland energy account consumers. [https://www.entrustnz.co.nz/](https://www.entrustnz.co.nz/ "https://www.entrustnz.co.nz/")
-]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-entrust-dividend-denise-lee-30-06-2023.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Island Life 02 July 2016 Zara Strongman Sculpture On The Gulf]]></title>
-            <link>http://localhost:3000/podcast/island-life-02-july-2016-zara-strongman-sculpture-on-the-gulf</link>
-            <guid>http://localhost:3000/podcast/island-life-02-july-2016-zara-strongman-sculpture-on-the-gulf</guid>
-            <pubDate>Fri, 03 Jun 2016 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Sculpture On The Gulf director Zara Strongman about the announcement of the artists in the 2017 event.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2016/Island-Life-02-July-2016-Sculpture.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Volunteering For Sculpture On The Gulf]]></title>
-            <link>http://localhost:3000/podcast/volunteering-for-sculpture-on-the-gulf</link>
-            <guid>http://localhost:3000/podcast/volunteering-for-sculpture-on-the-gulf</guid>
-            <pubDate>Sun, 10 Feb 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Brent Simpson talks to Xan Hamilton, volunteer co-ordinator for Sculpture On the Gulf]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2019/island-life-sculpture-volunteers.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Live Lightly: Sustainable House Tour]]></title>
-            <link>http://localhost:3000/podcast/live-lightly-sustainable-house-tour</link>
-            <guid>http://localhost:3000/podcast/live-lightly-sustainable-house-tour</guid>
-            <pubDate>Fri, 07 Apr 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Darleen Tana, host of Living Lightly, a sustainable house tour, which is part of the 2023 Eco-Fest. [https://ourauckland.aucklandcouncil.govt.nz/events/2023/04/live-lightly-sustainable-house-tour-ecofest/](https://ourauckland.aucklandcouncil.govt.nz/events/2023/04/live-lightly-sustainable-house-tour-ecofest/)]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-06-04-23-sustainable-house.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Playwright Geoffrey Clendon: Rangitoto]]></title>
-            <link>http://localhost:3000/podcast/playwright-geoffrey-clendon-rangitoto</link>
-            <guid>http://localhost:3000/podcast/playwright-geoffrey-clendon-rangitoto</guid>
-            <pubDate>Sat, 11 Mar 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to playwright, director and producer Geoffrey Clendon about his play about the bach community on Rangitoto]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-03-23-Geoffrey-clendon-playwight.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Cath Handley: Auckland Council Budget Consultation ]]></title>
-            <link>http://localhost:3000/podcast/cath-handley-auckland-council-budget-consultation</link>
-            <guid>http://localhost:3000/podcast/cath-handley-auckland-council-budget-consultation</guid>
-            <pubDate>Sat, 11 Mar 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Waiheke Local Board chair Cath Handley about the Auckland Council budget consultation]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-03-23-auckland-budget-consultation.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Waiheke Homemade Chili Sauce Fest’ 2023]]></title>
-            <link>http://localhost:3000/podcast/waiheke-homemade-chili-sauce-fest-2023</link>
-            <guid>http://localhost:3000/podcast/waiheke-homemade-chili-sauce-fest-2023</guid>
-            <pubDate>Sat, 11 Mar 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Alan Knight about the upcoming Waiheke Homemade Chili Sauce Fest’ 2023]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-03-23-chili-sauce-fest.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Remembering Grant Bridger]]></title>
-            <link>http://localhost:3000/podcast/remembering-grant-bridger</link>
-            <guid>http://localhost:3000/podcast/remembering-grant-bridger</guid>
-            <pubDate>Sat, 11 Mar 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Grant Bridger passed away March 2023, we replay an excerpt from a 2019 interview with Grant from 2019 and play one of his songs]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-03-23-grant-bridger.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Junk To Funk 2023]]></title>
-            <link>http://localhost:3000/podcast/junk-to-funk-2023</link>
-            <guid>http://localhost:3000/podcast/junk-to-funk-2023</guid>
-            <pubDate>Sat, 29 Apr 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Kashmir Postel, producer of the environmental awareness fashion show Junk to Funk
-[Junk to Funk](https://www.eventfinda.co.nz/2023/junk-to-funk/auckland/waiheke-island?fbclid=IwAR3IpdbCWqVOo3zXp8up79SPj4KWyYcwgE1cN1MwjA98iAPrr9YG-d4Pny8)]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-29-04-23-junk-to-funk.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Noise Isle]]></title>
-            <link>http://localhost:3000/podcast/noise-isle</link>
-            <guid>http://localhost:3000/podcast/noise-isle</guid>
-            <pubDate>Sat, 29 Apr 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to members of Glass Cell, Death Valley Sweethearts  and  Body In the Forest about their upcoming show Noise Isle – featuring a track from each band]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-29-04-23-noise-isle.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Nikki Kaye On Island Life 30 05 09]]></title>
-            <link>http://localhost:3000/podcast/nikki-kaye-on-island-life-30-05-09</link>
-            <guid>http://localhost:3000/podcast/nikki-kaye-on-island-life-30-05-09</guid>
-            <pubDate>Sat, 30 May 2009 00:00:00 GMT</pubDate>
-            <description><![CDATA[Auckland Central MP Nikki Kaye is also on the select committee considering submissions on the government’s proposal on Auckland governance. She spoke to Chris about that process on Island Life on 30 May 2009.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Nikki-Kaye-Auckland-Governance-Island-Life-30-05-09.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Cath Handley Takes On The Local Board Chair Role]]></title>
-            <link>http://localhost:3000/podcast/cath-handley-takes-on-the-local-board-chair-role</link>
-            <guid>http://localhost:3000/podcast/cath-handley-takes-on-the-local-board-chair-role</guid>
-            <pubDate>Sat, 07 Apr 2018 00:00:00 GMT</pubDate>
-            <description><![CDATA[Cath Handley joins Chris Walker on Island Life on 7 April 2018 to talk about taking over the chair role on the Waiheke Local Board. ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/candidate-interviews/Cath-Handley-07-April-2018.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Rat Attack: Punk Rock At Onetangi 5 Nov]]></title>
-            <link>http://localhost:3000/podcast/rat-attack-punk-rock-at-onetangi-5-nov</link>
-            <guid>http://localhost:3000/podcast/rat-attack-punk-rock-at-onetangi-5-nov</guid>
-            <pubDate>Sat, 29 Oct 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[A couple of weeks ago Greg Treadwell talked about rat eradication. This week he is talking Rat Attack, a preview of a local punk rock gig coming up at Onetangi Hall on Sat 5 Nov, featuring Lunatic Soup, Cardiac De Ville and Glass Cell. https://www.undertheradar.co.nz/gig/81265/Rat-Attack-Waiheke!-Glass-Cell-Cardiac-De-Ville-And-Lunatic-Soup.utr]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-rat-attack-29-Oct-2022.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Post Election Special: Results  and  Interviews]]></title>
-            <link>http://localhost:3000/podcast/post-election-special-results-and-interviews</link>
-            <guid>http://localhost:3000/podcast/post-election-special-results-and-interviews</guid>
-            <pubDate>Sun, 09 Oct 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell and Chris Walker discuss the results of the 2022 local body election and speak with successful local board candidates Kylee Matthews  and  Cath Handley. We also talk to the new Waitemata and Gulf Islands councillor Mike Lee. ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/IslandLifePostElection2022.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Rat Eradication: Markus Gronwald Of Te Korowai O Waiheke]]></title>
-            <link>http://localhost:3000/podcast/rat-eradication-markus-gronwald-of-te-korowai-o-waiheke-2</link>
-            <guid>http://localhost:3000/podcast/rat-eradication-markus-gronwald-of-te-korowai-o-waiheke-2</guid>
-            <pubDate>Sat, 24 Sep 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Markus Gronwald, rat eradication operations manager of Te Korowai of Waiheke https://tekorowaiowaiheke.org/rats-and-resources]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-24-09-22-te-korowai-o-waiheke.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Barry Danby  and  Stuart Jobling Art Exhibition ]]></title>
-            <link>http://localhost:3000/podcast/barry-danby-and-stuart-jobling-art-exhibition</link>
-            <guid>http://localhost:3000/podcast/barry-danby-and-stuart-jobling-art-exhibition</guid>
-            <pubDate>Sat, 24 Sep 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Barry Danby about his joint art exhibition with his partner Stuart Jobling at Gallery Anomalous in Surfdale from 23 Sept to 9 Oct. https://artisphere.co.nz/blog/stuart-and-barry]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-24-09-22-barry-danby-artist.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Waiheke High School Media Studies Teacher]]></title>
-            <link>http://localhost:3000/podcast/waiheke-high-school-media-studies-teacher</link>
-            <guid>http://localhost:3000/podcast/waiheke-high-school-media-studies-teacher</guid>
-            <pubDate>Sat, 20 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Waiheke High School Media Studies Teacher, Brent Simpson ahead ofthe school’s open day]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-21-08-22-waiheke-high.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[History Book, Waiheke Pioneers, Republished]]></title>
-            <link>http://localhost:3000/podcast/history-book-waiheke-pioneers-republished</link>
-            <guid>http://localhost:3000/podcast/history-book-waiheke-pioneers-republished</guid>
-            <pubDate>Sat, 19 Nov 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks tp Mark James from the Waiheke Island Historical Society about the revision and republication of Dixie Day’s book Waiheke Pioneers. http://intronvaria.com/waihekemuseum/]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-19-11-22-waiheke-pioneers.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Local Board Chair Cath Handley]]></title>
-            <link>http://localhost:3000/podcast/local-board-chair-cath-handley-2</link>
-            <guid>http://localhost:3000/podcast/local-board-chair-cath-handley-2</guid>
-            <pubDate>Sat, 19 Nov 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to newly re-elected local board chair Cath Handley]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-19-11-22-cath-handley.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Rat Eradication: Markus Gronwald Of Te Korowai O Waiheke]]></title>
-            <link>http://localhost:3000/podcast/rat-eradication-markus-gronwald-of-te-korowai-o-waiheke</link>
-            <guid>http://localhost:3000/podcast/rat-eradication-markus-gronwald-of-te-korowai-o-waiheke</guid>
-            <pubDate>Sat, 15 Oct 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Markus Gronwald, rat eradication operations manager of Te Korowai of Waiheke https://tekorowaiowaiheke.org/rats-and-resources]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/island-life-15-10-22-te-korowai-rats.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Murder At Waiheke Library]]></title>
-            <link>http://localhost:3000/podcast/murder-at-waiheke-library</link>
-            <guid>http://localhost:3000/podcast/murder-at-waiheke-library</guid>
-            <pubDate>Sat, 13 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Rhiannon Beolens about an upcomimng Whodunnit event at  Waiheke Library https://www.facebook.com/events/618580746448883/  ]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/IL130822RhiannonLibrary.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Dairy Doco Milked Screens On Waiheke]]></title>
-            <link>http://localhost:3000/podcast/dairy-doco-milked-screens-on-waiheke</link>
-            <guid>http://localhost:3000/podcast/dairy-doco-milked-screens-on-waiheke</guid>
-            <pubDate>Sat, 13 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to film maker Amy Taylor about dairy doc Milked that will screen at Waiheke Cinema Sat 20 Aug. https://milked.film/]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/IL130822Milked.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[The Keys Are In The Margarine]]></title>
-            <link>http://localhost:3000/podcast/the-keys-are-in-the-margarine</link>
-            <guid>http://localhost:3000/podcast/the-keys-are-in-the-margarine</guid>
-            <pubDate>Sat, 13 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks with Cindy Diver who is brining the verbatim theatre play The keys Are In The Margarine to Waiheke 2-4 Sept. The play presents the words and stories of those living with dementia. https://www.artworkstheatre.org.nz/events/the-keys-are-in-the-margarine]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/IL130822KeysMargarine.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Whakanewha Dolphin Stranding]]></title>
-            <link>http://localhost:3000/podcast/whakanewha-dolphin-stranding</link>
-            <guid>http://localhost:3000/podcast/whakanewha-dolphin-stranding</guid>
-            <pubDate>Sat, 13 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talk to Darleen Tana Hoff-Nielsen about the starnding of Dolphins at Whakanewha on Fri 12 Aug and the community response.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/IL130822DarleenTanaDolphins.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[The Great Waiheke Radio Local Board Candidates Debate 2022]]></title>
-            <link>http://localhost:3000/podcast/the-great-waiheke-radio-local-board-candidates-debate-2022</link>
-            <guid>http://localhost:3000/podcast/the-great-waiheke-radio-local-board-candidates-debate-2022</guid>
-            <pubDate>Wed, 14 Sep 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hear all of Waiheke Radio’s Local Board election coverage here.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2022/CandidatesDebate2022.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Wind In The Willows]]></title>
-            <link>http://localhost:3000/podcast/wind-in-the-willows</link>
-            <guid>http://localhost:3000/podcast/wind-in-the-willows</guid>
-            <pubDate>Sat, 23 Nov 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to Andy Spence about the upcoming theatre performance of Wind In The Willows]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2021/island-life-wind-in-the-willows.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Save Kennedy Point Lose Supreme Court Appeal]]></title>
-            <link>http://localhost:3000/podcast/save-kennedy-point-lose-supreme-court-appeal</link>
-            <guid>http://localhost:3000/podcast/save-kennedy-point-lose-supreme-court-appeal</guid>
-            <pubDate>Sat, 01 May 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Sebastian Cassie from Save Kennedy Point about the ruling against their last ditch Supreme Court Appeal against the Kennedy Point Marina http://www.skp.org.nz/]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2021/island-life-sebastian-cassie-skp-01-05-21.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Nga Uri O Ngati Paoa Occupation Of Putiki Bay ]]></title>
-            <link>http://localhost:3000/podcast/nga-uri-o-ngati-paoa-occupation-of-putiki-bay</link>
-            <guid>http://localhost:3000/podcast/nga-uri-o-ngati-paoa-occupation-of-putiki-bay</guid>
-            <pubDate>Sat, 01 May 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Emily Māia Weiss and Kaiwai Rhind from Nga Uri O Ngati Paoa about their occupation of Putiki Bay against the Kennedy Point Marina https://www.facebook.com/protectputiki]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2021/island-life-nga-uri-o-ngati-paoa-01-05-21.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Ngati Paoa Trust Board ]]></title>
-            <link>http://localhost:3000/podcast/ngati-paoa-trust-board</link>
-            <guid>http://localhost:3000/podcast/ngati-paoa-trust-board</guid>
-            <pubDate>Sat, 01 May 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to co-chair of the Ngati Paoa Trust Board, Danella Roebeck, and Karla Allies about the Ngati Paoa treaty settlement, Kennedy Point Marina and Ahi Kā. https://www.ngatipaoatrustboard.co.nz/]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2021/island-life-ngati-paoa-trust-board-01-05-21.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Lunch In Jassy’s Gardens ]]></title>
-            <link>http://localhost:3000/podcast/lunch-in-jassys-gardens</link>
-            <guid>http://localhost:3000/podcast/lunch-in-jassys-gardens</guid>
-            <pubDate>Sat, 13 Nov 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Annie Porter who has just written a cook book that celebrates and is inspired by some of the beautiful Waiheke gardens that have featured in The Jassy Dean Trust’s annual garden festival. Proceeds from the book go to the trust, which provides financial support for Waiheke kids with health needs.
-
-Buy a copy of the book, and learn more about the Jassy Dean Trust here https://jassydeantrust.org/what-s-on]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2021/Island-life-lunch-jassy-garden-nov21.mp3" length="4123456" type="audio/mpeg"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Film Maker Kayla Hamilton]]></title>
-            <link>http://localhost:3000/podcast/film-maker-kayla-hamilton</link>
-            <guid>http://localhost:3000/podcast/film-maker-kayla-hamilton</guid>
-            <pubDate>Sat, 27 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greg Treadwell talks to local film maker Kayla Hamilton about her short film Kahurangi, which is screening at the upcoming Maori Film Festival]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2021/island-life-kayla-hamilton-27-03-21.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-blair-anderson-caulerpa-rahui.mp3"/>
         </item>
     </channel>
 </rss>

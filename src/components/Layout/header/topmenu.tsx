@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Search from"@/src/components/Layout/components/search/search"
+import { FaSearch, FaTimes } from "react-icons/fa";
+
 const TopMenu = ({ data, toggleNavbar }) => {
  
 
@@ -9,12 +11,31 @@ const TopMenu = ({ data, toggleNavbar }) => {
   const [callus, setCallus] = useState<any>([]);
   const [phoneNumber, setPhoneNumber] = useState();
   const [linkUrl, setLinkUrl] = useState();
+  const [showSearchOverlay, setShowSearchOverlay] = useState(false);
 
   useEffect(() => {
-
       setTopNav(data.menuCollection.items[0].linksCollection.items);
-      
   }, []);
+
+  useEffect(() => {
+    const handleEscapeKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setShowSearchOverlay(false);
+      }
+    };
+
+    if (showSearchOverlay) {
+      document.addEventListener('keydown', handleEscapeKey);
+      document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscapeKey);
+      document.body.style.overflow = 'unset';
+    };
+  }, [showSearchOverlay]);
 
   return (
     <>
@@ -46,6 +67,17 @@ const TopMenu = ({ data, toggleNavbar }) => {
           );
         })}
       </ul>
+      {/* Search Icon */}
+      <div className="search-icon-wrapper">
+        <button 
+          className="search-icon-btn"
+          onClick={() => setShowSearchOverlay(true)}
+          aria-label="Open search"
+        >
+{(FaSearch as any)({ size: 25 })}
+        </button>
+      </div>
+      
       {/* phone number  */}
       <div className="others-option">
         <div className="call-us">
@@ -58,6 +90,29 @@ const TopMenu = ({ data, toggleNavbar }) => {
 
       </div>
     
+      {/* Search Overlay */}
+      {showSearchOverlay && (
+        <div 
+          className="search-overlay"
+          onClick={() => setShowSearchOverlay(false)}
+        >
+          <div 
+            className="search-overlay-content"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button 
+              className="search-close-btn"
+              onClick={() => setShowSearchOverlay(false)}
+              aria-label="Close search"
+            >
+{(FaTimes as any)({ size: 24 })}
+            </button>
+            <div className="search-container">
+              <Search />
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 };

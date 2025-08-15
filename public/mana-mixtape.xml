@@ -14,82 +14,92 @@
 <itunes:keywords>Mana Mixtape Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
 <itunes:author>Waiheke Radio</itunes:author>
 
-<atom:link href="http://localhost:3000/mana-mixtape.xml" type="application/rss+xml"  rel="self" />
+<atom:link href="localhost:3000/mana-mixtape.xml" type="application/rss+xml"  rel="self" />
         <title>Mana Mixtape</title>
-        <link>http://localhost:3000</link>
+        <link>localhost:3000</link>
         <description>Arts, culture, events and interesting people on Waiheke Island</description>
-        <lastBuildDate>Sun, 18 Feb 2024 02:04:33 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Aug 2025 04:20:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>Mana Mixtape</title>
             <url>https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707163593/RSS%20Feeds/mana-mixtape_csyvyi-Square_oynlgj.jpg</url>
-            <link>http://localhost:3000</link>
+            <link>localhost:3000</link>
         </image>
-        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <copyright>All rights reserved 2025, Waiheke Radio</copyright>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Dub Penguins]]></title>
+            <link>localhost:3000/podcast/dub-penguins</link>
+            <guid>localhost:3000/podcast/dub-penguins</guid>
+            <pubDate>Fri, 16 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Interview with Lalo Con L of "Dub Penguins" about the band and Julanne Astarte Luz organizer of the upcoming fundraiser "Move for Moana 3" and it's Kaupapa. 
+]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/2024-02-16-Dub-Penguins.mp3"/>
+        </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Interview with Susi Newborn Sept 2023]]></title>
-            <link>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</link>
-            <guid>http://localhost:3000/podcast/interview-with-susi-newborn-sept-2023</guid>
+            <link>localhost:3000/podcast/interview-with-susi-newborn-sept-2023</link>
+            <guid>localhost:3000/podcast/interview-with-susi-newborn-sept-2023</guid>
             <pubDate>Thu, 04 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Interview with Susi Newborn from 22nd of September 2023 where she talks about being a protector, family, the history behind the rainbow warrior. It was such a honour to have Susi in Studio for this interview, she will be fondly remembered and missed by everyone whose life she touched.]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/koro-susi-newborn-interview-2023.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/koro-susi-newborn-interview-2023.mp3"/>
         </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Mana Mixtape interview with Teyo]]></title>
-            <link>http://localhost:3000/podcast/mana-mixtape-interview-with-teyo</link>
-            <guid>http://localhost:3000/podcast/mana-mixtape-interview-with-teyo</guid>
+            <link>localhost:3000/podcast/mana-mixtape-interview-with-teyo</link>
+            <guid>localhost:3000/podcast/mana-mixtape-interview-with-teyo</guid>
             <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Koro talks to Italian rapper Teyo]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/231208_TeyoRap.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/231208_TeyoRap.mp3"/>
         </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Maia Piata Rose Week on the Maramataka]]></title>
-            <link>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</link>
-            <guid>http://localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</guid>
+            <link>localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</link>
+            <guid>localhost:3000/podcast/maia-piata-rose-week-on-the-maramataka</guid>
             <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Koro talks to Maia Piata Rose Week about the Maramataka. Follow Maia on Instagram https://www.instagram.com/maia_moomies/]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-maia-maramataka-06-10-2023.mp3"/>
         </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Great Big Rescued Food Cook Off 2023]]></title>
-            <link>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</link>
-            <guid>http://localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</guid>
+            <link>localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</link>
+            <guid>localhost:3000/podcast/the-great-big-rescued-food-cook-off-2023</guid>
             <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Koro talks to to Laura lynch and kayleigh Appleton from the Waiheke Resources Trust about The Great Big Rescued Food Cokk Off being held on 18 Oct 2023
 Photo credit: Waiheke Gulf News]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-06-10-2023-food-rescue-cook-off.mp3"/>
         </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[The Planters Live On Air ]]></title>
-            <link>http://localhost:3000/podcast/the-planters-live-on-air</link>
-            <guid>http://localhost:3000/podcast/the-planters-live-on-air</guid>
+            <link>localhost:3000/podcast/the-planters-live-on-air</link>
+            <guid>localhost:3000/podcast/the-planters-live-on-air</guid>
             <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[The Planters, Live on Waiheke Radio 25/08/2023]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/The%20Planters-Biodiversity-and-Jamming-out-Live-on-air-25-08-2023.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/The%20Planters-Biodiversity-and-Jamming-out-Live-on-air-25-08-2023.mp3"/>
         </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Darleen Tana Interview]]></title>
-            <link>http://localhost:3000/podcast/darleen-tana-interview</link>
-            <guid>http://localhost:3000/podcast/darleen-tana-interview</guid>
+            <link>localhost:3000/podcast/darleen-tana-interview</link>
+            <guid>localhost:3000/podcast/darleen-tana-interview</guid>
             <pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Koro Sciascia talks to Darleen Tana]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/Darleen-Tana-interview-Mana-Mixtape.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/Darleen-Tana-interview-Mana-Mixtape.mp3"/>
         </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Matariki at Artworks Theatre: Kahmir Postel]]></title>
-            <link>http://localhost:3000/podcast/matariki-at-artworks-theatre-kahmir-postel</link>
-            <guid>http://localhost:3000/podcast/matariki-at-artworks-theatre-kahmir-postel</guid>
+            <link>localhost:3000/podcast/matariki-at-artworks-theatre-kahmir-postel</link>
+            <guid>localhost:3000/podcast/matariki-at-artworks-theatre-kahmir-postel</guid>
             <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Koro Sciascia talks to Kashmir Postel from Artworks Theatre about their 2023 Matariki programme]]></description>
-            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-matariki-kashmir-postel-30-06-2023.mp3" length="4123456" type="audio/mpeg"/>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/mana-mixtape/mana-mixtape-matariki-kashmir-postel-30-06-2023.mp3"/>
         </item>
     </channel>
 </rss>

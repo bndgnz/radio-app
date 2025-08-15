@@ -2,8 +2,12 @@
   "name": "wr",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "dev": "next dev",
+    "dev:clean": "rm -rf .next && next dev",
     "go": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
@@ -16,7 +20,7 @@
     "@contentful/live-preview": "^2.9.5",
     "@contentful/rich-text-html-renderer": "^15.13.1",
     "@google-cloud/local-auth": "^2.1.0",
-    "@types/node": "18.11.9",
+    "ably": "^2.11.0",
     "algoliasearch": "^4.14.3",
     "apollo-boost": "^0.4.9",
     "eslint": "8.28.0",
@@ -26,7 +30,7 @@
     "gapi-script": "^1.2.0",
     "googleapis": "^105.0.0",
     "graphql": "^15.0.0",
-    "next": "^12.0.7",
+    "next": "^12.3.4",
     "next-absolute-url": "^1.2.2",
     "next-share": "^0.27.0",
     "nextjs-current-url": "^1.0.3",
@@ -34,7 +38,7 @@
     "react-accessible-accordion": "^5.0.0",
     "react-audio-player": "^0.17.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.0.1",
+    "react-icons": "^5.5.0",
     "react-instantsearch-dom": "^6.38.1",
     "react-markdown": "^8.0.7",
     "react-modal-video": "^1.2.10",
@@ -44,11 +48,11 @@
     "sass": "^1.56.1",
     "swr": "^2.0.3",
     "typescript": "4.9.3",
-    "vercel": "^24.2.4"
+    "vercel": "^45.0.9"
   },
   "devDependencies": {
     "@contentful/rich-text-react-renderer": "^15.16.2",
-    "@types/node": "18.0.00",
+    "@types/node": "20.11.0",
     "@types/react": "^18.0.2",
     "@types/react-dom": "^17.0.2",
     "contentful": "^9.2.12",
