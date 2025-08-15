@@ -20,15 +20,13 @@ import {
   gql,
 } from "@apollo/client";
 
-const dataEnvironment = process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT;
- 
+const dataEnvironment = process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT || 'master';
+const spaceId = process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID;
+const accessToken = process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN;
 
 function MyApp({ Component, pageProps, data }) {
   const client = new ApolloClient({
-    uri:
-      "https://graphql.contentful.com/content/v1/spaces/muwn01agnrp5/environments/" +
-      dataEnvironment +
-      "?access_token=69d7oeasRdTU7_W9K2x9IS8bO2r53ln1vzZyFMTKLAA",
+    uri: `https://graphql.contentful.com/content/v1/spaces/${spaceId}/environments/${dataEnvironment}?access_token=${accessToken}`,
     cache: new InMemoryCache(),
   });
   return (

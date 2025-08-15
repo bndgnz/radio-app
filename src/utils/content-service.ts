@@ -1,4 +1,4 @@
-import { createClient } from "contentful";
+import { createClient, ContentfulClientApi } from "contentful";
 import { config } from "dotenv";
 import { ILandingPageFields } from "../@types/contentful";
 import { IShowsFields } from "../@types/contentful";
@@ -16,6 +16,9 @@ export default class ContentService {
     return new ContentService();
   }
 
+  client: ContentfulClientApi;
+  previewClient: ContentfulClientApi;
+
   constructor() {
     const requiredEnvVars = [
       'CONTENTFUL_SPACE_ID',
@@ -27,20 +30,20 @@ export default class ContentService {
     if (missingEnvVars.length > 0) {
       throw new Error(`Missing required environment variables: ${missingEnvVars.join(', ')}`);
     }
+
+    this.client = createClient({
+      space: process.env.CONTENTFUL_SPACE_ID!,
+      accessToken: process.env.CONTENTFUL_ACCESS_TOKEN!,
+      environment: process.env.CONTENTFUL_ENVIRONMENT || 'master',
+    });
+
+    this.previewClient = createClient({
+      space: process.env.CONTENTFUL_SPACE_ID!,
+      accessToken: process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN || process.env.CONTENTFUL_ACCESS_TOKEN!,
+      environment: process.env.CONTENTFUL_ENVIRONMENT || 'master',
+      host: 'preview.contentful.com',
+    });
   }
-
-  client = createClient({
-    space: process.env.CONTENTFUL_SPACE_ID!,
-    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN!,
-    environment: process.env.CONTENTFUL_ENVIRONMENT || 'master',
-  });
-
-  previewClient = createClient({
-    space: process.env.CONTENTFUL_SPACE_ID!,
-    accessToken: process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN || process.env.CONTENTFUL_ACCESS_TOKEN!,
-    environment: process.env.CONTENTFUL_ENVIRONMENT || 'master',
-    host: 'preview.contentful.com',
-  });
 
   async getLandingPageBySlug(slug: string, preview=false) {
  
