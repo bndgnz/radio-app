@@ -16,19 +16,30 @@ export default class ContentService {
     return new ContentService();
   }
 
+  constructor() {
+    const requiredEnvVars = [
+      'CONTENTFUL_SPACE_ID',
+      'CONTENTFUL_ACCESS_TOKEN'
+    ];
 
-
+    const missingEnvVars = requiredEnvVars.filter(envVar => !process.env[envVar]);
+    
+    if (missingEnvVars.length > 0) {
+      throw new Error(`Missing required environment variables: ${missingEnvVars.join(', ')}`);
+    }
+  }
 
   client = createClient({
-    space: process.env.CONTENTFUL_SPACE_ID,
-    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-    environment:  process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT,
+    space: process.env.CONTENTFUL_SPACE_ID!,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN!,
+    environment: process.env.CONTENTFUL_ENVIRONMENT || 'master',
   });
 
   previewClient = createClient({
-    space: process.env.CONTENTFUL_SPACE_ID,
-    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-    environment:  process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT,
+    space: process.env.CONTENTFUL_SPACE_ID!,
+    accessToken: process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN || process.env.CONTENTFUL_ACCESS_TOKEN!,
+    environment: process.env.CONTENTFUL_ENVIRONMENT || 'master',
+    host: 'preview.contentful.com',
   });
 
   async getLandingPageBySlug(slug: string, preview=false) {

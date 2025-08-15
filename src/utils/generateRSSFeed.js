@@ -106,11 +106,18 @@ export default async function generateRssFeed(props) {
       };
       
       // Only add enclosure if amazonUrl exists and is a valid URL
-      if (post.fields.amazonUrl && typeof post.fields.amazonUrl === 'string' && post.fields.amazonUrl.startsWith('http')) {
-        itemData.enclosure = {
-          url: post.fields.amazonUrl,
-          type: 'audio/mpeg'
-        };
+      if (post.fields.amazonUrl && typeof post.fields.amazonUrl === 'string') {
+        try {
+          // Validate URL by attempting to create URL object
+          new URL(post.fields.amazonUrl);
+          itemData.enclosure = {
+            url: post.fields.amazonUrl,
+            type: 'audio/mpeg'
+          };
+        } catch (error) {
+          console.warn(`Invalid URL for podcast ${post.fields.title}: ${post.fields.amazonUrl}`);
+          // Skip adding enclosure for invalid URLs
+        }
       }
       
       feed.addItem(itemData);
