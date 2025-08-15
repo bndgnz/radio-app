@@ -20,6 +20,7 @@
     "@contentful/live-preview": "^2.9.5",
     "@contentful/rich-text-html-renderer": "^15.13.1",
     "@google-cloud/local-auth": "^2.1.0",
+    "ably": "^2.11.0",
     "algoliasearch": "^4.14.3",
     "apollo-boost": "^0.4.9",
     "eslint": "8.28.0",
@@ -29,7 +30,7 @@
     "gapi-script": "^1.2.0",
     "googleapis": "^105.0.0",
     "graphql": "^15.0.0",
-    "next": "^12.0.7",
+    "next": "^12.3.4",
     "next-absolute-url": "^1.2.2",
     "next-share": "^0.27.0",
     "nextjs-current-url": "^1.0.3",
@@ -47,7 +48,7 @@
     "sass": "^1.56.1",
     "swr": "^2.0.3",
     "typescript": "4.9.3",
-    "vercel": "^24.2.4"
+    "vercel": "^45.0.9"
   },
   "devDependencies": {
     "@contentful/rich-text-react-renderer": "^15.16.2",

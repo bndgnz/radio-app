@@ -923,6 +923,9 @@ export interface IShowsFields {
 
   rss?: boolean | undefined;
 
+  /** Chat */
+  chat?: boolean | undefined;
+
   /** Components */
   components?:
     | (
