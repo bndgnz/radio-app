@@ -85,7 +85,7 @@ function Schedule(props: any) {
   }
   var day = null;
 
- console.log(data)
+ 
 
   const weekday = [
     "Sunday",

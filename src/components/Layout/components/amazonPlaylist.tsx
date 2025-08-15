@@ -4,8 +4,7 @@ import Link from "next/link";
 
 function AmazonPlaylist(props: any) {
   const id = props.id;
- 
- 
+
   const PLAYLIST = gql`
     query GetPLaylist($id: String!) {
       amazonPlaylist(id: $id) {
@@ -18,7 +17,9 @@ function AmazonPlaylist(props: any) {
             podcastImage
             date
             slug
-            show{title}
+            show {
+              title
+            }
           }
         }
       }
@@ -33,9 +34,6 @@ function AmazonPlaylist(props: any) {
   if (error) {
     return <div></div>;
   }
-
-
-console.log(data)
 
   function Date(date: any) {
     let year = date.date.substring(0, 4);
@@ -73,7 +71,8 @@ console.log(data)
             <div className="col-lg-4 col-xs-12">
               {" "}
               <div className="amazonplaylist-audio">
-                {" "} <p>
+                {" "}
+                <p>
                   {" "}
                   <b>Show:</b>{" "}
                   <a
@@ -83,7 +82,13 @@ console.log(data)
                     <strong>{podcast.show.title}</strong>
                   </a>{" "}
                 </p>
-                <audio controls src={podcast.amazonUrl} id={podcast.show.title.replaceAll(" ","-")+"-"+podcast.slug}>
+                <audio
+                  controls
+                  src={podcast.amazonUrl}
+                  id={
+                    podcast.show.title.replaceAll(" ", "-") + "-" + podcast.slug
+                  }
+                >
                   Your browser does not support the
                   <code>audio</code> element.
                 </audio>
@@ -95,7 +100,6 @@ console.log(data)
       }
     );
 
-    
     return <div> {listOfItems}</div>;
   }
 

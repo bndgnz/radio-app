@@ -7,14 +7,31 @@ function LatestPodcasts(props: any) {
   const GETCOMPONENT = gql`
     query GetPodcast($id: String!) {
       latestPodcasts(id: $id) {
+   
         title
         showTitle
         numberToShow
+        showFeatured
+ 
+        featuredPodcast {
+          title
+          description
+          slug
+          amazonUrl
+          podcastImage
+          date
+          show {
+            title
+            slug
+          }
+        }
         filterByShow {
           title
         }
       }
     }
+     
+    
   `;
 
   const { data, loading, error } = useQuery(GETCOMPONENT, {
@@ -34,14 +51,48 @@ function LatestPodcasts(props: any) {
     filter = "";
   }
 
+console.log(data)
+   
+ if (data.latestPodcasts.showFeatured == true && data.latestPodcasts.featuredPodcast!==null ) { 
+
+
   return (
     <Latestlist
       filter={filter}
       limit={data.latestPodcasts.numberToShow}
       showtitle={data.latestPodcasts.showTitle}
       title={data.latestPodcasts.title}
+      showFeatured={data.latestPodcasts.showFeatured}
+      featuredPodcastTitle={data.latestPodcasts.featuredPodcast.title}
+      featuredPodcastSlug={data.latestPodcasts.featuredPodcast.slug}
+      featuredPodcastUrl={data.latestPodcasts.featuredPodcast.amazonUrl}
+      featuredPodcastDate={data.latestPodcasts.featuredPodcast.date}
+      featuredPodcastImage={
+        data.latestPodcasts.featuredPodcast.podcastImage[0].secure_url
+      }
+      featuredPodcastShowSlug={data.latestPodcasts.featuredPodcast.show.slug}
+      featuredPodcastShowTitle={data.latestPodcasts.featuredPodcast.show.title}
+      featuredPodcastDescription={data.latestPodcasts.featuredPodcast.description}
     />
   );
+    }
+    else {return (
+      <Latestlist
+        filter={filter}
+        limit={data.latestPodcasts.numberToShow}
+        showtitle={data.latestPodcasts.showTitle}
+        title={data.latestPodcasts.title}
+        
+      />
+    );
+
+
+
+
+    }
+
+
+
 }
 
 export default LatestPodcasts;

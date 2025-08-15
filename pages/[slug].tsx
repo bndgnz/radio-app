@@ -25,6 +25,9 @@ const LandingPage: NextPage<Props> = ({
 }) => (
   <>
 <Seo title={title} description={introduction} /> 
+
+
+ 
   <Layout
       title={title}
       image={cloudinaryImage[0].secure_url}
@@ -51,6 +54,8 @@ export const getStaticProps: GetStaticProps<Props, { slug: string }> = async (
   ctx
 ) => {
   const { slug } = ctx.params!;
+
+
  
   const landingPage = await ContentService.instance.getLandingPageBySlug(slug);
   if (!landingPage) {

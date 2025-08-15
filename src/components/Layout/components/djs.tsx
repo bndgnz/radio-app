@@ -25,7 +25,7 @@ function Djs(props: any) {
     return <div></div>;
   }
 
-  return <Stafflist type={data} />;
+  return <> <Stafflist type={data} /></>;
 }
 
 export default Djs;

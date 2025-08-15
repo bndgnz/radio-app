@@ -50,7 +50,7 @@ function Shows(props: any) {
       );
       const driveLink2 = driveLink1.replace(
         "/view?usp=share_link",
-        "?alt=media&key=AIzaSyAOiHW72zzRZmVNDcGXivXXfJYM75jVOfw"
+        `?alt=media&key=${process.env.REACT_APP_GOOGLE_DRIVE_API_KEY}`
       );
 
       return (

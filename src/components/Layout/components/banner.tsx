@@ -142,7 +142,7 @@ function About(props: any) {
             </div>
           </div>
         </div>
-      </div>
+      </div> 
 
       {/* If you want change the video need to update below videoID */}
       {typeof window !== "undefined" && (

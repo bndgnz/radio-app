@@ -31,7 +31,7 @@ function GenerateSiteMap() {
     return <div></div>;
   }
 
-  console.log(data);
+ 
   const base = "https://waihekeradio.org.nz";
 
   return `<?xml version="1.0" encoding="UTF-8"?>

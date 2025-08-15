@@ -1,7 +1,16 @@
 module.exports = {
-  
   images: {
     domains: ['res.cloudinary.com'], 
+  },
+  webpack: (config, { dev }) => {
+    if (dev) {
+      config.watchOptions = {
+        poll: 1000,
+        aggregateTimeout: 300,
+        ignored: ['**/node_modules', '**/.git', '**/.next', 'C:/DumpStack.log.tmp', 'C:/hiberfil.sys', 'C:/swapfile.sys', 'C:/pagefile.sys']
+      }
+    }
+    return config
   },
   async headers() {
     return [

@@ -12,10 +12,13 @@ import FilteredPlaylist from "@/src/components/Layout/components/filteredAmazonP
 import Listresolver from "@/src/utils/helpers/listResolver";
 import PageContent from "@/src/components/Layout/components/introAndContent";
 import AmazonPodcast from "@/src/components/Layout/components/amazonPodcast";
- 
+import DjById from "./djbyid"; 
 
 
 function Content(props: any) {
+ 
+console.log(">>>>>>>>>>>>>",props)
+
   if (props.props.allProps.showContent == true) {
     return (
       <section className="playlist container page-block amazon-playlist">
@@ -33,6 +36,8 @@ function Content(props: any) {
 function renderComponents(props: any) {
   function Sorter(id, item) {
     const type = id.id.toLowerCase();
+ console.log(type)
+
       switch (type) {
         case "list":
           return <Listresolver props={id.item} />;
@@ -63,7 +68,10 @@ function renderComponents(props: any) {
           return <Playlist id={id.item} />;
         case "message":
           return <Message id={id.item} />;
-        default:
+
+        case "djbyid":
+          return <DjById id={id.item} />;
+          default:
           return null;
       }
   }
@@ -71,6 +79,8 @@ function renderComponents(props: any) {
   function Components() {
     if (props.components) {
       return props.components.map((component, idx) => {
+console.log(component.sys.contentType)
+
         if (component.sys.contentType != undefined) {
           return (
             <Sorter
