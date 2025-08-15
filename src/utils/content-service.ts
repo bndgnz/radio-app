@@ -1,4 +1,4 @@
-import { createClient } from "contentful";
+import { createClient, ContentfulClientApi } from "contentful";
 import { config } from "dotenv";
 import { ILandingPageFields } from "../@types/contentful";
 import { IShowsFields } from "../@types/contentful";
@@ -16,8 +16,8 @@ export default class ContentService {
     return new ContentService();
   }
 
-  client: any;
-  previewClient: any;
+  client: ContentfulClientApi;
+  previewClient: ContentfulClientApi;
 
   constructor() {
     const requiredEnvVars = [
