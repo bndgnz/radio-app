@@ -224,7 +224,7 @@ const ChatOverlayDemo: React.FC<ChatOverlayDemoProps> = ({ showSlug, isVisible, 
     return (
       <div className="chat-toggle">
         <button onClick={onToggle} className="chat-toggle-btn">
-          <FaComments />
+          {(FaComments as any)({})}
           <span>Live Chat (Demo)</span>
         </button>
         
@@ -274,14 +274,14 @@ const ChatOverlayDemo: React.FC<ChatOverlayDemoProps> = ({ showSlug, isVisible, 
         {/* Header */}
         <div className="chat-header">
           <div className="chat-title">
-            <FaComments />
+            {(FaComments as any)({})}
             <span>Live Chat (Demo)</span>
             <div className="connection-status connected">
               ● Demo Mode
             </div>
           </div>
           <button onClick={onToggle} className="close-btn">
-            <FaTimes />
+            {(FaTimes as any)({})}
           </button>
         </div>
 
@@ -327,7 +327,7 @@ const ChatOverlayDemo: React.FC<ChatOverlayDemoProps> = ({ showSlug, isVisible, 
                       className={`message ${msg.clientId === clientId.current ? 'own-message' : ''}`}
                     >
                       <div className="message-header">
-                        <FaUser className="user-icon" />
+                        {(FaUser as any)({ className: "user-icon" })}
                         <span className="username">{msg.username}</span>
                         <span className="timestamp">{formatTime(msg.timestamp)}</span>
                       </div>
@@ -355,7 +355,7 @@ const ChatOverlayDemo: React.FC<ChatOverlayDemoProps> = ({ showSlug, isVisible, 
                   disabled={!newMessage.trim()}
                   className="send-btn"
                 >
-                  <FaPaperPlane />
+                  {(FaPaperPlane as any)({})}
                 </button>
               </form>
               <div className="chat-info">

@@ -81,7 +81,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ audioUrl, duration }) => {
         onClick={togglePlayPause}
         aria-label={isPlaying ? 'Pause' : 'Play'}
       >
-        {isPlaying ? <FaPause /> : <FaPlay />}
+        {isPlaying ? (FaPause as any)({}) : (FaPlay as any)({})}
       </button>
 
       <div className="progress-container">

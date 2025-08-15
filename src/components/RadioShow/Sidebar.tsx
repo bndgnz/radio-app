@@ -18,7 +18,7 @@ const Sidebar: React.FC<SidebarProps> = ({ showInfo }) => {
           <h1 className="show-title">{title}</h1>
           <div className="schedule-badge">
             <span>{schedule}</span>
-            <FaRss className="rss-icon" />
+            {(FaRss as any)({ className: "rss-icon" })}
           </div>
         </div>
 

@@ -23,7 +23,7 @@ const Layout: React.FC<LayoutProps> = ({ showInfo }) => {
         onClick={toggleMobileMenu}
         aria-label="Toggle menu"
       >
-        {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
+        {isMobileMenuOpen ? (FaTimes as any)({}) : (FaBars as any)({})}
       </button>
 
       {/* Mobile Overlay */}

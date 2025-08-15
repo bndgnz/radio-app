@@ -606,7 +606,7 @@ const ChatOverlay: React.FC<ChatOverlayProps> = ({ showSlug, isVisible, onToggle
     return (
       <div className="chat-toggle">
         <button onClick={onToggle} className="chat-toggle-btn">
-          <FaComments />
+          {(FaComments as any)({})}
           <span>Live Chat</span>
         </button>
         
@@ -656,7 +656,7 @@ const ChatOverlay: React.FC<ChatOverlayProps> = ({ showSlug, isVisible, onToggle
         {/* Header */}
         <div className="chat-header">
           <div className="chat-title">
-            <FaComments />
+            {(FaComments as any)({})}
             <span>Live Chat</span>
             <div className={`connection-status ${isConnected ? 'connected' : 'disconnected'}`}>
               {isConnected ? '● Live' : '● Offline'}
@@ -668,7 +668,7 @@ const ChatOverlay: React.FC<ChatOverlayProps> = ({ showSlug, isVisible, onToggle
             )}
           </div>
           <button onClick={onToggle} className="close-btn">
-            <FaTimes />
+            {(FaTimes as any)({})}
           </button>
         </div>
 
@@ -703,7 +703,7 @@ const ChatOverlay: React.FC<ChatOverlayProps> = ({ showSlug, isVisible, onToggle
               
               {messages.length === 0 && !isLoading && (
                 <div className="no-messages">
-                  <FaComments size={48} />
+                  {(FaComments as any)({ size: 48 })}
                   <p>No messages yet. Be the first to say hello!</p>
                 </div>
               )}
@@ -724,7 +724,7 @@ const ChatOverlay: React.FC<ChatOverlayProps> = ({ showSlug, isVisible, onToggle
                       className={`message ${msg.clientId === ablyClient.current?.auth.clientId ? 'own-message' : ''}`}
                     >
                       <div className="message-header">
-                        <FaUser className="user-icon" />
+                        {(FaUser as any)({ className: "user-icon" })}
                         <span className="username">{msg.username}</span>
                         <span className="timestamp">{formatTime(msg.timestamp)}</span>
                       </div>
@@ -822,7 +822,7 @@ const ChatOverlay: React.FC<ChatOverlayProps> = ({ showSlug, isVisible, onToggle
                   disabled={!newMessage.trim() || !isConnected}
                   className="send-btn"
                 >
-                  <FaPaperPlane />
+                  {(FaPaperPlane as any)({})}
                 </button>
               </form>
               <div className="chat-info">

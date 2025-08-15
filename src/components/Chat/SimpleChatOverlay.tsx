@@ -158,7 +158,7 @@ const SimpleChatOverlay: React.FC<SimpleChatOverlayProps> = ({
     return (
       <div className="chat-toggle">
         <button onClick={onToggle} className="chat-toggle-btn">
-          <FaComments />
+          {(FaComments as any)({})}
           <span>Live Chat</span>
         </button>
         
@@ -201,14 +201,14 @@ const SimpleChatOverlay: React.FC<SimpleChatOverlayProps> = ({
         {/* Header */}
         <div className="chat-header">
           <div className="chat-title">
-            <FaComments />
+            {(FaComments as any)({})}
             <span>Live Chat - {showSlug}</span>
             <div className="connection-status">
               ● {isConnected ? 'Live' : 'Offline'}
             </div>
           </div>
           <button onClick={onToggle} className="close-btn">
-            <FaTimes />
+            {(FaTimes as any)({})}
           </button>
         </div>
 
@@ -243,7 +243,7 @@ const SimpleChatOverlay: React.FC<SimpleChatOverlayProps> = ({
                   className={`message ${msg.clientId === clientId.current ? 'own-message' : ''}`}
                 >
                   <div className="message-header">
-                    <FaUser className="user-icon" />
+                    {(FaUser as any)({ className: "user-icon" })}
                     <span className="username">{msg.username}</span>
                     <span className="timestamp">{formatTime(msg.timestamp)}</span>
                   </div>
@@ -269,7 +269,7 @@ const SimpleChatOverlay: React.FC<SimpleChatOverlayProps> = ({
                   disabled={!newMessage.trim()}
                   className="send-btn"
                 >
-                  <FaPaperPlane />
+                  {(FaPaperPlane as any)({})}
                 </button>
               </form>
             </div>
