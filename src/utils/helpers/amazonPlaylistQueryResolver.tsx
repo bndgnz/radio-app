@@ -124,45 +124,59 @@ function FilteredAmazonPlaylistResolver(props: any) {
     const listOfItems = data.amazonPodcastCollection.items.map(
       (podcast, idx) => {
         return (
-          <div className="row amazon-playlist-row" key={idx}>
+          <div className="row amazon-playlist-row standard-items" key={idx}>
             <div className="col-lg-2 col-xs-12 amazon-podcast-image">
-              <a href={"../podcast/" + podcast.slug}>
-                {" "}
-                <img src={podcast.podcastImage[0].url} alt="..." />
+              <a
+                href={"../podcast/" + podcast.slug}
+                title={"Read more about " + podcast.title}
+              >
+                <img
+                  src={podcast.podcastImage[0].url}
+                  alt={podcast.title}
+                  className="latest-amazon-podcast-image"
+                />
               </a>
-              <div className="amazon-podcast-date"></div>
             </div>
 
-            <div className="col-lg-6 col-xs-12 amazon-podcast-content">
+            <div className="col-lg-7 col-xs-12 amazon-podcast-content">
               <div className=" amazon-podcast-card-title">
-                <strong>
-                  <a
-                    href={"../podcast/" + podcast.slug}
-                    title={"Read more about " + podcast.title}
-                  >
-                    {podcast.title}
-                  </a>
-                </strong>
-              </div>
-              <div className=" amazon-podcast-card-description">
-                {podcast.description}
-              </div>
-
-              <div className="read-more">
-                {" "}
                 <a
                   href={"../podcast/" + podcast.slug}
                   title={"Read more about " + podcast.title}
                 >
-                  Read more
+                  <strong>{podcast.title}</strong>
                 </a>
               </div>
+
+              <div className=" amazon-podcast-card-description-latest-list">
+                {podcast.description}
+              </div>
+
+              <strong>
+                {" "}
+                <a href={"podcast/" + podcast.slug}>Read more</a>
+              </strong>
             </div>
-            <div className="col-lg-4 col-xs-12">
+            <div className="col-lg-3 col-xs-12 ">
               {" "}
               <div className="amazonplaylist-audio">
-                {" "}
-                <audio controls src={podcast.amazonUrl} id={podcast.show.title.replaceAll(" ","-")+"-"+podcast.slug}>
+                <p>
+                  {" "}
+                  <b>Show:</b>{" "}
+                  <a
+                    href={"../shows/" + podcast.show?.slug}
+                    title={"Read more about " + podcast.show?.title}
+                  >
+                    <strong>{podcast.show?.title}</strong>
+                  </a>{" "}
+                </p>
+                <audio
+                  controls
+                  src={podcast.amazonUrl}
+                  id={
+                    podcast.show?.title?.replaceAll(" ", "-") + "-" + podcast.slug
+                  }
+                >
                   Your browser does not support the
                   <code>audio</code> element.
                 </audio>
@@ -174,7 +188,7 @@ function FilteredAmazonPlaylistResolver(props: any) {
       }
     );
 
-    return <div> {listOfItems}</div>;
+    return <div className="featured-podcasts-overflow"> {listOfItems}</div>;
   }
 
   return (

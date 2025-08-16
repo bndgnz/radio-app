@@ -8021,8 +8021,52 @@ input#algolia_search:focus::placeholder {
 }
 
 .amazon-podcast-date {
+  text-align: left;
+  font-size: 12px;
+  color: #bf1a2c;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+
+.amazon-podcast-date-under-image {
   text-align: center;
-  font-size: 80%;
+  font-size: 12px;
+  color: #bf1a2c;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.amazon-podcast-date-small {
+  text-align: left;
+  font-size: 10px;
+  color: #bf1a2c;
+  font-weight: bold;
+  margin-bottom: 8px;
+  margin-top: -4px;
+}
+
+.read-more-button {
+  margin-top: 10px;
+  text-align: right;
+  margin-right: 0;
+}
+
+.btn-read-more {
+  display: inline-block;
+  padding: 5px 12px;
+  background-color: #bf1a2c;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-read-more:hover {
+  background-color: #ffb3ba;
+  color: #ffffff !important;
 }
 
 .row.amazon-playlist-row {
@@ -8881,5 +8925,341 @@ margin:3px;
 
 .carousel-ctas {
     margin-top: -40px;
+}
+
+/* Modern Playlist Styling */
+section.playlist.container.page-block,
+section.playlist.container.page-block.amazon-playlist {
+  background: white !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07) !important;
+  padding: 32px !important;
+  margin: 32px auto !important;
+  max-width: 1200px !important;
+  border: 1px solid #e9ecef !important;
+}
+
+.row.amazon-playlist-row {
+  background: #f8f9fa !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  margin-bottom: 20px !important;
+  border: 1px solid #e9ecef !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+  overflow: visible !important;
+}
+
+.row.amazon-playlist-row:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+.row.amazon-playlist-row .col-lg-4,
+.row.amazon-playlist-row .col-lg-1,
+.row.amazon-playlist-row .col-lg-2:last-child,
+.row.amazon-playlist-row .col-lg-3 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.amazon-podcast-image img {
+  border-radius: 50% !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.amazon-podcast-card-title {
+  margin-bottom: 12px !important;
+}
+
+.amazon-podcast-card-title a {
+  color: #212529 !important;
+  text-decoration: none !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  transition: color 0.3s ease !important;
+}
+
+.amazon-podcast-card-title a:hover {
+  color: #c53030 !important;
+}
+
+.amazon-podcast-card-description {
+  color: #495057 !important;
+  line-height: 1.6 !important;
+  margin-bottom: 16px !important;
+}
+
+.amazonplaylist-audio {
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+  padding-right: 20px !important;
+}
+
+.amazonplaylist-audio p {
+  margin-bottom: 8px !important;
+  font-size: 12px !important;
+  text-align: right !important;
+  width: 100% !important;
+  padding-right: 20px !important;
+}
+
+.amazonplaylist-audio a {
+  color: #bf1a2c !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+}
+
+.amazonplaylist-audio a:hover {
+  color: #9a1522 !important;
+  text-decoration: underline !important;
+}
+
+.amazonplaylist-audio audio {
+  width: 100% !important;
+  max-width: 200px !important;
+  height: 40px !important;
+  border-radius: 5px !important;
+  background-color: #ffffff !important;
+  border: 1px solid #e9ecef !important;
+  padding: 5px !important;
+  margin-bottom: 8px !important;
+  margin-right: 0 !important;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px !important;
+  min-width: 150px !important;
+}
+
+.amazonplaylist-audio audio::-webkit-media-controls-panel {
+  background-color: #ffffff !important;
+}
+
+.amazonplaylist-audio audio::-webkit-media-controls-play-button,
+.amazonplaylist-audio audio::-webkit-media-controls-mute-button,
+.amazonplaylist-audio audio::-webkit-media-controls-volume-slider,
+.amazonplaylist-audio audio::-webkit-media-controls-timeline {
+  filter: invert(15%) sepia(70%) saturate(6000%) hue-rotate(350deg) !important;
+}
+
+a.tooltiplink.playlist-title-link {
+  display: block !important;
+  text-align: center !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  color: #212529 !important;
+  margin-bottom: 32px !important;
+  text-decoration: none !important;
+}
+
+a.tooltiplink.playlist-title-link:hover {
+  color: #c53030 !important;
+}
+
+@media (max-width: 992px) {
+  section.playlist.container.page-block,
+  section.playlist.container.page-block.amazon-playlist {
+    padding: 20px !important;
+    margin: 20px auto !important;
+  }
+
+  .row.amazon-playlist-row {
+    padding: 16px !important;
+  }
+
+  .amazon-podcast-content {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+  }
+}
+
+/* Compact Search Result Layout for Filtered Amazon Playlist */
+.compact-search-results {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.compact-search-result {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 16px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.compact-search-result:hover {
+  box-shadow: 0 4px 12px rgba(74, 144, 164, 0.15);
+  border-color: #4a90a4;
+  transform: translateY(-2px);
+}
+
+.search-result-thumbnail {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #f3f4f6;
+}
+
+.search-result-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.search-result-thumbnail:hover img {
+  transform: scale(1.05);
+}
+
+.search-result-content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.search-result-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.search-result-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.search-result-title a {
+  color: #1a5490;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.search-result-title a:hover {
+  color: #4a90a4;
+  text-decoration: underline;
+}
+
+.search-result-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.meta-source {
+  color: #4a90a4;
+  font-weight: 500;
+}
+
+.meta-separator {
+  color: #cbd5e1;
+}
+
+.meta-date strong {
+  font-weight: 400;
+  color: #64748b;
+}
+
+.search-result-description {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #475569;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-result-actions {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.audio-player-compact {
+  flex: 1;
+}
+
+.audio-player-compact audio {
+  width: 100%;
+  max-width: 400px;
+  height: 32px;
+  border-radius: 16px;
+}
+
+/* Mobile Responsive for Compact Search Results */
+@media (max-width: 768px) {
+  .compact-search-result {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .search-result-thumbnail {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .search-result-description {
+    -webkit-line-clamp: 3;
+  }
+
+  .search-result-actions {
+    align-items: stretch;
+  }
+
+  .audio-player-compact audio {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-result-thumbnail {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .search-result-title {
+    font-size: 16px;
+  }
+
+  .search-result-meta {
+    flex-wrap: wrap;
+    font-size: 13px;
+  }
+
+  .meta-separator {
+    display: none;
+  }
+
+  .search-result-description {
+    font-size: 14px;
+  }
 }
  
