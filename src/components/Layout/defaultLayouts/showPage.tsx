@@ -1,7 +1,7 @@
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { MdRssFeed } from 'react-icons/md';
 import { FaPlay, FaPause, FaVolumeUp, FaVolumeDown, FaVolumeMute, FaCommentAlt } from 'react-icons/fa';
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, ReactElement } from 'react';
 
 function Showpage(props: any) {
   const showlink = props.props.type.showUrl;
@@ -65,11 +65,6 @@ function Showpage(props: any) {
     return `${minutes}:${seconds.toString().padStart(2, '0')}`;
   };
 
-  const getVolumeIcon = () => {
-    if (volume === 0) return <FaVolumeMute />;
-    if (volume < 0.5) return <FaVolumeDown />;
-    return <FaVolumeUp />;
-  };
 
   const handleLiveChat = () => {
     if (props.props.type.toggleChat) {
@@ -662,12 +657,12 @@ function Showpage(props: any) {
                 <div className="radio-header-buttons">
                   {props.props.type.chat && (
                     <button className="radio-button live-chat" onClick={handleLiveChat}>
-                      <FaCommentAlt /> Live Chat
+                      {React.createElement(FaCommentAlt as any)} Live Chat
                     </button>
                   )}
                   {props.props.type.rss && (
                     <button className="radio-button rss-feed" onClick={handleRSSFeed}>
-                      <MdRssFeed /> RSS Feed
+                      {React.createElement(MdRssFeed as any)} RSS Feed
                     </button>
                   )}
                 </div>
@@ -682,7 +677,7 @@ function Showpage(props: any) {
                   />
                   <div className="player-controls">
                     <button className="play-button" onClick={togglePlayPause}>
-                      {isPlaying ? <FaPause /> : <FaPlay />}
+                      {isPlaying ? React.createElement(FaPause as any) : React.createElement(FaPlay as any)}
                     </button>
                     <div className="progress-container">
                       <div className="progress-bar" onClick={handleSeek}>
@@ -697,7 +692,9 @@ function Showpage(props: any) {
                       </div>
                     </div>
                     <div className="volume-control">
-                      <span className="volume-icon">{getVolumeIcon()}</span>
+                      <span className="volume-icon">
+                        {volume === 0 ? React.createElement(FaVolumeMute as any) : volume < 0.5 ? React.createElement(FaVolumeDown as any) : React.createElement(FaVolumeUp as any)}
+                      </span>
                       <div className="volume-container">
                         <input
                           type="range"
