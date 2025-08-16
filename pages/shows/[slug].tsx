@@ -50,6 +50,8 @@ const ShowPage: NextPage<Props> = ({
         sponsor={sponsor}
         slug={slug}
         rss={rss}
+        chat={chat}
+        toggleChat={toggleChat}
       ></Layout>
       
       {chat && (
@@ -57,6 +59,7 @@ const ShowPage: NextPage<Props> = ({
           showSlug={slug}
           isVisible={isChatVisible}
           onToggle={toggleChat}
+          hideToggleButton={true}
         />
       )}
     </>

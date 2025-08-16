@@ -42,9 +42,10 @@ interface ChatOverlayProps {
   showSlug: string;
   isVisible: boolean;
   onToggle: () => void;
+  hideToggleButton?: boolean;
 }
 
-const ChatOverlay: React.FC<ChatOverlayProps> = ({ showSlug, isVisible, onToggle }) => {
+const ChatOverlay: React.FC<ChatOverlayProps> = ({ showSlug, isVisible, onToggle, hideToggleButton = false }) => {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [newMessage, setNewMessage] = useState('');
   const [username, setUsername] = useState('');
@@ -603,6 +604,9 @@ const ChatOverlay: React.FC<ChatOverlayProps> = ({ showSlug, isVisible, onToggle
   }
 
   if (!isVisible) {
+    if (hideToggleButton) {
+      return null;
+    }
     return (
       <div className="chat-toggle">
         <button onClick={onToggle} className="chat-toggle-btn">
