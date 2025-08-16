@@ -1,6 +1,6 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import React from "react";
+import React, { useState, useRef } from "react";
 import { useQuery, gql } from "@apollo/client";
 import Link from "next/link";
 
@@ -141,6 +141,31 @@ function Schedule(props: any) {
   }
 
   function Showcard(props) {
+    const [playingIndex, setPlayingIndex] = useState<number | null>(null);
+    const audioRefs = useRef<{ [key: number]: HTMLAudioElement | null }>({});
+
+    const handlePlayPause = (index: number, showUrl: string) => {
+      const audio = audioRefs.current[index];
+      
+      if (playingIndex === index && audio && !audio.paused) {
+        audio.pause();
+        setPlayingIndex(null);
+      } else {
+        // Pause any currently playing audio
+        if (playingIndex !== null && audioRefs.current[playingIndex]) {
+          audioRefs.current[playingIndex]?.pause();
+        }
+        
+        if (!audio) {
+          audioRefs.current[index] = new Audio(showUrl);
+          audioRefs.current[index]!.play();
+        } else {
+          audio.play();
+        }
+        setPlayingIndex(index);
+      }
+    };
+
     switch (props.showDay) {
       case "sunday":
         day = data.schedule.sundayCollection.items;
@@ -178,13 +203,50 @@ function Schedule(props: any) {
         >
           <div className="container ">
             <div className="row">
-              <div className="col-8   col-xs-12">
+              <div className="col-8   col-xs-12" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                {show.showUrl && (
+                  <button
+                    onClick={() => handlePlayPause(idx, show.showUrl)}
+                    style={{
+                      background: 'linear-gradient(135deg, #c53030 0%, #e53e3e 100%)',
+                      border: 'none',
+                      borderRadius: '50%',
+                      cursor: 'pointer',
+                      padding: '0',
+                      minWidth: '32px',
+                      minHeight: '32px',
+                      width: '32px',
+                      height: '32px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '14px',
+                      color: 'white',
+                      boxShadow: '0 2px 6px rgba(197, 48, 48, 0.3)',
+                      transition: 'all 0.3s ease',
+                      flexShrink: 0,
+                      aspectRatio: '1/1'
+                    }}
+                    aria-label={playingIndex === idx ? 'Pause' : 'Play'}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.transform = 'scale(1.1)';
+                      e.currentTarget.style.boxShadow = '0 4px 10px rgba(197, 48, 48, 0.4)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.transform = 'scale(1)';
+                      e.currentTarget.style.boxShadow = '0 2px 6px rgba(197, 48, 48, 0.3)';
+                    }}
+                  >
+                    {playingIndex === idx ? '❚❚' : '▶'}
+                  </button>
+                )}
                 <Link
                   href={`/shows/${show.slug}`}
                   title={"Find out more about " + show.title}
                 >
                   <a
                     className="tooltiplink"
+                    style={{ fontSize: '85%' }}
                     data-title={
                       show.title +
                       "\n" +

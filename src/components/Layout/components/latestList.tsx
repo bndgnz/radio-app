@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import { useQuery, gql } from "@apollo/client";
 import Image from "next/image";
 import { useRouter } from "next/router";
@@ -15,6 +15,7 @@ function Message(props: any) {
   const showTitle = props.showtitle;
   const title = props.title;
   const show = props.filter;
+  const [shareModalData, setShareModalData] = useState<{isOpen: boolean, href: string, title: string, intro: string} | null>(null);
   const MESSAGE = gql`
     query GetList($limit: Int!) {
       amazonPodcastCollection(limit: $limit, order: date_DESC) {
@@ -34,37 +35,138 @@ function Message(props: any) {
     }
   `;
 
-  function Share(props: any) {
-    return (
-      <div className={"latest-podcasts-social-share-" + props.class}>
-        <FacebookShareButton
-          url={"https://waihekeradio.org.nz" + props.href}
-          quote={props.title}
-          hashtag={"#waihekeradio"}
-        >
-          <FacebookIcon size={props.size} round />
-        </FacebookShareButton>
-        <TwitterShareButton
-          url={"https://waihekeradio.org.nz" + props.href}
-          title={props.title}
-        >
-          <TwitterIcon size={props.size} round />
-        </TwitterShareButton>
-        <RedditShareButton
-          url={"https://waihekeradio.org.nz" + props.href}
-          title={props.title}
-        >
-          <RedditIcon size={props.size} round />
-        </RedditShareButton>
+  function ShareModal() {
+    if (!shareModalData || !shareModalData.isOpen) return null;
 
-        <EmailShareButton
-          url={"https://waihekeradio.org.nz" + props.href}
-          subject={props.title}
-          body={props.intro + "\n\n"}
+    return (
+      <>
+        <div 
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+            zIndex: 9998,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}
+          onClick={() => setShareModalData(null)}
         >
-          <EmailIcon size={props.size} round />
-        </EmailShareButton>
-      </div>
+          <div 
+            style={{
+              background: 'white',
+              borderRadius: '12px',
+              padding: '24px',
+              maxWidth: '400px',
+              width: '90%',
+              boxShadow: '0 10px 40px rgba(0, 0, 0, 0.2)',
+              position: 'relative'
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setShareModalData(null)}
+              style={{
+                position: 'absolute',
+                top: '12px',
+                right: '12px',
+                background: 'transparent',
+                border: 'none',
+                fontSize: '24px',
+                cursor: 'pointer',
+                color: '#666',
+                padding: '4px',
+                lineHeight: '1'
+              }}
+              aria-label="Close"
+            >
+              ×
+            </button>
+            
+            <h3 style={{ margin: '0 0 16px 0', fontSize: '18px', color: '#333' }}>
+              Share: {shareModalData.title}
+            </h3>
+            
+            <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
+              <FacebookShareButton
+                url={"https://waihekeradio.org.nz" + shareModalData.href}
+                quote={shareModalData.title}
+                hashtag={"#waihekeradio"}
+              >
+                <FacebookIcon size={40} round />
+              </FacebookShareButton>
+              <TwitterShareButton
+                url={"https://waihekeradio.org.nz" + shareModalData.href}
+                title={shareModalData.title}
+              >
+                <TwitterIcon size={40} round />
+              </TwitterShareButton>
+              <RedditShareButton
+                url={"https://waihekeradio.org.nz" + shareModalData.href}
+                title={shareModalData.title}
+              >
+                <RedditIcon size={40} round />
+              </RedditShareButton>
+              <EmailShareButton
+                url={"https://waihekeradio.org.nz" + shareModalData.href}
+                subject={shareModalData.title}
+                body={shareModalData.intro + "\n\n"}
+              >
+                <EmailIcon size={40} round />
+              </EmailShareButton>
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  }
+
+  function ShareButton(props: any) {
+    return (
+      <button
+        onClick={() => setShareModalData({
+          isOpen: true,
+          href: props.href,
+          title: props.title,
+          intro: props.intro
+        })}
+        style={{
+          background: 'linear-gradient(135deg, #4267B2 0%, #5B7EC2 100%)',
+          border: 'none',
+          borderRadius: '6px',
+          padding: '3px 10px',
+          cursor: 'pointer',
+          fontSize: '12.6px',
+          color: 'white',
+          display: 'inline-flex',
+          alignItems: 'center',
+          gap: '4px',
+          transition: 'all 0.2s ease',
+          boxShadow: '0 2px 4px rgba(66, 103, 178, 0.2)',
+          fontWeight: '500',
+          marginLeft: '8px'
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.transform = 'translateY(-1px)';
+          e.currentTarget.style.boxShadow = '0 3px 6px rgba(66, 103, 178, 0.3)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.transform = 'translateY(0)';
+          e.currentTarget.style.boxShadow = '0 2px 4px rgba(66, 103, 178, 0.2)';
+        }}
+      >
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+          <circle cx="18" cy="5" r="3"></circle>
+          <circle cx="6" cy="12" r="3"></circle>
+          <circle cx="18" cy="19" r="3"></circle>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+        </svg>
+        Share
+      </button>
     );
   }
 
@@ -123,12 +225,10 @@ function Message(props: any) {
             </a>{" "}
           </div>
 
-          <Share
-            class="featured"
+          <ShareButton
             href={"/podcast/" + props.featuredPodcastSlug}
             intro={props.featuredPodcastDescription}
             title={props.featuredPodcastTitle}
-            size="32"
           />
 
           <br />
@@ -181,11 +281,9 @@ function Message(props: any) {
             {item.show.title}
           </a>
         </div>
-        <Share
-          class="secondary"
+        <ShareButton
           href={"/podcast/" + item.slug}
           title={item.title}
-          size="22"
           intro={item.description}
         />
         <br />
@@ -213,15 +311,74 @@ function Message(props: any) {
   }
 
   function FeaturedRight() {
+    const [playingIndex, setPlayingIndex] = useState<number | null>(null);
+    const audioRefs = useRef<{ [key: number]: HTMLAudioElement | null }>({});
     const culledList = filteredPodcastList.slice(5, 9);
+
+    const handlePlayPause = (index: number, audioUrl: string) => {
+      const audio = audioRefs.current[index];
+      
+      if (playingIndex === index && audio && !audio.paused) {
+        audio.pause();
+        setPlayingIndex(null);
+      } else {
+        // Pause any currently playing audio
+        if (playingIndex !== null && audioRefs.current[playingIndex]) {
+          audioRefs.current[playingIndex]?.pause();
+        }
+        
+        if (!audio) {
+          audioRefs.current[index] = new Audio(audioUrl);
+          audioRefs.current[index]!.play();
+        } else {
+          audio.play();
+        }
+        setPlayingIndex(index);
+      }
+    };
 
     const listOfItems = culledList.map((podcast, idx) => {
       return (
         <div className="row featured-right-row" key={idx}>
-          <div className="featured-right-title">
+          <div className="featured-right-title" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <button
+              onClick={() => handlePlayPause(idx, podcast.amazonUrl)}
+              style={{
+                background: 'linear-gradient(135deg, #c53030 0%, #e53e3e 100%)',
+                border: 'none',
+                borderRadius: '50%',
+                cursor: 'pointer',
+                padding: '0',
+                minWidth: '32px',
+                minHeight: '32px',
+                width: '32px',
+                height: '32px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '14px',
+                color: 'white',
+                boxShadow: '0 2px 6px rgba(197, 48, 48, 0.3)',
+                transition: 'all 0.3s ease',
+                flexShrink: 0,
+                aspectRatio: '1/1'
+              }}
+              aria-label={playingIndex === idx ? 'Pause' : 'Play'}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = 'scale(1.1)';
+                e.currentTarget.style.boxShadow = '0 4px 10px rgba(197, 48, 48, 0.4)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = 'scale(1)';
+                e.currentTarget.style.boxShadow = '0 2px 6px rgba(197, 48, 48, 0.3)';
+              }}
+            >
+              {playingIndex === idx ? '❚❚' : '▶'}
+            </button>
             <a
               href={"../podcast/" + podcast.slug}
               title={"Find out more about " + podcast.title}
+              style={{ flex: 1 }}
             >
               {podcast.title}
             </a>
@@ -229,37 +386,61 @@ function Message(props: any) {
 
           <div className="featured-right-desc">{podcast.description}</div>
 
-          <div className="featured-right-audio">
-            {" "}
-            <audio
-              className="featured-right-player"
-              controls
-              src={podcast.amazonUrl}
-              id={podcast.show.title.replaceAll(" ", "-") + "-" + podcast.slug}
-            >
-              Your browser does not support the
-              <code>audio</code> element.
-            </audio>
-          </div>
-
-          <div className="featured-right-show">
-            From:{" "}
-            <a
-              href={"../shows/" + podcast.show.slug}
-              title={"Find out more about " + podcast.show.title}
-            >
-              {" "}
-              {podcast.show.title}
-            </a>
-            <div className="featured-right-date">
-              <Share
-                class="featured-right"
-                href={"/podcast/" + podcast.slug}
-                title={podcast.title}
-                size="18"
-                intro={podcast.description}
-              />
+          <div className="featured-right-show" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '4px' }}>
+            <div style={{ display: 'inline-flex', alignItems: 'center' }}>
+              From:{" "}
+              <a
+                href={"../shows/" + podcast.show.slug}
+                title={"Find out more about " + podcast.show.title}
+                style={{ marginLeft: '4px' }}
+              >
+                {podcast.show.title}
+              </a>
             </div>
+            <button
+              onClick={() => setShareModalData({
+                isOpen: true,
+                href: "/podcast/" + podcast.slug,
+                title: podcast.title,
+                intro: podcast.description
+              })}
+              style={{
+                background: 'linear-gradient(135deg, #4267B2 0%, #5B7EC2 100%)',
+                border: 'none',
+                borderRadius: '4px',
+                padding: '2px 6px',
+                cursor: 'pointer',
+                fontSize: '11px',
+                color: 'white',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '3px',
+                transition: 'all 0.2s ease',
+                boxShadow: '0 1px 3px rgba(66, 103, 178, 0.2)',
+                fontWeight: '500',
+                marginRight: '7px',
+                marginTop: '-4px',
+                position: 'relative'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = 'translateY(-1px)';
+                e.currentTarget.style.boxShadow = '0 2px 4px rgba(66, 103, 178, 0.3)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = '0 1px 3px rgba(66, 103, 178, 0.2)';
+              }}
+              aria-label="Share"
+            >
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                <circle cx="18" cy="5" r="3"></circle>
+                <circle cx="6" cy="12" r="3"></circle>
+                <circle cx="18" cy="19" r="3"></circle>
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+              </svg>
+              Share
+            </button>
           </div>
         </div>
       );
@@ -360,11 +541,9 @@ function Message(props: any) {
               <Link href={"podcast/" + podcast.slug}>Read more</Link>
             </strong>
 
-            <Share
-              class="featured-bottom"
+            <ShareButton
               href={"/podcast/" + podcast.slug}
               title={podcast.title}
-              size="32"
               intro={podcast.description}
             />
           </div>
@@ -402,6 +581,7 @@ function Message(props: any) {
   }
   return (
     <>
+      <ShareModal />
       {props.showtitle != false ? (
         <section className="playlist container page-block amazon-playlist">
           <div className="container">
