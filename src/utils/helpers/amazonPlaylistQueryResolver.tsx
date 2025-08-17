@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { useQuery, gql } from "@apollo/client";
-import { useRouter } from "next/router";
-import absoluteUrl from "next-absolute-url";
 import { FacebookShareButton, FacebookIcon } from "next-share";
 import { TelegramShareButton, TelegramIcon } from "next-share";
 import { TwitterShareButton, TwitterIcon } from "next-share";
@@ -17,8 +15,6 @@ function FilteredAmazonPlaylistResolver(props: any) {
   const [currentPage, setCurrentPage] = useState(1);
   const [sortBy, setSortBy] = useState<'date' | 'name'>('date');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
-  const router = useRouter();
-  const { origin } = absoluteUrl(router.req);
 
   function PlaylistTitle() {
     if (props.data.filteredAmazonPlaylist.displayTitle == true) {
@@ -373,7 +369,7 @@ function FilteredAmazonPlaylistResolver(props: any) {
 
   function ShareButton({ podcast }: any) {
     const handleShare = () => {
-      const href = `${origin}/podcast/${podcast.slug}`;
+      const href = `/podcast/${podcast.slug}`;
       setShareModalData({
         isOpen: true,
         href,
@@ -476,7 +472,7 @@ function FilteredAmazonPlaylistResolver(props: any) {
                 ×
               </button>
               
-              <h3 style={{ marginTop: 0, marginBottom: '16px', color: '#333' }}>Share "{shareModalData.title}"</h3>
+              <h3 style={{ marginTop: 0, marginBottom: '16px', color: '#333' }}>Share &quot;{shareModalData.title}&quot;</h3>
               
               <div style={{
                 display: 'flex',
