@@ -19,6 +19,9 @@ function FilteredAmazonPlaylist(props: any) {
         endDate
         sort
         displayTitle
+        pagination
+        countPerPage
+        sorting
       }
     }
   `;

@@ -213,6 +213,15 @@ export interface IFilteredAmazonPlaylistFields {
 
   /** Show */
   show?: IShows | undefined;
+
+  /** Pagination */
+  pagination?: boolean;
+
+  /** Count per page */
+  countPerPage?: number;
+
+  /** Sorting */
+  sorting?: boolean;
 }
 
 export interface IFilteredAmazonPlaylist
@@ -422,6 +431,15 @@ export interface ILatestPodcastsFields {
 
   /** Show title */
   showTitle: boolean;
+
+  /** Pagination */
+  pagination?: boolean;
+
+  /** Count per page */
+  countPerPage?: number;
+
+  /** Show sorting */
+  showSorting?: boolean;
 }
 
 export interface ILatestPodcasts extends Entry<ILatestPodcastsFields> {
