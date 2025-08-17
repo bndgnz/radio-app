@@ -15,7 +15,14 @@ function Message(props: any) {
   const showTitle = props.showtitle;
   const title = props.title;
   const show = props.filter;
+  const pagination = props.pagination;
+  const countPerPage = props.countPerPage || 5;
+  const showSorting = props.showSorting;
+  
   const [shareModalData, setShareModalData] = useState<{isOpen: boolean, href: string, title: string, intro: string} | null>(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [sortBy, setSortBy] = useState<'date' | 'name'>('date');
+  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
   const MESSAGE = gql`
     query GetList($limit: Int!) {
       amazonPodcastCollection(limit: $limit, order: date_DESC) {
@@ -34,6 +41,344 @@ function Message(props: any) {
       }
     }
   `;
+
+  function SortingButtons({ sortBy, setSortBy, sortOrder, setSortOrder, onSort }: any) {
+    const handleDateSort = () => {
+      if (sortBy === 'date') {
+        setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
+      } else {
+        setSortBy('date');
+        setSortOrder('desc');
+      }
+      onSort('date', sortBy === 'date' ? (sortOrder === 'asc' ? 'desc' : 'asc') : 'desc');
+    };
+
+    const handleNameSort = () => {
+      if (sortBy === 'name') {
+        setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
+      } else {
+        setSortBy('name');
+        setSortOrder('asc');
+      }
+      onSort('name', sortBy === 'name' ? (sortOrder === 'asc' ? 'desc' : 'asc') : 'asc');
+    };
+
+    return (
+      <div style={{
+        display: 'inline-flex',
+        gap: '8px',
+        marginRight: '16px'
+      }}>
+        <button
+          onClick={handleDateSort}
+          style={{
+            padding: '8px 16px',
+            background: sortBy === 'date' 
+              ? 'linear-gradient(135deg, #c53030 0%, #e53e3e 100%)' 
+              : 'white',
+            color: sortBy === 'date' ? 'white' : '#c53030',
+            border: sortBy === 'date' ? 'none' : '2px solid #c53030',
+            borderRadius: '6px',
+            cursor: 'pointer',
+            fontWeight: '600',
+            fontSize: '14px',
+            transition: 'all 0.3s ease',
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+            boxShadow: sortBy === 'date' ? '0 2px 6px rgba(197, 48, 48, 0.3)' : 'none'
+          }}
+          onMouseEnter={(e) => {
+            if (sortBy !== 'date') {
+              e.currentTarget.style.background = 'linear-gradient(135deg, #f8d7da 0%, #f5c2c7 100%)';
+            }
+          }}
+          onMouseLeave={(e) => {
+            if (sortBy !== 'date') {
+              e.currentTarget.style.background = 'white';
+            }
+          }}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          Date {sortBy === 'date' && (sortOrder === 'desc' ? '(Newest)' : '(Oldest)')}
+        </button>
+        
+        <button
+          onClick={handleNameSort}
+          style={{
+            padding: '8px 16px',
+            background: sortBy === 'name' 
+              ? 'linear-gradient(135deg, #c53030 0%, #e53e3e 100%)' 
+              : 'white',
+            color: sortBy === 'name' ? 'white' : '#c53030',
+            border: sortBy === 'name' ? 'none' : '2px solid #c53030',
+            borderRadius: '6px',
+            cursor: 'pointer',
+            fontWeight: '600',
+            fontSize: '14px',
+            transition: 'all 0.3s ease',
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+            boxShadow: sortBy === 'name' ? '0 2px 6px rgba(197, 48, 48, 0.3)' : 'none'
+          }}
+          onMouseEnter={(e) => {
+            if (sortBy !== 'name') {
+              e.currentTarget.style.background = 'linear-gradient(135deg, #f8d7da 0%, #f5c2c7 100%)';
+            }
+          }}
+          onMouseLeave={(e) => {
+            if (sortBy !== 'name') {
+              e.currentTarget.style.background = 'white';
+            }
+          }}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <polyline points="3 8 7 4 11 8"></polyline>
+            <line x1="7" y1="4" x2="7" y2="16"></line>
+            <polyline points="21 16 17 20 13 16"></polyline>
+            <line x1="17" y1="20" x2="17" y2="8"></line>
+          </svg>
+          Name {sortBy === 'name' && (sortOrder === 'asc' ? '(A-Z)' : '(Z-A)')}
+        </button>
+      </div>
+    );
+  }
+
+  function PaginationControls({ currentPage, totalPages, onPageChange }: any) {
+    const pageNumbers = [];
+    const maxVisiblePages = 5;
+    
+    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+    
+    if (endPage - startPage < maxVisiblePages - 1) {
+      startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    }
+    
+    for (let i = startPage; i <= endPage; i++) {
+      pageNumbers.push(i);
+    }
+    
+    return (
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: '8px',
+        padding: '20px 0',
+        flexWrap: 'wrap'
+      }}>
+        <button
+          onClick={() => onPageChange(1)}
+          disabled={currentPage === 1}
+          style={{
+            padding: '8px 12px',
+            background: currentPage === 1 ? '#e9ecef' : 'linear-gradient(135deg, #c53030 0%, #e53e3e 100%)',
+            color: currentPage === 1 ? '#6c757d' : 'white',
+            border: 'none',
+            borderRadius: '6px',
+            cursor: currentPage === 1 ? 'not-allowed' : 'pointer',
+            fontWeight: '600',
+            fontSize: '14px',
+            transition: 'all 0.3s ease',
+            boxShadow: currentPage === 1 ? 'none' : '0 2px 4px rgba(197, 48, 48, 0.2)'
+          }}
+          onMouseEnter={(e) => {
+            if (currentPage !== 1) {
+              e.currentTarget.style.transform = 'translateY(-2px)';
+              e.currentTarget.style.boxShadow = '0 4px 8px rgba(197, 48, 48, 0.3)';
+            }
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = 'translateY(0)';
+            e.currentTarget.style.boxShadow = currentPage === 1 ? 'none' : '0 2px 4px rgba(197, 48, 48, 0.2)';
+          }}
+        >
+          « First
+        </button>
+        
+        <button
+          onClick={() => onPageChange(currentPage - 1)}
+          disabled={currentPage === 1}
+          style={{
+            padding: '8px 12px',
+            background: currentPage === 1 ? '#e9ecef' : 'linear-gradient(135deg, #c53030 0%, #e53e3e 100%)',
+            color: currentPage === 1 ? '#6c757d' : 'white',
+            border: 'none',
+            borderRadius: '6px',
+            cursor: currentPage === 1 ? 'not-allowed' : 'pointer',
+            fontWeight: '600',
+            fontSize: '14px',
+            transition: 'all 0.3s ease',
+            boxShadow: currentPage === 1 ? 'none' : '0 2px 4px rgba(197, 48, 48, 0.2)'
+          }}
+          onMouseEnter={(e) => {
+            if (currentPage !== 1) {
+              e.currentTarget.style.transform = 'translateY(-2px)';
+              e.currentTarget.style.boxShadow = '0 4px 8px rgba(197, 48, 48, 0.3)';
+            }
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = 'translateY(0)';
+            e.currentTarget.style.boxShadow = currentPage === 1 ? 'none' : '0 2px 4px rgba(197, 48, 48, 0.2)';
+          }}
+        >
+          ‹ Previous
+        </button>
+        
+        {startPage > 1 && (
+          <>
+            <button
+              onClick={() => onPageChange(1)}
+              style={{
+                padding: '8px 12px',
+                background: 'white',
+                color: '#c53030',
+                border: '2px solid #c53030',
+                borderRadius: '6px',
+                cursor: 'pointer',
+                fontWeight: '600',
+                fontSize: '14px',
+                minWidth: '40px'
+              }}
+            >
+              1
+            </button>
+            {startPage > 2 && <span style={{ color: '#6c757d' }}>...</span>}
+          </>
+        )}
+        
+        {pageNumbers.map(number => (
+          <button
+            key={number}
+            onClick={() => onPageChange(number)}
+            style={{
+              padding: '8px 12px',
+              background: currentPage === number 
+                ? 'linear-gradient(135deg, #c53030 0%, #e53e3e 100%)' 
+                : 'white',
+              color: currentPage === number ? 'white' : '#c53030',
+              border: currentPage === number ? 'none' : '2px solid #c53030',
+              borderRadius: '6px',
+              cursor: 'pointer',
+              fontWeight: '600',
+              fontSize: '14px',
+              minWidth: '40px',
+              transition: 'all 0.3s ease',
+              boxShadow: currentPage === number ? '0 2px 6px rgba(197, 48, 48, 0.3)' : 'none'
+            }}
+            onMouseEnter={(e) => {
+              if (currentPage !== number) {
+                e.currentTarget.style.background = 'linear-gradient(135deg, #f8d7da 0%, #f5c2c7 100%)';
+              }
+            }}
+            onMouseLeave={(e) => {
+              if (currentPage !== number) {
+                e.currentTarget.style.background = 'white';
+              }
+            }}
+          >
+            {number}
+          </button>
+        ))}
+        
+        {endPage < totalPages && (
+          <>
+            {endPage < totalPages - 1 && <span style={{ color: '#6c757d' }}>...</span>}
+            <button
+              onClick={() => onPageChange(totalPages)}
+              style={{
+                padding: '8px 12px',
+                background: 'white',
+                color: '#c53030',
+                border: '2px solid #c53030',
+                borderRadius: '6px',
+                cursor: 'pointer',
+                fontWeight: '600',
+                fontSize: '14px',
+                minWidth: '40px'
+              }}
+            >
+              {totalPages}
+            </button>
+          </>
+        )}
+        
+        <button
+          onClick={() => onPageChange(currentPage + 1)}
+          disabled={currentPage === totalPages}
+          style={{
+            padding: '8px 12px',
+            background: currentPage === totalPages ? '#e9ecef' : 'linear-gradient(135deg, #c53030 0%, #e53e3e 100%)',
+            color: currentPage === totalPages ? '#6c757d' : 'white',
+            border: 'none',
+            borderRadius: '6px',
+            cursor: currentPage === totalPages ? 'not-allowed' : 'pointer',
+            fontWeight: '600',
+            fontSize: '14px',
+            transition: 'all 0.3s ease',
+            boxShadow: currentPage === totalPages ? 'none' : '0 2px 4px rgba(197, 48, 48, 0.2)'
+          }}
+          onMouseEnter={(e) => {
+            if (currentPage !== totalPages) {
+              e.currentTarget.style.transform = 'translateY(-2px)';
+              e.currentTarget.style.boxShadow = '0 4px 8px rgba(197, 48, 48, 0.3)';
+            }
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = 'translateY(0)';
+            e.currentTarget.style.boxShadow = currentPage === totalPages ? 'none' : '0 2px 4px rgba(197, 48, 48, 0.2)';
+          }}
+        >
+          Next ›
+        </button>
+        
+        <button
+          onClick={() => onPageChange(totalPages)}
+          disabled={currentPage === totalPages}
+          style={{
+            padding: '8px 12px',
+            background: currentPage === totalPages ? '#e9ecef' : 'linear-gradient(135deg, #c53030 0%, #e53e3e 100%)',
+            color: currentPage === totalPages ? '#6c757d' : 'white',
+            border: 'none',
+            borderRadius: '6px',
+            cursor: currentPage === totalPages ? 'not-allowed' : 'pointer',
+            fontWeight: '600',
+            fontSize: '14px',
+            transition: 'all 0.3s ease',
+            boxShadow: currentPage === totalPages ? 'none' : '0 2px 4px rgba(197, 48, 48, 0.2)'
+          }}
+          onMouseEnter={(e) => {
+            if (currentPage !== totalPages) {
+              e.currentTarget.style.transform = 'translateY(-2px)';
+              e.currentTarget.style.boxShadow = '0 4px 8px rgba(197, 48, 48, 0.3)';
+            }
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = 'translateY(0)';
+            e.currentTarget.style.boxShadow = currentPage === totalPages ? 'none' : '0 2px 4px rgba(197, 48, 48, 0.2)';
+          }}
+        >
+          Last »
+        </button>
+        
+        <div style={{
+          marginLeft: '20px',
+          fontSize: '14px',
+          color: '#6c757d',
+          fontWeight: '500'
+        }}>
+          Page {currentPage} of {totalPages}
+        </div>
+      </div>
+    );
+  }
 
   function ShareModal() {
     if (!shareModalData || !shareModalData.isOpen) return null;
@@ -165,7 +510,7 @@ function Message(props: any) {
           <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
           <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
         </svg>
-        Share
+        <span className="share-button-text">Share</span>
       </button>
     );
   }
@@ -190,7 +535,7 @@ function Message(props: any) {
     return el != null;
   });
 
-  function Date(date: any) {
+  function DateDisplay(date: any) {
     let year = date.date.substring(0, 4);
     let month = date.date.substring(5, 7);
     let day = date.date.substring(8, 10);
@@ -506,7 +851,48 @@ function Message(props: any) {
       standardArray = data.amazonPodcastCollection.items;
     }
 
-    const listOfItems = standardArray.map((podcast, idx) => {
+    // Apply sorting if enabled
+    const shouldSort = !props.showFeatured && showSorting === true;
+    if (shouldSort) {
+      standardArray = [...standardArray].sort((a, b) => {
+        if (sortBy === 'date') {
+          const dateA = new Date(a.date);
+          const dateB = new Date(b.date);
+          return sortOrder === 'desc' ? dateB.getTime() - dateA.getTime() : dateA.getTime() - dateB.getTime();
+        } else if (sortBy === 'name') {
+          const nameA = a.title.toLowerCase();
+          const nameB = b.title.toLowerCase();
+          return sortOrder === 'asc' ? nameA.localeCompare(nameB) : nameB.localeCompare(nameA);
+        }
+        return 0;
+      });
+    }
+
+    // Apply pagination if enabled and showFeatured is not true
+    const shouldPaginate = !props.showFeatured && pagination === true;
+    const itemsPerPage = countPerPage;
+    const totalPages = shouldPaginate ? Math.ceil(standardArray.length / itemsPerPage) : 1;
+    
+    // Get current page items
+    let paginatedArray = standardArray;
+    if (shouldPaginate) {
+      const startIndex = (currentPage - 1) * itemsPerPage;
+      const endIndex = startIndex + itemsPerPage;
+      paginatedArray = standardArray.slice(startIndex, endIndex);
+    }
+
+    const handlePageChange = (page: number) => {
+      setCurrentPage(page);
+      // Scroll to top of the list
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    const handleSort = (newSortBy: 'date' | 'name', newSortOrder: 'asc' | 'desc') => {
+      // Reset to first page when sorting changes
+      setCurrentPage(1);
+    };
+
+    const listOfItems = paginatedArray.map((podcast, idx) => {
       return (
         <div className="row amazon-playlist-row standard-items" key={idx}>
           <div className="col-lg-2 col-xs-12 amazon-podcast-image">
@@ -570,14 +956,97 @@ function Message(props: any) {
                 Your browser does not support the
                 <code>audio</code> element.
               </audio>
-              <Date date={podcast.date} />
+              <DateDisplay date={podcast.date} />
             </div>{" "}
           </div>
         </div>
       );
     });
 
-    return <div className="featured-podcasts-overflow"> {listOfItems}</div>;
+    return (
+      <div className="featured-podcasts-overflow">
+        {(shouldPaginate || shouldSort) && (
+          <>
+            <div style={{
+              textAlign: 'center',
+              padding: '10px',
+              fontSize: '16px',
+              color: '#495057',
+              fontWeight: '500',
+              marginBottom: '10px'
+            }}>
+              {shouldPaginate && `Showing ${((currentPage - 1) * itemsPerPage) + 1} - ${Math.min(currentPage * itemsPerPage, standardArray.length)} of ${standardArray.length} podcasts`}
+            </div>
+            <div style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              flexWrap: 'wrap',
+              gap: '16px',
+              padding: '10px 0'
+            }}>
+              {shouldSort && (
+                <SortingButtons 
+                  sortBy={sortBy}
+                  setSortBy={setSortBy}
+                  sortOrder={sortOrder}
+                  setSortOrder={setSortOrder}
+                  onSort={handleSort}
+                />
+              )}
+              {shouldPaginate && (
+                <PaginationControls 
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  onPageChange={handlePageChange}
+                />
+              )}
+            </div>
+          </>
+        )}
+        {listOfItems}
+        {(shouldPaginate || shouldSort) && (
+          <>
+            <div style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              flexWrap: 'wrap',
+              gap: '16px',
+              padding: '10px 0'
+            }}>
+              {shouldSort && (
+                <SortingButtons 
+                  sortBy={sortBy}
+                  setSortBy={setSortBy}
+                  sortOrder={sortOrder}
+                  setSortOrder={setSortOrder}
+                  onSort={handleSort}
+                />
+              )}
+              {shouldPaginate && (
+                <PaginationControls 
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  onPageChange={handlePageChange}
+                />
+              )}
+            </div>
+            {shouldPaginate && (
+              <div style={{
+                textAlign: 'center',
+                padding: '10px',
+                fontSize: '14px',
+                color: '#6c757d',
+                marginTop: '10px'
+              }}>
+                Showing {((currentPage - 1) * itemsPerPage) + 1} - {Math.min(currentPage * itemsPerPage, standardArray.length)} of {standardArray.length} podcasts
+              </div>
+            )}
+          </>
+        )}
+      </div>
+    );
   }
   return (
     <>

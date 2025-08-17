@@ -3,6 +3,9 @@ import { useQuery, gql } from "@apollo/client";
 import Latestlist from "@/src/components/Layout/components/latestList";
 
 function LatestPodcasts(props: any) {
+
+ 
+
   const id = props.id;
   const GETCOMPONENT = gql`
     query GetPodcast($id: String!) {
@@ -12,6 +15,9 @@ function LatestPodcasts(props: any) {
         showTitle
         numberToShow
         showFeatured
+        pagination
+        countPerPage
+        showSorting
  
         featuredPodcast {
           title
@@ -51,7 +57,7 @@ function LatestPodcasts(props: any) {
     filter = "";
   }
 
-console.log(data)
+ 
    
  if (data.latestPodcasts.showFeatured == true && data.latestPodcasts.featuredPodcast!==null ) { 
 
@@ -63,6 +69,9 @@ console.log(data)
       showtitle={data.latestPodcasts.showTitle}
       title={data.latestPodcasts.title}
       showFeatured={data.latestPodcasts.showFeatured}
+      pagination={data.latestPodcasts.pagination}
+      countPerPage={data.latestPodcasts.countPerPage}
+      showSorting={data.latestPodcasts.showSorting}
       featuredPodcastTitle={data.latestPodcasts.featuredPodcast.title}
       featuredPodcastSlug={data.latestPodcasts.featuredPodcast.slug}
       featuredPodcastUrl={data.latestPodcasts.featuredPodcast.amazonUrl}
@@ -82,6 +91,9 @@ console.log(data)
         limit={data.latestPodcasts.numberToShow}
         showtitle={data.latestPodcasts.showTitle}
         title={data.latestPodcasts.title}
+        pagination={data.latestPodcasts.pagination}
+        countPerPage={data.latestPodcasts.countPerPage}
+        showSorting={data.latestPodcasts.showSorting}
         
       />
     );

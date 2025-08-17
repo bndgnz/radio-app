@@ -2886,11 +2886,14 @@ $value_seven: 1550px;
 
     img.latest-amazon-podcast-image {
         float: unset;
-        max-width: unset;
+        width: 150px !important;
+        height: 150px !important;
+        max-width: 150px !important;
         display: grid;
         place-items: center;
         margin-left: auto;
         margin-right: auto;
+        object-fit: cover;
     }
 
     .amazon-podcast-content {
@@ -2899,10 +2902,13 @@ $value_seven: 1550px;
 
     .col-lg-2.col-xs-12.amazon-podcast-image img {
         float: unset;
+        width: 150px !important;
+        height: 150px !important;
         display: grid;
         place-items: center;
         margin-left: auto;
         margin-right: auto;
+        object-fit: cover;
     }
 
     .row.staff-row {
@@ -2934,12 +2940,152 @@ $value_seven: 1550px;
 
 }
 
+/* Tablet view adjustments for LatestAmazonPodcasts share buttons */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    /* Hide share button text in tablet view, show only icon */
+    .share-button-text {
+        display: none !important;
+    }
+    
+    .featured-right-show button {
+        padding: 6px !important;
+        min-width: auto !important;
+        width: auto !important;
+        margin-right: 4px !important;
+    }
+    
+    /* Also apply to standard items share buttons in tablet */
+    .amazon-podcast-content button {
+        padding: 6px !important;
+        min-width: auto !important;
+        width: auto !important;
+    }
+    
+    /* Make buttons square for icon-only display */
+    button:has(.share-button-text) {
+        padding: 6px !important;
+        min-width: 32px !important;
+        width: 32px !important;
+        height: 32px !important;
+    }
+}
 
 @media only screen and (max-width: 767px) {
 
+    /* Latest Amazon Podcasts - 150x150px images on mobile */
+    img.latest-amazon-podcast-image,
+    .col-lg-2.col-xs-12.amazon-podcast-image img,
+    .amazon-podcast-image img {
+        width: 150px !important;
+        height: 150px !important;
+        max-width: 150px !important;
+        object-fit: cover;
+        margin: 0 auto 15px auto;
+        display: block;
+    }
 
+    .col-lg-2.col-xs-12.amazon-podcast-image {
+        text-align: center;
+        margin-bottom: 15px;
+    }
 
+    /* Center align all podcast content in mobile */
+    .row.amazon-playlist-row.standard-items {
+        text-align: center;
+    }
 
+    .amazon-podcast-card-title,
+    .amazon-podcast-card-description-latest-list,
+    .amazonplaylist-audio {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .amazonplaylist-audio audio {
+        margin: 10px auto;
+        display: block;
+    }
+
+    .col-lg-7.col-xs-12.amazon-podcast-content {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .col-lg-3.col-xs-12 .amazonplaylist-audio {
+        text-align: center;
+    }
+
+    /* Center featured podcast items */
+    .featured-podcast,
+    .featured-podcast-4,
+    .featured-right-row {
+        text-align: center;
+    }
+
+    .featured-right-title,
+    .featured-right-desc,
+    .featured-right-show {
+        text-align: center;
+        justify-content: center;
+    }
+
+    /* Center Share buttons and links in mobile */
+    .amazon-podcast-content button,
+    .amazon-podcast-content a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Center pagination controls */
+    .featured-podcasts-overflow {
+        text-align: center;
+    }
+
+    /* Ensure play buttons are centered with titles */
+    .featured-right-title,
+    .right-column-title {
+        justify-content: center !important;
+    }
+
+    /* Center date and show info */
+    .amazonplaylist-audio p {
+        text-align: center;
+    }
+
+    /* Force horizontal centering for show info and audio player */
+    .col-lg-3.col-xs-12 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .amazonplaylist-audio {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .amazonplaylist-audio p,
+    .amazonplaylist-audio audio,
+    .amazonplaylist-audio strong {
+        width: 100%;
+        max-width: 300px;
+        margin: 5px auto;
+        text-align: center;
+    }
+
+    /* Ensure audio controls are centered */
+    audio.featured-right-player,
+    audio[controls] {
+        display: block !important;
+        margin: 10px auto !important;
+        width: 100% !important;
+        max-width: 250px !important;
+    }
 
     .ptb-100 {
 
