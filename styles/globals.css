@@ -7835,23 +7835,47 @@ section.playlist.container.page-block a.hover {
 }
 
 .layout-title {
-  padding: 10px 10px10px 10px;
-  background-color: #000;
-  box-shadow: rgb(99 99 99 / 40%) 0px 2px 8px 0px;
-  padding: 10px;
+  background: linear-gradient(135deg, #c53030 0%, #e53e3e 100%);
+  border-radius: 12px;
+  padding: 20px 24px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(197, 48, 48, 0.25);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   text-align: center;
-  border-radius: 5px;
-  color: #fff;
-  border: 2px solid #fff;
-  background-image: linear-gradient(#000, #555);
+  margin-bottom: 20px;
+}
+
+.layout-title::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
+  animation: shimmer 3s infinite;
 }
 
 .layout-title h3 {
-  color: #fff;
+  margin: 0;
+  font-size: 18px;
+  color: white;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
-  font-size: 110%;
-  padding-top: 5px;
-  text-shadow: 0px 0px 9px rgb(36 46 45 / 87%);
+  font-weight: 700;
+  padding-top: 0;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 .main-banner-content .col-lg-4.col-xs-12.offset-2 {

@@ -18,7 +18,7 @@
         <title>Island Life </title>
         <link>http://localhost:3000</link>
         <description>Interviews and discussions about Waiheke Island issues, events and people</description>
-        <lastBuildDate>Sat, 16 Aug 2025 01:26:57 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 Aug 2025 03:35:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -282,6 +282,7 @@ The Noises lie around 7kn northeast of Waiheke Island. The island group has owne
             <guid>http://localhost:3000/podcast/market-talks-kathryn-ngapo</guid>
             <pubDate>Thu, 17 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Penny Holmes talks to Kathryn Ngapo as part of her documentation of the history of the Waiheke Ostend Market to mark it's 50th anniversay at Easter 2025.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/Market%20Talks%20-%20Kathryn%20and%20Penny%20.mp3"/>
         </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
