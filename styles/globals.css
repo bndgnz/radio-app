@@ -8826,6 +8826,32 @@ audio.featured-podcast-4 {
   box-shadow: 0px 6px 64px -23px rgba(0, 0, 0, 1);
 }
 
+/* Hide show-name divs and adjust styles only in tablet view */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .show-name,
+  .show-name-4 {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    visibility: hidden !important;
+  }
+  
+  /* Hide the "From:" section in the right column */
+  .show-from-section {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    visibility: hidden !important;
+  }
+  
+  /* Reduce featured-podcast-title-4 font size by 20% (from 1rem to 0.8rem) */
+  .featured-podcast-title-4 a {
+    font-size: 0.8rem !important;
+  }
+}
+
 .featured-podcast-title-4 a {
   color: #fff;
   font-weight: 800;

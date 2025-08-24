@@ -50,6 +50,15 @@ export interface IAmazonPlaylistFields {
 
   /** Podcasts */
   podcasts: IAmazonPodcast[];
+
+  /** Pagination */
+  pagination?: boolean | undefined;
+
+  /** Count Per Page */
+  countPerPage?: number | undefined;
+
+  /** Sorting */
+  sorting?: boolean | undefined;
 }
 
 export interface IAmazonPlaylist extends Entry<IAmazonPlaylistFields> {

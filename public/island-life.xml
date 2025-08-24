@@ -18,7 +18,7 @@
         <title>Island Life </title>
         <link>http://localhost:3000</link>
         <description>Interviews and discussions about Waiheke Island issues, events and people</description>
-        <lastBuildDate>Sun, 17 Aug 2025 22:08:17 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 24 Aug 2025 22:50:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -27,6 +27,24 @@
             <link>http://localhost:3000</link>
         </image>
         <copyright>All rights reserved 2025, Waiheke Radio</copyright>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Mayoral Candidate Kerrin Leoni Interview]]></title>
+            <link>http://localhost:3000/podcast/mayoral-candidate-kerrin-leoni-interview</link>
+            <guid>http://localhost:3000/podcast/mayoral-candidate-kerrin-leoni-interview</guid>
+            <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker interviews 2025 mayoral candidate Kerrin Leoni.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-kerrin-leoni-mayor-candidate-interview-2025.mp3"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Cath Handley: Outgoing Waiheke Local Board Chair]]></title>
+            <link>http://localhost:3000/podcast/cath-handley-outgoing-waiheke-local-board-chair</link>
+            <guid>http://localhost:3000/podcast/cath-handley-outgoing-waiheke-local-board-chair</guid>
+            <pubDate>Sat, 23 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cath Handley has been on the Waiheke Local Board since 2016 and has been chair for much of this time. She is not seeking re-election in the 2025 election. Cath spoke with Chris Walker, reflecting on her time on the board.]]></description>
+            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2025/island-life-cath-handley-23-08-2025.mp3"/>
+        </item>
         <item>
 <itunes:author>Waiheke Radio</itunes:author>
             <title><![CDATA[Bowel Cancer Screening]]></title>
@@ -468,24 +486,6 @@ Photo credit: ABIGAIL DOUGHERTY/STUFF]]></description>
             <description><![CDATA[Chris Walker talks to councillor Mike Lee about the year since his re-election to Auckland Council and his decision to vote against the introduction of Māori wards.
 Photo credit: NZ Herald]]></description>
             <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-mike-lee.mp3"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Crop Swap]]></title>
-            <link>http://localhost:3000/podcast/crop-swap</link>
-            <guid>http://localhost:3000/podcast/crop-swap</guid>
-            <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Hadas Ore about Waiheke Crop Swap. Home gardeners come together to swap their excess produce and share gardening tips. ]]></description>
-            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-hadas-ore-crop-swap.mp3"/>
-        </item>
-        <item>
-<itunes:author>Waiheke Radio</itunes:author>
-            <title><![CDATA[Caulerpa Rahui]]></title>
-            <link>http://localhost:3000/podcast/caulerpa-rahui</link>
-            <guid>http://localhost:3000/podcast/caulerpa-rahui</guid>
-            <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chris Walker talks to Blair Anderson, Pou Rahui Project Manager for Ngāti Pāoa, about the rahui placed by the iwi to prevent the spread of the invasive Caulerpa seaweed.]]></description>
-            <enclosure length="4123456" type="audio/mpeg" url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/island-life/2023/island-life-11-11-2023-blair-anderson-caulerpa-rahui.mp3"/>
         </item>
     </channel>
 </rss>
