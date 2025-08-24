@@ -712,14 +712,13 @@ function Showpage(props: any) {
               )}
 
               <div className="radio-about">
-                <h3>About {props.props.type.title || "Island Life"}</h3>
+                <h3>About {props.props.type.title}</h3>
                 <div className="radio-about-content">
                   {props.props.type.content ? (
                     documentToReactComponents(props.props.type.content)
                   ) : (
                     <p>
-                      Island Life is broadcast every Saturday morning between 10am and noon. 
-                      Tune in for the latest news, views and interviews from around the island.
+                       
                     </p>
                   )}
                 </div>
@@ -810,4 +809,4 @@ function Showpage(props: any) {
   );
 }
 
-export default Showpage;0
+export default Showpage;
