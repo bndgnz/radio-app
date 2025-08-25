@@ -732,7 +732,7 @@ function Message(props: any) {
           <div className="featured-right-desc">{podcast.description}</div>
 
           <div className="featured-right-show" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '4px' }}>
-            <div style={{ display: 'inline-flex', alignItems: 'center' }}>
+            <div className="show-from-section" style={{ display: 'inline-flex', alignItems: 'center' }}>
               From:{" "}
               <a
                 href={"../shows/" + podcast.show.slug}
