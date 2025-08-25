@@ -968,6 +968,12 @@ export interface IShowsFields {
   /** Website */
   website?: string | undefined;
 
+  /** Apple Podcasts */
+  applePodcasts?: string | undefined;
+
+  /** Spotify */
+  spotify?: string | undefined;
+
   /** Instagram */
   instagram?: string | undefined;
 

@@ -4,7 +4,9 @@ import {
   FaLinkedinIn, 
   FaInstagram, 
   FaDiscord,
-  FaGlobe
+  FaGlobe,
+  FaPodcast,
+  FaSpotify
 } from 'react-icons/fa';
 import { SiTiktok, SiX } from 'react-icons/si';
 
@@ -14,6 +16,8 @@ interface SocialMediaIconsProps {
   tiktok?: string;
   linkedin?: string;
   website?: string;
+  applePodcasts?: string;
+  spotify?: string;
   instagram?: string;
   discord?: string;
   showName?: string;
@@ -25,6 +29,8 @@ const SocialMediaIcons: React.FC<SocialMediaIconsProps> = ({
   tiktok,
   linkedin,
   website,
+  applePodcasts,
+  spotify,
   instagram,
   discord,
   showName = "us",
@@ -37,6 +43,8 @@ const SocialMediaIcons: React.FC<SocialMediaIconsProps> = ({
     { url: tiktok, Icon: SiTiktok, name: 'TikTok', color: '#000000' },
     { url: linkedin, Icon: FaLinkedinIn, name: 'LinkedIn', color: '#0A66C2' },
     { url: website, Icon: FaGlobe, name: 'Website', color: '#6C757D' },
+    { url: applePodcasts, Icon: FaPodcast, name: 'Apple Podcasts', color: '#9933CC' },
+    { url: spotify, Icon: FaSpotify, name: 'Spotify', color: '#1DB954' },
     { url: instagram, Icon: FaInstagram, name: 'Instagram', color: '#E4405F' },
     { url: discord, Icon: FaDiscord, name: 'Discord', color: '#5865F2' },
   ];
@@ -155,7 +163,9 @@ const SocialMediaIcons: React.FC<SocialMediaIconsProps> = ({
                   setHoveredIcon(null);
                 }}
               >
-                {React.createElement(Icon as any)}
+                {React.createElement(Icon as any, {
+                  style: name === 'Spotify' ? { fontSize: '24px', marginTop: '1px' } : undefined
+                })}
               </a>
             </div>
           );
