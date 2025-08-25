@@ -728,6 +728,7 @@ function Showpage(props: any) {
                   twitter={props.props.type.twitter}
                   tiktok={props.props.type.tiktok}
                   linkedin={props.props.type.linkedin}
+                  website={props.props.type.website}
                   instagram={props.props.type.instagram}
                   discord={props.props.type.discord}
                   showName={props.props.type.title || "the show"}

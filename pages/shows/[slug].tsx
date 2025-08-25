@@ -32,6 +32,7 @@ const ShowPage: NextPage<Props> = ({
     twitter,
     tikTok,
     linkedIn,
+    website,
     instagram,
     discord
   },
@@ -62,6 +63,7 @@ const ShowPage: NextPage<Props> = ({
         twitter={twitter}
         tiktok={tikTok}
         linkedin={linkedIn}
+        website={website}
         instagram={instagram}
         discord={discord}
       ></Layout>
