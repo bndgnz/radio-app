@@ -152,7 +152,7 @@ const SocialMediaIcons: React.FC<SocialMediaIconsProps> = ({
                   setHoveredIcon(null);
                 }}
               >
-                <Icon />
+                {React.createElement(Icon as any)}
               </a>
             </div>
           );
