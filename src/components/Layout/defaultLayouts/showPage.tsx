@@ -2,6 +2,7 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { MdRssFeed } from 'react-icons/md';
 import { FaPlay, FaPause, FaVolumeUp, FaVolumeDown, FaVolumeMute, FaCommentAlt } from 'react-icons/fa';
 import React, { useState, useRef, useEffect, ReactElement } from 'react';
+import SocialMediaIcons from '../components/socialMediaIcons';
 
 function Showpage(props: any) {
   const showlink = props.props.type.showUrl;
@@ -718,11 +719,19 @@ function Showpage(props: any) {
                     documentToReactComponents(props.props.type.content)
                   ) : (
                     <p>
-                      Island Life is broadcast every Saturday morning between 10am and noon. 
-                      Tune in for the latest news, views and interviews from around the island.
+                
                     </p>
                   )}
                 </div>
+                <SocialMediaIcons
+                  facebook={props.props.type.facebook}
+                  twitter={props.props.type.twitter}
+                  tiktok={props.props.type.tiktok}
+                  linkedin={props.props.type.linkedin}
+                  instagram={props.props.type.instagram}
+                  discord={props.props.type.discord}
+                  showName={props.props.type.title || "the show"}
+                />
                 {props.props.type.sponsor && (
                   <div className="sponsor-banner">
                     <h5>
