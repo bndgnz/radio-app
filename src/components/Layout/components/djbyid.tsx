@@ -27,7 +27,7 @@ function DjById(props: any) {
   });
   
   if (!id) {
-    return <div>No DJ ID provided</div>;
+    return null;
   }
   
   if (loading) {
