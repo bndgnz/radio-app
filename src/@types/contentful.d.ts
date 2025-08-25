@@ -953,6 +953,24 @@ export interface IShowsFields {
   /** Chat */
   chat?: boolean | undefined;
 
+  /** Facebook */
+  facebook?: string | undefined;
+
+  /** Twitter */
+  twitter?: string | undefined;
+
+  /** TikTok */
+  tikTok?: string | undefined;
+
+  /** LinkedIn */
+  linkedIn?: string | undefined;
+
+  /** Instagram */
+  instagram?: string | undefined;
+
+  /** Discord */
+  discord?: string | undefined;
+
   /** Components */
   components?:
     | (

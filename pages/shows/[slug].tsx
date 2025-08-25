@@ -27,7 +27,13 @@ const ShowPage: NextPage<Props> = ({
     sponsor,
     slug,
     rss,
-    chat
+    chat,
+    facebook,
+    twitter,
+    tikTok,
+    linkedIn,
+    instagram,
+    discord
   },
 }) => {
   const { isChatVisible, toggleChat } = useShowChat(slug, chat);
@@ -52,6 +58,12 @@ const ShowPage: NextPage<Props> = ({
         rss={rss}
         chat={chat}
         toggleChat={toggleChat}
+        facebook={facebook}
+        twitter={twitter}
+        tiktok={tikTok}
+        linkedin={linkedIn}
+        instagram={instagram}
+        discord={discord}
       ></Layout>
       
       {chat && (
