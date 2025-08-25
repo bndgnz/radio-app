@@ -3,6 +3,7 @@ import { MdRssFeed } from 'react-icons/md';
 import { FaPlay, FaPause, FaVolumeUp, FaVolumeDown, FaVolumeMute, FaCommentAlt } from 'react-icons/fa';
 import React, { useState, useRef, useEffect, ReactElement } from 'react';
 import SocialMediaIcons from '../components/socialMediaIcons';
+import PlaylistPlayer from '../components/PlaylistPlayer';
 
 function Showpage(props: any) {
   const showlink = props.props.type.showUrl;
@@ -735,6 +736,12 @@ function Showpage(props: any) {
                   discord={props.props.type.discord}
                   showName={props.props.type.title || "the show"}
                 />
+                {props.props.type.playlistUrl && (
+                  <PlaylistPlayer 
+                    playlistUrl={props.props.type.playlistUrl}
+                    showName={props.props.type.title}
+                  />
+                )}
                 {props.props.type.sponsor && (
                   <div className="sponsor-banner">
                     <h5>
