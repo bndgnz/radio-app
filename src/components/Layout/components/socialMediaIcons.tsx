@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { 
   FaFacebookF, 
-  FaTwitter, 
   FaLinkedinIn, 
   FaInstagram, 
   FaDiscord 
 } from 'react-icons/fa';
-import { SiTiktok } from 'react-icons/si';
+import { SiTiktok, SiX } from 'react-icons/si';
 
 interface SocialMediaIconsProps {
   facebook?: string;
@@ -31,7 +30,7 @@ const SocialMediaIcons: React.FC<SocialMediaIconsProps> = ({
 
   const socialLinks = [
     { url: facebook, Icon: FaFacebookF, name: 'Facebook', color: '#1877F2' },
-    { url: twitter, Icon: FaTwitter, name: 'Twitter', color: '#1DA1F2' },
+    { url: twitter, Icon: SiX, name: 'X', color: '#000000' },
     { url: tiktok, Icon: SiTiktok, name: 'TikTok', color: '#000000' },
     { url: linkedin, Icon: FaLinkedinIn, name: 'LinkedIn', color: '#0A66C2' },
     { url: instagram, Icon: FaInstagram, name: 'Instagram', color: '#E4405F' },
