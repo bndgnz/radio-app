@@ -3,7 +3,8 @@ import {
   FaFacebookF, 
   FaLinkedinIn, 
   FaInstagram, 
-  FaDiscord 
+  FaDiscord,
+  FaGlobe
 } from 'react-icons/fa';
 import { SiTiktok, SiX } from 'react-icons/si';
 
@@ -12,6 +13,7 @@ interface SocialMediaIconsProps {
   twitter?: string;
   tiktok?: string;
   linkedin?: string;
+  website?: string;
   instagram?: string;
   discord?: string;
   showName?: string;
@@ -22,6 +24,7 @@ const SocialMediaIcons: React.FC<SocialMediaIconsProps> = ({
   twitter,
   tiktok,
   linkedin,
+  website,
   instagram,
   discord,
   showName = "us",
@@ -33,6 +36,7 @@ const SocialMediaIcons: React.FC<SocialMediaIconsProps> = ({
     { url: twitter, Icon: SiX, name: 'X', color: '#000000' },
     { url: tiktok, Icon: SiTiktok, name: 'TikTok', color: '#000000' },
     { url: linkedin, Icon: FaLinkedinIn, name: 'LinkedIn', color: '#0A66C2' },
+    { url: website, Icon: FaGlobe, name: 'Website', color: '#6C757D' },
     { url: instagram, Icon: FaInstagram, name: 'Instagram', color: '#E4405F' },
     { url: discord, Icon: FaDiscord, name: 'Discord', color: '#5865F2' },
   ];

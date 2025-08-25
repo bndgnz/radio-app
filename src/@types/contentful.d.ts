@@ -965,6 +965,9 @@ export interface IShowsFields {
   /** LinkedIn */
   linkedIn?: string | undefined;
 
+  /** Website */
+  website?: string | undefined;
+
   /** Instagram */
   instagram?: string | undefined;
 
