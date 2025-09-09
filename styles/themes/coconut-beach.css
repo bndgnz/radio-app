@@ -1,0 +1,17 @@
+/* Coconut Beach Theme */
+.coconut-beach-theme {
+  --theme-primary: #d2691e;
+  --theme-secondary: #6ee7b7;
+  --theme-accent: #fef3c7;
+  --theme-text: #fffbeb;
+  --theme-background: linear-gradient(rgba(120, 53, 15, 0.75), rgba(161, 98, 7, 0.65)), url("https://images.unsplash.com/photo-1473116763249-2faaef81ccda?ixlib=rb-4.0.3&auto=format&fit=crop&w=2096&q=80");
+}
+
+/* Coconut Beach specific button styles */
+.coconut-beach-theme .theme-button-gradient {
+  background: linear-gradient(45deg, #d2691e, #6ee7b7);
+}
+
+.coconut-beach-theme .theme-selector-button {
+  background: linear-gradient(45deg, #d2691e, #6ee7b7);
+}

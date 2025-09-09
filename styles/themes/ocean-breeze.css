@@ -1,0 +1,17 @@
+/* Ocean Breeze Theme */
+.ocean-breeze-theme {
+  --theme-primary: #0ea5e9;
+  --theme-secondary: #06b6d4;
+  --theme-accent: #bae6fd;
+  --theme-text: #f8fafc;
+  --theme-background: linear-gradient(rgba(15, 118, 110, 0.7), rgba(14, 165, 233, 0.6)), url("https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80");
+}
+
+/* Ocean Breeze specific button styles */
+.ocean-breeze-theme .theme-button-gradient {
+  background: linear-gradient(45deg, #0ea5e9, #06b6d4);
+}
+
+.ocean-breeze-theme .theme-selector-button {
+  background: linear-gradient(45deg, #0ea5e9, #06b6d4);
+}

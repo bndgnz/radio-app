@@ -1,0 +1,439 @@
+/* Global theme variables will be applied to document root */
+.themePageBody {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.4;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: var(--theme-background, 
+    linear-gradient(rgba(13, 79, 92, 0.7), rgba(45, 138, 143, 0.6)),
+    url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')
+  ) center/cover fixed;
+  color: var(--theme-text, #f0fdfa);
+}
+
+/* Theme Selector */
+.themeSelector {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(20px);
+  z-index: 2000;
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.themeButtons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.themeBtn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.themeBtn.active {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+/* Theme Colors for Buttons */
+.coralReef { background: linear-gradient(45deg, #ff6b6b, #ffa726); }
+.tropicalSunset { background: linear-gradient(45deg, #ffc107, #ff7043); }
+.palmGrove { background: linear-gradient(45deg, #84cc16, #65a30d); }
+.oceanBreeze { background: linear-gradient(45deg, #0ea5e9, #06b6d4); }
+.hibiscusGarden { background: linear-gradient(45deg, #ec4899, #d946ef); }
+.coconutBeach { background: linear-gradient(45deg, #d2691e, #6ee7b7); }
+.rainforestCanopy { background: linear-gradient(45deg, #22c55e, #f59e0b); }
+.islandSpice { background: linear-gradient(45deg, #b91c1c, #fb923c); }
+.lagoonDream { background: linear-gradient(45deg, #06b6d4, #a78bfa); }
+.tropicalFruit { background: linear-gradient(45deg, #f97316, #65a30d); }
+
+/* Main Content */
+.mainContent {
+  margin-top: 48px;
+  min-height: calc(100vh - 48px);
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.navContainer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.logo {
+  width: 50px;
+  height: 40px;
+  background: white;
+  border-radius: 8px;
+  padding: 0.3rem;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.siteInfo h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--theme-primary, #ff6b6b);
+}
+
+.siteInfo .frequencies {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--theme-primary, #ff6b6b);
+}
+
+.siteInfo .maori {
+  font-size: 0.7rem;
+  color: var(--theme-accent, #a7f3d0);
+}
+
+.navMenu {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.navMenu a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  color: var(--theme-accent, #a7f3d0);
+}
+
+.navMenu a:hover {
+  color: var(--theme-primary, #ff6b6b);
+  background: rgba(255, 107, 107, 0.1);
+}
+
+.breakingBanner {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.breakingContent {
+  background: linear-gradient(135deg, var(--theme-primary, #ff6b6b) 0%, var(--theme-secondary, #ffa726) 100%);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.breakingContent h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.breakingContent p {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 0.9rem;
+}
+
+.topContent {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  height: calc(100vh - 240px);
+}
+
+/* Column styling moved to globals.css for theme-column-0/1/2 classes
+.column {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 1rem;
+  overflow-y: auto;
+}
+*/
+
+.streamItem {
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 0.8rem;
+}
+
+.streamTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--theme-primary, #ff6b6b);
+}
+
+.streamItem audio {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 0.5rem;
+}
+
+.nowPlaying {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.nowPlaying h4 {
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--theme-secondary, #ffa726);
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  border-left: 3px solid var(--theme-primary, #ff6b6b);
+  padding-left: 0.7rem;
+  color: var(--theme-primary, #ff6b6b);
+}
+
+.scheduleItem, .contentItem {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.7rem;
+  margin-bottom: 0.7rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.scheduleItem:hover, .contentItem:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.scheduleTime {
+  background: linear-gradient(135deg, var(--theme-primary, #ff6b6b), var(--theme-secondary, #ffa726));
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  min-width: 70px;
+  text-align: center;
+}
+
+.showInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.showName {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--theme-text, #f0fdfa);
+}
+
+.showHost {
+  font-size: 0.8rem;
+  color: var(--theme-accent, #a7f3d0);
+}
+
+.miniPlayButton {
+  background: linear-gradient(135deg, var(--theme-primary, #ff6b6b), var(--theme-secondary, #ffa726));
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  font-size: 10px;
+  flex-shrink: 0;
+}
+
+.miniPlayButton:hover {
+  transform: scale(1.1);
+}
+
+
+.featuredInterview {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.featuredImage {
+  width: 100%;
+  height: 120px;
+  background-image: url('https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1683682166/Local%20People/handley_zwitnb.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+}
+
+.featuredTitle {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+  color: var(--theme-text, #f0fdfa);
+}
+
+.featuredDesc {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  color: var(--theme-accent, #a7f3d0);
+}
+
+.playButton {
+  background: linear-gradient(135deg, var(--theme-primary, #ff6b6b), var(--theme-secondary, #ffa726));
+  border: none;
+  border-radius: 15px;
+  padding: 0.4rem 0.8rem;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.playButton:hover {
+  transform: scale(1.05);
+}
+
+.quickNews {
+  list-style: none;
+  padding: 0;
+}
+
+.quickNews li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.85rem;
+  color: var(--theme-accent, #a7f3d0);
+}
+
+.quickNews li:last-child {
+  border-bottom: none;
+}
+
+.newsTime {
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: var(--theme-primary, #ff6b6b);
+}
+
+.candidateItem {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.candidateItem:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.candidateAvatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+}
+
+.candidateName {
+  font-weight: 600;
+  font-size: 0.85rem;
+  flex: 1;
+  color: var(--theme-text, #f0fdfa);
+}
+
+.candidateRole {
+  font-size: 0.75rem;
+  color: var(--theme-accent, #a7f3d0);
+}
+
+@media (max-width: 1200px) {
+  .topContent {
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .themeButtons {
+    gap: 0.3rem;
+  }
+  
+  .themeBtn {
+    font-size: 0.7rem;
+    padding: 0.4rem 0.7rem;
+  }
+  
+  .navMenu {
+    display: none;
+  }
+  
+  .topContent {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+    padding: 0.8rem;
+  }
+}
+

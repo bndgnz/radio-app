@@ -1,0 +1,17 @@
+/* Rainforest Canopy Theme */
+.rainforest-canopy-theme {
+  --theme-primary: #22c55e;
+  --theme-secondary: #f59e0b;
+  --theme-accent: #bbf7d0;
+  --theme-text: #f7fee7;
+  --theme-background: linear-gradient(rgba(26, 46, 5, 0.8), rgba(77, 124, 15, 0.7)), url("https://images.unsplash.com/photo-1544896478-d5c7be6e5e5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80");
+}
+
+/* Rainforest Canopy specific button styles */
+.rainforest-canopy-theme .theme-button-gradient {
+  background: linear-gradient(45deg, #22c55e, #f59e0b);
+}
+
+.rainforest-canopy-theme .theme-selector-button {
+  background: linear-gradient(45deg, #22c55e, #f59e0b);
+}

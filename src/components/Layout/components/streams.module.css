@@ -1,0 +1,174 @@
+/* Stream Component - Theme Page Compatible */
+.streamItem {
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 0.8rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.streamTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--theme-primary, #ff6b6b);
+}
+
+.streamItem audio {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nowPlaying {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.nowPlaying h4 {
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--theme-secondary, #ffa726);
+  margin-top: 0;
+}
+
+.nowPlayingContent {
+  color: var(--theme-text, #f0fdfa);
+}
+
+.nowPlayingContent strong {
+  color: var(--theme-primary, #ff6b6b);
+}
+
+.streamLabel {
+  color: var(--theme-accent, #a7f3d0);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+/* Loading and error states */
+.loading, .error {
+  color: var(--theme-accent, #a7f3d0);
+  font-style: italic;
+  padding: 0.5rem;
+}
+
+/* Station info */
+.station {
+  color: var(--theme-secondary, #ffa726);
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Previously played and coming up sections */
+.playedPreviously, .comingUp {
+  margin-top: 0.5rem;
+}
+
+.playingNowTitle {
+  font-weight: 600;
+  color: var(--theme-primary, #ff6b6b);
+  font-size: 0.75rem;
+  margin-bottom: 0.3rem;
+}
+
+.trackInfo {
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.trackInfo strong {
+  color: var(--theme-primary, #ff6b6b);
+}
+
+.trackInfo em {
+  color: var(--theme-accent, #a7f3d0);
+}
+
+.trackInfo a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.trackInfo a:hover {
+  color: var(--theme-primary, #ff6b6b);
+}
+
+/* Separator */
+.separator {
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0.5rem 0;
+}
+
+/* Collapsible override for theme compatibility */
+.collapsibleContent {
+  background: transparent;
+}
+
+.playlistButton {
+  background: var(--theme-primary, #ff6b6b);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 0.5rem;
+}
+
+.playlistButton:hover {
+  background: var(--theme-secondary, #ffa726);
+}
+
+.playlistCollapsible {
+  margin-top: 0.5rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.playlistCollapsible > summary {
+  list-style: none;
+  background: transparent;
+  color: var(--theme-accent, #a7f3d0);
+  border: none;
+  border-radius: 6px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 0.5rem;
+  display: block;
+  text-align: center;
+}
+
+.playlistCollapsible > summary:hover {
+  color: var(--theme-primary, #ff6b6b);
+  background: rgba(255, 107, 107, 0.1);
+}
+
+.playlistCollapsible > summary::-webkit-details-marker {
+  display: none;
+}
+
+.playlistCollapsible[open] > summary {
+  margin-bottom: 0.8rem;
+}

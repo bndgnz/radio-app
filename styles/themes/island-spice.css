@@ -1,0 +1,17 @@
+/* Island Spice Theme */
+.island-spice-theme {
+  --theme-primary: #b91c1c;
+  --theme-secondary: #fb923c;
+  --theme-accent: #fecaca;
+  --theme-text: #fef2f2;
+  --theme-background: linear-gradient(rgba(127, 29, 29, 0.8), rgba(220, 38, 38, 0.7)), url("https://images.unsplash.com/photo-1539627831859-a911cf04d3cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80");
+}
+
+/* Island Spice specific button styles */
+.island-spice-theme .theme-button-gradient {
+  background: linear-gradient(45deg, #b91c1c, #fb923c);
+}
+
+.island-spice-theme .theme-selector-button {
+  background: linear-gradient(45deg, #b91c1c, #fb923c);
+}

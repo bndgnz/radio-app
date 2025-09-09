@@ -1,0 +1,153 @@
+.menuContainer {
+  position: relative;
+}
+
+.menuList {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.menuItem {
+  position: relative;
+}
+
+.hasSubmenu {
+  position: relative;
+}
+
+.menuLink {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  color: #a7f3d0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: inherit;
+}
+
+.menuLink:hover {
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.1);
+}
+
+.submenuIcon {
+  font-size: 0.7rem;
+  transition: transform 0.3s ease;
+}
+
+.submenuIcon.open {
+  transform: rotate(180deg);
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  min-width: 200px;
+  list-style: none;
+  margin: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.submenuItem {
+  margin: 0;
+}
+
+.submenuItem .menuLink {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0;
+  justify-content: space-between;
+}
+
+.submenuItem .submenu {
+  left: 100%;
+  top: 0;
+  margin-top: 0;
+  margin-left: 0.5rem;
+}
+
+/* Mobile menu styles */
+.mobileMenuToggle {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.hamburger {
+  width: 25px;
+  height: 2px;
+  background: #a7f3d0;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .mobileMenuToggle {
+    display: flex;
+  }
+
+  .menuList {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+    z-index: 1000;
+  }
+
+  .menuList.mobileOpen {
+    display: flex;
+  }
+
+  .menuItem {
+    width: 100%;
+  }
+
+  .menuLink {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .submenu {
+    position: static;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    backdrop-filter: none;
+  }
+
+  .submenuItem .submenu {
+    margin-left: 2rem;
+  }
+}

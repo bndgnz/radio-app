@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiheke Radio - Te Reo Irirangi o Waiheke</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            line-height: 1.4;
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: 
+                linear-gradient(rgba(13, 79, 92, 0.7), rgba(45, 138, 143, 0.6)),
+                url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover fixed;
+            color: #f0fdfa;
+        }
+
+        /* Theme Selector */
+        .theme-selector {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 2000;
+            padding: 1rem;
+            border-bottom: 1px solid #333;
+        }
+
+        .theme-buttons {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .theme-btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            color: white;
+        }
+
+        .theme-btn.active {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+        }
+
+        /* Theme Colors for Buttons */
+        .coral-reef { background: linear-gradient(45deg, #ff6b6b, #ffa726); }
+        .tropical-sunset { background: linear-gradient(45deg, #ffc107, #ff7043); }
+        .palm-grove { background: linear-gradient(45deg, #84cc16, #65a30d); }
+        .ocean-breeze { background: linear-gradient(45deg, #0ea5e9, #06b6d4); }
+        .hibiscus-garden { background: linear-gradient(45deg, #ec4899, #d946ef); }
+        .coconut-beach { background: linear-gradient(45deg, #d2691e, #6ee7b7); }
+        .rainforest-canopy { background: linear-gradient(45deg, #22c55e, #f59e0b); }
+        .island-spice { background: linear-gradient(45deg, #b91c1c, #fb923c); }
+        .lagoon-dream { background: linear-gradient(45deg, #06b6d4, #a78bfa); }
+        .tropical-fruit { background: linear-gradient(45deg, #f97316, #65a30d); }
+
+        /* Main Content */
+        .main-content {
+            margin-top: 80px;
+            min-height: calc(100vh - 80px);
+            position: relative;
+            z-index: 1;
+        }
+
+        .header {
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 0;
+        }
+
+        .nav-container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+        }
+
+        .logo {
+            width: 50px;
+            height: 40px;
+            background: white;
+            border-radius: 8px;
+            padding: 0.3rem;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .site-info h1 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin: 0;
+            color: #ff6b6b;
+        }
+
+        .site-info .frequencies {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #ff6b6b;
+        }
+
+        .site-info .maori {
+            font-size: 0.7rem;
+            color: #a7f3d0;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            padding: 0.3rem 0.7rem;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            color: #a7f3d0;
+        }
+
+        .nav-menu a:hover {
+            color: #ff6b6b;
+            background: rgba(255, 107, 107, 0.1);
+        }
+
+        .breaking-banner {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .breaking-content {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ffa726 100%);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .breaking-content h2 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+
+        .breaking-content p {
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 0.9rem;
+        }
+
+        .top-content {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 1rem 1rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+            height: calc(100vh - 240px);
+        }
+
+        .column {
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            padding: 1rem;
+            overflow-y: auto;
+        }
+
+        .stream-item {
+            margin-bottom: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 0.8rem;
+        }
+
+        .stream-title {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: #ff6b6b;
+        }
+
+        .stream-item audio {
+            width: 100%;
+            height: 35px;
+            margin-bottom: 0.5rem;
+        }
+
+        .now-playing {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 6px;
+            padding: 0.5rem;
+            font-size: 0.8rem;
+        }
+
+        .now-playing h4 {
+            margin-bottom: 0.3rem;
+            font-size: 0.8rem;
+            color: #ffa726;
+        }
+
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            border-left: 3px solid #ff6b6b;
+            padding-left: 0.7rem;
+            color: #ff6b6b;
+        }
+
+        .schedule-item, .content-item {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            padding: 0.7rem;
+            margin-bottom: 0.7rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .schedule-item:hover, .content-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .schedule-time {
+            background: linear-gradient(135deg, #ff6b6b, #ffa726);
+            color: white;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.8rem;
+            min-width: 70px;
+            text-align: center;
+        }
+
+        .show-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .show-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 0.2rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #f0fdfa;
+        }
+
+        .show-host {
+            font-size: 0.8rem;
+            color: #a7f3d0;
+        }
+
+        .mini-play-button {
+            background: linear-gradient(135deg, #ff6b6b, #ffa726);
+            border: none;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            font-size: 10px;
+            flex-shrink: 0;
+        }
+
+        .mini-play-button:hover {
+            transform: scale(1.1);
+        }
+
+        .mini-play-button::before {
+            content: '▶';
+        }
+
+        .featured-interview {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        .featured-image {
+            width: 100%;
+            height: 120px;
+            background-image: url('https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1683682166/Local%20People/handley_zwitnb.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 6px;
+            margin-bottom: 0.8rem;
+        }
+
+        .featured-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.3rem;
+            color: #f0fdfa;
+        }
+
+        .featured-desc {
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+            color: #a7f3d0;
+        }
+
+        .play-button {
+            background: linear-gradient(135deg, #ff6b6b, #ffa726);
+            border: none;
+            border-radius: 15px;
+            padding: 0.4rem 0.8rem;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: all 0.3s ease;
+        }
+
+        .play-button:hover {
+            transform: scale(1.05);
+        }
+
+        .quick-news {
+            list-style: none;
+            padding: 0;
+        }
+
+        .quick-news li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.85rem;
+            color: #a7f3d0;
+        }
+
+        .quick-news li:last-child {
+            border-bottom: none;
+        }
+
+        .news-time {
+            font-weight: 600;
+            font-size: 0.75rem;
+            color: #ff6b6b;
+        }
+
+        .candidate-item {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            padding: 0.6rem;
+            margin-bottom: 0.6rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .candidate-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .candidate-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            flex-shrink: 0;
+        }
+
+        .candidate-name {
+            font-weight: 600;
+            font-size: 0.85rem;
+            flex: 1;
+            color: #f0fdfa;
+        }
+
+        .candidate-role {
+            font-size: 0.75rem;
+            color: #a7f3d0;
+        }
+
+        @media (max-width: 1200px) {
+            .top-content {
+                grid-template-columns: 1fr 1fr;
+                height: auto;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .theme-buttons {
+                gap: 0.3rem;
+            }
+            
+            .theme-btn {
+                font-size: 0.7rem;
+                padding: 0.4rem 0.7rem;
+            }
+            
+            .nav-menu {
+                display: none;
+            }
+            
+            .top-content {
+                grid-template-columns: 1fr;
+                gap: 0.8rem;
+                padding: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="theme-selector">
+        <div class="theme-buttons">
+            <button class="theme-btn coral-reef active" data-theme="coral-reef">Coral Reef</button>
+            <button class="theme-btn tropical-sunset" data-theme="tropical-sunset">Tropical Sunset</button>
+            <button class="theme-btn palm-grove" data-theme="palm-grove">Palm Grove</button>
+            <button class="theme-btn ocean-breeze" data-theme="ocean-breeze">Ocean Breeze</button>
+            <button class="theme-btn hibiscus-garden" data-theme="hibiscus-garden">Hibiscus Garden</button>
+            <button class="theme-btn coconut-beach" data-theme="coconut-beach">Coconut Beach</button>
+            <button class="theme-btn rainforest-canopy" data-theme="rainforest-canopy">Rainforest Canopy</button>
+            <button class="theme-btn island-spice" data-theme="island-spice">Island Spice</button>
+            <button class="theme-btn lagoon-dream" data-theme="lagoon-dream">Lagoon Dream</button>
+            <button class="theme-btn tropical-fruit" data-theme="tropical-fruit">Tropical Fruit</button>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header class="header">
+            <div class="nav-container">
+                <div class="logo-section">
+                    <div class="logo">
+                        <img src="https://images.ctfassets.net/muwn01agnrp5/1ObAJOuazrKi5cDvhmF9Nb/1dc23f260d5d6977fb2075f8dc2c7f5e/Waiheke-Radio-logo-transparent.png" alt="Waiheke Radio">
+                    </div>
+                    <div class="site-info">
+                        <h1>Waiheke Radio</h1>
+                        <div class="frequencies">88.3 & 107.4FM</div>
+                        <div class="maori">Te Reo Irirangi o Waiheke</div>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="#">Live</a></li>
+                        <li><a href="#">Podcasts</a></li>
+                        <li><a href="#">Shows</a></li>
+                        <li><a href="#">Election</a></li>
+                        <li><a href="#">Schedule</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="breaking-banner">
+            <div class="breaking-content">
+                <h2>Waiheke Local Board Election 2025</h2>
+                <p>Live coverage, candidate interviews & debate Monday 8 September 7-8.30pm at Artworks Theatre</p>
+            </div>
+        </div>
+
+        <div class="top-content">
+            <div class="column">
+                <div class="stream-item">
+                    <h3 class="stream-title">Live Radio Stream</h3>
+                    <audio controls src="https://s47.myradiostream.com:9962/listen"></audio>
+                    <div class="now-playing">
+                        <h4>Now Playing</h4>
+                        <div><strong>Coolio feat. L.V.</strong></div>
+                        <div>Gangsta's Paradise</div>
+                    </div>
+                </div>
+                <div class="stream-item">
+                    <h3 class="stream-title">100% Pure Waiheke</h3>
+                    <audio controls src="https://s27.myradiostream.com:17343/stream"></audio>
+                    <div class="now-playing">
+                        <h4>Playing</h4>
+                        <div><strong>Nick Fraser</strong></div>
+                        <div>Live Waiheke Library May 2018</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="section-title">Latest News</h3>
+                    <ul class="quick-news">
+                        <li><span class="news-time">15m ago</span><br>Election debate setup begins at Artworks Theatre</li>
+                        <li><span class="news-time">1h ago</span><br>Ferry delays due to weather conditions</li>
+                        <li><span class="news-time">2h ago</span><br>Community board meeting tonight 7pm</li>
+                        <li><span class="news-time">3h ago</span><br>Local farmers market opens early Saturday</li>
+                        <li><span class="news-time">4h ago</span><br>Road works on Ocean View Road continues</li>
+                        <li><span class="news-time">5h ago</span><br>New art exhibition opens at Artworks</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="column">
+                <h3 class="section-title">Today - Tuesday Schedule</h3>
+                <div class="schedule-item">
+                    <div class="schedule-time">NOW</div>
+                    <div class="show-info">
+                        <div class="show-name">Music Mix</div>
+                        <div class="show-host">Automated playlist</div>
+                    </div>
+                    <button class="mini-play-button"></button>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">1-2PM</div>
+                    <div class="show-info">
+                        <div class="show-name">100% Pure Waiheke Daily Dose</div>
+                        <div class="show-host">Chris Walker - All Waiheke music</div>
+                    </div>
+                    <button class="mini-play-button"></button>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">5-7PM</div>
+                    <div class="show-info">
+                        <div class="show-name">Sandi's Stereo Tours</div>
+                        <div class="show-host">Sandi Bezzant</div>
+                    </div>
+                    <button class="mini-play-button"></button>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">7-8PM</div>
+                    <div class="show-info">
+                        <div class="show-name">Island Life</div>
+                        <div class="show-host">Weekly magazine show</div>
+                    </div>
+                    <button class="mini-play-button"></button>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">8-9PM</div>
+                    <div class="show-info">
+                        <div class="show-name">The Navigator</div>
+                        <div class="show-host">Martini Gotje</div>
+                    </div>
+                    <button class="mini-play-button"></button>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">9-10PM</div>
+                    <div class="show-info">
+                        <div class="show-name">Metrognome</div>
+                        <div class="show-host">Electronic music journey</div>
+                    </div>
+                    <button class="mini-play-button"></button>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">10-11PM</div>
+                    <div class="show-info">
+                        <div class="show-name">Can You Dig It?!</div>
+                        <div class="show-host">Vinyl deep cuts & rarities</div>
+                    </div>
+                    <button class="mini-play-button"></button>
+                </div>
+            </div>
+
+            <div class="column">
+                <div>
+                    <h3 class="section-title">Featured Content</h3>
+                    <div class="featured-interview">
+                        <div class="featured-image"></div>
+                        <div class="featured-title">Cath Handley: Outgoing Local Board Chair</div>
+                        <div class="featured-desc">Reflecting on her 9 years serving the Waiheke community as Local Board Chair. Not seeking re-election in 2025.</div>
+                        <button class="play-button">Listen Now - 18min</button>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="section-title">Election Candidates</h3>
+                    <div class="candidate-item">
+                        <div class="candidate-avatar" style="background-image: url('https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1754813585/Josier_Rainer_muhlkz.jpg');"></div>
+                        <button class="mini-play-button"></button>
+                        <div class="show-info">
+                            <div class="candidate-name">Josie Heap Rainer</div>
+                            <div class="candidate-role">Local Board candidate</div>
+                        </div>
+                    </div>
+                    <div class="candidate-item">
+                        <div class="candidate-avatar" style="background-image: url('https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1756440576/Local%20People/local%20board%20election%202025/Genevieve-Sage-crop_edtahs.jpg');"></div>
+                        <button class="mini-play-button"></button>
+                        <div class="show-info">
+                            <div class="candidate-name">Genevieve Sage</div>
+                            <div class="candidate-role">Waitematā/Gulf Islands Council</div>
+                        </div>
+                    </div>
+                    <div class="candidate-item">
+                        <div class="candidate-avatar" style="background-image: url('https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1755931956/Local%20People/local%20board%20election%202025/grant-high-res_dfl0do.jpg');"></div>
+                        <button class="mini-play-button"></button>
+                        <div class="show-info">
+                            <div class="candidate-name">Grant Crawford</div>
+                            <div class="candidate-role">Local Board candidate</div>
+                        </div>
+                    </div>
+                    <div class="candidate-item">
+                        <div class="candidate-avatar" style="background-image: url('https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1754899534/Local%20People/local%20board%20election%202025/wayne-mcintosh_yobftt.jpg');"></div>
+                        <button class="mini-play-button"></button>
+                        <div class="show-info">
+                            <div class="candidate-name">Wayne McIntosh</div>
+                            <div class="candidate-role">Local Board candidate</div>
+                        </div>
+                    </div>
+                    <div class="candidate-item">
+                        <div class="candidate-avatar" style="background-image: url('https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1756018827/Local%20People/local%20board%20election%202025/Kerrin2_pe0jws.jpg');"></div>
+                        <button class="mini-play-button"></button>
+                        <div class="show-info">
+                            <div class="candidate-name">Kerrin Leoni</div>
+                            <div class="candidate-role">Mayoral candidate</div>
+                        </div>
+                    </div>
+                    <div class="candidate-item">
+                        <div class="candidate-avatar" style="background-image: url('https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1754813197/Xan_plyr4s.jpg');"></div>
+                        <button class="mini-play-button"></button>
+                        <div class="show-info">
+                            <div class="candidate-name">Xan Hamilton</div>
+                            <div class="candidate-role">Local Board candidate</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="section-title">Recent Podcasts</h3>
+                    <ul class="quick-news">
+                        <li><span class="news-time">Today</span><br>Sunday Sessions - Alternative Rock Mix</li>
+                        <li><span class="news-time">Yesterday</span><br>Counting the Beat - Local Artists Special</li>
+                        <li><span class="news-time">Monday</span><br>Coconut Wireless - Island News Roundup</li>
+                        <li><span class="news-time">Sunday</span><br>High Impact Insensitivity Radio Show</li>
+                        <li><span class="news-time">Saturday</span><br>Just Kidding - Comedy Hour with Locals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Theme data
+        const themes = {
+            'coral-reef': {
+                primary: '#ff6b6b',
+                secondary: '#ffa726',
+                accent: '#a7f3d0',
+                text: '#f0fdfa',
+                background: 'linear-gradient(rgba(13, 79, 92, 0.7), rgba(45, 138, 143, 0.6)), url("https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80")'
+            },
+            'tropical-sunset': {
+                primary: '#ffc107',
+                secondary: '#ff7043',
+                accent: '#ffecb3',
+                text: '#fff5f0',
+                background: 'linear-gradient(rgba(45, 27, 105, 0.8), rgba(123, 45, 58, 0.7)), url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80")'
+            },
+            'palm-grove': {
+                primary: '#84cc16',
+                secondary: '#65a30d',
+                accent: '#d9f99d',
+                text: '#fef3c7',
+                background: 'linear-gradient(rgba(45, 80, 22, 0.75), rgba(77, 124, 15, 0.65)), url("https://images.unsplash.com/photo-1520637836862-4d197d17c38a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80")'
+            },
+            'ocean-breeze': {
+                primary: '#0ea5e9',
+                secondary: '#06b6d4',
+                accent: '#bae6fd',
+                text: '#f8fafc',
+                background: 'linear-gradient(rgba(15, 118, 110, 0.7), rgba(14, 165, 233, 0.6)), url("https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80")'
+            },
+            'hibiscus-garden': {
+                primary: '#ec4899',
+                secondary: '#d946ef',
+                accent: '#f9a8d4',
+                text: '#fdf2f8',
+                background: 'linear-gradient(rgba(124, 45, 18, 0.8), rgba(190, 24, 93, 0.7)), url("https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80")'
+            },
+            'coconut-beach': {
+                primary: '#d2691e',
+                secondary: '#6ee7b7',
+                accent: '#fef3c7',
+                text: '#fffbeb',
+                background: 'linear-gradient(rgba(120, 53, 15, 0.75), rgba(161, 98, 7, 0.65)), url("https://images.unsplash.com/photo-1473116763249-2faaef81ccda?ixlib=rb-4.0.3&auto=format&fit=crop&w=2096&q=80")'
+            },
+            'rainforest-canopy': {
+                primary: '#22c55e',
+                secondary: '#f59e0b',
+                accent: '#bbf7d0',
+                text: '#f7fee7',
+                background: 'linear-gradient(rgba(26, 46, 5, 0.8), rgba(77, 124, 15, 0.7)), url("https://images.unsplash.com/photo-1544896478-d5c7be6e5e5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80")'
+            },
+            'island-spice': {
+                primary: '#b91c1c',
+                secondary: '#fb923c',
+                accent: '#fecaca',
+                text: '#fef2f2',
+                background: 'linear-gradient(rgba(127, 29, 29, 0.8), rgba(220, 38, 38, 0.7)), url("https://images.unsplash.com/photo-1539627831859-a911cf04d3cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80")'
+            },
+            'lagoon-dream': {
+                primary: '#06b6d4',
+                secondary: '#a78bfa',
+                accent: '#bae6fd',
+                text: '#f0f9ff',
+                background: 'linear-gradient(rgba(22, 78, 99, 0.75), rgba(14, 165, 233, 0.65)), url("https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80")'
+            },
+            'tropical-fruit': {
+                primary: '#f97316',
+                secondary: '#65a30d',
+                accent: '#fed7aa',
+                text: '#fff7ed',
+                background: 'linear-gradient(rgba(154, 52, 18, 0.8), rgba(234, 88, 12, 0.7)), url("https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80")'
+            }
+        };
+
+        // Theme switching functionality
+        const themeButtons = document.querySelectorAll('.theme-btn');
+        
+        function applyTheme(themeName) {
+            const theme = themes[themeName];
+            const body = document.body;
+            
+            // Apply background image
+            body.style.background = theme.background + ' center/cover fixed';
+            body.style.color = theme.text;
+            
+            // Update gradient elements
+            const gradients = document.querySelectorAll('.breaking-content, .schedule-time, .mini-play-button, .play-button');
+            gradients.forEach(el => {
+                el.style.background = `linear-gradient(135deg, ${theme.primary}, ${theme.secondary})`;
+            });
+            
+            // Update text colors
+            const titles = document.querySelectorAll('.stream-title, .section-title, .site-info h1, .site-info .frequencies, .news-time');
+            titles.forEach(el => {
+                el.style.color = theme.primary;
+            });
+            
+            const accents = document.querySelectorAll('.site-info .maori, .show-host, .featured-desc, .quick-news, .candidate-role');
+            accents.forEach(el => {
+                el.style.color = theme.accent;
+            });
+            
+            const nowPlayingHeaders = document.querySelectorAll('.now-playing h4');
+            nowPlayingHeaders.forEach(el => {
+                el.style.color = theme.secondary;
+            });
+        }
+
+        themeButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                themeButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                // Apply theme
+                const themeName = button.dataset.theme;
+                applyTheme(themeName);
+            });
+        });
+
+        // Initialize with coral reef theme
+        applyTheme('coral-reef');
+    </script>
+</body>
+</html>

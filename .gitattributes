@@ -35,3 +35,15 @@ yarn.lock text eol=lf
 *.woff2 binary
 *.ttf binary
 *.eot binary
+
+# VS Code/Visual Studio files - no line ending conversion
+.vs/** -text
+.vscode/** -text
+
+# Generated/dist files - no line ending conversion  
+dist/** -text
+migration-output/** -text
+
+# Development scripts - allow line ending conversion but mark as text
+migrations/** text eol=lf
+scripts/** text eol=lf

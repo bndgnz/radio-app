@@ -1,0 +1,40 @@
+// Color Variables
+$primary-color: #bf1a2c;
+$secondary-color: #52c5d8;
+$menu-text-color: #a7f3d0;
+$menu-hover-color: #ff6b6b;
+$menu-hover-bg: rgba(255, 107, 107, 0.1);
+
+// Layout Variables
+$header-height: 120px;
+$container-max-width: 1600px;
+$container-padding: 1rem;
+$mega-menu-max-width: 1600px;
+
+// Breakpoints
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Typography
+$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-size-base: 1rem;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// Transitions
+$transition-base: all 0.3s ease;
+$transition-fast: all 0.2s ease;
+
+// Z-index layers
+$zindex-dropdown: 1000;
+$zindex-sticky: 1020;
+$zindex-fixed: 1030;
+$zindex-modal-backdrop: 1040;
+$zindex-modal: 1050;
+$zindex-popover: 1060;
+$zindex-tooltip: 1070;
+$zindex-mega-menu: 999999;

@@ -1,0 +1,42 @@
+// Main SCSS Entry Point
+// This file compiles all styles into a single CSS file
+
+// Variables and Mixins
+@import './scss/variables';
+@import './scss/mixins';
+
+// Base styles
+@import './scss/base/reset';
+@import './scss/base/typography';
+
+// Vendor styles
+@import './bootstrap.min.css';
+@import './animate.min.css';
+@import './flaticon.css';
+@import './atom-one-dark.css';
+
+// Layout styles
+@import './scss/layout/header';
+@import './scss/layout/footer';
+@import './scss/layout/navbar';
+@import './scss/layout/page-design';
+
+// Component styles
+@import './scss/components/buttons';
+@import './scss/components/cards';
+@import './scss/components/forms';
+@import './scss/components/header-components';
+
+// Theme styles
+@import './scss/themes/default';
+@import './globalTheme.css';
+@import './theme-page-layout.css';
+
+// Page specific styles
+@import './scss/pages/home';
+
+// Utility classes
+@import './scss/utilities/helpers';
+
+// Global overrides (must be last)
+@import './globals.css';

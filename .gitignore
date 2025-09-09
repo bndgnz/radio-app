@@ -37,3 +37,37 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# Claude Code settings
+.claude/settings.local.json
+
+# VS Code/Visual Studio files
+.vs/
+.vscode/
+
+# Development/migration files
+dist/
+migrations/
+migration-output/
+scripts/
+*.js.map
+nul
+temp.html
+page.html
+
+# Debug and test files
+debug-*.js
+test-*.js
+analyze-*.js
+check-*.js
+query-*.js
+fix-*.js
+create-*.js
+enhanced-*.js
+network-*.js
+contentful-migration.config.js
+
+# Sanity Studio
+.sanity/
+sanity/
+radio-sanity/
+

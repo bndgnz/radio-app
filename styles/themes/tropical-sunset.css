@@ -1,0 +1,17 @@
+/* Tropical Sunset Theme */
+.tropical-sunset-theme {
+  --theme-primary: #ffc107;
+  --theme-secondary: #ff7043;
+  --theme-accent: #ffecb3;
+  --theme-text: #fff5f0;
+  --theme-background: linear-gradient(rgba(45, 27, 105, 0.8), rgba(123, 45, 58, 0.7)), url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80");
+}
+
+/* Tropical Sunset specific button styles */
+.tropical-sunset-theme .theme-button-gradient {
+  background: linear-gradient(45deg, #ffc107, #ff7043);
+}
+
+.tropical-sunset-theme .theme-selector-button {
+  background: linear-gradient(45deg, #ffc107, #ff7043);
+}

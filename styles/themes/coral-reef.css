@@ -1,0 +1,17 @@
+/* Coral Reef Theme */
+.coral-reef-theme {
+  --theme-primary: #ff6b6b;
+  --theme-secondary: #ffa726;
+  --theme-accent: #a7f3d0;
+  --theme-text: #f0fdfa;
+  --theme-background: linear-gradient(rgba(13, 79, 92, 0.7), rgba(45, 138, 143, 0.6)), url("https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80");
+}
+
+/* Coral Reef specific button styles */
+.coral-reef-theme .theme-button-gradient {
+  background: linear-gradient(45deg, #ff6b6b, #ffa726);
+}
+
+.coral-reef-theme .theme-selector-button {
+  background: linear-gradient(45deg, #ff6b6b, #ffa726);
+}

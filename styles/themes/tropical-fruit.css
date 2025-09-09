@@ -1,0 +1,17 @@
+/* Tropical Fruit Theme */
+.tropical-fruit-theme {
+  --theme-primary: #f97316;
+  --theme-secondary: #65a30d;
+  --theme-accent: #fed7aa;
+  --theme-text: #fff7ed;
+  --theme-background: linear-gradient(rgba(154, 52, 18, 0.8), rgba(234, 88, 12, 0.7)), url("https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80");
+}
+
+/* Tropical Fruit specific button styles */
+.tropical-fruit-theme .theme-button-gradient {
+  background: linear-gradient(45deg, #f97316, #65a30d);
+}
+
+.tropical-fruit-theme .theme-selector-button {
+  background: linear-gradient(45deg, #f97316, #65a30d);
+}
