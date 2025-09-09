@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:spotify="http://www.spotify.com/ns/rss"  xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:psc="http://podlove.org/simple-chapters/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+    <channel>
+<spotify:countryOfOrigin>NZ-AUK</spotify:countryOfOrigin>
+<itunes:owner>
+<itunes:name>Waiheke Radio</itunes:name>
+<itunes:email>admin@waihekeradio.org.nz</itunes:email>
+</itunes:owner>
+<itunes:explicit>false</itunes:explicit>
+<language>en</language>
+<itunes:image href="https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707375027/RSS%20Feeds/Can_You_Dig_it_aa5h6z.jpg"/>
+<itunes:category text="Arts" />
+<itunes:type>episodic</itunes:type>
+<itunes:keywords>Waiheke, Can You Dig It?! Waiheke Island Auckland New Zealand Community Radio station arts music interviews local content artists Artworks Oneroa culture</itunes:keywords>
+<itunes:author>Waiheke Radio</itunes:author>
+
+<atom:link href="http://localhost:3000/can-you-dig-it.xml" type="application/rss+xml"  rel="self" />
+        <title>Waiheke, Can You Dig It?!</title>
+        <link>http://localhost:3000</link>
+        <description>Conversations about growing home produce on Waiheke Island</description>
+        <lastBuildDate>Sun, 18 Feb 2024 02:04:33 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Waiheke, Can You Dig It?!</title>
+            <url>https://res.cloudinary.com/waiheke-radio/image/upload/f_auto/q_auto/v1707375027/RSS%20Feeds/Can_You_Dig_it_aa5h6z.jpg</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2024, Waiheke Radio</copyright>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Can You Dig It?! - Episode 6: Compost]]></title>
+            <link>http://localhost:3000/podcast/can-you-dig-it-episode-6-compost</link>
+            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-6-compost</guid>
+            <pubDate>Fri, 16 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kayleigh Appleton and Mike Fogarty from the Waiheke Resources Trust share tips for creating amazing compost at home.]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-6-Compost-16-02-2024.mp3" length="4123456" type="audio/mpeg"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Can You Dig It?! - Episode 5: Loloma Andrews]]></title>
+            <link>http://localhost:3000/podcast/can-you-dig-it-episode-5-loloma-andrews</link>
+            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-5-loloma-andrews</guid>
+            <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris walker talks to Loloma Andrews about public orchards and her home gardening.
+![Orchard Bee](//images.ctfassets.net/muwn01agnrp5/2460ggpCbxnnSmSNpnpnW2/b6188f690f3eaf85e0553e7e2aa231a1/OrchardBee2.jpg)]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-5-Loloma-Andrews-08-02-2024.mp3" length="4123456" type="audio/mpeg"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Can You Dig It?! - Episode 4: Eddie Welsh  and  The Reach Out Garden]]></title>
+            <link>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</link>
+            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-4-eddie-welsh-and-the-reach-out-garden</guid>
+            <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks to Eddie Welsh from Starter Plants who shares some tips on what to plant at this time of year and how to care for what you sow in this sweltering heat. Then he talks with Teresa Quinn from [Project Reach Out](https://reachoutwaiheke.org.nz/) who are growing produce to support mental health and social connection on Waiheke.
+![Teresa Stall](//images.ctfassets.net/muwn01agnrp5/3ySEmPV5f5BZDDtynelujO/37abb9fabf719ed5e010fb4149ee7fa5/Teresa.jpg)![Cabbages](//images.ctfassets.net/m...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-4-01-02-2024.mp3" length="4123456" type="audio/mpeg"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Can You Dig It?! - Episode 3: Penny Holmes]]></title>
+            <link>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</link>
+            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-3-penny-holmes</guid>
+            <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Penny Holmes is an enthusiastic home and community gardener with invovlement in the [Home Grown Waiheke](https://www.homegrownwaiheke.nz/) Trust and Ostend Community Garden.![Ostend Community Garden](//images.ctfassets.net/muwn01agnrp5/6DNC0rAmqUf11LMu4HBjeE/e181a4b60f57589a774d8c7acaf41de8/20240118_115651.jpg)![Community Garden 1](//images.ctfassets.net/muwn01agnrp5/58YH6yngHK4qnUPUiEdmOt/97c2d2aba5948bc5a7e91dcdeafa7c77/20240118_115950.jpg)![Peaches](//images.ctfassets.net/muwn01agnrp5/4lz2hl...]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-Episode-3-Penny-Holmes-25-01-2024.mp3" length="4123456" type="audio/mpeg"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Can You Dig It?! - Episode 2: 18-01-2024]]></title>
+            <link>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</link>
+            <guid>http://localhost:3000/podcast/can-you-dig-it-episode-2-18-01-2024</guid>
+            <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[This episode's guest is Waiheke home garderner Holly Brown. She is growing incredible vegetable crops and flowers. Check out her Instagram account for beautiful photos of her garden and produce - [https://www.instagram.com/hollyamberbrown/](https://www.instagram.com/hollyamberbrown/)
+![HB1](//images.ctfassets.net/muwn01agnrp5/3giJPeyGmM888SAvcyYS4l/f8236218638d32991420589ef0805d85/HB1.jpg)![HB2](//images.ctfassets.net/muwn01agnrp5/69SIlAPxYecp0InPZUupp7/554acb8919ca0c5289e786d5680a9e07/HB2.jpg)]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/can-you-dig-it-episode-two-holly-brown-18-01-2024.mp3" length="4123456" type="audio/mpeg"/>
+        </item>
+        <item>
+<itunes:author>Waiheke Radio</itunes:author>
+            <title><![CDATA[Can You Dig It?! Episode 1: 11 Jan 2024]]></title>
+            <link>http://localhost:3000/podcast/episode-1-11-jan-2024</link>
+            <guid>http://localhost:3000/podcast/episode-1-11-jan-2024</guid>
+            <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chris Walker talks with Eddie Welsh, who sells vege seedlings each Saturday at Ostand market, about what to plant in your home garden. ]]></description>
+            <enclosure url="https://wr-recordings.s3.ap-southeast-2.amazonaws.com/podcasts/can-you-dig-it/Can-You-Dig-It-11-01-2024-Eddie-Starter-Plants.mp3" length="4123456" type="audio/mpeg"/>
+        </item>
+    </channel>
+</rss>

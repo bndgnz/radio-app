@@ -44,30 +44,16 @@ next-env.d.ts
 .vs/
 .vscode/
 
-# Development/migration files
-dist/
-migrations/
-migration-output/
-scripts/
+# Development cache and temp files (keep source files)
+node_modules/.sanity/
 *.js.map
 nul
 temp.html
 page.html
 
-# Debug and test files
-debug-*.js
-test-*.js
-analyze-*.js
-check-*.js
-query-*.js
-fix-*.js
-create-*.js
-enhanced-*.js
-network-*.js
-contentful-migration.config.js
+# Only exclude generated/temporary migration files
+migration-output/
 
-# Sanity Studio
+# Sanity cache (keep source sanity/ folder)
 .sanity/
-sanity/
-radio-sanity/
 
