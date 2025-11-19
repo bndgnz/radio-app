@@ -4,7 +4,7 @@ function Seo(props: any) {
     <div>
       <Head>
  
-        <title key="title">{props.title} | Waiheke Island Radio</title>
+        <title key="title">{`${props.title} | Waiheke Island Radio`}</title>
         <meta
           key="og:description"
           property="og:description"
