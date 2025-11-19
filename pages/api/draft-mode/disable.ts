@@ -5,8 +5,8 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     return res.status(405).json({ message: 'Method not allowed' })
   }
 
-  // Clear the preview mode cookies
-  res.setDraftMode({ enable: false })
+  // Clear the preview mode cookies (Next.js 12 API)
+  res.clearPreviewData()
 
   // Redirect to the current page or homepage
   const referer = req.headers.referer || '/'

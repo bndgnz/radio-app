@@ -33,8 +33,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       return res.status(404).json({ message: 'Document not found' })
     }
 
-    // Enable Draft Mode by setting the cookies
-    res.setDraftMode({ enable: true })
+    // Enable Draft Mode by setting the cookies (Next.js 12 API)
+    res.setPreviewData({})
 
     // Redirect to the path from the fetched document
     const redirectPath = type === 'landingPage' 
