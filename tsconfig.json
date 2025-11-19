@@ -66,7 +66,8 @@
     "node_modules",
     ".next",
     "out",
-    "_next"
+    "_next",
+    "dist"
   ],
   "include": [
     "next-env.d.ts",
