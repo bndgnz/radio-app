@@ -52,7 +52,7 @@
     "sass": "^1.56.1",
     "styled-components": "^6.1.19",
     "swr": "^2.0.3",
-    "typescript": "4.9.3",
+    "typescript": "^5.3.3",
     "vercel": "^45.0.9"
   },
   "devDependencies": {
