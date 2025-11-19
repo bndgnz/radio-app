@@ -368,7 +368,7 @@ export const getStaticProps: GetStaticProps<Props> = async (ctx) => {
       props: {
         themePageData: themePageData || null,
         menuData: menuData || null,
-        draftMode,
+        draftMode: preview,
       },
     };
   } catch (error) {
@@ -377,7 +377,7 @@ export const getStaticProps: GetStaticProps<Props> = async (ctx) => {
       props: {
         themePageData: null,
         menuData: null,
-        draftMode,
+        draftMode: preview,
       },
     };
   }
