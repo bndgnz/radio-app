@@ -353,12 +353,12 @@ export default function ThemePage({ themePageData, menuData, draftMode }: Props)
 }
 
 export const getStaticProps: GetStaticProps<Props> = async (ctx) => {
-  const { draftMode = false } = ctx;
+  const { preview = false } = ctx; // Next.js 12 uses 'preview' instead of 'draftMode'
   
   try {
     const [themePageData, menuData] = await Promise.all([
-      ContentService.instance.getLandingPageBySlug('theme', draftMode),
-      ContentService.instance.getMenuData(draftMode)
+      ContentService.instance.getLandingPageBySlug('theme', preview),
+      ContentService.instance.getMenuData(preview)
     ]);
     
     // Log the theme page data to see what we get from Sanity
