@@ -202,7 +202,7 @@ function ShowsOnTodaySanity({ props, scheduleId, component, id }: ShowsOnTodayPr
   };
 
   if (loading) {
-    return <div className="today-collection">Loading today's shows...</div>;
+    return <div className="today-collection">Loading today&apos;s shows...</div>;
   }
 
   if (!shows.length) {
