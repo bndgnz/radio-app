@@ -47,7 +47,7 @@
     "react-tabs": "^6.0.1",
     "sass": "^1.56.1",
     "swr": "^2.0.3",
-    "typescript": "4.9.3",
+    "typescript": "^5.3.3",
     "vercel": "^45.0.9"
   },
   "devDependencies": {
