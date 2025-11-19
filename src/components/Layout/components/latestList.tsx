@@ -658,7 +658,9 @@ function Message(props: any) {
   function FeaturedRight() {
     const [playingIndex, setPlayingIndex] = useState<number | null>(null);
     const audioRefs = useRef<{ [key: number]: HTMLAudioElement | null }>({});
-    const culledList = filteredPodcastList.slice(5, 9);
+    // Show 5 items for desktop, 4 for tablet and mobile
+    const culledListDesktop = filteredPodcastList.slice(5, 10); // 5 items for desktop
+    const culledListTabletMobile = filteredPodcastList.slice(5, 9); // 4 items for tablet/mobile
 
     const handlePlayPause = (index: number, audioUrl: string) => {
       const audio = audioRefs.current[index];
@@ -682,7 +684,8 @@ function Message(props: any) {
       }
     };
 
-    const listOfItems = culledList.map((podcast, idx) => {
+    const renderItems = (itemList: any[], classModifier: string = '') => {
+      return itemList.map((podcast, idx) => {
       return (
         <div className="row featured-right-row" key={idx}>
           <div className="featured-right-title" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -790,8 +793,20 @@ function Message(props: any) {
         </div>
       );
     });
+    };
 
-    return <div> {listOfItems}</div>;
+    return (
+      <div>
+        {/* Desktop version - show 5 items */}
+        <div className="d-none d-lg-block">
+          {renderItems(culledListDesktop)}
+        </div>
+        {/* Tablet and Mobile version - show 4 items */}
+        <div className="d-lg-none">
+          {renderItems(culledListTabletMobile)}
+        </div>
+      </div>
+    );
   }
 
   function Featured() {
@@ -964,7 +979,7 @@ function Message(props: any) {
     });
 
     return (
-      <div className="featured-podcasts-overflow">
+      <>
         {(shouldPaginate || shouldSort) && (
           <>
             <div style={{
@@ -1045,7 +1060,7 @@ function Message(props: any) {
             )}
           </>
         )}
-      </div>
+      </>
     );
   }
   return (
