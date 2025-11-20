@@ -46,7 +46,7 @@ export default defineType({
         }
       ],
       components: {
-        input: BootstrapLayoutEditor
+        input: BootstrapLayoutEditor as any
       },
       initialValue: {
         rows: []
@@ -86,7 +86,7 @@ export default defineType({
         }
       ],
       components: {
-        input: BootstrapLayoutEditor
+        input: BootstrapLayoutEditor as any
       },
       initialValue: {
         rows: []

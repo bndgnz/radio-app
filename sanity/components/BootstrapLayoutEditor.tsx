@@ -53,6 +53,7 @@ interface Column {
   xlSize?: number
   offset?: number
   components: Component[]
+  componentPlaceholder?: string
   cssClasses?: string
   backgroundColor?: string
   textAlign?: 'left' | 'center' | 'right'
@@ -153,12 +154,11 @@ const SortableItem = ({ component, onRemove, onComponentClick }: {
         </Text>
         
         {canNavigateToDataSource && (
-          <EyeOpenIcon 
+          <EyeOpenIcon
             style={{
               color: '#2196f3',
               fontSize: '10px',
             }}
-            title="Has datasource"
           />
         )}
       </Flex>
@@ -1122,7 +1122,7 @@ const BootstrapLayoutEditor = React.forwardRef((props: any, ref) => {
   const renderComponentModal = () => {
     if (!showModal) return null
 
-    const categories = [...new Set(componentTypes.map(c => c.category))]
+    const categories = Array.from(new Set(componentTypes.map(c => c.category)))
 
     return (
       <Dialog
@@ -1153,6 +1153,7 @@ const BootstrapLayoutEditor = React.forwardRef((props: any, ref) => {
                 <TabList space={2}>
                   <Tab
                     id="components-tab"
+                    aria-controls="components-panel"
                     selected={modalTab === 'components'}
                     onClick={() => setModalTab('components')}
                   >
@@ -1160,6 +1161,7 @@ const BootstrapLayoutEditor = React.forwardRef((props: any, ref) => {
                   </Tab>
                   <Tab
                     id="content-tab"
+                    aria-controls="content-panel"
                     selected={modalTab === 'content'}
                     onClick={() => setModalTab('content')}
                   >
@@ -1168,7 +1170,7 @@ const BootstrapLayoutEditor = React.forwardRef((props: any, ref) => {
                 </TabList>
 
                 <Box>
-              <TabPanel hidden={modalTab !== 'components'}>
+              <TabPanel id="components-panel" aria-labelledby="components-tab" hidden={modalTab !== 'components'}>
                 <Stack space={4}>
                   {categories.map(category => (
                     <Stack key={category} space={3}>
@@ -1185,7 +1187,7 @@ const BootstrapLayoutEditor = React.forwardRef((props: any, ref) => {
                               style={{ cursor: 'pointer' }}
                               onClick={() => component.value === 'search' ? selectComponent('content', 'searchBox') : selectComponent(component.value)}
                             >
-                              <Stack space={2} align="center">
+                              <Stack space={2}>
                                 <Text size={3}>{component.icon}</Text>
                                 <Text size={1} weight="medium" align="center">
                                   {component.title}
@@ -1202,12 +1204,12 @@ const BootstrapLayoutEditor = React.forwardRef((props: any, ref) => {
                 </Stack>
               </TabPanel>
 
-              <TabPanel hidden={modalTab !== 'content'}>
+              <TabPanel id="content-panel" aria-labelledby="content-tab" hidden={modalTab !== 'content'}>
                 <Stack space={4}>
                   <Text size={1} style={{ color: '#666' }}>
                     Select a Sanity content type to display in this column
                   </Text>
-                  {[...new Set(contentTypes.map(c => c.category))].map(category => (
+                  {Array.from(new Set(contentTypes.map(c => c.category))).map(category => (
                     <Stack key={category} space={3}>
                       <Text weight="bold" size={1}>{category}</Text>
                       <Grid columns={2} gap={3}>
@@ -1808,13 +1810,13 @@ const BootstrapLayoutEditor = React.forwardRef((props: any, ref) => {
         </TabList>
 
         <Box marginTop={3}>
-          <TabPanel id="layout-panel" hidden={activeTab !== 'layout'}>
+          <TabPanel id="layout-panel" aria-labelledby="layout" hidden={activeTab !== 'layout'}>
             {renderLayoutView()}
           </TabPanel>
-          <TabPanel id="design-panel" hidden={activeTab !== 'design'}>
+          <TabPanel id="design-panel" aria-labelledby="design" hidden={activeTab !== 'design'}>
             {renderDesignPanel()}
           </TabPanel>
-          <TabPanel id="column-panel" hidden={activeTab !== 'column'}>
+          <TabPanel id="column-panel" aria-labelledby="column" hidden={activeTab !== 'column'}>
             {renderColumnEditor()}
           </TabPanel>
         </Box>

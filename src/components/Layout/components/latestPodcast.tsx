@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { sanityClient } from '@/lib/sanity.client';
+import { sanityClient } from '@/src/lib/sanity.client';
 import groq from 'groq';
 import { sanitizeText, sanitizeHtmlAttribute } from '@/src/utils/textSanitizer';
 import styles from '@/styles/Theme.module.css';

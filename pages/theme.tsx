@@ -80,11 +80,10 @@ const themes = {
 
 interface Props {
   themePageData: any;
-  menuData: any;
   draftMode?: boolean;
 }
 
-export default function ThemePage({ themePageData, menuData, draftMode }: Props) {
+export default function ThemePage({ themePageData, draftMode }: Props) {
   const [activeTheme, setActiveTheme] = useState('coral-reef');
 
   // Use Sanity data when available
@@ -92,7 +91,7 @@ export default function ThemePage({ themePageData, menuData, draftMode }: Props)
   const backgroundImage = themePageData?.cloudinaryImage?.secure_url;
 
   // Log the props for debugging
-  console.log('Theme page props:', { themePageData, menuData });
+  console.log('Theme page props:', { themePageData });
 
   useEffect(() => {
     applyTheme(activeTheme);
@@ -356,10 +355,7 @@ export const getStaticProps: GetStaticProps<Props> = async (ctx) => {
   const { preview = false } = ctx; // Next.js 12 uses 'preview' instead of 'draftMode'
   
   try {
-    const [themePageData, menuData] = await Promise.all([
-      ContentService.instance.getLandingPageBySlug('theme', preview),
-      ContentService.instance.getMenuData(preview)
-    ]);
+    const themePageData = await ContentService.instance.getLandingPageBySlug('theme', preview);
     
     // Log the theme page data to see what we get from Sanity
     console.log('Theme page data from Sanity:', JSON.stringify(themePageData, null, 2));
@@ -367,7 +363,6 @@ export const getStaticProps: GetStaticProps<Props> = async (ctx) => {
     return {
       props: {
         themePageData: themePageData || null,
-        menuData: menuData || null,
         draftMode: preview,
       },
     };
@@ -376,7 +371,6 @@ export const getStaticProps: GetStaticProps<Props> = async (ctx) => {
     return {
       props: {
         themePageData: null,
-        menuData: null,
         draftMode: preview,
       },
     };

@@ -13,14 +13,17 @@ export const createAmazonPodcastsView = (S: StructureBuilder) => {
         ])
         .menuItems([
           S.orderingMenuItem({
+            name: 'dateDesc',
             title: 'Date: Newest First',
             by: [{ field: 'date', direction: 'desc' }]
           }),
           S.orderingMenuItem({
+            name: 'dateAsc',
             title: 'Date: Oldest First',
             by: [{ field: 'date', direction: 'asc' }]
           }),
           S.orderingMenuItem({
+            name: 'titleAsc',
             title: 'Title: A-Z',
             by: [{ field: 'title', direction: 'asc' }]
           })

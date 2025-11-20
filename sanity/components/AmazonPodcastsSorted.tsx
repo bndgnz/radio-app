@@ -242,7 +242,7 @@ export function AmazonPodcastsSorted() {
     setDeleting(true)
     try {
       // Delete each selected podcast
-      for (const id of selectedIds) {
+      for (const id of Array.from(selectedIds)) {
         await client.delete(id)
       }
       
@@ -337,9 +337,9 @@ export function AmazonPodcastsSorted() {
         {filteredPodcasts.length === 0 ? (
           <Card padding={4} tone="transparent">
             <Flex align="center" justify="center">
-              <Stack space={3} align="center">
+              <Stack space={3}>
                 <Text size={2} muted>
-                  {searchTerm 
+                  {searchTerm
                     ? `No podcasts found matching "${searchTerm}"`
                     : 'No podcasts found'}
                 </Text>

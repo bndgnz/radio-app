@@ -33,7 +33,6 @@ export default defineType({
       description: 'Select a Page Design template for this page',
       validation: (Rule) => Rule.required().error('You must select a Page Design'),
       initialValue: {
-        _type: 'reference',
         _ref: 'd911cdd6-4ca9-4612-a926-b335bf0d9b6d'
       },
       options: {
@@ -84,7 +83,7 @@ export default defineType({
         }
       ],
       components: {
-        input: BootstrapLayoutEditor
+        input: BootstrapLayoutEditor as any
       },
       initialValue: {
         rows: []

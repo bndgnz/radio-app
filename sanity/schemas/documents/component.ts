@@ -42,7 +42,7 @@ export default defineType({
         { name: 'desktop', type: 'number', initialValue: 4 }
       ],
       components: {
-        input: ResponsiveGridInput
+        input: ResponsiveGridInput as any
       },
       initialValue: {
         mobile: 12,

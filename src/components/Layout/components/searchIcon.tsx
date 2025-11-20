@@ -3,6 +3,8 @@ import { createPortal } from 'react-dom';
 import { FaSearch, FaTimes } from 'react-icons/fa';
 import Search from './search/search';
 
+const SearchComponent = Search as any;
+
 interface SearchIconProps {
   props?: any;
   item?: any;
@@ -67,7 +69,7 @@ const SearchIcon: React.FC<SearchIconProps> = ({ props, item, id }) => {
               <FaTimes />
             </button>
             <div>
-              <Search autoFocus={true} placeholder={placeholder} />
+              <SearchComponent autoFocus={true} placeholder={placeholder} />
             </div>
           </div>
         </div>,
